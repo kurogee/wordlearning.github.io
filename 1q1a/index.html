@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>英単語学習アプリ - ひたすら一問一答</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../pagestyle.css">
+        <style>
+            #meaning1 {
+                background-color: red;
+            }
+
+            #meaning2 {
+                background-color: blue;
+            }
+
+            #meaning3 {
+                background-color: green;
+            }
+
+            #meaning4 {
+                background-color: yellow;
+            }
+
+            #meaning1, #meaning2, #meaning3, #meaning4 {
+                width: 45%;
+                height: 150px;
+                margin: 5px;
+                font-size: 30px;
+                border-radius: 30px 0 0 30px;
+                color: white;
+                overflow: auto;
+
+                /* 横を隣のボタンと揃える */
+                vertical-align: top;
+            }
+
+            /* meaning1〜4のスクロールバーを丸みのあるおしゃれなものにする */
+            #meaning1::-webkit-scrollbar, #meaning2::-webkit-scrollbar, #meaning3::-webkit-scrollbar, #meaning4::-webkit-scrollbar {
+                width: 20px;
+            }
+
+            #meaning1::-webkit-scrollbar-thumb, #meaning2::-webkit-scrollbar-thumb, #meaning3::-webkit-scrollbar-thumb, #meaning4::-webkit-scrollbar-thumb {
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 10px;
+            }
+
+            #meaning1::-webkit-scrollbar-track, #meaning2::-webkit-scrollbar-track, #meaning3::-webkit-scrollbar-track, #meaning4::-webkit-scrollbar-track {
+                background-color: rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+            }
+
+            #popup_window {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 70%;
+                height: 50%;
+                background-color: white;
+                border: 1px solid black;
+                border-radius: 30px;
+                padding: 20px;
+                font-size: 30px;
+                overflow: auto;
+                z-index: 100;
+            }
+        </style>
+        <script src="../jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <div id="box">
+            <h2>ひたすら一問一答</h2>
+            <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a>
+            <p>
+                ひたすら英単語の意味を答えるだけのアプリです。
+            </p>
+        </div>
+        <hr>
+        <div id="box">
+            <h3>使用する単語のデータセット</h3>
+            <select id="use_dataset" style="width: 90%;">
+                <option value="verbs" path="verbs.json" selected>動詞データ(難易度：中学〜高校)</option>
+                <option value="adjectives" path="adjectives.json">形容詞データ(難易度：中学〜高校)</option>
+                <option value="nouns" path="noun(jhs).json">名詞データ(難易度：中学)</option>
+                <option value="nouns" path="noun(hs).json">名詞データ(難易度：高校)</option>
+                <option value="idioms" path="idioms.json">熟語データ</option>
+                <option value="url" path="URL">URL</option>
+            </select>
+            <hr>
+            <h2 id="word" class="box"></h2>
+            <div id="meanings">
+                <button data="1" class="button" id="meaning1"></button><span class="newline"></span>
+                <button data="2" class="button" id="meaning2"></button><br>
+                <button data="3" class="button" id="meaning3"></button><span class="newline"></span>
+                <button data="4" class="button" id="meaning4"></button><span class="newline"></span>
+            </div>
+            <label for="check_wrong_questions">間違えた問題を復習する：<input type="checkbox" id="check_wrong_questions"></label>
+
+            <script>
+                // 画面サイズがスマホのとき、ボタンを縦並びにして改行を入れる
+                if (window.innerWidth < 600) {
+                    $(".button").css("width", "90%");
+                    $(".newline").html("<br>");
+                } else {
+                    $(".button").css("width", "45%");
+                    $(".newline").html("");
+                }
+
+                window.addEventListener("resize", function() {
+                    if (window.innerWidth < 600) {
+                        $(".button").css("width", "90%");
+                        $(".newline").html("<br>");
+                    } else {
+                        $(".button").css("width", "45%");
+                        $(".newline").html("");
+                    }
+                });
+            </script>
+        </div>
+        <div class="box" id="popup_window" style="display: none;"></div>
+
+        <script>
+            let wrong_list = [];
+            let original_url = "";
+
+            async function parse_url_text_to_json(url) {
+                return new Promise((resolve) => {
+                    $.get(url, function(data) {
+                        /*
+                        そのtxtデータは以下のような形式であることが前提
+                        [word] ワード1
+                        [meaning] 意味1
+                        ([example] 例文1)
+                        ([example_meaning] 例文の意味1)
+                        [word] ワード2
+                        [meaning] 意味2
+                        ([example2] 例文2)
+                        ([example_meaning2] 例文の意味2)
+                        ...
+                        この形式をJSON形式に落とし込む
+                        ()内は省略可能
+                        */
+                        const lines = data.split("\n");
+                        let json_data = [];
+                        let word = "";
+                        let meaning = "";
+                        let example = "";
+                        let example_meaning = "";
+                        for (let i = 0; i < lines.length; i++) {
+                            if (lines[i].startsWith("[word]")) {
+                                word = lines[i].replace("[word] ", "");
+                            } else if (lines[i].startsWith("[meaning]")) {
+                                meaning = lines[i].replace("[meaning] ", "");
+                            } else if (lines[i].startsWith("[example]")) {
+                                example = lines[i].replace("[example] ", "");
+                            } else if (lines[i].startsWith("[example_meaning]")) {
+                                example_meaning = lines[i].replace("[example_meaning] ", "");
+                            } else if (lines[i] == "") {
+                                json_data.push({word: word, meaning: meaning, example: example, example_meaning: example_meaning});
+                                word = "";
+                                meaning = "";
+                                example = "";
+                                example_meaning = "";
+                            }
+                        }
+                        resolve(json_data);
+                    });
+                });
+            }
+            
+            async function question(path) {
+                let home_model_dict = "./model/";
+                let original_data;
+
+                return new Promise((resolve) => {
+                    if (path == "URL") {
+                        path = original_url;
+                        original_data = parse_url_text_to_json(path);
+                        home_model_dict = "";
+                    }
+
+                    let wrong_random;
+                    if (wrong_list.length > 0 && $("#check_wrong_questions").prop("checked")) {
+                        wrong_random = Math.floor(Math.random() * wrong_list.length);
+                        path = wrong_list[wrong_random][1];
+                    }
+
+                    $.getJSON(home_model_dict + path, function(data) {
+                        let correct_number = 0;
+
+                        // URLの場合、dataをoriginal_dataに変更
+                        if (path == original_url) {
+                            original_data.then((value) => {
+                                data = value;
+                            });
+                        }
+                        let word = data[Math.floor(Math.random() * data.length)];
+
+                        // wrong_list関係の処理
+                        if (wrong_list.length > 0 && $("#check_wrong_questions").prop("checked")) {
+                            const wrong_word = wrong_list[wrong_random];
+                            wrong_list = wrong_list.filter((value) => value[0] !== wrong_word[0]);
+                            word = {word: wrong_word[0], meaning: wrong_word[2]};
+                        }
+
+                        if (wrong_list.length <= 0) {
+                            $("#check_wrong_questions").prop("checked", false);
+                            $("#check_wrong_questions").prop("disabled", true);
+                        }
+
+                        console.log(word);
+                    
+                        let wrong_meanings = [];
+                        let copy_data = data.filter((value) => value.meaning !== word.meaning);
+                        for (let i = 0; i < 3; i++) {
+                            wrong_meanings.push(copy_data[Math.floor(Math.random() * copy_data.length)].meaning);
+                            copy_data = copy_data.filter((value) => value.meaning !== wrong_meanings[i]);
+                        }
+                        document.getElementById("word").textContent = word.word;
+                    
+                        const meanings = [word.meaning, ...wrong_meanings];
+                    
+                        for (let i = 0; i < 4; i++) {
+                            const index = Math.floor(Math.random() * meanings.length);
+                            document.getElementById(`meaning${i + 1}`).textContent = meanings[index];
+                        
+                            console.log(meanings[index]);
+                            if (meanings[index] == word.meaning) {
+                                correct_number = i + 1;
+                            }
+                            meanings.splice(index, 1);
+                        }
+                        resolve(correct_number);
+                    });
+                });
+            }
+
+            function start_questions(path) {
+                let _path = path;
+                let html_code;
+                // 非同期処理をPromiseでラップ
+                return new Promise(async (resolve) => {
+                    const correct_number = await question(_path);
+                    console.log(correct_number);
+                    $(".button").off("click").click(function() {
+                        if ($(this).attr("data") == correct_number) {
+                            html_code = `
+                            <h3>正解！</h3>
+                            <p>
+                                「${$("#word").text()}」の意味：<br>${$("#meaning" + correct_number).text()}   
+                            </p>
+                            `;
+                            // popup_windowに正解表示。windowまたは画面のクリックで消える
+                            $("#popup_window").html(html_code);
+                            $("#popup_window").show();
+                            console.log("window opened");
+                            $("#popup_window").click(function() {
+                                $("#popup_window").hide();
+                                console.log("window closed");
+                                $("#popup_window").off("click");
+                            });
+                        } else {
+                            html_code = `
+                            <h3>不正解！</h3>
+                            <p>
+                                「${$("#word").text()}」の意味：<br>${$("#meaning" + correct_number).text()}
+                            </p>
+                            `;
+                            // popup_windowに不正解表示。windowまたは画面のクリックで消える
+                            $("#popup_window").html(html_code);
+                            $("#popup_window").show();
+                            $("#popup_window").click(function() {
+                                $("#popup_window").hide();
+                                $("#popup_window").off("click");
+                            });
+
+                            wrong_list.map((value) => value[0]);
+                            if (!wrong_list.includes($("#word").text())) {
+                                wrong_list.push([$("#word").text(), _path, $("#meaning" + correct_number).text()]);
+                            }
+
+                            // もし間違えた問題があれば、復習するためのチェックボックスを有効にする
+                            if (wrong_list.length > 0) {
+                                $("#check_wrong_questions").prop("disabled", false);
+                            }
+                        }
+                        $(".button").scrollTop(0);
+
+                        resolve();
+                    });
+                });
+            }
+
+            async function start_program() {
+                await start_questions($("#use_dataset option:selected").attr("path"));
+                start_program();
+            }
+
+            $("#use_dataset").change(async function() {
+                if ($("#use_dataset option:selected").attr("path") == "URL") {
+                    original_url = prompt("URLを入力してください");
+                    if (original_url == null) {
+                        $("#use_dataset").val("verbs");
+                        return;
+                    }
+                }
+                await start_questions($("#use_dataset option:selected").attr("path"));
+                start_program();
+            });
+
+            onload = start_program;
+        </script>
+    </body>
+</html>
