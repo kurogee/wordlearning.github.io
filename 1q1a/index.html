@@ -264,12 +264,13 @@
                                 ${question_result[2] !== null ? "<br>例文の意味：" + question_result[2]: ""}
                             `;
                             // popup_windowに正解表示。windowまたは画面のクリックで消える
-                            $("#popup_window").html(html_code);
+                            $("#popup_window").html(html_code + "<br><br><small>ウィンドウをクリックで閉じる</small>");
+                            $("#popup_window").css("background-color", "darkseagreen");
                             $("#popup_window").show();
-                            console.log("window opened");
+
                             $("#popup_window").click(function() {
                                 $("#popup_window").hide();
-                                console.log("window closed");
+                                $("#popup_window").scrollTop(0);
                                 $("#popup_window").off("click");
                             });
                         } else {
@@ -280,10 +281,13 @@
                                 ${question_result[2] !== null ? "<br>例文の意味：" + question_result[2]: ""}
                             `;
                             // popup_windowに不正解表示。windowまたは画面のクリックで消える
-                            $("#popup_window").html(html_code);
+                            $("#popup_window").html(html_code + "<br><br><small>ウィンドウをクリックで閉じる</small>");
+                            $("#popup_window").css("background-color", "lightcoral");
                             $("#popup_window").show();
+                            
                             $("#popup_window").click(function() {
                                 $("#popup_window").hide();
+                                $("#popup_window").scrollTop(0);
                                 $("#popup_window").off("click");
                             });
 
