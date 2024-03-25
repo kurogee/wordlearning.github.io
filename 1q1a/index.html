@@ -21,10 +21,13 @@
             }
 
             #meaning4 {
-                background-color: yellow;
+                background-color: orange;
             }
 
-            #meaning1, #meaning2, #meaning3, #meaning4 {
+            #meaning1,
+            #meaning2,
+            #meaning3,
+            #meaning4 {
                 width: 45%;
                 height: calc(80vh / 4 - 10px);
                 margin: 5px;
@@ -38,16 +41,25 @@
             }
 
             /* meaning1〜4のスクロールバーを丸みのあるおしゃれなものにする */
-            #meaning1::-webkit-scrollbar, #meaning2::-webkit-scrollbar, #meaning3::-webkit-scrollbar, #meaning4::-webkit-scrollbar {
+            #meaning1::-webkit-scrollbar,
+            #meaning2::-webkit-scrollbar,
+            #meaning3::-webkit-scrollbar,
+            #meaning4::-webkit-scrollbar {
                 width: 20px;
             }
 
-            #meaning1::-webkit-scrollbar-thumb, #meaning2::-webkit-scrollbar-thumb, #meaning3::-webkit-scrollbar-thumb, #meaning4::-webkit-scrollbar-thumb {
+            #meaning1::-webkit-scrollbar-thumb,
+            #meaning2::-webkit-scrollbar-thumb,
+            #meaning3::-webkit-scrollbar-thumb,
+            #meaning4::-webkit-scrollbar-thumb {
                 background-color: rgba(0, 0, 0, 0.5);
                 border-radius: 10px;
             }
 
-            #meaning1::-webkit-scrollbar-track, #meaning2::-webkit-scrollbar-track, #meaning3::-webkit-scrollbar-track, #meaning4::-webkit-scrollbar-track {
+            #meaning1::-webkit-scrollbar-track,
+            #meaning2::-webkit-scrollbar-track,
+            #meaning3::-webkit-scrollbar-track,
+            #meaning4::-webkit-scrollbar-track {
                 background-color: rgba(0, 0, 0, 0.1);
                 border-radius: 10px;
             }
@@ -88,6 +100,8 @@
                 <option value="nouns" path="noun(jhs).json">名詞データ(難易度：中学)</option>
                 <option value="nouns" path="noun(hs).json">名詞データ(難易度：高校)</option>
                 <option value="idioms" path="idioms.json">熟語データ</option>
+                <option value="eiken3" path="eiken3.json">英検3級の単語データ</option>
+                <option value="eiken-pre2" path="eiken_pre2.json">英検準2級の単語データ</option>
                 <option value="url" path="URL">URL</option>
             </select>
             <hr>
@@ -189,7 +203,7 @@
                         path = wrong_list[wrong_random][1];
                     }
 
-                    $.getJSON(path == "URL" ? "./model/verbs.json" : home_model_dict + path, function(data) {
+                    $.getJSON(path == "URL" ? "../model/verbs.json" : home_model_dict + path, function(data) {
                         let correct_number = 0;
                         let _data = data;
 

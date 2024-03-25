@@ -1,0 +1,4002 @@
+[
+    {
+        "word": "change",
+        "meaning": "（動）変える"
+    },
+    {
+        "word": "mean",
+        "meaning": "（動）意味する"
+    },
+    {
+        "word": "seem",
+        "meaning": "（動）～のようだ"
+    },
+    {
+        "word": "follow",
+        "meaning": "（動）ついていく"
+    },
+    {
+        "word": "long",
+        "meaning": "（動）切望する"
+    },
+    {
+        "word": "set",
+        "meaning": "（動）置く"
+    },
+    {
+        "word": "include",
+        "meaning": "（動）含む"
+    },
+    {
+        "word": "turn",
+        "meaning": "（動）進路を変える"
+    },
+    {
+        "word": "hold",
+        "meaning": "（動）開催する"
+    },
+    {
+        "word": "report",
+        "meaning": "（動）報告する"
+    },
+    {
+        "word": "run",
+        "meaning": "（動）経営する"
+    },
+    {
+        "word": "move",
+        "meaning": "（動）引っ越す"
+    },
+    {
+        "word": "build",
+        "meaning": "（動）建てる"
+    },
+    {
+        "word": "lead",
+        "meaning": "（動）導く"
+    },
+    {
+        "word": "pay",
+        "meaning": "（動）支払う"
+    },
+    {
+        "word": "increase",
+        "meaning": "（動）増加する"
+    },
+    {
+        "word": "stand",
+        "meaning": "（動）我慢する"
+    },
+    {
+        "word": "offer",
+        "meaning": "（動）申し出る"
+    },
+    {
+        "word": "cost",
+        "meaning": "（動）費用がかかる"
+    },
+    {
+        "word": "leave",
+        "meaning": "（動）のままにする"
+    },
+    {
+        "word": "believe",
+        "meaning": "（動）信じる"
+    },
+    {
+        "word": "train",
+        "meaning": "（動）訓練する"
+    },
+    {
+        "word": "allow",
+        "meaning": "（動）〜するのを許す"
+    },
+    {
+        "word": "continue",
+        "meaning": "（動）続ける"
+    },
+    {
+        "word": "order",
+        "meaning": "（動）注文する"
+    },
+    {
+        "word": "happen",
+        "meaning": "（動）起こる"
+    },
+    {
+        "word": "return",
+        "meaning": "（動）帰る"
+    },
+    {
+        "word": "mind",
+        "meaning": "（動）気にする"
+    },
+    {
+        "word": "produce",
+        "meaning": "（動）生産する"
+    },
+    {
+        "word": "expect",
+        "meaning": "（動）予期する"
+    },
+    {
+        "word": "appear",
+        "meaning": "（動）出現する"
+    },
+    {
+        "word": "cause",
+        "meaning": "（動）引き起こす"
+    },
+    {
+        "word": "lose",
+        "meaning": "（動）失う"
+    },
+    {
+        "word": "carry",
+        "meaning": "（動）運ぶ"
+    },
+    {
+        "word": "share",
+        "meaning": "（動）共有する"
+    },
+    {
+        "word": "let",
+        "meaning": "（動）させる"
+    },
+    {
+        "word": "suggest",
+        "meaning": "（動）を提案する"
+    },
+    {
+        "word": "add",
+        "meaning": "（動）加える"
+    },
+    {
+        "word": "care",
+        "meaning": "（動）気にかける"
+    },
+    {
+        "word": "win",
+        "meaning": "（動）勝つ"
+    },
+    {
+        "word": "remember",
+        "meaning": "（動）覚えている"
+    },
+    {
+        "word": "trade",
+        "meaning": "（動）貿易する"
+    },
+    {
+        "word": "spend",
+        "meaning": "（動）費やす"
+    },
+    {
+        "word": "design",
+        "meaning": "（動）設計する"
+    },
+    {
+        "word": "practice",
+        "meaning": "（動）練習する"
+    },
+    {
+        "word": "receive",
+        "meaning": "（動）受け取る"
+    },
+    {
+        "word": "reach",
+        "meaning": "（動）到着する"
+    },
+    {
+        "word": "bear",
+        "meaning": "（動）我慢する"
+    },
+    {
+        "word": "grow",
+        "meaning": "（動）成長する"
+    },
+    {
+        "word": "decide",
+        "meaning": "（動）決意する"
+    },
+    {
+        "word": "agree",
+        "meaning": "（動）同意する"
+    },
+    {
+        "word": "sound",
+        "meaning": "（動）〜のように思われる"
+    },
+    {
+        "word": "describe",
+        "meaning": "（動）描写する"
+    },
+    {
+        "word": "die",
+        "meaning": "（動）死ぬ"
+    },
+    {
+        "word": "remain",
+        "meaning": "（動）〜のままである"
+    },
+    {
+        "word": "wait",
+        "meaning": "（動）待つ"
+    },
+    {
+        "word": "pass",
+        "meaning": "（動）合格する"
+    },
+    {
+        "word": "cover",
+        "meaning": "（動）覆う"
+    },
+    {
+        "word": "create",
+        "meaning": "（動）創造する"
+    },
+    {
+        "word": "miss",
+        "meaning": "（動）いなくて寂しく思う"
+    },
+    {
+        "word": "raise",
+        "meaning": "（動）上げる"
+    },
+    {
+        "word": "wish",
+        "meaning": "（動）願う"
+    },
+    {
+        "word": "explain",
+        "meaning": "（動）説明する"
+    },
+    {
+        "word": "contain",
+        "meaning": "（動）含む"
+    },
+    {
+        "word": "plant",
+        "meaning": "（動）植える"
+    },
+    {
+        "word": "choose",
+        "meaning": "（動）選ぶ"
+    },
+    {
+        "word": "kill",
+        "meaning": "（動）殺す"
+    },
+    {
+        "word": "join",
+        "meaning": "（動）参加する"
+    },
+    {
+        "word": "fail",
+        "meaning": "（動）失敗する"
+    },
+    {
+        "word": "save",
+        "meaning": "（動）節約する"
+    },
+    {
+        "word": "prepare",
+        "meaning": "（動）準備する"
+    },
+    {
+        "word": "serve",
+        "meaning": "（動）給仕する"
+    },
+    {
+        "word": "park",
+        "meaning": "（動）駐車する"
+    },
+    {
+        "word": "fit",
+        "meaning": "（動）ぴったり合う"
+    },
+    {
+        "word": "notice",
+        "meaning": "（動）気づく"
+    },
+    {
+        "word": "pick",
+        "meaning": "（動）摘む"
+    },
+    {
+        "word": "paint",
+        "meaning": "（動）ペンキを塗る"
+    },
+    {
+        "word": "wonder",
+        "meaning": "（動）〜かなと思う"
+    },
+    {
+        "word": "surprise",
+        "meaning": "（動）驚かせる"
+    },
+    {
+        "word": "damage",
+        "meaning": "（動）損傷を与える"
+    },
+    {
+        "word": "introduce",
+        "meaning": "（動）紹介する"
+    },
+    {
+        "word": "enter",
+        "meaning": "（動）入る"
+    },
+    {
+        "word": "arrive",
+        "meaning": "（動）到着する"
+    },
+    {
+        "word": "improve",
+        "meaning": "（動）改善する"
+    },
+    {
+        "word": "travel",
+        "meaning": "（動）旅行する"
+    },
+    {
+        "word": "marry",
+        "meaning": "（動）結婚する"
+    },
+    {
+        "word": "worry",
+        "meaning": "（動）心配する"
+    },
+    {
+        "word": "check",
+        "meaning": "（動）調べる"
+    },
+    {
+        "word": "forget",
+        "meaning": "（動）忘れる"
+    },
+    {
+        "word": "avoid",
+        "meaning": "（動）避ける"
+    },
+    {
+        "word": "fill",
+        "meaning": "（動）満たす"
+    },
+    {
+        "word": "throw",
+        "meaning": "（動）投げる"
+    },
+    {
+        "word": "dress",
+        "meaning": "（動）服を着る"
+    },
+    {
+        "word": "exchange",
+        "meaning": "（動）交換する"
+    },
+    {
+        "word": "reply",
+        "meaning": "（動）返事をする"
+    },
+    {
+        "word": "copy",
+        "meaning": "（動）写す"
+    },
+    {
+        "word": "search",
+        "meaning": "（動）探す"
+    },
+    {
+        "word": "transport",
+        "meaning": "（動）輸送する"
+    },
+    {
+        "word": "waste",
+        "meaning": "（動）浪費する"
+    },
+    {
+        "word": "protect",
+        "meaning": "（動）保護する"
+    },
+    {
+        "word": "interview",
+        "meaning": "（動）インタビューする"
+    },
+    {
+        "word": "perform",
+        "meaning": "（動）演じる"
+    },
+    {
+        "word": "guide",
+        "meaning": "（動）案内する"
+    },
+    {
+        "word": "count",
+        "meaning": "（動）数える"
+    },
+    {
+        "word": "collect",
+        "meaning": "（動）集める"
+    },
+    {
+        "word": "spread",
+        "meaning": "（動）広がる"
+    },
+    {
+        "word": "feed",
+        "meaning": "（動）食べ物を与える"
+    },
+    {
+        "word": "fix",
+        "meaning": "（動）修理する"
+    },
+    {
+        "word": "prefer",
+        "meaning": "（動）〜をより好む"
+    },
+    {
+        "word": "pack",
+        "meaning": "（動）詰める"
+    },
+    {
+        "word": "climb",
+        "meaning": "（動）登る"
+    },
+    {
+        "word": "arrange",
+        "meaning": "（動）取り決める"
+    },
+    {
+        "word": "invite",
+        "meaning": "（動）招待する"
+    },
+    {
+        "word": "attract",
+        "meaning": "（動）心をとらえる"
+    },
+    {
+        "word": "recommend",
+        "meaning": "（動）推薦する"
+    },
+    {
+        "word": "reserve",
+        "meaning": "（動）予約する"
+    },
+    {
+        "word": "taste",
+        "meaning": "（動）の味がする"
+    },
+    {
+        "word": "hurt",
+        "meaning": "（動）傷つける"
+    },
+    {
+        "word": "rent",
+        "meaning": "（動）借りる"
+    },
+    {
+        "word": "other",
+        "meaning": "（形）ほかの"
+    },
+    {
+        "word": "own",
+        "meaning": "（形）自分自身の"
+    },
+    {
+        "word": "following",
+        "meaning": "（形）次の"
+    },
+    {
+        "word": "another",
+        "meaning": "（形）もう一つの"
+    },
+    {
+        "word": "different",
+        "meaning": "（形）異なる"
+    },
+    {
+        "word": "local",
+        "meaning": "（形）地元の"
+    },
+    {
+        "word": "close",
+        "meaning": "（形）近い"
+    },
+    {
+        "word": "important",
+        "meaning": "（形）重要な"
+    },
+    {
+        "word": "national",
+        "meaning": "（形）国の"
+    },
+    {
+        "word": "public",
+        "meaning": "（形）公共の"
+    },
+    {
+        "word": "possible",
+        "meaning": "（形）可能な"
+    },
+    {
+        "word": "enough",
+        "meaning": "（形）十分な"
+    },
+    {
+        "word": "clear",
+        "meaning": "（形）はっきりした"
+    },
+    {
+        "word": "available",
+        "meaning": "（形）利用できる"
+    },
+    {
+        "word": "past",
+        "meaning": "（形）過去の"
+    },
+    {
+        "word": "main",
+        "meaning": "（形）主な"
+    },
+    {
+        "word": "boring",
+        "meaning": "（形）退屈な"
+    },
+    {
+        "word": "several",
+        "meaning": "（形）いくつかの"
+    },
+    {
+        "word": "likely",
+        "meaning": "（形）〜しそうな"
+    },
+    {
+        "word": "special",
+        "meaning": "（形）特別な"
+    },
+    {
+        "word": "few",
+        "meaning": "（形）ほとんどない"
+    },
+    {
+        "word": "international",
+        "meaning": "（形）国際的な"
+    },
+    {
+        "word": "difficult",
+        "meaning": "（形）難しい"
+    },
+    {
+        "word": "certain",
+        "meaning": "（形）確かな"
+    },
+    {
+        "word": "common",
+        "meaning": "（形）共通の"
+    },
+    {
+        "word": "similar",
+        "meaning": "（形）似ている"
+    },
+    {
+        "word": "true",
+        "meaning": "（形）本当の"
+    },
+    {
+        "word": "necessary",
+        "meaning": "（形）必要な"
+    },
+    {
+        "word": "private",
+        "meaning": "（形）個人的な"
+    },
+    {
+        "word": "final",
+        "meaning": "（形）最後の"
+    },
+    {
+        "word": "foreign",
+        "meaning": "（形）外国の"
+    },
+    {
+        "word": "official",
+        "meaning": "（形）公式の"
+    },
+    {
+        "word": "recent",
+        "meaning": "（形）最近の"
+    },
+    {
+        "word": "natural",
+        "meaning": "（形）自然の"
+    },
+    {
+        "word": "normal",
+        "meaning": "（形）普通の"
+    },
+    {
+        "word": "successful",
+        "meaning": "（形）成功した"
+    },
+    {
+        "word": "extra",
+        "meaning": "（形）追加の"
+    },
+    {
+        "word": "safe",
+        "meaning": "（形）安全な"
+    },
+    {
+        "word": "correct",
+        "meaning": "（形）正しい"
+    },
+    {
+        "word": "perfect",
+        "meaning": "（形）完全な"
+    },
+    {
+        "word": "wild",
+        "meaning": "（形）野生の"
+    },
+    {
+        "word": "afraid",
+        "meaning": "（形）心配して"
+    },
+    {
+        "word": "expensive",
+        "meaning": "（形）高価な"
+    },
+    {
+        "word": "dangerous",
+        "meaning": "（形）危険な"
+    },
+    {
+        "word": "government",
+        "meaning": "（名）政府"
+    },
+    {
+        "word": "area",
+        "meaning": "（名）地域"
+    },
+    {
+        "word": "service",
+        "meaning": "（名）サービス"
+    },
+    {
+        "word": "result",
+        "meaning": "（名）結果"
+    },
+    {
+        "word": "fact",
+        "meaning": "（名）事実"
+    },
+    {
+        "word": "market",
+        "meaning": "（名）市場"
+    },
+    {
+        "word": "business",
+        "meaning": "（名）商売"
+    },
+    {
+        "word": "information",
+        "meaning": "（名）情報"
+    },
+    {
+        "word": "view",
+        "meaning": "（名）眺め"
+    },
+    {
+        "word": "idea",
+        "meaning": "（名）考え"
+    },
+    {
+        "word": "experience",
+        "meaning": "（名）経験"
+    },
+    {
+        "word": "reason",
+        "meaning": "（名）理由"
+    },
+    {
+        "word": "price",
+        "meaning": "（名）価格"
+    },
+    {
+        "word": "center",
+        "meaning": "（名）中心"
+    },
+    {
+        "word": "war",
+        "meaning": "（名）戦争"
+    },
+    {
+        "word": "person",
+        "meaning": "（名）人"
+    },
+    {
+        "word": "police",
+        "meaning": "（名）警察"
+    },
+    {
+        "word": "land",
+        "meaning": "（名）陸地"
+    },
+    {
+        "word": "research",
+        "meaning": "（名）調査"
+    },
+    {
+        "word": "type",
+        "meaning": "（名）型"
+    },
+    {
+        "word": "million",
+        "meaning": "（名）100万"
+    },
+    {
+        "word": "community",
+        "meaning": "（名）コミュニティー"
+    },
+    {
+        "word": "rule",
+        "meaning": "（名）規則"
+    },
+    {
+        "word": "moment",
+        "meaning": "（名）瞬間"
+    },
+    {
+        "word": "condition",
+        "meaning": "（名）状態"
+    },
+    {
+        "word": "detail",
+        "meaning": "（名）詳細"
+    },
+    {
+        "word": "health",
+        "meaning": "（名）健康"
+    },
+    {
+        "word": "industry",
+        "meaning": "（名）産業"
+    },
+    {
+        "word": "staff",
+        "meaning": "（名）スタッフ"
+    },
+    {
+        "word": "future",
+        "meaning": "（名）未来"
+    },
+    {
+        "word": "section",
+        "meaning": "（名）欄"
+    },
+    {
+        "word": "century",
+        "meaning": "（名）世紀"
+    },
+    {
+        "word": "activity",
+        "meaning": "（名）活動"
+    },
+    {
+        "word": "project",
+        "meaning": "（名）計画"
+    },
+    {
+        "word": "department",
+        "meaning": "（名）部"
+    },
+    {
+        "word": "product",
+        "meaning": "（名）製品"
+    },
+    {
+        "word": "sign",
+        "meaning": "（名）標識"
+    },
+    {
+        "word": "event",
+        "meaning": "（名）出来事"
+    },
+    {
+        "word": "material",
+        "meaning": "（名）材料"
+    },
+    {
+        "word": "situation",
+        "meaning": "（名）状況"
+    },
+    {
+        "word": "amount",
+        "meaning": "（名）量"
+    },
+    {
+        "word": "rest",
+        "meaning": "（名）休憩"
+    },
+    {
+        "word": "sale",
+        "meaning": "（名）販売"
+    },
+    {
+        "word": "quality",
+        "meaning": "（名）質"
+    },
+    {
+        "word": "fire",
+        "meaning": "（名）火"
+    },
+    {
+        "word": "nature",
+        "meaning": "（名）自然"
+    },
+    {
+        "word": "method",
+        "meaning": "（名）方法"
+    },
+    {
+        "word": "bill",
+        "meaning": "（名）請求書"
+    },
+    {
+        "word": "president",
+        "meaning": "（名）大統領"
+    },
+    {
+        "word": "director",
+        "meaning": "（名）監督"
+    },
+    {
+        "word": "chance",
+        "meaning": "（名）機会"
+    },
+    {
+        "word": "operation",
+        "meaning": "（名）手術"
+    },
+    {
+        "word": "front",
+        "meaning": "（名）前部"
+    },
+    {
+        "word": "couple",
+        "meaning": "（名）１対"
+    },
+    {
+        "word": "match",
+        "meaning": "（名）試合"
+    },
+    {
+        "word": "purpose",
+        "meaning": "（名）目的"
+    },
+    {
+        "word": "space",
+        "meaning": "（名）宇宙"
+    },
+    {
+        "word": "performance",
+        "meaning": "（名）演技"
+    },
+    {
+        "word": "environment",
+        "meaning": "（名）自然環境"
+    },
+    {
+        "word": "statement",
+        "meaning": "（名）記述"
+    },
+    {
+        "word": "attention",
+        "meaning": "（名）注意"
+    },
+    {
+        "word": "choice",
+        "meaning": "（名）選択"
+    },
+    {
+        "word": "race",
+        "meaning": "（名）競争"
+    },
+    {
+        "word": "effort",
+        "meaning": "（名）努力"
+    },
+    {
+        "word": "degree",
+        "meaning": "（名）〜度"
+    },
+    {
+        "word": "middle",
+        "meaning": "（名）真ん中"
+    },
+    {
+        "word": "exercise",
+        "meaning": "（名）運動"
+    },
+    {
+        "word": "skill",
+        "meaning": "（名）技術"
+    },
+    {
+        "word": "character",
+        "meaning": "（名）登場人物"
+    },
+    {
+        "word": "army",
+        "meaning": "（名）陸軍"
+    },
+    {
+        "word": "husband",
+        "meaning": "（名）夫"
+    },
+    {
+        "word": "address",
+        "meaning": "（名）住所"
+    },
+    {
+        "word": "trouble",
+        "meaning": "（名）悩み"
+    },
+    {
+        "word": "customer",
+        "meaning": "（名）客"
+    },
+    {
+        "word": "average",
+        "meaning": "（名）平均"
+    },
+    {
+        "word": "rock",
+        "meaning": "（名）岩"
+    },
+    {
+        "word": "item",
+        "meaning": "（名）品物"
+    },
+    {
+        "word": "advice",
+        "meaning": "（名）アドバイス"
+    },
+    {
+        "word": "advantage",
+        "meaning": "（名）有利な点"
+    },
+    {
+        "word": "island",
+        "meaning": "（名）島"
+    },
+    {
+        "word": "goods",
+        "meaning": "（名）品物"
+    },
+    {
+        "word": "fair",
+        "meaning": "（名）見本市"
+    },
+    {
+        "word": "article",
+        "meaning": "（名）記事"
+    },
+    {
+        "word": "organization",
+        "meaning": "（名）組織"
+    },
+    {
+        "word": "corner",
+        "meaning": "（名）角"
+    },
+    {
+        "word": "network",
+        "meaning": "（名）ネットワーク"
+    },
+    {
+        "word": "employee",
+        "meaning": "（名）従業員"
+    },
+    {
+        "word": "owner",
+        "meaning": "（名）所有者"
+    },
+    {
+        "word": "tour",
+        "meaning": "（名）見学"
+    },
+    {
+        "word": "adult",
+        "meaning": "（名）大人"
+    },
+    {
+        "word": "accident",
+        "meaning": "（名）事故"
+    },
+    {
+        "word": "route",
+        "meaning": "（名）ルート"
+    },
+    {
+        "word": "distance",
+        "meaning": "（名）距離"
+    },
+    {
+        "word": "expert",
+        "meaning": "（名）専門家"
+    },
+    {
+        "word": "clothes",
+        "meaning": "（名）衣服"
+    },
+    {
+        "word": "vehicle",
+        "meaning": "（名）乗り物"
+    },
+    {
+        "word": "secret",
+        "meaning": "（名）秘密"
+    },
+    {
+        "word": "visitor",
+        "meaning": "（名）訪問者"
+    },
+    {
+        "word": "meal",
+        "meaning": "（名）食事"
+    },
+    {
+        "word": "flight",
+        "meaning": "（名）定期航空便"
+    },
+    {
+        "word": "bottle",
+        "meaning": "（名）びん"
+    },
+    {
+        "word": "gate",
+        "meaning": "（名）門"
+    },
+    {
+        "word": "even",
+        "meaning": "（副）～でさえ"
+    },
+    {
+        "word": "later",
+        "meaning": "（副）あとで"
+    },
+    {
+        "word": "quite",
+        "meaning": "（副）とても"
+    },
+    {
+        "word": "less",
+        "meaning": "（副）より少なく"
+    },
+    {
+        "word": "though",
+        "meaning": "（副）でも"
+    },
+    {
+        "word": "yet",
+        "meaning": "（副）まだ～ない"
+    },
+    {
+        "word": "almost",
+        "meaning": "（副）ほとんど"
+    },
+    {
+        "word": "far",
+        "meaning": "（副）遠くに"
+    },
+    {
+        "word": "once",
+        "meaning": "（副）一度"
+    },
+    {
+        "word": "probably",
+        "meaning": "（副）たぶん"
+    },
+    {
+        "word": "actually",
+        "meaning": "（副）実際に"
+    },
+    {
+        "word": "outside",
+        "meaning": "（副）外(そと)に"
+    },
+    {
+        "word": "else",
+        "meaning": "（副）その他に"
+    },
+    {
+        "word": "forward",
+        "meaning": "（副）前方へ"
+    },
+    {
+        "word": "inside",
+        "meaning": "（副）屋内で"
+    },
+    {
+        "word": "finally",
+        "meaning": "（副）ついに"
+    },
+    {
+        "word": "quickly",
+        "meaning": "（副）すぐに"
+    },
+    {
+        "word": "recently",
+        "meaning": "（副）最近"
+    },
+    {
+        "word": "anyway",
+        "meaning": "（副）とにかく"
+    },
+    {
+        "word": "nearly",
+        "meaning": "（副）ほとんど"
+    },
+    {
+        "word": "easily",
+        "meaning": "（副）簡単に"
+    },
+    {
+        "word": "completely",
+        "meaning": "（副）完全に"
+    },
+    {
+        "word": "pretty",
+        "meaning": "（副）かなり"
+    },
+    {
+        "word": "instead",
+        "meaning": "（副）その代わりに"
+    },
+    {
+        "word": "somewhere",
+        "meaning": "（副）どこかに"
+    },
+    {
+        "word": "however",
+        "meaning": "（接）しかしながら"
+    },
+    {
+        "word": "while",
+        "meaning": "（接）～する間に"
+    },
+    {
+        "word": "although",
+        "meaning": "（接）〜だけれども"
+    },
+    {
+        "word": "through",
+        "meaning": "（前）〜を通って"
+    },
+    {
+        "word": "against",
+        "meaning": "（前）反対して"
+    },
+    {
+        "word": "within",
+        "meaning": "（前）〜以内で"
+    },
+    {
+        "word": "without",
+        "meaning": "（前）〜なしで"
+    },
+    {
+        "word": "behind",
+        "meaning": "（前）〜の後ろに"
+    },
+    {
+        "word": "below",
+        "meaning": "（前）〜より下に"
+    },
+    {
+        "word": "throughout",
+        "meaning": "（前）〜の間ずっと"
+    },
+    {
+        "word": "provide",
+        "meaning": "（動）供給する"
+    },
+    {
+        "word": "support",
+        "meaning": "（動）支持する"
+    },
+    {
+        "word": "control",
+        "meaning": "（動）管理する"
+    },
+    {
+        "word": "act",
+        "meaning": "（動）行動する"
+    },
+    {
+        "word": "require",
+        "meaning": "（動）必要とする"
+    },
+    {
+        "word": "draw",
+        "meaning": "（動）描く"
+    },
+    {
+        "word": "develop",
+        "meaning": "（動）発達させる"
+    },
+    {
+        "word": "approach",
+        "meaning": "（動）接近する"
+    },
+    {
+        "word": "date",
+        "meaning": "（動）デートする"
+    },
+    {
+        "word": "accept",
+        "meaning": "（動）受け入れる"
+    },
+    {
+        "word": "apply",
+        "meaning": "（動）申し込む"
+    },
+    {
+        "word": "award",
+        "meaning": "（動）賞を与える"
+    },
+    {
+        "word": "limit",
+        "meaning": "（動）制限する"
+    },
+    {
+        "word": "reduce",
+        "meaning": "（動）減らす"
+    },
+    {
+        "word": "press",
+        "meaning": "（動）押す"
+    },
+    {
+        "word": "measure",
+        "meaning": "（動）測定する"
+    },
+    {
+        "word": "attack",
+        "meaning": "（動）攻撃する"
+    },
+    {
+        "word": "achieve",
+        "meaning": "（動）達成する"
+    },
+    {
+        "word": "recognize",
+        "meaning": "（動）認識する"
+    },
+    {
+        "word": "fight",
+        "meaning": "（動）戦う"
+    },
+    {
+        "word": "publish",
+        "meaning": "（動）出版する"
+    },
+    {
+        "word": "aim",
+        "meaning": "（動）狙う"
+    },
+    {
+        "word": "discuss",
+        "meaning": "（動）議論する"
+    },
+    {
+        "word": "argue",
+        "meaning": "（動）言い争う"
+    },
+    {
+        "word": "film",
+        "meaning": "（動）撮影する"
+    },
+    {
+        "word": "pull",
+        "meaning": "（動）引く"
+    },
+    {
+        "word": "ring",
+        "meaning": "（動）鳴る"
+    },
+    {
+        "word": "trust",
+        "meaning": "（動）信用する"
+    },
+    {
+        "word": "compare",
+        "meaning": "（動）比較する"
+    },
+    {
+        "word": "announce",
+        "meaning": "（動）発表する"
+    },
+    {
+        "word": "treat",
+        "meaning": "（動）扱う"
+    },
+    {
+        "word": "hit",
+        "meaning": "（動）打つ"
+    },
+    {
+        "word": "judge",
+        "meaning": "（動）判断する"
+    },
+    {
+        "word": "balance",
+        "meaning": "（動）バランスをとる"
+    },
+    {
+        "word": "touch",
+        "meaning": "（動）触る"
+    },
+    {
+        "word": "remove",
+        "meaning": "（動）取り除く"
+    },
+    {
+        "word": "promise",
+        "meaning": "（動）約束する"
+    },
+    {
+        "word": "push",
+        "meaning": "（動）押す"
+    },
+    {
+        "word": "admit",
+        "meaning": "（動）認める"
+    },
+    {
+        "word": "replace",
+        "meaning": "（動）取り換える"
+    },
+    {
+        "word": "shape",
+        "meaning": "（動）形成する"
+    },
+    {
+        "word": "access",
+        "meaning": "（動）アクセスする"
+    },
+    {
+        "word": "warn",
+        "meaning": "（動）警告する"
+    },
+    {
+        "word": "discover",
+        "meaning": "（動）発見する"
+    },
+    {
+        "word": "hang",
+        "meaning": "（動）吊るす"
+    },
+    {
+        "word": "prevent",
+        "meaning": "（動）防ぐ"
+    },
+    {
+        "word": "organize",
+        "meaning": "（動）組織する"
+    },
+    {
+        "word": "lift",
+        "meaning": "（動）持ち上げる"
+    },
+    {
+        "word": "attend",
+        "meaning": "（動）出席する"
+    },
+    {
+        "word": "stare",
+        "meaning": "（動）じっと見つめる"
+    },
+    {
+        "word": "block",
+        "meaning": "（動）邪魔をする"
+    },
+    {
+        "word": "stress",
+        "meaning": "（動）ストレスを与える"
+    },
+    {
+        "word": "repeat",
+        "meaning": "（動）繰り返す"
+    },
+    {
+        "word": "imagine",
+        "meaning": "（動）想像する"
+    },
+    {
+        "word": "survive",
+        "meaning": "（動）生き残る"
+    },
+    {
+        "word": "hide",
+        "meaning": "（動）隠れる"
+    },
+    {
+        "word": "flow",
+        "meaning": "（動）流れる"
+    },
+    {
+        "word": "blow",
+        "meaning": "（動）吹く"
+    },
+    {
+        "word": "burn",
+        "meaning": "（動）燃える"
+    },
+    {
+        "word": "shout",
+        "meaning": "（動）叫ぶ"
+    },
+    {
+        "word": "gather",
+        "meaning": "（動）集まる"
+    },
+    {
+        "word": "deliver",
+        "meaning": "（動）配達する"
+    },
+    {
+        "word": "delay",
+        "meaning": "（動）遅らせる"
+    },
+    {
+        "word": "belong",
+        "meaning": "（動）所属する"
+    },
+    {
+        "word": "steal",
+        "meaning": "（動）盗む"
+    },
+    {
+        "word": "wake",
+        "meaning": "（動）目を覚ます"
+    },
+    {
+        "word": "advise",
+        "meaning": "（動）忠告する"
+    },
+    {
+        "word": "recover",
+        "meaning": "（動）回復する"
+    },
+    {
+        "word": "smell",
+        "meaning": "（動）においがする"
+    },
+    {
+        "word": "relax",
+        "meaning": "（動）くつろぐ"
+    },
+    {
+        "word": "spell",
+        "meaning": "（動）つづる"
+    },
+    {
+        "word": "guess",
+        "meaning": "（動）推測する"
+    },
+    {
+        "word": "borrow",
+        "meaning": "（動）借りる"
+    },
+    {
+        "word": "repair",
+        "meaning": "（動）修理する"
+    },
+    {
+        "word": "celebrate",
+        "meaning": "（動）祝う"
+    },
+    {
+        "word": "solve",
+        "meaning": "（動）解決する"
+    },
+    {
+        "word": "lend",
+        "meaning": "（動）貸す"
+    },
+    {
+        "word": "upset",
+        "meaning": "（動）動揺する"
+    },
+    {
+        "word": "volunteer",
+        "meaning": "（動）志願者"
+    },
+    {
+        "word": "graduate",
+        "meaning": "（動）卒業する"
+    },
+    {
+        "word": "cancel",
+        "meaning": "（動）中止する"
+    },
+    {
+        "word": "cheer",
+        "meaning": "（動）歓声を上げる"
+    },
+    {
+        "word": "bake",
+        "meaning": "（動）焼く"
+    },
+    {
+        "word": "cop",
+        "meaning": "（動）写しを取る"
+    },
+    {
+        "word": "whole",
+        "meaning": "（形）全体の"
+    },
+    {
+        "word": "particular",
+        "meaning": "（形）特別の"
+    },
+    {
+        "word": "human",
+        "meaning": "（形）人間の"
+    },
+    {
+        "word": "single",
+        "meaning": "（形）独身の"
+    },
+    {
+        "word": "colored",
+        "meaning": "（形）色つきの"
+    },
+    {
+        "word": "central",
+        "meaning": "（形）中心の"
+    },
+    {
+        "word": "direct",
+        "meaning": "（形）直接の"
+    },
+    {
+        "word": "simple",
+        "meaning": "（形）簡単な"
+    },
+    {
+        "word": "male",
+        "meaning": "（形）男性の"
+    },
+    {
+        "word": "modern",
+        "meaning": "（形）現代の"
+    },
+    {
+        "word": "dead",
+        "meaning": "（形）死んだ"
+    },
+    {
+        "word": "serious",
+        "meaning": "（形）重大な"
+    },
+    {
+        "word": "basic",
+        "meaning": "（形）基本的な"
+    },
+    {
+        "word": "original",
+        "meaning": "（形）元の"
+    },
+    {
+        "word": "flat",
+        "meaning": "（形）平らな"
+    },
+    {
+        "word": "double",
+        "meaning": "（形）２倍の"
+    },
+    {
+        "word": "female",
+        "meaning": "（形）女性の"
+    },
+    {
+        "word": "traditional",
+        "meaning": "（形）伝統的な"
+    },
+    {
+        "word": "square",
+        "meaning": "（形）平方"
+    },
+    {
+        "word": "huge",
+        "meaning": "（形）巨大な"
+    },
+    {
+        "word": "regular",
+        "meaning": "（形）通常の"
+    },
+    {
+        "word": "fresh",
+        "meaning": "（形）新鮮な"
+    },
+    {
+        "word": "ordinary",
+        "meaning": "（形）普通の"
+    },
+    {
+        "word": "quiet",
+        "meaning": "（形）静かな"
+    },
+    {
+        "word": "empty",
+        "meaning": "（形）空の"
+    },
+    {
+        "word": "cheap",
+        "meaning": "（形）安い"
+    },
+    {
+        "word": "excellent",
+        "meaning": "（形）優れた"
+    },
+    {
+        "word": "formal",
+        "meaning": "（形）正式な"
+    },
+    {
+        "word": "bright",
+        "meaning": "（形）明るい"
+    },
+    {
+        "word": "familiar",
+        "meaning": "（形）よく知られている"
+    },
+    {
+        "word": "careful",
+        "meaning": "（形）注意深い"
+    },
+    {
+        "word": "ancient",
+        "meaning": "（形）古代の"
+    },
+    {
+        "word": "friendly",
+        "meaning": "（形）友好的な"
+    },
+    {
+        "word": "unusual",
+        "meaning": "（形）普通ではない"
+    },
+    {
+        "word": "blind",
+        "meaning": "（形）目の見えない"
+    },
+    {
+        "word": "healthy",
+        "meaning": "（形）健康な"
+    },
+    {
+        "word": "comfortable",
+        "meaning": "（形）快適な"
+    },
+    {
+        "word": "calm",
+        "meaning": "（形）落ち着いた"
+    },
+    {
+        "word": "nearby",
+        "meaning": "（形）近くの"
+    },
+    {
+        "word": "loud",
+        "meaning": "（形）音が大きい"
+    },
+    {
+        "word": "nervous",
+        "meaning": "（形）緊張して"
+    },
+    {
+        "word": "honest",
+        "meaning": "（形）正直な"
+    },
+    {
+        "word": "concrete",
+        "meaning": "（形）具体的な"
+    },
+    {
+        "word": "asleep",
+        "meaning": "（形）眠って"
+    },
+    {
+        "word": "convenient",
+        "meaning": "（形）便利な"
+    },
+    {
+        "word": "lonely",
+        "meaning": "（形）寂しい"
+    },
+    {
+        "word": "delicious",
+        "meaning": "（形）おいしい"
+    },
+    {
+        "word": "noisy",
+        "meaning": "（形）騒がしい"
+    },
+    {
+        "word": "portable",
+        "meaning": "（形）持ち運びできる"
+    },
+    {
+        "word": "arctic",
+        "meaning": "（形）北極の"
+    },
+    {
+        "word": "cute",
+        "meaning": "（形）かわいい"
+    },
+    {
+        "word": "state",
+        "meaning": "（名）州"
+    },
+    {
+        "word": "level",
+        "meaning": "（名）水準"
+    },
+    {
+        "word": "issue",
+        "meaning": "（名）問題"
+    },
+    {
+        "word": "effect",
+        "meaning": "（名）影響"
+    },
+    {
+        "word": "figure",
+        "meaning": "（名）人物"
+    },
+    {
+        "word": "position",
+        "meaning": "（名）位置"
+    },
+    {
+        "word": "education",
+        "meaning": "（名）教育"
+    },
+    {
+        "word": "sense",
+        "meaning": "（名）感覚"
+    },
+    {
+        "word": "note",
+        "meaning": "（名）メモ"
+    },
+    {
+        "word": "decision",
+        "meaning": "（名）決定"
+    },
+    {
+        "word": "death",
+        "meaning": "（名）死"
+    },
+    {
+        "word": "charge",
+        "meaning": "（名）料金"
+    },
+    {
+        "word": "role",
+        "meaning": "（名）役"
+    },
+    {
+        "word": "data",
+        "meaning": "（名）データ"
+    },
+    {
+        "word": "officer",
+        "meaning": "（名）警官"
+    },
+    {
+        "word": "movement",
+        "meaning": "（名）動き"
+    },
+    {
+        "word": "site",
+        "meaning": "（名）場所"
+    },
+    {
+        "word": "agreement",
+        "meaning": "（名）合意"
+    },
+    {
+        "word": "population",
+        "meaning": "（名）人口"
+    },
+    {
+        "word": "knowledge",
+        "meaning": "（名）知識"
+    },
+    {
+        "word": "success",
+        "meaning": "（名）成功"
+    },
+    {
+        "word": "capital",
+        "meaning": "（名）首都"
+    },
+    {
+        "word": "difficulty",
+        "meaning": "（名）困難"
+    },
+    {
+        "word": "energy",
+        "meaning": "（名）エネルギー"
+    },
+    {
+        "word": "behavior",
+        "meaning": "（名）ふるまい"
+    },
+    {
+        "word": "argument",
+        "meaning": "（名）口論"
+    },
+    {
+        "word": "image",
+        "meaning": "（名）イメージ"
+    },
+    {
+        "word": "conference",
+        "meaning": "（名）会議"
+    },
+    {
+        "word": "direction",
+        "meaning": "（名）方向"
+    },
+    {
+        "word": "disease",
+        "meaning": "（名）病気"
+    },
+    {
+        "word": "technique",
+        "meaning": "（名）技術"
+    },
+    {
+        "word": "ability",
+        "meaning": "（名）能力"
+    },
+    {
+        "word": "edge",
+        "meaning": "（名）ふち"
+    },
+    {
+        "word": "engineer",
+        "meaning": "（名）エンジニア"
+    },
+    {
+        "word": "memory",
+        "meaning": "（名）思い出"
+    },
+    {
+        "word": "variety",
+        "meaning": "（名）多様性"
+    },
+    {
+        "word": "weight",
+        "meaning": "（名）重さ"
+    },
+    {
+        "word": "communication",
+        "meaning": "（名）コミュニケーション"
+    },
+    {
+        "word": "equipment",
+        "meaning": "（名）用具"
+    },
+    {
+        "word": "crime",
+        "meaning": "（名）犯罪"
+    },
+    {
+        "word": "track",
+        "meaning": "（名）線路"
+    },
+    {
+        "word": "cash",
+        "meaning": "（名）現金"
+    },
+    {
+        "word": "credit",
+        "meaning": "（名）信用"
+    },
+    {
+        "word": "spirit",
+        "meaning": "（名）精神"
+    },
+    {
+        "word": "package",
+        "meaning": "（名）包み"
+    },
+    {
+        "word": "nation",
+        "meaning": "（名）国家"
+    },
+    {
+        "word": "commercial",
+        "meaning": "（名）コマーシャル"
+    },
+    {
+        "word": "sight",
+        "meaning": "（名）視力"
+    },
+    {
+        "word": "skin",
+        "meaning": "（名）皮"
+    },
+    {
+        "word": "row",
+        "meaning": "（名）列"
+    },
+    {
+        "word": "danger",
+        "meaning": "（名）危険"
+    },
+    {
+        "word": "engine",
+        "meaning": "（名）エンジン"
+    },
+    {
+        "word": "author",
+        "meaning": "（名）作家"
+    },
+    {
+        "word": "mistake",
+        "meaning": "（名）間違い"
+    },
+    {
+        "word": "exhibition",
+        "meaning": "（名）展覧会"
+    },
+    {
+        "word": "traffic",
+        "meaning": "（名）交通"
+    },
+    {
+        "word": "photograph",
+        "meaning": "（名）写真"
+    },
+    {
+        "word": "experiment",
+        "meaning": "（名）実験"
+    },
+    {
+        "word": "conversation",
+        "meaning": "（名）会話"
+    },
+    {
+        "word": "audience",
+        "meaning": "（名）観衆"
+    },
+    {
+        "word": "favor",
+        "meaning": "（名）親切な行為"
+    },
+    {
+        "word": "signal",
+        "meaning": "（名）信号"
+    },
+    {
+        "word": "victory",
+        "meaning": "（名）勝利"
+    },
+    {
+        "word": "fee",
+        "meaning": "（名）料金"
+    },
+    {
+        "word": "guest",
+        "meaning": "（名）招待客"
+    },
+    {
+        "word": "professor",
+        "meaning": "（名）教授"
+    },
+    {
+        "word": "novel",
+        "meaning": "（名）小説"
+    },
+    {
+        "word": "coach",
+        "meaning": "（名）コーチ"
+    },
+    {
+        "word": "passage",
+        "meaning": "（名）通行"
+    },
+    {
+        "word": "wheel",
+        "meaning": "（名）車輪"
+    },
+    {
+        "word": "neighbor",
+        "meaning": "（名）近所の人"
+    },
+    {
+        "word": "plenty",
+        "meaning": "（名）たくさん"
+    },
+    {
+        "word": "prize",
+        "meaning": "（名）賞"
+    },
+    {
+        "word": "gift",
+        "meaning": "（名）贈り物"
+    },
+    {
+        "word": "passenger",
+        "meaning": "（名）乗客"
+    },
+    {
+        "word": "plastic",
+        "meaning": "（名）プラスチック"
+    },
+    {
+        "word": "boss",
+        "meaning": "（名）上司"
+    },
+    {
+        "word": "pollution",
+        "meaning": "（名）汚染"
+    },
+    {
+        "word": "excuse",
+        "meaning": "（名）言い訳"
+    },
+    {
+        "word": "countryside",
+        "meaning": "（名）田舎"
+    },
+    {
+        "word": "grade",
+        "meaning": "（名）等級"
+    },
+    {
+        "word": "desert",
+        "meaning": "（名）砂漠"
+    },
+    {
+        "word": "presentation",
+        "meaning": "（名）発表"
+    },
+    {
+        "word": "custom",
+        "meaning": "（名）慣習"
+    },
+    {
+        "word": "actor",
+        "meaning": "（名）俳優"
+    },
+    {
+        "word": "seed",
+        "meaning": "（名）種"
+    },
+    {
+        "word": "discovery",
+        "meaning": "（名）発見"
+    },
+    {
+        "word": "tourist",
+        "meaning": "（名）観光客"
+    },
+    {
+        "word": "medicine",
+        "meaning": "（名）薬"
+    },
+    {
+        "word": "disaster",
+        "meaning": "（名）災害"
+    },
+    {
+        "word": "luck",
+        "meaning": "（名）幸運"
+    },
+    {
+        "word": "uniform",
+        "meaning": "（名）制服"
+    },
+    {
+        "word": "symbol",
+        "meaning": "（名）象徴"
+    },
+    {
+        "word": "vegetable",
+        "meaning": "（名）野菜"
+    },
+    {
+        "word": "shelter",
+        "meaning": "（名）避難所"
+    },
+    {
+        "word": "mayor",
+        "meaning": "（名）市長"
+    },
+    {
+        "word": "entertainment",
+        "meaning": "（名）娯楽"
+    },
+    {
+        "word": "advertisement",
+        "meaning": "（名）広告"
+    },
+    {
+        "word": "cloth",
+        "meaning": "（名）布"
+    },
+    {
+        "word": "anniversary",
+        "meaning": "（名）記念日"
+    },
+    {
+        "word": "insect",
+        "meaning": "（名）昆虫"
+    },
+    {
+        "word": "navy",
+        "meaning": "（名）海軍"
+    },
+    {
+        "word": "apartment",
+        "meaning": "（名）アパート"
+    },
+    {
+        "word": "avenue",
+        "meaning": "（名）大通り"
+    },
+    {
+        "word": "recipe",
+        "meaning": "（名）調理法"
+    },
+    {
+        "word": "orchestra",
+        "meaning": "（名）管弦楽団"
+    },
+    {
+        "word": "reservation",
+        "meaning": "（名）予約"
+    },
+    {
+        "word": "honey",
+        "meaning": "（名）はちみつ"
+    },
+    {
+        "word": "fossil",
+        "meaning": "（名）化石"
+    },
+    {
+        "word": "sunlight",
+        "meaning": "（名）日光"
+    },
+    {
+        "word": "costume",
+        "meaning": "（名）衣装"
+    },
+    {
+        "word": "miniature",
+        "meaning": "（名）ミニチュア"
+    },
+    {
+        "word": "pigeon",
+        "meaning": "（名）ハト"
+    },
+    {
+        "word": "dentist",
+        "meaning": "（名）歯医者"
+    },
+    {
+        "word": "dinosaur",
+        "meaning": "（名）恐竜"
+    },
+    {
+        "word": "earthquake",
+        "meaning": "（名）地震"
+    },
+    {
+        "word": "grandparent",
+        "meaning": "（名）祖父母"
+    },
+    {
+        "word": "transportation",
+        "meaning": "（名）交通機関"
+    },
+    {
+        "word": "puppet",
+        "meaning": "（名）操り人形"
+    },
+    {
+        "word": "ma’am",
+        "meaning": "（名）奥様"
+    },
+    {
+        "word": "dessert",
+        "meaning": "（名）デザート"
+    },
+    {
+        "word": "lighthouse",
+        "meaning": "（名）灯台"
+    },
+    {
+        "word": "mall",
+        "meaning": "（名）ショッピングモール"
+    },
+    {
+        "word": "bakery",
+        "meaning": "（名）パン屋"
+    },
+    {
+        "word": "garbage",
+        "meaning": "（名）ごみ"
+    },
+    {
+        "word": "graduation",
+        "meaning": "（名）卒業"
+    },
+    {
+        "word": "firefighter",
+        "meaning": "（名）消防隊員"
+    },
+    {
+        "word": "avocado",
+        "meaning": "（名）アボカド"
+    },
+    {
+        "word": "co-worker",
+        "meaning": "（名）同僚"
+    },
+    {
+        "word": "Internet",
+        "meaning": "（名）インターネット"
+    },
+    {
+        "word": "smartphone",
+        "meaning": "（名）スマートフォン"
+    },
+    {
+        "word": "restroom",
+        "meaning": "（名）トイレ"
+    },
+    {
+        "word": "drugstore",
+        "meaning": "（名）ドラッグストア"
+    },
+    {
+        "word": "homestay",
+        "meaning": "（名）ホームステイ"
+    },
+    {
+        "word": "none",
+        "meaning": "（代名）１つも〜ない"
+    },
+    {
+        "word": "further",
+        "meaning": "（副）もっと遠くに"
+    },
+    {
+        "word": "perhaps",
+        "meaning": "（副）もしかすると"
+    },
+    {
+        "word": "especially",
+        "meaning": "（副）特に"
+    },
+    {
+        "word": "generally",
+        "meaning": "（副）一般的に"
+    },
+    {
+        "word": "exactly",
+        "meaning": "（副）正確に"
+    },
+    {
+        "word": "eventually",
+        "meaning": "（副）結局"
+    },
+    {
+        "word": "otherwise",
+        "meaning": "（副）さもなければ"
+    },
+    {
+        "word": "environmentally",
+        "meaning": "（副）環境の点で"
+    },
+    {
+        "word": "apparently",
+        "meaning": "（副）明白に"
+    },
+    {
+        "word": "fairly",
+        "meaning": "（副）まあまあ"
+    },
+    {
+        "word": "equally",
+        "meaning": "（副）等しく"
+    },
+    {
+        "word": "ahead",
+        "meaning": "（副）前に"
+    },
+    {
+        "word": "twice",
+        "meaning": "（副）２回"
+    },
+    {
+        "word": "moreover",
+        "meaning": "（副）さらに"
+    },
+    {
+        "word": "abroad",
+        "meaning": "（副）海外で"
+    },
+    {
+        "word": "regularly",
+        "meaning": "（副）定期的に"
+    },
+    {
+        "word": "gradually",
+        "meaning": "（副）徐々に"
+    },
+    {
+        "word": "nowadays",
+        "meaning": "（副）近ごろは"
+    },
+    {
+        "word": "sometime",
+        "meaning": "（副）いつか"
+    },
+    {
+        "word": "luckily",
+        "meaning": "（副）運良く"
+    },
+    {
+        "word": "online",
+        "meaning": "（副）オンラインで"
+    },
+    {
+        "word": "anymore",
+        "meaning": "（副）今後は〜しない"
+    },
+    {
+        "word": "afterward",
+        "meaning": "（副）後で"
+    },
+    {
+        "word": "whether",
+        "meaning": "（接）〜かどうか"
+    },
+    {
+        "word": "unless",
+        "meaning": "（接）〜しない限り"
+    },
+    {
+        "word": "toward",
+        "meaning": "（前）〜のほうへ"
+    },
+    {
+        "word": "despite",
+        "meaning": "（前）〜にもかかわらず"
+    },
+    {
+        "word": "beyond",
+        "meaning": "（前）〜を超えて"
+    },
+    {
+        "word": "except",
+        "meaning": "（前）〜を除いて"
+    },
+    {
+        "word": "unlike",
+        "meaning": "（前）〜と異なり"
+    },
+    {
+        "word": "face",
+        "meaning": "（動）直面する"
+    },
+    {
+        "word": "concern",
+        "meaning": "（動）心配している"
+    },
+    {
+        "word": "claim",
+        "meaning": "（動）主張する"
+    },
+    {
+        "word": "consider",
+        "meaning": "（動）よく考える"
+    },
+    {
+        "word": "major",
+        "meaning": "（動）専攻する"
+    },
+    {
+        "word": "exist",
+        "meaning": "（動）存在する"
+    },
+    {
+        "word": "unite",
+        "meaning": "（動）団結させる"
+    },
+    {
+        "word": "rise",
+        "meaning": "（動）上がる"
+    },
+    {
+        "word": "bite",
+        "meaning": "（動）かむ"
+    },
+    {
+        "word": "march",
+        "meaning": "（動）行進する"
+    },
+    {
+        "word": "supply",
+        "meaning": "（動）供給する"
+    },
+    {
+        "word": "seek",
+        "meaning": "（動）探し求める"
+    },
+    {
+        "word": "lay",
+        "meaning": "（動）横たえる"
+    },
+    {
+        "word": "occur",
+        "meaning": "（動）起こる"
+    },
+    {
+        "word": "realize",
+        "meaning": "（動）気づく"
+    },
+    {
+        "word": "link",
+        "meaning": "（動）結びつける"
+    },
+    {
+        "word": "prove",
+        "meaning": "（動）証明する"
+    },
+    {
+        "word": "lower",
+        "meaning": "（動）下げる"
+    },
+    {
+        "word": "express",
+        "meaning": "（動）表現する"
+    },
+    {
+        "word": "suffer",
+        "meaning": "（動）苦しむ"
+    },
+    {
+        "word": "refer",
+        "meaning": "（動）言及する"
+    },
+    {
+        "word": "lack",
+        "meaning": "（動）欠ける"
+    },
+    {
+        "word": "release",
+        "meaning": "（動）解放する"
+    },
+    {
+        "word": "review",
+        "meaning": "（動）復習する"
+    },
+    {
+        "word": "mention",
+        "meaning": "（動）述べる"
+    },
+    {
+        "word": "maintain",
+        "meaning": "（動）維持する"
+    },
+    {
+        "word": "gain",
+        "meaning": "（動）得る"
+    },
+    {
+        "word": "separate",
+        "meaning": "（動）分ける"
+    },
+    {
+        "word": "tend",
+        "meaning": "（動）〜する傾向にある"
+    },
+    {
+        "word": "reflect",
+        "meaning": "（動）反射する"
+    },
+    {
+        "word": "propose",
+        "meaning": "（動）提案する"
+    },
+    {
+        "word": "display",
+        "meaning": "（動）展示する"
+    },
+    {
+        "word": "beat",
+        "meaning": "（動）負かす"
+    },
+    {
+        "word": "depend",
+        "meaning": "（動）依存する"
+    },
+    {
+        "word": "stick",
+        "meaning": "（動）くっつく"
+    },
+    {
+        "word": "shake",
+        "meaning": "（動）振る"
+    },
+    {
+        "word": "examine",
+        "meaning": "（動）調べる"
+    },
+    {
+        "word": "handle",
+        "meaning": "（動）扱う"
+    },
+    {
+        "word": "vary",
+        "meaning": "（動）異なる"
+    },
+    {
+        "word": "respect",
+        "meaning": "（動）尊敬する"
+    },
+    {
+        "word": "select",
+        "meaning": "（動）選ぶ"
+    },
+    {
+        "word": "employ",
+        "meaning": "（動）雇う"
+    },
+    {
+        "word": "request",
+        "meaning": "（動）要請する"
+    },
+    {
+        "word": "escape",
+        "meaning": "（動）逃げる"
+    },
+    {
+        "word": "combine",
+        "meaning": "（動）結びつける"
+    },
+    {
+        "word": "deny",
+        "meaning": "（動）否定する"
+    },
+    {
+        "word": "concentrate",
+        "meaning": "（動）集中する"
+    },
+    {
+        "word": "divide",
+        "meaning": "（動）分ける"
+    },
+    {
+        "word": "respond",
+        "meaning": "（動）応答する"
+    },
+    {
+        "word": "lock",
+        "meaning": "（動）鍵をかける"
+    },
+    {
+        "word": "demonstrate",
+        "meaning": "（動）実演して見せる"
+    },
+    {
+        "word": "insist",
+        "meaning": "（動）強く主張する"
+    },
+    {
+        "word": "reject",
+        "meaning": "（動）拒絶する"
+    },
+    {
+        "word": "arrest",
+        "meaning": "（動）逮捕する"
+    },
+    {
+        "word": "stretch",
+        "meaning": "（動）伸ばす"
+    },
+    {
+        "word": "consist",
+        "meaning": "（動）〜から成る"
+    },
+    {
+        "word": "surround",
+        "meaning": "（動）囲む"
+    },
+    {
+        "word": "destroy",
+        "meaning": "（動）破壊する"
+    },
+    {
+        "word": "advertise",
+        "meaning": "（動）宣伝する"
+    },
+    {
+        "word": "disappear",
+        "meaning": "（動）消える"
+    },
+    {
+        "word": "succeed",
+        "meaning": "（動）成功する"
+    },
+    {
+        "word": "hunt",
+        "meaning": "（動）狩る"
+    },
+    {
+        "word": "guard",
+        "meaning": "（動）守る"
+    },
+    {
+        "word": "kick",
+        "meaning": "（動）蹴る"
+    },
+    {
+        "word": "remind",
+        "meaning": "（動）思い出させる"
+    },
+    {
+        "word": "earn",
+        "meaning": "（動）稼ぐ"
+    },
+    {
+        "word": "expand",
+        "meaning": "（動）拡大する"
+    },
+    {
+        "word": "rely",
+        "meaning": "（動）頼る"
+    },
+    {
+        "word": "afford",
+        "meaning": "（動）～する余裕がある"
+    },
+    {
+        "word": "import",
+        "meaning": "（動）輸入する"
+    },
+    {
+        "word": "cycle",
+        "meaning": "（動）自転車に乗る"
+    },
+    {
+        "word": "sink",
+        "meaning": "（動）沈む"
+    },
+    {
+        "word": "connect",
+        "meaning": "（動）接続する"
+    },
+    {
+        "word": "retire",
+        "meaning": "（動）引退する"
+    },
+    {
+        "word": "explore",
+        "meaning": "（動）探検する"
+    },
+    {
+        "word": "slide",
+        "meaning": "（動）滑り降りる"
+    },
+    {
+        "word": "sail",
+        "meaning": "（動）航海する"
+    },
+    {
+        "word": "crash",
+        "meaning": "（動）衝突する"
+    },
+    {
+        "word": "shoot",
+        "meaning": "（動）撃つ"
+    },
+    {
+        "word": "braethe",
+        "meaning": "（動）呼吸する"
+    },
+    {
+        "word": "freeze",
+        "meaning": "（動）凍る"
+    },
+    {
+        "word": "appreciate",
+        "meaning": "（動）感謝する"
+    },
+    {
+        "word": "complain",
+        "meaning": "（動）不平を言う"
+    },
+    {
+        "word": "whisper",
+        "meaning": "（動）ささやく"
+    },
+    {
+        "word": "pour",
+        "meaning": "（動）注ぐ"
+    },
+    {
+        "word": "swing",
+        "meaning": "（動）揺れる"
+    },
+    {
+        "word": "scream",
+        "meaning": "（動）叫ぶ"
+    },
+    {
+        "word": "trap",
+        "meaning": "（動）わなで捕らえる"
+    },
+    {
+        "word": "compete",
+        "meaning": "（動）競争する"
+    },
+    {
+        "word": "confuse",
+        "meaning": "（動）混同する"
+    },
+    {
+        "word": "brush",
+        "meaning": "（動）ブラシをかける"
+    },
+    {
+        "word": "locate",
+        "meaning": "（動）位置する"
+    },
+    {
+        "word": "injure",
+        "meaning": "（動）傷つける"
+    },
+    {
+        "word": "burst",
+        "meaning": "（動）破裂する"
+    },
+    {
+        "word": "twist",
+        "meaning": "（動）ねじる"
+    },
+    {
+        "word": "hire",
+        "meaning": "（動）雇う"
+    },
+    {
+        "word": "overcome",
+        "meaning": "（動）克服する"
+    },
+    {
+        "word": "disappoint",
+        "meaning": "（動）失望させる"
+    },
+    {
+        "word": "float",
+        "meaning": "（動）浮かぶ"
+    },
+    {
+        "word": "rescue",
+        "meaning": "（動）救助する"
+    },
+    {
+        "word": "dig",
+        "meaning": "（動）掘る"
+    },
+    {
+        "word": "behave",
+        "meaning": "（動）行動する"
+    },
+    {
+        "word": "harm",
+        "meaning": "（動）損なう"
+    },
+    {
+        "word": "impress",
+        "meaning": "（動）感心する"
+    },
+    {
+        "word": "decrease",
+        "meaning": "（動）減少する"
+    },
+    {
+        "word": "weigh",
+        "meaning": "（動）重さがある"
+    },
+    {
+        "word": "exhibit",
+        "meaning": "（動）展示する"
+    },
+    {
+        "word": "forgive",
+        "meaning": "（動）許す"
+    },
+    {
+        "word": "decorate",
+        "meaning": "（動）飾る"
+    },
+    {
+        "word": "melt",
+        "meaning": "（動）溶ける"
+    },
+    {
+        "word": "invent",
+        "meaning": "（動）発明する"
+    },
+    {
+        "word": "dislike",
+        "meaning": "（動）嫌う"
+    },
+    {
+        "word": "recycle",
+        "meaning": "（動）再生利用する"
+    },
+    {
+        "word": "apologize",
+        "meaning": "（動）謝る"
+    },
+    {
+        "word": "bark",
+        "meaning": "（動）ほえる"
+    },
+    {
+        "word": "quit",
+        "meaning": "（動）やめる"
+    },
+    {
+        "word": "surf",
+        "meaning": "（動）サーフィンをする"
+    },
+    {
+        "word": "memorize",
+        "meaning": "（動）暗記する"
+    },
+    {
+        "word": "round",
+        "meaning": "（形）丸い"
+    },
+    {
+        "word": "general",
+        "meaning": "（形）一般の"
+    },
+    {
+        "word": "individual",
+        "meaning": "（形）個人の"
+    },
+    {
+        "word": "patient",
+        "meaning": "（形）我慢強い"
+    },
+    {
+        "word": "real",
+        "meaning": "（形）本当の"
+    },
+    {
+        "word": "standard",
+        "meaning": "（形）標準の"
+    },
+    {
+        "word": "missing",
+        "meaning": "（形）欠けている"
+    },
+    {
+        "word": "personal",
+        "meaning": "（形）個人の"
+    },
+    {
+        "word": "various",
+        "meaning": "（形）様々な"
+    },
+    {
+        "word": "professional",
+        "meaning": "（形）プロの"
+    },
+    {
+        "word": "legal",
+        "meaning": "（形）法律の"
+    },
+    {
+        "word": "worth",
+        "meaning": "（形）価値がある"
+    },
+    {
+        "word": "specific",
+        "meaning": "（形）特定の"
+    },
+    {
+        "word": "physical",
+        "meaning": "（形）身体の"
+    },
+    {
+        "word": "responsible",
+        "meaning": "（形）責任のある"
+    },
+    {
+        "word": "positive",
+        "meaning": "（形）肯定的な"
+    },
+    {
+        "word": "nuclear",
+        "meaning": "（形）核の"
+    },
+    {
+        "word": "active",
+        "meaning": "（形）活動的な"
+    },
+    {
+        "word": "technical",
+        "meaning": "（形）工業技術の"
+    },
+    {
+        "word": "narrow",
+        "meaning": "（形）狭い"
+    },
+    {
+        "word": "ideal",
+        "meaning": "（形）理想的な"
+    },
+    {
+        "word": "opposite",
+        "meaning": "（形）反対の"
+    },
+    {
+        "word": "reasonable",
+        "meaning": "（形）手頃な"
+    },
+    {
+        "word": "suitable",
+        "meaning": "（形）ふさわしい"
+    },
+    {
+        "word": "thin",
+        "meaning": "（形）薄い"
+    },
+    {
+        "word": "unlikely",
+        "meaning": "（形）〜しそうにない"
+    },
+    {
+        "word": "tiny",
+        "meaning": "（形）小さい"
+    },
+    {
+        "word": "historical",
+        "meaning": "（形）歴史の"
+    },
+    {
+        "word": "constant",
+        "meaning": "（形）一定の"
+    },
+    {
+        "word": "delighted",
+        "meaning": "（形）喜んで"
+    },
+    {
+        "word": "ill",
+        "meaning": "（形）病気で"
+    },
+    {
+        "word": "thick",
+        "meaning": "（形）厚い"
+    },
+    {
+        "word": "sharp",
+        "meaning": "（形）鋭い"
+    },
+    {
+        "word": "fat",
+        "meaning": "（形）太った"
+    },
+    {
+        "word": "negative",
+        "meaning": "（形）否定的な"
+    },
+    {
+        "word": "typical",
+        "meaning": "（形）典型的な"
+    },
+    {
+        "word": "plain",
+        "meaning": "（形）簡素な"
+    },
+    {
+        "word": "terrible",
+        "meaning": "（形）ひどい"
+    },
+    {
+        "word": "unknown",
+        "meaning": "（形）知られていない"
+    },
+    {
+        "word": "unique",
+        "meaning": "（形）独特の"
+    },
+    {
+        "word": "frightened",
+        "meaning": "（形）おびえた"
+    },
+    {
+        "word": "frightening",
+        "meaning": "（形）恐ろしい"
+    },
+    {
+        "word": "tough",
+        "meaning": "（形）困難な"
+    },
+    {
+        "word": "valuable",
+        "meaning": "（形）貴重な"
+    },
+    {
+        "word": "tight",
+        "meaning": "（形）きつい"
+    },
+    {
+        "word": "dependent",
+        "meaning": "（形）依存している"
+    },
+    {
+        "word": "dramatic",
+        "meaning": "（形）劇的な"
+    },
+    {
+        "word": "spare",
+        "meaning": "（形）予備の"
+    },
+    {
+        "word": "rapid",
+        "meaning": "（形）急速な"
+    },
+    {
+        "word": "rough",
+        "meaning": "（形）粗い"
+    },
+    {
+        "word": "pure",
+        "meaning": "（形）純粋な"
+    },
+    {
+        "word": "global",
+        "meaning": "（形）地球の"
+    },
+    {
+        "word": "medium",
+        "meaning": "（形）中くらいの"
+    },
+    {
+        "word": "electronic",
+        "meaning": "（形）電子の"
+    },
+    {
+        "word": "stupid",
+        "meaning": "（形）愚かな"
+    },
+    {
+        "word": "charming",
+        "meaning": "（形）魅力的な"
+    },
+    {
+        "word": "confident",
+        "meaning": "（形）確信して"
+    },
+    {
+        "word": "helpful",
+        "meaning": "（形）助けになる"
+    },
+    {
+        "word": "gentle",
+        "meaning": "（形）優しい"
+    },
+    {
+        "word": "awful",
+        "meaning": "（形）ひどい"
+    },
+    {
+        "word": "silly",
+        "meaning": "（形）ばかな"
+    },
+    {
+        "word": "full-time",
+        "meaning": "（形）常勤の"
+    },
+    {
+        "word": "smart",
+        "meaning": "（形）頭の良い"
+    },
+    {
+        "word": "delicate",
+        "meaning": "（形）繊細な"
+    },
+    {
+        "word": "handsome",
+        "meaning": "（形）ハンサムな"
+    },
+    {
+        "word": "absent",
+        "meaning": "（形）欠席の"
+    },
+    {
+        "word": "alike",
+        "meaning": "（形）似ている"
+    },
+    {
+        "word": "fantastic",
+        "meaning": "（形）素晴らしい"
+    },
+    {
+        "word": "cheerful",
+        "meaning": "（形）陽気な"
+    },
+    {
+        "word": "outdoor",
+        "meaning": "（形）屋外で"
+    },
+    {
+        "word": "enjoyable",
+        "meaning": "（形）楽しい"
+    },
+    {
+        "word": "harmful",
+        "meaning": "（形）有害な"
+    },
+    {
+        "word": "allergic",
+        "meaning": "（形）アレルギー体質の"
+    },
+    {
+        "word": "secondhand",
+        "meaning": "（形）中古の"
+    },
+    {
+        "word": "interest",
+        "meaning": "（名）興味"
+    },
+    {
+        "word": "form",
+        "meaning": "（名）用紙"
+    },
+    {
+        "word": "policy",
+        "meaning": "（名）政策"
+    },
+    {
+        "word": "rate",
+        "meaning": "（名）比率"
+    },
+    {
+        "word": "process",
+        "meaning": "（名）過程"
+    },
+    {
+        "word": "term",
+        "meaning": "（名）期間"
+    },
+    {
+        "word": "matter",
+        "meaning": "（名）問題"
+    },
+    {
+        "word": "period",
+        "meaning": "（名）期間"
+    },
+    {
+        "word": "value",
+        "meaning": "（名）価値"
+    },
+    {
+        "word": "ground",
+        "meaning": "（名）地面"
+    },
+    {
+        "word": "pound",
+        "meaning": "（名）ポンド（イギリスのお金、重さの単位）"
+    },
+    {
+        "word": "manager",
+        "meaning": "（名）支配人"
+    },
+    {
+        "word": "feature",
+        "meaning": "（名）特徴"
+    },
+    {
+        "word": "property",
+        "meaning": "（名）財産"
+    },
+    {
+        "word": "production",
+        "meaning": "（名）生産"
+    },
+    {
+        "word": "opportunity",
+        "meaning": "（名）機会"
+    },
+    {
+        "word": "security",
+        "meaning": "（名）警備"
+    },
+    {
+        "word": "pattern",
+        "meaning": "（名）様式"
+    },
+    {
+        "word": "influence",
+        "meaning": "（名）影響"
+    },
+    {
+        "word": "factor",
+        "meaning": "（名）要素"
+    },
+    {
+        "word": "pressure",
+        "meaning": "（名）圧力"
+    },
+    {
+        "word": "vote",
+        "meaning": "（名）投票"
+    },
+    {
+        "word": "fear",
+        "meaning": "（名）恐れ"
+    },
+    {
+        "word": "relation",
+        "meaning": "（名）関係"
+    },
+    {
+        "word": "technology",
+        "meaning": "（名）科学技術"
+    },
+    {
+        "word": "resource",
+        "meaning": "（名）資源"
+    },
+    {
+        "word": "task",
+        "meaning": "（名）課題"
+    },
+    {
+        "word": "economy",
+        "meaning": "（名）経済"
+    },
+    {
+        "word": "campaign",
+        "meaning": "（名）キャンペーン"
+    },
+    {
+        "word": "surface",
+        "meaning": "（名）表面"
+    },
+    {
+        "word": "attitude",
+        "meaning": "（名）態度"
+    },
+    {
+        "word": "goal",
+        "meaning": "（名）目標"
+    },
+    {
+        "word": "sentence",
+        "meaning": "（名）文"
+    },
+    {
+        "word": "score",
+        "meaning": "（名）得点"
+    },
+    {
+        "word": "competition",
+        "meaning": "（名）競争"
+    },
+    {
+        "word": "importance",
+        "meaning": "（名）重要性"
+    },
+    {
+        "word": "species",
+        "meaning": "（名）種"
+    },
+    {
+        "word": "progress",
+        "meaning": "（名）進歩"
+    },
+    {
+        "word": "opinion",
+        "meaning": "（名）意見"
+    },
+    {
+        "word": "branch",
+        "meaning": "（名）枝"
+    },
+    {
+        "word": "partner",
+        "meaning": "（名）パートナー"
+    },
+    {
+        "word": "scene",
+        "meaning": "（名）場面"
+    },
+    {
+        "word": "failure",
+        "meaning": "（名）失敗"
+    },
+    {
+        "word": "expression",
+        "meaning": "（名）表現"
+    },
+    {
+        "word": "truth",
+        "meaning": "（名）真実"
+    },
+    {
+        "word": "safety",
+        "meaning": "（名）安全"
+    },
+    {
+        "word": "pain",
+        "meaning": "（名）痛み"
+    },
+    {
+        "word": "strength",
+        "meaning": "（名）強さ"
+    },
+    {
+        "word": "media",
+        "meaning": "（名）マスメディア"
+    },
+    {
+        "word": "bottom",
+        "meaning": "（名）底"
+    },
+    {
+        "word": "reaction",
+        "meaning": "（名）反応"
+    },
+    {
+        "word": "belief",
+        "meaning": "（名）信仰"
+    },
+    {
+        "word": "relative",
+        "meaning": "（名）親戚"
+    },
+    {
+        "word": "conclusion",
+        "meaning": "（名）結論"
+    },
+    {
+        "word": "code",
+        "meaning": "（名）暗号"
+    },
+    {
+        "word": "license",
+        "meaning": "（名）免許"
+    },
+    {
+        "word": "generation",
+        "meaning": "（名）世代"
+    },
+    {
+        "word": "introduction",
+        "meaning": "（名）導入"
+    },
+    {
+        "word": "victim",
+        "meaning": "（名）被害者"
+    },
+    {
+        "word": "tradition",
+        "meaning": "（名）伝統"
+    },
+    {
+        "word": "plate",
+        "meaning": "（名）皿"
+    },
+    {
+        "word": "freedom",
+        "meaning": "（名）自由"
+    },
+    {
+        "word": "explanation",
+        "meaning": "（名）説明"
+    },
+    {
+        "word": "silence",
+        "meaning": "（名）静寂"
+    },
+    {
+        "word": "factory",
+        "meaning": "（名）工場"
+    },
+    {
+        "word": "selection",
+        "meaning": "（名）品揃え"
+    },
+    {
+        "word": "examination",
+        "meaning": "（名）試験"
+    },
+    {
+        "word": "appointment",
+        "meaning": "（名）予約"
+    },
+    {
+        "word": "crowd",
+        "meaning": "（名）群衆"
+    },
+    {
+        "word": "instruction",
+        "meaning": "（名）指示"
+    },
+    {
+        "word": "temperature",
+        "meaning": "（名）気温"
+    },
+    {
+        "word": "journey",
+        "meaning": "（名）旅行"
+    },
+    {
+        "word": "brain",
+        "meaning": "（名）脳"
+    },
+    {
+        "word": "root",
+        "meaning": "（名）根"
+    },
+    {
+        "word": "connection",
+        "meaning": "（名）関係"
+    },
+    {
+        "word": "noise",
+        "meaning": "（名）騒音"
+    },
+    {
+        "word": "frame",
+        "meaning": "（名）枠"
+    },
+    {
+        "word": "instrument",
+        "meaning": "（名）道具"
+    },
+    {
+        "word": "location",
+        "meaning": "（名）場所"
+    },
+    {
+        "word": "gallery",
+        "meaning": "（名）画廊"
+    },
+    {
+        "word": "theme",
+        "meaning": "（名）テーマ"
+    },
+    {
+        "word": "fashion",
+        "meaning": "（名）流行"
+    },
+    {
+        "word": "tool",
+        "meaning": "（名）道具"
+    },
+    {
+        "word": "soldier",
+        "meaning": "（名）兵士"
+    },
+    {
+        "word": "fuel",
+        "meaning": "（名）燃料"
+    },
+    {
+        "word": "faith",
+        "meaning": "（名）信仰"
+    },
+    {
+        "word": "literature",
+        "meaning": "（名）文学"
+    },
+    {
+        "word": "soil",
+        "meaning": "（名）土壌"
+    },
+    {
+        "word": "suggestion",
+        "meaning": "（名）提案"
+    },
+    {
+        "word": "principal",
+        "meaning": "（名）校長"
+    },
+    {
+        "word": "coast",
+        "meaning": "（名）海岸"
+    },
+    {
+        "word": "pause",
+        "meaning": "（名）休止"
+    },
+    {
+        "word": "honor",
+        "meaning": "（名）光栄"
+    },
+    {
+        "word": "creation",
+        "meaning": "（名）創造"
+    },
+    {
+        "word": "shadow",
+        "meaning": "（名）影"
+    },
+    {
+        "word": "diet",
+        "meaning": "（名）ダイエット"
+    },
+    {
+        "word": "atmosphere",
+        "meaning": "（名）雰囲気"
+    },
+    {
+        "word": "enemy",
+        "meaning": "（名）敵"
+    },
+    {
+        "word": "reward",
+        "meaning": "（名）報酬"
+    },
+    {
+        "word": "origin",
+        "meaning": "（名）起源"
+    },
+    {
+        "word": "height",
+        "meaning": "（名）高さ"
+    },
+    {
+        "word": "citizen",
+        "meaning": "（名）市民"
+    },
+    {
+        "word": "charity",
+        "meaning": "（名）慈善事業"
+    },
+    {
+        "word": "achievement",
+        "meaning": "（名）功績"
+    },
+    {
+        "word": "lawyer",
+        "meaning": "（名）弁護士"
+    },
+    {
+        "word": "corporation",
+        "meaning": "（名）大企業"
+    },
+    {
+        "word": "beauty",
+        "meaning": "（名）美"
+    },
+    {
+        "word": "assistant",
+        "meaning": "（名）助手"
+    },
+    {
+        "word": "topic",
+        "meaning": "（名）話題"
+    },
+    {
+        "word": "fault",
+        "meaning": "（名）欠点、間違え"
+    },
+    {
+        "word": "emergency",
+        "meaning": "（名）緊急事態"
+    },
+    {
+        "word": "delivery",
+        "meaning": "（名）配達"
+    },
+    {
+        "word": "poem",
+        "meaning": "（名）詩"
+    },
+    {
+        "word": "habit",
+        "meaning": "（名）習慣"
+    },
+    {
+        "word": "recovery",
+        "meaning": "（名）回復"
+    },
+    {
+        "word": "wealth",
+        "meaning": "（名）財産"
+    },
+    {
+        "word": "electricity",
+        "meaning": "（名）電気"
+    },
+    {
+        "word": "crop",
+        "meaning": "（名）作物"
+    },
+    {
+        "word": "personality",
+        "meaning": "（名）人格"
+    },
+    {
+        "word": "entrance",
+        "meaning": "（名）入り口"
+    },
+    {
+        "word": "furniture",
+        "meaning": "（名）家具"
+    },
+    {
+        "word": "emotion",
+        "meaning": "（名）感情"
+    },
+    {
+        "word": "hero",
+        "meaning": "（名）英雄"
+    },
+    {
+        "word": "demonstration",
+        "meaning": "（名）デモ"
+    },
+    {
+        "word": "discount",
+        "meaning": "（名）割引"
+    },
+    {
+        "word": "resort",
+        "meaning": "（名）リゾート"
+    },
+    {
+        "word": "climate",
+        "meaning": "（名）気候"
+    },
+    {
+        "word": "forecast",
+        "meaning": "（名）予報"
+    },
+    {
+        "word": "childhood",
+        "meaning": "（名）子どもの頃"
+    },
+    {
+        "word": "cattle",
+        "meaning": "（名）牛"
+    },
+    {
+        "word": "horror",
+        "meaning": "（名）恐怖"
+    },
+    {
+        "word": "planet",
+        "meaning": "（名）惑星"
+    },
+    {
+        "word": "clinic",
+        "meaning": "（名）診療所"
+    },
+    {
+        "word": "ceremony",
+        "meaning": "（名）儀式"
+    },
+    {
+        "word": "shortage",
+        "meaning": "（名）不足"
+    },
+    {
+        "word": "courage",
+        "meaning": "（名）勇気"
+    },
+    {
+        "word": "celebration",
+        "meaning": "（名）お祝い"
+    },
+    {
+        "word": "tournament",
+        "meaning": "（名）トーナメント"
+    },
+    {
+        "word": "adventure",
+        "meaning": "（名）冒険"
+    },
+    {
+        "word": "chemistry",
+        "meaning": "（名）化学"
+    },
+    {
+        "word": "amateur",
+        "meaning": "（名）素人"
+    },
+    {
+        "word": "receipt",
+        "meaning": "（名）レシート"
+    },
+    {
+        "word": "spray",
+        "meaning": "（名）スプレー"
+    },
+    {
+        "word": "photographer",
+        "meaning": "（名）写真家"
+    },
+    {
+        "word": "harvest",
+        "meaning": "（名）収穫"
+    },
+    {
+        "word": "ballet",
+        "meaning": "（名）バレエ"
+    },
+    {
+        "word": "rug",
+        "meaning": "（名）敷物"
+    },
+    {
+        "word": "decoration",
+        "meaning": "（名）飾り"
+    },
+    {
+        "word": "bacteria",
+        "meaning": "（名）バクテリア"
+    },
+    {
+        "word": "ancestor",
+        "meaning": "（名）祖先"
+    },
+    {
+        "word": "calcium",
+        "meaning": "（名）カルシウム"
+    },
+    {
+        "word": "sailor",
+        "meaning": "（名）船乗り"
+    },
+    {
+        "word": "butterfly",
+        "meaning": "（名）蝶"
+    },
+    {
+        "word": "convenience",
+        "meaning": "（名）便利"
+    },
+    {
+        "word": "aquiarium",
+        "meaning": "（名）水族館"
+    },
+    {
+        "word": "chef",
+        "meaning": "（名）シェフ"
+    },
+    {
+        "word": "attendant",
+        "meaning": "（名）サービス係"
+    },
+    {
+        "word": "voyage",
+        "meaning": "（名）船旅"
+    },
+    {
+        "word": "ahelete",
+        "meaning": "（名）アスリート"
+    },
+    {
+        "word": "blossom",
+        "meaning": "（名）花"
+    },
+    {
+        "word": "housework",
+        "meaning": "（名）家事"
+    },
+    {
+        "word": "puppy",
+        "meaning": "（名）子犬"
+    },
+    {
+        "word": "microwave",
+        "meaning": "（名）電子レンジ"
+    },
+    {
+        "word": "wallet",
+        "meaning": "（名）財布"
+    },
+    {
+        "word": "carpenter",
+        "meaning": "（名）大工"
+    },
+    {
+        "word": "euro",
+        "meaning": "（名）ユーロ"
+    },
+    {
+        "word": "explorer",
+        "meaning": "（名）探検家"
+    },
+    {
+        "word": "crocodile",
+        "meaning": "（名）ワニ"
+    },
+    {
+        "word": "sunrise",
+        "meaning": "（名）日の出"
+    },
+    {
+        "word": "dormitory",
+        "meaning": "（名）寮"
+    },
+    {
+        "word": "backyard",
+        "meaning": "（名）裏庭"
+    },
+    {
+        "word": "therefore",
+        "meaning": "（副）それ故"
+    },
+    {
+        "word": "rather",
+        "meaning": "（副）むしろ"
+    },
+    {
+        "word": "indeed",
+        "meaning": "（副）実は"
+    },
+    {
+        "word": "obviously",
+        "meaning": "（副）明らかに"
+    },
+    {
+        "word": "immediately",
+        "meaning": "（副）すぐに"
+    },
+    {
+        "word": "straight",
+        "meaning": "（副）まっすぐに"
+    },
+    {
+        "word": "slightly",
+        "meaning": "（副）わずかに"
+    },
+    {
+        "word": "hardly",
+        "meaning": "（副）ほとんど〜ない"
+    },
+    {
+        "word": "normally",
+        "meaning": "（副）通常は"
+    },
+    {
+        "word": "nevertheless",
+        "meaning": "（副）それにもかかわらず"
+    },
+    {
+        "word": "mainly",
+        "meaning": "（副）主に"
+    },
+    {
+        "word": "currently",
+        "meaning": "（副）現在のところ"
+    },
+    {
+        "word": "extremely",
+        "meaning": "（副）極端に"
+    },
+    {
+        "word": "increasingly",
+        "meaning": "（副）ますます"
+    },
+    {
+        "word": "totally",
+        "meaning": "（副）全く"
+    },
+    {
+        "word": "necessarily",
+        "meaning": "（副）必ずしも"
+    },
+    {
+        "word": "properly",
+        "meaning": "（副）適切に"
+    },
+    {
+        "word": "widely",
+        "meaning": "（副）広く"
+    },
+    {
+        "word": "unfortunately",
+        "meaning": "（副）残念ながら"
+    },
+    {
+        "word": "strongly",
+        "meaning": "（副）強く"
+    },
+    {
+        "word": "rapidly",
+        "meaning": "（副）急速に"
+    },
+    {
+        "word": "originally",
+        "meaning": "（副）最初は"
+    },
+    {
+        "word": "naturally",
+        "meaning": "（副）自然に"
+    },
+    {
+        "word": "rarely",
+        "meaning": "（副）めったに〜ない"
+    },
+    {
+        "word": "mostly",
+        "meaning": "（副）大部分は"
+    },
+    {
+        "word": "shortly",
+        "meaning": "（副）間もなく"
+    },
+    {
+        "word": "apart",
+        "meaning": "（副）〜から離れて"
+    },
+    {
+        "word": "greatly",
+        "meaning": "（副）非常に"
+    },
+    {
+        "word": "besides",
+        "meaning": "（副）その上"
+    },
+    {
+        "word": "wherever",
+        "meaning": "（副）〜する所はどこでも"
+    },
+    {
+        "word": "downstairs",
+        "meaning": "（副）下の階へ"
+    },
+    {
+        "word": "forever",
+        "meaning": "（副）永遠に"
+    },
+    {
+        "word": "fortunately",
+        "meaning": "（副）幸運にも"
+    },
+    {
+        "word": "seldom",
+        "meaning": "（副）めったに〜ない"
+    },
+    {
+        "word": "frankly",
+        "meaning": "（副）率直に"
+    },
+    {
+        "word": "whenever",
+        "meaning": "（接）〜するときはいつでも"
+    },
+    {
+        "word": "till",
+        "meaning": "（前）〜までずっと"
+    }
+]
