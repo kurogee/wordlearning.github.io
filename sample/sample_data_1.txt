@@ -1,0 +1,18 @@
+[word] apple
+[meaning] りんご
+[example] This apple is delicious.
+[example_meaning] このりんごは美味しいです。
+
+[word] banana
+[meaning] バナナ
+[example] Bananas are made in warm places.
+[example_meaning] バナナは温かい場所で作られます。
+
+[word] attractive
+[meaning] 魅力的な
+
+[word] effectively
+[meaning] 効果的に
+
+[word] wrap
+[meaning] 包む
