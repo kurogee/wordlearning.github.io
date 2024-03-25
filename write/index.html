@@ -69,6 +69,10 @@
         <div class="box" id="popup_window" style="display: none;"></div>
 
         <script>
+            // 音源を準備する
+            const correct_audio = new Audio("../sounds/correct.mp3");
+            const incorrect_audio = new Audio("../sounds/incorrect.mp3");
+
             let wrong_list = [];
             let original_url = "";
 
@@ -162,12 +166,20 @@
                         $("#enter_text").off("keypress").keypress(async function(e) {
                             if (e.which == 13) {
                                 if ($("#enter_text").val() == word.word) {
+                                    // 正解の音声を再生
+                                    correct_audio.currentTime = 0;
+                                    correct_audio.play();
+
                                     $("#popup_window").text("正解！");
                                     $("#popup_window").css("background-color", "lightgreen");
                                     $("#popup_window").show();
                                     await new Promise((resolve) => setTimeout(resolve, 1000));
                                     $("#popup_window").hide();
                                 } else {
+                                    // 不正解の音声を再生
+                                    incorrect_audio.currentTime = 0;
+                                    incorrect_audio.play();
+                                    
                                     $("#popup_window").text("不正解！正解は「" + word.word + "」です。");
                                     $("#popup_window").css("background-color", "lightcoral");
                                     $("#popup_window").show();

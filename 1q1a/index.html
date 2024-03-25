@@ -138,6 +138,10 @@
         <div class="box" id="popup_window" style="display: none;"></div>
 
         <script>
+            // 音源を準備する
+            const correct_audio = new Audio("../sounds/correct.mp3");
+            const incorrect_audio = new Audio("../sounds/incorrect.mp3");
+
             let wrong_list = [];
             let original_url = "";
 
@@ -145,18 +149,18 @@
                 return new Promise((resolve) => {
                     $.get(url, function(data) {
                         /*
-                        そのtxtデータは以下のような形式であることが前提
-                        [word] ワード1
-                        [meaning] 意味1
-                        ([example] 例文1)
-                        ([example_meaning] 例文の意味1)
-                        [word] ワード2
-                        [meaning] 意味2
-                        ([example] 例文2)
-                        ([example_meaning] 例文の意味2)
-                        ...
-                        この形式をJSON形式に落とし込む
-                        ()内は省略可能
+                            そのtxtデータは以下のような形式であることが前提
+                            [word] ワード1
+                            [meaning] 意味1
+                            ([example] 例文1)
+                            ([example_meaning] 例文の意味1)
+                            [word] ワード2
+                            [meaning] 意味2
+                            ([example] 例文2)
+                            ([example_meaning] 例文の意味2)
+                            ...
+                            この形式をJSON形式に落とし込む
+                            ()内は省略可能
                         */
                         let lines = data.split("\n");
 
@@ -271,12 +275,26 @@
                     console.log(correct_number);
                     $(".button").off("click").click(function() {
                         if ($(this).attr("data") == correct_number) {
+                            // 正解音を再生
+                            correct_audio.currentTime = 0;
+                            correct_audio.play();
+
+                            // 音が鳴り終わるまで待機
+                            let say_word = $("#word").text()
+                            correct_audio.onended = function() {
+                                // 英単語を読み上げる
+                                const synth = window.speechSynthesis;
+                                const utterThis = new SpeechSynthesisUtterance(say_word);
+                                utterThis.lang = "en-US";
+                                synth.speak(utterThis);
+                            };
+
                             html_code = `
                             <h3>正解！</h3>
-                                「${$("#word").text()}」の意味：<br>${$("#meaning" + correct_number).text()}
-                                ${question_result[1] !== null ? "<hr>例文：" + question_result[1]: ""}
-                                ${question_result[2] !== null ? "<br>例文の意味：" + question_result[2]: ""}
-                            `;
+                            「${$("#word").text()}」の意味：<br>${$("#meaning" + correct_number).text()}
+                            ${question_result[1] !== null ? "<hr>例文：" + question_result[1]: ""}
+                            ${question_result[2] !== null ? "<br>例文の意味：" + question_result[2]: ""}`;
+                            
                             // popup_windowに正解表示。windowまたは画面のクリックで消える
                             $("#popup_window").html(html_code + "<br><br><small>ウィンドウをクリックで閉じる</small>");
                             $("#popup_window").css("background-color", "darkseagreen");
@@ -288,12 +306,25 @@
                                 $("#popup_window").off("click");
                             });
                         } else {
+                            // 不正解音を再生
+                            incorrect_audio.currentTime = 0;
+                            incorrect_audio.play();
+
+                            // 音が鳴り終わるまで待機
+                            let say_word = $("#word").text()
+                            incorrect_audio.onended = function() {
+                                // 英単語を読み上げる
+                                const synth = window.speechSynthesis;
+                                const utterThis = new SpeechSynthesisUtterance(say_word);
+                                utterThis.lang = "en-US";
+                                synth.speak(utterThis);
+                            };
+
                             html_code = `
                             <h3>不正解！</h3>
-                                「${$("#word").text()}」の意味：<br>${$("#meaning" + correct_number).text()}
-                                ${question_result[1] !== null ? "<hr>例文：" + question_result[1]: ""}
-                                ${question_result[2] !== null ? "<br>例文の意味：" + question_result[2]: ""}
-                            `;
+                            「${$("#word").text()}」の意味：<br>${$("#meaning" + correct_number).text()}
+                            ${question_result[1] !== null ? "<hr>例文：" + question_result[1]: ""}
+                            ${question_result[2] !== null ? "<br>例文の意味：" + question_result[2]: ""}`;
                             // popup_windowに不正解表示。windowまたは画面のクリックで消える
                             $("#popup_window").html(html_code + "<br><br><small>ウィンドウをクリックで閉じる</small>");
                             $("#popup_window").css("background-color", "lightcoral");
