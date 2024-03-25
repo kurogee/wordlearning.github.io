@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <title>英単語学習アプリ - ひたすら一問一答</title>
+        <title>単語学習アプリ - ひたすら一問一答</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,7 +25,7 @@
 
             #meaning1, #meaning2, #meaning3, #meaning4 {
                 width: 45%;
-                height: 150px;
+                height: calc(80vh / 4 - 10px);
                 margin: 5px;
                 font-size: 30px;
                 border-radius: 30px 0 0 30px;
@@ -56,15 +56,15 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                width: 70%;
+                width: 85%;
                 height: 50%;
-                background-color: white;
-                border: 1px solid black;
                 border-radius: 30px;
                 padding: 20px;
                 font-size: 30px;
                 overflow: auto;
                 z-index: 100;
+                background-color: darkseagreen;
+                border: 3px solid black;
             }
         </style>
         <script src="../jquery-3.7.1.min.js"></script>
@@ -74,7 +74,8 @@
             <h2>ひたすら一問一答</h2>
             <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a>
             <p>
-                ひたすら英単語の意味を答えるだけのアプリです。
+                ひたすら英単語の意味を答えるだけのアプリです。<br>
+                URLを入力することで、他のオリジナル単語帳を使うこともできます。
             </p>
         </div>
         <hr>
@@ -136,13 +137,14 @@
                         ([example_meaning] 例文の意味1)
                         [word] ワード2
                         [meaning] 意味2
-                        ([example2] 例文2)
-                        ([example_meaning2] 例文の意味2)
+                        ([example] 例文2)
+                        ([example_meaning] 例文の意味2)
                         ...
                         この形式をJSON形式に落とし込む
                         ()内は省略可能
                         */
-                        const lines = data.split("\n");
+                        let lines = data.split("\n");
+
                         let json_data = [];
                         let word = "";
                         let meaning = "";
@@ -150,15 +152,15 @@
                         let example_meaning = "";
                         for (let i = 0; i < lines.length; i++) {
                             if (lines[i].startsWith("[word]")) {
-                                word = lines[i].replace("[word] ", "");
+                                word = lines[i].replace(/\[word\][ ]?/, "");
                             } else if (lines[i].startsWith("[meaning]")) {
-                                meaning = lines[i].replace("[meaning] ", "");
+                                meaning = lines[i].replace(/\[meaning\][ ]?/, "");
                             } else if (lines[i].startsWith("[example]")) {
-                                example = lines[i].replace("[example] ", "");
+                                example = lines[i].replace(/\[example\][ ]?/, "");
                             } else if (lines[i].startsWith("[example_meaning]")) {
-                                example_meaning = lines[i].replace("[example_meaning] ", "");
+                                example_meaning = lines[i].replace(/\[example_meaning\][ ]?/, "");
                             } else if (lines[i] == "") {
-                                json_data.push({word: word, meaning: meaning, example: example, example_meaning: example_meaning});
+                                json_data.push({word: word, meaning: meaning, sentence: example, sentence_ja: example_meaning});
                                 word = "";
                                 meaning = "";
                                 example = "";
@@ -171,13 +173,12 @@
             }
             
             async function question(path) {
-                let home_model_dict = "./model/";
+                let home_model_dict = "../model/";
                 let original_data;
 
-                return new Promise((resolve) => {
+                return new Promise(async (resolve) => {
                     if (path == "URL") {
-                        path = original_url;
-                        original_data = parse_url_text_to_json(path);
+                        original_data = await parse_url_text_to_json(original_url);
                         home_model_dict = "";
                     }
 
@@ -187,16 +188,15 @@
                         path = wrong_list[wrong_random][1];
                     }
 
-                    $.getJSON(home_model_dict + path, function(data) {
+                    $.getJSON(path == "URL" ? "./model/verbs.json" : home_model_dict + path, function(data) {
                         let correct_number = 0;
+                        let _data = data;
 
                         // URLの場合、dataをoriginal_dataに変更
-                        if (path == original_url) {
-                            original_data.then((value) => {
-                                data = value;
-                            });
+                        if (path == "URL") {
+                            _data = original_data;
                         }
-                        let word = data[Math.floor(Math.random() * data.length)];
+                        let word = _data[Math.floor(Math.random() * _data.length)];
 
                         // wrong_list関係の処理
                         if (wrong_list.length > 0 && $("#check_wrong_questions").prop("checked")) {
@@ -213,7 +213,7 @@
                         console.log(word);
                     
                         let wrong_meanings = [];
-                        let copy_data = data.filter((value) => value.meaning !== word.meaning);
+                        let copy_data = _data.filter((value) => value.meaning !== word.meaning);
                         for (let i = 0; i < 3; i++) {
                             wrong_meanings.push(copy_data[Math.floor(Math.random() * copy_data.length)].meaning);
                             copy_data = copy_data.filter((value) => value.meaning !== wrong_meanings[i]);
@@ -232,25 +232,35 @@
                             }
                             meanings.splice(index, 1);
                         }
-                        resolve(correct_number);
+                        // 正解の番号を返す。
+                        let result = [correct_number];
+                        if (word.sentence && word.sentence_ja) {
+                            result.push(word.sentence);
+                            result.push(word.sentence_ja);
+                        } else {
+                            result.push(null);
+                            result.push(null);
+                        }
+                        resolve(result);
                     });
                 });
             }
 
             function start_questions(path) {
                 let _path = path;
-                let html_code;
+                let html_code, question_result;
                 // 非同期処理をPromiseでラップ
                 return new Promise(async (resolve) => {
-                    const correct_number = await question(_path);
+                    question_result = await question(_path);
+                    const correct_number = question_result[0];
                     console.log(correct_number);
                     $(".button").off("click").click(function() {
                         if ($(this).attr("data") == correct_number) {
                             html_code = `
                             <h3>正解！</h3>
-                            <p>
-                                「${$("#word").text()}」の意味：<br>${$("#meaning" + correct_number).text()}   
-                            </p>
+                                「${$("#word").text()}」の意味：<br>${$("#meaning" + correct_number).text()}
+                                ${question_result[1] !== null ? "<hr>例文：" + question_result[1]: ""}
+                                ${question_result[2] !== null ? "<br>例文の意味：" + question_result[2]: ""}
                             `;
                             // popup_windowに正解表示。windowまたは画面のクリックで消える
                             $("#popup_window").html(html_code);
@@ -264,9 +274,9 @@
                         } else {
                             html_code = `
                             <h3>不正解！</h3>
-                            <p>
                                 「${$("#word").text()}」の意味：<br>${$("#meaning" + correct_number).text()}
-                            </p>
+                                ${question_result[1] !== null ? "<hr>例文：" + question_result[1]: ""}
+                                ${question_result[2] !== null ? "<br>例文の意味：" + question_result[2]: ""}
                             `;
                             // popup_windowに不正解表示。windowまたは画面のクリックで消える
                             $("#popup_window").html(html_code);

@@ -36,13 +36,13 @@ small {
     font-size: 15px;
 }
 
-#user, #area {
+#textbox, .textbox, #area {
     appearance: none;
     border-radius: 10px 10px;
     font-size: 25px;
 }
 
-#user {
+#textbox, .textbox {
     max-width: 90%;
 }
 
@@ -94,21 +94,13 @@ small {
     text-align: center;
 }
 
-#user, .button, .text {
+#textbox, .textbox, .button, .text {
     appearance: none;
     width: 95%;
     border: 2px solid rgb(67, 131, 199);
     box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.35);
     border-radius: 10px 10px;
     outline: none;
-}
-
-.text #user_id{
-    width: 30%;
-}
-
-.text #user_pass{
-    width: 30%;
 }
 
 .point-text{
