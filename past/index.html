@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <title>単語学習アプリ - ひたすら一問一答</title>
+        <title>単語学習アプリ - 過去形を答えよう</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -41,26 +41,14 @@
     </head>
     <body>
         <div id="box">
-            <h2>ひたすら打ち込み</h2>
+            <h2>ひたすら過去形</h2>
             <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a>
             <p>
-                ひたすら英単語を正しく打ち込むアプリです。<br>
-                英単語の意味などを確認しましょう。
+                このアプリでは、過去形を答える問題を出題します。
             </p>
         </div>
         <hr>
         <div id="box">
-            <h3>使用する単語のデータセット</h3>
-            <select id="use_dataset" style="width: 90%;">
-                <option value="verbs" path="verbs.json" selected>動詞データ(難易度：中学〜高校)</option>
-                <option value="adjectives" path="adjectives.json">形容詞データ(難易度：中学〜高校)</option>
-                <option value="nouns" path="noun(jhs).json">名詞データ(難易度：中学)</option>
-                <option value="nouns" path="noun(hs).json">名詞データ(難易度：高校)</option>
-                <option value="eiken3" path="eiken3.json">英検3級の単語データ</option>
-                <option value="eiken-pre2" path="eiken_pre2.json">英検準2級の単語データ</option>
-                <option value="url" path="URL">URL</option>
-            </select>
-            <hr>
             <h2 id="question" class="box"></h2>
             <div id="answer">
                 <input type="text" id="enter_text" class="textbox">
@@ -78,83 +66,26 @@
 
             let wrong_list = [];
             let original_url = "";
-
-            async function parse_url_text_to_json(url) {
-                return new Promise((resolve) => {
-                    $.get(url, function(data) {
-                        /*
-                        そのtxtデータは以下のような形式であることが前提
-                        [word] ワード1
-                        [meaning] 意味1
-                        ([example] 例文1)
-                        ([example_meaning] 例文の意味1)
-                        [word] ワード2
-                        [meaning] 意味2
-                        ([example] 例文2)
-                        ([example_meaning] 例文の意味2)
-                        ...
-                        この形式をJSON形式に落とし込む
-                        ()内は省略可能
-                        */
-                        let lines = data.split("\n");
-
-                        let json_data = [];
-                        let word = "";
-                        let meaning = "";
-                        let example = "";
-                        let example_meaning = "";
-                        for (let i = 0; i < lines.length; i++) {
-                            if (lines[i].startsWith("[word]")) {
-                                word = lines[i].replace(/\[word\][ ]?/, "");
-                            } else if (lines[i].startsWith("[meaning]")) {
-                                meaning = lines[i].replace(/\[meaning\][ ]?/, "");
-                            } else if (lines[i].startsWith("[example]")) {
-                                example = lines[i].replace(/\[example\][ ]?/, "");
-                            } else if (lines[i].startsWith("[example_meaning]")) {
-                                example_meaning = lines[i].replace(/\[example_meaning\][ ]?/, "");
-                            } else if (lines[i] == "") {
-                                json_data.push({word: word, meaning: meaning, sentence: example, sentence_ja: example_meaning});
-                                word = "";
-                                meaning = "";
-                                example = "";
-                                example_meaning = "";
-                            }
-                        }
-                        resolve(json_data);
-                    });
-                });
-            }
             
-            async function question(path) {
+            async function question() {
                 let home_model_dict = "../model/";
                 let original_data;
 
                 return new Promise(async (resolve) => {
-                    if (path == "URL") {
-                        original_data = await parse_url_text_to_json(original_url);
-                        home_model_dict = "";
-                    }
-
                     let wrong_random;
                     if (wrong_list.length > 0 && $("#check_wrong_questions").prop("checked")) {
                         wrong_random = Math.floor(Math.random() * wrong_list.length);
-                        path = wrong_list[wrong_random][1];
                     }
 
-                    $.getJSON(path == "URL" ? "../model/verbs.json" : home_model_dict + path, async function(data) {
+                    $.getJSON("../model/verbs_past.json", async function(data) {
                         let _data = data;
-
-                        // URLの場合、dataをoriginal_dataに変更
-                        if (path == "URL") {
-                            _data = original_data;
-                        }
                         let word = _data[Math.floor(Math.random() * _data.length)];
 
                         // wrong_list関係の処理
                         if (wrong_list.length > 0 && $("#check_wrong_questions").prop("checked")) {
                             const wrong_word = wrong_list[wrong_random];
                             wrong_list = wrong_list.filter((value) => value[0] !== wrong_word[0]);
-                            word = {word: wrong_word[0], meaning: wrong_word[2]};
+                            word = {word: wrong_word[0], past_form: wrong_word[1]};
                         }
 
                         if (wrong_list.length <= 0) {
@@ -162,13 +93,13 @@
                             $("#check_wrong_questions").prop("disabled", true);
                         }
 
-                        $("#question").text(word.meaning);
+                        $("#question").text(word.word);
                         $("#enter_text").val("");
                         $("#enter_text").focus();
 
                         $("#enter_text").off("keypress").keypress(async function(e) {
                             if (e.which == 13) {
-                                if ($("#enter_text").val() == word.word) {
+                                if ($("#enter_text").val() == word.past_form) {
                                     // 正解の音声を再生
                                     correct_audio.currentTime = 0;
                                     correct_audio.play();
@@ -183,19 +114,19 @@
                                     incorrect_audio.currentTime = 0;
                                     incorrect_audio.play();
 
-                                    $("#popup_window").text("不正解！正解は「" + word.word + "」です。");
+                                    $("#popup_window").text("不正解！正解は「" + word.past_form + "」です。");
                                     $("#popup_window").css("background-color", "lightcoral");
                                     $("#popup_window").show();
                                     await new Promise((resolve) => setTimeout(resolve, 1000));
                                     $("#popup_window").hide();
-                                    wrong_list.push([word.word, path, word.meaning]);
+                                    wrong_list.push([word.word, word.past_form]);
                                 }
 
                                 if (wrong_list.length > 0) {
                                     $("#check_wrong_questions").prop("disabled", false);
                                 }
 
-                                await question(path);
+                                await question();
                             }
                         });
                     });
@@ -203,18 +134,10 @@
             }
 
             async function start_questions() {
-                let path = $("#use_dataset option:selected").attr("path");
-                await question(path);
+                await question();
             }
 
             $(function() {
-                $("#use_dataset").change(async function() {
-                    if ($("#use_dataset option:selected").val() == "url") {
-                        original_url = prompt("URLを入力してください。");
-                    }
-                    await start_questions();
-                });
-
                 $("#check_wrong_questions").change(async function() {
                     await start_questions();
                 });

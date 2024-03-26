@@ -1,0 +1,1862 @@
+[
+    {
+        "word": "accept",
+        "meaning": "【他】（判決・結果・提案・運命・逆境など）を受け入れる。（贈り物など）を受け取る。（人・店などが）（小切手・クレジットカードなどの支払い）を受け入れる",
+        "past_form": "accepted"
+    },
+    {
+        "word": "achieve",
+        "meaning": "【他】（努力して）（目標など）を達成する。（名声・地位など）を獲得する",
+        "past_form": "achieved"
+    },
+    {
+        "word": "act",
+        "meaning": "【自】（人が）行動する。（～のように）ふるまう、ふりをする。（人が）（～の役）を演じる",
+        "past_form": "acted"
+    },
+    {
+        "word": "add",
+        "meaning": "【他】（物）を（他の物に）加える。（数）を（数へ）足す",
+        "past_form": "added"
+    },
+    {
+        "word": "address",
+        "meaning": "【他】（封筒など）に宛先を書く、上書きする。（人が）（聴衆など）に演説する",
+        "past_form": "addrest"
+    },
+    {
+        "word": "admire",
+        "meaning": "【他】（人が）（人・物）に感心する、敬服（けいふく）する、称賛（しょうさん）する",
+        "past_form": "admired"
+    },
+    {
+        "word": "admit",
+        "meaning": "【他】（自分に不利益な物事）を（しぶしぶ）認める。～を（正当だと）認める。～への入場を認める",
+        "past_form": "admitted"
+    },
+    {
+        "word": "advise",
+        "meaning": "【他】（人）に（～するように）助言する、忠告する。（専門家などが）（人に）（～すること）を勧める",
+        "past_form": "advised"
+    },
+    {
+        "word": "agree",
+        "meaning": "【自】（人の意見・提案などに）同意する、賛成する。（計画・依頼などを）承諾する",
+        "past_form": "agreed"
+    },
+    {
+        "word": "allow",
+        "meaning": "【他】（人が～すること）を許す、認める。（人・物が）～するのを可能にする",
+        "past_form": "allowed"
+    },
+    {
+        "word": "announce",
+        "meaning": "【他】（人・組織などが）（計画・出来事など）を発表[公表]する",
+        "past_form": "announced"
+    },
+    {
+        "word": "answer",
+        "meaning": "【他】（人が）（質問など）に答える。（試験問題など）に解答する",
+        "past_form": "answered"
+    },
+    {
+        "word": "appear",
+        "meaning": "【自】（人・物・場所などが）～のように見える。（物などが）（～の前に）現れる",
+        "past_form": "appeared"
+    },
+    {
+        "word": "apply",
+        "meaning": "【自】（人が）（仕事などに）応募する。（人が）（入試試験などに）出願する。（人が）（許可書などを）申請する。（規則・ルールなどが）（人に）適用される",
+        "past_form": "applied"
+    },
+    {
+        "word": "argue",
+        "meaning": "【自】（～について）言い争う、口論する。【他】～だと主張する。～を議論する、討論する",
+        "past_form": "argued"
+    },
+    {
+        "word": "arrive",
+        "meaning": "【自】（人・乗り物などが）（ある場所に）着く、到着する。（注文した商品などが）届く",
+        "past_form": "arrived"
+    },
+    {
+        "word": "ask",
+        "meaning": "【他】（人に）～を尋ねる、質問する。（人が）（人）に～するように頼む、依頼する。（人に）（事・許可・お願いなど）を求める",
+        "past_form": "asked"
+    },
+    {
+        "word": "attack",
+        "meaning": "【他】（人・集団が）（人・場所）を襲う、襲撃する。（免疫細胞などが）（病原菌など）を攻撃する",
+        "past_form": "attacked"
+    },
+    {
+        "word": "attempt",
+        "meaning": "【他】（難しい事の実行・達成・解決など）を試みる、企てる（くわだてる）",
+        "past_form": "attempted"
+    },
+    {
+        "word": "attend",
+        "meaning": "【他】（人が）～に出席する。（学校など）に通う",
+        "past_form": "attended"
+    },
+    {
+        "word": "bake",
+        "meaning": "【他】（人が）（パン・クッキーなど）を（オーブンで）焼く",
+        "past_form": "baked"
+    },
+    {
+        "word": "base",
+        "meaning": "【他】（人・組織などが）（本社・活動拠点など）を（ある場所に）置く。（意見・理論など）の基礎を置く",
+        "past_form": "based"
+    },
+    {
+        "word": "beat",
+        "meaning": "【他】（人が）（人・物）を（何度も繰り返して）打つ、たたく。（試合・競争などで）（相手）を打ち負かす",
+        "past_form": "beat"
+    },
+    {
+        "word": "become",
+        "meaning": "【他】（人・動物・物・事が）～の状態になる。（洋服などが）（人）に似合う",
+        "past_form": "became"
+    },
+    {
+        "word": "begin",
+        "meaning": "【他】（人・物・事が）～を始める。～に取りかかる",
+        "past_form": "began"
+    },
+    {
+        "word": "behave",
+        "meaning": "【自】（人が～に対して良く、悪く）ふるまう。行儀よくふるまう。",
+        "past_form": "behaved"
+    },
+    {
+        "word": "believe",
+        "meaning": "【他】（人が）～を信じる、本当だと思う",
+        "past_form": "believed"
+    },
+    {
+        "word": "belong",
+        "meaning": "【自】（物が）（人の）所有物である。（人が）（国・団体・組織などに）所属する。（物が）（国・団体などに）帰属する。",
+        "past_form": "belonged"
+    },
+    {
+        "word": "bend",
+        "meaning": "【他】（物・腕・足など）を曲げる。（方針・考えなど）を曲げる。【自】[+over]（人が）かがむ、腰を曲げる",
+        "past_form": "bent"
+    },
+    {
+        "word": "bite",
+        "meaning": "【他】（人・動物が）（人・動物）をかむ。（虫などが）（人・動物）を刺す",
+        "past_form": "bited"
+    },
+    {
+        "word": "blame",
+        "meaning": "【他】（人）を（事実に基づいて）非難する、責める。（～を人・物・事）の責任にする",
+        "past_form": "blamed"
+    },
+    {
+        "word": "blow",
+        "meaning": "【自】（人が）息を吐く、息を吹きかける。（風が）吹く。【他】（風が）～を吹き動かす",
+        "past_form": "blew"
+    },
+    {
+        "word": "boil",
+        "meaning": "【他】（液体）を沸かす。（食物）をゆでる、炊く",
+        "past_form": "boiled"
+    },
+    {
+        "word": "bow",
+        "meaning": "【自】（人が）お辞儀をする",
+        "past_form": "bowed"
+    },
+    {
+        "word": "break",
+        "meaning": "【他】（人が）（物）を壊す。（約束・規則など）を破る。（人が）（作業・動作など）を中断する。【自】（機械・物が）故障する",
+        "past_form": "broke"
+    },
+    {
+        "word": "bring",
+        "meaning": "【他】（人が）（物）を持って来る。（人・事・乗り物などが）（人）を連れて来る。（物・事が）～をもたらす、引き起こす",
+        "past_form": "brought"
+    },
+    {
+        "word": "build",
+        "meaning": "【他】（建物など）を建てる、建築する。（部品を組み合わせて）（機械など）を組み立てる",
+        "past_form": "built"
+    },
+    {
+        "word": "burn",
+        "meaning": "【自】（火・物が）燃える。（料理などが）焦げる。（人が）～を燃やす",
+        "past_form": "burnt"
+    },
+    {
+        "word": "burst",
+        "meaning": "【自】（膨らんだ物・風船などが）破裂する。（爆弾などが）爆発する",
+        "past_form": "burst"
+    },
+    {
+        "word": "buy",
+        "meaning": "【他】～を買う、購入する",
+        "past_form": "bought"
+    },
+    {
+        "word": "call",
+        "meaning": "【他】（人が）（人など）を（大声で）呼ぶ。（人・タクシーなど）を呼び出す",
+        "past_form": "called"
+    },
+    {
+        "word": "cancel",
+        "meaning": "【他】（人などが）（注文・予約など）を取り消す。（予定・イベントなど）を（事前に）中止にする",
+        "past_form": "cancelled"
+    },
+    {
+        "word": "care",
+        "meaning": "【自】（人が）（人・物・事に）関心がある、大事に思う。[+for]（人が）（人・ペットなどの）世話をする",
+        "past_form": "cared"
+    },
+    {
+        "word": "carry",
+        "meaning": "【他】（人・物）を運ぶ、持っていく",
+        "past_form": "carried"
+    },
+    {
+        "word": "catch",
+        "meaning": "【他】（人・動物など）をつかまえる。（ボール・機会など）をとらえる",
+        "past_form": "caught"
+    },
+    {
+        "word": "change",
+        "meaning": "【他】（人が）（物・事）を変える、変更する。～を交換する。（乗り物）を乗り換える。【自】（～が）変化する",
+        "past_form": "changed"
+    },
+    {
+        "word": "charge",
+        "meaning": "【他】（人・会社が）（金額）を請求する。（電池など）を充電する。（人）を（～の罪で）告発する",
+        "past_form": "charged"
+    },
+    {
+        "word": "check",
+        "meaning": "【他】（実験・仕事などを）（調査標準などに照らして）調査する。（安全性・性能など）を検査する、点検する",
+        "past_form": "checked"
+    },
+    {
+        "word": "choose",
+        "meaning": "【他】（人が）（複数の選択肢の中から）（人・物）を選ぶ、選択する",
+        "past_form": "chose"
+    },
+    {
+        "word": "claim",
+        "meaning": "【他】（人が）～だと主張する。(人が)（損害賠償・保険金など）を請求する",
+        "past_form": "claimed"
+    },
+    {
+        "word": "clean",
+        "meaning": "【他】（人が）（部屋・物など）を掃除する、清潔にする",
+        "past_form": "cleaned"
+    },
+    {
+        "word": "climb",
+        "meaning": "【自】（人・動物が）（手足を使って）登る、よじ登る、上がる",
+        "past_form": "climbed"
+    },
+    {
+        "word": "close",
+        "meaning": "【他】（目・ドア・窓・本など）を閉じる。（会社・店など）を閉店する。（道路など）を閉鎖する。（会議など）を終わらせる",
+        "past_form": "closed"
+    },
+    {
+        "word": "collect",
+        "meaning": "【他】（人が）（人・物・情報など）を集める。（物など）を（趣味・研究などで）収集する。（人から）（税金・料金など）を徴収する",
+        "past_form": "collected"
+    },
+    {
+        "word": "combine",
+        "meaning": "【他】（物・事）を（～と）組み合わせる、結合させる。【自】（物質などが）結合する、化合する",
+        "past_form": "combined"
+    },
+    {
+        "word": "come",
+        "meaning": "【自】（人・動物・車が）（話し手のほうへ）来る",
+        "past_form": "came"
+    },
+    {
+        "word": "compare",
+        "meaning": "【他】（人が）（複数の～）を比較する。【自】[+with]（～に）匹敵する",
+        "past_form": "compared"
+    },
+    {
+        "word": "complain",
+        "meaning": "【自】（～について）不満[不平・文句]を言う。（痛み・体調不良などを）訴える",
+        "past_form": "complained"
+    },
+    {
+        "word": "complete",
+        "meaning": "【他】（物・事）を完成させる、仕上げる",
+        "past_form": "completed"
+    },
+    {
+        "word": "confirm",
+        "meaning": "【他】（人・物・事が）（陳述・証拠など）を（本当だと）示す、確認する。（～の間違いないこと）を確証する",
+        "past_form": "confirmed"
+    },
+    {
+        "word": "consider",
+        "meaning": "【他】（物・事）をよく考える、熟考する、検討する。（人・物・事）を（～だと）見なす。",
+        "past_form": "considered"
+    },
+    {
+        "word": "contain",
+        "meaning": "【他】（箱・場所などが）（物）を含む。（本・映画・内容などが）（章・情報など）を含む。（食べ物が）（栄養など）を含む",
+        "past_form": "contained"
+    },
+    {
+        "word": "continue",
+        "meaning": "【自】（動作・状態が）続く、続いている。【他】（動作・習慣など）を続ける。（中断した後で）～の続きをやる",
+        "past_form": "continued"
+    },
+    {
+        "word": "control",
+        "meaning": "【他】（人・政府・権力者などが）（人・物など）を支配する、管理する、統制する。（感情・経費など）を抑える",
+        "past_form": "controlled"
+    },
+    {
+        "word": "cook",
+        "meaning": "【他】（食物）を（火・熱で）料理する",
+        "past_form": "cooked"
+    },
+    {
+        "word": "cool",
+        "meaning": "【他】（人・物が）（人・物・場所）を冷やす、涼しくする。（人が）（怒った感情など）を静める",
+        "past_form": "cooled"
+    },
+    {
+        "word": "copy",
+        "meaning": "【他】（書類など）を（そっくり）写す、コピーする。（態度など）をまねる、手本とする",
+        "past_form": "copied"
+    },
+    {
+        "word": "cost",
+        "meaning": "【他】（金額・費用など）がかかる。～の値段である。（時間・労働）がかかる",
+        "past_form": "cost"
+    },
+    {
+        "word": "cough",
+        "meaning": "【自】（人が）咳をする",
+        "past_form": "coughed"
+    },
+    {
+        "word": "count",
+        "meaning": "【他】（人が）（～の数）を数える。（人・物）を数に入れる",
+        "past_form": "counted"
+    },
+    {
+        "word": "cover",
+        "meaning": "【他】（物など）を（～で）覆う。（本・論文・話などが）（内容・情報など）を取り扱う。（保険が）（物の修理など）を保証する",
+        "past_form": "covered"
+    },
+    {
+        "word": "create",
+        "meaning": "【他】（何か新しい物）を創造する、作成する、開発する",
+        "past_form": "created"
+    },
+    {
+        "word": "cross",
+        "meaning": "【他】（人・乗り物などが）（道など）を横切る、横断する。（人が）（物）を交差させる",
+        "past_form": "crossed"
+    },
+    {
+        "word": "cry",
+        "meaning": "【自】（人が）涙を流して泣く。～を求めて叫ぶ、大声をあげる",
+        "past_form": "cried"
+    },
+    {
+        "word": "cut",
+        "meaning": "【他】（人が）～を切る、切断する。（人員・費用・価格など）を削減する",
+        "past_form": "cut"
+    },
+    {
+        "word": "dance",
+        "meaning": "【自】（人が）（音楽などに合わせて）踊る、舞う。（人がフラメンコなど）を踊る",
+        "past_form": "danced"
+    },
+    {
+        "word": "deal",
+        "meaning": "【他】（人が）（トランプのカード）を配る。（人が）（物）を与える",
+        "past_form": "dealt"
+    },
+    {
+        "word": "decide",
+        "meaning": "【他】（予定・計画・方針など）を決める、決心する",
+        "past_form": "decided"
+    },
+    {
+        "word": "decrease",
+        "meaning": "【自】（数量・価値・大きさなどが）減る、減少する",
+        "past_form": "decreased"
+    },
+    {
+        "word": "deliver",
+        "meaning": "【他】（人・会社が）（手紙・荷物・商品など）を（人・場所に）配達する。（伝言など）を（人に）伝える",
+        "past_form": "delivered"
+    },
+    {
+        "word": "deny",
+        "meaning": "【他】（主張、陳述など）を否定する。（要求など）を拒否する、拒絶する",
+        "past_form": "denied"
+    },
+    {
+        "word": "describe",
+        "meaning": "【他】（人・物・事）を描写する、特徴を述べる",
+        "past_form": "described"
+    },
+    {
+        "word": "develop",
+        "meaning": "【他】（人が）（技術・能力・人間関係など）を発達させる。（新商品など）を開発する",
+        "past_form": "developed"
+    },
+    {
+        "word": "die",
+        "meaning": "【自】（人・動物が）死ぬ。（植物が）枯れる",
+        "past_form": "died"
+    },
+    {
+        "word": "dig",
+        "meaning": "【他】（地面・穴・トンネルなど）を掘る。（根野菜・財宝など）を掘り出す",
+        "past_form": "dug"
+    },
+    {
+        "word": "disappear",
+        "meaning": "【自】（人・物が）（視界から）見えなくなる、消える。（人・物・事が）消える、消滅する",
+        "past_form": "disappeared"
+    },
+    {
+        "word": "discover",
+        "meaning": "【他】（人・物・事）を（最初に）発見する。（事実・真実など）を知る",
+        "past_form": "discovered"
+    },
+    {
+        "word": "discuss",
+        "meaning": "【他】（人が）（物・事）を話し合う、議論する",
+        "past_form": "discussed"
+    },
+    {
+        "word": "dislike",
+        "meaning": "【他】（人が）～を嫌う",
+        "past_form": "disliked"
+    },
+    {
+        "word": "do",
+        "meaning": "【他】（人が）（行動・仕事など）をする。（物・事）を処理する",
+        "past_form": "did"
+    },
+    {
+        "word": "doubt",
+        "meaning": "【他】（人が）（人・物・事）を疑う（うたがう）",
+        "past_form": "doubted"
+    },
+    {
+        "word": "draw",
+        "meaning": "【他】（人・物）を（線で）描く。（人が）（線）を引く。（人・物）を引っ張る",
+        "past_form": "drew"
+    },
+    {
+        "word": "dress",
+        "meaning": "【他】（人）に服を着せる。【自】（人が）服を着る",
+        "past_form": "dressed"
+    },
+    {
+        "word": "drink",
+        "meaning": "【他】（人が）（飲み物）を飲む。【自】酒を飲む",
+        "past_form": "drank"
+    },
+    {
+        "word": "drive",
+        "meaning": "【他】（自動車など）を運転する。（機械など）を動かす",
+        "past_form": "drove"
+    },
+    {
+        "word": "drop",
+        "meaning": "【自】（物が）落ちる、落下する。（物価・株価・温度などが）下がる。【他】（物）を落とす",
+        "past_form": "dropped"
+    },
+    {
+        "word": "earn",
+        "meaning": "【他】（人が）（お金）を稼ぐ。（人・会社などが）（利益・お金）を得る。（人・会社などが）（名声・信頼など）を得る",
+        "past_form": "earned"
+    },
+    {
+        "word": "eat",
+        "meaning": "【他】（人が）（食べ物）を食べる",
+        "past_form": "ate"
+    },
+    {
+        "word": "end",
+        "meaning": "【他】（人が）（物・事）を終わらせる。【自】（事・行為などが）終わる",
+        "past_form": "ended"
+    },
+    {
+        "word": "enjoy",
+        "meaning": "【他】（人が）～を楽しむ、楽しく過ごす",
+        "past_form": "enjoyed"
+    },
+    {
+        "word": "enter",
+        "meaning": "【他】（人が）（場所）に入る。（大学など）に入学する。（大学など）に入会する",
+        "past_form": "entered"
+    },
+    {
+        "word": "exist",
+        "meaning": "【自】（人・物が）存在する、実在する。（人・生物が）生存する",
+        "past_form": "existed"
+    },
+    {
+        "word": "expect",
+        "meaning": "【他】（人が）（物・事）を予期する。（人が）（物・事）を期待する。（物・事）を（起きることを信じて）待つ",
+        "past_form": "expected"
+    },
+    {
+        "word": "explain",
+        "meaning": "【他】（人などが）～を説明する",
+        "past_form": "explained"
+    },
+    {
+        "word": "express",
+        "meaning": "【他】（考え・気持ちなど）を（言葉などで）表現する",
+        "past_form": "expressed"
+    },
+    {
+        "word": "face",
+        "meaning": "【他】（人・物が）（人・物）に面する、向かう。（困難など）に直面する。（危険など）に立ち向かう",
+        "past_form": "faced"
+    },
+    {
+        "word": "fail",
+        "meaning": "【自】（人が）（試み・計画などで）失敗する。【他】（人が）（試験など）に落ちる",
+        "past_form": "failed"
+    },
+    {
+        "word": "fall",
+        "meaning": "【自】（人・物が）（引力で）落下する、落ちる。（人・木・物などが）倒れる、転倒する。",
+        "past_form": "fell"
+    },
+    {
+        "word": "feed",
+        "meaning": "【他】（動物）に餌を与える。（人）に食事を与える",
+        "past_form": "feed"
+    },
+    {
+        "word": "feel",
+        "meaning": "【他】（人が）～を（体・心で）感じる、感知する",
+        "past_form": "felt"
+    },
+    {
+        "word": "fill",
+        "meaning": "【他】（容器・場所など）を～でいっぱいにする、満たす",
+        "past_form": "filled"
+    },
+    {
+        "word": "find",
+        "meaning": "【他】（探し物）を発見する。（偶然に）～を見つける",
+        "past_form": "found"
+    },
+    {
+        "word": "finish",
+        "meaning": "【他】（人が）（仕事など）を終える、完成する。～を仕上げる",
+        "past_form": "finished"
+    },
+    {
+        "word": "fire",
+        "meaning": "【他】（銃・弾丸など）を発射する、発砲する。（人）を解雇する。（物）に火をつける。（火薬など）を爆発させる",
+        "past_form": "fired"
+    },
+    {
+        "word": "fix",
+        "meaning": "【他】（人が）（物）を（～に）しっかり固定する、取り付ける。（人が物）を修理する。（日時・場所）を決める",
+        "past_form": "fixed"
+    },
+    {
+        "word": "float",
+        "meaning": "【自】（人・物が）（水上・空中に）浮かぶ、浮く。【他】（人が）～を（水上・空中に）浮かべる",
+        "past_form": "floated"
+    },
+    {
+        "word": "flow",
+        "meaning": "【自】（川・液体・空気・血液などが）流れる。（人・お金・情報などが）移動する",
+        "past_form": "flowed"
+    },
+    {
+        "word": "fly",
+        "meaning": "【自】（人が）（飛行機で）飛ぶ。（鳥・虫が）飛ぶ。",
+        "past_form": "flew"
+    },
+    {
+        "word": "focus",
+        "meaning": "【他】（注意・精神・関心など）を集中させる。（カメラ・レンズなど）の焦点を～に合わせる",
+        "past_form": "focussed"
+    },
+    {
+        "word": "follow",
+        "meaning": "【他】（人・動物が）（人など）の後についていく。（事が）（事）の後に起こる。【自】（人などが）後から来る",
+        "past_form": "followed"
+    },
+    {
+        "word": "force",
+        "meaning": "【他】（人・事が）（人）に～することを強制する。（仕事・考えなど）を（人に）押し付ける",
+        "past_form": "forced"
+    },
+    {
+        "word": "forget",
+        "meaning": "【他】（人が）～を忘れる、思い出せない。～するのを忘れる",
+        "past_form": "forgot"
+    },
+    {
+        "word": "forgive",
+        "meaning": "【他】（人・神が）（人）を許す。（人が）（人）の（罪などを）許す",
+        "past_form": "forgave"
+    },
+    {
+        "word": "freeze",
+        "meaning": "【自】（液体が）凍る。【他】（食べ物）を冷凍する",
+        "past_form": "froze"
+    },
+    {
+        "word": "fry",
+        "meaning": "【他】（人が）（食材）を（油で）炒める（いためる）、揚げる",
+        "past_form": "fried"
+    },
+    {
+        "word": "gain",
+        "meaning": "【他】（人が）（努力して）～を獲得する。（人が）（自分の体重など）を増す。（知識など）を増やす",
+        "past_form": "gained"
+    },
+    {
+        "word": "gather",
+        "meaning": "【他】（人・物が）（人・物）を集める。（人が）（農作物など）を収穫する。【自】（人・物が）（～の周りに）集まる",
+        "past_form": "gathered"
+    },
+    {
+        "word": "gaze",
+        "meaning": "【自】（驚き・興味・憧れなどの理由で）（～を）見つめる、じっと見る",
+        "past_form": "gazed"
+    },
+    {
+        "word": "get",
+        "meaning": "【他】（人が）（物・事）を得る。（人が）（人・物）に～させる。【自】（人・物・事が）（ある状態・感情に）なる。（人・乗物が）（ある場所に）着く",
+        "past_form": "got"
+    },
+    {
+        "word": "give",
+        "meaning": "【他】（人が）（物）を（無償で）あげる、与える",
+        "past_form": "gave"
+    },
+    {
+        "word": "glance",
+        "meaning": "【自】（人が）（～を）ちらっと見る。（書類などに）ざっと目を通す",
+        "past_form": "glanced"
+    },
+    {
+        "word": "go",
+        "meaning": "【自】（人・乗り物などが）行く、向かう。（機械などが）動く、動作する",
+        "past_form": "went"
+    },
+    {
+        "word": "graduate",
+        "meaning": "【自】（人が）（大学を）卒業する",
+        "past_form": "graduated"
+    },
+    {
+        "word": "greet",
+        "meaning": "【他】（人が）（人）を（温かく）出迎える。（人）に挨拶する",
+        "past_form": "greeted"
+    },
+    {
+        "word": "grow",
+        "meaning": "【自】（人・動物・植物が）成長する。（売上・人口・力などが）（数量・大きさ・程度などの面で）増大する",
+        "past_form": "grew"
+    },
+    {
+        "word": "guard",
+        "meaning": "【他】（人・動物・機械などが）～を守る、保護する。（囚人）を監視する",
+        "past_form": "guarded"
+    },
+    {
+        "word": "guess",
+        "meaning": "【他】（人が）～を推測する。（人が）（答えなど）を言い当てる",
+        "past_form": "guessed"
+    },
+    {
+        "word": "guide",
+        "meaning": "【他】（同行して人）を案内する、道案内する",
+        "past_form": "guided"
+    },
+    {
+        "word": "hand",
+        "meaning": "【他】（人が）（物）を（人に）手渡す",
+        "past_form": "handed"
+    },
+    {
+        "word": "handle",
+        "meaning": "【他】（仕事・問題など）を対処[処理]する。（機械・乗り物など）を操作する",
+        "past_form": "handled"
+    },
+    {
+        "word": "happen",
+        "meaning": "【自】（事が）（偶然に）起こる、生じる。（人・物・事が）偶然～する",
+        "past_form": "happened"
+    },
+    {
+        "word": "hate",
+        "meaning": "【他】～をひどく嫌う、憎む。～することをいやに思う",
+        "past_form": "hated"
+    },
+    {
+        "word": "have",
+        "meaning": "【他】（物・財産）を所有する。（家族・友人など）を持っている。（性質・属性・特徴）を持っている。（感情・考えなど）を持っている",
+        "past_form": "had"
+    },
+    {
+        "word": "head",
+        "meaning": "【自】（人・乗り物などが）（ある方向・場所・目的地へ）向かう。（チーム・組織など）を率いる。（人が）～の先頭に立つ。",
+        "past_form": "headed"
+    },
+    {
+        "word": "hear",
+        "meaning": "【他】（人が）（～の音）が聞こえる",
+        "past_form": "heard"
+    },
+    {
+        "word": "help",
+        "meaning": "【他】（仕事・家事など）を手伝う、支援する。（人）を助ける、救う",
+        "past_form": "helped"
+    },
+    {
+        "word": "hide",
+        "meaning": "【他】（人・物が）（人・物）を隠す。【自】（人・動物が）隠れる",
+        "past_form": "hid"
+    },
+    {
+        "word": "hire",
+        "meaning": "【他】（人が）（人）を雇う、雇用する。[主に英国]（人が）（物・場所など）を借りる",
+        "past_form": "hired"
+    },
+    {
+        "word": "hit",
+        "meaning": "【他】（人・物が）（人・物）を打つ、たたく。（矢・球などが）（標的）に命中する",
+        "past_form": "hit"
+    },
+    {
+        "word": "hold",
+        "meaning": "【他】（人が）（物）を手に持つ。（物を）保有する、保管する。【自】（物が）（壊れないで）持ちこたえる",
+        "past_form": "held"
+    },
+    {
+        "word": "hope",
+        "meaning": "【他】～することを望む、希望する。～したいと思う。～であることを願う",
+        "past_form": "hoped"
+    },
+    {
+        "word": "hunt",
+        "meaning": "【自】（人が）（動物を）狩る（かる）",
+        "past_form": "hunted"
+    },
+    {
+        "word": "hurry",
+        "meaning": "【他】（人・馬など）を急がせる。（仕事など）を急いでする",
+        "past_form": "hurried"
+    },
+    {
+        "word": "hurt",
+        "meaning": "【他】（人・物・事が）（人）を傷つける。（人）の感情を害する。【自】（体の一部が）痛む",
+        "past_form": "hurt"
+    },
+    {
+        "word": "imagine",
+        "meaning": "【他】（人が）～を想像する、推測する",
+        "past_form": "imagined"
+    },
+    {
+        "word": "include",
+        "meaning": "【他】（人・物・事が）～を（～の一部として）含む。～を（～の中に）含める",
+        "past_form": "included"
+    },
+    {
+        "word": "increase",
+        "meaning": "【自】（数量・価値・大きさなどが）増える、増加する。【他】（人・物・事が）～を増やす",
+        "past_form": "increased"
+    },
+    {
+        "word": "indicate",
+        "meaning": "【他】（結果・証拠・統計などが）～を指し示す、指摘する、暗示する。（～の徴候）を示す",
+        "past_form": "indicated"
+    },
+    {
+        "word": "intend",
+        "meaning": "【他】（人が）～するつもりである。（人が）～を意図する",
+        "past_form": "intended"
+    },
+    {
+        "word": "introduce",
+        "meaning": "【他】（人）を紹介する。（ある物事について）（人）に教える。（制度・仕組み・製品など）を導入する",
+        "past_form": "introduced"
+    },
+    {
+        "word": "invent",
+        "meaning": "【他】（人が）（画期的な機械・物など）を発明する",
+        "past_form": "invented"
+    },
+    {
+        "word": "invite",
+        "meaning": "【他】（人）を招く、招き入れる。（人）を（会・食事に）招待する",
+        "past_form": "invited"
+    },
+    {
+        "word": "involve",
+        "meaning": "【他】（仕事などが）（～の業務）を含む。（事が）（人）を～に巻き込む",
+        "past_form": "involved"
+    },
+    {
+        "word": "join",
+        "meaning": "【他】（人が）（イベント・行事など）に参加する。（団体・会など）に加入する。（複数の物）をつなぐ",
+        "past_form": "joined"
+    },
+    {
+        "word": "judge",
+        "meaning": "【他】（人・物・事）を判断する、評価する。（裁判官・判事などが）（人・事件）を審理する。（判事・法廷などが）（人・事件）に判決を下す",
+        "past_form": "judged"
+    },
+    {
+        "word": "jump",
+        "meaning": "【自】（人・動物が）跳ぶ、飛び跳ねる。（物価・株価などが）急騰する",
+        "past_form": "jumped"
+    },
+    {
+        "word": "keep",
+        "meaning": "【他】（人・物・事が）（人の状態・動作・運動など）を保つ、続けさせる。（人が）（物）を持ち続ける。【自】（人・物・事が）（運動・状態などを）続ける",
+        "past_form": "kept"
+    },
+    {
+        "word": "kick",
+        "meaning": "【他】（人が）（人・物）を蹴る（ける）",
+        "past_form": "kicked"
+    },
+    {
+        "word": "kill",
+        "meaning": "【他】（人・動物・事が）（人・動物）を殺す。（チャンスなど）をつぶす。（時間）をつぶす",
+        "past_form": "killed"
+    },
+    {
+        "word": "knock",
+        "meaning": "【自】（人が）（ドアを）ノックする",
+        "past_form": "knocked"
+    },
+    {
+        "word": "know",
+        "meaning": "【他】（人が）（情報・知識・事実・内容）を知っている、理解している",
+        "past_form": "knew"
+    },
+    {
+        "word": "land",
+        "meaning": "【自】（飛行機が）着陸する。（人・飛行機が）到着する。【他】（人が）（飛行機）を着陸させる",
+        "past_form": "landed"
+    },
+    {
+        "word": "laugh",
+        "meaning": "【自】（人が）（声を出して）笑う",
+        "past_form": "laughed"
+    },
+    {
+        "word": "lay",
+        "meaning": "【他】（物）を（水平な位置に）置く。（人が）（人・物）を横たえる",
+        "past_form": "layed"
+    },
+    {
+        "word": "lead",
+        "meaning": "【他】（人が先頭に立って人）を導く、案内する。（組織・チームなど）を率いる、先導する",
+        "past_form": "led"
+    },
+    {
+        "word": "learn",
+        "meaning": "【他】（外国語など）を習得する。（単語など）を覚える、記憶する。～できるようになる",
+        "past_form": "learnt"
+    },
+    {
+        "word": "leave",
+        "meaning": "【他】（人・乗り物が）（場所）を去る、出発する。（仕事など）を辞める。（物など）を残す",
+        "past_form": "leaved"
+    },
+    {
+        "word": "lend",
+        "meaning": "【他】（人・会社などが）（人などに）（物・お金）を貸す",
+        "past_form": "lent"
+    },
+    {
+        "word": "let",
+        "meaning": "【他】（人）に（望んでいる行為を）させてやる、することを許す",
+        "past_form": "let"
+    },
+    {
+        "word": "lie",
+        "meaning": "【自】（人・動物が）（～に）横たわる。（物が）（水平な状態で）置かれている。（場所が）～に位置する",
+        "past_form": "lied"
+    },
+    {
+        "word": "lie",
+        "meaning": "【自】（人が）うそをつく",
+        "past_form": "lied"
+    },
+    {
+        "word": "lift",
+        "meaning": "【他】（人が）（物・人・体の一部など）を持ち上げる",
+        "past_form": "lifted"
+    },
+    {
+        "word": "light",
+        "meaning": "【他】（ろうそく・マッチなど）に火をつける。（人・ろうそくなどが）（場所・物）を明るくする",
+        "past_form": "lighted"
+    },
+    {
+        "word": "like",
+        "meaning": "【他】（人が）（人・物・事・行為など）を好む",
+        "past_form": "liked"
+    },
+    {
+        "word": "line",
+        "meaning": "【他】（人・建物・木などが）（道など）に沿って並ぶ。（紙など）に線を引く",
+        "past_form": "lined"
+    },
+    {
+        "word": "listen",
+        "meaning": "【自】（人が）（意識して）（話・音楽・音などに）耳を傾ける、聴く",
+        "past_form": "listened"
+    },
+    {
+        "word": "live",
+        "meaning": "【自】（人が）（場所に）住む、住居する。（人・動植物が）生存する。暮らす、生活する",
+        "past_form": "lived"
+    },
+    {
+        "word": "lock",
+        "meaning": "【他】（ドア・家など）に鍵を掛ける。（物・人）を（金庫・箱などに）しまう、閉じ込める",
+        "past_form": "locked"
+    },
+    {
+        "word": "look",
+        "meaning": "【自】（人が）見る、注視する。（様子・外観などが）～に見える。～をじっと見つめる",
+        "past_form": "looked"
+    },
+    {
+        "word": "lose",
+        "meaning": "【他】（人が）（物）をなくす、紛失する。（人が）（物・事・体の一部など）を失う。（人が）（競技・戦い・病気など）に負ける",
+        "past_form": "lost"
+    },
+    {
+        "word": "love",
+        "meaning": "【他】（人）を愛している。（事・物）が大好きである。～することが大好きである",
+        "past_form": "loved"
+    },
+    {
+        "word": "make",
+        "meaning": "【他】（人が）（物）を（材料で）作る、作製する。（食事など）の準備をする。（お金など）を得る、儲ける",
+        "past_form": "made"
+    },
+    {
+        "word": "manage",
+        "meaning": "【他】（会社など）を経営する。（困難な目標など）を何とか成し遂げる。（人が）～をうまく扱う",
+        "past_form": "managed"
+    },
+    {
+        "word": "manufacture",
+        "meaning": "【他】（物）を（機械で大量に）製造する、生産する",
+        "past_form": "manufactured"
+    },
+    {
+        "word": "mark",
+        "meaning": "【他】（人・物が）（紙・物など）に印をつける。（記号・物などが）（～の場所・位置）の印となる",
+        "past_form": "marked"
+    },
+    {
+        "word": "match",
+        "meaning": "【他】（物）～と調和する、似合う。（人・物・事が）～と一致する",
+        "past_form": "matched"
+    },
+    {
+        "word": "matter",
+        "meaning": "【自】（～が）重要である、重大である。重大な関係がある",
+        "past_form": "mattered"
+    },
+    {
+        "word": "mean",
+        "meaning": "【他】（言葉・記号・結果が）～を意味する。（人が）（言葉を）～のつもりで言う",
+        "past_form": "meant"
+    },
+    {
+        "word": "measure",
+        "meaning": "【他】（人が）（寸法・大きさ・量など）を測る。～を評価する。～を見積もる。～の寸法がある",
+        "past_form": "measured"
+    },
+    {
+        "word": "meet",
+        "meaning": "【他】（人が）（人）に会う。（物が）～と接触する。（人・物・事が）（条件・要求など）に合う、満たす",
+        "past_form": "met"
+    },
+    {
+        "word": "melt",
+        "meaning": "【自】（固体が）（熱によって）溶ける",
+        "past_form": "melted"
+    },
+    {
+        "word": "mind",
+        "meaning": "【自】（人が）（人・物・事）をいやだと思っている、気にする",
+        "past_form": "minded"
+    },
+    {
+        "word": "miss",
+        "meaning": "【他】（ねらった物）を打ち損なう。（機会など）を逃す、見逃す。（人）がいないことを寂しく思う",
+        "past_form": "missed"
+    },
+    {
+        "word": "mix",
+        "meaning": "【自】（物が）混ざる。【他】（物を）混ぜる",
+        "past_form": "mixed"
+    },
+    {
+        "word": "move",
+        "meaning": "【他】（人が）（物）を移動させる、動かす。（人）を感動させる。（人・物などが）動く",
+        "past_form": "moved"
+    },
+    {
+        "word": "need",
+        "meaning": "【他】（人が）～する必要がある。（人・物・事が）～を必要とする",
+        "past_form": "needed"
+    },
+    {
+        "word": "note",
+        "meaning": "【他】（人が）（物・事）に注意を払う、気づく。～に言及する、～に注釈をつける",
+        "past_form": "noted"
+    },
+    {
+        "word": "notice",
+        "meaning": "【他】（人が）～に気づく、わかる",
+        "past_form": "noticed"
+    },
+    {
+        "word": "occur",
+        "meaning": "【自】（主に偶然に）起こる、生じる。（考えなどが）心に浮かぶ、思い出される",
+        "past_form": "occurred"
+    },
+    {
+        "word": "offer",
+        "meaning": "【他】（人が）（手伝い・奉仕など）を申し出る。（人・会社などが）（物・サービスなど）を提供する",
+        "past_form": "offered"
+    },
+    {
+        "word": "open",
+        "meaning": "【他】（窓・ドア・目など）を開ける、開く。（封筒・包みなど）を開ける。（営業・商売など）を始める",
+        "past_form": "opened"
+    },
+    {
+        "word": "paint",
+        "meaning": "【他】（絵など）を（絵の具で）描く。（壁・物など）にペンキを塗る",
+        "past_form": "painted"
+    },
+    {
+        "word": "park",
+        "meaning": "【他】（車など）を駐車する、駐車場に入れる",
+        "past_form": "parked"
+    },
+    {
+        "word": "pass",
+        "meaning": "【他】（人・車などが）～のそばを通り過ぎる、（場所・試験）を通過する。（時間）を過ごす",
+        "past_form": "passed"
+    },
+    {
+        "word": "pay",
+        "meaning": "【他】（代金・借金・罰金・給料など）を支払う。～の代金を払う。（注意・敬意）を払う",
+        "past_form": "payed"
+    },
+    {
+        "word": "perform",
+        "meaning": "【他】（人が）（仕事など）を行う。（人が）（約束・役割・義務など）を果たす。（人が）（楽器を）演奏する。【自】（機器などが）機能する",
+        "past_form": "performed"
+    },
+    {
+        "word": "permit",
+        "meaning": "【他】（人・団体などが）～を許可する。【自】（天気・規則・状況などが）（～を）可能にする",
+        "past_form": "permitted"
+    },
+    {
+        "word": "pick",
+        "meaning": "【他】（人が）（人・物など）を選ぶ。（花・果実など）を摘み取る",
+        "past_form": "picked"
+    },
+    {
+        "word": "place",
+        "meaning": "【他】（人が）（物）を（適切な場所へ）置く、設置する",
+        "past_form": "placed"
+    },
+    {
+        "word": "plant",
+        "meaning": "【他】（人が）（植物）を植える。（種）をまく",
+        "past_form": "planted"
+    },
+    {
+        "word": "play",
+        "meaning": "【自】（子供・動物が）遊ぶ。（人が）（スポーツの）試合をする。（人が）（楽器を）演奏する",
+        "past_form": "played"
+    },
+    {
+        "word": "point",
+        "meaning": "【他】（物）を指し示す、指摘する。（物など）を（目標に）向ける",
+        "past_form": "pointed"
+    },
+    {
+        "word": "practice",
+        "meaning": "【他】（規則的に反復して）～を練習する、訓練する。（人などが）（事）を（習慣的に）行う",
+        "past_form": "practiced"
+    },
+    {
+        "word": "praise",
+        "meaning": "【他】（人の能力・功績・作品など）をほめる、称賛する",
+        "past_form": "praised"
+    },
+    {
+        "word": "pray",
+        "meaning": "【自】（人が）（神などに）祈る",
+        "past_form": "prayed"
+    },
+    {
+        "word": "prefer",
+        "meaning": "【他】（人が）（～よりも）～が好きである。（人が）むしろ～する方を好む",
+        "past_form": "preferred"
+    },
+    {
+        "word": "prepare",
+        "meaning": "【他】（人が）（物・事）を準備する。（人）に～の準備[覚悟]をさせる",
+        "past_form": "prepared"
+    },
+    {
+        "word": "present",
+        "meaning": "【他】（人・組織などが）（人）に（物・賞などを公式に）贈る、贈呈する",
+        "past_form": "presented"
+    },
+    {
+        "word": "press",
+        "meaning": "【他】（人が）（物）を押す、押しつける。（人・機械が果物など）をしぼる、しぼって～にする",
+        "past_form": "pressed"
+    },
+    {
+        "word": "prevent",
+        "meaning": "【他】（人・物・事）が～するのを妨げる。（事故・病気など）を防ぐ",
+        "past_form": "prevented"
+    },
+    {
+        "word": "print",
+        "meaning": "【他】（文書など）を印刷する。（本など）を出版する",
+        "past_form": "printed"
+    },
+    {
+        "word": "produce",
+        "meaning": "【他】（人・工場などが）（製品など）を生産する、製造する。（人・産地・土地などが）（農作物など）を生産する。（病気・反応・結果など）を引き起こす",
+        "past_form": "produced"
+    },
+    {
+        "word": "promise",
+        "meaning": "【他】（物・事）を約束する。～すると約束する",
+        "past_form": "promised"
+    },
+    {
+        "word": "prove",
+        "meaning": "【他】（人・物・事が）（事）を証明する。【自】（～であると・～のことが）分かる、判明する",
+        "past_form": "proved"
+    },
+    {
+        "word": "provide",
+        "meaning": "【他】（人・組織などが）（生活必需品・燃料など）を提供する、供給する。（機会・医療・サービスなど）を提供する",
+        "past_form": "provided"
+    },
+    {
+        "word": "publish",
+        "meaning": "【他】（出版社・人が）（書籍など）を出版する。（記事・写真など）を（新聞・雑誌などに）載せる",
+        "past_form": "published"
+    },
+    {
+        "word": "pull",
+        "meaning": "【他】（人・物）を引く、引っ張る。（歯・栓・羽毛など）を引き抜く",
+        "past_form": "pulled"
+    },
+    {
+        "word": "punish",
+        "meaning": "【他】（人・組織が）（人・罪など）を罰する",
+        "past_form": "punished"
+    },
+    {
+        "word": "push",
+        "meaning": "【他】（人が）（物・人）を押す、押し出す",
+        "past_form": "pushed"
+    },
+    {
+        "word": "put",
+        "meaning": "【他】（人が）（物）を置く。（人などが）（人・物・事）を～の状態にする[させる]",
+        "past_form": "put"
+    },
+    {
+        "word": "quit",
+        "meaning": "【他】（仕事など）をやめる。（悪い習慣）をやめる",
+        "past_form": "quitted"
+    },
+    {
+        "word": "raise",
+        "meaning": "【他】（人が）（物・体の一部）を上げる、持ち上げる。（賃金・料金）を上げる。（子供）を育てる。（募金）を集める",
+        "past_form": "raised"
+    },
+    {
+        "word": "reach",
+        "meaning": "【他】（人・乗り物などが）（目的地）に着く、到着する。（人・物・事が）（合意・決定など）に達する。（目標物）に手が届く",
+        "past_form": "reached"
+    },
+    {
+        "word": "react",
+        "meaning": "【自】（物が）（刺激などに）反応する。（薬物・物質などに）悪い反応を示す",
+        "past_form": "reacted"
+    },
+    {
+        "word": "read",
+        "meaning": "【他】（本・文章など）を読む、読んで理解する",
+        "past_form": "read"
+    },
+    {
+        "word": "realize",
+        "meaning": "【自】（事）を悟る、はっきりと理解する。（計画・夢など）を実現する",
+        "past_form": "realized"
+    },
+    {
+        "word": "receive",
+        "meaning": "【他】（人から物）を（受動的に）受け取る、受領する",
+        "past_form": "received"
+    },
+    {
+        "word": "recommend",
+        "meaning": "【他】（人に）～を勧める、推薦する",
+        "past_form": "recommended"
+    },
+    {
+        "word": "recover",
+        "meaning": "【自】（人が）（病気などから）回復する。（経済などが）立ち直る。【他】（人が失っていたもの）を（人から）取り戻す",
+        "past_form": "recovered"
+    },
+    {
+        "word": "reduce",
+        "meaning": "【他】（人・物が）（サイズ・数量・程度など）を減らす、減少させる。（人・物が）（力・強さなど）を弱める",
+        "past_form": "reduced"
+    },
+    {
+        "word": "reflect",
+        "meaning": "【他】（物・事が）（行動・気持ち・結果など）を反映する。（物が）（光・音など）を反射する。（人・物）を（鏡などに）映す",
+        "past_form": "reflected"
+    },
+    {
+        "word": "refuse",
+        "meaning": "【他】（依頼・要求・招待など）を拒む、断わる、拒絶する",
+        "past_form": "refused"
+    },
+    {
+        "word": "regret",
+        "meaning": "【他】（人が）（過去の過ちなど）を後悔する。（人が）（～という状況・事実）を残念に思う",
+        "past_form": "regretted"
+    },
+    {
+        "word": "reject",
+        "meaning": "【他】（要求・提案など）を拒否する、断る",
+        "past_form": "rejected"
+    },
+    {
+        "word": "relax",
+        "meaning": "【自】（人が）くつろぐ。【他】（人が）（筋肉など）をゆるめる",
+        "past_form": "relaxed"
+    },
+    {
+        "word": "remain",
+        "meaning": "【自】（人・物が）依然として（ある状態）のままである。（～が）（場所・心などに）残る、とどまる",
+        "past_form": "remained"
+    },
+    {
+        "word": "remember",
+        "meaning": "【他】（過去の出来事・人など）を思い出す。（事実など）を覚えている",
+        "past_form": "remembered"
+    },
+    {
+        "word": "remind",
+        "meaning": "【他】（人・物・事が）（人）に（過去の出来事・予定などを）思い出させる。（人・物・事が）（人）に（～を）気づかせる",
+        "past_form": "reminded"
+    },
+    {
+        "word": "remove",
+        "meaning": "【他】（人が場所・物から）～を取り去る、取り除く",
+        "past_form": "removed"
+    },
+    {
+        "word": "rent",
+        "meaning": "【他】（人・会社などが）（家・車など）を（有料で）借りる。（家・土地など）を（人に）賃貸する",
+        "past_form": "rented"
+    },
+    {
+        "word": "repeat",
+        "meaning": "【他】（人が）（発言・行為など）を繰り返す",
+        "past_form": "repeated"
+    },
+    {
+        "word": "reply",
+        "meaning": "【自】（人が）（～についてよく考えて）返事をする、答える、回答する",
+        "past_form": "replied"
+    },
+    {
+        "word": "report",
+        "meaning": "【他】（物・事）を（～に）報告する、知らせる。（新聞などが人・物）を報道する",
+        "past_form": "reported"
+    },
+    {
+        "word": "represent",
+        "meaning": "【他】（人が）（人・組織など）を代表する。【他】（物が）（～を）表す",
+        "past_form": "represented"
+    },
+    {
+        "word": "require",
+        "meaning": "【他】（物・事）を必要とする。（人・規則・法律・義務などが）（物・事）を要求する",
+        "past_form": "required"
+    },
+    {
+        "word": "reserve",
+        "meaning": "【他】（ホテル・座席など）を予約する。（物）を蓄えておく。",
+        "past_form": "reserved"
+    },
+    {
+        "word": "respect",
+        "meaning": "【他】（人）を尊敬する。（気持ち・権利・人権など）を尊重する",
+        "past_form": "respected"
+    },
+    {
+        "word": "rest",
+        "meaning": "【自】休む、休憩する。【他】（人が人・物）を～に置く。～を休ませる",
+        "past_form": "rested"
+    },
+    {
+        "word": "return",
+        "meaning": "【自】（人・物が）（元の状態・活動・場所・所有者に）戻る、復帰する。【他】（人が）（物）を返す",
+        "past_form": "returned"
+    },
+    {
+        "word": "ride",
+        "meaning": "【他】（人が）（自転車・馬・車など）に乗る、乗っていく",
+        "past_form": "rode"
+    },
+    {
+        "word": "ring",
+        "meaning": "【自】（ベル・鐘・電話などが）鳴る。[主に英国]（人）に電話する",
+        "past_form": "rung"
+    },
+    {
+        "word": "rise",
+        "meaning": "【自】（人が）立ち上がる、起立（きりつ）する。（太陽・月が）昇る（のぼる）。（商品などが）値上がりする",
+        "past_form": "rose"
+    },
+    {
+        "word": "roll",
+        "meaning": "【自】（球・車輪などが）転がる。（人・動物が）転がる。【他】（人が）（球など）を転がす",
+        "past_form": "rolled"
+    },
+    {
+        "word": "run",
+        "meaning": "【自】（人・動物が）走る。（路線バス・電車などが）運航する。（川・水・涙などが）流れる。（機械・家電などが）動作する。（人が）（選挙に）立候補する",
+        "past_form": "ran"
+    },
+    {
+        "word": "rush",
+        "meaning": "【自】（人・乗り物などが）急いで行く。（人が）急いで～する。【他】（人が）（仕事など）を急いでやる",
+        "past_form": "rushed"
+    },
+    {
+        "word": "sail",
+        "meaning": "【自】（船・人が）航行する（こうこうする）。（船・人が）出航する",
+        "past_form": "sailed"
+    },
+    {
+        "word": "save",
+        "meaning": "【他】（人・物・事が）（人・物）を～から救う。（人がお金など）をたくわえる、貯蓄する。（人・物・事が）（労力・時間・金など）を節約する",
+        "past_form": "saved"
+    },
+    {
+        "word": "say",
+        "meaning": "【他】（言葉・意味のあることなど）を～に言う、述べる、話す",
+        "past_form": "said"
+    },
+    {
+        "word": "seat",
+        "meaning": "【他】（人）を着席させる、座らせる。（人）を（席へ）案内する",
+        "past_form": "seated"
+    },
+    {
+        "word": "see",
+        "meaning": "【他】（人・物）が見える、目に入る。（人）に会う。（人が）～が分かる、理解する。（人が）～を調べる",
+        "past_form": "saw"
+    },
+    {
+        "word": "seek",
+        "meaning": "【他】（物・場所など）を探す、捜索（そうさく）する。（名声・名誉など）を得ようと努力する",
+        "past_form": "sought"
+    },
+    {
+        "word": "seem",
+        "meaning": "【自】（人・物・事が）（～のように・～するように）思われる。（人・物・事が）まるで～のようだ",
+        "past_form": "seemed"
+    },
+    {
+        "word": "select",
+        "meaning": "【他】（人が）（人・物）を（～から慎重に）選ぶ",
+        "past_form": "selected"
+    },
+    {
+        "word": "sell",
+        "meaning": "【他】（物）を売る、販売している",
+        "past_form": "sold"
+    },
+    {
+        "word": "send",
+        "meaning": "【他】（人が）（人）に（物・お金など）を送る。（電子データ）を送信する。（人）を派遣する",
+        "past_form": "sent"
+    },
+    {
+        "word": "serve",
+        "meaning": "【他】（人に）（飲食物）を出す。（人・神・組織など）のために働く。【自】（物・事が）（～の）役に立つ",
+        "past_form": "served"
+    },
+    {
+        "word": "set",
+        "meaning": "【自】（人が）～を（特定の場所に）配置する。（目標）を設定する。【自】（太陽が）沈む。",
+        "past_form": "set"
+    },
+    {
+        "word": "shake",
+        "meaning": "【他】（人などが）（物）を振る、ゆさぶる。（物が）揺れる、揺れ動く",
+        "past_form": "shook"
+    },
+    {
+        "word": "share",
+        "meaning": "【他】～を（人と公平に）分かち合う、分け合う、共有する。（食料・財産など）を（人と）分ける",
+        "past_form": "shared"
+    },
+    {
+        "word": "shine",
+        "meaning": "【自】（星・ランプなどが）輝く",
+        "past_form": "shone"
+    },
+    {
+        "word": "shop",
+        "meaning": "【自】（人が）買物をする。買いに行く",
+        "past_form": "shopped"
+    },
+    {
+        "word": "shout",
+        "meaning": "【自】（人が）叫ぶ、大声で言う。（～を求めて）叫ぶ。（興奮などで）叫ぶ。わめく",
+        "past_form": "shouted"
+    },
+    {
+        "word": "show",
+        "meaning": "【他】（人・物が）（物・事・結果など）を見せる。（人・物・事が）（本質・事実など）を明らかにする。（感謝・気持ちなど）を表す",
+        "past_form": "showed"
+    },
+    {
+        "word": "shut",
+        "meaning": "【他】（戸・ふたなど）を閉める。【自】（戸などが）閉まる。（口などが）閉じる。（店などが）閉まる",
+        "past_form": "shut"
+    },
+    {
+        "word": "sign",
+        "meaning": "【他】（書類など）に署名する、サインする",
+        "past_form": "signed"
+    },
+    {
+        "word": "sing",
+        "meaning": "【自】（人が）歌う。（鳥・虫などが）鳴く、さえずる",
+        "past_form": "sung"
+    },
+    {
+        "word": "sink",
+        "meaning": "【自】（～が水面下に）沈む、沈没する。（土地・建物などが）沈下する",
+        "past_form": "sunk"
+    },
+    {
+        "word": "sit",
+        "meaning": "【自】（人が）（～のそばに）座る、座っている。（人が）（人）を座らせる、着席させる",
+        "past_form": "sat"
+    },
+    {
+        "word": "skate",
+        "meaning": "【自】（人が）アイス[ローラー]スケートをする",
+        "past_form": "skated"
+    },
+    {
+        "word": "sleep",
+        "meaning": "【自】（人・動物が）眠る",
+        "past_form": "slept"
+    },
+    {
+        "word": "slide",
+        "meaning": "【自】（人・物などが）（氷の上などを）なめらかに滑る",
+        "past_form": "slid"
+    },
+    {
+        "word": "slip",
+        "meaning": "【自】（人が）（凍った地面などで）滑って転ぶ。（物が）（手などから）滑り落ちる",
+        "past_form": "slipped"
+    },
+    {
+        "word": "smell",
+        "meaning": "【自】（人が）においを嗅ぐ、においを感じる。（人・物が）（～の）においがする",
+        "past_form": "smelt"
+    },
+    {
+        "word": "smile",
+        "meaning": "【自】（人が）ほほえむ、微笑する、にっこり笑う",
+        "past_form": "smiled"
+    },
+    {
+        "word": "smoke",
+        "meaning": "【自】（人が）たばこを吸う。【他】（肉・魚など）をいぶす",
+        "past_form": "smoked"
+    },
+    {
+        "word": "solve",
+        "meaning": "【他】（課題など）を解決する。（問題など）を解く",
+        "past_form": "solved"
+    },
+    {
+        "word": "sound",
+        "meaning": "【自】（話の内容などが）（良い事・悪い事に）思われる。（声・音・楽器などが）（～のように）聞こえる",
+        "past_form": "sounded"
+    },
+    {
+        "word": "speak",
+        "meaning": "【自】（人が）話す、しゃべる。演説をする",
+        "past_form": "spoke"
+    },
+    {
+        "word": "spend",
+        "meaning": "【他】（人などが）（お金・努力・時間など）を（～に）使う、費やす。（人が）（時間）を過ごす",
+        "past_form": "spent"
+    },
+    {
+        "word": "spin",
+        "meaning": "【自】（物などが）（高速に）回転する。【他】（人が）（軸を中心に急速に）～を回す、回転させる",
+        "past_form": "spun"
+    },
+    {
+        "word": "spread",
+        "meaning": "【他】（情報・うわさ・病気など）を広める。（人が）（手）を伸ばす。（物を）～に薄く塗る",
+        "past_form": "spread"
+    },
+    {
+        "word": "stand",
+        "meaning": "【自】（人が）立っている、立ち上がる",
+        "past_form": "stood"
+    },
+    {
+        "word": "stare",
+        "meaning": "【自】（人が）（～の一点に集中して）じっと見つめる",
+        "past_form": "stared"
+    },
+    {
+        "word": "start",
+        "meaning": "【他】（行為・仕事・行事など）を始める、開始する。（機械など）を始動させる",
+        "past_form": "started"
+    },
+    {
+        "word": "stay",
+        "meaning": "【自】（人が）（場所に）とどまる、滞在する。（人・物・場所などが）（～の状態の）ままでいる",
+        "past_form": "stayed"
+    },
+    {
+        "word": "steal",
+        "meaning": "【他】（人が）（物・お金）を（こっそり）盗む。（考え・アイデアなど）を盗用する",
+        "past_form": "stole"
+    },
+    {
+        "word": "stick",
+        "meaning": "【他】（物に物）を貼りつける、固定する。（鋭い物を物など）に突き刺す。（人が～に）執着する",
+        "past_form": "stuck"
+    },
+    {
+        "word": "stop",
+        "meaning": "【他】（動いている人・物）を止める、停止させる。（人などが）（～するのを）やめる、中断する",
+        "past_form": "stopped"
+    },
+    {
+        "word": "store",
+        "meaning": "【他】（物）を（後で使うために）蓄える、保管する。（電子データ）を（サーバーなどに）保存する",
+        "past_form": "stored"
+    },
+    {
+        "word": "stretch",
+        "meaning": "【他】（人が）（背中・手足・物など）を伸ばす。（人が）（ロープ・弦など）を張る。【自】（物が）伸びる",
+        "past_form": "stretched"
+    },
+    {
+        "word": "strike",
+        "meaning": "【他】（人が）（人・物など）を打つ、なぐる。（物が～）にぶつかる、突きあたる",
+        "past_form": "struck"
+    },
+    {
+        "word": "struggle",
+        "meaning": "【自】（人が）（～を求めて・ために）奮闘する。（人が）（課題・困難・病気などと）悪戦苦闘する",
+        "past_form": "struggled"
+    },
+    {
+        "word": "study",
+        "meaning": "【他】（人が）～を勉強する、研究する。～を（詳しく）調べる、調査する",
+        "past_form": "studied"
+    },
+    {
+        "word": "succeed",
+        "meaning": "【自】（人が）成功する。（計画などが）うまくいく。【他】（人が）（人）の後を継ぐ",
+        "past_form": "succeeded"
+    },
+    {
+        "word": "suffer",
+        "meaning": "【自】（人が）（肉体的・精神的に）苦しむ。【他】（人が）（苦痛など）を経験する",
+        "past_form": "suffered"
+    },
+    {
+        "word": "suggest",
+        "meaning": "【他】～を提案する。（人・物・事が）（物・事）を示唆する。",
+        "past_form": "suggested"
+    },
+    {
+        "word": "suit",
+        "meaning": "【他】（事が）（人）に好都合である。（服装などが）（人）に似合う。（物・事が）～に適合する",
+        "past_form": "suited"
+    },
+    {
+        "word": "support",
+        "meaning": "【他】（人）を支援する。（人）を（精神的に）支える。（家族）を扶養する。（人・意見など）を支持する",
+        "past_form": "supported"
+    },
+    {
+        "word": "swim",
+        "meaning": "【自】（人が）泳ぐ",
+        "past_form": "swam"
+    },
+    {
+        "word": "swing",
+        "meaning": "【自】（物が）揺れ動く。（弧を描くように）動く。（物）を揺らす、（繰り返し）振る",
+        "past_form": "swung"
+    },
+    {
+        "word": "take",
+        "meaning": "【他】（物など）を（手で）取る。（人・物・動物）を（～へ）連れていく。（物・事は）（人が～するのに）（時間・労力など）を必要とする。",
+        "past_form": "took"
+    },
+    {
+        "word": "talk",
+        "meaning": "【他】（人が）（～について）話す、しゃべる。（人が）話し合う、相談する",
+        "past_form": "talked"
+    },
+    {
+        "word": "teach",
+        "meaning": "【他】（人・クラスなど）に（学問・知識など）を教える。（事などが）（人に）（教訓・知識など）を教える",
+        "past_form": "taught"
+    },
+    {
+        "word": "tear",
+        "meaning": "【他】（布・紙・着物など）を裂く、引き裂く。（場所・家など）を（引き裂くように）破壊する",
+        "past_form": "tore"
+    },
+    {
+        "word": "tell",
+        "meaning": "【他】（人が）～を話す、伝える。（人・物が）（人に）～を教える",
+        "past_form": "told"
+    },
+    {
+        "word": "test",
+        "meaning": "【他】（製品・サービスなど）を検査する。（人の体・血液など）を検査する。（能力・学力など）を試験する",
+        "past_form": "tested"
+    },
+    {
+        "word": "thank",
+        "meaning": "【他】（人など）に感謝する、礼を言う",
+        "past_form": "thanked"
+    },
+    {
+        "word": "think",
+        "meaning": "【他】（人が）～と思う、信じる。（～について）考える、思考する",
+        "past_form": "thought"
+    },
+    {
+        "word": "throw",
+        "meaning": "【他】（物）を（～目がけて）投げる",
+        "past_form": "threw"
+    },
+    {
+        "word": "tie",
+        "meaning": "【他】（人が）（ひも・ネクタイなど）を結ぶ。（人が）（物）を縛る。（人・チームなどが）（試合相手）と同点になる",
+        "past_form": "tied"
+    },
+    {
+        "word": "touch",
+        "meaning": "【自】（人が）（手などで）触れる、さわる。【他】（人が）（物と物）を接触させる",
+        "past_form": "touched"
+    },
+    {
+        "word": "train",
+        "meaning": "【他】（人）を訓練する。（人が）（動物）を調教する",
+        "past_form": "trained"
+    },
+    {
+        "word": "travel",
+        "meaning": "【自】（人が）（遠方・外国などへ）旅行する。（人が）（～へ）行く。（光・音などが）伝わる",
+        "past_form": "travelled"
+    },
+    {
+        "word": "treat",
+        "meaning": "【他】（人・物など）を（～として）扱う。（病人・病気）を治療する、手当てする",
+        "past_form": "treated"
+    },
+    {
+        "word": "trip",
+        "meaning": "【自】（人が）（物に）つまずく",
+        "past_form": "tripped"
+    },
+    {
+        "word": "trust",
+        "meaning": "【他】（人が）～を信用する、信頼する",
+        "past_form": "trusted"
+    },
+    {
+        "word": "try",
+        "meaning": "【他】（事）を試みる、試しにやってみる。～しようと試みる",
+        "past_form": "tried"
+    },
+    {
+        "word": "turn",
+        "meaning": "【他】（人が）（物）を回す、回転させる。【自】（人・車などが）向きを変える。（人・物・事が）（～に）変わる、変化する",
+        "past_form": "turned"
+    },
+    {
+        "word": "understand",
+        "meaning": "【他】（人が）～を理解する、分かる",
+        "past_form": "understood"
+    },
+    {
+        "word": "use",
+        "meaning": "【他】（人などが）～を使う、利用する。（人・物などが）（お金・燃料など）を消費する",
+        "past_form": "used"
+    },
+    {
+        "word": "view",
+        "meaning": "【他】（資料などを）注意深く見る。（人が）～を（～だと）見なす。（人が）～を眺める",
+        "past_form": "viewed"
+    },
+    {
+        "word": "visit",
+        "meaning": "【他】（人）を訪問する、訪ねる。（～の場所）へ行く、訪れる",
+        "past_form": "visited"
+    },
+    {
+        "word": "wait",
+        "meaning": "【他】（人が）（人・物・事）を待つ。～するのを待つ",
+        "past_form": "waited"
+    },
+    {
+        "word": "wake",
+        "meaning": "【自】（人が）（眠りから）目を覚ます",
+        "past_form": "woke"
+    },
+    {
+        "word": "walk",
+        "meaning": "【自】（人が）歩く、歩いて行く。散歩する",
+        "past_form": "walked"
+    },
+    {
+        "word": "want",
+        "meaning": "【他】（人が）～が欲しい、したいと思う。（人が）（人に）～して欲しいと思う",
+        "past_form": "wanted"
+    },
+    {
+        "word": "warm",
+        "meaning": "【他】（人・物が）（人・物）を暖める。【自】（飲食物などが）暖まる",
+        "past_form": "warmed"
+    },
+    {
+        "word": "warn",
+        "meaning": "【他】（人が）（人）に（危険性などを）警告する、注意する",
+        "past_form": "warned"
+    },
+    {
+        "word": "wash",
+        "meaning": "【他】（物・体）を洗う。（衣服など）を洗濯する",
+        "past_form": "washed"
+    },
+    {
+        "word": "waste",
+        "meaning": "【他】（人が）（金・時間・資源など）を浪費する、無駄遣いする",
+        "past_form": "wasted"
+    },
+    {
+        "word": "watch",
+        "meaning": "【他】（人が）～を（注意して）見る、観察する。（テレビ・スポーツなど）を見る、観戦する",
+        "past_form": "watched"
+    },
+    {
+        "word": "wave",
+        "meaning": "【自】（人が）手を振る。（物が）（波のように）揺れる。（手・旗・ハンカチなど）を振る",
+        "past_form": "waved"
+    },
+    {
+        "word": "wear",
+        "meaning": "【他】（洋服・アイテム・香水など）を身につけている、着ている。（物）がすり減る、すり切れる",
+        "past_form": "wore"
+    },
+    {
+        "word": "weigh",
+        "meaning": "【他】（人が）（人・物）の重さを量る。（人が）（物・事）を良く考える。【自】重さが～である。（人・心の）重荷となる",
+        "past_form": "weighed"
+    },
+    {
+        "word": "welcome",
+        "meaning": "【他】（人が）（人）を歓迎する、出迎える。（人が）（提案・変化など）を喜んで受け入れる",
+        "past_form": "welcomed"
+    },
+    {
+        "word": "win",
+        "meaning": "【他】（人・チームなどが）（競技など）に勝つ。（勝利・商品・選手権など）を（競争などで）勝ち取る",
+        "past_form": "won"
+    },
+    {
+        "word": "wipe",
+        "meaning": "【他】（人が）（物）を（布などで）ふく",
+        "past_form": "wiped"
+    },
+    {
+        "word": "wish",
+        "meaning": "【他】（人が）～を強く望む、切望（せつぼう）する",
+        "past_form": "wished"
+    },
+    {
+        "word": "wonder",
+        "meaning": "【他】～かしらと思う、～だろうかと思う。【自】（～について）思いを巡らせる。（～について）疑問に思う",
+        "past_form": "wondered"
+    },
+    {
+        "word": "work",
+        "meaning": "【自】（人が）（仕事として）働く、作業する。（人が）（会社などに）勤めている。（機械・装置などが）（正常に）動作する",
+        "past_form": "worked"
+    },
+    {
+        "word": "worry",
+        "meaning": "【自】心配する、気にする。【他】（人）を（～のことで）心配させる、悩ませる",
+        "past_form": "worried"
+    },
+    {
+        "word": "write",
+        "meaning": "【他】（文章・手紙など）を書く。（本など）を執筆する",
+        "past_form": "wrote"
+    }
+]
