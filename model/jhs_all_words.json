@@ -1,0 +1,9134 @@
+[
+    {
+        "word": "academy",
+        "meaning": "学院、専門学校"
+    },
+    {
+        "word": "accident",
+        "meaning": "事故"
+    },
+    {
+        "word": "acid rain",
+        "meaning": "酸性雨"
+    },
+    {
+        "word": "action",
+        "meaning": "1. 動き、演技　2. 行動、(一時の)行為、行い"
+    },
+    {
+        "word": "activity",
+        "meaning": "活動"
+    },
+    {
+        "word": "actor",
+        "meaning": "俳優"
+    },
+    {
+        "word": "addition",
+        "meaning": "つけ加えること　〔in addition to ～で〕～に加えて"
+    },
+    {
+        "word": "address",
+        "meaning": "あて名、住所"
+    },
+    {
+        "word": "adult",
+        "meaning": "大人、成人"
+    },
+    {
+        "word": "advantage",
+        "meaning": "有利な立場、利点"
+    },
+    {
+        "word": "adventure",
+        "meaning": "冒険"
+    },
+    {
+        "word": "advertisement",
+        "meaning": "広告、宣伝"
+    },
+    {
+        "word": "advice",
+        "meaning": "忠告、助言、アドバイス"
+    },
+    {
+        "word": "Africa",
+        "meaning": "アフリカ、アフリカ大陸"
+    },
+    {
+        "word": "afternoon",
+        "meaning": "午後"
+    },
+    {
+        "word": "age",
+        "meaning": "年齢、歳"
+    },
+    {
+        "word": "air",
+        "meaning": "空中、空気"
+    },
+    {
+        "word": "air pollution",
+        "meaning": "大気汚染"
+    },
+    {
+        "word": "airport",
+        "meaning": "空港"
+    },
+    {
+        "word": "album",
+        "meaning": "(写真、ＣＤ、レコードなどの) アルバム"
+    },
+    {
+        "word": "ambulance",
+        "meaning": "救急車"
+    },
+    {
+        "word": "America",
+        "meaning": "アメリカ合衆国 〔正式名称はthe United States of America〕"
+    },
+    {
+        "word": "American",
+        "meaning": "アメリカ人、米国人"
+    },
+    {
+        "word": "amusement park",
+        "meaning": "遊園地"
+    },
+    {
+        "word": "ancestor",
+        "meaning": "祖先、先祖"
+    },
+    {
+        "word": "animal",
+        "meaning": "《植物に対して》 動物"
+    },
+    {
+        "word": "animation",
+        "meaning": "動画、アニメーション"
+    },
+    {
+        "word": "anime",
+        "meaning": "（日本の）アニメ"
+    },
+    {
+        "word": "answer",
+        "meaning": "答え、応答、返事"
+    },
+    {
+        "word": "apartment",
+        "meaning": "アパート"
+    },
+    {
+        "word": "apple",
+        "meaning": "リンゴ"
+    },
+    {
+        "word": "April",
+        "meaning": "4月"
+    },
+    {
+        "word": "aquarium",
+        "meaning": "水族館"
+    },
+    {
+        "word": "architect",
+        "meaning": "（建物の）建設者、建築家"
+    },
+    {
+        "word": "area",
+        "meaning": "（大小さまざまの）場所、区域、地域、地方"
+    },
+    {
+        "word": "arena",
+        "meaning": "競技場、アリーナ"
+    },
+    {
+        "word": "arm",
+        "meaning": "腕"
+    },
+    {
+        "word": "arrest",
+        "meaning": "逮捕"
+    },
+    {
+        "word": "art",
+        "meaning": "1. 美術、芸術　2. 技術"
+    },
+    {
+        "word": "artist",
+        "meaning": "芸術家"
+    },
+    {
+        "word": "Asia",
+        "meaning": "アジア（大陸）"
+    },
+    {
+        "word": "astronaut",
+        "meaning": "宇宙飛行士"
+    },
+    {
+        "word": "attention",
+        "meaning": "注意、注目"
+    },
+    {
+        "word": "attitude",
+        "meaning": "態度、考え方、見方"
+    },
+    {
+        "word": "audience",
+        "meaning": "聴衆、観客"
+    },
+    {
+        "word": "August",
+        "meaning": "8月"
+    },
+    {
+        "word": "aunt",
+        "meaning": "おば、おばさん"
+    },
+    {
+        "word": "Australia",
+        "meaning": "オーストラリア"
+    },
+    {
+        "word": "autumn",
+        "meaning": "秋 (イギリス英語)"
+    },
+    {
+        "word": "baby",
+        "meaning": "赤ちゃん"
+    },
+    {
+        "word": "backyard",
+        "meaning": "裏庭"
+    },
+    {
+        "word": "bag",
+        "meaning": "かばん、バッグ、袋"
+    },
+    {
+        "word": "balance",
+        "meaning": "つり合い、バランス、（からだや心の）安定"
+    },
+    {
+        "word": "ball",
+        "meaning": "ボール、球"
+    },
+    {
+        "word": "balloon",
+        "meaning": "風船"
+    },
+    {
+        "word": "bamboo",
+        "meaning": "竹"
+    },
+    {
+        "word": "banana",
+        "meaning": "バナナ"
+    },
+    {
+        "word": "band",
+        "meaning": "楽団、バンド"
+    },
+    {
+        "word": "bank",
+        "meaning": "銀行"
+    },
+    {
+        "word": "barrier",
+        "meaning": "壁、障壁"
+    },
+    {
+        "word": "baseball",
+        "meaning": "野球"
+    },
+    {
+        "word": "basketball",
+        "meaning": "バスケットボール"
+    },
+    {
+        "word": "bat",
+        "meaning": "（野球の）バット"
+    },
+    {
+        "word": "bath",
+        "meaning": "入浴　  〔take a bath の形で〕 入浴する"
+    },
+    {
+        "word": "bathroom",
+        "meaning": "トイレ、浴室"
+    },
+    {
+        "word": "beach",
+        "meaning": "浜、浜辺、海辺、なぎさ"
+    },
+    {
+        "word": "bear",
+        "meaning": "クマ"
+    },
+    {
+        "word": "beauty",
+        "meaning": "美しさ"
+    },
+    {
+        "word": "bed",
+        "meaning": "ベッド 　〔go to bed の形で〕 寝る、床につく"
+    },
+    {
+        "word": "bedroom",
+        "meaning": "寝室"
+    },
+    {
+        "word": "beef",
+        "meaning": "牛肉"
+    },
+    {
+        "word": "bell",
+        "meaning": "鈴、鐘"
+    },
+    {
+        "word": "belt",
+        "meaning": "ベルト、（ズボンの）バンド、帯"
+    },
+    {
+        "word": "bench",
+        "meaning": "長いす、ベンチ"
+    },
+    {
+        "word": "best",
+        "meaning": "最高（のもの）"
+    },
+    {
+        "word": "bicycle",
+        "meaning": "自転車"
+    },
+    {
+        "word": "bike",
+        "meaning": "自転車　　〔bicycle ともいう〕"
+    },
+    {
+        "word": "billion",
+        "meaning": "10億"
+    },
+    {
+        "word": "bird",
+        "meaning": "鳥"
+    },
+    {
+        "word": "birthday",
+        "meaning": "誕生日"
+    },
+    {
+        "word": "black",
+        "meaning": "黒、黒人"
+    },
+    {
+        "word": "blackboard",
+        "meaning": "黒板"
+    },
+    {
+        "word": "block",
+        "meaning": "かたまり、ブロック"
+    },
+    {
+        "word": "blog",
+        "meaning": "(コンピュータ)ブログ"
+    },
+    {
+        "word": "blossom",
+        "meaning": "(特に果樹の)花"
+    },
+    {
+        "word": "blue",
+        "meaning": "青"
+    },
+    {
+        "word": "blueberry",
+        "meaning": "ブルーベリー"
+    },
+    {
+        "word": "board",
+        "meaning": "板、掲示板、黒板"
+    },
+    {
+        "word": "boat",
+        "meaning": "ボート、小舟、船"
+    },
+    {
+        "word": "body",
+        "meaning": "からだ、肉体"
+    },
+    {
+        "word": "bomb",
+        "meaning": "爆弾"
+    },
+    {
+        "word": "book",
+        "meaning": "本、書物"
+    },
+    {
+        "word": "bookcase",
+        "meaning": "本箱"
+    },
+    {
+        "word": "bookstore",
+        "meaning": "本屋、書店"
+    },
+    {
+        "word": "border",
+        "meaning": "国境"
+    },
+    {
+        "word": "bottle",
+        "meaning": "びん"
+    },
+    {
+        "word": "box",
+        "meaning": "箱"
+    },
+    {
+        "word": "boy",
+        "meaning": "男の子、少年、青年"
+    },
+    {
+        "word": "Braille",
+        "meaning": "点字"
+    },
+    {
+        "word": "branch",
+        "meaning": "1. 支社　2. 枝"
+    },
+    {
+        "word": "Brazil",
+        "meaning": "ブラジル"
+    },
+    {
+        "word": "bread",
+        "meaning": "パン"
+    },
+    {
+        "word": "break",
+        "meaning": "休けい、中休み、中断"
+    },
+    {
+        "word": "breakfast",
+        "meaning": "朝食、朝ごはん"
+    },
+    {
+        "word": "bridge",
+        "meaning": "橋"
+    },
+    {
+        "word": "brightness",
+        "meaning": "明るさ"
+    },
+    {
+        "word": "British",
+        "meaning": "英国人、イギリス人"
+    },
+    {
+        "word": "brother",
+        "meaning": "兄、弟、兄弟"
+    },
+    {
+        "word": "brown",
+        "meaning": "茶色"
+    },
+    {
+        "word": "brush",
+        "meaning": "筆"
+    },
+    {
+        "word": "bubble",
+        "meaning": "泡、あぶく"
+    },
+    {
+        "word": "builder",
+        "meaning": "建造者"
+    },
+    {
+        "word": "building",
+        "meaning": "建物、ビル"
+    },
+    {
+        "word": "bump",
+        "meaning": "でこぼこ"
+    },
+    {
+        "word": "burn",
+        "meaning": "やけど"
+    },
+    {
+        "word": "bus",
+        "meaning": "バス"
+    },
+    {
+        "word": "business",
+        "meaning": "商売、事業"
+    },
+    {
+        "word": "butter",
+        "meaning": "バター"
+    },
+    {
+        "word": "button",
+        "meaning": "ボタン"
+    },
+    {
+        "word": "buzzer",
+        "meaning": "ブザー"
+    },
+    {
+        "word": "cacao",
+        "meaning": "カカオ（の実）"
+    },
+    {
+        "word": "cafeteria",
+        "meaning": "カフェテリア、学食"
+    },
+    {
+        "word": "cake",
+        "meaning": "ケーキ"
+    },
+    {
+        "word": "calendar",
+        "meaning": "暦、カレンダー"
+    },
+    {
+        "word": "call",
+        "meaning": "電話(すること)"
+    },
+    {
+        "word": "calligraphy",
+        "meaning": "書道"
+    },
+    {
+        "word": "Cambodia",
+        "meaning": "カンボジア"
+    },
+    {
+        "word": "camera",
+        "meaning": "カメラ"
+    },
+    {
+        "word": "can",
+        "meaning": "（金属製の）缶"
+    },
+    {
+        "word": "Canada",
+        "meaning": "カナダ"
+    },
+    {
+        "word": "Canberra",
+        "meaning": "キャンベラ（オーストラリアの首都）"
+    },
+    {
+        "word": "cap",
+        "meaning": "1. ぼうし 《つばがないか、つばが前だけにあるもの》　2. びんのふた"
+    },
+    {
+        "word": "capital",
+        "meaning": "～の首都、中心地"
+    },
+    {
+        "word": "captain",
+        "meaning": "（チームの）キャプテン"
+    },
+    {
+        "word": "car",
+        "meaning": "自動車、車"
+    },
+    {
+        "word": "card",
+        "meaning": "カード、はがき、トランプの札　 〔たとえば play cards の形で〕 トランプをする"
+    },
+    {
+        "word": "cardboard",
+        "meaning": "段ボール、ボール紙"
+    },
+    {
+        "word": "care",
+        "meaning": "1. 世話　〔take care of ～の形で〕 ～の面倒をみる　2. 注意、関心、保護、用心"
+    },
+    {
+        "word": "career",
+        "meaning": "職業、経歴"
+    },
+    {
+        "word": "carpenter",
+        "meaning": "大工"
+    },
+    {
+        "word": "carport",
+        "meaning": "車庫、カーポート"
+    },
+    {
+        "word": "carrot",
+        "meaning": "ニンジン"
+    },
+    {
+        "word": "case",
+        "meaning": "1. ケース、箱、～入れ　2. 場合、実例、実情、事実"
+    },
+    {
+        "word": "castle",
+        "meaning": "城    〔たとえば Hirosaki Castle の形で〕 弘前城　"
+    },
+    {
+        "word": "cat",
+        "meaning": "ネコ"
+    },
+    {
+        "word": "catalog",
+        "meaning": "カタログ"
+    },
+    {
+        "word": "catch",
+        "meaning": "（ボールなどを）とらえること、キャッチボール　　〔play catch の形で〕　キャッチボールをする"
+    },
+    {
+        "word": "cause",
+        "meaning": "原因"
+    },
+    {
+        "word": "cave",
+        "meaning": "洞窟、ほら穴、横穴"
+    },
+    {
+        "word": "CD",
+        "meaning": "CD、コンパクトディスク  〔compact disc ［disk］の略〕"
+    },
+    {
+        "word": "ceiling",
+        "meaning": "天井"
+    },
+    {
+        "word": "cell phone",
+        "meaning": "携帯電話"
+    },
+    {
+        "word": "cent",
+        "meaning": "セント（アメリカ合衆国の通貨。100 cents = 1 dollar）"
+    },
+    {
+        "word": "center",
+        "meaning": "中心、中央、真ん中"
+    },
+    {
+        "word": "century",
+        "meaning": "世紀、100年"
+    },
+    {
+        "word": "chair",
+        "meaning": "（１人用で、背もたれのある） 椅子"
+    },
+    {
+        "word": "challenge",
+        "meaning": "挑戦、やりがい"
+    },
+    {
+        "word": "champion",
+        "meaning": "優勝者、選手権保持者、チャンピオン"
+    },
+    {
+        "word": "championship",
+        "meaning": "選手権（大会）、優勝"
+    },
+    {
+        "word": "chance",
+        "meaning": "機会、可能性、チャンス"
+    },
+    {
+        "word": "change",
+        "meaning": "おつり、つり銭、小銭"
+    },
+    {
+        "word": "character",
+        "meaning": "1. (人の)性格、人格、(物の)特色　2. 人物、登場人物"
+    },
+    {
+        "word": "charity",
+        "meaning": "慈善、チャリティー、慈善団体"
+    },
+    {
+        "word": "chart",
+        "meaning": "図表"
+    },
+    {
+        "word": "cheese",
+        "meaning": "チーズ"
+    },
+    {
+        "word": "cheeseburger",
+        "meaning": "チーズバーガー"
+    },
+    {
+        "word": "chef",
+        "meaning": "シェフ、コック長"
+    },
+    {
+        "word": "cherry",
+        "meaning": "サクランボ、サクラ（の木）"
+    },
+    {
+        "word": "cherry blossom",
+        "meaning": "サクラの花"
+    },
+    {
+        "word": "chess",
+        "meaning": "チェス"
+    },
+    {
+        "word": "chest",
+        "meaning": "胸"
+    },
+    {
+        "word": "child",
+        "meaning": "子ども"
+    },
+    {
+        "word": "childhood",
+        "meaning": "幼少時代"
+    },
+    {
+        "word": "children",
+        "meaning": "child の複数形"
+    },
+    {
+        "word": "chimney",
+        "meaning": "煙突"
+    },
+    {
+        "word": "China",
+        "meaning": "中国"
+    },
+    {
+        "word": "Chinese",
+        "meaning": "中国語、中国人"
+    },
+    {
+        "word": "chocolate",
+        "meaning": "チョコレート"
+    },
+    {
+        "word": "choice",
+        "meaning": "選ぶこと、選択、選ぶ自由"
+    },
+    {
+        "word": "chorus",
+        "meaning": "合唱"
+    },
+    {
+        "word": "Christmas",
+        "meaning": "クリスマス"
+    },
+    {
+        "word": "church",
+        "meaning": "教会"
+    },
+    {
+        "word": "circle",
+        "meaning": "円"
+    },
+    {
+        "word": "city",
+        "meaning": "市、都市、都会   〔city hall の形で〕 市役所"
+    },
+    {
+        "word": "class",
+        "meaning": "1. 授業　2. 学級、組、クラス　 "
+    },
+    {
+        "word": "classmate",
+        "meaning": "同級生、クラスメート、級友"
+    },
+    {
+        "word": "classroom",
+        "meaning": "教室"
+    },
+    {
+        "word": "clean energy",
+        "meaning": "再生可能エネルギー"
+    },
+    {
+        "word": "clerk",
+        "meaning": "係員、店員、係"
+    },
+    {
+        "word": "climate",
+        "meaning": "気候"
+    },
+    {
+        "word": "clock",
+        "meaning": "時計《置時計、掛け時計・柱時計》"
+    },
+    {
+        "word": "cloth",
+        "meaning": "布"
+    },
+    {
+        "word": "clothes",
+        "meaning": "衣服、服"
+    },
+    {
+        "word": "cloud",
+        "meaning": "雲"
+    },
+    {
+        "word": "club",
+        "meaning": "クラブ、部"
+    },
+    {
+        "word": "coach",
+        "meaning": "コーチ"
+    },
+    {
+        "word": "coat",
+        "meaning": "コート、上着"
+    },
+    {
+        "word": "coffee",
+        "meaning": "コーヒー"
+    },
+    {
+        "word": "coin",
+        "meaning": "硬貨、コイン"
+    },
+    {
+        "word": "cola",
+        "meaning": "コーラ"
+    },
+    {
+        "word": "cold",
+        "meaning": "かぜ　〔have a cold の形で〕 かぜをひいている"
+    },
+    {
+        "word": "college",
+        "meaning": "大学（比較的小規模の）"
+    },
+    {
+        "word": "color",
+        "meaning": "色、肌の色"
+    },
+    {
+        "word": "comic",
+        "meaning": "マンガ"
+    },
+    {
+        "word": "comment",
+        "meaning": "コメント"
+    },
+    {
+        "word": "communication",
+        "meaning": "コミュニケーション、意思伝達、情報の伝達"
+    },
+    {
+        "word": "community",
+        "meaning": "地域社会"
+    },
+    {
+        "word": "company",
+        "meaning": "会社"
+    },
+    {
+        "word": "compartment",
+        "meaning": "もの入れ"
+    },
+    {
+        "word": "computer",
+        "meaning": "コンピュータ"
+    },
+    {
+        "word": "concert",
+        "meaning": "コンサート、演奏会、音楽会"
+    },
+    {
+        "word": "conclusion",
+        "meaning": "結論"
+    },
+    {
+        "word": "condition",
+        "meaning": "状態、容態、環境、状況"
+    },
+    {
+        "word": "conditioner",
+        "meaning": "ヘアコンディショナー、リンス"
+    },
+    {
+        "word": "conditioner",
+        "meaning": "冷暖房装置　〔air conditioner で〕エアコン"
+    },
+    {
+        "word": "condominium",
+        "meaning": "分譲マンション"
+    },
+    {
+        "word": "conference",
+        "meaning": "会議、会談、協議"
+    },
+    {
+        "word": "connection",
+        "meaning": "接続（すること）、つながり、関係"
+    },
+    {
+        "word": "content",
+        "meaning": "内容、中身"
+    },
+    {
+        "word": "contest",
+        "meaning": "コンテスト、コンクール"
+    },
+    {
+        "word": "control",
+        "meaning": "制御　〔out of controlで〕制御しきれなくなって"
+    },
+    {
+        "word": "convenience",
+        "meaning": "便利なこと（もの）"
+    },
+    {
+        "word": "convenience store",
+        "meaning": "コンビニエンスストア、コンビニ"
+    },
+    {
+        "word": "cook",
+        "meaning": "料理をする人"
+    },
+    {
+        "word": "cooking",
+        "meaning": "料理"
+    },
+    {
+        "word": "corner",
+        "meaning": "（道路の）曲がり角"
+    },
+    {
+        "word": "costume",
+        "meaning": "服装、衣装、コスチューム"
+    },
+    {
+        "word": "cotton",
+        "meaning": "綿"
+    },
+    {
+        "word": "cough",
+        "meaning": "せき"
+    },
+    {
+        "word": "country",
+        "meaning": "国"
+    },
+    {
+        "word": "courage",
+        "meaning": "勇気"
+    },
+    {
+        "word": "course",
+        "meaning": "1. 〔Of course.の形で〕 もちろん　2. 方向、進路　3. 講座、コース"
+    },
+    {
+        "word": "court",
+        "meaning": "（テニスなどの）コート"
+    },
+    {
+        "word": "cousin",
+        "meaning": "いとこ"
+    },
+    {
+        "word": "cow",
+        "meaning": "牛（雌牛、乳牛）"
+    },
+    {
+        "word": "cracker",
+        "meaning": "（菓子の）クラッカー"
+    },
+    {
+        "word": "craftsperson",
+        "meaning": "職人"
+    },
+    {
+        "word": "crane",
+        "meaning": "ツル"
+    },
+    {
+        "word": "creativity",
+        "meaning": "創造性[力]、独創[力]"
+    },
+    {
+        "word": "culture",
+        "meaning": "文化、土壌、習慣、風習、知的産物"
+    },
+    {
+        "word": "cup",
+        "meaning": "（紅茶・コーヒー用などの）カップ、茶わん、賞杯"
+    },
+    {
+        "word": "curry",
+        "meaning": "カレー、カレー料理"
+    },
+    {
+        "word": "cushion",
+        "meaning": "ざぶとん、クッション"
+    },
+    {
+        "word": "custom",
+        "meaning": "風習、習慣"
+    },
+    {
+        "word": "customer",
+        "meaning": "客、顧客"
+    },
+    {
+        "word": "cycling",
+        "meaning": "サイクリング"
+    },
+    {
+        "word": "dad",
+        "meaning": "パパ、お父さん　《家庭内で子どもが父親を呼ぶのに使う。呼びかけの時にはしばしば大文字で始めて Dad とする。》"
+    },
+    {
+        "word": "dance",
+        "meaning": "踊り、ダンス"
+    },
+    {
+        "word": "dancer",
+        "meaning": "踊る人、舞踏家、ダンサー"
+    },
+    {
+        "word": "danger",
+        "meaning": "危険（な状態）"
+    },
+    {
+        "word": "date",
+        "meaning": "日付、月日、日時"
+    },
+    {
+        "word": "daughter",
+        "meaning": "娘"
+    },
+    {
+        "word": "day",
+        "meaning": "1. 日、1日　2. 日中、昼間"
+    },
+    {
+        "word": "day-at-work program",
+        "meaning": "職業体験プログラム"
+    },
+    {
+        "word": "death",
+        "meaning": "死、死亡"
+    },
+    {
+        "word": "decade",
+        "meaning": "10年間"
+    },
+    {
+        "word": "December",
+        "meaning": "12月"
+    },
+    {
+        "word": "decision",
+        "meaning": "決断"
+    },
+    {
+        "word": "democracy",
+        "meaning": "民主主義"
+    },
+    {
+        "word": "demonstration",
+        "meaning": "（集会・行進などによる〕デモ、デモンストレーション"
+    },
+    {
+        "word": "dentist",
+        "meaning": "歯医者"
+    },
+    {
+        "word": "department store",
+        "meaning": "デパート"
+    },
+    {
+        "word": "design",
+        "meaning": "デザイン、設計"
+    },
+    {
+        "word": "designer",
+        "meaning": "デザイナー、設計者"
+    },
+    {
+        "word": "desk",
+        "meaning": "机"
+    },
+    {
+        "word": "developing country",
+        "meaning": "発展途上国"
+    },
+    {
+        "word": "diary",
+        "meaning": "日記、日記帳"
+    },
+    {
+        "word": "dictionary",
+        "meaning": "辞書"
+    },
+    {
+        "word": "difference",
+        "meaning": "ちがい、相違（点）、差"
+    },
+    {
+        "word": "difficulty",
+        "meaning": "苦しさ、困難、苦労"
+    },
+    {
+        "word": "dining",
+        "meaning": "食事"
+    },
+    {
+        "word": "dinner",
+        "meaning": "ディナー、夕食"
+    },
+    {
+        "word": "dinosaur",
+        "meaning": "恐竜"
+    },
+    {
+        "word": "director",
+        "meaning": "(映画)監督"
+    },
+    {
+        "word": "disaster",
+        "meaning": "災害"
+    },
+    {
+        "word": "discount",
+        "meaning": "割引"
+    },
+    {
+        "word": "disease",
+        "meaning": "病気"
+    },
+    {
+        "word": "dish",
+        "meaning": "1. 皿、食器類　2. 一皿、料理"
+    },
+    {
+        "word": "doctor",
+        "meaning": "医者、医師、博士"
+    },
+    {
+        "word": "dog",
+        "meaning": "イヌ"
+    },
+    {
+        "word": "doggy bag",
+        "meaning": "ドギーバッグ"
+    },
+    {
+        "word": "dollar",
+        "meaning": "ドル　　　《米国・カナダなどの貨幣で、1ドルは100セント》"
+    },
+    {
+        "word": "dolphin",
+        "meaning": "イルカ"
+    },
+    {
+        "word": "dome",
+        "meaning": "丸屋根、ドーム"
+    },
+    {
+        "word": "donut",
+        "meaning": "ドーナツ"
+    },
+    {
+        "word": "door",
+        "meaning": "戸、ドア、戸口、玄関"
+    },
+    {
+        "word": "dot",
+        "meaning": "点"
+    },
+    {
+        "word": "Dr.",
+        "meaning": "～博士　Doctorの短縮形"
+    },
+    {
+        "word": "drama",
+        "meaning": "（テレビの）ドラマ、劇"
+    },
+    {
+        "word": "dream",
+        "meaning": "夢、希望、理想"
+    },
+    {
+        "word": "dress",
+        "meaning": "衣装、ドレス"
+    },
+    {
+        "word": "driftwood",
+        "meaning": "流木"
+    },
+    {
+        "word": "drill",
+        "meaning": "訓練"
+    },
+    {
+        "word": "drink",
+        "meaning": "飲み物　　〔たとえば soft drinks の形で〕清涼（せいりょう）飲料"
+    },
+    {
+        "word": "drinking fountain",
+        "meaning": "水飲み場[器]"
+    },
+    {
+        "word": "driver",
+        "meaning": "（車を）運転する人、運転手"
+    },
+    {
+        "word": "driveway",
+        "meaning": "（道から車庫または玄関までの）車道"
+    },
+    {
+        "word": "drop",
+        "meaning": "しずく"
+    },
+    {
+        "word": "drugstore",
+        "meaning": "ドラッグストア、薬局"
+    },
+    {
+        "word": "drum",
+        "meaning": "太鼓、ドラム"
+    },
+    {
+        "word": "duck",
+        "meaning": "カモ、アヒル"
+    },
+    {
+        "word": "DVD",
+        "meaning": "デジタルビデオディスク　〔digital video disc ［disk］の略〕"
+    },
+    {
+        "word": "e-mail",
+        "meaning": "Eメール、電子メール"
+    },
+    {
+        "word": "ear",
+        "meaning": "耳"
+    },
+    {
+        "word": "earth",
+        "meaning": "地球　〔the をつけないで、Earth と大文字ではじめることもある〕"
+    },
+    {
+        "word": "earthquake",
+        "meaning": "地震"
+    },
+    {
+        "word": "east",
+        "meaning": "東"
+    },
+    {
+        "word": "effort",
+        "meaning": "努力"
+    },
+    {
+        "word": "egg",
+        "meaning": "卵、玉子"
+    },
+    {
+        "word": "eight",
+        "meaning": "8"
+    },
+    {
+        "word": "eighteen",
+        "meaning": "18"
+    },
+    {
+        "word": "eighteenth",
+        "meaning": "18番め、（月の）18日"
+    },
+    {
+        "word": "eighth",
+        "meaning": "8番め、（月の）8日"
+    },
+    {
+        "word": "eighty",
+        "meaning": "80"
+    },
+    {
+        "word": "electricity",
+        "meaning": "電気"
+    },
+    {
+        "word": "elementary school",
+        "meaning": "小学校"
+    },
+    {
+        "word": "elephant",
+        "meaning": "ゾウ"
+    },
+    {
+        "word": "elevator",
+        "meaning": "エレベーター"
+    },
+    {
+        "word": "eleven",
+        "meaning": "11"
+    },
+    {
+        "word": "eleventh",
+        "meaning": "11番め、（月の）１１日"
+    },
+    {
+        "word": "emergency",
+        "meaning": "緊急事態、非常時"
+    },
+    {
+        "word": "end",
+        "meaning": "終わり、最後、端"
+    },
+    {
+        "word": "endangered animal",
+        "meaning": "絶滅の危機にひんしている動物"
+    },
+    {
+        "word": "ending",
+        "meaning": "終わり、結末、エンディング"
+    },
+    {
+        "word": "energy",
+        "meaning": "エネルギー"
+    },
+    {
+        "word": "engineer",
+        "meaning": "技師、エンジニア"
+    },
+    {
+        "word": "engineering",
+        "meaning": "工学"
+    },
+    {
+        "word": "England",
+        "meaning": "イングランド"
+    },
+    {
+        "word": "English",
+        "meaning": "英語"
+    },
+    {
+        "word": "entertainment",
+        "meaning": "娯楽"
+    },
+    {
+        "word": "entrance",
+        "meaning": "入り口、玄関"
+    },
+    {
+        "word": "environment",
+        "meaning": "環境"
+    },
+    {
+        "word": "era",
+        "meaning": "時代　〔Nara era で〕奈良時代"
+    },
+    {
+        "word": "eraser",
+        "meaning": "消しゴム"
+    },
+    {
+        "word": "Europe",
+        "meaning": "ヨーロッパ"
+    },
+    {
+        "word": "evacuation",
+        "meaning": "避難"
+    },
+    {
+        "word": "evening",
+        "meaning": "夕方、晩、夜  《通例、日没から寝る時間までを言う》"
+    },
+    {
+        "word": "event",
+        "meaning": "行事、出来事、イベント"
+    },
+    {
+        "word": "examination",
+        "meaning": "試験"
+    },
+    {
+        "word": "example",
+        "meaning": "例、実例　〔for example の形で〕たとえば"
+    },
+    {
+        "word": "exhibition",
+        "meaning": "展覧会"
+    },
+    {
+        "word": "experience",
+        "meaning": "経験"
+    },
+    {
+        "word": "expert",
+        "meaning": "専門家、エキスパート"
+    },
+    {
+        "word": "express",
+        "meaning": "急行列車、速達便"
+    },
+    {
+        "word": "expression",
+        "meaning": "表現、言い回し、（顔などの）表情"
+    },
+    {
+        "word": "eye",
+        "meaning": "目、視力、視線"
+    },
+    {
+        "word": "eyesight",
+        "meaning": "視力"
+    },
+    {
+        "word": "face",
+        "meaning": "顔、表情"
+    },
+    {
+        "word": "facility",
+        "meaning": "設備、施設"
+    },
+    {
+        "word": "fact",
+        "meaning": "事実"
+    },
+    {
+        "word": "fall",
+        "meaning": "1. 秋　2. 滝　3. 落下"
+    },
+    {
+        "word": "family",
+        "meaning": "家族、一家、家族の者たち"
+    },
+    {
+        "word": "fan",
+        "meaning": "1.  (スポーツなどの) ファン　2.  扇、扇子、うちわ"
+    },
+    {
+        "word": "farewell",
+        "meaning": "別れ"
+    },
+    {
+        "word": "farm",
+        "meaning": "農場、農園"
+    },
+    {
+        "word": "farmer",
+        "meaning": "農家、農業をする人、農業主、農業経営者"
+    },
+    {
+        "word": "farming",
+        "meaning": "農業、農場経営"
+    },
+    {
+        "word": "fashion",
+        "meaning": "流行、はやり、ファッション、流行の服装"
+    },
+    {
+        "word": "fate",
+        "meaning": "運命"
+    },
+    {
+        "word": "father",
+        "meaning": "父、お父さん"
+    },
+    {
+        "word": "favor",
+        "meaning": "親切な行為　〔ask … a favor で〕　…にお願いする"
+    },
+    {
+        "word": "favorite",
+        "meaning": "お気に入りのもの［人］"
+    },
+    {
+        "word": "February",
+        "meaning": "2月"
+    },
+    {
+        "word": "fee",
+        "meaning": "料金、入場料"
+    },
+    {
+        "word": "feeling",
+        "meaning": "感情、考え、感覚"
+    },
+    {
+        "word": "feet",
+        "meaning": "〔foot の複数形〕"
+    },
+    {
+        "word": "fence",
+        "meaning": "垣根"
+    },
+    {
+        "word": "Ferris wheel",
+        "meaning": "観覧車"
+    },
+    {
+        "word": "festival",
+        "meaning": "お祭り、祭典　　〔たとえば the Aomori Nebuta Festival の形で〕 青森ねぶた祭り"
+    },
+    {
+        "word": "fever",
+        "meaning": "熱"
+    },
+    {
+        "word": "fiction",
+        "meaning": "小説、フィクション"
+    },
+    {
+        "word": "field",
+        "meaning": "運動場、フィールド、野原、畑、田、牧草地"
+    },
+    {
+        "word": "fifteen",
+        "meaning": "15"
+    },
+    {
+        "word": "fifteenth",
+        "meaning": "15番め、（月の）15日"
+    },
+    {
+        "word": "fifth",
+        "meaning": "5番め、（月の）5日"
+    },
+    {
+        "word": "fifty",
+        "meaning": "50"
+    },
+    {
+        "word": "fight",
+        "meaning": "戦い、口げんか"
+    },
+    {
+        "word": "fighting spirit",
+        "meaning": "闘志"
+    },
+    {
+        "word": "film",
+        "meaning": "映画"
+    },
+    {
+        "word": "fine arts",
+        "meaning": "芸術、(教科の) 美術"
+    },
+    {
+        "word": "finger",
+        "meaning": "(手の) 指"
+    },
+    {
+        "word": "Finland",
+        "meaning": "フィンランド"
+    },
+    {
+        "word": "fire",
+        "meaning": "火"
+    },
+    {
+        "word": "fireplace",
+        "meaning": "暖炉"
+    },
+    {
+        "word": "firewood",
+        "meaning": "まき、たきぎ"
+    },
+    {
+        "word": "firework",
+        "meaning": "花火"
+    },
+    {
+        "word": "first",
+        "meaning": "1番め、最初、（月の）ついたち"
+    },
+    {
+        "word": "fish",
+        "meaning": "魚 〔複数形も fish 〕"
+    },
+    {
+        "word": "fitting room",
+        "meaning": "試着室"
+    },
+    {
+        "word": "five",
+        "meaning": "5"
+    },
+    {
+        "word": "five-story pagoda",
+        "meaning": "五重塔"
+    },
+    {
+        "word": "flash",
+        "meaning": "ぱっと発する光、(撮影用の)フラッシュ"
+    },
+    {
+        "word": "flight",
+        "meaning": "フライト、飛行機旅行"
+    },
+    {
+        "word": "float",
+        "meaning": "山車"
+    },
+    {
+        "word": "floor",
+        "meaning": "1. 床（ゆか）　2. ～階"
+    },
+    {
+        "word": "flower",
+        "meaning": "花、草花"
+    },
+    {
+        "word": "flute",
+        "meaning": "フルート"
+    },
+    {
+        "word": "food",
+        "meaning": "食べ物、食糧"
+    },
+    {
+        "word": "foot",
+        "meaning": "足 《足首から下の部分》"
+    },
+    {
+        "word": "football",
+        "meaning": "フットボール(用のボール)、サッカー(用のボール)、アメリカンフットボール(用のボール)"
+    },
+    {
+        "word": "forest",
+        "meaning": "森、森林"
+    },
+    {
+        "word": "fork",
+        "meaning": "フォーク"
+    },
+    {
+        "word": "forty",
+        "meaning": "40"
+    },
+    {
+        "word": "fossil fuel",
+        "meaning": "化石燃料"
+    },
+    {
+        "word": "four",
+        "meaning": "4"
+    },
+    {
+        "word": "fourteen",
+        "meaning": "14"
+    },
+    {
+        "word": "fourth",
+        "meaning": "4番め、（月の）4日"
+    },
+    {
+        "word": "fox",
+        "meaning": "キツネ"
+    },
+    {
+        "word": "France",
+        "meaning": "フランス"
+    },
+    {
+        "word": "freedom",
+        "meaning": "自由"
+    },
+    {
+        "word": "French",
+        "meaning": "フランス語　"
+    },
+    {
+        "word": "French fries",
+        "meaning": "（細長い）フライドポテト"
+    },
+    {
+        "word": "Friday",
+        "meaning": "金曜日"
+    },
+    {
+        "word": "fridge",
+        "meaning": "冷蔵庫"
+    },
+    {
+        "word": "friend",
+        "meaning": "友達、友人"
+    },
+    {
+        "word": "friendship",
+        "meaning": "友情、友愛、親交"
+    },
+    {
+        "word": "front",
+        "meaning": "前面、前部、前　　〔in front of ～の形で〕～の前に"
+    },
+    {
+        "word": "fruit",
+        "meaning": "果物、フルーツ"
+    },
+    {
+        "word": "fuel",
+        "meaning": "燃料"
+    },
+    {
+        "word": "fun",
+        "meaning": "楽しいこと、面白いこと、楽しさ"
+    },
+    {
+        "word": "furniture",
+        "meaning": "家具"
+    },
+    {
+        "word": "futon",
+        "meaning": "フトン、ソファーベッド"
+    },
+    {
+        "word": "future",
+        "meaning": "未来、将来"
+    },
+    {
+        "word": "game",
+        "meaning": "1. （一定のルールを持った）ゲーム、遊び　2. 試合、競技  "
+    },
+    {
+        "word": "garbage",
+        "meaning": "生ごみ、くず"
+    },
+    {
+        "word": "garden",
+        "meaning": "1. 庭、庭園　2. 畑､野菜園　　  "
+    },
+    {
+        "word": "gas",
+        "meaning": "1. 気体　2. (燃料用の)ガス　3. ガソリン　〔gas stationの形で〕　ガソリンスタンド  "
+    },
+    {
+        "word": "gate",
+        "meaning": "門、出入口"
+    },
+    {
+        "word": "geese",
+        "meaning": "〔gooseの複数形〕"
+    },
+    {
+        "word": "generation",
+        "meaning": "世代、同世代の人々"
+    },
+    {
+        "word": "gentleman",
+        "meaning": "紳士　〔複数形は gentlemen〕"
+    },
+    {
+        "word": "gentlemen",
+        "meaning": "〔gentlemanの複数形〕"
+    },
+    {
+        "word": "ger",
+        "meaning": "ゲル（モンゴルの伝統的な移動式住居）"
+    },
+    {
+        "word": "German",
+        "meaning": "1. ドイツ語　2. ドイツ人 "
+    },
+    {
+        "word": "Germany",
+        "meaning": "ドイツ"
+    },
+    {
+        "word": "gesture",
+        "meaning": "身ぶり、ジェスチャー"
+    },
+    {
+        "word": "Ghana",
+        "meaning": "ガーナ"
+    },
+    {
+        "word": "gift",
+        "meaning": "贈り物"
+    },
+    {
+        "word": "girl",
+        "meaning": "女の子、少女"
+    },
+    {
+        "word": "glacier",
+        "meaning": "氷河"
+    },
+    {
+        "word": "global warming",
+        "meaning": "地球温暖化"
+    },
+    {
+        "word": "glove",
+        "meaning": "手袋"
+    },
+    {
+        "word": "goal",
+        "meaning": "1. ゴール、決勝点　2. 目標、目的地　　"
+    },
+    {
+        "word": "goalball",
+        "meaning": "ゴールボール《３人ずつの２チームで音の出るボールを用いて行う球技》"
+    },
+    {
+        "word": "God",
+        "meaning": "神"
+    },
+    {
+        "word": "gold",
+        "meaning": "金"
+    },
+    {
+        "word": "goodness",
+        "meaning": "善良さ、親切"
+    },
+    {
+        "word": "goods",
+        "meaning": "商品、品物"
+    },
+    {
+        "word": "goose",
+        "meaning": "ガン〔動物名〕"
+    },
+    {
+        "word": "government",
+        "meaning": "政府"
+    },
+    {
+        "word": "grade",
+        "meaning": "1. 学年　2. 評定､点数 　 "
+    },
+    {
+        "word": "granddaughter",
+        "meaning": "孫娘、女の孫"
+    },
+    {
+        "word": "grandfather",
+        "meaning": "おじいさん，祖父"
+    },
+    {
+        "word": "grandmother",
+        "meaning": "おばあさん、祖母"
+    },
+    {
+        "word": "grandson",
+        "meaning": "孫息子"
+    },
+    {
+        "word": "grape",
+        "meaning": "ブドウ"
+    },
+    {
+        "word": "grass",
+        "meaning": "1.　草　2.　草地、芝生　　　"
+    },
+    {
+        "word": "gray",
+        "meaning": "灰色、ねずみ色"
+    },
+    {
+        "word": "Greece",
+        "meaning": "ギリシャ"
+    },
+    {
+        "word": "green",
+        "meaning": "緑（色）"
+    },
+    {
+        "word": "greenhouse gas",
+        "meaning": "温室効果ガス"
+    },
+    {
+        "word": "greeting",
+        "meaning": "挨拶"
+    },
+    {
+        "word": "ground",
+        "meaning": "地面、大地   "
+    },
+    {
+        "word": "group",
+        "meaning": "グループ、団体"
+    },
+    {
+        "word": "guide",
+        "meaning": "（旅行などの）人、ガイド"
+    },
+    {
+        "word": "guitar",
+        "meaning": "ギター"
+    },
+    {
+        "word": "gun",
+        "meaning": "銃"
+    },
+    {
+        "word": "gym",
+        "meaning": "体育館、ジム"
+    },
+    {
+        "word": "habit",
+        "meaning": "習慣、くせ"
+    },
+    {
+        "word": "habitat",
+        "meaning": "生息地"
+    },
+    {
+        "word": "hair",
+        "meaning": "毛、髪の毛"
+    },
+    {
+        "word": "half",
+        "meaning": "半分"
+    },
+    {
+        "word": "hall",
+        "meaning": "会館、役所　〔city hallの形で〕市役所"
+    },
+    {
+        "word": "hallway",
+        "meaning": "（ビルなどの）廊下、通路"
+    },
+    {
+        "word": "ham",
+        "meaning": "ハム"
+    },
+    {
+        "word": "hamburger",
+        "meaning": "ハンバーガー"
+    },
+    {
+        "word": "hand",
+        "meaning": "手"
+    },
+    {
+        "word": "handle",
+        "meaning": "取っ手、柄"
+    },
+    {
+        "word": "handout",
+        "meaning": "配付印刷物、ビラ、プリント"
+    },
+    {
+        "word": "happiness",
+        "meaning": "幸福"
+    },
+    {
+        "word": "hardship",
+        "meaning": "苦難"
+    },
+    {
+        "word": "harvest",
+        "meaning": "収穫"
+    },
+    {
+        "word": "hatred",
+        "meaning": "憎しみ"
+    },
+    {
+        "word": "haunted house",
+        "meaning": "お化け屋敷"
+    },
+    {
+        "word": "Hawaii",
+        "meaning": "ハワイ（太平洋にある米国の州、州都はホノルル）"
+    },
+    {
+        "word": "hawk",
+        "meaning": "タカ"
+    },
+    {
+        "word": "hay fever",
+        "meaning": "花粉症"
+    },
+    {
+        "word": "head",
+        "meaning": "頭、頭部"
+    },
+    {
+        "word": "headache",
+        "meaning": "頭痛"
+    },
+    {
+        "word": "health",
+        "meaning": "健康"
+    },
+    {
+        "word": "heart",
+        "meaning": "心"
+    },
+    {
+        "word": "heat",
+        "meaning": "熱"
+    },
+    {
+        "word": "heater",
+        "meaning": "暖房器具"
+    },
+    {
+        "word": "help",
+        "meaning": "助け､援助"
+    },
+    {
+        "word": "here",
+        "meaning": "ここ、この場所"
+    },
+    {
+        "word": "heritage",
+        "meaning": "（祖先から伝わる精神的・文化的）遺産"
+    },
+    {
+        "word": "hero",
+        "meaning": "ヒーロー、英雄"
+    },
+    {
+        "word": "high school",
+        "meaning": "高等学校"
+    },
+    {
+        "word": "highlight",
+        "meaning": "ハイライト、見せ場"
+    },
+    {
+        "word": "hill",
+        "meaning": "丘、小山"
+    },
+    {
+        "word": "history",
+        "meaning": "歴史"
+    },
+    {
+        "word": "hit",
+        "meaning": "ヒット（曲）"
+    },
+    {
+        "word": "hobby",
+        "meaning": "趣味"
+    },
+    {
+        "word": "hole",
+        "meaning": "穴"
+    },
+    {
+        "word": "holiday",
+        "meaning": "休日、祝日"
+    },
+    {
+        "word": "home",
+        "meaning": "1. 家、家庭　2. 故郷　3. 〔at home の形で〕家に、在宅して、くつろいで　4. （野球の）本塁　"
+    },
+    {
+        "word": "homeland",
+        "meaning": "本国、母国"
+    },
+    {
+        "word": "homestay",
+        "meaning": "ホームステイ"
+    },
+    {
+        "word": "hometown",
+        "meaning": "故郷"
+    },
+    {
+        "word": "homework",
+        "meaning": "宿題"
+    },
+    {
+        "word": "honesty",
+        "meaning": "正直（であること）、誠実さ"
+    },
+    {
+        "word": "hope",
+        "meaning": "希望、望"
+    },
+    {
+        "word": "horizon",
+        "meaning": "（人の）視野"
+    },
+    {
+        "word": "horse",
+        "meaning": "ウマ"
+    },
+    {
+        "word": "hospital",
+        "meaning": "病院、総合病院"
+    },
+    {
+        "word": "host",
+        "meaning": "（客を接待する）主人（役）"
+    },
+    {
+        "word": "hot dog",
+        "meaning": "ホットドッグ"
+    },
+    {
+        "word": "hot spring",
+        "meaning": "温泉"
+    },
+    {
+        "word": "hotel",
+        "meaning": "ホテル"
+    },
+    {
+        "word": "hour",
+        "meaning": "１時間"
+    },
+    {
+        "word": "house",
+        "meaning": "家、住宅"
+    },
+    {
+        "word": "hula",
+        "meaning": "フラ（ダンス）〈ハワイの民族舞踊〉"
+    },
+    {
+        "word": "human",
+        "meaning": "人、人間"
+    },
+    {
+        "word": "humor",
+        "meaning": "ユーモア"
+    },
+    {
+        "word": "hundred",
+        "meaning": "100"
+    },
+    {
+        "word": "hunter",
+        "meaning": "ハンター、猟師"
+    },
+    {
+        "word": "hunting",
+        "meaning": "さがし求めること"
+    },
+    {
+        "word": "husband",
+        "meaning": "夫"
+    },
+    {
+        "word": "hymn",
+        "meaning": "賛美歌"
+    },
+    {
+        "word": "ice",
+        "meaning": "氷"
+    },
+    {
+        "word": "idea",
+        "meaning": "考え、思いつき、アイディア"
+    },
+    {
+        "word": "image",
+        "meaning": "像、イメージ画像、絵"
+    },
+    {
+        "word": "importance",
+        "meaning": "重要性、重大さ、大切さ"
+    },
+    {
+        "word": "India",
+        "meaning": "インド"
+    },
+    {
+        "word": "industry",
+        "meaning": "工業"
+    },
+    {
+        "word": "information",
+        "meaning": "情報"
+    },
+    {
+        "word": "injury",
+        "meaning": "けが、不調"
+    },
+    {
+        "word": "ink",
+        "meaning": "インク"
+    },
+    {
+        "word": "insect",
+        "meaning": "昆虫"
+    },
+    {
+        "word": "insult",
+        "meaning": "屈辱"
+    },
+    {
+        "word": "interest",
+        "meaning": "興味、関心"
+    },
+    {
+        "word": "Internet",
+        "meaning": "インターネット"
+    },
+    {
+        "word": "interpreter",
+        "meaning": "通訳者"
+    },
+    {
+        "word": "interview",
+        "meaning": "インタビュー、会見、面接"
+    },
+    {
+        "word": "interviewer",
+        "meaning": "インタビューする人、インタビュワー、面接官"
+    },
+    {
+        "word": "island",
+        "meaning": "島"
+    },
+    {
+        "word": "jacket",
+        "meaning": "ジャケット、上着"
+    },
+    {
+        "word": "January",
+        "meaning": "１月"
+    },
+    {
+        "word": "Japan",
+        "meaning": "日本"
+    },
+    {
+        "word": "Japanese",
+        "meaning": "日本、日本人、日本語、（教科の日本語にとっての）国語"
+    },
+    {
+        "word": "Japanese-Brazilian",
+        "meaning": "日系ブラジル人"
+    },
+    {
+        "word": "job",
+        "meaning": "仕事、職務"
+    },
+    {
+        "word": "joke",
+        "meaning": "冗談、しゃれ"
+    },
+    {
+        "word": "Jones",
+        "meaning": "ジョーンズ(姓）"
+    },
+    {
+        "word": "journalist",
+        "meaning": "記者、ジャーナリスト"
+    },
+    {
+        "word": "joy",
+        "meaning": "喜び"
+    },
+    {
+        "word": "Judy",
+        "meaning": "ジュディ〔女性名〕"
+    },
+    {
+        "word": "juice",
+        "meaning": "ジュース"
+    },
+    {
+        "word": "July",
+        "meaning": "７月"
+    },
+    {
+        "word": "June",
+        "meaning": "６月"
+    },
+    {
+        "word": "jungle",
+        "meaning": "〔ふつうthe～で〕(熱帯地方の)密林、ジャングル"
+    },
+    {
+        "word": "junior high school",
+        "meaning": "中学校"
+    },
+    {
+        "word": "justice",
+        "meaning": "正義、正しさ、公平"
+    },
+    {
+        "word": "kangaroo",
+        "meaning": "カンガルー"
+    },
+    {
+        "word": "karaoke",
+        "meaning": "カラオケ"
+    },
+    {
+        "word": "Kenya",
+        "meaning": "ケニヤ(アフリカ東部にある共和国）"
+    },
+    {
+        "word": "key",
+        "meaning": "かぎ"
+    },
+    {
+        "word": "keyhole",
+        "meaning": "鍵穴"
+    },
+    {
+        "word": "kid",
+        "meaning": "子ども"
+    },
+    {
+        "word": "kilogram",
+        "meaning": "キログラム"
+    },
+    {
+        "word": "kilometer",
+        "meaning": "キロメートル"
+    },
+    {
+        "word": "kind",
+        "meaning": "種類　　〔a kind of ～の形で〕　一種の～、～のようなもの"
+    },
+    {
+        "word": "king",
+        "meaning": "王、国王"
+    },
+    {
+        "word": "kitchen",
+        "meaning": "台所、キッチン"
+    },
+    {
+        "word": "kite",
+        "meaning": "(空にあげる)凧"
+    },
+    {
+        "word": "koala",
+        "meaning": "コアラ"
+    },
+    {
+        "word": "Korea",
+        "meaning": "韓国・朝鮮　　〔たとえば South Korea, North Korea の形で〕 韓国、北朝鮮"
+    },
+    {
+        "word": "Korean",
+        "meaning": "韓国・朝鮮語、韓国人・朝鮮人"
+    },
+    {
+        "word": "lady",
+        "meaning": "婦人"
+    },
+    {
+        "word": "lake",
+        "meaning": "湖    〔たとえば Lake Towada の形で〕 十和田湖"
+    },
+    {
+        "word": "lamp",
+        "meaning": "ランプ、明かり"
+    },
+    {
+        "word": "land",
+        "meaning": "土地、陸地"
+    },
+    {
+        "word": "landing card",
+        "meaning": "入国カード"
+    },
+    {
+        "word": "landmine",
+        "meaning": "地雷"
+    },
+    {
+        "word": "language",
+        "meaning": "ことば、言語"
+    },
+    {
+        "word": "language arts",
+        "meaning": "言語技術(米国の多くの小・中学校で仮名部科目の一つ）"
+    },
+    {
+        "word": "lap",
+        "meaning": "ひざ（の上）"
+    },
+    {
+        "word": "last",
+        "meaning": "最後"
+    },
+    {
+        "word": "laughter",
+        "meaning": "笑い"
+    },
+    {
+        "word": "law",
+        "meaning": "法律"
+    },
+    {
+        "word": "lawyer",
+        "meaning": "弁護士、法律家"
+    },
+    {
+        "word": "leader",
+        "meaning": "指導者、リーダー"
+    },
+    {
+        "word": "left",
+        "meaning": "左、左側"
+    },
+    {
+        "word": "leg",
+        "meaning": "あし 《ももの付け根から下全部あるいは足首までの部分》"
+    },
+    {
+        "word": "lemon",
+        "meaning": "レモン"
+    },
+    {
+        "word": "leopard",
+        "meaning": "ヒョウ"
+    },
+    {
+        "word": "lesson",
+        "meaning": "1. (教科書などの)課、授業、勉強、けいこ、レッスン　2. 教訓"
+    },
+    {
+        "word": "letter",
+        "meaning": "手紙、文字、字"
+    },
+    {
+        "word": "level",
+        "meaning": "水平（面）、水位、高さ"
+    },
+    {
+        "word": "library",
+        "meaning": "図書館，図書室"
+    },
+    {
+        "word": "life",
+        "meaning": "1. 生命、いのち（複 lives）　2. 終生、一生　3. 人生　4. 生活、暮らし　　  "
+    },
+    {
+        "word": "light",
+        "meaning": "1. 光、光線　2. 明かり、電灯　 "
+    },
+    {
+        "word": "line",
+        "meaning": "1. 線、電話線　2. （文字の）行　　3. (バス・列車・飛行機などの)路線　4. (役者の)せりふ、(文章などの)行　　　    "
+    },
+    {
+        "word": "lion",
+        "meaning": "ライオン"
+    },
+    {
+        "word": "lives",
+        "meaning": "lifeの複数形"
+    },
+    {
+        "word": "living room",
+        "meaning": "居間、リビングルーム"
+    },
+    {
+        "word": "locker",
+        "meaning": "ロッカー"
+    },
+    {
+        "word": "London",
+        "meaning": "ロンドン"
+    },
+    {
+        "word": "look",
+        "meaning": "見ること、一見　　〔 have ［take］ a look at ～の形で〕～を見る"
+    },
+    {
+        "word": "lot",
+        "meaning": "1. 〔a lot of ～ の形で〕 たくさんの、多数の　2. たくさん、多数、多量 〔a lot〕"
+    },
+    {
+        "word": "love",
+        "meaning": "1. 愛、恋愛　2. 《手紙などの結びのことば》 〔たとえば Love, Lisa の形で〕 リサより　　"
+    },
+    {
+        "word": "luck",
+        "meaning": "運"
+    },
+    {
+        "word": "lucky break",
+        "meaning": "成功のきっかけ"
+    },
+    {
+        "word": "lullaby",
+        "meaning": "子守歌"
+    },
+    {
+        "word": "lunch",
+        "meaning": "昼食、(お昼の）弁当"
+    },
+    {
+        "word": "machine",
+        "meaning": "機械"
+    },
+    {
+        "word": "magazine",
+        "meaning": "雑誌"
+    },
+    {
+        "word": "magic",
+        "meaning": "手品"
+    },
+    {
+        "word": "maker",
+        "meaning": "製作者"
+    },
+    {
+        "word": "man",
+        "meaning": "男の人、(一般的に)人"
+    },
+    {
+        "word": "manga",
+        "meaning": "（日本の）マンガ"
+    },
+    {
+        "word": "manner",
+        "meaning": "（mannersで）行儀、マナー"
+    },
+    {
+        "word": "map",
+        "meaning": "地図"
+    },
+    {
+        "word": "March",
+        "meaning": "３月"
+    },
+    {
+        "word": "market",
+        "meaning": "市場"
+    },
+    {
+        "word": "marsh",
+        "meaning": "沼"
+    },
+    {
+        "word": "mask",
+        "meaning": "(顔を保護する）防具、マスク"
+    },
+    {
+        "word": "master",
+        "meaning": "主人、住職、和尚(ときに固有名詞のように使い、大文字で書き始めてMasterで「和尚さま」"
+    },
+    {
+        "word": "match",
+        "meaning": "試合、勝負"
+    },
+    {
+        "word": "math",
+        "meaning": "数学 〔mathematicsを短くした形〕"
+    },
+    {
+        "word": "matter",
+        "meaning": "問題、困ったこと、事情"
+    },
+    {
+        "word": "May",
+        "meaning": "５月"
+    },
+    {
+        "word": "mayor",
+        "meaning": "村長"
+    },
+    {
+        "word": "meal",
+        "meaning": "食事"
+    },
+    {
+        "word": "meaning",
+        "meaning": "意味"
+    },
+    {
+        "word": "meat",
+        "meaning": "食用肉、肉"
+    },
+    {
+        "word": "meat loaf",
+        "meaning": "ミートローフ"
+    },
+    {
+        "word": "medal",
+        "meaning": "メダル"
+    },
+    {
+        "word": "medicine",
+        "meaning": "薬　〔take medicineの形で〕 薬を飲む"
+    },
+    {
+        "word": "meeting",
+        "meaning": "集会、会議"
+    },
+    {
+        "word": "member",
+        "meaning": "一員、メンバー"
+    },
+    {
+        "word": "memorial",
+        "meaning": "記念日、記念碑、記念館"
+    },
+    {
+        "word": "memory",
+        "meaning": "記憶、記憶力、思い出"
+    },
+    {
+        "word": "men",
+        "meaning": "〔manの複数形〕"
+    },
+    {
+        "word": "menu",
+        "meaning": "献立表、メニュー"
+    },
+    {
+        "word": "message",
+        "meaning": "伝言，メッセージ"
+    },
+    {
+        "word": "meter",
+        "meaning": "メートル　"
+    },
+    {
+        "word": "mid-1900s",
+        "meaning": "1900年代半ば"
+    },
+    {
+        "word": "middle",
+        "meaning": "真ん中、中間"
+    },
+    {
+        "word": "milk",
+        "meaning": "牛乳、ミルク"
+    },
+    {
+        "word": "million",
+        "meaning": "百万"
+    },
+    {
+        "word": "mind",
+        "meaning": "心　[keep A in mindの形で］Aを心に留めておく　　　 [make up my mindの形で］決心する"
+    },
+    {
+        "word": "minister",
+        "meaning": "牧師"
+    },
+    {
+        "word": "minute",
+        "meaning": "1. (時間の)分　2. ちょっとの間　 〔Just a minute. の形で〕ちょっと待ってください"
+    },
+    {
+        "word": "mirror",
+        "meaning": "鏡"
+    },
+    {
+        "word": "mistake",
+        "meaning": "まちがい　［by mistakeの形で］誤って、間違って"
+    },
+    {
+        "word": "mom",
+        "meaning": "ママ、お母さん  《家庭内で子どもが母親を呼ぶのに使う。呼びかけの時にはしばしば大文字で始めて Mom とする。》"
+    },
+    {
+        "word": "moment",
+        "meaning": "ちょっとの時間、瞬間"
+    },
+    {
+        "word": "mommy",
+        "meaning": "お母ちゃん"
+    },
+    {
+        "word": "Monday",
+        "meaning": "月曜日"
+    },
+    {
+        "word": "money",
+        "meaning": "お金"
+    },
+    {
+        "word": "Mongolia",
+        "meaning": "モンゴル(中国の北方に位置する国）"
+    },
+    {
+        "word": "monkey",
+        "meaning": "サル"
+    },
+    {
+        "word": "month",
+        "meaning": "(暦の)月"
+    },
+    {
+        "word": "moon",
+        "meaning": "月"
+    },
+    {
+        "word": "morning",
+        "meaning": "朝、午前"
+    },
+    {
+        "word": "mother",
+        "meaning": "母、お母さん"
+    },
+    {
+        "word": "motto",
+        "meaning": "標語、モットー"
+    },
+    {
+        "word": "mountain",
+        "meaning": "山"
+    },
+    {
+        "word": "mouth",
+        "meaning": "口"
+    },
+    {
+        "word": "movement",
+        "meaning": "動き、(社会的)運動"
+    },
+    {
+        "word": "movie",
+        "meaning": "映画"
+    },
+    {
+        "word": "Mr.",
+        "meaning": "《男性の姓・姓名の前につけて》 ～さん、先生"
+    },
+    {
+        "word": "Mrs.",
+        "meaning": "《結婚している女性の姓・姓名の前につけて》 ～さん、先生"
+    },
+    {
+        "word": "Ms.",
+        "meaning": "《女性の姓・姓名の前につけて》 ～さん、先生"
+    },
+    {
+        "word": "Mt.",
+        "meaning": "〔mountain （山）の略〕 ～山　  〔例えば Mt. Iwaki の形で〕 岩木山"
+    },
+    {
+        "word": "much",
+        "meaning": "多量、たくさん"
+    },
+    {
+        "word": "museum",
+        "meaning": "博物館、美術館"
+    },
+    {
+        "word": "music",
+        "meaning": "音楽"
+    },
+    {
+        "word": "music club",
+        "meaning": "(学校の）音楽部"
+    },
+    {
+        "word": "musician",
+        "meaning": "音楽家、ミュージシャン"
+    },
+    {
+        "word": "Myanmar",
+        "meaning": "ミャンマー"
+    },
+    {
+        "word": "mystery",
+        "meaning": "謎"
+    },
+    {
+        "word": "name",
+        "meaning": "名前"
+    },
+    {
+        "word": "nation",
+        "meaning": "国家"
+    },
+    {
+        "word": "national holiday",
+        "meaning": "国民の休日"
+    },
+    {
+        "word": "national park",
+        "meaning": "国立公園"
+    },
+    {
+        "word": "natural gas",
+        "meaning": "天然ガス"
+    },
+    {
+        "word": "nature",
+        "meaning": "自然、自然界"
+    },
+    {
+        "word": "neck",
+        "meaning": "首"
+    },
+    {
+        "word": "need",
+        "meaning": "必要　〔in needの形で〕必要で、困って"
+    },
+    {
+        "word": "neighbor",
+        "meaning": "隣人"
+    },
+    {
+        "word": "nest",
+        "meaning": "巣"
+    },
+    {
+        "word": "New Year's Day",
+        "meaning": "元日"
+    },
+    {
+        "word": "New Year's Eve",
+        "meaning": "大晦日"
+    },
+    {
+        "word": "New York ",
+        "meaning": "ニューヨーク"
+    },
+    {
+        "word": "New York City",
+        "meaning": "ニューヨーク市"
+    },
+    {
+        "word": "news",
+        "meaning": "ニュース、知らせ"
+    },
+    {
+        "word": "newspaper",
+        "meaning": "新聞、新聞紙"
+    },
+    {
+        "word": "night",
+        "meaning": "夜"
+    },
+    {
+        "word": "nine",
+        "meaning": "９"
+    },
+    {
+        "word": "nineteen",
+        "meaning": "19"
+    },
+    {
+        "word": "nineteenth",
+        "meaning": "19番目の、１９日"
+    },
+    {
+        "word": "ninety",
+        "meaning": "90"
+    },
+    {
+        "word": "ninth",
+        "meaning": "9番め、（月の）9日"
+    },
+    {
+        "word": "No.",
+        "meaning": "…番、第…号"
+    },
+    {
+        "word": "Nobel Peace Prize",
+        "meaning": "ノーベル平和賞"
+    },
+    {
+        "word": "non-white",
+        "meaning": "白人以外の人"
+    },
+    {
+        "word": "noodle",
+        "meaning": "麺、ヌードル"
+    },
+    {
+        "word": "noon",
+        "meaning": "正午"
+    },
+    {
+        "word": "north",
+        "meaning": "北、北方、北部"
+    },
+    {
+        "word": "North Carolina",
+        "meaning": "ノース・カロライナ(アメリカ合衆国の州名）"
+    },
+    {
+        "word": "nose",
+        "meaning": "鼻"
+    },
+    {
+        "word": "note",
+        "meaning": "メモ、覚え書き"
+    },
+    {
+        "word": "notebook",
+        "meaning": "ノート"
+    },
+    {
+        "word": "November",
+        "meaning": "11月"
+    },
+    {
+        "word": "now",
+        "meaning": "今"
+    },
+    {
+        "word": "number",
+        "meaning": "～番、番号、数、数字"
+    },
+    {
+        "word": "nun",
+        "meaning": "尼僧"
+    },
+    {
+        "word": "nurse",
+        "meaning": "看護師、保健の先生"
+    },
+    {
+        "word": "nurse's office",
+        "meaning": "保健室"
+    },
+    {
+        "word": "nursery",
+        "meaning": "託児所"
+    },
+    {
+        "word": "nursing",
+        "meaning": "看護、介護"
+    },
+    {
+        "word": "nursing home",
+        "meaning": "高齢者福祉施設、療養所"
+    },
+    {
+        "word": "ocean",
+        "meaning": "大洋、海"
+    },
+    {
+        "word": "October",
+        "meaning": "10月"
+    },
+    {
+        "word": "octopus",
+        "meaning": "タコ"
+    },
+    {
+        "word": "office",
+        "meaning": "事務所､役所"
+    },
+    {
+        "word": "officer",
+        "meaning": "係員、役人、警察官"
+    },
+    {
+        "word": "official",
+        "meaning": "係官、職員"
+    },
+    {
+        "word": "oil",
+        "meaning": "油、石油"
+    },
+    {
+        "word": "Olympics",
+        "meaning": "(theをつけて）オリンピック"
+    },
+    {
+        "word": "one",
+        "meaning": "１つ､１人"
+    },
+    {
+        "word": "opinion",
+        "meaning": "意見、考え、判断"
+    },
+    {
+        "word": "orange",
+        "meaning": "オレンジ（色）"
+    },
+    {
+        "word": "orchestra",
+        "meaning": "オーケストラ"
+    },
+    {
+        "word": "order",
+        "meaning": "1. 命令　2. 注文　3. 順序"
+    },
+    {
+        "word": "origin",
+        "meaning": "（～の)起源、由来"
+    },
+    {
+        "word": "outlook",
+        "meaning": "見方、考え方"
+    },
+    {
+        "word": "owl",
+        "meaning": "フクロウ"
+    },
+    {
+        "word": "oxygen",
+        "meaning": "酸素"
+    },
+    {
+        "word": "P.E.",
+        "meaning": "体育 　〔physical educationの略〕"
+    },
+    {
+        "word": "pack",
+        "meaning": "1パック、１箱"
+    },
+    {
+        "word": "page",
+        "meaning": "ページ"
+    },
+    {
+        "word": "pain",
+        "meaning": "1. 痛み　2. 苦心　"
+    },
+    {
+        "word": "painter",
+        "meaning": "画家"
+    },
+    {
+        "word": "painting",
+        "meaning": "絵、絵画"
+    },
+    {
+        "word": "pair",
+        "meaning": "１組、対"
+    },
+    {
+        "word": "palace",
+        "meaning": "御殿"
+    },
+    {
+        "word": "palm",
+        "meaning": "手のひら"
+    },
+    {
+        "word": "pamphlet",
+        "meaning": "パンフレット"
+    },
+    {
+        "word": "panda",
+        "meaning": "パンダ"
+    },
+    {
+        "word": "panel",
+        "meaning": "パネル"
+    },
+    {
+        "word": "paper",
+        "meaning": "紙、折り紙、レポート、論文"
+    },
+    {
+        "word": "paper crane",
+        "meaning": "折り鶴"
+    },
+    {
+        "word": "Paralympics",
+        "meaning": "(theをつけて）パラリンピック"
+    },
+    {
+        "word": "pardon",
+        "meaning": "許し、許すこと　〔I beg your pardon.（最後を上げて発音して）/Beg your pardon?/Pardon?の形で〕 すみませんが、もう一度言ってください。"
+    },
+    {
+        "word": "parent",
+        "meaning": "親"
+    },
+    {
+        "word": "Paris",
+        "meaning": "パリ"
+    },
+    {
+        "word": "park",
+        "meaning": "公園、遊園地"
+    },
+    {
+        "word": "part",
+        "meaning": "1.一部　2.役割、役目"
+    },
+    {
+        "word": "particular",
+        "meaning": "項目、細部"
+    },
+    {
+        "word": "partner",
+        "meaning": "仲間、パートナー"
+    },
+    {
+        "word": "party",
+        "meaning": "パーティー"
+    },
+    {
+        "word": "passion",
+        "meaning": "熱中（しているもの）、情熱"
+    },
+    {
+        "word": "passport",
+        "meaning": "パスポート"
+    },
+    {
+        "word": "past",
+        "meaning": "過去"
+    },
+    {
+        "word": "pastry shop",
+        "meaning": "洋菓子店"
+    },
+    {
+        "word": "patient",
+        "meaning": "患者、病人"
+    },
+    {
+        "word": "peace",
+        "meaning": "平和"
+    },
+    {
+        "word": "peach",
+        "meaning": "（果物の）モモ"
+    },
+    {
+        "word": "pen",
+        "meaning": "ペン"
+    },
+    {
+        "word": "pencil",
+        "meaning": "えんぴつ"
+    },
+    {
+        "word": "people",
+        "meaning": "1. 《複数扱いで、２人以上を表して》 人、人々、人間　2.国民　"
+    },
+    {
+        "word": "percent",
+        "meaning": "パーセント"
+    },
+    {
+        "word": "performance",
+        "meaning": "上演、演奏、演技"
+    },
+    {
+        "word": "performer",
+        "meaning": "上演者、噺家、芸人"
+    },
+    {
+        "word": "period",
+        "meaning": "時代"
+    },
+    {
+        "word": "person",
+        "meaning": "人 〔２人以上を表すときは people がふつう〕"
+    },
+    {
+        "word": "Peru",
+        "meaning": "ペルー（南米の国の名前）"
+    },
+    {
+        "word": "pet",
+        "meaning": "ペット"
+    },
+    {
+        "word": "pharmacist",
+        "meaning": "薬剤師、薬局"
+    },
+    {
+        "word": "Philippines",
+        "meaning": "(the ～で）フィリピン共和国"
+    },
+    {
+        "word": "phone",
+        "meaning": "電話　　〔 telephone の略〕"
+    },
+    {
+        "word": "phone call",
+        "meaning": "電話をかけること"
+    },
+    {
+        "word": "photo",
+        "meaning": "写真　  〔photograph の略〕"
+    },
+    {
+        "word": "photograph",
+        "meaning": "写真"
+    },
+    {
+        "word": "photographer",
+        "meaning": "写真家、カメラマン"
+    },
+    {
+        "word": "phrase",
+        "meaning": "句、言い回し、フレーズ"
+    },
+    {
+        "word": "piano",
+        "meaning": "ピアノ"
+    },
+    {
+        "word": "picnic",
+        "meaning": "ピクニック、行楽"
+    },
+    {
+        "word": "picture",
+        "meaning": "絵、写真"
+    },
+    {
+        "word": "pie",
+        "meaning": "パイ（肉や果物などを練り粉で包んで焼いた菓子、料理）"
+    },
+    {
+        "word": "piece",
+        "meaning": "〔a piece of ～の形で〕１つの～、ひとかけらの～"
+    },
+    {
+        "word": "pilot",
+        "meaning": "パイロット"
+    },
+    {
+        "word": "pink",
+        "meaning": "ピンク色（の）、もも色（の）"
+    },
+    {
+        "word": "pizza",
+        "meaning": "ピザ"
+    },
+    {
+        "word": "place",
+        "meaning": "1.場所､所　2.順位"
+    },
+    {
+        "word": "plan",
+        "meaning": "1. 事業　2. 計画、案、考え、予定　　  "
+    },
+    {
+        "word": "plane",
+        "meaning": "飛行機"
+    },
+    {
+        "word": "plant",
+        "meaning": "植物"
+    },
+    {
+        "word": "plastic",
+        "meaning": "プラスチック"
+    },
+    {
+        "word": "plastic bag",
+        "meaning": "ビニール袋"
+    },
+    {
+        "word": "plate",
+        "meaning": "取り皿"
+    },
+    {
+        "word": "play",
+        "meaning": "劇"
+    },
+    {
+        "word": "player",
+        "meaning": "（楽器を）演奏する人、演奏家、（スポーツを）する人、選手"
+    },
+    {
+        "word": "pleasure",
+        "meaning": "喜び"
+    },
+    {
+        "word": "pocket",
+        "meaning": "ポケット"
+    },
+    {
+        "word": "poem",
+        "meaning": "詩"
+    },
+    {
+        "word": "point",
+        "meaning": "1. 箇所、点、地点　2. 言おうとしていること、要点、考え　3. 特徴、特質　   "
+    },
+    {
+        "word": "poison",
+        "meaning": "毒薬、毒"
+    },
+    {
+        "word": "polar bear",
+        "meaning": "ホッキョクグマ"
+    },
+    {
+        "word": "police",
+        "meaning": "〔しばしばthe policeで、複数扱い〕警察   〔（一人の）警官をさす場合は a police officer〕"
+    },
+    {
+        "word": "police officer",
+        "meaning": "(一人の）警官"
+    },
+    {
+        "word": "politician",
+        "meaning": "政治家"
+    },
+    {
+        "word": "pollution",
+        "meaning": "汚染"
+    },
+    {
+        "word": "polo",
+        "meaning": "（馬に乗って行う競技）ポロ"
+    },
+    {
+        "word": "pond",
+        "meaning": "池"
+    },
+    {
+        "word": "poodle",
+        "meaning": "プードル（犬の１品種）"
+    },
+    {
+        "word": "pool",
+        "meaning": "（水泳用の）プール"
+    },
+    {
+        "word": "popular culture",
+        "meaning": "大衆文化、ポップカルチャー"
+    },
+    {
+        "word": "population",
+        "meaning": "人口"
+    },
+    {
+        "word": "Portuguese",
+        "meaning": "ポルトガル語"
+    },
+    {
+        "word": "post",
+        "meaning": "郵便、郵便物"
+    },
+    {
+        "word": "post office",
+        "meaning": "郵便局"
+    },
+    {
+        "word": "postcard",
+        "meaning": "郵便はがき、絵はがき"
+    },
+    {
+        "word": "poster",
+        "meaning": "ポスター"
+    },
+    {
+        "word": "pot",
+        "meaning": "（深い）なべ"
+    },
+    {
+        "word": "pouch",
+        "meaning": "袋"
+    },
+    {
+        "word": "pound",
+        "meaning": "ポンド(イギリスの通貨）"
+    },
+    {
+        "word": "power",
+        "meaning": "力、能力"
+    },
+    {
+        "word": "prefecture",
+        "meaning": "県"
+    },
+    {
+        "word": "present",
+        "meaning": "1.「現在」　2.プレゼント、贈り物"
+    },
+    {
+        "word": "presentation",
+        "meaning": "（意見・提案などの）発表、プレゼンテーション"
+    },
+    {
+        "word": "pressure",
+        "meaning": "圧力、せまられること、プレッシャー"
+    },
+    {
+        "word": "price",
+        "meaning": "値段"
+    },
+    {
+        "word": "prince",
+        "meaning": "王子"
+    },
+    {
+        "word": "principal",
+        "meaning": "校長"
+    },
+    {
+        "word": "principal's office",
+        "meaning": "校長室"
+    },
+    {
+        "word": "print",
+        "meaning": "印刷、版画"
+    },
+    {
+        "word": "prize",
+        "meaning": "賞、賞品"
+    },
+    {
+        "word": "problem",
+        "meaning": "(困難を引き起こす)問題、障害、課題"
+    },
+    {
+        "word": "product",
+        "meaning": "製品、生産物"
+    },
+    {
+        "word": "professor",
+        "meaning": "教授"
+    },
+    {
+        "word": "program",
+        "meaning": "1. 番組（表）、プログラム　2. 計画、予定（表）　"
+    },
+    {
+        "word": "programmer",
+        "meaning": "プログラマー"
+    },
+    {
+        "word": "promise",
+        "meaning": "約束"
+    },
+    {
+        "word": "prop",
+        "meaning": "小道具"
+    },
+    {
+        "word": "public hall",
+        "meaning": "公会堂"
+    },
+    {
+        "word": "purple",
+        "meaning": "紫色（の）"
+    },
+    {
+        "word": "purpose",
+        "meaning": "目的"
+    },
+    {
+        "word": "question",
+        "meaning": "1. 質問、問い　2. 問題、論点　　"
+    },
+    {
+        "word": "quiz",
+        "meaning": "簡単な口頭（筆記）のテスト、質問、（ラジオ・テレビの）クイズ"
+    },
+    {
+        "word": "rabbit",
+        "meaning": "ウサギ"
+    },
+    {
+        "word": "race",
+        "meaning": "競争、競走"
+    },
+    {
+        "word": "racket",
+        "meaning": "ラケット"
+    },
+    {
+        "word": "radio",
+        "meaning": "ラジオ"
+    },
+    {
+        "word": "radish",
+        "meaning": "ハツカダイコン"
+    },
+    {
+        "word": "rain",
+        "meaning": "雨"
+    },
+    {
+        "word": "rain forest",
+        "meaning": "熱帯雨林"
+    },
+    {
+        "word": "rainbow",
+        "meaning": "虹"
+    },
+    {
+        "word": "ramp",
+        "meaning": "スロープ"
+    },
+    {
+        "word": "reading",
+        "meaning": "読むこと"
+    },
+    {
+        "word": "reality",
+        "meaning": "現実、実際"
+    },
+    {
+        "word": "reason",
+        "meaning": "理由"
+    },
+    {
+        "word": "recipe",
+        "meaning": "（料理などの）作り方、レシピ"
+    },
+    {
+        "word": "red",
+        "meaning": "赤い、赤色（の）、赤"
+    },
+    {
+        "word": "refugee",
+        "meaning": "難民、避難者"
+    },
+    {
+        "word": "relay",
+        "meaning": "リレー競走"
+    },
+    {
+        "word": "report",
+        "meaning": "レポート、報告"
+    },
+    {
+        "word": "reporter",
+        "meaning": "リポーター"
+    },
+    {
+        "word": "research",
+        "meaning": "研究、調査"
+    },
+    {
+        "word": "resource",
+        "meaning": "〔通常は複数形で〕資源、財源"
+    },
+    {
+        "word": "respect",
+        "meaning": "尊敬、尊重"
+    },
+    {
+        "word": "rest",
+        "meaning": "休み"
+    },
+    {
+        "word": "restaurant",
+        "meaning": "レストラン、食堂、料理屋"
+    },
+    {
+        "word": "restroom",
+        "meaning": "（デパート・劇場などの）洗面所、トイレ"
+    },
+    {
+        "word": "result",
+        "meaning": "結果"
+    },
+    {
+        "word": "return",
+        "meaning": "再び巡ってくること"
+    },
+    {
+        "word": "reuse",
+        "meaning": "再利用"
+    },
+    {
+        "word": "rhythm",
+        "meaning": "リズム"
+    },
+    {
+        "word": "rice",
+        "meaning": "ご飯、米"
+    },
+    {
+        "word": "rice ball",
+        "meaning": "おにぎり"
+    },
+    {
+        "word": "rice cake",
+        "meaning": "もち"
+    },
+    {
+        "word": "right",
+        "meaning": "1.（利益などを得る）権利、法的権利　2. 右、右側"
+    },
+    {
+        "word": "rise",
+        "meaning": "上昇、増加、昇進"
+    },
+    {
+        "word": "river",
+        "meaning": "川　　　〔たとえば the Mabechi River の形で馬淵川〕　"
+    },
+    {
+        "word": "road",
+        "meaning": "道路"
+    },
+    {
+        "word": "robot",
+        "meaning": "ロボット"
+    },
+    {
+        "word": "rock",
+        "meaning": "1. ロック（音楽）　2. 岩、岩石   "
+    },
+    {
+        "word": "roll",
+        "meaning": "巻いたもの、－巻"
+    },
+    {
+        "word": "Roman",
+        "meaning": "古代ローマ人、現代のローマ市民"
+    },
+    {
+        "word": "Rome",
+        "meaning": "ローマ〔イタリアの首都、古代ローマ帝国の首都〕"
+    },
+    {
+        "word": "roof",
+        "meaning": "屋上、屋根"
+    },
+    {
+        "word": "room",
+        "meaning": "部屋"
+    },
+    {
+        "word": "rope",
+        "meaning": "綱、縄、ロープ"
+    },
+    {
+        "word": "rule",
+        "meaning": "決まり、規則"
+    },
+    {
+        "word": "ruler",
+        "meaning": "ものさし、定規"
+    },
+    {
+        "word": "Russia",
+        "meaning": "ロシア"
+    },
+    {
+        "word": "sadness",
+        "meaning": "悲しみ"
+    },
+    {
+        "word": "salad",
+        "meaning": "サラダ"
+    },
+    {
+        "word": "sale",
+        "meaning": "安売り、バーゲンセール"
+    },
+    {
+        "word": "salt",
+        "meaning": "塩"
+    },
+    {
+        "word": "sandwich",
+        "meaning": "サンドイッチ"
+    },
+    {
+        "word": "Saturday",
+        "meaning": "土曜日"
+    },
+    {
+        "word": "scene",
+        "meaning": "（劇・映画・小説の）場面"
+    },
+    {
+        "word": "scenery",
+        "meaning": "風景、景色"
+    },
+    {
+        "word": "schedule",
+        "meaning": "予定（表）"
+    },
+    {
+        "word": "school",
+        "meaning": "学校　　〔たとえばgo to school の形で〕 学校へ行く、学校に通っている"
+    },
+    {
+        "word": "schoolyard",
+        "meaning": "校庭、運動場"
+    },
+    {
+        "word": "science",
+        "meaning": "理科、科学、自然科学"
+    },
+    {
+        "word": "scientist",
+        "meaning": "科学者"
+    },
+    {
+        "word": "Scotland",
+        "meaning": "スコットランド"
+    },
+    {
+        "word": "scrambled egg",
+        "meaning": "スクランブルエッグ"
+    },
+    {
+        "word": "sculpture",
+        "meaning": "彫刻"
+    },
+    {
+        "word": "sea",
+        "meaning": "海   〔たとえば go to the sea の形で (海水浴などの目的で）海岸へ行く"
+    },
+    {
+        "word": "sea level rise",
+        "meaning": "海面上昇"
+    },
+    {
+        "word": "seal",
+        "meaning": "アザラシ"
+    },
+    {
+        "word": "season",
+        "meaning": "季節"
+    },
+    {
+        "word": "seat",
+        "meaning": "席"
+    },
+    {
+        "word": "second",
+        "meaning": "1.（時間の）秒　2.２番め､（月の）２日　3.少しの間"
+    },
+    {
+        "word": "section",
+        "meaning": "部分、部門、〔会社、官庁などの〕課"
+    },
+    {
+        "word": "seed",
+        "meaning": "種"
+    },
+    {
+        "word": "sense",
+        "meaning": "意味、感覚"
+    },
+    {
+        "word": "September",
+        "meaning": "９月"
+    },
+    {
+        "word": "serve",
+        "meaning": "（テニスなどの）サーブ"
+    },
+    {
+        "word": "set",
+        "meaning": "（テニスなどの）セット"
+    },
+    {
+        "word": "seven",
+        "meaning": "7、７つの"
+    },
+    {
+        "word": "seventeen",
+        "meaning": "17"
+    },
+    {
+        "word": "seventeenth",
+        "meaning": "17の番目の、１７日"
+    },
+    {
+        "word": "seventh",
+        "meaning": "７番め、（月の）７日"
+    },
+    {
+        "word": "seventy",
+        "meaning": "70、７０の"
+    },
+    {
+        "word": "shade",
+        "meaning": "陰"
+    },
+    {
+        "word": "shampoo",
+        "meaning": "シャンプー"
+    },
+    {
+        "word": "shape",
+        "meaning": "形、姿"
+    },
+    {
+        "word": "shelf",
+        "meaning": "棚"
+    },
+    {
+        "word": "ship",
+        "meaning": "船"
+    },
+    {
+        "word": "shirt",
+        "meaning": "シャツ"
+    },
+    {
+        "word": "shock",
+        "meaning": "（精神的な）ショック"
+    },
+    {
+        "word": "shoe",
+        "meaning": "くつ　　〔たとえば a pair of shoes の形で〕　くつ１足"
+    },
+    {
+        "word": "shop",
+        "meaning": "(ものを売る)店、小売店"
+    },
+    {
+        "word": "shopping",
+        "meaning": "買い物"
+    },
+    {
+        "word": "short",
+        "meaning": "〔in short の形で）手短に言うと"
+    },
+    {
+        "word": "shoulder",
+        "meaning": "肩"
+    },
+    {
+        "word": "show",
+        "meaning": "ショー"
+    },
+    {
+        "word": "shower",
+        "meaning": "シャワー"
+    },
+    {
+        "word": "shrine",
+        "meaning": "神社"
+    },
+    {
+        "word": "shyness",
+        "meaning": "内気、はにかみ"
+    },
+    {
+        "word": "sickness",
+        "meaning": "病気"
+    },
+    {
+        "word": "side",
+        "meaning": "1.面、局面、味方　2.横、脇　〔side by side で〕並んで"
+    },
+    {
+        "word": "sightseeing",
+        "meaning": "観光、見物"
+    },
+    {
+        "word": "sign",
+        "meaning": "1. 標識、看板　2. 身ぶり、合図  "
+    },
+    {
+        "word": "singer",
+        "meaning": "歌う人、歌手"
+    },
+    {
+        "word": "singing",
+        "meaning": "歌うこと、歌唱"
+    },
+    {
+        "word": "sister",
+        "meaning": "姉、妹　   "
+    },
+    {
+        "word": "site",
+        "meaning": "（重大なできごとが起こった）場所、遺跡"
+    },
+    {
+        "word": "situation",
+        "meaning": "状況、状態"
+    },
+    {
+        "word": "six",
+        "meaning": "6"
+    },
+    {
+        "word": "sixteen",
+        "meaning": "16"
+    },
+    {
+        "word": "sixth",
+        "meaning": "6番め、（月の）6日"
+    },
+    {
+        "word": "sixty",
+        "meaning": "60"
+    },
+    {
+        "word": "size",
+        "meaning": "大きさ、サイズ"
+    },
+    {
+        "word": "skill",
+        "meaning": "技術、技能"
+    },
+    {
+        "word": "skin",
+        "meaning": "皮膚、肌"
+    },
+    {
+        "word": "sky",
+        "meaning": "空、大空"
+    },
+    {
+        "word": "slump",
+        "meaning": "不振、不調"
+    },
+    {
+        "word": "smell",
+        "meaning": "におい"
+    },
+    {
+        "word": "smile",
+        "meaning": "ほほえみ"
+    },
+    {
+        "word": "smog",
+        "meaning": "スモッグ"
+    },
+    {
+        "word": "smoke",
+        "meaning": "煙"
+    },
+    {
+        "word": "snack",
+        "meaning": "（正規の食事の間の）軽食、おやつ"
+    },
+    {
+        "word": "snake",
+        "meaning": "へび"
+    },
+    {
+        "word": "sneaker",
+        "meaning": "スニーカー"
+    },
+    {
+        "word": "snow",
+        "meaning": "雪"
+    },
+    {
+        "word": "soccer",
+        "meaning": "サッカー"
+    },
+    {
+        "word": "social studies",
+        "meaning": "(教科の）社会科"
+    },
+    {
+        "word": "sock",
+        "meaning": "ソックス、（短い）くつ下　　〔a pair of socks の形で〕　くつ下１足"
+    },
+    {
+        "word": "sofa",
+        "meaning": "ソファー"
+    },
+    {
+        "word": "softball",
+        "meaning": "ソフトボール"
+    },
+    {
+        "word": "solar cooker",
+        "meaning": "ソーラークッカー"
+    },
+    {
+        "word": "soldier",
+        "meaning": "（陸軍の）兵士、軍人"
+    },
+    {
+        "word": "son",
+        "meaning": "息子"
+    },
+    {
+        "word": "song",
+        "meaning": "歌"
+    },
+    {
+        "word": "sound",
+        "meaning": "音、響き"
+    },
+    {
+        "word": "soup",
+        "meaning": "スープ"
+    },
+    {
+        "word": "south",
+        "meaning": "南"
+    },
+    {
+        "word": "South Africa",
+        "meaning": "南アフリカ共和国"
+    },
+    {
+        "word": "southwest",
+        "meaning": "南西"
+    },
+    {
+        "word": "soybean",
+        "meaning": "大豆"
+    },
+    {
+        "word": "space",
+        "meaning": "1. 宇宙、宇宙空間　2. 空間、場所、スペース　　"
+    },
+    {
+        "word": "Spain",
+        "meaning": "スペイン"
+    },
+    {
+        "word": "Spanish",
+        "meaning": "スペイン語"
+    },
+    {
+        "word": "speaker",
+        "meaning": "話す人"
+    },
+    {
+        "word": "speech",
+        "meaning": "演説、スピーチ"
+    },
+    {
+        "word": "spirit",
+        "meaning": "1. 気力、勇気　〔fighting spirit の形で〕闘志　2. 心、精神、霊"
+    },
+    {
+        "word": "spoon",
+        "meaning": "スプーン"
+    },
+    {
+        "word": "sport",
+        "meaning": "スポーツ、運動"
+    },
+    {
+        "word": "sports day",
+        "meaning": "運動会"
+    },
+    {
+        "word": "spring",
+        "meaning": "1. 春　2. 泉　〔hot spring の形で〕　温泉    　　"
+    },
+    {
+        "word": "sprint",
+        "meaning": "短距離走"
+    },
+    {
+        "word": "square",
+        "meaning": "四角形"
+    },
+    {
+        "word": "stable master",
+        "meaning": "（相撲部屋の）親方"
+    },
+    {
+        "word": "stadium",
+        "meaning": "スタジアム、競技場"
+    },
+    {
+        "word": "staff",
+        "meaning": "〔集合的に〕職員、社員"
+    },
+    {
+        "word": "stage",
+        "meaning": "舞台、ステージ"
+    },
+    {
+        "word": "stair",
+        "meaning": "階段"
+    },
+    {
+        "word": "stairs",
+        "meaning": "〔stairsで〕階段"
+    },
+    {
+        "word": "stand",
+        "meaning": "スタンド、台"
+    },
+    {
+        "word": "star",
+        "meaning": "1. 星　2. (映画・スポーツなどの)スター　　 　"
+    },
+    {
+        "word": "starvation",
+        "meaning": "飢餓、ききん"
+    },
+    {
+        "word": "station",
+        "meaning": "駅"
+    },
+    {
+        "word": "stationery",
+        "meaning": "文房具"
+    },
+    {
+        "word": "statue",
+        "meaning": "像、彫刻"
+    },
+    {
+        "word": "Statue of Liberty",
+        "meaning": "自由の女神像"
+    },
+    {
+        "word": "stay",
+        "meaning": "滞在"
+    },
+    {
+        "word": "step",
+        "meaning": "1. （階段の）踏み段　2. 段階"
+    },
+    {
+        "word": "stew",
+        "meaning": "シチュー"
+    },
+    {
+        "word": "stomach",
+        "meaning": "おなか、胃"
+    },
+    {
+        "word": "stomachache",
+        "meaning": "腹痛"
+    },
+    {
+        "word": "stop",
+        "meaning": "駅、停留所"
+    },
+    {
+        "word": "store",
+        "meaning": "店"
+    },
+    {
+        "word": "story",
+        "meaning": "話、物語"
+    },
+    {
+        "word": "storytelling",
+        "meaning": "物語を語ること  　〔comic storytellingで〕話芸"
+    },
+    {
+        "word": "stream",
+        "meaning": "小川、川"
+    },
+    {
+        "word": "street",
+        "meaning": "通り"
+    },
+    {
+        "word": "stringed instrument",
+        "meaning": "弦楽器"
+    },
+    {
+        "word": "stroller",
+        "meaning": "ベビーカー"
+    },
+    {
+        "word": "struggle",
+        "meaning": "もがき、苦闘"
+    },
+    {
+        "word": "student",
+        "meaning": "学生、生徒"
+    },
+    {
+        "word": "stuff",
+        "meaning": "もの"
+    },
+    {
+        "word": "style",
+        "meaning": "やり方、作風、型"
+    },
+    {
+        "word": "subject",
+        "meaning": "1. (主）題、トピック、テーマ　2.教科　　"
+    },
+    {
+        "word": "suburb",
+        "meaning": "郊外"
+    },
+    {
+        "word": "subway",
+        "meaning": "（アメリカ合衆国の）地下鉄"
+    },
+    {
+        "word": "success",
+        "meaning": "成功"
+    },
+    {
+        "word": "sugar",
+        "meaning": "砂糖"
+    },
+    {
+        "word": "summer",
+        "meaning": "夏"
+    },
+    {
+        "word": "summer class",
+        "meaning": "（勉強が遅れている生徒のための）夏の補習授業"
+    },
+    {
+        "word": "sumo stable",
+        "meaning": "相撲部屋"
+    },
+    {
+        "word": "sumo wrestler",
+        "meaning": "力士"
+    },
+    {
+        "word": "sun",
+        "meaning": "1. 太陽　2. 日光、陽光　"
+    },
+    {
+        "word": "sun flower",
+        "meaning": "ひまわり"
+    },
+    {
+        "word": "Sunday",
+        "meaning": "日曜日（複数形で毎週日曜日）"
+    },
+    {
+        "word": "sunlight",
+        "meaning": "日光、陽光"
+    },
+    {
+        "word": "sunset",
+        "meaning": "日の入り"
+    },
+    {
+        "word": "supermarket",
+        "meaning": "スーパーマーケット"
+    },
+    {
+        "word": "support",
+        "meaning": "支持、支援"
+    },
+    {
+        "word": "survival",
+        "meaning": "生き残ること"
+    },
+    {
+        "word": "swimming",
+        "meaning": "水泳"
+    },
+    {
+        "word": "swimming pool",
+        "meaning": "水泳プール"
+    },
+    {
+        "word": "sword",
+        "meaning": "剣"
+    },
+    {
+        "word": "Sydney",
+        "meaning": "シドニー 《オーストラリア東岸にある都市》"
+    },
+    {
+        "word": "symbol",
+        "meaning": "シンボル、しるし"
+    },
+    {
+        "word": "system",
+        "meaning": "1.　組織　　　　2.　制度、システム"
+    },
+    {
+        "word": "T-shirt",
+        "meaning": "Ｔシャツ"
+    },
+    {
+        "word": "table",
+        "meaning": "テーブル、食卓"
+    },
+    {
+        "word": "table tennis",
+        "meaning": "卓球"
+    },
+    {
+        "word": "tail",
+        "meaning": "尾（ひれ）、しっぽ"
+    },
+    {
+        "word": "tale",
+        "meaning": "物語、お話"
+    },
+    {
+        "word": "talk",
+        "meaning": "話、スピーチ"
+    },
+    {
+        "word": "Tanzania",
+        "meaning": "タンザニア"
+    },
+    {
+        "word": "task",
+        "meaning": "仕事、任務"
+    },
+    {
+        "word": "taste",
+        "meaning": "味"
+    },
+    {
+        "word": "taxi",
+        "meaning": "タクシー"
+    },
+    {
+        "word": "tea",
+        "meaning": "茶、紅茶"
+    },
+    {
+        "word": "teacher",
+        "meaning": "教師、先生"
+    },
+    {
+        "word": "teachers' room",
+        "meaning": "職員室"
+    },
+    {
+        "word": "team",
+        "meaning": "チーム"
+    },
+    {
+        "word": "teammate",
+        "meaning": "チームメイト"
+    },
+    {
+        "word": "teamwork",
+        "meaning": "チームワーク"
+    },
+    {
+        "word": "tear",
+        "meaning": "涙　【in tearsで】涙を流して"
+    },
+    {
+        "word": "technology",
+        "meaning": "科学技術"
+    },
+    {
+        "word": "teeth",
+        "meaning": "歯（toothの複数形）"
+    },
+    {
+        "word": "telescope",
+        "meaning": "望遠鏡"
+    },
+    {
+        "word": "temperature",
+        "meaning": "温度、気温"
+    },
+    {
+        "word": "temple",
+        "meaning": "寺"
+    },
+    {
+        "word": "ten",
+        "meaning": "10"
+    },
+    {
+        "word": "tennis",
+        "meaning": "テニス"
+    },
+    {
+        "word": "tenth",
+        "meaning": "10番め、（月の）１０日"
+    },
+    {
+        "word": "test",
+        "meaning": "試験、テスト"
+    },
+    {
+        "word": "textbook",
+        "meaning": "教科書、テキスト"
+    },
+    {
+        "word": "Thailand",
+        "meaning": "タイ"
+    },
+    {
+        "word": "thank",
+        "meaning": "〔Thanks の形で〕ありがとう"
+    },
+    {
+        "word": "theater",
+        "meaning": "劇場、映画館〔movie theaterともいう〕"
+    },
+    {
+        "word": "theme",
+        "meaning": "主題、テーマ"
+    },
+    {
+        "word": "then",
+        "meaning": "そのとき、当時"
+    },
+    {
+        "word": "thing",
+        "meaning": "もの、こと"
+    },
+    {
+        "word": "thinking",
+        "meaning": "考え、思考"
+    },
+    {
+        "word": "third",
+        "meaning": "３番目、３日"
+    },
+    {
+        "word": "thirteen",
+        "meaning": "13"
+    },
+    {
+        "word": "thirteenth",
+        "meaning": "13番め、（月の）13日"
+    },
+    {
+        "word": "thirtieth",
+        "meaning": "30番目（の）、30日"
+    },
+    {
+        "word": "thirty",
+        "meaning": "30"
+    },
+    {
+        "word": "thought",
+        "meaning": "1. 考えること、思考　2. 考え､思想　　 "
+    },
+    {
+        "word": "thousand",
+        "meaning": "1000"
+    },
+    {
+        "word": "three",
+        "meaning": "3"
+    },
+    {
+        "word": "throat",
+        "meaning": "のど"
+    },
+    {
+        "word": "Thursday",
+        "meaning": "木曜日"
+    },
+    {
+        "word": "ticket",
+        "meaning": "切符、チケット、券"
+    },
+    {
+        "word": "tie",
+        "meaning": "ネクタイ"
+    },
+    {
+        "word": "time",
+        "meaning": "1. 回、度　2. 時間、期間、暇　3. 時刻　4. 〔しばしば複数形で〕 時代"
+    },
+    {
+        "word": "timing",
+        "meaning": "タイミング、時機を選ぶこと"
+    },
+    {
+        "word": "title",
+        "meaning": "題名、タイトル"
+    },
+    {
+        "word": "toast",
+        "meaning": "トースト"
+    },
+    {
+        "word": "today",
+        "meaning": "今日"
+    },
+    {
+        "word": "toilet",
+        "meaning": "トイレ、化粧室"
+    },
+    {
+        "word": "tomorrow",
+        "meaning": "明日"
+    },
+    {
+        "word": "tongue",
+        "meaning": "国語、母語"
+    },
+    {
+        "word": "tool",
+        "meaning": "手段、道具"
+    },
+    {
+        "word": "tooth",
+        "meaning": "歯   〔複数形は teeth〕"
+    },
+    {
+        "word": "toothache",
+        "meaning": "歯痛"
+    },
+    {
+        "word": "toothbrush",
+        "meaning": "歯ブラシ"
+    },
+    {
+        "word": "top",
+        "meaning": "1. 一番上の部分、頂上　2. 最高位、トップ"
+    },
+    {
+        "word": "total",
+        "meaning": "総合、合計　〔in total〕合計で、全部で"
+    },
+    {
+        "word": "touch",
+        "meaning": "接触　　〔keep in touchで〕連絡をとり続ける"
+    },
+    {
+        "word": "tour",
+        "meaning": "旅行"
+    },
+    {
+        "word": "tourism",
+        "meaning": "観光事業、観光、旅行"
+    },
+    {
+        "word": "tournament",
+        "meaning": "トーナメント、勝ち抜き試合"
+    },
+    {
+        "word": "towel",
+        "meaning": "手拭い、タオル"
+    },
+    {
+        "word": "tower",
+        "meaning": "塔、タワー"
+    },
+    {
+        "word": "town",
+        "meaning": "町、市、都会"
+    },
+    {
+        "word": "toy",
+        "meaning": "おもちゃ"
+    },
+    {
+        "word": "track",
+        "meaning": "線路"
+    },
+    {
+        "word": "track and field",
+        "meaning": "陸上競技"
+    },
+    {
+        "word": "trade",
+        "meaning": "貿易"
+    },
+    {
+        "word": "tradition",
+        "meaning": "伝統"
+    },
+    {
+        "word": "traffic",
+        "meaning": "交通  〔traffic light〕交通信号（灯） "
+    },
+    {
+        "word": "tragedy",
+        "meaning": "悲劇、悲しいできごと"
+    },
+    {
+        "word": "train",
+        "meaning": "列車、電車"
+    },
+    {
+        "word": "trainer",
+        "meaning": "トレーナー"
+    },
+    {
+        "word": "transportation",
+        "meaning": "輸送機関"
+    },
+    {
+        "word": "treasure",
+        "meaning": "宝物"
+    },
+    {
+        "word": "tree",
+        "meaning": "木、樹木"
+    },
+    {
+        "word": "trip",
+        "meaning": "旅行 《比較的短期間のものについていう》　　〔たとえば go on a school trip の形で〕修学旅行に行く"
+    },
+    {
+        "word": "trophy",
+        "meaning": "優勝記念品、トロフィー"
+    },
+    {
+        "word": "trouble",
+        "meaning": "1. 心配　2. もめごと　3.余分な手間、めんどう"
+    },
+    {
+        "word": "Tube",
+        "meaning": "チューブ（ロンドンの地下鉄のニックネーム）"
+    },
+    {
+        "word": "Tuesday",
+        "meaning": "火曜日"
+    },
+    {
+        "word": "tug-of-war",
+        "meaning": "綱引き"
+    },
+    {
+        "word": "tuna",
+        "meaning": "マグロ"
+    },
+    {
+        "word": "turkey",
+        "meaning": "七面鳥"
+    },
+    {
+        "word": "turn",
+        "meaning": "番、順番　　〔in turnで〕代わって今度は"
+    },
+    {
+        "word": "turning",
+        "meaning": "曲がり角、回転    〔turning pointで〕転機"
+    },
+    {
+        "word": "turtle",
+        "meaning": "カメ"
+    },
+    {
+        "word": "TV",
+        "meaning": "テレビ（番組）"
+    },
+    {
+        "word": "twelfth",
+        "meaning": "12番め、（月の）12日"
+    },
+    {
+        "word": "twelve",
+        "meaning": "12"
+    },
+    {
+        "word": "twentieth",
+        "meaning": "20番目"
+    },
+    {
+        "word": "twenty",
+        "meaning": "20"
+    },
+    {
+        "word": "twenty-eighth",
+        "meaning": "28番目（の）、28日"
+    },
+    {
+        "word": "twenty-fifth",
+        "meaning": "25番目（の）、25日"
+    },
+    {
+        "word": "twenty-first",
+        "meaning": "21番目（の）、21日"
+    },
+    {
+        "word": "twenty-fourth",
+        "meaning": "24番目（の）、24日"
+    },
+    {
+        "word": "twenty-ninth",
+        "meaning": "29番目（の）、29日"
+    },
+    {
+        "word": "twenty-second",
+        "meaning": "22番目（の）、22日"
+    },
+    {
+        "word": "twenty-seventh",
+        "meaning": "27番目（の）、27日"
+    },
+    {
+        "word": "twenty-sixth",
+        "meaning": "26番目（の）、26日"
+    },
+    {
+        "word": "twenty-third",
+        "meaning": "23番目（の）、23日"
+    },
+    {
+        "word": "two",
+        "meaning": "2"
+    },
+    {
+        "word": "type",
+        "meaning": "型、タイプ、種類"
+    },
+    {
+        "word": "U.K.",
+        "meaning": "イギリス〔The United Kingdom（連合王国）の略でイギリスの正式国名は The United Kingdom of Great Britain and Northern Ireland 〕"
+    },
+    {
+        "word": "U.S.",
+        "meaning": "〔通常はtheを付けて〕アメリカ合衆国"
+    },
+    {
+        "word": "umbrella",
+        "meaning": "かさ"
+    },
+    {
+        "word": "uncle",
+        "meaning": "おじ、おじさん"
+    },
+    {
+        "word": "underground",
+        "meaning": "〔通常はtheを付けて、イギリスの〕地下鉄"
+    },
+    {
+        "word": "unicycle",
+        "meaning": "一輪車"
+    },
+    {
+        "word": "uniform",
+        "meaning": "制服、ユニフォーム"
+    },
+    {
+        "word": "United Nations",
+        "meaning": "〔通例はtheを付けて〕国際連合"
+    },
+    {
+        "word": "United States",
+        "meaning": "アメリカ合衆国"
+    },
+    {
+        "word": "universal design",
+        "meaning": "ユニバーサルデザイン"
+    },
+    {
+        "word": "university",
+        "meaning": "大学（比較的大規模の）"
+    },
+    {
+        "word": "U.S.",
+        "meaning": "《略》〔the ～で〕アメリカ合衆国、米国　《the U.S.とも》"
+    },
+    {
+        "word": "use",
+        "meaning": "使用、使い道"
+    },
+    {
+        "word": "vacation",
+        "meaning": "休暇、休み"
+    },
+    {
+        "word": "Valentine",
+        "meaning": "Happy Valentine's Day!　〔バレンタインデーのメッセージ〕"
+    },
+    {
+        "word": "vegetable",
+        "meaning": "野菜"
+    },
+    {
+        "word": "vending machine",
+        "meaning": "自動販売機"
+    },
+    {
+        "word": "Venezuela",
+        "meaning": "ベネズエラ〔南米の国の名〕"
+    },
+    {
+        "word": "vet",
+        "meaning": "獣医（veterinarianの略）"
+    },
+    {
+        "word": "victory",
+        "meaning": "勝利、優勝"
+    },
+    {
+        "word": "video",
+        "meaning": "ビデオ  〔 video game の形で〕　テレビゲーム"
+    },
+    {
+        "word": "video game",
+        "meaning": "映像、動画　〔video game 〕テレビゲーム"
+    },
+    {
+        "word": "Vietnam",
+        "meaning": "ベトナム〔東南アジアの国の名〕"
+    },
+    {
+        "word": "view",
+        "meaning": "1. ながめ、景色　2. 考え、見方"
+    },
+    {
+        "word": "village",
+        "meaning": "村"
+    },
+    {
+        "word": "vinegar",
+        "meaning": "食用酢、ビネガー"
+    },
+    {
+        "word": "violin",
+        "meaning": "バイオリン"
+    },
+    {
+        "word": "visit",
+        "meaning": "訪問 〔 pay a visit to の形で「～を訪問する」〕　"
+    },
+    {
+        "word": "visitor",
+        "meaning": "訪問者"
+    },
+    {
+        "word": "voice",
+        "meaning": "声"
+    },
+    {
+        "word": "volleyball",
+        "meaning": "バレーボール"
+    },
+    {
+        "word": "volume",
+        "meaning": "〔書物の〕巻、冊"
+    },
+    {
+        "word": "volunteer",
+        "meaning": "ボランティア、志願者"
+    },
+    {
+        "word": "waitress",
+        "meaning": "ウエイトレス"
+    },
+    {
+        "word": "walk",
+        "meaning": "1. 歩くこと、散歩　2. 歩行距離、道のり"
+    },
+    {
+        "word": "Walker",
+        "meaning": "ウォーカー（姓）"
+    },
+    {
+        "word": "wall",
+        "meaning": "壁、へい、城壁"
+    },
+    {
+        "word": "war",
+        "meaning": "戦争"
+    },
+    {
+        "word": "ware",
+        "meaning": "～焼、～製品"
+    },
+    {
+        "word": "warming",
+        "meaning": "〔global warming で〕地球温暖化"
+    },
+    {
+        "word": "warrior",
+        "meaning": "武人、軍人"
+    },
+    {
+        "word": "Washington, D.C.",
+        "meaning": "ワシントンD.C.（米国の首都）"
+    },
+    {
+        "word": "waste",
+        "meaning": "浪費"
+    },
+    {
+        "word": "watch",
+        "meaning": "腕時計"
+    },
+    {
+        "word": "water",
+        "meaning": "水、水中"
+    },
+    {
+        "word": "waterfall",
+        "meaning": "滝"
+    },
+    {
+        "word": "wave",
+        "meaning": "波"
+    },
+    {
+        "word": "way",
+        "meaning": "1. 方向　2. 道　3. 方法、手段　"
+    },
+    {
+        "word": "weather",
+        "meaning": "天気、気象"
+    },
+    {
+        "word": "website",
+        "meaning": "ウェブサイト"
+    },
+    {
+        "word": "Wednesday",
+        "meaning": "水曜日"
+    },
+    {
+        "word": "week",
+        "meaning": "週"
+    },
+    {
+        "word": "weekend",
+        "meaning": "週末"
+    },
+    {
+        "word": "whale",
+        "meaning": "クジラ"
+    },
+    {
+        "word": "wheel",
+        "meaning": "車輪"
+    },
+    {
+        "word": "wheelchair",
+        "meaning": "車イス"
+    },
+    {
+        "word": "while",
+        "meaning": "間、しばらく 〔たとえば for a while の形で〕 しばらくの間"
+    },
+    {
+        "word": "white",
+        "meaning": "白、白人"
+    },
+    {
+        "word": "wife",
+        "meaning": "妻"
+    },
+    {
+        "word": "wild",
+        "meaning": "〔the wild で〕野生"
+    },
+    {
+        "word": "wildcat",
+        "meaning": "ヤマネコ　〔Wildcat House〕山猫軒"
+    },
+    {
+        "word": "wilderness",
+        "meaning": "荒野"
+    },
+    {
+        "word": "wildlife",
+        "meaning": "野生動物"
+    },
+    {
+        "word": "will",
+        "meaning": "意志"
+    },
+    {
+        "word": "wind",
+        "meaning": "風"
+    },
+    {
+        "word": "windmill",
+        "meaning": "風車"
+    },
+    {
+        "word": "window",
+        "meaning": "窓"
+    },
+    {
+        "word": "winner",
+        "meaning": "勝つ〔勝った〕人、勝利者"
+    },
+    {
+        "word": "winter",
+        "meaning": "冬"
+    },
+    {
+        "word": "wire",
+        "meaning": "針金、ワイヤー"
+    },
+    {
+        "word": "wish",
+        "meaning": "願い、望み"
+    },
+    {
+        "word": "woman",
+        "meaning": "女性、女の人　　〔複数形は women 〕"
+    },
+    {
+        "word": "women",
+        "meaning": "〔woman 〕の複数形"
+    },
+    {
+        "word": "wonder",
+        "meaning": "驚き"
+    },
+    {
+        "word": "wood",
+        "meaning": "まき、木"
+    },
+    {
+        "word": "word",
+        "meaning": "1. ことば、発言　2. 語、単語　　"
+    },
+    {
+        "word": "work",
+        "meaning": "1. 仕事、勉強　2. 作品　　 "
+    },
+    {
+        "word": "worker",
+        "meaning": "労働者"
+    },
+    {
+        "word": "world",
+        "meaning": "世界（の人たち）"
+    },
+    {
+        "word": "World Cup",
+        "meaning": "〔the　～で〕ワールドカップ"
+    },
+    {
+        "word": "World Heritage Site",
+        "meaning": "世界遺産"
+    },
+    {
+        "word": "wrestling",
+        "meaning": "レスリング"
+    },
+    {
+        "word": "writer",
+        "meaning": "作家、著述家"
+    },
+    {
+        "word": "writing",
+        "meaning": "書かれた文字、筆跡、書くこと"
+    },
+    {
+        "word": "yacht",
+        "meaning": "ヨット"
+    },
+    {
+        "word": "year",
+        "meaning": "1. 年、1年　2. ～歳、年齢　 "
+    },
+    {
+        "word": "yellow",
+        "meaning": "黄色"
+    },
+    {
+        "word": "yesterday",
+        "meaning": "昨日"
+    },
+    {
+        "word": "yogurt",
+        "meaning": "ヨーグルト"
+    },
+    {
+        "word": "zero",
+        "meaning": "0、ゼロ"
+    },
+    {
+        "word": "zoo",
+        "meaning": "動物園"
+    },
+    {
+        "word": "all",
+        "meaning": "1. 全部、全員、すべて、みな　2. 〔not ～ at all の形で〕 少しも～でない。"
+    },
+    {
+        "word": "another",
+        "meaning": "もう１つのもの［人］、別のもの［人］　〔one after another の形で〕 次々と"
+    },
+    {
+        "word": "any",
+        "meaning": "〔疑問文で〕 いくらか"
+    },
+    {
+        "word": "anyone",
+        "meaning": "1. 〔肯定文で〕 だれでも　2. 〔疑問文で〕 だれか　3. 〔否定文で〕 だれも"
+    },
+    {
+        "word": "anything",
+        "meaning": "1. 〔肯定文で〕 何でも　2. 〔疑問文で〕 何か　3. 〔否定文で〕 何も"
+    },
+    {
+        "word": "as",
+        "meaning": "〔such ～ as … の形で〕 …ような～"
+    },
+    {
+        "word": "both",
+        "meaning": "両方、2 人［2つ］とも"
+    },
+    {
+        "word": "each",
+        "meaning": "それぞれ、めいめい  〔each other で〕 お互いに"
+    },
+    {
+        "word": "everybody",
+        "meaning": "だれでも、みんな"
+    },
+    {
+        "word": "everyone",
+        "meaning": "みなさん、みんな、だれでも　〔単数扱いで、everybody という言い方もある〕"
+    },
+    {
+        "word": "everything",
+        "meaning": "あらゆること［もの］、何もかも　　〔単数扱い〕"
+    },
+    {
+        "word": "he",
+        "meaning": "彼は［が］、その（男の）人は［が］"
+    },
+    {
+        "word": "her",
+        "meaning": "1. 彼女を［に］　2. 彼女の　　　"
+    },
+    {
+        "word": "hers",
+        "meaning": "彼女のもの"
+    },
+    {
+        "word": "herself",
+        "meaning": "彼女自身を［に］、彼女自身で"
+    },
+    {
+        "word": "him",
+        "meaning": "彼を［に］"
+    },
+    {
+        "word": "himself",
+        "meaning": "彼自身を［に］、彼自身で"
+    },
+    {
+        "word": "his",
+        "meaning": "1. 彼の　2. 彼のもの　 　　　"
+    },
+    {
+        "word": "I",
+        "meaning": "私は［が］"
+    },
+    {
+        "word": "it",
+        "meaning": "1. 《前に出た語句や文の内容を受けて》それは［が］　2. 《前に出た語句や文の内容を受けて》それを［に］　3. 〔It is ～ (for Ａ）to do…の形で〕 Ａ［人］が…するのは～だ　4. 《時・天候・季節・距離などを表して、日本語では「それ」とは訳さない》　 　 　 "
+    },
+    {
+        "word": "its",
+        "meaning": "その、それの"
+    },
+    {
+        "word": "least",
+        "meaning": "いちばん少ないもの [at leastの形で]少なくても"
+    },
+    {
+        "word": "little",
+        "meaning": "1. 〔 a littleの形で〕 少量、いくらか　2. 〔 a をつけないで〕 ほとんど～ない        "
+    },
+    {
+        "word": "many",
+        "meaning": "たくさん（の人、物）"
+    },
+    {
+        "word": "me",
+        "meaning": "わたしに［を］"
+    },
+    {
+        "word": "mine",
+        "meaning": "わたしのもの"
+    },
+    {
+        "word": "more",
+        "meaning": "もっと多くの数（量）、もっと多くのこと（もの、人）"
+    },
+    {
+        "word": "most",
+        "meaning": "大部分、大多数"
+    },
+    {
+        "word": "my",
+        "meaning": "私の"
+    },
+    {
+        "word": "myself",
+        "meaning": "私自身（で）　〔by myselfの形で〕 （私）ひとりで"
+    },
+    {
+        "word": "next",
+        "meaning": "次の（人）"
+    },
+    {
+        "word": "nobody",
+        "meaning": "だれも～ない"
+    },
+    {
+        "word": "nothing",
+        "meaning": "何も～ない"
+    },
+    {
+        "word": "one",
+        "meaning": "1. １つ､１人､～なもの　2. （一般に）人､だれでも　3. 〔one after another の形で〕次々と　"
+    },
+    {
+        "word": "other",
+        "meaning": "1. 〔複数形 others の形で〕 ほかのもの、ほかの人たち　2. 〔the other の形で〕 《２つのものについて》 もう一方   《３つ以上のものについて》 残りの１つ　3. 〔複数形 the others の形で〕 《３つ以上のものについて》 残りのもの（全部） "
+    },
+    {
+        "word": "our",
+        "meaning": "私たちの、ぼくたちの"
+    },
+    {
+        "word": "ours",
+        "meaning": "私たちのもの、ぼくたちのもの"
+    },
+    {
+        "word": "ourselves",
+        "meaning": "私たち自身に［を］、ぼくたち自身に［を］"
+    },
+    {
+        "word": "some",
+        "meaning": "1. （全体の中の）一部分、一部の人々　2. いくつか、いくらか、いく人か　　　"
+    },
+    {
+        "word": "someone",
+        "meaning": "だれか"
+    },
+    {
+        "word": "something",
+        "meaning": "何かあるもの［こと］"
+    },
+    {
+        "word": "that",
+        "meaning": "1. あれ、それ　2. あの［その］こと　3. あの［その］人、あちら、そちら　4. 〔関係代名詞で〕～である［する］（ところの）"
+    },
+    {
+        "word": "their",
+        "meaning": "彼らの、彼女らの、それらの"
+    },
+    {
+        "word": "theirs",
+        "meaning": "彼らのもの、彼女らのもの、それらのもの"
+    },
+    {
+        "word": "them",
+        "meaning": "それらを［に］、彼らを［に］、彼女たちを［に］"
+    },
+    {
+        "word": "themselves",
+        "meaning": "彼ら〔彼女ら〕自身（で）"
+    },
+    {
+        "word": "these",
+        "meaning": "これらが［は］[を][に]"
+    },
+    {
+        "word": "they",
+        "meaning": "彼らが［は］、彼女たちが［は］、それらが［は］"
+    },
+    {
+        "word": "this",
+        "meaning": "1. これ　2. 《電話やテレビ・ラジオの放送などで話している本人をさして》こちら、《同様の状況で話している相手をさして》そちら　3. この人、こちら　4. すでに述べたこと、このこと、これから述べること"
+    },
+    {
+        "word": "those",
+        "meaning": "あれら、それら"
+    },
+    {
+        "word": "us",
+        "meaning": "私たちを［に］"
+    },
+    {
+        "word": "we",
+        "meaning": "私たちは［が］"
+    },
+    {
+        "word": "what",
+        "meaning": "何が［を、に］"
+    },
+    {
+        "word": "which",
+        "meaning": "1.〔関係代名詞で〕～である［する］(ところの) 　2. どちら、どれ"
+    },
+    {
+        "word": "who",
+        "meaning": "1. だれ　2.〔関係代名詞で〕～である[する](ところの)　　　"
+    },
+    {
+        "word": "whose",
+        "meaning": "だれのもの、だれの"
+    },
+    {
+        "word": "you",
+        "meaning": "1. あなた(たち)に［を］　2. あなた(たち)は［が］　3. 《話し相手を含めた一般の人をさして》　(広く一般の)あなたたちは［が］ "
+    },
+    {
+        "word": "your",
+        "meaning": "1. あなた（たち）の　2. 《話し相手を含めた一般の人をさして》 (広く一般の) あなたたちの 　   "
+    },
+    {
+        "word": "yours",
+        "meaning": "あなた（たち）のもの"
+    },
+    {
+        "word": "yourself",
+        "meaning": "あなた自身を［に］"
+    },
+    {
+        "word": "accept",
+        "meaning": "受け入れる"
+    },
+    {
+        "word": "act",
+        "meaning": "（役を） 演じる"
+    },
+    {
+        "word": "add",
+        "meaning": "加える"
+    },
+    {
+        "word": "agree",
+        "meaning": "賛成する、同意する、意見が一致する　〔agree with ～の形で〕 ～に賛成する"
+    },
+    {
+        "word": "allow",
+        "meaning": "～を許可する"
+    },
+    {
+        "word": "am",
+        "meaning": "〔必ず I とともに使って〕 ～です、～だ、～である、（～に）いる"
+    },
+    {
+        "word": "amaze",
+        "meaning": "～を驚嘆させる、びっくりさせる"
+    },
+    {
+        "word": "answer",
+        "meaning": "～に答える、応答する　〔answer the phone の形で〕 電話に出る　  "
+    },
+    {
+        "word": "are",
+        "meaning": "1. 〔you, we, they や複数名詞とともに使って〕 ～です　2. 〔there, here とともに使って〕 （～に）…がいる［ある］"
+    },
+    {
+        "word": "arrest",
+        "meaning": "逮捕する"
+    },
+    {
+        "word": "arrive",
+        "meaning": "着く、到着する　〔たとえば arrive at school, arrive in New York などの形で〕 学校に到着する、ニューヨークに到着する"
+    },
+    {
+        "word": "ask",
+        "meaning": "1. ～をたずねる、問う　2. 求める 〔ask A for B の形で〕 A［人］にB［ものごと］を求める　3. たのむ　〔May I ask you a favor? の形で〕 あなたに一つお願いしてもよろしいですか　4. 〔ask A to do ～ の形で〕　Ａ［人］に～するように頼む"
+    },
+    {
+        "word": "assist",
+        "meaning": "（人を）助ける、手伝う"
+    },
+    {
+        "word": "attend",
+        "meaning": "出席する、参加する"
+    },
+    {
+        "word": "attract",
+        "meaning": "1.（人を）ひきつける　2.（注意などを）ひく"
+    },
+    {
+        "word": "bake",
+        "meaning": "～を焼く"
+    },
+    {
+        "word": "base",
+        "meaning": "基礎［根拠］を置く　〔be based on ～で〕～に基づく"
+    },
+    {
+        "word": "be",
+        "meaning": "1. ～になる、～である　2. 〔Be ～の形で命令文を作る〕 ～で［て］いなさい 　3. ～にいる、～にある"
+    },
+    {
+        "word": "become",
+        "meaning": "〔名詞・形容詞・過去分詞などをあとにつけて〕 ～になる、～に変わる  〔過去分詞形もbecome〕"
+    },
+    {
+        "word": "begin",
+        "meaning": "1. はじまる〔自動詞〕 　2. ～をはじめる〔他動詞〕 "
+    },
+    {
+        "word": "believe",
+        "meaning": "～を信じる"
+    },
+    {
+        "word": "belong",
+        "meaning": "〔belong to～の形で〕～の一員である"
+    },
+    {
+        "word": "blow",
+        "meaning": "1. （風が）ふく　2. （人・動物などが息・水など）を吐く"
+    },
+    {
+        "word": "blush",
+        "meaning": "顔を赤らめる"
+    },
+    {
+        "word": "boil",
+        "meaning": "～をゆでる、沸騰させる"
+    },
+    {
+        "word": "born",
+        "meaning": "〔be bornの形で〕 誕生する、生まれる"
+    },
+    {
+        "word": "borrow",
+        "meaning": "～を借りる"
+    },
+    {
+        "word": "bother",
+        "meaning": "じゃまをする"
+    },
+    {
+        "word": "break",
+        "meaning": "～をこわす、折る、破る"
+    },
+    {
+        "word": "bring",
+        "meaning": "《向こうからこちらへ》 ～を持ってくる、つれてくる   "
+    },
+    {
+        "word": "broaden",
+        "meaning": "～を広くする、広げる"
+    },
+    {
+        "word": "brush",
+        "meaning": "（ブラシで）みがく"
+    },
+    {
+        "word": "build",
+        "meaning": "～を建てる、～を築き上げる"
+    },
+    {
+        "word": "burn",
+        "meaning": "～を燃やす"
+    },
+    {
+        "word": "bury",
+        "meaning": "埋める"
+    },
+    {
+        "word": "buy",
+        "meaning": "～を買う"
+    },
+    {
+        "word": "call",
+        "meaning": "1. （大声で）呼ぶ　2. ～を呼び寄せる 　　3. 電話をかける　4. 〔call A B の形で〕 ＡをＢと呼ぶ、名づける　5. [call ～ backの形で] ～におりかえし電話する"
+    },
+    {
+        "word": "calm",
+        "meaning": "静まる、落ち着く"
+    },
+    {
+        "word": "camp",
+        "meaning": "キャンプ（生活）する"
+    },
+    {
+        "word": "care",
+        "meaning": "[care for ～の形で]　～の世話をする"
+    },
+    {
+        "word": "carry",
+        "meaning": "運ぶ、持って行く、持ち歩く"
+    },
+    {
+        "word": "catch",
+        "meaning": "～をとらえる、つかまえる"
+    },
+    {
+        "word": "cause",
+        "meaning": "～を引き起こす、～の原因となる"
+    },
+    {
+        "word": "celebrate",
+        "meaning": "～を祝う"
+    },
+    {
+        "word": "change",
+        "meaning": "1. 変わる〔自動詞〕　2. ～を変える 〔他動詞〕 　3. （電車など） を乗り換える"
+    },
+    {
+        "word": "check",
+        "meaning": "～を調べる、チェックする、確認する、照合する"
+    },
+    {
+        "word": "cheer",
+        "meaning": "～を元気づける、声援を送る、応援する、励ます"
+    },
+    {
+        "word": "choose",
+        "meaning": "～を選ぶ"
+    },
+    {
+        "word": "clap",
+        "meaning": "（手を）たたく、拍手する"
+    },
+    {
+        "word": "clean",
+        "meaning": "～をきれいにする、そうじする"
+    },
+    {
+        "word": "climb",
+        "meaning": "（高いところ） に登る、よじ登る"
+    },
+    {
+        "word": "close",
+        "meaning": "（窓、ドアなど） を閉める、閉じる、閉まる"
+    },
+    {
+        "word": "collect",
+        "meaning": "（～を）集める、収集する"
+    },
+    {
+        "word": "come",
+        "meaning": "1. 来る　〔come and ～ の形で〕 ～しに来る  〔come to school の形で〕 学校に来る  〔come back の形で〕 戻ってくる　2. (相手のいる所へ・相手と同方向へ) 行く　3. (時・季節などが) 巡ってくる　4. 〔Come on.の形で〕 さあ急げ、さあ　5. 〔come from～ の形で〕 ～から来ている、～出身である　  〔過去分詞形もcome〕　6. [～の状態に]なる　〔come trueの形で〕実現する"
+    },
+    {
+        "word": "communicate",
+        "meaning": "(知識・情報・人の気持ちなど) を伝える、意思を伝え合う"
+    },
+    {
+        "word": "compare",
+        "meaning": "比較する、比べる"
+    },
+    {
+        "word": "complain",
+        "meaning": "不平を言う"
+    },
+    {
+        "word": "connect",
+        "meaning": "結びつける、つながる"
+    },
+    {
+        "word": "contact",
+        "meaning": "（人と）連絡をとる、接続する"
+    },
+    {
+        "word": "continue",
+        "meaning": "～を続ける、続く"
+    },
+    {
+        "word": "cook",
+        "meaning": "（～を）料理する"
+    },
+    {
+        "word": "cost",
+        "meaning": "（金額・費用）がかかる"
+    },
+    {
+        "word": "count",
+        "meaning": "（～を）数える"
+    },
+    {
+        "word": "cover",
+        "meaning": "（物の外側）をおおう"
+    },
+    {
+        "word": "create",
+        "meaning": "～をつくり出す"
+    },
+    {
+        "word": "cross",
+        "meaning": "～を横切る"
+    },
+    {
+        "word": "cry",
+        "meaning": "1. （大声で）叫ぶ、大声で言う　2. （声をあげて）泣く"
+    },
+    {
+        "word": "cut",
+        "meaning": "～を切る 　〔過去形、過去分詞形も cut〕"
+    },
+    {
+        "word": "dance",
+        "meaning": "踊る、ダンスをする"
+    },
+    {
+        "word": "decide",
+        "meaning": "決める　〔decide to ～〕 ～しようと決心する"
+    },
+    {
+        "word": "depend",
+        "meaning": "～による、～しだいである"
+    },
+    {
+        "word": "design",
+        "meaning": "～をデザインする、設計する"
+    },
+    {
+        "word": "despair",
+        "meaning": "絶望する"
+    },
+    {
+        "word": "destroy",
+        "meaning": "破壊する、こわす"
+    },
+    {
+        "word": "did",
+        "meaning": "〔do （する) の過去形〕"
+    },
+    {
+        "word": "die",
+        "meaning": "（人や動物が） 死ぬ、亡くなる、（植物が） 枯れる"
+    },
+    {
+        "word": "direct",
+        "meaning": "(映画などを)監督する、演出する"
+    },
+    {
+        "word": "disagree",
+        "meaning": "意見が合わない、賛成しない、反対する"
+    },
+    {
+        "word": "disappear",
+        "meaning": "消える、なくなる、消滅する、存在しなくなる、見えなくなる"
+    },
+    {
+        "word": "discover",
+        "meaning": "～を見つける、～を見いだす"
+    },
+    {
+        "word": "do",
+        "meaning": "～をする"
+    },
+    {
+        "word": "done",
+        "meaning": "〔doの過去分詞形〕"
+    },
+    {
+        "word": "drank",
+        "meaning": "drinkの過去形"
+    },
+    {
+        "word": "draw",
+        "meaning": "1. （鉛筆、ペンなどで絵など）をかく、（線）を引く　2. ～を引く、引っ張る"
+    },
+    {
+        "word": "drink",
+        "meaning": "～を飲む"
+    },
+    {
+        "word": "drive",
+        "meaning": "(自動車)を運転する"
+    },
+    {
+        "word": "drop",
+        "meaning": "～を落とす、落ちる"
+    },
+    {
+        "word": "eat",
+        "meaning": "～を食べる、食事をする"
+    },
+    {
+        "word": "encourage",
+        "meaning": "勇気づける、はげます、激励する"
+    },
+    {
+        "word": "end",
+        "meaning": "終わる、終える"
+    },
+    {
+        "word": "enjoy",
+        "meaning": "～を楽しむ、～を楽しんでいる"
+    },
+    {
+        "word": "enter",
+        "meaning": "（建物・部屋・場所など）に入る"
+    },
+    {
+        "word": "excuse",
+        "meaning": "許す　〔Excuse me.の形で〕 失礼ですが、すみませんが"
+    },
+    {
+        "word": "experience",
+        "meaning": "経験する"
+    },
+    {
+        "word": "explain",
+        "meaning": "～を説明する"
+    },
+    {
+        "word": "express",
+        "meaning": "～を表現する、言い表す"
+    },
+    {
+        "word": "face",
+        "meaning": "（危険・困難などに)立ち向かう、直面する"
+    },
+    {
+        "word": "fade",
+        "meaning": "消えていく"
+    },
+    {
+        "word": "faint",
+        "meaning": "気をうしなう、気絶する"
+    },
+    {
+        "word": "fall",
+        "meaning": "落ちる"
+    },
+    {
+        "word": "fascinate",
+        "meaning": "魅了する、うっとりさせる"
+    },
+    {
+        "word": "feed",
+        "meaning": "えさをやる、食物を与える"
+    },
+    {
+        "word": "feel",
+        "meaning": "1. ～と感じる、～と思う　2. ～を感じる　　"
+    },
+    {
+        "word": "fight",
+        "meaning": "戦う"
+    },
+    {
+        "word": "fill",
+        "meaning": "いっぱいになる"
+    },
+    {
+        "word": "find",
+        "meaning": " ～を見つける、見いだす"
+    },
+    {
+        "word": "finish",
+        "meaning": "～を終える、終わらせる、終わる"
+    },
+    {
+        "word": "fish",
+        "meaning": "魚釣りをする"
+    },
+    {
+        "word": "fit",
+        "meaning": "（サイズ、形が）合う"
+    },
+    {
+        "word": "fly",
+        "meaning": "飛ぶ、（飛行機で）行く"
+    },
+    {
+        "word": "follow",
+        "meaning": "～についていく、（～と一緒に）異動する、～に従う"
+    },
+    {
+        "word": "force",
+        "meaning": "強制する、無理に～させる[する]"
+    },
+    {
+        "word": "forget",
+        "meaning": "～を忘れる、思い出せない"
+    },
+    {
+        "word": "form",
+        "meaning": "（人がもの）を形作る"
+    },
+    {
+        "word": "fulfill",
+        "meaning": "（望みなどを）実現する"
+    },
+    {
+        "word": "gather",
+        "meaning": "～を集める、集まる"
+    },
+    {
+        "word": "get",
+        "meaning": "1. ～を得る、手に入れる　2. ～（の状態）になる　3. わかる、理解する　4. 着く、到着する　〔たとえばget to Shiriyazaki, get home の形で〕 尻屋崎に着く、家に着く　5. 〔get up の形で〕起きる　6. (タクシーなどを)ひろう、利用する　7. 〔get together の形で〕集まる"
+    },
+    {
+        "word": "give",
+        "meaning": "1. ～を与える、贈る　〔give A B, give B to A の形で〕ＡにＢを与える　2. (会などを)開く、もよおす、演ずる、行う"
+    },
+    {
+        "word": "go",
+        "meaning": "1. 行く　〔たとえばgo to school の形で〕学校へ行く　2. 〔be going to do ～ の形で〕 ～するつもりである　3. 〔go doing ～ の形で〕～しに行く"
+    },
+    {
+        "word": "graduate",
+        "meaning": "卒業する"
+    },
+    {
+        "word": "greet",
+        "meaning": "～に挨拶する、～をむかえる"
+    },
+    {
+        "word": "grin",
+        "meaning": "にこっと笑う、にやっと笑う"
+    },
+    {
+        "word": "grow",
+        "meaning": "1. 成長する、大きくなる、育つ　2. ～を栽培する、育てる　3. （しだいに）～になる"
+    },
+    {
+        "word": "guess",
+        "meaning": "～をあてる、推測する"
+    },
+    {
+        "word": "happen",
+        "meaning": "(事件などが) 起こる、生じる"
+    },
+    {
+        "word": "hate",
+        "meaning": "～するのが嫌いだ、～したくはない"
+    },
+    {
+        "word": "have",
+        "meaning": "1. ～をもっている、～がある、～がいる　2. ～を食べる、飲む　3. ～を過ごす、経験する　4. (病気)にかかっている、～が痛む　5. 〔have to do ～ の形で〕 ～しなければならない　6. ～を飼っている              　                                       　 　                                        　                       　                                                                                                          "
+    },
+    {
+        "word": "head",
+        "meaning": "～向かう"
+    },
+    {
+        "word": "heal",
+        "meaning": "～をいやす"
+    },
+    {
+        "word": "hear",
+        "meaning": "1. ～を聞く、～が聞こえる　2. 《情報・うわさなど》を耳にする　3. 〔hear from～の形で〕 ～から返信［便り］をもらう"
+    },
+    {
+        "word": "heat",
+        "meaning": "熱する、あたためる"
+    },
+    {
+        "word": "help",
+        "meaning": "1. ～を助ける、援助する　2. （～を）手伝う、助ける　〔May I help you? の形で〕 《店員が客に対して》 いらっしゃいませ　〔help A with B の形で〕 ＡのＢを手伝う　　3.〔Please help yourself. の形で〕 どうぞご自由にとって食べて（飲んで）ください　  　　　　 "
+    },
+    {
+        "word": "hit",
+        "meaning": "～に当たる、ぶつかる　〔過去形、過去分詞形もhit〕"
+    },
+    {
+        "word": "hold",
+        "meaning": "1. (手などでしっかりと）持つ、にぎる、抱く、抱きかかえる　2. 開催する、催す　3.（電話を）切らないで待つ　"
+    },
+    {
+        "word": "hope",
+        "meaning": "～を望む、～だとよいと思う"
+    },
+    {
+        "word": "hug",
+        "meaning": "（愛情を込めて）抱きしめる"
+    },
+    {
+        "word": "hunt",
+        "meaning": "狩りをする"
+    },
+    {
+        "word": "hurry",
+        "meaning": "急ぐ"
+    },
+    {
+        "word": "hurt",
+        "meaning": "1. 痛む 〔過去形、過去分詞形もhurt〕　2. ～を傷つける、～にケガをさせる　　 "
+    },
+    {
+        "word": "imagine",
+        "meaning": "想像する"
+    },
+    {
+        "word": "impress",
+        "meaning": "感銘を与える、印象づける"
+    },
+    {
+        "word": "improve",
+        "meaning": "よくなる、改善される"
+    },
+    {
+        "word": "increase",
+        "meaning": "増やす"
+    },
+    {
+        "word": "influence",
+        "meaning": "～に影響を与える"
+    },
+    {
+        "word": "injure",
+        "meaning": "傷つける、けがをさせる"
+    },
+    {
+        "word": "interview",
+        "meaning": "インタビューする、面接する"
+    },
+    {
+        "word": "introduce",
+        "meaning": "～を紹介する、～を取り入れる、導入する"
+    },
+    {
+        "word": "invite",
+        "meaning": "～を招く"
+    },
+    {
+        "word": "is",
+        "meaning": "〔he, she, it や単数名詞等とともに使って〕 1. ～です、～だ、～である　2. 〔there, here とともに使って〕（～に）…がいる［ある］"
+    },
+    {
+        "word": "join",
+        "meaning": "1. ～に加わる、参加する　2. ～をつなぐ"
+    },
+    {
+        "word": "judge",
+        "meaning": "(物のよしあしを)判断する"
+    },
+    {
+        "word": "jump",
+        "meaning": "とぶ、とび超える、はねる"
+    },
+    {
+        "word": "keep",
+        "meaning": "1. (法律・慣習・命令など)を守る、保存する、保つ、しまっておく　2. ～をもち続ける、ずっと～である、～している"
+    },
+    {
+        "word": "kick",
+        "meaning": "～を蹴る"
+    },
+    {
+        "word": "kid",
+        "meaning": "からかう、冗談を言う"
+    },
+    {
+        "word": "kill",
+        "meaning": "～を殺す"
+    },
+    {
+        "word": "knit",
+        "meaning": "編む、編み物をする"
+    },
+    {
+        "word": "knock",
+        "meaning": "ノックする、たたく"
+    },
+    {
+        "word": "know",
+        "meaning": "～を知っている、わかる　　  "
+    },
+    {
+        "word": "land",
+        "meaning": "着陸する"
+    },
+    {
+        "word": "last",
+        "meaning": "続く"
+    },
+    {
+        "word": "laugh",
+        "meaning": "笑う"
+    },
+    {
+        "word": "lay",
+        "meaning": "(卵を)産む"
+    },
+    {
+        "word": "lead",
+        "meaning": "指揮をする、先頭に立つ"
+    },
+    {
+        "word": "learn",
+        "meaning": "1. ～を学ぶ、習う、覚える　2. 知る、聞く"
+    },
+    {
+        "word": "leave",
+        "meaning": "1. ～を出発する、出る、去る　2. ～を残す、～を置いていく　3. （学校・仕事など）をやめる"
+    },
+    {
+        "word": "lend",
+        "meaning": "～を貸す"
+    },
+    {
+        "word": "let's",
+        "meaning": "（let us を短くした形）～しましょう"
+    },
+    {
+        "word": "lie",
+        "meaning": "（人・動物が）横たわる、横になる"
+    },
+    {
+        "word": "lift",
+        "meaning": "持ち上げる"
+    },
+    {
+        "word": "like",
+        "meaning": "～を好む、～が好きだ"
+    },
+    {
+        "word": "listen",
+        "meaning": "〔listen to ～ の形で〕 ～を聞く、耳を傾ける"
+    },
+    {
+        "word": "live",
+        "meaning": "1. 住んでいる、暮らしている、生活する　2. 生きる、生きている"
+    },
+    {
+        "word": "locate",
+        "meaning": "(何かをある場所に)置く、be　located in ～で　～に位置する、、～にある　"
+    },
+    {
+        "word": "lock",
+        "meaning": "lock up~で　～を閉じ込める、監禁する"
+    },
+    {
+        "word": "look",
+        "meaning": "1. （意識的に）見る 〔look at ～ の形で〕～を見る　2. 〔look + 形容詞の形で〕　（外見が）～に見える　3. 〔look for ～ の形で〕～をさがす　4. 《人の注意をひくときに使って》 ねぇ、ほら見て"
+    },
+    {
+        "word": "lose",
+        "meaning": "1. ～を失う　[lose one's wayの形で]道に迷う　2. (勝負に）負ける"
+    },
+    {
+        "word": "love",
+        "meaning": "1. ～を愛する、～が大好きである　2.　〔I would love to do ～の形で〕～したいと思う"
+    },
+    {
+        "word": "make",
+        "meaning": "1. ～を作る　2. ～を…にする　〔make A B の形で〕 Ａ［人・ものなど］をＢにする　〔ただし A＝B の関係が成り立たない場合は、「ＡにＢを作ってあげる」の意味になる〕　3. 〔動作を表す名詞を目的語として〕～をする　〔たとえば make a wish の形で〕 願いごとをする　4. ～を得る、作る　〔たとえば make friends （with ～) の形で〕 (～と）仲良しになる　5. ～を整える、用意する  〔たとえば make tea の形で〕 お茶を入れる　6.［たとえばmake A of Bの形で］BでAを作る　7.［たとえばmake A from Bの形で］BからAを作る　8.［たとえばmake A into Bの形で］AでBを作る　9.～をもたらす、生じさせる"
+    },
+    {
+        "word": "manage",
+        "meaning": "どうにかやっていく、なんとかうまく～する"
+    },
+    {
+        "word": "marry",
+        "meaning": "結婚する"
+    },
+    {
+        "word": "mean",
+        "meaning": "1. ～を意味する、表す　2. ～のつもりで言う、～をさして言う"
+    },
+    {
+        "word": "meet",
+        "meaning": "1.～に会う、面会する　2.～と知り合いになる"
+    },
+    {
+        "word": "melt",
+        "meaning": "溶ける"
+    },
+    {
+        "word": "miss",
+        "meaning": "1.　乗りそこなう、取り［見・聞き］そこなう､欠席する　2.　～がいなくてさびしく思う"
+    },
+    {
+        "word": "mistake",
+        "meaning": "～を間違える　［mistake A for Bの形で］AをBと間違える"
+    },
+    {
+        "word": "mix",
+        "meaning": "～を混ぜる"
+    },
+    {
+        "word": "move",
+        "meaning": "1. 動く、移動する　2. ～を感動させる　3.引っ越す"
+    },
+    {
+        "word": "name",
+        "meaning": "〔name A B の形で〕ＡをＢと名づける、呼ぶ"
+    },
+    {
+        "word": "need",
+        "meaning": "～が必要である　　[need to～の形で］～する必要がある"
+    },
+    {
+        "word": "nod",
+        "meaning": "うなずく"
+    },
+    {
+        "word": "notice",
+        "meaning": "気がつく"
+    },
+    {
+        "word": "open",
+        "meaning": "1. あける、広げる　2. 開く、あく　3. 開始する"
+    },
+    {
+        "word": "order",
+        "meaning": "命ずる、注文する"
+    },
+    {
+        "word": "organize",
+        "meaning": "組織する、準備する"
+    },
+    {
+        "word": "overcome",
+        "meaning": "打ち勝つ、乗り越える"
+    },
+    {
+        "word": "package",
+        "meaning": "(製品など)(…で）包装する"
+    },
+    {
+        "word": "paint",
+        "meaning": "(絵の具で絵)をかく"
+    },
+    {
+        "word": "panic",
+        "meaning": "うろたえる、あわてふためく"
+    },
+    {
+        "word": "pardon",
+        "meaning": "～を許す  〔Pardon me?の形で〕 すみませんが、もう一度言ってください。"
+    },
+    {
+        "word": "park",
+        "meaning": "(自動車）をとめておく､駐車する"
+    },
+    {
+        "word": "pass",
+        "meaning": "1. ～を手渡す､回す　2. ～経過する　3. 通り過ぎる、通る"
+    },
+    {
+        "word": "pay",
+        "meaning": "支払う、払う"
+    },
+    {
+        "word": "perform",
+        "meaning": "演じる、演奏する"
+    },
+    {
+        "word": "photograph",
+        "meaning": "写真を撮る"
+    },
+    {
+        "word": "pick",
+        "meaning": "1. ～を摘む、つみ取る　2. ～を選ぶ　3. 〔pick up ～ の形で〕～を拾い上げる、～を車で迎えに行く"
+    },
+    {
+        "word": "place",
+        "meaning": "置く、並べる"
+    },
+    {
+        "word": "plan",
+        "meaning": "～を計画する"
+    },
+    {
+        "word": "plant",
+        "meaning": "～を植える"
+    },
+    {
+        "word": "play",
+        "meaning": "1. (スポーツ・ゲームなど)をする　2. (曲・楽器など)を演奏する　3. 遊ぶ　4. ～（の役）を演じる　"
+    },
+    {
+        "word": "point",
+        "meaning": "指さす､さし示す"
+    },
+    {
+        "word": "post",
+        "meaning": "（ウエブ上に写真などを）投稿する、投函する"
+    },
+    {
+        "word": "practice",
+        "meaning": "（～を）練習する"
+    },
+    {
+        "word": "pray",
+        "meaning": "祈る"
+    },
+    {
+        "word": "prefer",
+        "meaning": "（～のほうを）好む、選ぶ"
+    },
+    {
+        "word": "prepare",
+        "meaning": "準備をする"
+    },
+    {
+        "word": "produce",
+        "meaning": "～を産み出す、生産する"
+    },
+    {
+        "word": "protect",
+        "meaning": "～を守る、保護する"
+    },
+    {
+        "word": "pull",
+        "meaning": "～を引く"
+    },
+    {
+        "word": "punish",
+        "meaning": "罰する"
+    },
+    {
+        "word": "push",
+        "meaning": "～を押す"
+    },
+    {
+        "word": "put",
+        "meaning": "～を置く、つける　 　〔過去形、過去分詞形も put〕"
+    },
+    {
+        "word": "quit",
+        "meaning": "やめる、去る　〔過去形、過去分詞形もquit〕"
+    },
+    {
+        "word": "quiz",
+        "meaning": "～に簡単なテストを行う、～に質問する"
+    },
+    {
+        "word": "rain",
+        "meaning": "雨が降る 　〔it が主語になる〕"
+    },
+    {
+        "word": "raise",
+        "meaning": "1.～を上げる　 　〔たとえば Raise your hand. の形で〕 手を上げなさい　2. （子どもを）育てる"
+    },
+    {
+        "word": "read",
+        "meaning": "～を読む   〔発音は ［ri:d］〕"
+    },
+    {
+        "word": "realize",
+        "meaning": "実感する、理解する"
+    },
+    {
+        "word": "receive",
+        "meaning": "～を受け取る、もらう"
+    },
+    {
+        "word": "recognize",
+        "meaning": "～を認める、評価する"
+    },
+    {
+        "word": "recycle",
+        "meaning": "～を再生する、～を再利用する"
+    },
+    {
+        "word": "reduce",
+        "meaning": "～を小さくする、下げる、減らす"
+    },
+    {
+        "word": "relax",
+        "meaning": "くつろぐ、リラックスする"
+    },
+    {
+        "word": "release",
+        "meaning": "〔ＣＤ／レコードを〕発売する"
+    },
+    {
+        "word": "remain",
+        "meaning": "残る、とどまる"
+    },
+    {
+        "word": "remember",
+        "meaning": "～を思い出す、覚えている、忘れない"
+    },
+    {
+        "word": "remind",
+        "meaning": "思い出させる、気づかせる"
+    },
+    {
+        "word": "remove",
+        "meaning": "～を取りはずす、～を取り除く、～をかたづける"
+    },
+    {
+        "word": "reply",
+        "meaning": "～と答える"
+    },
+    {
+        "word": "report",
+        "meaning": "～を報告する、報道する"
+    },
+    {
+        "word": "rescue",
+        "meaning": "救い出す、救助する"
+    },
+    {
+        "word": "respect",
+        "meaning": "～を尊敬する、～を大切にする"
+    },
+    {
+        "word": "respond",
+        "meaning": "こたえる"
+    },
+    {
+        "word": "rest",
+        "meaning": "休む、横になる"
+    },
+    {
+        "word": "return",
+        "meaning": "帰る、戻る"
+    },
+    {
+        "word": "reuse",
+        "meaning": "～を再利用する"
+    },
+    {
+        "word": "ride",
+        "meaning": "～に乗る"
+    },
+    {
+        "word": "ring",
+        "meaning": "鳴る　〔過去形rang〕"
+    },
+    {
+        "word": "rise",
+        "meaning": "（太陽などが）のぼる"
+    },
+    {
+        "word": "roll",
+        "meaning": "巻く、くるむ"
+    },
+    {
+        "word": "rule",
+        "meaning": "～を支配する、統治する"
+    },
+    {
+        "word": "run",
+        "meaning": "1. (人・動物が）走る　　〔過去分詞もrun〕　2. ～を経営する　3. （川などが）流れる"
+    },
+    {
+        "word": "save",
+        "meaning": "1. (危害・困難などから人・物・自然など)を救う　2. (エネルギー･時間など)を節約する、無駄にしない"
+    },
+    {
+        "word": "say",
+        "meaning": "1. 〔人が主語で〕～と言う　2. 〔物が主語で〕～と書いてある、示している"
+    },
+    {
+        "word": "scare",
+        "meaning": "～を怖がらせる"
+    },
+    {
+        "word": "score",
+        "meaning": "〔競技、試験などで～点を〕取る、得点する"
+    },
+    {
+        "word": "search",
+        "meaning": "さがす 〔search for ～で〕～をさがす"
+    },
+    {
+        "word": "see",
+        "meaning": "1. ～を見る、見物する　2. ～が見える　3. ～が分かる、理解する　4. ～に会う"
+    },
+    {
+        "word": "seem",
+        "meaning": "～のように見える、～のように思われる"
+    },
+    {
+        "word": "select",
+        "meaning": "選ぶ、選択する"
+    },
+    {
+        "word": "sell",
+        "meaning": "～を売る"
+    },
+    {
+        "word": "send",
+        "meaning": "～を送る"
+    },
+    {
+        "word": "sent",
+        "meaning": "〔sendの過去形、過去分詞形〕"
+    },
+    {
+        "word": "separate",
+        "meaning": "～を分ける"
+    },
+    {
+        "word": "set",
+        "meaning": "～を準備する"
+    },
+    {
+        "word": "shake",
+        "meaning": "～を振る"
+    },
+    {
+        "word": "share",
+        "meaning": "いっしょに使う、共有する、互いに分け合う"
+    },
+    {
+        "word": "she",
+        "meaning": "彼女は［が］、あの女の人は［が］、あの女の子は［が］"
+    },
+    {
+        "word": "shine",
+        "meaning": "光る、輝く"
+    },
+    {
+        "word": "shock",
+        "meaning": "ショックを与える"
+    },
+    {
+        "word": "shoot",
+        "meaning": "～を撃つ"
+    },
+    {
+        "word": "shop",
+        "meaning": "買い物をする　〔例えば go shopping の形で〕 買い物に行く"
+    },
+    {
+        "word": "shout",
+        "meaning": "～と叫ぶ、大声で言う"
+    },
+    {
+        "word": "show",
+        "meaning": "1. ～を見せる、示す、教える  〔show A B の形で〕ＡにＢを見せる　2. ～を案内する"
+    },
+    {
+        "word": "shut",
+        "meaning": "～を閉める、閉まる 　〔過去形、過去分詞形もshut〕"
+    },
+    {
+        "word": "sigh",
+        "meaning": "ため息をつく"
+    },
+    {
+        "word": "sing",
+        "meaning": "（～を）歌う"
+    },
+    {
+        "word": "sit",
+        "meaning": "すわる、腰をおろす"
+    },
+    {
+        "word": "skate",
+        "meaning": "スケートですべる、スケートをする"
+    },
+    {
+        "word": "sleep",
+        "meaning": "眠る"
+    },
+    {
+        "word": "smell",
+        "meaning": "～のにおいがする"
+    },
+    {
+        "word": "smile",
+        "meaning": "ほほえむ、にっこり笑う、微笑する"
+    },
+    {
+        "word": "solve",
+        "meaning": "～を解決する"
+    },
+    {
+        "word": "sort",
+        "meaning": "～を分類する、えり分ける"
+    },
+    {
+        "word": "sound",
+        "meaning": "～に聞こえる、～に思われる"
+    },
+    {
+        "word": "speak",
+        "meaning": "(ことば)を話す、話をする"
+    },
+    {
+        "word": "spell",
+        "meaning": "(文字など)をつづる"
+    },
+    {
+        "word": "spend",
+        "meaning": "1. (お金）を使う、費やす　2. (時間・日など) を過ごす、送る"
+    },
+    {
+        "word": "spread",
+        "meaning": "広がる"
+    },
+    {
+        "word": "stand",
+        "meaning": "1. 立っている　2. 立つ　3.我慢する､耐える"
+    },
+    {
+        "word": "start",
+        "meaning": "1. 始まる  〔自動詞〕　2. ～を始める  〔他動詞〕"
+    },
+    {
+        "word": "stay",
+        "meaning": "1. (場所に)とどまる　2. 滞在する、泊まる"
+    },
+    {
+        "word": "step",
+        "meaning": "（一歩・少し）歩む"
+    },
+    {
+        "word": "stop",
+        "meaning": "1. とまる  〔自動詞〕　2. ～をやめる、とめる  〔他動詞〕"
+    },
+    {
+        "word": "strive",
+        "meaning": "懸命に努力する"
+    },
+    {
+        "word": "study",
+        "meaning": "～を勉強する、調べる、研究する"
+    },
+    {
+        "word": "suffer",
+        "meaning": "苦しむ"
+    },
+    {
+        "word": "suggest",
+        "meaning": "提案する"
+    },
+    {
+        "word": "support",
+        "meaning": "(人や考え)を支持する、支援する"
+    },
+    {
+        "word": "surf",
+        "meaning": "サーフィン〔波乗り〕をする"
+    },
+    {
+        "word": "surprise",
+        "meaning": "～を驚かす、びっくりさせる　 〔be surprised at ～ の形で〕 (知らせなど)に驚いている"
+    },
+    {
+        "word": "surround",
+        "meaning": "～を囲む、取り巻く"
+    },
+    {
+        "word": "survive",
+        "meaning": "生き残る"
+    },
+    {
+        "word": "swallow",
+        "meaning": "～をごくりと飲み込む"
+    },
+    {
+        "word": "swim",
+        "meaning": "泳ぐ"
+    },
+    {
+        "word": "take",
+        "meaning": "1.  (時間、労力)がかかる　2.  ～を持っていく、連れて行く　3.  (乗り物)に乗る、乗っていく　4.  (写真)をとる　5. 買う　6. 服用する　7. ～をする、行う　〔take a bathの形で〕風呂に入る　8. （試験、授業などを）受ける　9. 持って行く、持ち去る　10. 受け取る"
+    },
+    {
+        "word": "talk",
+        "meaning": "話す、話をする"
+    },
+    {
+        "word": "taste",
+        "meaning": "1. 味わう、食べる　2. （～の）味がする"
+    },
+    {
+        "word": "teach",
+        "meaning": "～を教える　 〔teach A B の形で〕 ＡにＢを教える　"
+    },
+    {
+        "word": "tell",
+        "meaning": "1. ～に話す、～を話す、教える　〔tell Ａ Ｂの形で〕 Ａ［人］にＢ［ものごとなど］を話す　2. 〔tell Ａ to do ～の形で〕 Ａ［人］に～するように言う"
+    },
+    {
+        "word": "thank",
+        "meaning": "～に感謝する"
+    },
+    {
+        "word": "think",
+        "meaning": "～と考える、思う"
+    },
+    {
+        "word": "touch",
+        "meaning": "～にさわる、触れる"
+    },
+    {
+        "word": "train",
+        "meaning": "1. ～を訓練する　2. 練習する"
+    },
+    {
+        "word": "translate",
+        "meaning": "～を翻訳する、訳す"
+    },
+    {
+        "word": "trap",
+        "meaning": "～をわなで捕まえる、閉じこめる"
+    },
+    {
+        "word": "travel",
+        "meaning": "旅する、移動する"
+    },
+    {
+        "word": "trust",
+        "meaning": "～を信頼する"
+    },
+    {
+        "word": "try",
+        "meaning": "～をやってみる、挑戦する、ためしてみる、(try to～の形で）～しようとする"
+    },
+    {
+        "word": "turn",
+        "meaning": "1. 曲がる、向きを変える　2. 回る、回転する　3. 回す、ひねる"
+    },
+    {
+        "word": "understand",
+        "meaning": "～を理解する、～がわかる"
+    },
+    {
+        "word": "unplug",
+        "meaning": "（～の）プラグを（コンセントから）抜く"
+    },
+    {
+        "word": "upset",
+        "meaning": "気を動転させる、うろたえさせる"
+    },
+    {
+        "word": "use",
+        "meaning": "～を使う"
+    },
+    {
+        "word": "visit",
+        "meaning": "1. (場所、人など)をおとずれる　2. (ウェブサイトなど)をおとずれる"
+    },
+    {
+        "word": "wait",
+        "meaning": "待つ　　〔wait for ～の形で〕～を待つ"
+    },
+    {
+        "word": "wake",
+        "meaning": "〔wake you up〕あなたを起こす"
+    },
+    {
+        "word": "walk",
+        "meaning": "1. 歩く、歩いて行く［来る］　2. 散歩させる"
+    },
+    {
+        "word": "want",
+        "meaning": "1. ～がほしい　2. 〔want to do ～の形で〕 ～したい　3. 〔want A to do ～の形で〕 Ａ［人］に～してほしい"
+    },
+    {
+        "word": "wash",
+        "meaning": "～を洗う"
+    },
+    {
+        "word": "watch",
+        "meaning": "1. (注意して、動いているもの)を見る　2. ～見はる"
+    },
+    {
+        "word": "water",
+        "meaning": "～に水をやる"
+    },
+    {
+        "word": "wear",
+        "meaning": "～を着ている、身につけている"
+    },
+    {
+        "word": "welcome",
+        "meaning": "歓迎する"
+    },
+    {
+        "word": "whisper",
+        "meaning": "（～と）ささやく、ひそひそ声でで言う"
+    },
+    {
+        "word": "whistle",
+        "meaning": "口笛を吹く、口笛を吹くように鳴く"
+    },
+    {
+        "word": "win",
+        "meaning": "勝つ、～を勝ち取る"
+    },
+    {
+        "word": "wish",
+        "meaning": "～を願う、望む　〔たとえば I wish you a happy new year.の形で〕新年おめでとう"
+    },
+    {
+        "word": "wonder",
+        "meaning": "（～する）かしら（と思う）、～かどうかを知りたいと思う"
+    },
+    {
+        "word": "work",
+        "meaning": "1. 働く、勉強する　2. うまくいく、機能する、作動する、動く"
+    },
+    {
+        "word": "worry",
+        "meaning": "心配する、悩む"
+    },
+    {
+        "word": "wrap",
+        "meaning": "包む、包装する"
+    },
+    {
+        "word": "write",
+        "meaning": "～を書く"
+    },
+    {
+        "word": "am",
+        "meaning": "1. 〔現在進行形やbe going to do ～の形で用いる〕　2. 〔受け身の文を作る〕　"
+    },
+    {
+        "word": "are",
+        "meaning": "1. 〔現在進行形やbe going to do ～の形で用いる〕　2. 〔受け身の文を作る〕　　"
+    },
+    {
+        "word": "be",
+        "meaning": "1. 〔進行形 (be+doing) や be going to do ～の形で用いる〕　2. 〔受け身(be+ 過去分詞) の形で用いる〕　"
+    },
+    {
+        "word": "can",
+        "meaning": "1. ～できる、～してもよい　2. 《許可を表して》 〔Can I ～? の形で〕 ～してもよいですか　3. 《依頼を表して》 〔Can you～? の形で〕 ～してくれますか　4. よく～である、～でありうる"
+    },
+    {
+        "word": "cannot",
+        "meaning": "～できない"
+    },
+    {
+        "word": "could",
+        "meaning": "〔can の過去形〕  　1. 《ていねいな依頼として》 〔Could you ～? の形で〕 ～していただけませんか　2. 《能力・可能を表して》 ～することができた"
+    },
+    {
+        "word": "did",
+        "meaning": "〔doの過去形で、疑問文や否定文を作るのに使う〕"
+    },
+    {
+        "word": "do",
+        "meaning": "1. 〔疑問文と応答に用いる〕　2. 〔否定文に用いる〕　3. 〔否定の命令文を作る〕　4. 〔前に出た動詞句をくり返す代わりに用いる〕　5. [付加疑問文で]　(～は…する)ね。"
+    },
+    {
+        "word": "does",
+        "meaning": "〔主語が3人称単数の時の do の形で、疑問文や否定文を作るのに使う〕"
+    },
+    {
+        "word": "has",
+        "meaning": "〔現在完了の文において、主語が３人称単数の時の has の形で、疑問文や否定文を作るのに使う〕"
+    },
+    {
+        "word": "have",
+        "meaning": "1. 〔have＋過去分詞の形で〕 《ある動作や状態が、過去から現在までずっと続いていることを表して》 ずっと～している、ずっと～だ　2. 〔have＋過去分詞の形で〕 《ある動作や状態が終わったこと、またそれが終わった今の状態を示して》 （ちょうど）～したところだ、（もう、すでに）～してしまった　3. 〔have＋過去分詞の形で〕 《過去から現在までにした経験を表して》 ～したことがある　 　"
+    },
+    {
+        "word": "is",
+        "meaning": "1. 〔現在進行形やbe going to do～ の形で用いる〕　2. 〔受け身の文を作る〕　 "
+    },
+    {
+        "word": "may",
+        "meaning": "1. ～かもしれない、することがある　2. 〔May I ～? の形で〕 ～してもよいですか  　"
+    },
+    {
+        "word": "must",
+        "meaning": "1.～しなければならない　2.～に違いない　3. (must notの形で)～してはならない"
+    },
+    {
+        "word": "shall",
+        "meaning": "《相手の意思をたずねて》　〔Shall I do ～ ?の形で〕 (私が）～しましょうか　　《Weの中に相手を含め、相手の意思をたずねて》　〔Shall we do ～?〕　(私たちは）～しましょうか"
+    },
+    {
+        "word": "should",
+        "meaning": "～したほうがよい、～すべきである"
+    },
+    {
+        "word": "shouldn't",
+        "meaning": "〔should notの短縮形〕～するべきではない"
+    },
+    {
+        "word": "will",
+        "meaning": "1. 《意思未来を表して》 ～するつもりである　2. 《単純未来を表して》 ～でしょう　3. 《習性・真理・必然性を表して》 ～するものだ、決まって～する　  "
+    },
+    {
+        "word": "would",
+        "meaning": "1. 〔would like to do～ の形で〕～したいと思う　2. 〔Would you like ～? の形で〕～はいかがですか　3. [Would you～？の形で]～してくださいますか？　4. [過去の否定文で]どうしても～しようとしなかった　"
+    },
+    {
+        "word": "able",
+        "meaning": "〔be able toの形で〕 ～することができる"
+    },
+    {
+        "word": "afraid",
+        "meaning": "1. 〔be afraid of ～ の形で〕 ～をおそれる、こわがる、心配する　2. 〔I am afraid ～の形で〕　残念ですが［すみませんが］ ～（と思います）　"
+    },
+    {
+        "word": "African-American",
+        "meaning": "アフリカ系アメリカ人の"
+    },
+    {
+        "word": "all",
+        "meaning": "1. 全～、～全体　2. 全ての、あらゆる"
+    },
+    {
+        "word": "alone",
+        "meaning": "ただ１人の　"
+    },
+    {
+        "word": "amazing",
+        "meaning": "驚くべき、目を見張らせる"
+    },
+    {
+        "word": "American",
+        "meaning": "アメリカ人の、アメリカの"
+    },
+    {
+        "word": "ancient",
+        "meaning": "古代の"
+    },
+    {
+        "word": "angry",
+        "meaning": "怒った、腹を立てた"
+    },
+    {
+        "word": "another",
+        "meaning": "1. もう１つの　2. 別の、異なった、ほかの"
+    },
+    {
+        "word": "any",
+        "meaning": "1. 〔疑問文で〕 何か（の）、少しでも　2. 〔肯定文で〕 どのような～でも　　　3. 〔否定文で〕 少しも、だれも、何も（～ない）"
+    },
+    {
+        "word": "artificial",
+        "meaning": "人工の"
+    },
+    {
+        "word": "atomic",
+        "meaning": "原子（力）の　〔atomic bombで〕原子爆弾、原爆"
+    },
+    {
+        "word": "bad",
+        "meaning": "1. 悪い　2. 〔That's too bad. の形で〕 残念だ。お気の毒に。"
+    },
+    {
+        "word": "beautiful",
+        "meaning": "美しい、きれいな、すばらしい"
+    },
+    {
+        "word": "best",
+        "meaning": "1. 〔goodの最上級〕最もよい　2. 〔（With) Best wishesの形で〕 "
+    },
+    {
+        "word": "better",
+        "meaning": "〔good, well (具合がよい）の比較級として〕 よりよい、より優れた、より具合［体の状態］がよい、より上手な"
+    },
+    {
+        "word": "big",
+        "meaning": "1. 大きい　2. （程度が）すごい、大～  〔たとえば a big fan の形で〕 大ファン"
+    },
+    {
+        "word": "billion",
+        "meaning": "10億の"
+    },
+    {
+        "word": "black",
+        "meaning": "黒い、黒人の"
+    },
+    {
+        "word": "blind",
+        "meaning": "目の不自由な"
+    },
+    {
+        "word": "blue",
+        "meaning": "1. 青い　2. 青ざめた、ゆううつな"
+    },
+    {
+        "word": "boring",
+        "meaning": "たいくつな"
+    },
+    {
+        "word": "brave",
+        "meaning": "勇敢な"
+    },
+    {
+        "word": "bright",
+        "meaning": "かがやいている、明るい"
+    },
+    {
+        "word": "British",
+        "meaning": "英国（人）の、イギリス（人）の"
+    },
+    {
+        "word": "brown",
+        "meaning": "茶色の"
+    },
+    {
+        "word": "busy",
+        "meaning": "忙しい"
+    },
+    {
+        "word": "capital",
+        "meaning": "大文字の"
+    },
+    {
+        "word": "careful",
+        "meaning": "注意深い、慎重な"
+    },
+    {
+        "word": "cheap",
+        "meaning": "安い、安っぽい"
+    },
+    {
+        "word": "cheerful",
+        "meaning": "（生活などが）明るい、快活・陽気な"
+    },
+    {
+        "word": "Chinese",
+        "meaning": "中国の、中国人の、中国語の"
+    },
+    {
+        "word": "classic",
+        "meaning": "古典的な、代表的な"
+    },
+    {
+        "word": "clean",
+        "meaning": "きれいな、清潔な、クリーンな"
+    },
+    {
+        "word": "clear",
+        "meaning": "1. 澄んだ、晴れた　2. はっきりした、（話しの内容・事実など）明らかな"
+    },
+    {
+        "word": "clever",
+        "meaning": "りこうな"
+    },
+    {
+        "word": "close",
+        "meaning": "1. 近い、接近した、親密な、親しい　2. 接戦の、互角の"
+    },
+    {
+        "word": "cloudy",
+        "meaning": "曇りの"
+    },
+    {
+        "word": "cold",
+        "meaning": "寒い、冷たい"
+    },
+    {
+        "word": "comic",
+        "meaning": "喜劇の　〔comic storytelling で〕話芸"
+    },
+    {
+        "word": "common",
+        "meaning": "ふつうの、よくある、ありふれた、平凡な"
+    },
+    {
+        "word": "convenient",
+        "meaning": "便利な、使いやすい、好都合な"
+    },
+    {
+        "word": "cool",
+        "meaning": "1. 涼しい　2. かっこいい、すてきな"
+    },
+    {
+        "word": "crowded",
+        "meaning": "混雑した、満員の"
+    },
+    {
+        "word": "cute",
+        "meaning": "かわいい、かわいらしい"
+    },
+    {
+        "word": "daily",
+        "meaning": "毎日の、日々の、日常の"
+    },
+    {
+        "word": "dangerous",
+        "meaning": "危ない、危険な"
+    },
+    {
+        "word": "dark",
+        "meaning": "1. （光がなくて）暗い　2. （色が）濃い"
+    },
+    {
+        "word": "dead",
+        "meaning": "死んだ、死んでいる"
+    },
+    {
+        "word": "dear",
+        "meaning": "《手紙の書き出しとして》 ～様、拝啓、親愛なる"
+    },
+    {
+        "word": "deep",
+        "meaning": "深い"
+    },
+    {
+        "word": "delicious",
+        "meaning": "おいしい"
+    },
+    {
+        "word": "depressed",
+        "meaning": "落胆した、元気をなくした"
+    },
+    {
+        "word": "different",
+        "meaning": "1. さまざまな、いろいろな、別々の　2. ちがった、異なる"
+    },
+    {
+        "word": "difficult",
+        "meaning": "難しい、困難な"
+    },
+    {
+        "word": "displaced",
+        "meaning": "故国を追われた、難民の"
+    },
+    {
+        "word": "down",
+        "meaning": "元気のない"
+    },
+    {
+        "word": "dressed",
+        "meaning": "服を着た　〔get dressed で〕服を着る"
+    },
+    {
+        "word": "each",
+        "meaning": "それぞれの、各～"
+    },
+    {
+        "word": "early",
+        "meaning": "早い"
+    },
+    {
+        "word": "eastern",
+        "meaning": "東の、東部の、東方の"
+    },
+    {
+        "word": "easy",
+        "meaning": "やさしい、簡単な"
+    },
+    {
+        "word": "efficient",
+        "meaning": "効率のよい、能率的な"
+    },
+    {
+        "word": "eight",
+        "meaning": "8つの"
+    },
+    {
+        "word": "eighteen",
+        "meaning": "18の"
+    },
+    {
+        "word": "eighteenth",
+        "meaning": "18番めの"
+    },
+    {
+        "word": "eighth",
+        "meaning": "8番めの"
+    },
+    {
+        "word": "eighty",
+        "meaning": "80の"
+    },
+    {
+        "word": "elderly",
+        "meaning": "年配の、高齢の"
+    },
+    {
+        "word": "elementary",
+        "meaning": "基本の、初級の"
+    },
+    {
+        "word": "eleven",
+        "meaning": "11の"
+    },
+    {
+        "word": "eleventh",
+        "meaning": "11番めの"
+    },
+    {
+        "word": "embarrassed",
+        "meaning": "恥ずかしい、気まずい"
+    },
+    {
+        "word": "empty",
+        "meaning": "からの、からっぽの"
+    },
+    {
+        "word": "English",
+        "meaning": "英語の、英国の、イングランドの"
+    },
+    {
+        "word": "enough",
+        "meaning": "十分な、必要なだけの、ちょうどいい数［量］の"
+    },
+    {
+        "word": "equal",
+        "meaning": "平等な"
+    },
+    {
+        "word": "every",
+        "meaning": "〔名詞の単数形につけて〕 どの～もみな、～ごとに、毎～"
+    },
+    {
+        "word": "excellent",
+        "meaning": "非常に優れた、優秀な"
+    },
+    {
+        "word": "excited",
+        "meaning": "わくわくした、興奮した"
+    },
+    {
+        "word": "exciting",
+        "meaning": "とてもおもしろい、わくわくするような"
+    },
+    {
+        "word": "expensive",
+        "meaning": "高価な"
+    },
+    {
+        "word": "fair",
+        "meaning": "公正な"
+    },
+    {
+        "word": "famous",
+        "meaning": "有名な"
+    },
+    {
+        "word": "fast",
+        "meaning": "(速度が) 速い、短時間で終わる"
+    },
+    {
+        "word": "favorite",
+        "meaning": "いちばん好きな、お気に入りの、大好きな"
+    },
+    {
+        "word": "fifteen",
+        "meaning": "15の"
+    },
+    {
+        "word": "fifteenth",
+        "meaning": "15番目の"
+    },
+    {
+        "word": "fifth",
+        "meaning": "5番目の"
+    },
+    {
+        "word": "fifty",
+        "meaning": "50の"
+    },
+    {
+        "word": "final",
+        "meaning": "最後の、最終の"
+    },
+    {
+        "word": "fine",
+        "meaning": "1. すばらしい　2. 晴れた　 　3. 元気な、調子のよい　4. 結構な、構わない"
+    },
+    {
+        "word": "first",
+        "meaning": "1番目の、最初の"
+    },
+    {
+        "word": "five",
+        "meaning": "5つの"
+    },
+    {
+        "word": "fluffy",
+        "meaning": "ふわふわした、柔らかい"
+    },
+    {
+        "word": "foreign",
+        "meaning": "外国の"
+    },
+    {
+        "word": "former",
+        "meaning": "以前の、前の、昔の"
+    },
+    {
+        "word": "forty",
+        "meaning": "40の"
+    },
+    {
+        "word": "four",
+        "meaning": "4つの"
+    },
+    {
+        "word": "fourteen",
+        "meaning": "14の"
+    },
+    {
+        "word": "fourth",
+        "meaning": "4番目の"
+    },
+    {
+        "word": "free",
+        "meaning": "1. 自由な［で］　2. ひまな［で］、時間がある　3. 無料の［で］"
+    },
+    {
+        "word": "French",
+        "meaning": "フランスの、フランス人の、フランス語の"
+    },
+    {
+        "word": "fresh",
+        "meaning": "新鮮な、新しい"
+    },
+    {
+        "word": "friendly",
+        "meaning": "親しみのある、好意的な、友好的な"
+    },
+    {
+        "word": "full",
+        "meaning": "いっぱいの"
+    },
+    {
+        "word": "funny",
+        "meaning": "面白い、愉快な"
+    },
+    {
+        "word": "future",
+        "meaning": "未来の、将来の"
+    },
+    {
+        "word": "glad",
+        "meaning": "うれしい"
+    },
+    {
+        "word": "global",
+        "meaning": "地球の,地球規模の、世界規模の"
+    },
+    {
+        "word": "gold",
+        "meaning": "金の"
+    },
+    {
+        "word": "good",
+        "meaning": "1. よい、すぐれた　2. 行儀がよい　3. おいしい　4. りっぱな、正しい　5. 十分な　6. 〔Good morning.〕おはようございます　7. 非常に親しい 〔a good friendの形で〕仲良し　8. ためになる、よい　9. 楽しい､愉快な　10. 上手な、うまい、得意な　(特にbe good at ～の形で)"
+    },
+    {
+        "word": "gray",
+        "meaning": "灰色の、ねずみ色の"
+    },
+    {
+        "word": "great",
+        "meaning": "1. すばらしい、みごとな　2. 《程度を示して》多大な、非常な、（びっくりするほど）大きい"
+    },
+    {
+        "word": "green",
+        "meaning": "1. 緑（色）の　2. 植物の生えた"
+    },
+    {
+        "word": "happy",
+        "meaning": "1. 幸せな､うれしい､たのしい　2. おめでとう 〔たとえば Happy New Year! 等の形で〕 新年おめでとう　　　　 "
+    },
+    {
+        "word": "hard",
+        "meaning": "1. 難しい、骨の折れる、困難だ　2. つらい、耐えがたい、苦しい　3. 一生懸命な　4.固い"
+    },
+    {
+        "word": "Hawaiian",
+        "meaning": "ハワイの,ハワイ人の,ハワイ語の"
+    },
+    {
+        "word": "heavy",
+        "meaning": "重い"
+    },
+    {
+        "word": "helpful",
+        "meaning": "役に立つ、助けになる"
+    },
+    {
+        "word": "high",
+        "meaning": "1. （高さ・値段・程度・地位が）高い　2. 高さが～で　　 "
+    },
+    {
+        "word": "home",
+        "meaning": "家庭の、家庭用の"
+    },
+    {
+        "word": "homesick",
+        "meaning": "うちを恋しがる、故郷を慕う、ホームシックの"
+    },
+    {
+        "word": "hopeless",
+        "meaning": "絶望した"
+    },
+    {
+        "word": "hot",
+        "meaning": "1. 熱い　2. 暑い　　　　  "
+    },
+    {
+        "word": "huge",
+        "meaning": "巨大な"
+    },
+    {
+        "word": "humid",
+        "meaning": "蒸し暑い"
+    },
+    {
+        "word": "hundred",
+        "meaning": "100の"
+    },
+    {
+        "word": "hungry",
+        "meaning": "お腹がすいた、飢えた"
+    },
+    {
+        "word": "iced",
+        "meaning": "〔飲みものが〕(氷で)冷やした"
+    },
+    {
+        "word": "important",
+        "meaning": "重要な、重大な、大切な"
+    },
+    {
+        "word": "impossible",
+        "meaning": "不可能な、ありえない"
+    },
+    {
+        "word": "impressive",
+        "meaning": "印象的な、深い感動を与える"
+    },
+    {
+        "word": "Indian",
+        "meaning": "インド(人）の"
+    },
+    {
+        "word": "industrial",
+        "meaning": "産業の"
+    },
+    {
+        "word": "intense",
+        "meaning": "激しい、厳しい、強烈な"
+    },
+    {
+        "word": "interested",
+        "meaning": "興味をもった､関心がある　〔be interested in～の形で〕 ～に興味がある"
+    },
+    {
+        "word": "interesting",
+        "meaning": "《人に知的な興味をあたえるような意味で》 おもしろい、興味深い"
+    },
+    {
+        "word": "international",
+        "meaning": "国際的な、万国共通の"
+    },
+    {
+        "word": "Italian",
+        "meaning": "イタリアの、イタリア人の"
+    },
+    {
+        "word": "itchy",
+        "meaning": "かゆい"
+    },
+    {
+        "word": "Japanese",
+        "meaning": "日本の、日本人の、日本語の"
+    },
+    {
+        "word": "junior",
+        "meaning": "下級の、年下の"
+    },
+    {
+        "word": "kind",
+        "meaning": "親切な、やさしい"
+    },
+    {
+        "word": "Korean",
+        "meaning": "韓国・朝鮮（人）の、韓国・朝鮮語の"
+    },
+    {
+        "word": "large",
+        "meaning": "（広くて）大きい"
+    },
+    {
+        "word": "last",
+        "meaning": "1. 先～、昨～、（時間的に）この前の　2. 最後の"
+    },
+    {
+        "word": "late",
+        "meaning": "遅れた、遅刻した、遅い、最近の"
+    },
+    {
+        "word": "latest",
+        "meaning": "最新の"
+    },
+    {
+        "word": "least",
+        "meaning": "littleの最上級"
+    },
+    {
+        "word": "left",
+        "meaning": "左の"
+    },
+    {
+        "word": "less",
+        "meaning": "littleの比較級、より少ない"
+    },
+    {
+        "word": "light",
+        "meaning": "1. 明るい　2. 軽い"
+    },
+    {
+        "word": "limited",
+        "meaning": "限られた、有限の"
+    },
+    {
+        "word": "little",
+        "meaning": "1. 〔a little＋数えられない名詞で〕 (量が) 少しの、少量の　2. 〔 a をつけないで〕 ほとんど～ない　3. 小さい、かわいらしい　4. 年少の、幼い　5. ささいな"
+    },
+    {
+        "word": "living",
+        "meaning": "生きている"
+    },
+    {
+        "word": "lonely",
+        "meaning": "孤独な、さびしい"
+    },
+    {
+        "word": "long",
+        "meaning": "1. (時間・長さ・距離が)長い　2. 長さが～で"
+    },
+    {
+        "word": "loud",
+        "meaning": "（声、音などが）大きい"
+    },
+    {
+        "word": "low",
+        "meaning": "低い"
+    },
+    {
+        "word": "lucky",
+        "meaning": "運のいい、ついている"
+    },
+    {
+        "word": "magic",
+        "meaning": "手品の"
+    },
+    {
+        "word": "main",
+        "meaning": "おもな、主要な"
+    },
+    {
+        "word": "majestic",
+        "meaning": "荘厳な、堂々とした"
+    },
+    {
+        "word": "major",
+        "meaning": "(他と比べて)大きな、主要な、重要な"
+    },
+    {
+        "word": "many",
+        "meaning": "多くの、多数の"
+    },
+    {
+        "word": "memorial",
+        "meaning": "記念の"
+    },
+    {
+        "word": "million",
+        "meaning": "百万の"
+    },
+    {
+        "word": "missing",
+        "meaning": "紛失した、行方不明の"
+    },
+    {
+        "word": "model",
+        "meaning": "模型の"
+    },
+    {
+        "word": "more",
+        "meaning": "1. もっと多くの 〔many, much の比較級〕　2. 〔しばしば数詞または some のあとで〕あと～の　"
+    },
+    {
+        "word": "most",
+        "meaning": "1. 最も多くの〔many, much の最上級〕　2. ほとんどの、たいていの"
+    },
+    {
+        "word": "much",
+        "meaning": "1. (量が)多くの、たくさんの　2. 〔How much～? の形で〕 いくら～か"
+    },
+    {
+        "word": "mysterious",
+        "meaning": "ふしぎな、不可解な"
+    },
+    {
+        "word": "narrow",
+        "meaning": "(幅が)せまい"
+    },
+    {
+        "word": "national",
+        "meaning": "1. 国の、国民の　2. 全国的な"
+    },
+    {
+        "word": "native",
+        "meaning": "(国、言語などが)生まれたときからの"
+    },
+    {
+        "word": "natural",
+        "meaning": "自然な、当然の、普通の"
+    },
+    {
+        "word": "naughty",
+        "meaning": "いたずらな、わんぱくな"
+    },
+    {
+        "word": "necessary",
+        "meaning": "必要な、なくてはならない"
+    },
+    {
+        "word": "nervous",
+        "meaning": "緊張して、神経質な、ドキドキして、臆病な"
+    },
+    {
+        "word": "new",
+        "meaning": "新しい、新任の、見慣れない"
+    },
+    {
+        "word": "next",
+        "meaning": "次の、今度の　　"
+    },
+    {
+        "word": "nice",
+        "meaning": "1. よい、すてきな　2. 〔Nice to meet you. の形で〕 はじめまして　3. （～に対して）親切な、優しい、思いやりがある 　 "
+    },
+    {
+        "word": "nine",
+        "meaning": "９つの"
+    },
+    {
+        "word": "nineteen",
+        "meaning": "19の"
+    },
+    {
+        "word": "ninety",
+        "meaning": "90の"
+    },
+    {
+        "word": "ninth",
+        "meaning": "9番目の"
+    },
+    {
+        "word": "no",
+        "meaning": "１人［１つ］も～ない、少しの～もない"
+    },
+    {
+        "word": "non-native",
+        "meaning": "(話し手が）母語によらない"
+    },
+    {
+        "word": "northern",
+        "meaning": "北部の"
+    },
+    {
+        "word": "OK",
+        "meaning": "よくて､だいじょうぶで"
+    },
+    {
+        "word": "old",
+        "meaning": "1. 古い､古くからの､昔の　2. ～歳の(years oldの形で）､創立～年の　3. 年をとった、年上の"
+    },
+    {
+        "word": "one",
+        "meaning": "1. １つの､１人の　2. ある～"
+    },
+    {
+        "word": "only",
+        "meaning": "唯一の､ただ１つ［１人］の"
+    },
+    {
+        "word": "open",
+        "meaning": "あいている、（店などが）営業中の［で］"
+    },
+    {
+        "word": "opposite",
+        "meaning": "反対の"
+    },
+    {
+        "word": "ordinary",
+        "meaning": "普通の"
+    },
+    {
+        "word": "original",
+        "meaning": "独自の"
+    },
+    {
+        "word": "other",
+        "meaning": "1. 〔the other～ の形で〕 《２つのものについて》 もう一方の～   《３つ以上のものについて》 残りの～　2. ほかの、他の"
+    },
+    {
+        "word": "own",
+        "meaning": "～自身の　 〔たとえば my own house の形で〕 私自身の家"
+    },
+    {
+        "word": "pale",
+        "meaning": "顔色の悪い"
+    },
+    {
+        "word": "paralyzed",
+        "meaning": "麻痺した"
+    },
+    {
+        "word": "peaceful",
+        "meaning": "平和な、穏やかな"
+    },
+    {
+        "word": "perfect",
+        "meaning": "完全な、完璧な"
+    },
+    {
+        "word": "personal",
+        "meaning": "個人的な"
+    },
+    {
+        "word": "physically challenged",
+        "meaning": "身体に障害のある"
+    },
+    {
+        "word": "pink",
+        "meaning": "ピンク色（の）、もも色（の）"
+    },
+    {
+        "word": "plastic",
+        "meaning": "プラスチック製の、ビニール製の"
+    },
+    {
+        "word": "playful",
+        "meaning": "楽しげな、陽気な"
+    },
+    {
+        "word": "political",
+        "meaning": "政治の、政治に関する"
+    },
+    {
+        "word": "poor",
+        "meaning": "1. 貧しい　2. かわいそうな、へたな　3. 劣った、優れない"
+    },
+    {
+        "word": "pop",
+        "meaning": "大衆的な"
+    },
+    {
+        "word": "popular",
+        "meaning": "人気がある、流行している､大衆的な"
+    },
+    {
+        "word": "positive",
+        "meaning": "積極的な、肯定的な、前向きな"
+    },
+    {
+        "word": "possible",
+        "meaning": "可能な、実行できる"
+    },
+    {
+        "word": "powerful",
+        "meaning": "力強い、迫力のある"
+    },
+    {
+        "word": "pretty",
+        "meaning": "かわいい、きれいな、感じのよい"
+    },
+    {
+        "word": "professional",
+        "meaning": "専門（職）の、プロの"
+    },
+    {
+        "word": "proud",
+        "meaning": "〔be proud of ～の形で〕～に誇りを持っている"
+    },
+    {
+        "word": "public",
+        "meaning": "公の、公共の"
+    },
+    {
+        "word": "purple",
+        "meaning": "紫色（の）"
+    },
+    {
+        "word": "quick",
+        "meaning": "すばやい、速い"
+    },
+    {
+        "word": "quiet",
+        "meaning": "静かな"
+    },
+    {
+        "word": "rainy",
+        "meaning": "雨の多い、雨降りの"
+    },
+    {
+        "word": "ready",
+        "meaning": "準備ができている"
+    },
+    {
+        "word": "real",
+        "meaning": "本当の、本物の"
+    },
+    {
+        "word": "red",
+        "meaning": "赤い、赤色（の）、赤"
+    },
+    {
+        "word": "regular",
+        "meaning": "正規の、レギュラーの"
+    },
+    {
+        "word": "renewable",
+        "meaning": "〔renewable energy で〕再生可能エネルギー"
+    },
+    {
+        "word": "responsible",
+        "meaning": "責任を負うべき"
+    },
+    {
+        "word": "return",
+        "meaning": "帰りの"
+    },
+    {
+        "word": "rich",
+        "meaning": "豊かな、金持ちの"
+    },
+    {
+        "word": "ridiculous",
+        "meaning": "とんでもない、ばかげた"
+    },
+    {
+        "word": "right",
+        "meaning": "1. 正しい　2. 健康な、正常な　3. 〔All right.の形で〕 よろしい、わかった　4. 右の"
+    },
+    {
+        "word": "roast",
+        "meaning": "焼いた、あぶった"
+    },
+    {
+        "word": "round",
+        "meaning": "丸い"
+    },
+    {
+        "word": "runny",
+        "meaning": "鼻水が出る"
+    },
+    {
+        "word": "sacred",
+        "meaning": "神聖な"
+    },
+    {
+        "word": "sad",
+        "meaning": "悲しい"
+    },
+    {
+        "word": "safe",
+        "meaning": "安全な"
+    },
+    {
+        "word": "same",
+        "meaning": "〔the same の形で〕 同じ、同一の"
+    },
+    {
+        "word": "scared",
+        "meaning": "（～が）こわい　〔be scared of で〕～がこわい"
+    },
+    {
+        "word": "scary",
+        "meaning": "これい"
+    },
+    {
+        "word": "second",
+        "meaning": "第２の、２番めの"
+    },
+    {
+        "word": "senior",
+        "meaning": "年上の、上級の"
+    },
+    {
+        "word": "serious",
+        "meaning": "（病気などが）重い、重大な"
+    },
+    {
+        "word": "seven",
+        "meaning": "7、７つの"
+    },
+    {
+        "word": "seventeen",
+        "meaning": "17の"
+    },
+    {
+        "word": "seventeenth",
+        "meaning": "17の番目の、１７日"
+    },
+    {
+        "word": "seventh",
+        "meaning": "７番めの"
+    },
+    {
+        "word": "seventy",
+        "meaning": "70、70の"
+    },
+    {
+        "word": "several",
+        "meaning": "いくつかの"
+    },
+    {
+        "word": "severe",
+        "meaning": "厳しい"
+    },
+    {
+        "word": "shiny",
+        "meaning": "輝く、光る"
+    },
+    {
+        "word": "short",
+        "meaning": "短い､背が低い"
+    },
+    {
+        "word": "shy",
+        "meaning": "内気な、恥ずかしがりの"
+    },
+    {
+        "word": "sick",
+        "meaning": "病気の［に］、気分が悪い"
+    },
+    {
+        "word": "silent",
+        "meaning": "静かな、沈黙の"
+    },
+    {
+        "word": "similar",
+        "meaning": "似ている"
+    },
+    {
+        "word": "simple",
+        "meaning": "簡単な、わかりやすい"
+    },
+    {
+        "word": "single",
+        "meaning": "たったひとつの"
+    },
+    {
+        "word": "six",
+        "meaning": "6の"
+    },
+    {
+        "word": "sixteen",
+        "meaning": "16の"
+    },
+    {
+        "word": "sixth",
+        "meaning": "6番めの"
+    },
+    {
+        "word": "sixty",
+        "meaning": "60の"
+    },
+    {
+        "word": "skillful",
+        "meaning": "熟練した"
+    },
+    {
+        "word": "sleepy",
+        "meaning": "ねむい、ねむそうな"
+    },
+    {
+        "word": "slow",
+        "meaning": "ゆっくりとした、のろい、遅い"
+    },
+    {
+        "word": "small",
+        "meaning": "小さい、小さな"
+    },
+    {
+        "word": "smart",
+        "meaning": "利口な、賢い"
+    },
+    {
+        "word": "snowy",
+        "meaning": "雪の多い、雪の降っている"
+    },
+    {
+        "word": "soft",
+        "meaning": "柔らかい"
+    },
+    {
+        "word": "solar",
+        "meaning": "太陽の、〔solar power で〕太陽エネルギー"
+    },
+    {
+        "word": "some",
+        "meaning": "1. 一部の、中には～もいる［ある］　2. いくつかの、いくらかの"
+    },
+    {
+        "word": "sore",
+        "meaning": "痛い、ヒリヒリする"
+    },
+    {
+        "word": "sorry",
+        "meaning": "1. すまなく思って、残念に思って　2. 〔疑問文で〕なんとおっしゃいましたか。"
+    },
+    {
+        "word": "southeastern",
+        "meaning": "南東の、南東地方の"
+    },
+    {
+        "word": "southern",
+        "meaning": "南の"
+    },
+    {
+        "word": "special",
+        "meaning": "特別の、特殊な"
+    },
+    {
+        "word": "sport",
+        "meaning": "スポーツ（用）の"
+    },
+    {
+        "word": "square",
+        "meaning": "四角の、（面積の単位として）…平方"
+    },
+    {
+        "word": "stiff",
+        "meaning": "かたい"
+    },
+    {
+        "word": "straight",
+        "meaning": "まっすぐな"
+    },
+    {
+        "word": "strange",
+        "meaning": "変な、変わった、なじみのない"
+    },
+    {
+        "word": "strong",
+        "meaning": "強い　　　"
+    },
+    {
+        "word": "successful",
+        "meaning": "成功した"
+    },
+    {
+        "word": "such",
+        "meaning": "そのような、このような"
+    },
+    {
+        "word": "sunny",
+        "meaning": "晴れた、天気のよい"
+    },
+    {
+        "word": "sure",
+        "meaning": "2. 確かな   〔I'm sure ～ の形で〕 ～を確信している"
+    },
+    {
+        "word": "surprised",
+        "meaning": "びっくりした、おどろいた"
+    },
+    {
+        "word": "surprising",
+        "meaning": "驚くべき、すばらしい"
+    },
+    {
+        "word": "sweet",
+        "meaning": "1. (味が)甘い　2. (音、香りなどが)美しい、心地よい"
+    },
+    {
+        "word": "tall",
+        "meaning": "1. 高い、背の高い　2. 〔高さを表す表現のあとに置いて〕 身長［高さ］が～で　　"
+    },
+    {
+        "word": "ten",
+        "meaning": "10の"
+    },
+    {
+        "word": "tender",
+        "meaning": "やさしい"
+    },
+    {
+        "word": "tenth",
+        "meaning": "10番めの"
+    },
+    {
+        "word": "terrible",
+        "meaning": "ひどい、恐ろしい、こわい"
+    },
+    {
+        "word": "Thai",
+        "meaning": "タイの、タイ人の"
+    },
+    {
+        "word": "that",
+        "meaning": "その、あの"
+    },
+    {
+        "word": "these",
+        "meaning": "1. これらの　2. 近頃の、〔these days で〕近頃、最近"
+    },
+    {
+        "word": "thin",
+        "meaning": "やせた"
+    },
+    {
+        "word": "third",
+        "meaning": "３番目の　　　〔third floor で〕３階"
+    },
+    {
+        "word": "thirsty",
+        "meaning": "のどが渇いた"
+    },
+    {
+        "word": "thirteen",
+        "meaning": "13の"
+    },
+    {
+        "word": "thirteenth",
+        "meaning": "13番めの"
+    },
+    {
+        "word": "thirtieth",
+        "meaning": "30番目（の）、30日"
+    },
+    {
+        "word": "thirty",
+        "meaning": "30の"
+    },
+    {
+        "word": "this",
+        "meaning": "1. この　2.今の、今日の、今度の　"
+    },
+    {
+        "word": "those",
+        "meaning": "あれらの、それらの"
+    },
+    {
+        "word": "thousand",
+        "meaning": "1000の"
+    },
+    {
+        "word": "three",
+        "meaning": "3つの"
+    },
+    {
+        "word": "tired",
+        "meaning": "1. つかれた　2. あきた 〔be tired of ～の形で〕～にあきる"
+    },
+    {
+        "word": "tough",
+        "meaning": "〔仕事などが〕困難な"
+    },
+    {
+        "word": "traditional",
+        "meaning": "伝統的な"
+    },
+    {
+        "word": "traveling",
+        "meaning": "巡業する、旅する"
+    },
+    {
+        "word": "true",
+        "meaning": "ほんとうの、真実の"
+    },
+    {
+        "word": "twelfth",
+        "meaning": "12番めの"
+    },
+    {
+        "word": "twelve",
+        "meaning": "12の"
+    },
+    {
+        "word": "twentieth",
+        "meaning": "20番目の"
+    },
+    {
+        "word": "twenty",
+        "meaning": "20の"
+    },
+    {
+        "word": "twenty-eighth",
+        "meaning": "28番目（の）、28日"
+    },
+    {
+        "word": "twenty-fifth",
+        "meaning": "25番目（の）、25日"
+    },
+    {
+        "word": "twenty-first",
+        "meaning": "21番目（の）、21日"
+    },
+    {
+        "word": "twenty-fourth",
+        "meaning": "24番目（の）、24日"
+    },
+    {
+        "word": "twenty-second",
+        "meaning": "22番目（の）、22日"
+    },
+    {
+        "word": "twenty-ninth",
+        "meaning": "29番目（の）、29日"
+    },
+    {
+        "word": "twenty-seventh",
+        "meaning": "27番目（の）、27日"
+    },
+    {
+        "word": "twenty-sixth",
+        "meaning": "26番目（の）、26日"
+    },
+    {
+        "word": "twenty-third",
+        "meaning": "23番目（の）、23日"
+    },
+    {
+        "word": "two",
+        "meaning": "2つの"
+    },
+    {
+        "word": "two-year-old",
+        "meaning": "2歳（の）"
+    },
+    {
+        "word": "unclean",
+        "meaning": "〔宗教上の〕不浄な、汚い、不潔な"
+    },
+    {
+        "word": "unfair",
+        "meaning": "不公平な、不正な"
+    },
+    {
+        "word": "unique",
+        "meaning": "独特の、めずらしい"
+    },
+    {
+        "word": "upset",
+        "meaning": "気が動転した、取り乱した"
+    },
+    {
+        "word": "used",
+        "meaning": "使用済みの、使い古した"
+    },
+    {
+        "word": "useful",
+        "meaning": "役に立つ"
+    },
+    {
+        "word": "various",
+        "meaning": "様々な"
+    },
+    {
+        "word": "vast",
+        "meaning": "広大な"
+    },
+    {
+        "word": "warm",
+        "meaning": "暖かい"
+    },
+    {
+        "word": "weak",
+        "meaning": "1. 弱い、かすかな　2. （液体などが）薄い　〔たとえば weak tea の形で〕  薄いお茶  "
+    },
+    {
+        "word": "welcome",
+        "meaning": "歓迎される　〔You're welcome. の形で〕 どういたしまして"
+    },
+    {
+        "word": "well",
+        "meaning": "（体の状態、具合が）よい、健康である"
+    },
+    {
+        "word": "western",
+        "meaning": "西の、西部の　(Western で）欧米の"
+    },
+    {
+        "word": "what",
+        "meaning": "1. 何の、どんな　2. （感嘆を表して）なんという～"
+    },
+    {
+        "word": "which",
+        "meaning": "どちらの、どの"
+    },
+    {
+        "word": "white",
+        "meaning": "白い､白人の"
+    },
+    {
+        "word": "whole",
+        "meaning": "（まとまった）全体の、すべての、全～"
+    },
+    {
+        "word": "wide",
+        "meaning": "幅の広い"
+    },
+    {
+        "word": "wonderful",
+        "meaning": "すばらしい、すてきな、みごとな"
+    },
+    {
+        "word": "wooden",
+        "meaning": "木製の、木造の"
+    },
+    {
+        "word": "worried",
+        "meaning": "心配した、不安な"
+    },
+    {
+        "word": "worse",
+        "meaning": "もっと悪い〔下手な、ひどい〕《 bad の比較級》"
+    },
+    {
+        "word": "worst",
+        "meaning": "もっとも悪い〔下手な、ひどい〕《 bad の最上級》"
+    },
+    {
+        "word": "worth",
+        "meaning": "〔worth ～ing で〕～するだけの価値がある"
+    },
+    {
+        "word": "wrong",
+        "meaning": "1. 間違った　2. 具合･調子の悪い　　 "
+    },
+    {
+        "word": "yellow",
+        "meaning": "黄色い(の)"
+    },
+    {
+        "word": "young",
+        "meaning": "若い"
+    },
+    {
+        "word": "zero",
+        "meaning": "0の、ゼロの"
+    },
+    {
+        "word": "a.m.",
+        "meaning": "午前 〔6:45a.m.のように、時刻の後に付ける〕"
+    },
+    {
+        "word": "about",
+        "meaning": "約～、およそ～、だいたい、ほぼ"
+    },
+    {
+        "word": "abroad",
+        "meaning": "外国に［へ、で］"
+    },
+    {
+        "word": "across",
+        "meaning": "横切って、横断して、向こう側に"
+    },
+    {
+        "word": "actually",
+        "meaning": "実際に(は), 本当に, 現実に"
+    },
+    {
+        "word": "again",
+        "meaning": "ふたたび、もう一度、また、≪否定文で≫二度と"
+    },
+    {
+        "word": "ago",
+        "meaning": "（今から） ～前（に）"
+    },
+    {
+        "word": "ahead",
+        "meaning": "～の前方に"
+    },
+    {
+        "word": "all",
+        "meaning": "1. 〔all over～ の形で〕　～の至る所で、～一面に　2. 〔all right の形で〕だいじょうぶな　3. 〔All right の形で〕 よろしい。わかった。了解した。　4. まったく、すっかり、すべて   〔all alone の形で〕 １人ぼっちの　5. [all about～の形で] ～次第"
+    },
+    {
+        "word": "all right ",
+        "meaning": "よろしい、わかった、了解した"
+    },
+    {
+        "word": "almost",
+        "meaning": "ほとんど"
+    },
+    {
+        "word": "alone",
+        "meaning": "1人で"
+    },
+    {
+        "word": "already",
+        "meaning": "〔ふつうは肯定文で〕すでに、もう"
+    },
+    {
+        "word": "also",
+        "meaning": "〔ふつうは一般動詞の直前、be動詞・助動詞のあとに用いて〕 ～も（また）"
+    },
+    {
+        "word": "always",
+        "meaning": "いつも、常に"
+    },
+    {
+        "word": "any",
+        "meaning": "[not ～ any moreの形で]　もう～ない"
+    },
+    {
+        "word": "anymore",
+        "meaning": "〔否定文・疑問文で〕今（で）はもう・・・（でない）"
+    },
+    {
+        "word": "anytime",
+        "meaning": "いつでも"
+    },
+    {
+        "word": "anyway",
+        "meaning": "とにかく"
+    },
+    {
+        "word": "anywhere",
+        "meaning": "どこでも"
+    },
+    {
+        "word": "around",
+        "meaning": "1. ひとまわりして、巡って 、〔たとえば pass around ～の形で〕　～を順々に回す　2. 近くに、あたりに　3. あちこち、ぐるりと 〔たとえば run around の形で〕 走り回る　4. およそ、約～、～ごろ、～くらい"
+    },
+    {
+        "word": "as",
+        "meaning": "《比較を表して》 〔 as A as B の形で、あとの as が接続詞 〕　Ｂと同じくらいＡな［で］"
+    },
+    {
+        "word": "away",
+        "meaning": "離れて、去って、向こうへ"
+    },
+    {
+        "word": "back",
+        "meaning": "戻って、もとの所に、戻して、かえって"
+    },
+    {
+        "word": "before",
+        "meaning": "以前に、前に、すでに"
+    },
+    {
+        "word": "below",
+        "meaning": "下の（に、を）　〔below zeroで〕氷点下"
+    },
+    {
+        "word": "best",
+        "meaning": "〔wellの最上級〕最も上手に、最もよく"
+    },
+    {
+        "word": "better",
+        "meaning": "〔well の比較級〕よりよく、より上手に"
+    },
+    {
+        "word": "both",
+        "meaning": "〔both A and B の形で〕 ＡもＢも両方とも"
+    },
+    {
+        "word": "calmly",
+        "meaning": "静かに"
+    },
+    {
+        "word": "carefully",
+        "meaning": "注意深く"
+    },
+    {
+        "word": "certainly",
+        "meaning": "確かに、きっと"
+    },
+    {
+        "word": "certainly",
+        "meaning": "もちろん、承知しました"
+    },
+    {
+        "word": "cheerfully",
+        "meaning": "元気よく、楽しそうに"
+    },
+    {
+        "word": "clearly",
+        "meaning": "はっきり（と）"
+    },
+    {
+        "word": "close",
+        "meaning": "すぐ近くで、接近して、ぴったりと"
+    },
+    {
+        "word": "closely",
+        "meaning": "じっと、一心に"
+    },
+    {
+        "word": "deeply",
+        "meaning": "深く"
+    },
+    {
+        "word": "differently",
+        "meaning": "（～と）異なって"
+    },
+    {
+        "word": "down",
+        "meaning": "1. 下へ［に］、下の方へ［に］　2. 落ち着いて"
+    },
+    {
+        "word": "downstairs",
+        "meaning": "階下へ（に、で）"
+    },
+    {
+        "word": "early",
+        "meaning": "(時間や時期が) 早く"
+    },
+    {
+        "word": "easily",
+        "meaning": "容易に、簡単に、たやすく、楽々、わけなく"
+    },
+    {
+        "word": "either",
+        "meaning": "1. 〔否定文の後で〕 ～もまた（…ない）　2. （either ～ or … の形で） ～か…のどちらか"
+    },
+    {
+        "word": "else",
+        "meaning": "（その）ほかに［の］ 　 〔たとえば something else の形で〕 何かほかのもの"
+    },
+    {
+        "word": "enough",
+        "meaning": "(必要なだけ） 十分に、ちょうどよく"
+    },
+    {
+        "word": "especially",
+        "meaning": "特に、とりわけ"
+    },
+    {
+        "word": "even",
+        "meaning": "～さえ、～でも"
+    },
+    {
+        "word": "ever",
+        "meaning": "〔疑問文・否定文で〕これまでに、いつか、かつて"
+    },
+    {
+        "word": "everywhere",
+        "meaning": "いたるところに、どこでも、どこにも"
+    },
+    {
+        "word": "exactly",
+        "meaning": "（あいづちとして）そうです、全くそのとおりです"
+    },
+    {
+        "word": "far",
+        "meaning": "遠く、遠くに　〔far awayの形で〕 遠く離れて"
+    },
+    {
+        "word": "fast",
+        "meaning": "速く"
+    },
+    {
+        "word": "finally",
+        "meaning": "最後に、ついに"
+    },
+    {
+        "word": "first",
+        "meaning": "最初に、第一に"
+    },
+    {
+        "word": "forever",
+        "meaning": "永久に"
+    },
+    {
+        "word": "forward",
+        "meaning": "前へ、前方へ　 〔look forward to ～ing の形で〕～するのを楽しみにする。"
+    },
+    {
+        "word": "hard",
+        "meaning": "1. 熱心に、一生懸命に　2. 激しく、強く"
+    },
+    {
+        "word": "here",
+        "meaning": "1. ここで［に］　2. 〔Here is ［are］ ～の形で〕ここに～があります　3. 〔Here's ～ の形で〕 《物を渡して》 はい、～をどうぞ　〔Here you are. の形で〕 《物を渡して》 はい、どうぞ　4. 〔Here we are. の形で〕 さあ、着きました"
+    },
+    {
+        "word": "high",
+        "meaning": "高く"
+    },
+    {
+        "word": "home",
+        "meaning": "家庭（故郷）へ［に］"
+    },
+    {
+        "word": "how",
+        "meaning": "1. 《状態などをたずねて》どんな状態で、どのように　2. 《数量・程度などをたずねて》どれくらい、どれほど　3. 《方法・手段などをたずねて》どうやって、どのように、どんなふうに　4. 《あとに形容詞や副詞がきて》なんと"
+    },
+    {
+        "word": "however",
+        "meaning": "≪接続詞的に≫しかしながら、けれども"
+    },
+    {
+        "word": "in",
+        "meaning": "中へ［に］"
+    },
+    {
+        "word": "incredibly",
+        "meaning": "信じられないほど、すごく"
+    },
+    {
+        "word": "indoors",
+        "meaning": "屋内に(で)、家の中に（で）"
+    },
+    {
+        "word": "instead",
+        "meaning": "（その）かわりに"
+    },
+    {
+        "word": "just",
+        "meaning": "1. ちょっと、ほんの、ただ～だけ　2. 〔過去形や現在完了形とともに用いて〕 たった今、ちょうど（～たばかりだ）　3. ちょうど、まさに"
+    },
+    {
+        "word": "last",
+        "meaning": "最後に、一番あとに、この前"
+    },
+    {
+        "word": "late",
+        "meaning": "遅く、遅れて"
+    },
+    {
+        "word": "later",
+        "meaning": "〔late の比較級のひとつ〕あとで、～後"
+    },
+    {
+        "word": "left",
+        "meaning": "左に、左の方に"
+    },
+    {
+        "word": "less",
+        "meaning": "littleの比較級、もっと少なく"
+    },
+    {
+        "word": "little",
+        "meaning": "〔a littleの形で〕 (量・程度が)少しは、ちょっとは"
+    },
+    {
+        "word": "long",
+        "meaning": "(時間・長さ・距離が)長く"
+    },
+    {
+        "word": "maybe",
+        "meaning": "たぶん"
+    },
+    {
+        "word": "more",
+        "meaning": "もっと〔much の比較級、つづりの長い語の比較級に使う〕"
+    },
+    {
+        "word": "most",
+        "meaning": "最も〔much の最上級、つづりの長い語の最上級に使う〕"
+    },
+    {
+        "word": "much",
+        "meaning": "1. 〔very muchの形で〕とても、たいへん、すごく　2. 〔比較級を強めて〕ずっと、はるかに"
+    },
+    {
+        "word": "neither",
+        "meaning": "(否定文のあとで）～もまた…（し）ない"
+    },
+    {
+        "word": "never",
+        "meaning": "決して～ない、今まで（一度も）～ない"
+    },
+    {
+        "word": "next",
+        "meaning": "1. 次に　2. 〔next to ～ の形で〕～のとなりに"
+    },
+    {
+        "word": "no",
+        "meaning": "いいえ、ちがいます、まさか"
+    },
+    {
+        "word": "north",
+        "meaning": "北へ、北に"
+    },
+    {
+        "word": "not",
+        "meaning": "～でない、～（し）ない"
+    },
+    {
+        "word": "now",
+        "meaning": "1. 今、現在　2. さて、ところで　3. 今すぐ　4. そのとき、今や　*右記例文のnowは「現在」の意味。"
+    },
+    {
+        "word": "o'clock",
+        "meaning": "～時"
+    },
+    {
+        "word": "off",
+        "meaning": "《くっついた状態からはなれた状態への変化を表して》はなれて、外れて"
+    },
+    {
+        "word": "often",
+        "meaning": "よく､しばしば"
+    },
+    {
+        "word": "OK",
+        "meaning": "1.《提案・依頼などに対する返事として》よろしい、いいよ、わかった　2. 問題ない、大丈夫"
+    },
+    {
+        "word": "on",
+        "meaning": "1.《付着を表して》離れず、しっかり　〔たとえばのHold on.形で〕（何かに）つかまって、（電話を）切らないでそのまま待って　2.《所持･着用を表して》～を身につけて　3.《継続を表して》先へ、進んで、続けて　〔たとえば go on の形で〕 先を進む、続ける"
+    },
+    {
+        "word": "once",
+        "meaning": "1. １度、１回　2. かつて、以前に"
+    },
+    {
+        "word": "only",
+        "meaning": "ただ～だけ､ほんの～にすぎない"
+    },
+    {
+        "word": "originally",
+        "meaning": "元々は、本来は"
+    },
+    {
+        "word": "out",
+        "meaning": "1. なくなって　2. 外出して､外に［へ］　3. 最後まで、徹底的に"
+    },
+    {
+        "word": "outside",
+        "meaning": "外で、屋外で"
+    },
+    {
+        "word": "over",
+        "meaning": "1. 上方に　2. 向こう側へ、超えて　3. 終わって　4. 倒れて、ひっくり返して 〔たとえば Turn over the page. の形で〕 ページをめくりなさい"
+    },
+    {
+        "word": "overseas",
+        "meaning": "海外へ、外国に"
+    },
+    {
+        "word": "p.m.",
+        "meaning": "午後 〔2:30 p.m.のように、時刻の後に付ける〕"
+    },
+    {
+        "word": "past",
+        "meaning": "すれ違って、通り過ぎて"
+    },
+    {
+        "word": "perfectly",
+        "meaning": "完全に、申し分なく"
+    },
+    {
+        "word": "perhaps",
+        "meaning": "たぶん"
+    },
+    {
+        "word": "please",
+        "meaning": "《人に何かを頼む時に》 ～お願いします、どうぞ～してください"
+    },
+    {
+        "word": "precisely",
+        "meaning": "正確に"
+    },
+    {
+        "word": "quickly",
+        "meaning": "急いで､速く、すぐに"
+    },
+    {
+        "word": "quietly",
+        "meaning": "静かに、黙って"
+    },
+    {
+        "word": "quite",
+        "meaning": "とても、たいへん"
+    },
+    {
+        "word": "really",
+        "meaning": "1. 非常に、実に､本当に、とても　2.へぇ"
+    },
+    {
+        "word": "right",
+        "meaning": "まさに、ちょうど　"
+    },
+    {
+        "word": "right",
+        "meaning": "右に、右側に"
+    },
+    {
+        "word": "safely",
+        "meaning": "安全に"
+    },
+    {
+        "word": "second",
+        "meaning": "第２に、２番目に"
+    },
+    {
+        "word": "short",
+        "meaning": "急に､突然　　〔cut shortで〕～を急に終わらせる"
+    },
+    {
+        "word": "sincerely",
+        "meaning": "《正式な手紙の結びのことばとして》 敬具"
+    },
+    {
+        "word": "slowly",
+        "meaning": "ゆっくりと"
+    },
+    {
+        "word": "so",
+        "meaning": "1. とても、非常に　2. そんなに、それほど　3. そう、そのように　4. 〔～ and so on の形で〕 ～など"
+    },
+    {
+        "word": "some",
+        "meaning": "〔数詞の前で〕およそ～、約～"
+    },
+    {
+        "word": "sometimes",
+        "meaning": "ときどき、ときには"
+    },
+    {
+        "word": "somewhere",
+        "meaning": "どこかに、どこかで、どこかへ"
+    },
+    {
+        "word": "soon",
+        "meaning": "まもなく、すぐに"
+    },
+    {
+        "word": "still",
+        "meaning": "今でも、まだ"
+    },
+    {
+        "word": "still",
+        "meaning": "それでも"
+    },
+    {
+        "word": "straight",
+        "meaning": "まっすぐに"
+    },
+    {
+        "word": "strongly",
+        "meaning": "強く"
+    },
+    {
+        "word": "suddenly",
+        "meaning": "突然、急に、不意に"
+    },
+    {
+        "word": "sure",
+        "meaning": "《返事に用いて》 いいとも、もちろん"
+    },
+    {
+        "word": "that",
+        "meaning": "そんなに、それほど"
+    },
+    {
+        "word": "then",
+        "meaning": "1. そのあとで、それから､次に　2. そうすれば　3. それでは　4. そのとき"
+    },
+    {
+        "word": "there",
+        "meaning": "1. 〔There is ［are］ ～ の形で〕 ～がある、いる　2. そこに[で、へ]"
+    },
+    {
+        "word": "third",
+        "meaning": "３番めに、第３に"
+    },
+    {
+        "word": "tightly",
+        "meaning": "しっかりと"
+    },
+    {
+        "word": "today",
+        "meaning": "今日（は）、このごろは"
+    },
+    {
+        "word": "together",
+        "meaning": "いっしょに"
+    },
+    {
+        "word": "tomorrow",
+        "meaning": "明日（は）"
+    },
+    {
+        "word": "tonight",
+        "meaning": "今夜（は）"
+    },
+    {
+        "word": "too",
+        "meaning": "1. ～もまた、同様に　2.あまりにも、～すぎる"
+    },
+    {
+        "word": "truly",
+        "meaning": "本当に、実に"
+    },
+    {
+        "word": "twice",
+        "meaning": "2回、2度"
+    },
+    {
+        "word": "up",
+        "meaning": "1. 上へ、上の方へ　2. 立って、起きて、目覚めて　3. すっかり、つきて　〔たとえば Time is up.の形で〕 もう時間です［時間切れです］"
+    },
+    {
+        "word": "usually",
+        "meaning": "たいていは、ふつうは"
+    },
+    {
+        "word": "very",
+        "meaning": "とても、非常に、たいへん"
+    },
+    {
+        "word": "well",
+        "meaning": "1. 上手に、うまく　2. 正しく、りっぱに"
+    },
+    {
+        "word": "when",
+        "meaning": "いつ"
+    },
+    {
+        "word": "where",
+        "meaning": "どこに［で、へ］"
+    },
+    {
+        "word": "why",
+        "meaning": "なぜ、どうして"
+    },
+    {
+        "word": "yes",
+        "meaning": "1. はい、そうです　2. そうです、そのとおりです　3. 《呼びかけなどを受けて》はい"
+    },
+    {
+        "word": "yesterday",
+        "meaning": "昨日（は）"
+    },
+    {
+        "word": "yet",
+        "meaning": "1.〔疑問文で〕もう　2.〔否定文で〕 まだ（～しない）"
+    },
+    {
+        "word": "aboard",
+        "meaning": "（乗りものを使って）～に乗って"
+    },
+    {
+        "word": "about",
+        "meaning": "《関連を表して》 ～について"
+    },
+    {
+        "word": "above",
+        "meaning": "～の上に"
+    },
+    {
+        "word": "across",
+        "meaning": "1. 《位置を示して》 ～の向こう側に、～を横切って、（道などを横切った）反対側に　2. ～のいたるところに、～（の一面）に"
+    },
+    {
+        "word": "after",
+        "meaning": "1. 《時間を表して》 ～のあとに［で］　 〔after school の形で〕 放課後　2. 《追求を表して》 ～を追って　 "
+    },
+    {
+        "word": "against",
+        "meaning": "1. 《敵対を表して》 ～にさからって、対して　2. 《反対を表して》 ～に反対して"
+    },
+    {
+        "word": "along",
+        "meaning": "1. ～に沿って、～沿いに                                                        　2. ～の上をずっと　〔たとえば　walk along the street　の形で〕　通りを歩く"
+    },
+    {
+        "word": "among",
+        "meaning": "～の中で［に］、～の間で［に］"
+    },
+    {
+        "word": "around",
+        "meaning": "1. ～の周りに［で］　2. ～中（ちゅう）に［で］、～のあちらこちらに［で］、いたるところに［で］　   "
+    },
+    {
+        "word": "as",
+        "meaning": "～として"
+    },
+    {
+        "word": "at",
+        "meaning": "1. 《時の一点を表して》 ～に、～時に　2. 《方向・対象を表して》 ～を  〔たとえば look at ～ の形で〕 ～を見る　3. 《場所を表して》～で、～に　〔たとえば at home の形で〕 自宅で　　4. ～に関して、～の点において、～の点で "
+    },
+    {
+        "word": "before",
+        "meaning": "《時間を表して》 ～（より）前に［の］"
+    },
+    {
+        "word": "behind",
+        "meaning": "～の後ろに、～の陰に"
+    },
+    {
+        "word": "beside",
+        "meaning": "～のそばに"
+    },
+    {
+        "word": "between",
+        "meaning": "《場所・時間・関係を表して》 ～の間に［で、の］"
+    },
+    {
+        "word": "by",
+        "meaning": "1. 《動作主を示して》 ～によって、～による〔主に受け身の文で〕　2. 《位置を表して》 ～のそばに　3. 《交通・通信などの手段を示して》 ～で、～によって　　4. ～までには　5. ～にもとづいて　 "
+    },
+    {
+        "word": "down",
+        "meaning": "～の下へ［に］、～を通って、～に沿って"
+    },
+    {
+        "word": "during",
+        "meaning": "《継続を表して》 ～の間は［に］"
+    },
+    {
+        "word": "for",
+        "meaning": "1. 《用途を表して》 ～のために［の］、～用の、～にふさわしい  〔For here. の形で〕 ここで食べます《ファストフード店での会話表現》　2. 〔for example の形で〕 たとえば　3. 《目的を表して》 ～を求めて  〔ask Ａ for Ｂの形で〕 Ａ［人］にＢ［ものごと］を要求する  〔look for ～の形で〕 ～をさがす　4. 《観点・規準を表して》 ～にとっては、～にしては　5. 《期間を表して》 ～の間（ずっと） 〔for a long timeの形で〕 長い　6. 《利益を表して》 ～のための［に］　7. 《対象を示して》～に（対して）　8. 《資格・特性を表して》 ～として　9. 〔It is ～ for Ａ to do…〕 Ａ［人］が･･･するのは～だ　10. ≪同等を示して≫～を意味する　11. ≪原因・理由を表して≫～のために、～が原因で　12. ≪方向を表して≫～へ向かって　13. ≪支持、賛成を表して≫～に賛成して　14. ≪代理を表して≫～のかわりに"
+    },
+    {
+        "word": "from",
+        "meaning": "1. 《場所を示して》 ～から　2. 《出所・起源・由来を示して》 ～から（の）、～出身の　3. 《時間を示して》 ～から　 "
+    },
+    {
+        "word": "in",
+        "meaning": "1. 《場所・空間・位置・関係を示して》～の中に［で］、～に［で］、～では、～において　2. 《時期・期間・年代などの時を示して》～に　　3. 《分野・限定を示して》～に関して、～について　4. 《時間の経過を示して》～の後に、～たって、～のうちに　5. 《状態を示して》～の状態に［で］　6. 《行為の対象を示して》～を、～に対して　7. ≪手段を示して≫～で　8. ≪着用を示して≫～を身につけて、～を着て　9. ≪所属を示して≫～に所属して、～に従事して 　　　   　  　　"
+    },
+    {
+        "word": "including",
+        "meaning": "（～を）含めて"
+    },
+    {
+        "word": "into",
+        "meaning": "1. ～へ［に］, ～の中へ［に、で］　2. ≪状態の変化を表して≫～へ、～に（変わって、なって）"
+    },
+    {
+        "word": "like",
+        "meaning": "～のような［に］、～に似ている、～に似た"
+    },
+    {
+        "word": "near",
+        "meaning": "～の近くの［に、で］"
+    },
+    {
+        "word": "of",
+        "meaning": "1. 《性質・属性・起源を表して》 ～の 〔たとえばthe leg of the tableの形で〕テーブルのあし　2. 《単位・分量・容器などを表して》 ～の　〔たとえば a cup of coffee の形で〕一杯のコーヒー  　3. 《意味上の主語を示して》 ～の　〔たとえば the visit of an ALT〕 ALTの訪問　 　4. 《意味上の目的語を示して》 ～の　〔たとえば her love of sports の形で〕 彼女のスポーツ愛好　　　5. 《同格の関係を表して》 ～の　〔たとえば the city of Goshogawara の形で〕 五所川原市　6. 《材料・構成物を表して》 ～の　〔たとえば a family of five の形で〕 ５人家族　7. 《全体に対する部分を表して》 ～の（中の） 〔たとえば a member of the baseball team の形で〕 野球部の一員 　8.［it is A of B to～の形で］～するとはBはAである　9.～から（離れて）　［たとえばin front of～の形で］～の前　10.～で（できている）、～（製）"
+    },
+    {
+        "word": "off",
+        "meaning": "～からはなれて"
+    },
+    {
+        "word": "on",
+        "meaning": "1. 《手段・方法を示して》 ～で　〔たとえばon TVの形で〕テレビで　2. 《日付･曜日の前で》 ～に　3. 《接触を表して》 （～の上）に[で]　〔たとえばa book on the desk の形で〕 机の上の本　4. 《状態を表して》 ～中（ちゅう）で、～して　〔たとえばの on my way to school 形で〕 学校へ行く途中で　5. ～に面して、～に接して 〔たとえばthe building on your left〕 あなたの左手の建物　6. ～の一員で　7.（影響・対象）に対して　8.～について（の）、～に関する　9.～で、～（のため）に[たとえばon a tripの形で]"
+    },
+    {
+        "word": "over",
+        "meaning": "1. 《ものの上や地域一帯を覆うことを示して》～の上に［で］　2. 〔over＋数字の形で〕～以上の　3. ～の中（じゅう）の［に、を］、～の一面の［に、を］"
+    },
+    {
+        "word": "plus",
+        "meaning": "～を加えて"
+    },
+    {
+        "word": "since",
+        "meaning": "～以来（ずっと今まで）、～から今日まで"
+    },
+    {
+        "word": "than",
+        "meaning": "～よりも、～にくらべて"
+    },
+    {
+        "word": "through",
+        "meaning": "1. 《原因・手段を表して》 ～によって、～を通じて　2. 《期間を表して》 ～の間中（じゅう）　3.  《通過・貫通》 ～を通して　　"
+    },
+    {
+        "word": "throw",
+        "meaning": "～を投げる"
+    },
+    {
+        "word": "to",
+        "meaning": "1. 《動作の対象などを表して》 ～に、～に対して　2. 《到達点、方向、行き先など》 ～に、～へ、～まで　　　3. 〔原因・理由を表す不定詞で〕 ～して　4. 〔名詞のはたらきをする不定詞で〕 ～すること　　　5. 〔形容詞のはたらきをする不定詞で〕 ～するための、するべき　6. 〔目的を表す不定詞で〕 ～するために　7.  ～にとって　〔たとえば important to all of us の形で〕 私たち全員にとって重要な　8. ～に合わせて　 "
+    },
+    {
+        "word": "toward",
+        "meaning": "～の方へ、～に向かって"
+    },
+    {
+        "word": "under",
+        "meaning": "1. ～の下に［へ、で、の］　2．～のもとで、～に従って"
+    },
+    {
+        "word": "until",
+        "meaning": "～まで（ずっと）"
+    },
+    {
+        "word": "up",
+        "meaning": "～をあがって"
+    },
+    {
+        "word": "upon",
+        "meaning": "（基本的な意味は on とほぼ同じ）"
+    },
+    {
+        "word": "with",
+        "meaning": "1. 《手段・道具を表して》 ～で、～を使って　2. 《関連を表して》 ～に関して、ついて  　3. 《付随･所有･属性を表して》 ～のある、を身につけて　4. 《相手を表して》 ～と　 　5. 《同伴を表して》 ～といっしょに　6. 《原因・理由を表して》～が原因で　 "
+    },
+    {
+        "word": "without",
+        "meaning": "～なしで"
+    },
+    {
+        "word": "after",
+        "meaning": "(～が…した) あとに［で］"
+    },
+    {
+        "word": "also",
+        "meaning": "≪文頭で≫また、さらにその上"
+    },
+    {
+        "word": "although",
+        "meaning": "～だけれど"
+    },
+    {
+        "word": "and",
+        "meaning": "1. 〔語句を結ぶ〕 ～と…　2. 〔文を結ぶ〕 そして～　3. 〔命令文のあとで〕 そうすれば　4. 〔～and so on の形で〕 ～など　5. [同一語を繰り返し用いて]　ますます～、どんどん～　  　   　   "
+    },
+    {
+        "word": "as",
+        "meaning": "1. 《比較を表して》 〔 as A as B の形で、前の as が副詞 〕　Ｂと同じくらいＡな［で］　2. 《様態を表して》 ～のとおり（に）　3. 《時を表して》 ～のとき、～しながら　　"
+    },
+    {
+        "word": "because",
+        "meaning": "《理由を示して》（～が）･･･なので、（なぜなら）～が･･･だから"
+    },
+    {
+        "word": "before",
+        "meaning": "(～が･･･する）前に"
+    },
+    {
+        "word": "but",
+        "meaning": "1. しかし、でも、けれども、だが　2. [not only～ but also…の形で]　ただ～だけでなくまた…"
+    },
+    {
+        "word": "if",
+        "meaning": "《条件・仮定を表して》もし～ならば、仮に～だとすれば"
+    },
+    {
+        "word": "nor",
+        "meaning": "～でも…でもない"
+    },
+    {
+        "word": "once",
+        "meaning": "一旦～したからには"
+    },
+    {
+        "word": "or",
+        "meaning": "1. 〔命令文に続けて〕そうしなければ、そうしないと　2. 《選択を表して》 ～または・・・、～か・・・"
+    },
+    {
+        "word": "since",
+        "meaning": "(～が・・・して）以来、してから（今まで）"
+    },
+    {
+        "word": "so",
+        "meaning": "それで、そこで、だから"
+    },
+    {
+        "word": "than",
+        "meaning": "～が…する［である］よりも"
+    },
+    {
+        "word": "that",
+        "meaning": "～ということ　〔think, know, hope, say などの動詞のあとにきて、しばしば省略される〕"
+    },
+    {
+        "word": "until",
+        "meaning": "（～が・・・する）まで（ずっと）"
+    },
+    {
+        "word": "when",
+        "meaning": "（～する）ときに"
+    },
+    {
+        "word": "while",
+        "meaning": "～する間に（は）"
+    },
+    {
+        "word": "from",
+        "meaning": "1. 《場所を示して》 ～から　2. 《出所・起源・由来を示して》 ～から（の）、～出身の　3. 《時間を示して》 ～から　 "
+    },
+    {
+        "word": "in",
+        "meaning": "1. 《場所・空間・位置・関係を示して》～の中に［で］、～に［で］、～では、～において　2. 《時期・期間・年代などの時を示して》～に　　3. 《分野・限定を示して》～に関して、～について　4. 《時間の経過を示して》～の後に、～たって、～のうちに　5. 《状態を示して》～の状態に［で］　6. 《行為の対象を示して》～を、～に対して　7. ≪手段を示して≫～で　8. ≪着用を示して≫～を身につけて、～を着て　9. ≪所属を示して≫～に所属して、～に従事して 　　　   　  　　"
+    },
+    {
+        "word": "including",
+        "meaning": "（～を）含めて"
+    },
+    {
+        "word": "into",
+        "meaning": "1. ～へ［に］, ～の中へ［に、で］　2. ≪状態の変化を表して≫～へ、～に（変わって、なって）"
+    },
+    {
+        "word": "like",
+        "meaning": "～のような［に］、～に似ている、～に似た"
+    },
+    {
+        "word": "near",
+        "meaning": "～の近くの［に、で］"
+    },
+    {
+        "word": "of",
+        "meaning": "1. 《性質・属性・起源を表して》 ～の 〔たとえばthe leg of the tableの形で〕テーブルのあし　2. 《単位・分量・容器などを表して》 ～の　〔たとえば a cup of coffee の形で〕一杯のコーヒー  　3. 《意味上の主語を示して》 ～の　〔たとえば the visit of an ALT〕 ALTの訪問　 　4. 《意味上の目的語を示して》 ～の　〔たとえば her love of sports の形で〕 彼女のスポーツ愛好　　　5. 《同格の関係を表して》 ～の　〔たとえば the city of Goshogawara の形で〕 五所川原市　6. 《材料・構成物を表して》 ～の　〔たとえば a family of five の形で〕 ５人家族　7. 《全体に対する部分を表して》 ～の（中の） 〔たとえば a member of the baseball team の形で〕 野球部の一員 　8.［it is A of B to～の形で］～するとはBはAである　9.～から（離れて）　［たとえばin front of～の形で］～の前　10.～で（できている）、～（製）"
+    },
+    {
+        "word": "off",
+        "meaning": "～からはなれて"
+    },
+    {
+        "word": "on",
+        "meaning": "1. 《手段・方法を示して》 ～で　〔たとえばon TVの形で〕テレビで　2. 《日付･曜日の前で》 ～に　3. 《接触を表して》 （～の上）に[で]　〔たとえばa book on the desk の形で〕 机の上の本　4. 《状態を表して》 ～中（ちゅう）で、～して　〔たとえばの on my way to school 形で〕 学校へ行く途中で　5. ～に面して、～に接して 〔たとえばthe building on your left〕 あなたの左手の建物　6. ～の一員で　7.（影響・対象）に対して　8.～について（の）、～に関する　9.～で、～（のため）に[たとえばon a tripの形で]"
+    },
+    {
+        "word": "over",
+        "meaning": "1. 《ものの上や地域一帯を覆うことを示して》～の上に［で］　2. 〔over＋数字の形で〕～以上の　3. ～の中（じゅう）の［に、を］、～の一面の［に、を］"
+    },
+    {
+        "word": "plus",
+        "meaning": "～を加えて"
+    },
+    {
+        "word": "since",
+        "meaning": "～以来（ずっと今まで）、～から今日まで"
+    },
+    {
+        "word": "than",
+        "meaning": "～よりも、～にくらべて"
+    },
+    {
+        "word": "through",
+        "meaning": "1. 《原因・手段を表して》 ～によって、～を通じて　2. 《期間を表して》 ～の間中（じゅう）　3.  《通過・貫通》 ～を通して　　"
+    },
+    {
+        "word": "throw",
+        "meaning": "～を投げる"
+    },
+    {
+        "word": "to",
+        "meaning": "1. 《動作の対象などを表して》 ～に、～に対して　2. 《到達点、方向、行き先など》 ～に、～へ、～まで　　　3. 〔原因・理由を表す不定詞で〕 ～して　4. 〔名詞のはたらきをする不定詞で〕 ～すること　　　5. 〔形容詞のはたらきをする不定詞で〕 ～するための、するべき　6. 〔目的を表す不定詞で〕 ～するために　7.  ～にとって　〔たとえば important to all of us の形で〕 私たち全員にとって重要な　8. ～に合わせて　 "
+    },
+    {
+        "word": "toward",
+        "meaning": "～の方へ、～に向かって"
+    },
+    {
+        "word": "under",
+        "meaning": "1. ～の下に［へ、で、の］　2．～のもとで、～に従って"
+    },
+    {
+        "word": "until",
+        "meaning": "～まで（ずっと）"
+    },
+    {
+        "word": "up",
+        "meaning": "～をあがって"
+    },
+    {
+        "word": "upon",
+        "meaning": "（基本的な意味は on とほぼ同じ）"
+    },
+    {
+        "word": "with",
+        "meaning": "1. 《手段・道具を表して》 ～で、～を使って　2. 《関連を表して》 ～に関して、ついて  　3. 《付随･所有･属性を表して》 ～のある、を身につけて　4. 《相手を表して》 ～と　 　5. 《同伴を表して》 ～といっしょに　6. 《原因・理由を表して》～が原因で　 "
+    },
+    {
+        "word": "without",
+        "meaning": "～なしで"
+    },
+    {
+        "word": "a",
+        "meaning": "1.　～というもの　2.　～につき　3.　1 つの、1 人の〔数えられる名詞の前に置き、ふつう訳さない〕"
+    },
+    {
+        "word": "an",
+        "meaning": "1つの、1人の 〔母音ではじまる数えられる名詞の前に置き、ふつう訳さない〕"
+    },
+    {
+        "word": "the",
+        "meaning": "1. 〔特定のものや前後関係で何を指すかわかる名詞の前につける〕　2. 〔最上級の前につける〕　3. 〔唯一のものの前につける〕　4. 〔川・複数形の国名など、特定の固有名詞とともに〕　　　 　 　"
+    },
+    {
+        "word": "bye",
+        "meaning": "じゃあね、バイバイ"
+    },
+    {
+        "word": "dear",
+        "meaning": "おや、まあ"
+    },
+    {
+        "word": "good",
+        "meaning": "《賛成・満足を表して》 よろしい、そのとおり"
+    },
+    {
+        "word": "goodbye",
+        "meaning": "さようなら"
+    },
+    {
+        "word": "hello",
+        "meaning": "1. こんにちは　2. 《電話で》 もしもし 　　　3. やあ、あのー、もしもし"
+    },
+    {
+        "word": "here",
+        "meaning": "《相手の注意をうながして》ほら、さあ、はい　"
+    },
+    {
+        "word": "hey",
+        "meaning": "（疑問を表して）えっ"
+    },
+    {
+        "word": "hi",
+        "meaning": "やあ、こんにちは"
+    },
+    {
+        "word": "Oh",
+        "meaning": "おや、まあ、おお"
+    },
+    {
+        "word": "OK",
+        "meaning": "《注意をうながして》ええと､それでは、よろしい、いいとも"
+    },
+    {
+        "word": "welcome",
+        "meaning": "ようこそ、いらっしゃい"
+    },
+    {
+        "word": "well",
+        "meaning": "1. 《ためらったり、考えるために間を置くときに用いて》 ええと、そうですね、うーん　2. 《話を切り出すときに用いて》 さて、それでは  　3. まあ　"
+    },
+    {
+        "word": "what",
+        "meaning": "《驚き、とまどいなどを表して》 えっ、何？"
+    },
+    {
+        "word": "wow",
+        "meaning": "〔驚きや喜びを表して〕うわあ、ああ、ま"
+    }
+]

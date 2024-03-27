@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>単語学習アプリ - ひたすら一問一答</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="shortcut icon" href="../favicon.png" type="image/png">
+        <link rel="stylesheet" href="../pagestyle.css">
+        <style>
+            #popup_window {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 85%;
+                height: 50%;
+                border-radius: 10px 0px 10px 0px;
+                font-size: 30px;
+                overflow: auto;
+                z-index: 100;
+                background-color: darkseagreen;
+                border: 3px solid black;
+                justify-content: center;
+                align-items: center;
+                overflow: auto;
+            }
+
+            /* popup_windowのスクロールバーを太くする */
+            #popup_window::-webkit-scrollbar {
+                width: 20px;
+            }
+
+            #popup_window::-webkit-scrollbar-thumb {
+                background-color: darkgreen;
+                border-radius: 10px;
+            }
+
+            #popup_window::-webkit-scrollbar-track {
+                background-color: lightgreen;
+            }
+
+            /* テキストボックスを大きくする */
+            .textbox {
+                width: 90%;
+                height: 50px;
+                font-size: 30px;
+                border-radius: 10px;
+                border: 3px solid black;
+                padding: 5px;
+            }
+        </style>
+        <script src="../jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <div id="box">
+            <h2>理解度テスト</h2>
+            <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a>
+            <p>
+                このアプリは、単語の理解度をテストするアプリです。<br>
+                画面に表示される単語を入力してください。
+            </p>
+        </div>
+        <hr>
+        <div id="box">
+            <h2 id="question" class="box"></h2>
+            <div id="answer">
+                <input type="text" id="enter_text" class="textbox">
+                <br>
+                <small>Enterキーで送信</small>
+            </div>
+            <p id="progress"></p>
+        </div>
+        <div class="box" id="popup_window" style="display: none;"></div>
+
+        <script>
+            /*
+                理解度テストの概要
+                ・45問の単語がランダムに出題される
+                ・進捗を表示する
+                ・正解、不正解は問題の後で結果として表示する
+                ・Enterキーで回答を送信する
+            */
+
+            // 問題を出題する関数
+            async function question(path) {
+                return new Promise(async (resolve) => {
+                    let response = await fetch(path);
+                    let data = await response.json();
+                    let words = data;
+                    let word = words[Math.floor(Math.random() * words.length)];
+
+                    // 問題を表示
+                    $("#question").text(word["meaning"]);
+                    resolve({"word": word["word"], "meaning": word["meaning"]});
+                });
+            }
+
+            // テストの進捗を表示する関数
+            function progress(current, total) {
+                $("#progress").text(`進捗：${current} / ${total}`);
+            }
+
+            // テストを取り仕切る関数
+            async function test() {
+                let path = "../model/jhs_all_words.json";
+                let response = await fetch(path);
+                let data = await response.json();
+                let words = data.map((value) => value["word"]);
+                let current = 1;
+                let correct = 0;
+                let incorrect = 0;
+                let correct_answers = [];
+                let incorrect_answers = [];
+                const question_limit = 30;
+
+                // 進捗を表示
+                progress(current, question_limit);
+
+                // 問題を出題
+                let word = await question(path);
+                $("#enter_text").focus();
+
+                // Enterキーで回答を送信
+                $("#enter_text").on("keypress", async function(e) {
+                    if (e.which == 13) {
+                        let answer = $("#enter_text").val();
+                        console.log(answer, word["word"]);
+                        if (answer == word["word"]) {
+                            correct++;
+                            correct_answers.push(word["word"]);
+                        } else {
+                            incorrect++;
+                            incorrect_answers.push(word["word"]);
+                        }
+                        $("#enter_text").val("");
+                        $("#enter_text").focus();
+
+                        // 進捗を更新
+                        current++;
+                        progress(current, question_limit);
+
+                        // 次の問題を出題
+                        if (current <= question_limit) {
+                            word = await question(path);
+                        } else {
+                            // テスト終了
+                            $("#question").text("テスト終了");
+                            let result = `
+                                    正解：${correct}問、不正解：${incorrect}問
+                                    <br>
+                                    理解度：${Math.round(correct / question_limit * 100)}%<br>
+                                    再読込で再テスト`;
+                            // 問題の正誤を書き込む。また間違えた問題には正解を表示する
+                            result += "<br><br>";
+                            result += "正誤一覧<br>";
+                            for (let i = 0; i < correct_answers.length; i++) {
+                                result += `Q${i + 1}：正解<br>`;
+                            }
+
+                            for (let i = 0; i < incorrect_answers.length; i++) {
+                                result += `Q${i + 1}：不正解 (正答：${incorrect_answers[i]})<br>`;
+                            }
+
+                            $("#popup_window").html(result);
+
+                            $("#popup_window").show();
+                        }
+                    }
+                });
+            }
+
+            // テストを開始
+            onload = async function() {
+                await test();
+            };
+        </script>
+    </body>
+</html>
