@@ -103,6 +103,7 @@
                 <option value="eiken3" path="eiken3.json">英検3級の単語データ</option>
                 <option value="eiken-pre2" path="eiken_pre2.json">英検準2級の単語データ</option>
                 <option value="url" path="URL">URL</option>
+                <option value="file" path="FILE">ファイルのアップロード</option>
             </select>
             <hr>
             <h2 id="word" class="box"></h2>
@@ -144,56 +145,70 @@
 
             let wrong_list = [];
             let original_url = "";
+            let original_data;
+
+            async function parse_text_to_json(data) {
+                /*
+                    そのtxtデータは以下のような形式であることが前提
+                    [word] ワード1
+                    [meaning] 意味1
+                    ([example] 例文1)
+                    ([example_meaning] 例文の意味1)
+                    [word] ワード2
+                    [meaning] 意味2
+                    ([example] 例文2)
+                    ([example_meaning] 例文の意味2)
+                    ...
+                    この形式をJSON形式に落とし込む
+                    ()内は省略可能
+                */
+                
+                return new Promise((resolve) => {
+                    let lines = data.split("\n");
+
+                    // 最後の行が空白だったら削除
+                    if (lines[lines.length - 1] == "") {
+                        lines.pop();
+                    }
+
+                    let json_data = [];
+                    let word = "";
+                    let meaning = "";
+                    let example = "";
+                    let example_meaning = "";
+                    for (let i = 0; i < lines.length; i++) {
+                        if (lines[i].startsWith("[word]")) {
+                            word = lines[i].replace(/\[word\][ ]?/, "");
+                        } else if (lines[i].startsWith("[meaning]")) {
+                            meaning = lines[i].replace(/\[meaning\][ ]?/, "");
+                        } else if (lines[i].startsWith("[example]")) {
+                            example = lines[i].replace(/\[example\][ ]?/, "");
+                        } else if (lines[i].startsWith("[example_meaning]")) {
+                            example_meaning = lines[i].replace(/\[example_meaning\][ ]?/, "");
+                        } else if (lines[i] == "") {
+                            json_data.push({word: word, meaning: meaning, sentence: example, sentence_ja: example_meaning});
+                            word = "";
+                            meaning = "";
+                            example = "";
+                            example_meaning = "";
+                        }
+                    }
+
+                    console.log(json_data);
+                    resolve(json_data);
+                });
+            }
 
             async function parse_url_text_to_json(url) {
                 return new Promise((resolve) => {
-                    $.get(url, function(data) {
-                        /*
-                            そのtxtデータは以下のような形式であることが前提
-                            [word] ワード1
-                            [meaning] 意味1
-                            ([example] 例文1)
-                            ([example_meaning] 例文の意味1)
-                            [word] ワード2
-                            [meaning] 意味2
-                            ([example] 例文2)
-                            ([example_meaning] 例文の意味2)
-                            ...
-                            この形式をJSON形式に落とし込む
-                            ()内は省略可能
-                        */
-                        let lines = data.split("\n");
-
-                        let json_data = [];
-                        let word = "";
-                        let meaning = "";
-                        let example = "";
-                        let example_meaning = "";
-                        for (let i = 0; i < lines.length; i++) {
-                            if (lines[i].startsWith("[word]")) {
-                                word = lines[i].replace(/\[word\][ ]?/, "");
-                            } else if (lines[i].startsWith("[meaning]")) {
-                                meaning = lines[i].replace(/\[meaning\][ ]?/, "");
-                            } else if (lines[i].startsWith("[example]")) {
-                                example = lines[i].replace(/\[example\][ ]?/, "");
-                            } else if (lines[i].startsWith("[example_meaning]")) {
-                                example_meaning = lines[i].replace(/\[example_meaning\][ ]?/, "");
-                            } else if (lines[i] == "") {
-                                json_data.push({word: word, meaning: meaning, sentence: example, sentence_ja: example_meaning});
-                                word = "";
-                                meaning = "";
-                                example = "";
-                                example_meaning = "";
-                            }
-                        }
-                        resolve(json_data);
+                    $.get(url, async function(data) {
+                        resolve(await parse_text_to_json(data));
                     });
                 });
             }
             
             async function question(path) {
                 let home_model_dict = "../model/";
-                let original_data;
 
                 return new Promise(async (resolve) => {
                     if (path == "URL") {
@@ -207,7 +222,8 @@
                         path = wrong_list[wrong_random][1];
                     }
 
-                    $.getJSON(path == "URL" ? "../model/verbs.json" : home_model_dict + path, function(data) {
+                    $.getJSON(path == "URL" || path == "FILE" ? "../model/verbs.json"
+                                                    : home_model_dict + path, async function(data) {
                         let correct_number = 0;
                         let _data = data;
 
@@ -215,6 +231,11 @@
                         if (path == "URL") {
                             _data = original_data;
                         }
+
+                        if (path == "FILE") {
+                            _data = await parse_text_to_json(original_data);
+                        }
+
                         let word = _data[Math.floor(Math.random() * _data.length)];
 
                         // wrong_list関係の処理
@@ -373,6 +394,25 @@
                         $("#use_dataset").val("verbs");
                         return;
                     }
+                }
+
+                if ($("#use_dataset option:selected").attr("path") == "FILE") {
+                    // ファイルをアップロードする
+                    const file = await new Promise((resolve) => {
+                        const input = document.createElement("input");
+                        input.type = "file";
+                        input.accept = ".txt";
+                        input.onchange = function() {
+                            resolve(input.files[0]);
+                        };
+                        input.click();
+                    });
+                    // ファイルの内容を取得する
+                    const reader = new FileReader();
+                    reader.readAsText(file);
+                    reader.onload = function() {
+                        original_data = reader.result;
+                    };
                 }
                 await start_questions($("#use_dataset option:selected").attr("path"));
                 start_program();

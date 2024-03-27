@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>単語学習アプリ - My英単語エディター</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="shortcut icon" href="../favicon.png" type="image/png">
+        <link rel="stylesheet" href="../pagestyle.css">
+        <style>
+            #popup_window {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 85%;
+                height: 30%;
+                border-radius: 30px;
+                font-size: 30px;
+                overflow: auto;
+                z-index: 100;
+                background-color: darkseagreen;
+                border: 3px solid black;
+                /* 上下中央に文字を配置する */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            /* テキストボックスを大きくする */
+            .textbox {
+                width: 90%;
+                height: 50px;
+                font-size: 30px;
+                border-radius: 10px;
+                border: 3px solid black;
+                padding: 5px;
+            }
+
+            /* tableのCSS */
+            #table_for_editor {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            #table_for_editor > thead {
+                background-color: darkseagreen;
+                border-bottom: 3px solid black;
+            }
+
+            .word {
+                width: 15%;
+            }
+
+            .meaning {
+                width: 20%;
+            }
+
+            .example {
+                width: 28%;
+            }
+
+            .example_ja {
+                width: 27%;
+            }
+
+            .example > input[type="text"], .example_ja > input[type="text"] {
+                font-size: 10px;
+            }
+
+            ._delete {
+                width: 5%;
+            }
+        </style>
+        <script src="../jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <div id="box">
+            <h2>My単語帳エディター</h2>
+            <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a>
+            <p>
+                このサイトでは、このサイト用の自分の単語帳データを作成することができます。
+            </p>
+        </div>
+        <hr>
+        <div id="box">
+            <br>
+            <table id="table_for_editor">
+                <thead>
+                    <tr>
+                        <th class="word">単語</th>
+                        <th class="meaning">意味</th>
+                        <th class="example">例文<br><small>※省略可能</small></th>
+                        <th class="example_ja">例文の意味<br><small>※省略可能</small></th>
+                        <th class="_delete">削除</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" class="textbox" id="word" autocomplete="off"></td>
+                        <td><input type="text" class="textbox" id="meaning" autocomplete="off"></td>
+                        <td><input type="text" class="textbox" id="example" autocomplete="off"></td>
+                        <td><input type="text" class="textbox" id="example_ja" autocomplete="off"></td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            <button class="button">決定してダウンロード</button>
+            <br><br>
+        </div>
+        <div class="box" id="popup_window" style="display: none;"></div>
+
+        <script>
+            /*
+                txtデータは以下のような形式であることが前提
+                [word] ワード1
+                [meaning] 意味1
+                ([example] 例文1)
+                ([example_meaning] 例文の意味1)
+                [word] ワード2
+                [meaning] 意味2
+                ([example] 例文2)
+                ([example_meaning] 例文の意味2)
+                ...
+                この形式をJSON形式に落とし込む
+                ()内は省略可能
+            */
+
+            // エディターを作る
+            /*
+                動作
+                1. テキストボックスに単語、意味、例文、例文の意味を入力。Enterキーで次の項目に移動
+                2. 最後の項目でEnterキーを押すと、テーブルの後ろにデータを追加。テキストボックスは空になり、フォーカスは単語のテキストボックスに移動。
+                3. テーブルの削除ボタンを押すと、その行のデータを削除
+            */
+            $(function() {
+                // テーブルの削除ボタンを押すと、その行のデータを削除
+                $(document).on("click", ".delete", function() {
+                    $(this).parent().parent().remove();
+                });
+
+                // 決定ボタンを押すと、テーブルのデータをtxt形式に変換して表示
+                $(".button").on("click", function() {
+                    // 空の場合は、警告する
+                    if ($("#table_for_editor tbody tr").length == 1) {
+                        alert("データが空です。");
+                        return;
+                    }
+
+                    // テーブルのデータを取得
+                    let data = [];
+                    let count = 0;
+
+                    $("#table_for_editor tbody tr").each(function() {
+                        if (count == 0) {
+                            count++;
+                            return;
+                        }
+                        let word = $(this).find("#word").text();
+                        let meaning = $(this).find("#meaning").text();
+                        let example = $(this).find("#example").text();
+                        let example_ja = $(this).find("#example_ja").text();
+                        console.log(word, meaning, example, example_ja);
+                        data.push({
+                            "word": word,
+                            "meaning": meaning,
+                            "example": example,
+                            "example_meaning": example_ja
+                        });
+                        count++;
+                    });
+
+                    // テーブルのデータをtxt形式に変換
+                    let txt = "";
+                    for (let i = 0; i < data.length; i++) {
+                        txt += "[word] " + data[i].word + "\n";
+                        if (data[i].example_meaning != "") {
+                            txt += "[meaning] " + data[i].meaning + "\n";
+                        } else {
+                            txt += "[meaning] " + data[i].meaning + "\n\n";
+                        }
+
+                        if (data[i].example != "") {
+                            txt += "[example] " + data[i].example + "\n";
+                        }
+                        
+                        if (data[i].example_meaning != "") {
+                            txt += "[example_meaning] " + data[i].example_meaning + "\n\n";
+                        }
+                    }
+
+                    // txt形式でダウンロードする
+                    let blob = new Blob([txt], {type: "text/plain"});
+                    let url = window.URL.createObjectURL(blob);
+                    let a = document.createElement("a");
+                    a.href = url;
+                    a.download = "my_words.txt";
+                    a.click();
+                });
+
+                // テキストボックスに入力してEnterキーを押すと、次のテキストボックスにフォーカスを移動
+                $(".textbox").on("keypress", function(e) {
+                    if (e.which == 13) {
+                        // 一番最後の場合は、次のテキストボックスにフォーカスを移動しない
+                        if ($(".textbox").index(this) == $(".textbox").length - 1) {
+                            return;
+                        }
+                        e.preventDefault();
+                        let index = $(".textbox").index(this);
+                        $(".textbox").eq(index + 1).focus();
+                    }
+                });
+
+                // テーブルの最後のテキストボックスに入力してEnterキーを押すと、テーブルの後ろにデータを追加。テキストボックスは空になり、フォーカスは単語のテキストボックスに移動
+                $(".textbox").last().on("keypress", function(e) {
+                    if (e.which == 13) {
+                        e.preventDefault();
+                        var word = $("#word").val();
+                        var meaning = $("#meaning").val();
+                        var example = $("#example").val();
+                        var example_ja = $("#example_ja").val();
+                        // tableにデータを追加（普通のテキストで）
+                        $("#table_for_editor tbody").append(`
+                            <tr>
+                                <td id="word">${word}</td>
+                                <td id="meaning">${meaning}</td>
+                                <td id="example">${example}</td>
+                                <td id="example_ja">${example_ja}</td>
+                                <td><button class='delete'>削除</button></td>
+                            </tr>`);
+                        // テキストボックスを空にする
+                        $(".textbox").val("");
+                        // フォーカスを単語のテキストボックスに移動
+                        $("#word").focus();
+                    }
+                });
+
+            });
+
+            onload = function() {
+                // テキストボックスにフォーカスを移動
+                $("#word").focus();
+            };
+        </script>
+    </body>
+</html>

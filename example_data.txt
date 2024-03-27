@@ -1,0 +1,20 @@
+[word] apple
+[meaning] りんご
+
+[word] banana
+[meaning] バナナ
+
+[word] peach
+[meaning] もも
+
+[word] grape
+[meaning] ぶどう
+
+[word] orange
+[meaning] オレンジ
+
+[word] pineapple
+[meaning] パイナップル
+
+[word] melon
+[meaning] メロン
