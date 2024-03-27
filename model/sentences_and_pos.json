@@ -1,0 +1,3944 @@
+[
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "flower",
+            "pos": "名詞"
+        },
+        {
+            "word": "blooms",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "garden.The",
+            "pos": "名詞"
+        },
+        {
+            "word": "fish",
+            "pos": "形容詞"
+        },
+        {
+            "word": "swam",
+            "pos": "名詞"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "pond",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "butterfly",
+            "pos": "名詞"
+        },
+        {
+            "word": "lands",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "flower",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "rabbit",
+            "pos": "名詞"
+        },
+        {
+            "word": "hops",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "into",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "burrow",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cup",
+            "pos": "名詞"
+        },
+        {
+            "word": "is",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "table",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "fish",
+            "pos": "形容詞"
+        },
+        {
+            "word": "swims",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "sea",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bird",
+            "pos": "名詞"
+        },
+        {
+            "word": "sang",
+            "pos": "名詞"
+        },
+        {
+            "word": "from",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "tree",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "ball",
+            "pos": "名詞"
+        },
+        {
+            "word": "rolled",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "into",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "hole",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "ball",
+            "pos": "名詞"
+        },
+        {
+            "word": "bounced",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "off",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "ground",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cat",
+            "pos": "名詞"
+        },
+        {
+            "word": "purrs",
+            "pos": "名詞"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cushion",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "balloon",
+            "pos": "名詞"
+        },
+        {
+            "word": "floated",
+            "pos": "動詞過去分詞"
+        },
+        {
+            "word": "above",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "house",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "car",
+            "pos": "名詞"
+        },
+        {
+            "word": "drove",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "through",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "tunnel",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "ball",
+            "pos": "名詞"
+        },
+        {
+            "word": "rolled",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "into",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "yard",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "car",
+            "pos": "名詞"
+        },
+        {
+            "word": "drove",
+            "pos": "名詞"
+        },
+        {
+            "word": "along",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "road",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "walked",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "through",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "woods",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "flowers",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "bloom",
+            "pos": "名詞"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "garden",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "rabbit",
+            "pos": "名詞"
+        },
+        {
+            "word": "hopped",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "under",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bush",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "She",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "jumped",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "over",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "fence",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bird",
+            "pos": "名詞"
+        },
+        {
+            "word": "flew",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "from",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "tree",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "sun",
+            "pos": "名詞"
+        },
+        {
+            "word": "sets",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "behind",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "trees",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "flower",
+            "pos": "名詞"
+        },
+        {
+            "word": "grows",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "garden",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "looked",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "under",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bed",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "She",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "stood",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "by",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "gate",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "book",
+            "pos": "名詞"
+        },
+        {
+            "word": "lies",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "floor",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "ran",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "along",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "river",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "jumped",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "over",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "puddle",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "dog",
+            "pos": "名詞"
+        },
+        {
+            "word": "ran",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "around",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "yard",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "ran",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "along",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "beach",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "hid",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "behind",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "door",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "moon",
+            "pos": "名詞"
+        },
+        {
+            "word": "glows",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "dark",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "flowers",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "grow",
+            "pos": "動詞現在形"
+        },
+        {
+            "word": "near",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "fence",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "sun",
+            "pos": "名詞"
+        },
+        {
+            "word": "sets",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "behind",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "hills",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "moon",
+            "pos": "名詞"
+        },
+        {
+            "word": "glows",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "sky",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "kite",
+            "pos": "名詞"
+        },
+        {
+            "word": "flew",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "high",
+            "pos": "形容詞"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "air",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "She",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "swam",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "pool",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cup",
+            "pos": "名詞"
+        },
+        {
+            "word": "is",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "saucer",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bird",
+            "pos": "名詞"
+        },
+        {
+            "word": "flew",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "over",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "house",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cat",
+            "pos": "名詞"
+        },
+        {
+            "word": "is",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "mat",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "flowers",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "bloom",
+            "pos": "名詞"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "spring",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "dog",
+            "pos": "名詞"
+        },
+        {
+            "word": "runs",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "around",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "yard",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "hid",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "behind",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "rock",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "book",
+            "pos": "名詞"
+        },
+        {
+            "word": "is",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "desk",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "sun",
+            "pos": "名詞"
+        },
+        {
+            "word": "shines",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "morning",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "flower",
+            "pos": "名詞"
+        },
+        {
+            "word": "blooms",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "sunlight",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "butterfly",
+            "pos": "名詞"
+        },
+        {
+            "word": "flew",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "over",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "garden",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "sat",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "stool",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "fish",
+            "pos": "形容詞"
+        },
+        {
+            "word": "swims",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "pond",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "snow",
+            "pos": "名詞"
+        },
+        {
+            "word": "falls",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "from",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "sky",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cat",
+            "pos": "名詞"
+        },
+        {
+            "word": "sleeps",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "under",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "table",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "looked",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "around",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "room",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "flower",
+            "pos": "名詞"
+        },
+        {
+            "word": "blooms",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "garden",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "fish",
+            "pos": "形容詞"
+        },
+        {
+            "word": "swims",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "ocean",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cup",
+            "pos": "名詞"
+        },
+        {
+            "word": "is",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "counter",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cup",
+            "pos": "名詞"
+        },
+        {
+            "word": "sits",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "table",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "hid",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "behind",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "tree",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "kite",
+            "pos": "名詞"
+        },
+        {
+            "word": "flew",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "above",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "trees",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "stood",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "by",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "door",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cat",
+            "pos": "名詞"
+        },
+        {
+            "word": "hides",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "under",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bed",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "dog",
+            "pos": "名詞"
+        },
+        {
+            "word": "sits",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "beside",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "door",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cup",
+            "pos": "名詞"
+        },
+        {
+            "word": "sits",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "shelf",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "flower",
+            "pos": "名詞"
+        },
+        {
+            "word": "grows",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "pot",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "clock",
+            "pos": "名詞"
+        },
+        {
+            "word": "hangs",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "wall",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "ball",
+            "pos": "名詞"
+        },
+        {
+            "word": "rolled",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "under",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "table",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bee",
+            "pos": "名詞"
+        },
+        {
+            "word": "buzzed",
+            "pos": "動詞過去分詞"
+        },
+        {
+            "word": "around",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "flowers",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "walked",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "into",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "room",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "sun",
+            "pos": "名詞"
+        },
+        {
+            "word": "sets",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "behind",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "mountains",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "boat",
+            "pos": "名詞"
+        },
+        {
+            "word": "sailed",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "over",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "waves",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "She",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "sat",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "by",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "window",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "climbed",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "onto",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "chair",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "walked",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "through",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "park",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cat",
+            "pos": "名詞"
+        },
+        {
+            "word": "sleeps",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "under",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "chair",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "book",
+            "pos": "名詞"
+        },
+        {
+            "word": "is",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "table",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "book",
+            "pos": "名詞"
+        },
+        {
+            "word": "lies",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "shelf",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "balloon",
+            "pos": "名詞"
+        },
+        {
+            "word": "floats",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "above",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "city",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "jumped",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "over",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "stream",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "dog",
+            "pos": "名詞"
+        },
+        {
+            "word": "barks",
+            "pos": "名詞"
+        },
+        {
+            "word": "at",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "stranger",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "She",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "stood",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "by",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "door",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "keys",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "are",
+            "pos": "動詞現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "hook",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "They",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "walked",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "through",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "park",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "She",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "skipped",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "along",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "path",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bird",
+            "pos": "名詞"
+        },
+        {
+            "word": "flew",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "into",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "nest",
+            "pos": "形容詞最上級"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "She",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "looked",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "through",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "window",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "dog",
+            "pos": "名詞"
+        },
+        {
+            "word": "barks",
+            "pos": "名詞"
+        },
+        {
+            "word": "at",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "neighbor",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "jumped",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "over",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "fence",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "She",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "skipped",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "along",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "sidewalk",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "They",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "walked",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "along",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "beach",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "walked",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "through",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "forest",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bird",
+            "pos": "名詞"
+        },
+        {
+            "word": "sings",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "from",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "tree",
+            "pos": "名詞"
+        },
+        {
+            "word": "branch",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "pen",
+            "pos": "名詞"
+        },
+        {
+            "word": "is",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "desk",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "jumped",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "over",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "hurdle",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "moon",
+            "pos": "名詞"
+        },
+        {
+            "word": "shines",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "night",
+            "pos": "名詞"
+        },
+        {
+            "word": "sky",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "book",
+            "pos": "名詞"
+        },
+        {
+            "word": "is",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "shelf",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "clock",
+            "pos": "名詞"
+        },
+        {
+            "word": "is",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "above",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "door",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cat",
+            "pos": "名詞"
+        },
+        {
+            "word": "sleeps",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "under",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bed",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "sat",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bench",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cup",
+            "pos": "名詞"
+        },
+        {
+            "word": "sits",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "counter",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cat",
+            "pos": "名詞"
+        },
+        {
+            "word": "sleeps",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "rug",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "She",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "walked",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "toward",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "park",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "sun",
+            "pos": "名詞"
+        },
+        {
+            "word": "shines",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "sky",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "ball",
+            "pos": "名詞"
+        },
+        {
+            "word": "rolled",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "into",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "corner",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "balloon",
+            "pos": "名詞"
+        },
+        {
+            "word": "floated",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "over",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "house",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "rabbit",
+            "pos": "名詞"
+        },
+        {
+            "word": "hops",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "along",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "trail",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "book",
+            "pos": "名詞"
+        },
+        {
+            "word": "lies",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "desk",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bird",
+            "pos": "名詞"
+        },
+        {
+            "word": "sings",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "from",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "rooftop",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "sat",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "chair",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "moon",
+            "pos": "名詞"
+        },
+        {
+            "word": "glows",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "dark",
+            "pos": "名詞"
+        },
+        {
+            "word": "sky",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "She",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "sat",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "beside",
+            "pos": "前置詞"
+        },
+        {
+            "word": "her",
+            "pos": "所有代名詞"
+        },
+        {
+            "word": "friend",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bird",
+            "pos": "名詞"
+        },
+        {
+            "word": "flew",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "over",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "roof",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "She",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "swam",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "lake",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "sun",
+            "pos": "名詞"
+        },
+        {
+            "word": "rises",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "above",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "horizon",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "car",
+            "pos": "名詞"
+        },
+        {
+            "word": "drove",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "past",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "house",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "dog",
+            "pos": "名詞"
+        },
+        {
+            "word": "barks",
+            "pos": "名詞"
+        },
+        {
+            "word": "at",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "mailman",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "kite",
+            "pos": "名詞"
+        },
+        {
+            "word": "soared",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "up",
+            "pos": "助詞"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "sky",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "toy",
+            "pos": "名詞"
+        },
+        {
+            "word": "is",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "under",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bed",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "book",
+            "pos": "名詞"
+        },
+        {
+            "word": "is",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bag",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "balloon",
+            "pos": "名詞"
+        },
+        {
+            "word": "floats",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "above",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "crowd",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cat",
+            "pos": "名詞"
+        },
+        {
+            "word": "purrs",
+            "pos": "名詞"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "pillow",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cat",
+            "pos": "名詞"
+        },
+        {
+            "word": "purrs",
+            "pos": "名詞"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "rug",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bird",
+            "pos": "名詞"
+        },
+        {
+            "word": "chirped",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "tree",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "fish",
+            "pos": "形容詞"
+        },
+        {
+            "word": "swims",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "river",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "She",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "stood",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "by",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "window",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "He",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "walked",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "through",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "door",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bird",
+            "pos": "名詞"
+        },
+        {
+            "word": "sings",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "from",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "branch",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cookie",
+            "pos": "名詞"
+        },
+        {
+            "word": "is",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "jar",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "rabbit",
+            "pos": "名詞"
+        },
+        {
+            "word": "hops",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "along",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "path",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "kite",
+            "pos": "名詞"
+        },
+        {
+            "word": "soared",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "over",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "rooftops",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "moon",
+            "pos": "名詞"
+        },
+        {
+            "word": "shines",
+            "pos": "名詞複数形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "night",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cat",
+            "pos": "名詞"
+        },
+        {
+            "word": "jumped",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "from",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "chair",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "butterfly",
+            "pos": "名詞"
+        },
+        {
+            "word": "lands",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "leaf",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "She",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "jumped",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "over",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "puddle",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cup",
+            "pos": "名詞"
+        },
+        {
+            "word": "is",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "in",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "sink",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "She",
+            "pos": "人称代名詞"
+        },
+        {
+            "word": "ran",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "across",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "field",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bird",
+            "pos": "名詞"
+        },
+        {
+            "word": "landed",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "branch",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "bird",
+            "pos": "名詞"
+        },
+        {
+            "word": "flew",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "over",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "lake",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "cat",
+            "pos": "名詞"
+        },
+        {
+            "word": "sleeps",
+            "pos": "動詞三人称単数現在形"
+        },
+        {
+            "word": "on",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "pillow",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ],
+    [
+        {
+            "word": "The",
+            "pos": "限定詞"
+        },
+        {
+            "word": "ball",
+            "pos": "名詞"
+        },
+        {
+            "word": "rolled",
+            "pos": "動詞過去形"
+        },
+        {
+            "word": "into",
+            "pos": "前置詞"
+        },
+        {
+            "word": "the",
+            "pos": "限定詞"
+        },
+        {
+            "word": "street",
+            "pos": "名詞"
+        },
+        {
+            "word": ".",
+            "pos": "句点"
+        }
+    ]
+]

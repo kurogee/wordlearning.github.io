@@ -83,18 +83,18 @@
                 return new Promise((resolve) => {
                     $.get(url, function(data) {
                         /*
-                        そのtxtデータは以下のような形式であることが前提
-                        [word] ワード1
-                        [meaning] 意味1
-                        ([example] 例文1)
-                        ([example_meaning] 例文の意味1)
-                        [word] ワード2
-                        [meaning] 意味2
-                        ([example] 例文2)
-                        ([example_meaning] 例文の意味2)
-                        ...
-                        この形式をJSON形式に落とし込む
-                        ()内は省略可能
+                            そのtxtデータは以下のような形式であることが前提
+                            [word] ワード1
+                            [meaning] 意味1
+                            ([example] 例文1)
+                            ([example_meaning] 例文の意味1)
+                            [word] ワード2
+                            [meaning] 意味2
+                            ([example] 例文2)
+                            ([example_meaning] 例文の意味2)
+                            ...
+                            この形式をJSON形式に落とし込む
+                            ()内は省略可能
                         */
                         let lines = data.split("\n");
 

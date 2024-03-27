@@ -222,6 +222,13 @@
                             const wrong_word = wrong_list[wrong_random];
                             wrong_list = wrong_list.filter((value) => value[0] !== wrong_word[0]);
                             word = {word: wrong_word[0], meaning: wrong_word[2]};
+
+                            // use_datasetの選択状態を変更（今の状態をselectedにする）
+                            $("#use_dataset option").each(function() {
+                                if ($(this).attr("path") == wrong_word[1]) {
+                                    $(this).prop("selected", true);
+                                }
+                            });
                         }
 
                         if (wrong_list.length <= 0) {
@@ -273,6 +280,7 @@
                     question_result = await question(_path);
                     const correct_number = question_result[0];
                     console.log(correct_number);
+
                     $(".button").off("click").click(function() {
                         if ($(this).attr("data") == correct_number) {
                             // 正解音を再生
@@ -366,6 +374,12 @@
                         return;
                     }
                 }
+                await start_questions($("#use_dataset option:selected").attr("path"));
+                start_program();
+            });
+
+            // 復習するためのチェックボックスが変更されたとき、再度問題を出題する
+            $("#check_wrong_questions").change(async function() {
                 await start_questions($("#use_dataset option:selected").attr("path"));
                 start_program();
             });
