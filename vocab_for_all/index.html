@@ -83,11 +83,28 @@
             */
 
             // 問題を出題する関数
-            async function question(path) {
+            async function question(path, current) {
                 return new Promise(async (resolve) => {
                     let response = await fetch(path);
                     let data = await response.json();
-                    let words = data;
+
+                    let difficulty_easy = data.filter((value) => parseInt(value["difficult"]) >= 1 && parseInt(value["difficult"]) <= 3);
+                    let difficulty_normal = data.filter((value) => parseInt(value["difficult"]) >= 4 && parseInt(value["difficult"]) <= 7);
+                    let difficulty_hard = data.filter((value) => parseInt(value["difficult"]) >= 8);
+
+                    let words;
+                    console.log(current);
+                    if (current <= 15) {
+                        words = difficulty_easy;
+                        console.log("easy");
+                    } else if (current <= 25) {
+                        words = difficulty_normal;
+                        console.log("normal");
+                    } else {
+                        words = difficulty_hard;
+                        console.log("hard");
+                    }
+
                     let word = words[Math.floor(Math.random() * words.length)];
 
                     // 問題を表示
@@ -103,7 +120,7 @@
 
             // テストを取り仕切る関数
             async function test() {
-                let path = "../model/jhs_all_words.json";
+                let path = "../model/all_words.json";
                 let response = await fetch(path);
                 let data = await response.json();
                 let words = data.map((value) => value["word"]);
@@ -117,7 +134,7 @@
                 progress(current, question_limit);
 
                 // 問題を出題
-                let word = await question(path);
+                let word = await question(path, current);
                 $("#enter_text").focus();
 
                 // Enterキーで回答を送信
@@ -141,7 +158,7 @@
 
                         // 次の問題を出題
                         if (current <= question_limit) {
-                            word = await question(path);
+                            word = await question(path, current);
                         } else {
                             // テスト終了
                             $("#question").text("テスト終了");
@@ -158,9 +175,10 @@
                                         <thead>
                                             <tr>
                                                 <th style="width: 10%;">#</th>
-                                                <th style="width: 30%;">回答</th>
-                                                <th style="width: 30%;">正誤</th>
-                                                <th style="width: 30%;">正解</th>
+                                                <th style="width: 25%;">回答</th>
+                                                <th style="width: 20%;">正誤</th>
+                                                <th style="width: 25%;">正解</th>
+                                                <th style="width: 20%;">難易度</th>
                                             </tr>
                                         </thead>
                                         <tbody>`;
@@ -172,6 +190,7 @@
                                                 <td>${answers[i][0] == "" ? "(未回答)" : answers[i][0]}</td>
                                                 <td style="color: blue;">正解</td>
                                                 <td>${answers[i][2]}</td>
+                                                <td>${data.filter((value) => value["word"] == answers[i][2])[0]["difficult"]}</td>
                                             </tr>`;
                                 } else {
                                     result += `
@@ -180,6 +199,7 @@
                                                 <td>${answers[i][0] == "" ? "(未回答)" : answers[i][0]}</td>
                                                 <td style="color: red;">不正解</td>
                                                 <td>${answers[i][2]}</td>
+                                                <td>${data.filter((value) => value["word"] == answers[i][2])[0]["difficult"]}</td>
                                             </tr>`;
                                 }
                             }
