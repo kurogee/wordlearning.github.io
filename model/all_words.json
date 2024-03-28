@@ -451,7 +451,7 @@
     },
     {
         "word": "bike",
-        "meaning": "自転車　　〔bicycle ともいう〕",
+        "meaning": "自転車　〔bicycle ともいう〕",
         "difficult": "2",
         "difficult_criteria": "準2級以上の単語"
     },
@@ -871,7 +871,7 @@
     },
     {
         "word": "catch",
-        "meaning": "（ボールなどを）とらえること、キャッチボール　　〔play catch の形で〕　キャッチボールをする",
+        "meaning": "（ボールなどを）とらえること、キャッチボール　〔play catch の形で〕　キャッチボールをする",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -1681,7 +1681,7 @@
     },
     {
         "word": "dollar",
-        "meaning": "ドル　　　《米国・カナダなどの貨幣で、1ドルは100セント》",
+        "meaning": "ドル　《米国・カナダなどの貨幣で、1ドルは100セント》",
         "difficult": "2",
         "difficult_criteria": "準2級以上の単語"
     },
@@ -1753,7 +1753,7 @@
     },
     {
         "word": "drink",
-        "meaning": "飲み物　　〔たとえば soft drinks の形で〕清涼（せいりょう）飲料",
+        "meaning": "飲み物　〔たとえば soft drinks の形で〕清涼（せいりょう）飲料",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -2203,7 +2203,7 @@
     },
     {
         "word": "festival",
-        "meaning": "お祭り、祭典　　〔たとえば the Aomori Nebuta Festival の形で〕 青森ねぶた祭り",
+        "meaning": "お祭り、祭典　〔たとえば the Aomori Nebuta Festival の形で〕 青森ねぶた祭り",
         "difficult": "2",
         "difficult_criteria": "準2級以上の単語"
     },
@@ -2260,12 +2260,6 @@
         "meaning": "闘志",
         "difficult": "2",
         "difficult_criteria": "準2級以上の単語"
-    },
-    {
-        "word": "film",
-        "meaning": "映画",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
     },
     {
         "word": "fine arts",
@@ -2491,7 +2485,7 @@
     },
     {
         "word": "front",
-        "meaning": "前面、前部、前　　〔in front of ～の形で〕～の前に",
+        "meaning": "前面、前部、前　〔in front of ～の形で〕～の前に",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -2545,7 +2539,7 @@
     },
     {
         "word": "garden",
-        "meaning": "1. 庭、庭園　2. 畑､野菜園　　  ",
+        "meaning": "1. 庭、庭園　2. 畑､野菜園",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -2647,7 +2641,7 @@
     },
     {
         "word": "goal",
-        "meaning": "1. ゴール、決勝点　2. 目標、目的地　　",
+        "meaning": "1. ゴール、決勝点　2. 目標、目的地　",
         "difficult": "2",
         "difficult_criteria": "準2級以上の単語"
     },
@@ -2725,7 +2719,7 @@
     },
     {
         "word": "grass",
-        "meaning": "1.　草　2.　草地、芝生　　　",
+        "meaning": "1.　草　2.　草地、芝生　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -3415,7 +3409,7 @@
     },
     {
         "word": "kind",
-        "meaning": "種類　　〔a kind of ～の形で〕　一種の～、～のようなもの",
+        "meaning": "種類　〔a kind of ～の形で〕　一種の～、～のようなもの",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -3445,7 +3439,7 @@
     },
     {
         "word": "Korea",
-        "meaning": "韓国・朝鮮　　〔たとえば South Korea, North Korea の形で〕 韓国、北朝鮮",
+        "meaning": "韓国・朝鮮　〔たとえば South Korea, North Korea の形で〕 韓国、北朝鮮",
         "difficult": "5",
         "difficult_criteria": "2級以上の単語"
     },
@@ -3589,7 +3583,7 @@
     },
     {
         "word": "life",
-        "meaning": "1. 生命、いのち（複 lives）　2. 終生、一生　3. 人生　4. 生活、暮らし　　  ",
+        "meaning": "1. 生命、いのち（複 lives）　2. 終生、一生　3. 人生　4. 生活、暮らし",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -3601,7 +3595,7 @@
     },
     {
         "word": "line",
-        "meaning": "1. 線、電話線　2. （文字の）行　　3. (バス・列車・飛行機などの)路線　4. (役者の)せりふ、(文章などの)行　　　    ",
+        "meaning": "1. 線、電話線　2. （文字の）行　3. (バス・列車・飛行機などの)路線　4. (役者の)せりふ、(文章などの)行　  ",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -3637,7 +3631,7 @@
     },
     {
         "word": "look",
-        "meaning": "見ること、一見　　〔 have ［take］ a look at ～の形で〕～を見る",
+        "meaning": "見ること、一見　〔 have ［take］ a look at ～の形で〕～を見る",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -3649,7 +3643,7 @@
     },
     {
         "word": "love",
-        "meaning": "1. 愛、恋愛　2. 《手紙などの結びのことば》 〔たとえば Love, Lisa の形で〕 リサより　　",
+        "meaning": "1. 愛、恋愛　2. 《手紙などの結びのことば》 〔たとえば Love, Lisa の形で〕 リサより　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -3895,7 +3889,7 @@
     },
     {
         "word": "mind",
-        "meaning": "心　[keep A in mindの形で］Aを心に留めておく　　　 [make up my mindの形で］決心する",
+        "meaning": "心　[keep A in mindの形で］Aを心に留めておく　 [make up my mindの形で］決心する",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -4687,7 +4681,7 @@
     },
     {
         "word": "phone",
-        "meaning": "電話　　〔 telephone の略〕",
+        "meaning": "電話　〔 telephone の略〕",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -4777,13 +4771,7 @@
     },
     {
         "word": "plan",
-        "meaning": "1. 事業　2. 計画、案、考え、予定　　  ",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "plane",
-        "meaning": "飛行機",
+        "meaning": "1. 事業　2. 計画、案、考え、予定",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -5095,7 +5083,7 @@
     },
     {
         "word": "question",
-        "meaning": "1. 質問、問い　2. 問題、論点　　",
+        "meaning": "1. 質問、問い　2. 問題、論点　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -5305,7 +5293,7 @@
     },
     {
         "word": "river",
-        "meaning": "川　　　〔たとえば the Mabechi River の形で馬淵川〕　",
+        "meaning": "川　〔たとえば the Mabechi River の形で馬淵川〕　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -5437,7 +5425,7 @@
     },
     {
         "word": "school",
-        "meaning": "学校　　〔たとえばgo to school の形で〕 学校へ行く、学校に通っている",
+        "meaning": "学校〔たとえばgo to school の形で〕 学校へ行く、学校に通っている",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -5623,7 +5611,7 @@
     },
     {
         "word": "shoe",
-        "meaning": "くつ　　〔たとえば a pair of shoes の形で〕　くつ１足",
+        "meaning": "くつ　〔たとえば a pair of shoes の形で〕　くつ１足",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -5845,7 +5833,7 @@
     },
     {
         "word": "sock",
-        "meaning": "ソックス、（短い）くつ下　　〔a pair of socks の形で〕　くつ下１足",
+        "meaning": "ソックス、（短い）くつ下　〔a pair of socks の形で〕　くつ下１足",
         "difficult": "2",
         "difficult_criteria": "準2級以上の単語"
     },
@@ -5923,7 +5911,7 @@
     },
     {
         "word": "space",
-        "meaning": "1. 宇宙、宇宙空間　2. 空間、場所、スペース　　",
+        "meaning": "1. 宇宙、宇宙空間　2. 空間、場所、スペース　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -5977,7 +5965,7 @@
     },
     {
         "word": "spring",
-        "meaning": "1. 春　2. 泉　〔hot spring の形で〕　温泉    　　",
+        "meaning": "1. 春　2. 泉　〔hot spring の形で〕　温泉    　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -6037,7 +6025,7 @@
     },
     {
         "word": "star",
-        "meaning": "1. 星　2. (映画・スポーツなどの)スター　　 　",
+        "meaning": "1. 星　2. (映画・スポーツなどの)スター　 　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -6175,7 +6163,7 @@
     },
     {
         "word": "subject",
-        "meaning": "1. (主）題、トピック、テーマ　2.教科　　",
+        "meaning": "1. (主）題、トピック、テーマ　2.教科　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -6307,7 +6295,7 @@
     },
     {
         "word": "system",
-        "meaning": "1.　組織　　　　2.　制度、システム",
+        "meaning": "1.　組織　2.　制度、システム",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -6547,7 +6535,7 @@
     },
     {
         "word": "thought",
-        "meaning": "1. 考えること、思考　2. 考え､思想　　 ",
+        "meaning": "1. 考えること、思考　2. 考え､思想　 ",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -6673,7 +6661,7 @@
     },
     {
         "word": "touch",
-        "meaning": "接触　　〔keep in touchで〕連絡をとり続ける",
+        "meaning": "接触　〔keep in touchで〕連絡をとり続ける",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -6787,7 +6775,7 @@
     },
     {
         "word": "trip",
-        "meaning": "旅行 《比較的短期間のものについていう》　　〔たとえば go on a school trip の形で〕修学旅行に行く",
+        "meaning": "旅行 《比較的短期間のものについていう》　〔たとえば go on a school trip の形で〕修学旅行に行く",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -6835,7 +6823,7 @@
     },
     {
         "word": "turn",
-        "meaning": "番、順番　　〔in turnで〕代わって今度は",
+        "meaning": "番、順番　〔in turnで〕代わって今度は",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -7369,7 +7357,7 @@
     },
     {
         "word": "woman",
-        "meaning": "女性、女の人　　〔複数形は women 〕",
+        "meaning": "女性、女の人　〔複数形は women 〕",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -7393,13 +7381,13 @@
     },
     {
         "word": "word",
-        "meaning": "1. ことば、発言　2. 語、単語　　",
+        "meaning": "1. ことば、発言　2. 語、単語　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
     {
         "word": "work",
-        "meaning": "1. 仕事、勉強　2. 作品　　 ",
+        "meaning": "1. 仕事、勉強　2. 作品　 ",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -7549,7 +7537,7 @@
     },
     {
         "word": "everything",
-        "meaning": "あらゆること［もの］、何もかも　　〔単数扱い〕",
+        "meaning": "あらゆること［もの］、何もかも　〔単数扱い〕",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -7561,7 +7549,7 @@
     },
     {
         "word": "her",
-        "meaning": "1. 彼女を［に］　2. 彼女の　　　",
+        "meaning": "1. 彼女を［に］　2. 彼女の　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -7591,7 +7579,7 @@
     },
     {
         "word": "his",
-        "meaning": "1. 彼の　2. 彼のもの　 　　　",
+        "meaning": "1. 彼の　2. 彼のもの　 　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -7717,7 +7705,7 @@
     },
     {
         "word": "some",
-        "meaning": "1. （全体の中の）一部分、一部の人々　2. いくつか、いくらか、いく人か　　　",
+        "meaning": "1. （全体の中の）一部分、一部の人々　2. いくつか、いくらか、いく人か　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -7813,7 +7801,7 @@
     },
     {
         "word": "who",
-        "meaning": "1. だれ　2.〔関係代名詞で〕～である[する](ところの)　　　",
+        "meaning": "1. だれ　2.〔関係代名詞で〕～である[する](ところの)　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -8065,7 +8053,7 @@
     },
     {
         "word": "call",
-        "meaning": "1. （大声で）呼ぶ　2. ～を呼び寄せる 　　3. 電話をかける　4. 〔call A B の形で〕 ＡをＢと呼ぶ、名づける　5. [call ～ backの形で] ～におりかえし電話する",
+        "meaning": "1. （大声で）呼ぶ　2. ～を呼び寄せる 　3. 電話をかける　4. 〔call A B の形で〕 ＡをＢと呼ぶ、名づける　5. [call ～ backの形で] ～におりかえし電話する",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -8461,7 +8449,7 @@
     },
     {
         "word": "feel",
-        "meaning": "1. ～と感じる、～と思う　2. ～を感じる　　",
+        "meaning": "1. ～と感じる、～と思う　2. ～を感じる　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -8635,7 +8623,7 @@
     },
     {
         "word": "help",
-        "meaning": "1. ～を助ける、援助する　2. （～を）手伝う、助ける　〔May I help you? の形で〕 《店員が客に対して》 いらっしゃいませ　〔help A with B の形で〕 ＡのＢを手伝う　　3.〔Please help yourself. の形で〕 どうぞご自由にとって食べて（飲んで）ください　  　　　　 ",
+        "meaning": "1. ～を助ける、援助する　2. （～を）手伝う、助ける　〔May I help you? の形で〕 《店員が客に対して》 いらっしゃいませ　〔help A with B の形で〕 ＡのＢを手伝う　3.〔Please help yourself. の形で〕 どうぞご自由にとって食べて（飲んで）ください　  　 ",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -8677,7 +8665,7 @@
     },
     {
         "word": "hurt",
-        "meaning": "1. 痛む 〔過去形、過去分詞形もhurt〕　2. ～を傷つける、～にケガをさせる　　 ",
+        "meaning": "1. 痛む 〔過去形、過去分詞形もhurt〕　2. ～を傷つける、～にケガをさせる　 ",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -8797,7 +8785,7 @@
     },
     {
         "word": "know",
-        "meaning": "～を知っている、わかる　　  ",
+        "meaning": "～を知っている、わかる",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -8983,7 +8971,7 @@
     },
     {
         "word": "need",
-        "meaning": "～が必要である　　[need to～の形で］～する必要がある",
+        "meaning": "～が必要である　[need to～の形で］～する必要がある",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -9355,7 +9343,7 @@
     },
     {
         "word": "run",
-        "meaning": "1. (人・動物が）走る　　〔過去分詞もrun〕　2. ～を経営する　3. （川などが）流れる",
+        "meaning": "1. (人・動物が）走る　〔過去分詞もrun〕　2. ～を経営する　3. （川などが）流れる",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -9799,7 +9787,7 @@
     },
     {
         "word": "wait",
-        "meaning": "待つ　　〔wait for ～の形で〕～を待つ",
+        "meaning": "待つ　〔wait for ～の形で〕～を待つ",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -9913,7 +9901,7 @@
     },
     {
         "word": "are",
-        "meaning": "1. 〔現在進行形やbe going to do ～の形で用いる〕　2. 〔受け身の文を作る〕　　",
+        "meaning": "1. 〔現在進行形やbe going to do ～の形で用いる〕　2. 〔受け身の文を作る〕　",
         "difficult": "2",
         "difficult_criteria": "準2級以上の単語"
     },
@@ -9991,7 +9979,7 @@
     },
     {
         "word": "shall",
-        "meaning": "《相手の意思をたずねて》　〔Shall I do ～ ?の形で〕 (私が）～しましょうか　　《Weの中に相手を含め、相手の意思をたずねて》　〔Shall we do ～?〕　(私たちは）～しましょうか",
+        "meaning": "《相手の意思をたずねて》　〔Shall I do ～ ?の形で〕 (私が）～しましょうか　《Weの中に相手を含め、相手の意思をたずねて》　〔Shall we do ～?〕　(私たちは）～しましょうか",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -10081,7 +10069,7 @@
     },
     {
         "word": "any",
-        "meaning": "1. 〔疑問文で〕 何か（の）、少しでも　2. 〔肯定文で〕 どのような～でも　　　3. 〔否定文で〕 少しも、だれも、何も（～ない）",
+        "meaning": "1. 〔疑問文で〕 何か（の）、少しでも　2. 〔肯定文で〕 どのような～でも　3. 〔否定文で〕 少しも、だれも、何も（～ない）",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -10717,7 +10705,7 @@
     },
     {
         "word": "happy",
-        "meaning": "1. 幸せな､うれしい､たのしい　2. おめでとう 〔たとえば Happy New Year! 等の形で〕 新年おめでとう　　　　 ",
+        "meaning": "1. 幸せな､うれしい､たのしい　2. おめでとう 〔たとえば Happy New Year! 等の形で〕 新年おめでとう　 ",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -10747,7 +10735,7 @@
     },
     {
         "word": "high",
-        "meaning": "1. （高さ・値段・程度・地位が）高い　2. 高さが～で　　 ",
+        "meaning": "1. （高さ・値段・程度・地位が）高い　2. 高さが～で　 ",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -10771,7 +10759,7 @@
     },
     {
         "word": "hot",
-        "meaning": "1. 熱い　2. 暑い　　　　  ",
+        "meaning": "1. 熱い　2. 暑い　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -11119,7 +11107,7 @@
     },
     {
         "word": "next",
-        "meaning": "次の、今度の　　",
+        "meaning": "次の、今度の　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -11737,7 +11725,7 @@
     },
     {
         "word": "strong",
-        "meaning": "強い　　　",
+        "meaning": "強い　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -11785,7 +11773,7 @@
     },
     {
         "word": "tall",
-        "meaning": "1. 高い、背の高い　2. 〔高さを表す表現のあとに置いて〕 身長［高さ］が～で　　",
+        "meaning": "1. 高い、背の高い　2. 〔高さを表す表現のあとに置いて〕 身長［高さ］が～で　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -11839,7 +11827,7 @@
     },
     {
         "word": "third",
-        "meaning": "３番目の　　　〔third floor で〕３階",
+        "meaning": "３番目の　〔third floor で〕３階",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -12163,7 +12151,7 @@
     },
     {
         "word": "wrong",
-        "meaning": "1. 間違った　2. 具合･調子の悪い　　 ",
+        "meaning": "1. 間違った　2. 具合･調子の悪い　 ",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -12859,7 +12847,7 @@
     },
     {
         "word": "short",
-        "meaning": "急に､突然　　〔cut shortで〕～を急に終わらせる",
+        "meaning": "急に､突然　〔cut shortで〕～を急に終わらせる",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -13135,7 +13123,7 @@
     },
     {
         "word": "at",
-        "meaning": "1. 《時の一点を表して》 ～に、～時に　2. 《方向・対象を表して》 ～を  〔たとえば look at ～ の形で〕 ～を見る　3. 《場所を表して》～で、～に　〔たとえば at home の形で〕 自宅で　　4. ～に関して、～の点において、～の点で ",
+        "meaning": "1. 《時の一点を表して》 ～に、～時に　2. 《方向・対象を表して》 ～を  〔たとえば look at ～ の形で〕 ～を見る　3. 《場所を表して》～で、～に　〔たとえば at home の形で〕 自宅で　4. ～に関して、～の点において、～の点で ",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -13165,7 +13153,7 @@
     },
     {
         "word": "by",
-        "meaning": "1. 《動作主を示して》 ～によって、～による〔主に受け身の文で〕　2. 《位置を表して》 ～のそばに　3. 《交通・通信などの手段を示して》 ～で、～によって　　4. ～までには　5. ～にもとづいて　 ",
+        "meaning": "1. 《動作主を示して》 ～によって、～による〔主に受け身の文で〕　2. 《位置を表して》 ～のそばに　3. 《交通・通信などの手段を示して》 ～で、～によって　4. ～までには　5. ～にもとづいて　 ",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -13195,7 +13183,7 @@
     },
     {
         "word": "in",
-        "meaning": "1. 《場所・空間・位置・関係を示して》～の中に［で］、～に［で］、～では、～において　2. 《時期・期間・年代などの時を示して》～に　　3. 《分野・限定を示して》～に関して、～について　4. 《時間の経過を示して》～の後に、～たって、～のうちに　5. 《状態を示して》～の状態に［で］　6. 《行為の対象を示して》～を、～に対して　7. ≪手段を示して≫～で　8. ≪着用を示して≫～を身につけて、～を着て　9. ≪所属を示して≫～に所属して、～に従事して 　　　   　  　　",
+        "meaning": "1. 《場所・空間・位置・関係を示して》～の中に［で］、～に［で］、～では、～において　2. 《時期・期間・年代などの時を示して》～に　3. 《分野・限定を示して》～に関して、～について　4. 《時間の経過を示して》～の後に、～たって、～のうちに　5. 《状態を示して》～の状態に［で］　6. 《行為の対象を示して》～を、～に対して　7. ≪手段を示して≫～で　8. ≪着用を示して≫～を身につけて、～を着て　9. ≪所属を示して≫～に所属して、～に従事して 　 　  　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -13225,7 +13213,7 @@
     },
     {
         "word": "of",
-        "meaning": "1. 《性質・属性・起源を表して》 ～の 〔たとえばthe leg of the tableの形で〕テーブルのあし　2. 《単位・分量・容器などを表して》 ～の　〔たとえば a cup of coffee の形で〕一杯のコーヒー  　3. 《意味上の主語を示して》 ～の　〔たとえば the visit of an ALT〕 ALTの訪問　 　4. 《意味上の目的語を示して》 ～の　〔たとえば her love of sports の形で〕 彼女のスポーツ愛好　　　5. 《同格の関係を表して》 ～の　〔たとえば the city of Goshogawara の形で〕 五所川原市　6. 《材料・構成物を表して》 ～の　〔たとえば a family of five の形で〕 ５人家族　7. 《全体に対する部分を表して》 ～の（中の） 〔たとえば a member of the baseball team の形で〕 野球部の一員 　8.［it is A of B to～の形で］～するとはBはAである　9.～から（離れて）　［たとえばin front of～の形で］～の前　10.～で（できている）、～（製）",
+        "meaning": "1. 《性質・属性・起源を表して》 ～の 〔たとえばthe leg of the tableの形で〕テーブルのあし　2. 《単位・分量・容器などを表して》 ～の　〔たとえば a cup of coffee の形で〕一杯のコーヒー  　3. 《意味上の主語を示して》 ～の　〔たとえば the visit of an ALT〕 ALTの訪問　 　4. 《意味上の目的語を示して》 ～の　〔たとえば her love of sports の形で〕 彼女のスポーツ愛好　5. 《同格の関係を表して》 ～の　〔たとえば the city of Goshogawara の形で〕 五所川原市　6. 《材料・構成物を表して》 ～の　〔たとえば a family of five の形で〕 ５人家族　7. 《全体に対する部分を表して》 ～の（中の） 〔たとえば a member of the baseball team の形で〕 野球部の一員 　8.［it is A of B to～の形で］～するとはBはAである　9.～から（離れて）　［たとえばin front of～の形で］～の前　10.～で（できている）、～（製）",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -13267,7 +13255,7 @@
     },
     {
         "word": "through",
-        "meaning": "1. 《原因・手段を表して》 ～によって、～を通じて　2. 《期間を表して》 ～の間中（じゅう）　3.  《通過・貫通》 ～を通して　　",
+        "meaning": "1. 《原因・手段を表して》 ～によって、～を通じて　2. 《期間を表して》 ～の間中（じゅう）　3.  《通過・貫通》 ～を通して　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -13279,7 +13267,7 @@
     },
     {
         "word": "to",
-        "meaning": "1. 《動作の対象などを表して》 ～に、～に対して　2. 《到達点、方向、行き先など》 ～に、～へ、～まで　　　3. 〔原因・理由を表す不定詞で〕 ～して　4. 〔名詞のはたらきをする不定詞で〕 ～すること　　　5. 〔形容詞のはたらきをする不定詞で〕 ～するための、するべき　6. 〔目的を表す不定詞で〕 ～するために　7.  ～にとって　〔たとえば important to all of us の形で〕 私たち全員にとって重要な　8. ～に合わせて　 ",
+        "meaning": "1. 《動作の対象などを表して》 ～に、～に対して　2. 《到達点、方向、行き先など》 ～に、～へ、～まで　3. 〔原因・理由を表す不定詞で〕 ～して　4. 〔名詞のはたらきをする不定詞で〕 ～すること　5. 〔形容詞のはたらきをする不定詞で〕 ～するための、するべき　6. 〔目的を表す不定詞で〕 ～するために　7.  ～にとって　〔たとえば important to all of us の形で〕 私たち全員にとって重要な　8. ～に合わせて　 ",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -13351,7 +13339,7 @@
     },
     {
         "word": "as",
-        "meaning": "1. 《比較を表して》 〔 as A as B の形で、前の as が副詞 〕　Ｂと同じくらいＡな［で］　2. 《様態を表して》 ～のとおり（に）　3. 《時を表して》 ～のとき、～しながら　　",
+        "meaning": "1. 《比較を表して》 〔 as A as B の形で、前の as が副詞 〕　Ｂと同じくらいＡな［で］　2. 《様態を表して》 ～のとおり（に）　3. 《時を表して》 ～のとき、～しながら　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -13447,7 +13435,7 @@
     },
     {
         "word": "in",
-        "meaning": "1. 《場所・空間・位置・関係を示して》～の中に［で］、～に［で］、～では、～において　2. 《時期・期間・年代などの時を示して》～に　　3. 《分野・限定を示して》～に関して、～について　4. 《時間の経過を示して》～の後に、～たって、～のうちに　5. 《状態を示して》～の状態に［で］　6. 《行為の対象を示して》～を、～に対して　7. ≪手段を示して≫～で　8. ≪着用を示して≫～を身につけて、～を着て　9. ≪所属を示して≫～に所属して、～に従事して 　　　   　  　　",
+        "meaning": "1. 《場所・空間・位置・関係を示して》～の中に［で］、～に［で］、～では、～において　2. 《時期・期間・年代などの時を示して》～に　3. 《分野・限定を示して》～に関して、～について　4. 《時間の経過を示して》～の後に、～たって、～のうちに　5. 《状態を示して》～の状態に［で］　6. 《行為の対象を示して》～を、～に対して　7. ≪手段を示して≫～で　8. ≪着用を示して≫～を身につけて、～を着て　9. ≪所属を示して≫～に所属して、～に従事して 　 　  　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -13477,7 +13465,7 @@
     },
     {
         "word": "of",
-        "meaning": "1. 《性質・属性・起源を表して》 ～の 〔たとえばthe leg of the tableの形で〕テーブルのあし　2. 《単位・分量・容器などを表して》 ～の　〔たとえば a cup of coffee の形で〕一杯のコーヒー  　3. 《意味上の主語を示して》 ～の　〔たとえば the visit of an ALT〕 ALTの訪問　 　4. 《意味上の目的語を示して》 ～の　〔たとえば her love of sports の形で〕 彼女のスポーツ愛好　　　5. 《同格の関係を表して》 ～の　〔たとえば the city of Goshogawara の形で〕 五所川原市　6. 《材料・構成物を表して》 ～の　〔たとえば a family of five の形で〕 ５人家族　7. 《全体に対する部分を表して》 ～の（中の） 〔たとえば a member of the baseball team の形で〕 野球部の一員 　8.［it is A of B to～の形で］～するとはBはAである　9.～から（離れて）　［たとえばin front of～の形で］～の前　10.～で（できている）、～（製）",
+        "meaning": "1. 《性質・属性・起源を表して》 ～の 〔たとえばthe leg of the tableの形で〕テーブルのあし　2. 《単位・分量・容器などを表して》 ～の　〔たとえば a cup of coffee の形で〕一杯のコーヒー  　3. 《意味上の主語を示して》 ～の　〔たとえば the visit of an ALT〕 ALTの訪問　 　4. 《意味上の目的語を示して》 ～の　〔たとえば her love of sports の形で〕 彼女のスポーツ愛好　5. 《同格の関係を表して》 ～の　〔たとえば the city of Goshogawara の形で〕 五所川原市　6. 《材料・構成物を表して》 ～の　〔たとえば a family of five の形で〕 ５人家族　7. 《全体に対する部分を表して》 ～の（中の） 〔たとえば a member of the baseball team の形で〕 野球部の一員 　8.［it is A of B to～の形で］～するとはBはAである　9.～から（離れて）　［たとえばin front of～の形で］～の前　10.～で（できている）、～（製）",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -13519,7 +13507,7 @@
     },
     {
         "word": "through",
-        "meaning": "1. 《原因・手段を表して》 ～によって、～を通じて　2. 《期間を表して》 ～の間中（じゅう）　3.  《通過・貫通》 ～を通して　　",
+        "meaning": "1. 《原因・手段を表して》 ～によって、～を通じて　2. 《期間を表して》 ～の間中（じゅう）　3.  《通過・貫通》 ～を通して　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -13531,7 +13519,7 @@
     },
     {
         "word": "to",
-        "meaning": "1. 《動作の対象などを表して》 ～に、～に対して　2. 《到達点、方向、行き先など》 ～に、～へ、～まで　　　3. 〔原因・理由を表す不定詞で〕 ～して　4. 〔名詞のはたらきをする不定詞で〕 ～すること　　　5. 〔形容詞のはたらきをする不定詞で〕 ～するための、するべき　6. 〔目的を表す不定詞で〕 ～するために　7.  ～にとって　〔たとえば important to all of us の形で〕 私たち全員にとって重要な　8. ～に合わせて　 ",
+        "meaning": "1. 《動作の対象などを表して》 ～に、～に対して　2. 《到達点、方向、行き先など》 ～に、～へ、～まで　3. 〔原因・理由を表す不定詞で〕 ～して　4. 〔名詞のはたらきをする不定詞で〕 ～すること　5. 〔形容詞のはたらきをする不定詞で〕 ～するための、するべき　6. 〔目的を表す不定詞で〕 ～するために　7.  ～にとって　〔たとえば important to all of us の形で〕 私たち全員にとって重要な　8. ～に合わせて　 ",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -13579,7 +13567,7 @@
     },
     {
         "word": "the",
-        "meaning": "1. 〔特定のものや前後関係で何を指すかわかる名詞の前につける〕　2. 〔最上級の前につける〕　3. 〔唯一のものの前につける〕　4. 〔川・複数形の国名など、特定の固有名詞とともに〕　　　 　 　",
+        "meaning": "1. 〔特定のものや前後関係で何を指すかわかる名詞の前につける〕　2. 〔最上級の前につける〕　3. 〔唯一のものの前につける〕　4. 〔川・複数形の国名など、特定の固有名詞とともに〕　 　 　",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -13597,7 +13585,7 @@
     },
     {
         "word": "hello",
-        "meaning": "1. こんにちは　2. 《電話で》 もしもし 　　　3. やあ、あのー、もしもし",
+        "meaning": "1. こんにちは　2. 《電話で》 もしもし 　3. やあ、あのー、もしもし",
         "difficult": "2",
         "difficult_criteria": "準2級以上の単語"
     },
