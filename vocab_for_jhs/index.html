@@ -110,9 +110,8 @@
                 let current = 1;
                 let correct = 0;
                 let incorrect = 0;
-                let correct_answers = [];
-                let incorrect_answers = [];
-                const question_limit = 30;
+                let answers = [];
+                const question_limit = 5;
 
                 // 進捗を表示
                 progress(current, question_limit);
@@ -128,10 +127,10 @@
                         console.log(answer, word["word"]);
                         if (answer == word["word"]) {
                             correct++;
-                            correct_answers.push(word["word"]);
+                            answers.push([answer, "correct", word["word"]]);
                         } else {
                             incorrect++;
-                            incorrect_answers.push(word["word"]);
+                            answers.push([answer, "incorrect", word["word"]]);
                         }
                         $("#enter_text").val("");
                         $("#enter_text").focus();
@@ -154,12 +153,12 @@
                             // 問題の正誤を書き込む。また間違えた問題には正解を表示する
                             result += "<br><br>";
                             result += "正誤一覧<br>";
-                            for (let i = 0; i < correct_answers.length; i++) {
-                                result += `Q${i + 1}：正解<br>`;
-                            }
-
-                            for (let i = 0; i < incorrect_answers.length; i++) {
-                                result += `Q${i + 1}：不正解 (正答：${incorrect_answers[i]})<br>`;
+                            for (let i = 0; i < answers.length; i++) {
+                                if (answers[i][1] == "correct") {
+                                    result += `<span style="color: green; font-size: 30px;">${answers[i][0]}</span>：正解<br>`;
+                                } else {
+                                    result += `<span style="color: red; font-size: 30px;">${answers[i][0] == "" ? "(未回答)" : answers[i][0]}</span>：不正解（正解：${answers[i][2]}）<br>`;
+                                }
                             }
 
                             $("#popup_window").html(result);
