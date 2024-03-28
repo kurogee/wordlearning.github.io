@@ -183,13 +183,13 @@
                             $("#check_wrong_questions").prop("disabled", true);
                         }
 
-                        $("#question").text(word.meaning);
+                        $("#question").text(word.meaning.split(word.word).join("―"));
                         $("#enter_text").val("");
                         $("#enter_text").focus();
 
                         $("#enter_text").off("keypress").keypress(async function(e) {
                             if (e.which == 13) {
-                                if ($("#enter_text").val() == word.word) {
+                                if ($("#enter_text").val().toLowerCase() == word.word.toLowerCase()) {
                                     // 正解の音声を再生
                                     correct_audio.currentTime = 0;
                                     correct_audio.play();

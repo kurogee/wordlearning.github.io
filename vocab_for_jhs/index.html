@@ -91,7 +91,7 @@
                     let word = words[Math.floor(Math.random() * words.length)];
 
                     // 問題を表示
-                    $("#question").text(word["meaning"]);
+                    $("#question").text(word["meaning"].split(word["word"]).join("―"));
                     resolve({"word": word["word"], "meaning": word["meaning"]});
                 });
             }
@@ -125,7 +125,7 @@
                     if (e.which == 13) {
                         let answer = $("#enter_text").val();
                         console.log(answer, word["word"]);
-                        if (answer == word["word"]) {
+                        if (answer.toLowerCase() == word["word"].toLowerCase()) {
                             correct++;
                             answers.push([answer, "correct", word["word"]]);
                         } else {
@@ -151,15 +151,39 @@
                                     理解度：${Math.round(correct / question_limit * 100)}%<br>
                                     再読込で再テスト`;
                             // 問題の正誤を書き込む。また間違えた問題には正解を表示する
-                            result += "<br><br>";
+                            result += "<br>";
                             result += "正誤一覧<br>";
+                            result += `
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 10%;">#</th>
+                                                <th style="width: 30%;">回答</th>
+                                                <th style="width: 30%;">正誤</th>
+                                                <th style="width: 30%;">正解</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>`;
                             for (let i = 0; i < answers.length; i++) {
                                 if (answers[i][1] == "correct") {
-                                    result += `<span style="color: green; font-size: 30px;">${answers[i][0]}</span>：正解<br>`;
+                                    result += `
+                                            <tr>
+                                                <td>${i + 1}</td>
+                                                <td>${answers[i][0] == "" ? "(未回答)" : answers[i][0]}</td>
+                                                <td style="color: blue;">正解</td>
+                                                <td>${answers[i][2]}</td>
+                                            </tr>`;
                                 } else {
-                                    result += `<span style="color: red; font-size: 30px;">${answers[i][0] == "" ? "(未回答)" : answers[i][0]}</span>：不正解（正解：${answers[i][2]}）<br>`;
+                                    result += `
+                                            <tr>
+                                                <td>${i + 1}</td>
+                                                <td>${answers[i][0] == "" ? "(未回答)" : answers[i][0]}</td>
+                                                <td style="color: red;">不正解</td>
+                                                <td>${answers[i][2]}</td>
+                                            </tr>`;
                                 }
                             }
+                            result += "</tbody></table>";
 
                             $("#popup_window").html(result);
 
