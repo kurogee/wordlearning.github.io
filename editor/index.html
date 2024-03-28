@@ -85,6 +85,7 @@
         <hr>
         <div id="box">
             <br>
+            <label for="pass_example">例文の入力を常にパスする：<input type="checkbox" id="pass_example"></label>
             <table id="table_for_editor">
                 <thead>
                     <tr>
@@ -203,12 +204,37 @@
                 $(".textbox").on("keypress", function(e) {
                     if (e.which == 13) {
                         // 一番最後の場合は、次のテキストボックスにフォーカスを移動しない
-                        if ($(".textbox").index(this) == $(".textbox").length - 1) {
+                        if ($(".textbox").index(this) == $(".textbox").length - 1 || $("#pass_example").prop("checked") && $(".textbox").index(this) == 2) {
                             return;
                         }
+
                         e.preventDefault();
                         let index = $(".textbox").index(this);
                         $(".textbox").eq(index + 1).focus();
+                    }
+                });
+
+                $(".textbox").eq(1).on("keypress", function(e) {
+                    if ($("#pass_example").prop("checked") == false) return;
+                    if (e.which == 13) {
+                        e.preventDefault();
+                        let word = $("#word").val();
+                        let meaning = $("#meaning").val();
+                        let example = "";
+                        let example_ja = "";
+                        // tableにデータを追加（普通のテキストで）
+                        $("#table_for_editor tbody").append(`
+                            <tr>
+                                <td id="word">${word}</td>
+                                <td id="meaning">${meaning}</td>
+                                <td id="example">${example}</td>
+                                <td id="example_ja">${example_ja}</td>
+                                <td><button class='delete'>削除</button></td>
+                            </tr>`);
+                        // テキストボックスを空にする
+                        $(".textbox").val("");
+                        // フォーカスを単語のテキストボックスに移動
+                        $("#word").focus();
                     }
                 });
 
@@ -216,10 +242,10 @@
                 $(".textbox").last().on("keypress", function(e) {
                     if (e.which == 13) {
                         e.preventDefault();
-                        var word = $("#word").val();
-                        var meaning = $("#meaning").val();
-                        var example = $("#example").val();
-                        var example_ja = $("#example_ja").val();
+                        let word = $("#word").val();
+                        let meaning = $("#meaning").val();
+                        let example = $("#example").val();
+                        let example_ja = $("#example_ja").val();
                         // tableにデータを追加（普通のテキストで）
                         $("#table_for_editor tbody").append(`
                             <tr>
