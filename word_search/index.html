@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <title>単語学習アプリ - ひたすら一問一答</title>
+        <title>単語学習アプリ - ワードサーチ</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -147,8 +147,9 @@
                             <table>
                                 <thead>
                                     <tr>
-                                        <th style="width: 30%;">単語</th>
-                                        <th style="width: 70%;">意味</th>
+                                        <th style="width: 20%;">単語</th>
+                                        <th style="width: 30%;">意味</th>
+                                        <th style="width: 50%;">詳細</th>
                                     </tr>
                                 </thead>
                                 <tbody>`;
@@ -159,6 +160,7 @@
                                     <tr>
                                         <td>${word[index]}</td>
                                         <td>${meaning[index]}</td>
+                                        <td>${detail[index]}</td>
                                     </tr>`);
                                 } else {
                                     resolve('');
@@ -170,8 +172,9 @@
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th style="width: 30%;">単語</th>
-                                            <th style="width: 70%;">意味</th>
+                                            <th style="width: 20%;">単語</th>
+                                            <th style="width: 30%;">意味</th>
+                                            <th style="width: 50%;">詳細</th>
                                         </tr>
                                     </thead>
                                     <tbody>`;
@@ -182,7 +185,62 @@
                                 $("#result_detail").html(result_table);
                             });
                         } else {
-                            $("#result").html("単語が見つかりませんでした。");
+                            // 見つからなかった場合は、含まれているかで検索
+                            let index2;
+                            if ($("#JA_or_EN").prop("checked")) {
+                                index2 = meaning.map((item) => {
+                                    // itemがnullまたはundefinedでないことを確認
+                                    if (item) {
+                                        // itemにinput_textが含まれているかどうか
+                                        return item.toLowerCase().includes(input_text.toLowerCase());
+                                    } else {
+                                        return false;
+                                    }
+                                });
+                            } else {
+                                index2 = word.map((item) => {
+                                    // itemがnullまたはundefinedでないことを確認
+                                    if (item) {
+                                        // itemにinput_textが含まれているかどうか
+                                        return item.toLowerCase().includes(input_text.toLowerCase());
+                                    } else {
+                                        return false;
+                                    }
+                                });
+                            }
+
+                            let count = 0;
+                            let promises = index2.map((item, index) => new Promise((resolve) => {
+                                if (item) {
+                                    resolve(`
+                                    <tr>
+                                        <td>${word[index]}</td>
+                                        <td>${meaning[index]}</td>
+                                        <td>${detail[index]}</td>
+                                    </tr>`);
+                                } else {
+                                    resolve('');
+                                }
+                            }));
+
+                            Promise.all(promises).then((results) => {
+                                let result_table = `
+                                <h3>一致で見つからなかったため、含まれているかで検索します</h3>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 20%;">単語</th>
+                                            <th style="width: 30%;">意味</th>
+                                            <th style="width: 50%;">詳細</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>`;
+                                results.forEach((result) => {
+                                    result_table += result;
+                                });
+                                result_table += "</tbody></table><br>";
+                                $("#result").html(result_table);
+                            });
                         }
 
                         $("#enter_text").val("");
