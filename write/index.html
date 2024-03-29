@@ -176,7 +176,7 @@
                         if (wrong_list.length > 0 && $("#check_wrong_questions").prop("checked")) {
                             const wrong_word = wrong_list[wrong_random];
                             wrong_list = wrong_list.filter((value) => value[0] !== wrong_word[0]);
-                            word = {word: wrong_word[0], meaning: wrong_word[2]};
+                            word = {word: wrong_word[0], meaning: wrong_word[2], sentence: wrong_word[3], sentence_ja: wrong_word[4]};
                         }
 
                         if (wrong_list.length <= 0) {
@@ -196,6 +196,10 @@
                                     correct_audio.play();
 
                                     $("#popup_window").text("正解！");
+                                    if (word.sentence != "" && word.sentence != undefined) {
+                                        $("#popup_window").html($("#popup_window").html() + "<br>例文：" + word.sentence + "<br>意味：" + word.sentence_ja);
+                                    }
+
                                     $("#popup_window").css("background-color", "lightgreen");
                                     $("#popup_window").show();
                                     await new Promise((resolve) => setTimeout(resolve, 1000));
@@ -206,11 +210,15 @@
                                     incorrect_audio.play();
 
                                     $("#popup_window").text("不正解！正解は「" + word.word + "」です。");
+                                    if (word.sentence != "" && word.sentence != undefined) {
+                                        $("#popup_window").html($("#popup_window").html() + "<br>例文：" + word.sentence + "<br>意味：" + word.sentence_ja);
+                                    }
+
                                     $("#popup_window").css("background-color", "lightcoral");
                                     $("#popup_window").show();
                                     await new Promise((resolve) => setTimeout(resolve, 1000));
                                     $("#popup_window").hide();
-                                    wrong_list.push([word.word, path, word.meaning]);
+                                    wrong_list.push([word.word, path, word.meaning, word.sentence, word.sentence_ja]);
                                 }
 
                                 if (wrong_list.length > 0) {
@@ -229,7 +237,7 @@
                 await question(path);
             }
 
-            $(function() {
+            window.addEventListener("DOMContentLoaded", $(function() {
                 $("#use_dataset").change(async function() {
                     if ($("#use_dataset option:selected").prop("path") == "URL") {
                         original_url = prompt("URLを入力してください。");
@@ -266,7 +274,7 @@
                 });
 
                 start_questions();
-            });
+            }));
         </script>
     </body>
 </html>

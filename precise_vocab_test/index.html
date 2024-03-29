@@ -94,10 +94,10 @@
                     let difficulty_hard = data.filter((value) => parseInt(value["difficult"]) >= 8);
 
                     let words;
-                    if (current <= 15) {
+                    if (current <= 25) {
                         words = difficulty_easy;
                         console.log("easy");
-                    } else if (current <= 25) {
+                    } else if (current <= 45) {
                         words = difficulty_normal;
                         console.log("normal");
                     } else {
@@ -137,7 +137,7 @@
                 let correct = 0;
                 let incorrect = 0;
                 let answers = [];
-                const question_limit = 30;
+                const question_limit = 50;
 
                 // 進捗を表示
                 progress(current, question_limit);
@@ -175,13 +175,13 @@
                             let correct_rate = {};
                             for (let i = 0; i < answers.length; i++) {
                                 if (answers[i][1] == "correct") {
-                                    if (i + 1 <= 15) {
+                                    if (i + 1 <= 25) {
                                         if (correct_rate["easy"] == undefined) {
                                             correct_rate["easy"] = 1;
                                         } else {
                                             correct_rate["easy"]++;
                                         }
-                                    } else if (i + 1 <= 25) {
+                                    } else if (i + 1 <= 45) {
                                         if (correct_rate["normal"] == undefined) {
                                             correct_rate["normal"] = 1;
                                         } else {
@@ -198,27 +198,34 @@
                             }
                             // 上の難易度をもとに語彙力を計算
                             let vocabulary_power = 0;
-                            const vocabulary_power_max = 50;
+                            const vocabulary_power_max = 25 * 2 + 20 * 3 + 5 * 5;
                             if (correct_rate["easy"] != undefined) {
-                                vocabulary_power += correct_rate["easy"] * 1;
+                                vocabulary_power += correct_rate["easy"] * 2;
                             }
                             if (correct_rate["normal"] != undefined) {
-                                vocabulary_power += correct_rate["normal"] * 2;
+                                vocabulary_power += correct_rate["normal"] * 3;
                             }
                             if (correct_rate["hard"] != undefined) {
-                                vocabulary_power += correct_rate["hard"] * 3;
+                                vocabulary_power += correct_rate["hard"] * 5;
                             }
 
                             // 英検のレベルに変換
+                            let vocabulary_power_percentage = Math.round(vocabulary_power / vocabulary_power_max * 100);
                             let eiken_level = "";
-                            if (vocabulary_power <= 20) {
-                                eiken_level = "3級以下";
-                            } else if (vocabulary_power <= 30) {
+                            if (vocabulary_power_percentage <= 20) {
+                                eiken_level = "5級";
+                            } else if (vocabulary_power_percentage <= 40) {
+                                eiken_level = "4級";
+                            } else if (vocabulary_power_percentage <= 65) {
+                                eiken_level = "3級";
+                            } else if (vocabulary_power_percentage <= 85) {
                                 eiken_level = "準2級";
-                            } else if (vocabulary_power <= 40) {
+                            } else if (vocabulary_power_percentage <= 90) {
                                 eiken_level = "2級";
+                            } else if (vocabulary_power_percentage <= 95) {
+                                eiken_level = "準1級";
                             } else {
-                                eiken_level = "準1級以上";
+                                eiken_level = "1級";
                             }
 
                             $("#question").text("テスト終了");
