@@ -1020,12 +1020,6 @@
         "difficult_criteria": "準2級以上の単語"
     },
     {
-        "word": "child",
-        "meaning": "子ども",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
         "word": "childhood",
         "meaning": "幼少時代",
         "difficult": "3",
@@ -1614,12 +1608,6 @@
         "difficult_criteria": "準2級以上の単語"
     },
     {
-        "word": "dining",
-        "meaning": "食事",
-        "difficult": "5",
-        "difficult_criteria": "2級以上の単語"
-    },
-    {
         "word": "dinner",
         "meaning": "ディナー、夕食",
         "difficult": "1",
@@ -1648,12 +1636,6 @@
         "meaning": "割引",
         "difficult": "4",
         "difficult_criteria": "2級以上の単語"
-    },
-    {
-        "word": "disease",
-        "meaning": "病気",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
     },
     {
         "word": "dish",
@@ -2023,7 +2005,7 @@
     },
     {
         "word": "examination",
-        "meaning": "試験",
+        "meaning": "試験（「test」の類義語）",
         "difficult": "2",
         "difficult_criteria": "準2級以上の単語"
     },
@@ -2464,12 +2446,6 @@
         "meaning": "金曜日",
         "difficult": "2",
         "difficult_criteria": "準2級以上の単語"
-    },
-    {
-        "word": "fridge",
-        "meaning": "冷蔵庫",
-        "difficult": "12",
-        "difficult_criteria": "1級以上の単語"
     },
     {
         "word": "friend",
@@ -3312,12 +3288,6 @@
         "difficult_criteria": "2級以上の単語"
     },
     {
-        "word": "joy",
-        "meaning": "喜び",
-        "difficult": "2",
-        "difficult_criteria": "準2級以上の単語"
-    },
-    {
         "word": "Judy",
         "meaning": "ジュディ〔女性名〕",
         "difficult": "29",
@@ -3390,7 +3360,7 @@
         "difficult_criteria": "None"
     },
     {
-        "word": "kid",
+        "word": "child",
         "meaning": "子ども",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
@@ -4752,12 +4722,6 @@
         "difficult_criteria": "準2級以上の単語"
     },
     {
-        "word": "pink",
-        "meaning": "ピンク色（の）、もも色（の）",
-        "difficult": "2",
-        "difficult_criteria": "準2級以上の単語"
-    },
-    {
         "word": "pizza",
         "meaning": "ピザ",
         "difficult": "5",
@@ -5070,12 +5034,6 @@
         "difficult_criteria": "準2級以上の単語"
     },
     {
-        "word": "purple",
-        "meaning": "紫色（の）",
-        "difficult": "3",
-        "difficult_criteria": "準2級以上の単語"
-    },
-    {
         "word": "purpose",
         "meaning": "目的",
         "difficult": "1",
@@ -5170,12 +5128,6 @@
         "meaning": "（料理などの）作り方、レシピ",
         "difficult": "4",
         "difficult_criteria": "2級以上の単語"
-    },
-    {
-        "word": "red",
-        "meaning": "赤い、赤色（の）、赤",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
     },
     {
         "word": "refugee",
@@ -5538,20 +5490,8 @@
         "difficult_criteria": "準2級以上の単語"
     },
     {
-        "word": "seven",
-        "meaning": "7、７つの",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
         "word": "seventeen",
         "meaning": "17",
-        "difficult": "2",
-        "difficult_criteria": "準2級以上の単語"
-    },
-    {
-        "word": "seventeenth",
-        "meaning": "17の番目の、１７日",
         "difficult": "2",
         "difficult_criteria": "準2級以上の単語"
     },
@@ -6006,12 +5946,6 @@
         "difficult_criteria": "準2級以上の単語"
     },
     {
-        "word": "stair",
-        "meaning": "階段",
-        "difficult": "2",
-        "difficult_criteria": "準2級以上の単語"
-    },
-    {
         "word": "stairs",
         "meaning": "〔stairsで〕階段",
         "difficult": "2",
@@ -6451,7 +6385,7 @@
     },
     {
         "word": "test",
-        "meaning": "試験、テスト",
+        "meaning": "試験、検査、テスト",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -6519,12 +6453,6 @@
         "word": "thirteenth",
         "meaning": "13番め、（月の）13日",
         "difficult": "2",
-        "difficult_criteria": "準2級以上の単語"
-    },
-    {
-        "word": "thirtieth",
-        "meaning": "30番目（の）、30日",
-        "difficult": "3",
         "difficult_criteria": "準2級以上の単語"
     },
     {
@@ -6868,60 +6796,6 @@
         "meaning": "20",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "twenty-eighth",
-        "meaning": "28番目（の）、28日",
-        "difficult": "22",
-        "difficult_criteria": "None"
-    },
-    {
-        "word": "twenty-fifth",
-        "meaning": "25番目（の）、25日",
-        "difficult": "19",
-        "difficult_criteria": "None"
-    },
-    {
-        "word": "twenty-first",
-        "meaning": "21番目（の）、21日",
-        "difficult": "15",
-        "difficult_criteria": "None"
-    },
-    {
-        "word": "twenty-fourth",
-        "meaning": "24番目（の）、24日",
-        "difficult": "21",
-        "difficult_criteria": "None"
-    },
-    {
-        "word": "twenty-ninth",
-        "meaning": "29番目（の）、29日",
-        "difficult": "23",
-        "difficult_criteria": "None"
-    },
-    {
-        "word": "twenty-second",
-        "meaning": "22番目（の）、22日",
-        "difficult": "22",
-        "difficult_criteria": "None"
-    },
-    {
-        "word": "twenty-seventh",
-        "meaning": "27番目（の）、27日",
-        "difficult": "22",
-        "difficult_criteria": "None"
-    },
-    {
-        "word": "twenty-sixth",
-        "meaning": "26番目（の）、26日",
-        "difficult": "22",
-        "difficult_criteria": "None"
-    },
-    {
-        "word": "twenty-third",
-        "meaning": "23番目（の）、23日",
-        "difficult": "20",
-        "difficult_criteria": "None"
     },
     {
         "word": "two",
@@ -7862,12 +7736,6 @@
     {
         "word": "allow",
         "meaning": "～を許可する",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "am",
-        "meaning": "〔必ず I とともに使って〕 ～です、～だ、～である、（～に）いる",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -8854,12 +8722,6 @@
         "meaning": "持ち上げる",
         "difficult": "2",
         "difficult_criteria": "準2級以上の単語"
-    },
-    {
-        "word": "like",
-        "meaning": "～を好む、～が好きだ",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
     },
     {
         "word": "listen",
@@ -9900,12 +9762,6 @@
         "difficult_criteria": "3級以上の単語"
     },
     {
-        "word": "are",
-        "meaning": "1. 〔現在進行形やbe going to do ～の形で用いる〕　2. 〔受け身の文を作る〕　",
-        "difficult": "2",
-        "difficult_criteria": "準2級以上の単語"
-    },
-    {
         "word": "be",
         "meaning": "1. 〔進行形 (be+doing) や be going to do ～の形で用いる〕　2. 〔受け身(be+ 過去分詞) の形で用いる〕　",
         "difficult": "1",
@@ -10576,12 +10432,6 @@
         "meaning": "5つの",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "fluffy",
-        "meaning": "ふわふわした、柔らかい",
-        "difficult": "11",
-        "difficult_criteria": "1級以上の単語"
     },
     {
         "word": "foreign",
@@ -12552,12 +12402,6 @@
         "difficult_criteria": "3級以上の単語"
     },
     {
-        "word": "in",
-        "meaning": "中へ［に］",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
         "word": "incredibly",
         "meaning": "信じられないほど、すごく",
         "difficult": "11",
@@ -12696,12 +12540,6 @@
         "difficult_criteria": "準2級以上の単語"
     },
     {
-        "word": "off",
-        "meaning": "《くっついた状態からはなれた状態への変化を表して》はなれて、外れて",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
         "word": "often",
         "meaning": "よく､しばしば",
         "difficult": "1",
@@ -12712,12 +12550,6 @@
         "meaning": "1.《提案・依頼などに対する返事として》よろしい、いいよ、わかった　2. 問題ない、大丈夫",
         "difficult": "2",
         "difficult_criteria": "準2級以上の単語"
-    },
-    {
-        "word": "on",
-        "meaning": "1.《付着を表して》離れず、しっかり　〔たとえばのHold on.形で〕（何かに）つかまって、（電話を）切らないでそのまま待って　2.《所持･着用を表して》～を身につけて　3.《継続を表して》先へ、進んで、続けて　〔たとえば go on の形で〕 先を進む、続ける",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
     },
     {
         "word": "once",
@@ -12750,12 +12582,6 @@
         "difficult_criteria": "3級以上の単語"
     },
     {
-        "word": "over",
-        "meaning": "1. 上方に　2. 向こう側へ、超えて　3. 終わって　4. 倒れて、ひっくり返して 〔たとえば Turn over the page. の形で〕 ページをめくりなさい",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
         "word": "overseas",
         "meaning": "海外へ、外国に",
         "difficult": "3",
@@ -12781,7 +12607,7 @@
     },
     {
         "word": "perhaps",
-        "meaning": "たぶん",
+        "meaning": "たぶん（maybeの類義語）",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
@@ -13002,12 +12828,6 @@
         "difficult_criteria": "準2級以上の単語"
     },
     {
-        "word": "up",
-        "meaning": "1. 上へ、上の方へ　2. 立って、起きて、目覚めて　3. すっかり、つきて　〔たとえば Time is up.の形で〕 もう時間です［時間切れです］",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
         "word": "usually",
         "meaning": "たいていは、ふつうは",
         "difficult": "1",
@@ -13172,144 +12992,6 @@
     {
         "word": "for",
         "meaning": "1. 《用途を表して》 ～のために［の］、～用の、～にふさわしい  〔For here. の形で〕 ここで食べます《ファストフード店での会話表現》　2. 〔for example の形で〕 たとえば　3. 《目的を表して》 ～を求めて  〔ask Ａ for Ｂの形で〕 Ａ［人］にＢ［ものごと］を要求する  〔look for ～の形で〕 ～をさがす　4. 《観点・規準を表して》 ～にとっては、～にしては　5. 《期間を表して》 ～の間（ずっと） 〔for a long timeの形で〕 長い　6. 《利益を表して》 ～のための［に］　7. 《対象を示して》～に（対して）　8. 《資格・特性を表して》 ～として　9. 〔It is ～ for Ａ to do…〕 Ａ［人］が･･･するのは～だ　10. ≪同等を示して≫～を意味する　11. ≪原因・理由を表して≫～のために、～が原因で　12. ≪方向を表して≫～へ向かって　13. ≪支持、賛成を表して≫～に賛成して　14. ≪代理を表して≫～のかわりに",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "from",
-        "meaning": "1. 《場所を示して》 ～から　2. 《出所・起源・由来を示して》 ～から（の）、～出身の　3. 《時間を示して》 ～から　 ",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "in",
-        "meaning": "1. 《場所・空間・位置・関係を示して》～の中に［で］、～に［で］、～では、～において　2. 《時期・期間・年代などの時を示して》～に　3. 《分野・限定を示して》～に関して、～について　4. 《時間の経過を示して》～の後に、～たって、～のうちに　5. 《状態を示して》～の状態に［で］　6. 《行為の対象を示して》～を、～に対して　7. ≪手段を示して≫～で　8. ≪着用を示して≫～を身につけて、～を着て　9. ≪所属を示して≫～に所属して、～に従事して 　 　  　",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "including",
-        "meaning": "（～を）含めて",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "into",
-        "meaning": "1. ～へ［に］, ～の中へ［に、で］　2. ≪状態の変化を表して≫～へ、～に（変わって、なって）",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "like",
-        "meaning": "～のような［に］、～に似ている、～に似た",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "near",
-        "meaning": "～の近くの［に、で］",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "of",
-        "meaning": "1. 《性質・属性・起源を表して》 ～の 〔たとえばthe leg of the tableの形で〕テーブルのあし　2. 《単位・分量・容器などを表して》 ～の　〔たとえば a cup of coffee の形で〕一杯のコーヒー  　3. 《意味上の主語を示して》 ～の　〔たとえば the visit of an ALT〕 ALTの訪問　 　4. 《意味上の目的語を示して》 ～の　〔たとえば her love of sports の形で〕 彼女のスポーツ愛好　5. 《同格の関係を表して》 ～の　〔たとえば the city of Goshogawara の形で〕 五所川原市　6. 《材料・構成物を表して》 ～の　〔たとえば a family of five の形で〕 ５人家族　7. 《全体に対する部分を表して》 ～の（中の） 〔たとえば a member of the baseball team の形で〕 野球部の一員 　8.［it is A of B to～の形で］～するとはBはAである　9.～から（離れて）　［たとえばin front of～の形で］～の前　10.～で（できている）、～（製）",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "off",
-        "meaning": "～からはなれて",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "on",
-        "meaning": "1. 《手段・方法を示して》 ～で　〔たとえばon TVの形で〕テレビで　2. 《日付･曜日の前で》 ～に　3. 《接触を表して》 （～の上）に[で]　〔たとえばa book on the desk の形で〕 机の上の本　4. 《状態を表して》 ～中（ちゅう）で、～して　〔たとえばの on my way to school 形で〕 学校へ行く途中で　5. ～に面して、～に接して 〔たとえばthe building on your left〕 あなたの左手の建物　6. ～の一員で　7.（影響・対象）に対して　8.～について（の）、～に関する　9.～で、～（のため）に[たとえばon a tripの形で]",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "over",
-        "meaning": "1. 《ものの上や地域一帯を覆うことを示して》～の上に［で］　2. 〔over＋数字の形で〕～以上の　3. ～の中（じゅう）の［に、を］、～の一面の［に、を］",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "plus",
-        "meaning": "～を加えて",
-        "difficult": "3",
-        "difficult_criteria": "準2級以上の単語"
-    },
-    {
-        "word": "since",
-        "meaning": "～以来（ずっと今まで）、～から今日まで",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "than",
-        "meaning": "～よりも、～にくらべて",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "through",
-        "meaning": "1. 《原因・手段を表して》 ～によって、～を通じて　2. 《期間を表して》 ～の間中（じゅう）　3.  《通過・貫通》 ～を通して　",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "throw",
-        "meaning": "～を投げる",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "to",
-        "meaning": "1. 《動作の対象などを表して》 ～に、～に対して　2. 《到達点、方向、行き先など》 ～に、～へ、～まで　3. 〔原因・理由を表す不定詞で〕 ～して　4. 〔名詞のはたらきをする不定詞で〕 ～すること　5. 〔形容詞のはたらきをする不定詞で〕 ～するための、するべき　6. 〔目的を表す不定詞で〕 ～するために　7.  ～にとって　〔たとえば important to all of us の形で〕 私たち全員にとって重要な　8. ～に合わせて　 ",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "toward",
-        "meaning": "～の方へ、～に向かって",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "under",
-        "meaning": "1. ～の下に［へ、で、の］　2．～のもとで、～に従って",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "until",
-        "meaning": "～まで（ずっと）",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "up",
-        "meaning": "～をあがって",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "upon",
-        "meaning": "（基本的な意味は on とほぼ同じ）",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "with",
-        "meaning": "1. 《手段・道具を表して》 ～で、～を使って　2. 《関連を表して》 ～に関して、ついて  　3. 《付随･所有･属性を表して》 ～のある、を身につけて　4. 《相手を表して》 ～と　 　5. 《同伴を表して》 ～といっしょに　6. 《原因・理由を表して》～が原因で　 ",
-        "difficult": "1",
-        "difficult_criteria": "3級以上の単語"
-    },
-    {
-        "word": "without",
-        "meaning": "～なしで",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },

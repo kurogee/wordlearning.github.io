@@ -24,10 +24,6 @@
         "meaning": "（動）置く"
     },
     {
-        "word": "include",
-        "meaning": "（動）含む"
-    },
-    {
         "word": "turn",
         "meaning": "（動）進路を変える"
     },
@@ -64,10 +60,6 @@
         "meaning": "（動）増加する"
     },
     {
-        "word": "stand",
-        "meaning": "（動）我慢する"
-    },
-    {
         "word": "offer",
         "meaning": "（動）申し出る"
     },
@@ -98,10 +90,6 @@
     {
         "word": "order",
         "meaning": "（動）注文する"
-    },
-    {
-        "word": "happen",
-        "meaning": "（動）起こる"
     },
     {
         "word": "return",
@@ -184,10 +172,6 @@
         "meaning": "（動）受け取る"
     },
     {
-        "word": "reach",
-        "meaning": "（動）到着する"
-    },
-    {
         "word": "bear",
         "meaning": "（動）我慢する"
     },
@@ -260,10 +244,6 @@
         "meaning": "（動）植える"
     },
     {
-        "word": "choose",
-        "meaning": "（動）選ぶ"
-    },
-    {
         "word": "kill",
         "meaning": "（動）殺す"
     },
@@ -294,10 +274,6 @@
     {
         "word": "fit",
         "meaning": "（動）ぴったり合う"
-    },
-    {
-        "word": "notice",
-        "meaning": "（動）気づく"
     },
     {
         "word": "pick",
@@ -346,10 +322,6 @@
     {
         "word": "worry",
         "meaning": "（動）心配する"
-    },
-    {
-        "word": "check",
-        "meaning": "（動）調べる"
     },
     {
         "word": "forget",
@@ -428,10 +400,6 @@
         "meaning": "（動）食べ物を与える"
     },
     {
-        "word": "fix",
-        "meaning": "（動）修理する"
-    },
-    {
         "word": "prefer",
         "meaning": "（動）〜をより好む"
     },
@@ -466,14 +434,6 @@
     {
         "word": "taste",
         "meaning": "（動）の味がする"
-    },
-    {
-        "word": "hurt",
-        "meaning": "（動）傷つける"
-    },
-    {
-        "word": "rent",
-        "meaning": "（動）借りる"
     },
     {
         "word": "other",
@@ -576,14 +536,6 @@
         "meaning": "（形）共通の"
     },
     {
-        "word": "similar",
-        "meaning": "（形）似ている"
-    },
-    {
-        "word": "true",
-        "meaning": "（形）本当の"
-    },
-    {
         "word": "necessary",
         "meaning": "（形）必要な"
     },
@@ -610,10 +562,6 @@
     {
         "word": "natural",
         "meaning": "（形）自然の"
-    },
-    {
-        "word": "normal",
-        "meaning": "（形）普通の"
     },
     {
         "word": "successful",
@@ -852,10 +800,6 @@
         "meaning": "（名）監督"
     },
     {
-        "word": "chance",
-        "meaning": "（名）機会"
-    },
-    {
         "word": "operation",
         "meaning": "（名）手術"
     },
@@ -900,10 +844,6 @@
         "meaning": "（名）選択"
     },
     {
-        "word": "race",
-        "meaning": "（名）競争"
-    },
-    {
         "word": "effort",
         "meaning": "（名）努力"
     },
@@ -918,10 +858,6 @@
     {
         "word": "exercise",
         "meaning": "（名）運動"
-    },
-    {
-        "word": "skill",
-        "meaning": "（名）技術"
     },
     {
         "word": "character",
@@ -954,10 +890,6 @@
     {
         "word": "rock",
         "meaning": "（名）岩"
-    },
-    {
-        "word": "item",
-        "meaning": "（名）品物"
     },
     {
         "word": "advice",
@@ -1084,10 +1016,6 @@
         "meaning": "（副）まだ～ない"
     },
     {
-        "word": "almost",
-        "meaning": "（副）ほとんど"
-    },
-    {
         "word": "far",
         "meaning": "（副）遠くに"
     },
@@ -1122,10 +1050,6 @@
     {
         "word": "finally",
         "meaning": "（副）ついに"
-    },
-    {
-        "word": "quickly",
-        "meaning": "（副）すぐに"
     },
     {
         "word": "recently",
@@ -1200,20 +1124,12 @@
         "meaning": "（前）〜の間ずっと"
     },
     {
-        "word": "provide",
-        "meaning": "（動）供給する"
-    },
-    {
         "word": "support",
         "meaning": "（動）支持する"
     },
     {
         "word": "control",
         "meaning": "（動）管理する"
-    },
-    {
-        "word": "act",
-        "meaning": "（動）行動する"
     },
     {
         "word": "require",
@@ -1254,10 +1170,6 @@
     {
         "word": "reduce",
         "meaning": "（動）減らす"
-    },
-    {
-        "word": "press",
-        "meaning": "（動）押す"
     },
     {
         "word": "measure",
@@ -1318,10 +1230,6 @@
     {
         "word": "announce",
         "meaning": "（動）発表する"
-    },
-    {
-        "word": "treat",
-        "meaning": "（動）扱う"
     },
     {
         "word": "hit",
@@ -1434,10 +1342,6 @@
     {
         "word": "burn",
         "meaning": "（動）燃える"
-    },
-    {
-        "word": "shout",
-        "meaning": "（動）叫ぶ"
     },
     {
         "word": "gather",
@@ -1748,14 +1652,6 @@
         "meaning": "（名）水準"
     },
     {
-        "word": "issue",
-        "meaning": "（名）問題"
-    },
-    {
-        "word": "effect",
-        "meaning": "（名）影響"
-    },
-    {
         "word": "figure",
         "meaning": "（名）人物"
     },
@@ -1784,10 +1680,6 @@
         "meaning": "（名）死"
     },
     {
-        "word": "charge",
-        "meaning": "（名）料金"
-    },
-    {
         "word": "role",
         "meaning": "（名）役"
     },
@@ -1802,10 +1694,6 @@
     {
         "word": "movement",
         "meaning": "（名）動き"
-    },
-    {
-        "word": "site",
-        "meaning": "（名）場所"
     },
     {
         "word": "agreement",
@@ -2080,10 +1968,6 @@
         "meaning": "（名）俳優"
     },
     {
-        "word": "seed",
-        "meaning": "（名）種"
-    },
-    {
         "word": "discovery",
         "meaning": "（名）発見"
     },
@@ -2162,10 +2046,6 @@
     {
         "word": "orchestra",
         "meaning": "（名）管弦楽団"
-    },
-    {
-        "word": "reservation",
-        "meaning": "（名）予約"
     },
     {
         "word": "honey",
@@ -2460,10 +2340,6 @@
         "meaning": "（動）気づく"
     },
     {
-        "word": "link",
-        "meaning": "（動）結びつける"
-    },
-    {
         "word": "prove",
         "meaning": "（動）証明する"
     },
@@ -2508,10 +2384,6 @@
         "meaning": "（動）得る"
     },
     {
-        "word": "separate",
-        "meaning": "（動）分ける"
-    },
-    {
         "word": "tend",
         "meaning": "（動）〜する傾向にある"
     },
@@ -2522,10 +2394,6 @@
     {
         "word": "propose",
         "meaning": "（動）提案する"
-    },
-    {
-        "word": "display",
-        "meaning": "（動）展示する"
     },
     {
         "word": "beat",
@@ -2562,10 +2430,6 @@
     {
         "word": "select",
         "meaning": "（動）選ぶ"
-    },
-    {
-        "word": "employ",
-        "meaning": "（動）雇う"
     },
     {
         "word": "request",
@@ -2880,10 +2744,6 @@
         "meaning": "（形）一般の"
     },
     {
-        "word": "individual",
-        "meaning": "（形）個人の"
-    },
-    {
         "word": "patient",
         "meaning": "（形）我慢強い"
     },
@@ -3018,10 +2878,6 @@
     {
         "word": "plain",
         "meaning": "（形）簡素な"
-    },
-    {
-        "word": "terrible",
-        "meaning": "（形）ひどい"
     },
     {
         "word": "unknown",
@@ -3188,10 +3044,6 @@
         "meaning": "（名）過程"
     },
     {
-        "word": "term",
-        "meaning": "（名）期間"
-    },
-    {
         "word": "matter",
         "meaning": "（名）問題"
     },
@@ -3218,10 +3070,6 @@
     {
         "word": "feature",
         "meaning": "（名）特徴"
-    },
-    {
-        "word": "property",
-        "meaning": "（名）財産"
     },
     {
         "word": "production",
@@ -3258,10 +3106,6 @@
     {
         "word": "fear",
         "meaning": "（名）恐れ"
-    },
-    {
-        "word": "relation",
-        "meaning": "（名）関係"
     },
     {
         "word": "technology",
@@ -3372,10 +3216,6 @@
         "meaning": "（名）反応"
     },
     {
-        "word": "belief",
-        "meaning": "（名）信仰"
-    },
-    {
         "word": "relative",
         "meaning": "（名）親戚"
     },
@@ -3474,10 +3314,6 @@
     {
         "word": "frame",
         "meaning": "（名）枠"
-    },
-    {
-        "word": "instrument",
-        "meaning": "（名）道具"
     },
     {
         "word": "location",
@@ -3942,10 +3778,6 @@
     {
         "word": "naturally",
         "meaning": "（副）自然に"
-    },
-    {
-        "word": "rarely",
-        "meaning": "（副）めったに〜ない"
     },
     {
         "word": "mostly",

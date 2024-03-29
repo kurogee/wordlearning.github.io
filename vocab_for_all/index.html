@@ -93,7 +93,6 @@
                     let difficulty_hard = data.filter((value) => parseInt(value["difficult"]) >= 8);
 
                     let words;
-                    console.log(current);
                     if (current <= 15) {
                         words = difficulty_easy;
                         console.log("easy");
@@ -106,6 +105,7 @@
                     }
 
                     let word = words[Math.floor(Math.random() * words.length)];
+                    console.log(word["word"], word["difficult_criteria"]);
 
                     // 問題を表示
                     $("#question").text(word["meaning"].split(word["word"]).join("―"));
@@ -161,12 +161,65 @@
                             word = await question(path, current);
                         } else {
                             // テスト終了
+
+                            // 難易度ごとの正誤を変数に格納
+                            let correct_rate = {};
+                            for (let i = 0; i < answers.length; i++) {
+                                if (answers[i][1] == "correct") {
+                                    if (i + 1 <= 15) {
+                                        if (correct_rate["easy"] == undefined) {
+                                            correct_rate["easy"] = 1;
+                                        } else {
+                                            correct_rate["easy"]++;
+                                        }
+                                    } else if (i + 1 <= 25) {
+                                        if (correct_rate["normal"] == undefined) {
+                                            correct_rate["normal"] = 1;
+                                        } else {
+                                            correct_rate["normal"]++;
+                                        }
+                                    } else {
+                                        if (correct_rate["hard"] == undefined) {
+                                            correct_rate["hard"] = 1;
+                                        } else {
+                                            correct_rate["hard"]++;
+                                        }
+                                    }
+                                }
+                            }
+                            // 上の難易度をもとに語彙力を計算
+                            let vocabulary_power = 0;
+                            const vocabulary_power_max = 50;
+                            if (correct_rate["easy"] != undefined) {
+                                vocabulary_power += correct_rate["easy"] * 1;
+                            }
+                            if (correct_rate["normal"] != undefined) {
+                                vocabulary_power += correct_rate["normal"] * 2;
+                            }
+                            if (correct_rate["hard"] != undefined) {
+                                vocabulary_power += correct_rate["hard"] * 3;
+                            }
+
+                            // 英検のレベルに変換
+                            let eiken_level = "";
+                            if (vocabulary_power <= 20) {
+                                eiken_level = "3級以下";
+                            } else if (vocabulary_power <= 30) {
+                                eiken_level = "準2級";
+                            } else if (vocabulary_power <= 40) {
+                                eiken_level = "2級";
+                            } else {
+                                eiken_level = "準1級以上";
+                            }
+
                             $("#question").text("テスト終了");
                             let result = `
                                     正解：${correct}問、不正解：${incorrect}問
                                     <br>
                                     理解度：${Math.round(correct / question_limit * 100)}%<br>
-                                    再読込で再テスト`;
+                                    語彙力(オリジナル測定)：${vocabulary_power} / ${vocabulary_power_max}<br>
+                                    英検レベル（目安）：${eiken_level} 程度<br>
+                                    <small>再読込で再テスト</small>`;
                             // 問題の正誤を書き込む。また間違えた問題には正解を表示する
                             result += "<br>";
                             result += "正誤一覧<br>";

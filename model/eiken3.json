@@ -36,10 +36,6 @@
         "meaning": "（動）必要とする"
     },
     {
-        "word": "tell",
-        "meaning": "（動）話す"
-    },
-    {
         "word": "feel",
         "meaning": "（動）感じる"
     },
@@ -216,10 +212,6 @@
         "meaning": "（名）会社"
     },
     {
-        "word": "problem",
-        "meaning": "（名）問題"
-    },
-    {
         "word": "meeting",
         "meaning": "（名）会合"
     },
@@ -230,10 +222,6 @@
     {
         "word": "country",
         "meaning": "（名）国"
-    },
-    {
-        "word": "plan",
-        "meaning": "（名）予定"
     },
     {
         "word": "member",
@@ -280,16 +268,8 @@
         "meaning": "（副）〜も"
     },
     {
-        "word": "well",
-        "meaning": "（副）よく"
-    },
-    {
         "word": "first",
         "meaning": "（副）最初に"
-    },
-    {
-        "word": "still",
-        "meaning": "（副）まだ"
     },
     {
         "word": "even",
@@ -392,10 +372,6 @@
         "meaning": "（代名）もの"
     },
     {
-        "word": "all",
-        "meaning": "（代名）すべての人"
-    },
-    {
         "word": "something",
         "meaning": "（代名）何か"
     },
@@ -420,20 +396,12 @@
         "meaning": "（動）理解する"
     },
     {
-        "word": "hope",
-        "meaning": "（動）望む"
-    },
-    {
         "word": "lose",
         "meaning": "（動）～をなくす"
     },
     {
         "word": "carry",
         "meaning": "（動）運ぶ"
-    },
-    {
-        "word": "draw",
-        "meaning": "（動）描く"
     },
     {
         "word": "win",
@@ -508,10 +476,6 @@
         "meaning": "（動）乗り遅れる"
     },
     {
-        "word": "choose",
-        "meaning": "（動）選ぶ"
-    },
-    {
         "word": "join",
         "meaning": "（動）参加する"
     },
@@ -540,10 +504,6 @@
         "meaning": "（形）おもな"
     },
     {
-        "word": "sure",
-        "meaning": "（形）確かな"
-    },
-    {
         "word": "free",
         "meaning": "（形）無料の"
     },
@@ -558,10 +518,6 @@
     {
         "word": "difficult",
         "meaning": "（形）難しい"
-    },
-    {
-        "word": "easy",
-        "meaning": "（形）簡単な"
     },
     {
         "word": "strong",
@@ -614,10 +570,6 @@
     {
         "word": "police",
         "meaning": "（名）警察"
-    },
-    {
-        "word": "kind",
-        "meaning": "（名）種類"
     },
     {
         "word": "stop",
@@ -742,10 +694,6 @@
     {
         "word": "almost",
         "meaning": "（副）ほとんど"
-    },
-    {
-        "word": "far",
-        "meaning": "（副）遠くに"
     },
     {
         "word": "either",
@@ -892,10 +840,6 @@
         "meaning": "（形）プロの"
     },
     {
-        "word": "fast",
-        "meaning": "（形）速い"
-    },
-    {
         "word": "sorry",
         "meaning": "（形）気の毒な"
     },
@@ -976,10 +920,6 @@
         "meaning": "（名）庭"
     },
     {
-        "word": "space",
-        "meaning": "（名）宇宙"
-    },
-    {
         "word": "performance",
         "meaning": "（名）上演"
     },
@@ -1054,10 +994,6 @@
     {
         "word": "library",
         "meaning": "（名）図書館"
-    },
-    {
-        "word": "phone",
-        "meaning": "（名）電話"
     },
     {
         "word": "band",
@@ -1284,10 +1220,6 @@
         "meaning": "（形）混雑した"
     },
     {
-        "word": "delicious",
-        "meaning": "（形）おいしい"
-    },
-    {
         "word": "sunny",
         "meaning": "（形）晴れた"
     },
@@ -1314,10 +1246,6 @@
     {
         "word": "beach",
         "meaning": "（名）浜辺"
-    },
-    {
-        "word": "prize",
-        "meaning": "（名）賞"
     },
     {
         "word": "ticket",
@@ -1376,10 +1304,6 @@
         "meaning": "（名）皿"
     },
     {
-        "word": "movie",
-        "meaning": "（名）映画"
-    },
-    {
         "word": "vegetable",
         "meaning": "（名）野菜"
     },
@@ -1406,10 +1330,6 @@
     {
         "word": "toy",
         "meaning": "（名）おもちゃ"
-    },
-    {
-        "word": "bike",
-        "meaning": "（名）自転車"
     },
     {
         "word": "dictionary",
@@ -1640,10 +1560,6 @@
         "meaning": "（動）録画する"
     },
     {
-        "word": "fall",
-        "meaning": "（動）落ちる"
-    },
-    {
         "word": "continue",
         "meaning": "（動）続ける"
     },
@@ -1806,10 +1722,6 @@
     {
         "word": "body",
         "meaning": "（名）体"
-    },
-    {
-        "word": "mind",
-        "meaning": "（名）心"
     },
     {
         "word": "law",
@@ -2232,10 +2144,6 @@
         "meaning": "（名）ページ"
     },
     {
-        "word": "painting",
-        "meaning": "（名）絵"
-    },
-    {
         "word": "damage",
         "meaning": "（名）ダメージ"
     },
@@ -2358,10 +2266,6 @@
     {
         "word": "telephone",
         "meaning": "（名）電話"
-    },
-    {
-        "word": "heat",
-        "meaning": "（名）熱"
     },
     {
         "word": "especially",
@@ -2530,10 +2434,6 @@
     {
         "word": "fresh",
         "meaning": "（形）新鮮な"
-    },
-    {
-        "word": "quiet",
-        "meaning": "（形）静かな"
     },
     {
         "word": "narrow",
@@ -2712,10 +2612,6 @@
         "meaning": "（名）工場"
     },
     {
-        "word": "examination",
-        "meaning": "（名）試験"
-    },
-    {
         "word": "castle",
         "meaning": "（名）城"
     },
@@ -2834,10 +2730,6 @@
     {
         "word": "native",
         "meaning": "（形）ある土地生まれの"
-    },
-    {
-        "word": "smart",
-        "meaning": "（形）利口な"
     },
     {
         "word": "absent",
@@ -3160,10 +3052,6 @@
         "meaning": "（名）小学校"
     },
     {
-        "word": "anywhere",
-        "meaning": "（副）どこかに"
-    },
-    {
         "word": "everywhere",
         "meaning": "（副）いたるところに"
     },
@@ -3392,10 +3280,6 @@
         "meaning": "（名）税"
     },
     {
-        "word": "step",
-        "meaning": "（名）階段"
-    },
-    {
         "word": "amount",
         "meaning": "（名）量"
     },
@@ -3466,10 +3350,6 @@
     {
         "word": "image",
         "meaning": "（名）画像"
-    },
-    {
-        "word": "disease",
-        "meaning": "（名）病気"
     },
     {
         "word": "wind",
@@ -3548,16 +3428,8 @@
         "meaning": "（副）離れて"
     },
     {
-        "word": "perhaps",
-        "meaning": "（副）多分"
-    },
-    {
         "word": "probably",
         "meaning": "（副）多分"
-    },
-    {
-        "word": "certainly",
-        "meaning": "（副）確かに"
     },
     {
         "word": "quickly",
