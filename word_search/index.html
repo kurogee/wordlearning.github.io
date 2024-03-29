@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>単語学習アプリ - ひたすら一問一答</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="shortcut icon" href="../favicon.png" type="image/png">
+        <link rel="stylesheet" href="../pagestyle.css">
+        <style>
+            #popup_window {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 85%;
+                height: 30%;
+                border-radius: 30px;
+                font-size: 30px;
+                overflow: auto;
+                z-index: 100;
+                background-color: darkseagreen;
+                border: 3px solid black;
+                /* 上下中央に文字を配置する */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            /* テキストボックスを大きくする */
+            .textbox {
+                width: 90%;
+                height: 50px;
+                font-size: 30px;
+                border-radius: 10px;
+                border: 3px solid black;
+                padding: 5px;
+            }
+        </style>
+        <script src="../jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <div id="box">
+            <h2>ワードサーチ</h2>
+            <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a>
+            <p>
+                このアプリは、英単語を検索するアプリです。
+            </p>
+        </div>
+        <hr>
+        <div id="box">
+            <br>
+            <label for="JA_or_EN">日本語検索をする：<input type="checkbox" name="JA_or_EN" id="JA_or_EN"></label>
+            <input type="text" id="enter_text" class="textbox">
+            <br>
+            <small>Enterキーで検索</small>
+            <hr>
+            <div id="result" class="box"></div>
+            <br>
+        </div>
+
+        <script>
+            // jsonファイルの読み込み
+            $.getJSON("../model/true_all_english_words.json", function(data) {
+                // word、meaning、Detailに分ける
+                let word = data.map(function(item) {
+                    return item.word;
+                });
+                let meaning = data.map(function(item) {
+                    return item.meaning;
+                });
+                let detail = data.map(function(item) {
+                    return item.Detail;
+                });
+
+                // Enterキーで検索
+                $("#enter_text").keypress(function(e) {
+                    if (e.which == 13) {
+                        let input_text = $("#enter_text").val();
+                        let index;
+                        if ($("#JA_or_EN").prop("checked")) {
+                            index = meaning.indexOf(input_text);
+                        } else {
+                            index = word.indexOf(input_text);
+                        }
+
+                        if (index != -1) {
+                            $("#result").html("<h2>主な意味：「" + meaning[index] + "」</h2><h3>詳細な意味</h3>" + "<p>" + detail[index] + "</p>");
+                            // 「検索中」の文字を追加して表示しておく
+                            $("#result").append("<hr><h2>その他の意味</h2><div id='result_detail'>検索中...</div>");
+                            // さらに検索してその文字が含まれていれば表示
+                            const length = word.length;
+                            let index2;
+                            if ($("#JA_or_EN").prop("checked")) {
+                                index2 = meaning.map((item) => {
+                                    // itemがnullまたはundefinedでないことを確認
+                                    if (item) {
+                                        // itemにinput_textが含まれているかどうか
+                                        return item.includes(input_text);
+                                    } else {
+                                        return false;
+                                    }
+                                
+                                });
+                            } else {
+                                index2 = word.map((item) => {
+                                    // itemがnullまたはundefinedでないことを確認
+                                    if (item) {
+                                        // itemにinput_textが含まれているかどうか
+                                        return item.includes(input_text);
+                                    } else {
+                                        return false;
+                                    }
+                                });
+                            }
+                            let result_table = `
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th style="width: 30%;">単語</th>
+                                        <th style="width: 70%;">意味</th>
+                                    </tr>
+                                </thead>
+                                <tbody>`;
+                            let count = 0;
+                            let promises = index2.map((item, index) => new Promise((resolve) => {
+                                if (item) {
+                                    resolve(`
+                                    <tr>
+                                        <td>${word[index]}</td>
+                                        <td>${meaning[index]}</td>
+                                    </tr>`);
+                                } else {
+                                    resolve('');
+                                }
+                            }));
+
+                            Promise.all(promises).then((results) => {
+                                let result_table = `
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 30%;">単語</th>
+                                            <th style="width: 70%;">意味</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>`;
+                                results.forEach((result) => {
+                                    result_table += result;
+                                });
+                                result_table += "</tbody></table><br>";
+                                $("#result_detail").html(result_table);
+                            });
+                        } else {
+                            $("#result").html("単語が見つかりませんでした。");
+                        }
+
+                        $("#enter_text").val("");
+                        $("#enter_text").focus();
+                    }
+                });
+            });
+
+            window.addEventListener("DOMContentLoaded", function() {
+                $("#enter_text").focus();
+            });
+        </script>
+    </body>
+</html>
