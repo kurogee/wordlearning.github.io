@@ -64,19 +64,45 @@
             $.getJSON("../model/true_all_english_words.json", function(data) {
                 // word、meaning、Detailに分ける
                 let word = data.map(function(item) {
-                    return item.word;
+                    if (item.word) {
+                        return [item.word.toLowerCase(), item.Frequency];
+                    } else {
+                        return [item.word, item.Frequency];
+                    }
                 });
                 let meaning = data.map(function(item) {
-                    return item.meaning;
+                    return [item.meaning, item.Frequency];
                 });
                 let detail = data.map(function(item) {
-                    return item.Detail;
+                    return [item.Detail, item.Frequency];
+                });
+
+                // word, meaning, detailを「Frequency」の大きい順にソート
+                // ソート後はFrequencyを削除
+                word.sort(function(a, b) {
+                    return b[1] - a[1];
+                });
+                meaning.sort(function(a, b) {
+                    return b[1] - a[1];
+                });
+                detail.sort(function(a, b) {
+                    return b[1] - a[1];
+                });
+
+                word = word.map(function(item) {
+                    return item[0];
+                });
+                meaning = meaning.map(function(item) {
+                    return item[0];
+                });
+                detail = detail.map(function(item) {
+                    return item[0];
                 });
 
                 // Enterキーで検索
                 $("#enter_text").keypress(function(e) {
                     if (e.which == 13) {
-                        let input_text = $("#enter_text").val();
+                        let input_text = $("#enter_text").val().toLowerCase();
                         let index;
                         if ($("#JA_or_EN").prop("checked")) {
                             index = meaning.indexOf(input_text);
@@ -85,7 +111,11 @@
                         }
 
                         if (index != -1) {
-                            $("#result").html("<h2>主な意味：「" + meaning[index] + "」</h2><h3>詳細な意味</h3>" + "<p>" + detail[index] + "</p>");
+                            if ($("#JA_or_EN").prop("checked")) {
+                                $("#result").html("<h2>単語：「" + word[index] + "」</h2><h3>意味</h3>" + "<p>" + meaning[index] + "</p>");
+                            } else {
+                                $("#result").html("<h2>主な意味：「" + meaning[index] + "」</h2><h3>詳細な意味</h3>" + "<p>" + detail[index] + "</p>");
+                            }
                             // 「検索中」の文字を追加して表示しておく
                             $("#result").append("<hr><h2>その他の意味</h2><div id='result_detail'>検索中...</div>");
                             // さらに検索してその文字が含まれていれば表示
@@ -96,7 +126,7 @@
                                     // itemがnullまたはundefinedでないことを確認
                                     if (item) {
                                         // itemにinput_textが含まれているかどうか
-                                        return item.includes(input_text);
+                                        return item.toLowerCase().includes(input_text.toLowerCase());
                                     } else {
                                         return false;
                                     }
@@ -107,7 +137,7 @@
                                     // itemがnullまたはundefinedでないことを確認
                                     if (item) {
                                         // itemにinput_textが含まれているかどうか
-                                        return item.includes(input_text);
+                                        return item.toLowerCase().includes(input_text.toLowerCase());
                                     } else {
                                         return false;
                                     }
