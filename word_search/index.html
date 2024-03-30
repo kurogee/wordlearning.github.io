@@ -36,6 +36,44 @@
                 border: 3px solid black;
                 padding: 5px;
             }
+
+            #result_detail {
+                width: 100%;
+            }
+
+            #table_for_search {
+                border-collapse: collapse;
+                overflow-x: auto;
+                display: block;
+            }
+
+            #table_for_search > thead > tr,
+            #table_for_search > tbody > tr {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            #table_for_search > tbody > tr > .words,
+            #table_for_search > thead > tr > .words {
+                width: 20%;
+                overflow-x: auto;
+            }
+
+            #table_for_search > tbody > tr > .meanings,
+            #table_for_search > thead > tr > .meanings {
+                width: 30%;
+                overflow-x: auto;
+            }
+
+            #table_for_search > tbody > tr > .details,
+            #table_for_search > thead > tr > .details {
+                width: 50%;
+                overflow-x: auto;
+            }
+
+            #table_for_search > tbody > tr > td {
+                word-wrap: break-word;
+            }
         </style>
         <script src="../jquery-3.7.1.min.js"></script>
     </head>
@@ -144,12 +182,12 @@
                                 });
                             }
                             let result_table = `
-                            <table>
+                            <table id="table_for_search">
                                 <thead>
                                     <tr>
-                                        <th style="width: 20%;">単語</th>
-                                        <th style="width: 30%;">意味</th>
-                                        <th style="width: 50%;">詳細</th>
+                                        <th class="words">単語</th>
+                                        <th class="meanings">意味</th>
+                                        <th class="details">詳細</th>
                                     </tr>
                                 </thead>
                                 <tbody>`;
@@ -158,9 +196,9 @@
                                 if (item) {
                                     resolve(`
                                     <tr>
-                                        <td>${word[index]}</td>
-                                        <td>${meaning[index]}</td>
-                                        <td>${detail[index]}</td>
+                                        <td class="words">${word[index]}</td>
+                                        <td class="meanings">${meaning[index]}</td>
+                                        <td class="details">${detail[index]}</td>
                                     </tr>`);
                                 } else {
                                     resolve('');
@@ -169,12 +207,12 @@
 
                             Promise.all(promises).then((results) => {
                                 let result_table = `
-                                <table>
+                                <table id="table_for_search">
                                     <thead>
                                         <tr>
-                                            <th style="width: 20%;">単語</th>
-                                            <th style="width: 30%;">意味</th>
-                                            <th style="width: 50%;">詳細</th>
+                                            <th class="words">単語</th>
+                                            <th class="meanings">意味</th>
+                                            <th class="details">詳細</th>
                                         </tr>
                                     </thead>
                                     <tbody>`;
@@ -214,9 +252,9 @@
                                 if (item) {
                                     resolve(`
                                     <tr>
-                                        <td>${word[index]}</td>
-                                        <td>${meaning[index]}</td>
-                                        <td>${detail[index]}</td>
+                                        <td class="words">${word[index]}</td>
+                                        <td class="meanings">${meaning[index]}</td>
+                                        <td class="details">${detail[index]}</td>
                                     </tr>`);
                                 } else {
                                     resolve('');
@@ -226,12 +264,12 @@
                             Promise.all(promises).then((results) => {
                                 let result_table = `
                                 <h3>一致で見つからなかったため、含まれているかで検索します</h3>
-                                <table>
+                                <table id="table_for_search">
                                     <thead>
                                         <tr>
-                                            <th style="width: 20%;">単語</th>
-                                            <th style="width: 30%;">意味</th>
-                                            <th style="width: 50%;">詳細</th>
+                                            <th class="words">単語</th>
+                                            <th class="meanings">意味</th>
+                                            <th class="details">詳細</th>
                                         </tr>
                                     </thead>
                                     <tbody>`;
