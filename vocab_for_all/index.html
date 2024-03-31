@@ -105,12 +105,12 @@
                         console.log("hard");
                     }
 
-                    let word;
                     // もしhistoryにすべての単語が含まれていたら、historyを初期化
                     if (history.length >= data.length) {
                         history = [];
                     }
 
+                    let word;
                     do {
                         word = words[Math.floor(Math.random() * words.length)];
                     } while (history.includes(word["word"]));
@@ -196,9 +196,11 @@
                                     }
                                 }
                             }
-                            // 上の難易度をもとに語彙力を計算
+
+                            // 正解した問題の難易度からどれくらいの語彙数を知っているかを計算
                             let vocabulary_power = 0;
                             const vocabulary_power_max = 50;
+
                             if (correct_rate["easy"] != undefined) {
                                 vocabulary_power += correct_rate["easy"] * 1;
                             }

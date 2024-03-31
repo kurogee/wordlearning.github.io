@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <title>単語学習アプリ - 理解度テスト</title>
+        <title>単語学習アプリ - 理解度テスト（最難）</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -58,7 +58,8 @@
             <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a>
             <p>
                 このアプリは、単語の理解度をテストするアプリです。<br>
-                画面に表示される単語を入力してください。
+                画面に表示される単語を入力してください。<br>
+                理解度テストの中では難易度が一番高く、6文字以上の単語が出題されます。
             </p>
         </div>
         <hr>
@@ -76,49 +77,46 @@
         <script>
             /*
                 理解度テストの概要
-                ・50問の単語がランダムに出題される
+                ・30問の単語がランダムに出題される
                 ・進捗を表示する
                 ・正解、不正解は問題の後で結果として表示する
                 ・Enterキーで回答を送信する
             */
 
+            async function prepare_data() {
+                const path = "../model/true_all_english_words.json";
+                const response = await fetch(path);
+                const data = await response.json();
+                let words = data;
+                // wordsの中身を長い単語だけにする
+                words = words.filter(word => word["word"].length >= 6);
+                console.log("length:", words);
+                // wordsをグローバル変数にする
+                window.data = words;
+            }
+
             // 問題を出題する関数
             let history = [];
-            async function question(path, current) {
+
+            async function question(current) {
+                console.log(window.data);
                 return new Promise(async (resolve) => {
-                    const response = await fetch(path);
-                    const data = await response.json();
-
-                    let difficulty_easy = data.filter((value) => parseInt(value["difficult"]) >= 1 && parseInt(value["difficult"]) <= 3);
-                    let difficulty_normal = data.filter((value) => parseInt(value["difficult"]) >= 4 && parseInt(value["difficult"]) <= 7);
-                    let difficulty_hard = data.filter((value) => parseInt(value["difficult"]) >= 8);
-
-                    let words;
-                    if (current <= 25) {
-                        words = difficulty_easy;
-                        console.log("easy");
-                    } else if (current <= 45) {
-                        words = difficulty_normal;
-                        console.log("normal");
-                    } else {
-                        words = difficulty_hard;
-                        console.log("hard");
-                    }
+                    let words = window.data;
 
                     let word;
                     // もしhistoryにすべての単語が含まれていたら、historyを初期化
-                    if (history.length >= data.length) {
+                    if (history.length >= window.data.length) {
                         history = [];
                     }
 
                     do {
                         word = words[Math.floor(Math.random() * words.length)];
                     } while (history.includes(word["word"]));
-                    console.log(word["word"], word["difficult_criteria"]);
 
                     // 問題を表示
-                    $("#question").text(word["meaning"].split(word["word"]).join("―"));
-                    resolve({"word": word["word"], "meaning": word["meaning"]});
+                    $("#question").text(word["Detail"].split(word["word"]).join("―"));
+                    console.log(word["word"], word["Detail"]);
+                    resolve({"word": word["word"], "meaning": word["Detail"]});
                 });
             }
 
@@ -129,21 +127,17 @@
 
             // テストを取り仕切る関数
             async function test() {
-                let path = "../model/all_words.json";
-                let response = await fetch(path);
-                let data = await response.json();
-                let words = data.map((value) => value["word"]);
                 let current = 1;
                 let correct = 0;
                 let incorrect = 0;
                 let answers = [];
-                const question_limit = 50;
+                const question_limit = 30;
 
                 // 進捗を表示
                 progress(current, question_limit);
 
                 // 問題を出題
-                let word = await question(path, current);
+                let word = await question(current);
                 $("#enter_text").focus();
 
                 // Enterキーで回答を送信
@@ -167,75 +161,15 @@
 
                         // 次の問題を出題
                         if (current <= question_limit) {
-                            word = await question(path, current);
+                            word = await question(current);
                         } else {
                             // テスト終了
-
-                            // 難易度ごとの正誤を変数に格納
-                            let correct_rate = {};
-                            for (let i = 0; i < answers.length; i++) {
-                                if (answers[i][1] == "correct") {
-                                    if (i + 1 <= 25) {
-                                        if (correct_rate["easy"] == undefined) {
-                                            correct_rate["easy"] = 1;
-                                        } else {
-                                            correct_rate["easy"]++;
-                                        }
-                                    } else if (i + 1 <= 45) {
-                                        if (correct_rate["normal"] == undefined) {
-                                            correct_rate["normal"] = 1;
-                                        } else {
-                                            correct_rate["normal"]++;
-                                        }
-                                    } else {
-                                        if (correct_rate["hard"] == undefined) {
-                                            correct_rate["hard"] = 1;
-                                        } else {
-                                            correct_rate["hard"]++;
-                                        }
-                                    }
-                                }
-                            }
-
-                            // 上の難易度をもとに語彙力を計算
-                            let vocabulary_power = 0;
-                            const vocabulary_power_max = 25 * 2 + 20 * 3 + 5 * 5;
-                            if (correct_rate["easy"] != undefined) {
-                                vocabulary_power += correct_rate["easy"] * 2;
-                            }
-                            if (correct_rate["normal"] != undefined) {
-                                vocabulary_power += correct_rate["normal"] * 3;
-                            }
-                            if (correct_rate["hard"] != undefined) {
-                                vocabulary_power += correct_rate["hard"] * 5;
-                            }
-
-                            // 英検のレベルに変換
-                            let vocabulary_power_percentage = Math.round(vocabulary_power / vocabulary_power_max * 100);
-                            let eiken_level = "";
-                            if (vocabulary_power_percentage <= 20) {
-                                eiken_level = "5級";
-                            } else if (vocabulary_power_percentage <= 40) {
-                                eiken_level = "4級";
-                            } else if (vocabulary_power_percentage <= 65) {
-                                eiken_level = "3級";
-                            } else if (vocabulary_power_percentage <= 85) {
-                                eiken_level = "準2級";
-                            } else if (vocabulary_power_percentage <= 90) {
-                                eiken_level = "2級";
-                            } else if (vocabulary_power_percentage <= 98) {
-                                eiken_level = "準1級";
-                            } else {
-                                eiken_level = "1級";
-                            }
 
                             $("#question").text("テスト終了");
                             let result = `
                                     正解：${correct}問、不正解：${incorrect}問
                                     <br>
                                     正答率：${Math.round(correct / question_limit * 100)}%<br>
-                                    語彙力(オリジナル測定)：${vocabulary_power} / ${vocabulary_power_max}<br>
-                                    英検レベル（目安）：${eiken_level} 程度<br>
                                     <small>再読込で再テスト</small>`;
                             // 問題の正誤を書き込む。また間違えた問題には正解を表示する
                             result += "<br>";
@@ -245,10 +179,9 @@
                                         <thead>
                                             <tr>
                                                 <th style="width: 10%;">#</th>
-                                                <th style="width: 25%;">回答</th>
+                                                <th style="width: 35%;">回答</th>
                                                 <th style="width: 20%;">正誤</th>
-                                                <th style="width: 25%;">正解</th>
-                                                <th style="width: 20%;">難易度</th>
+                                                <th style="width: 35%;">正解</th>
                                             </tr>
                                         </thead>
                                         <tbody>`;
@@ -260,7 +193,6 @@
                                                 <td>${answers[i][0] == "" ? "(未回答)" : answers[i][0]}</td>
                                                 <td style="color: blue;">正解</td>
                                                 <td>${answers[i][2]}</td>
-                                                <td>${data.filter((value) => value["word"] == answers[i][2])[0]["difficult"]}</td>
                                             </tr>`;
                                 } else {
                                     result += `
@@ -269,7 +201,6 @@
                                                 <td>${answers[i][0] == "" ? "(未回答)" : answers[i][0]}</td>
                                                 <td style="color: red;">不正解</td>
                                                 <td>${answers[i][2]}</td>
-                                                <td>${data.filter((value) => value["word"] == answers[i][2])[0]["difficult"]}</td>
                                             </tr>`;
                                 }
                             }
@@ -285,6 +216,7 @@
 
             // テストを開始
             window.addEventListener("DOMContentLoaded", async function() {
+                await prepare_data();
                 await test();
             });
         </script>
