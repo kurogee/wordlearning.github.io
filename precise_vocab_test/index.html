@@ -106,7 +106,6 @@
                     }
 
                     let word;
-                    // もしhistoryにすべての単語が含まれていたら、historyを初期化
                     if (history.length >= data.length) {
                         history = [];
                     }
@@ -114,10 +113,14 @@
                     do {
                         word = words[Math.floor(Math.random() * words.length)];
                     } while (history.includes(word["word"]));
+                    console.log(history);
+
                     console.log(word["word"], word["difficult_criteria"]);
 
                     // 問題を表示
                     $("#question").text(word["meaning"].split(word["word"]).join("―"));
+                    history.push(word["word"]);
+                    
                     resolve({"word": word["word"], "meaning": word["meaning"]});
                 });
             }
@@ -274,6 +277,9 @@
                                 }
                             }
                             result += "</tbody></table>";
+
+                            // フォーカスを外す
+                            $("#enter_text").blur();
 
                             $("#popup_window").html(result);
 

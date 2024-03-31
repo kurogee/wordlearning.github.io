@@ -118,6 +118,8 @@
 
                     // 問題を表示
                     $("#question").text(word["meaning"].split(word["word"]).join("―"));
+                    history.push(word["word"]);
+                    
                     resolve({"word": word["word"], "meaning": word["meaning"]});
                 });
             }
