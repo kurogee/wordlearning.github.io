@@ -83,7 +83,7 @@
             */
 
             // 問題を出題する関数
-            let history = [];
+            let history = new Set();
             async function question(path, current) {
                 return new Promise(async (resolve) => {
                     const response = await fetch(path);
@@ -106,19 +106,19 @@
                     }
 
                     // もしhistoryにすべての単語が含まれていたら、historyを初期化
-                    if (history.length >= data.length) {
-                        history = [];
+                    if (history.size + 1 >= data.length) {
+                        history.clear();
                     }
 
                     let word;
                     do {
                         word = words[Math.floor(Math.random() * words.length)];
-                    } while (history.includes(word["word"]));
+                    } while (history.has(word["word"]));
                     console.log(word["word"], word["difficult_criteria"]);
 
                     // 問題を表示
                     $("#question").text(word["meaning"].split(word["word"]).join("―"));
-                    history.push(word["word"]);
+                    history.add(word["word"]);
                     
                     resolve({"word": word["word"], "meaning": word["meaning"]});
                 });
@@ -214,15 +214,22 @@
                             }
 
                             // 英検のレベルに変換
+                            let vocabulary_power_percentage = vocabulary_power / vocabulary_power_max * 100;
                             let eiken_level = "";
-                            if (vocabulary_power <= 20) {
-                                eiken_level = "3級以下";
-                            } else if (vocabulary_power <= 30) {
+                            if (vocabulary_power_percentage <= 20) {
+                                eiken_level = "5級";
+                            } else if (vocabulary_power_percentage <= 40) {
+                                eiken_level = "4級";
+                            } else if (vocabulary_power_percentage <= 65) {
+                                eiken_level = "3級";
+                            } else if (vocabulary_power_percentage <= 85) {
                                 eiken_level = "準2級";
-                            } else if (vocabulary_power <= 40) {
+                            } else if (vocabulary_power_percentage <= 90) {
                                 eiken_level = "2級";
+                            } else if (vocabulary_power_percentage <= 98) {
+                                eiken_level = "準1級";
                             } else {
-                                eiken_level = "準1級以上";
+                                eiken_level = "準1級より上";
                             }
 
                             $("#question").text("テスト終了");
@@ -230,7 +237,6 @@
                                     正解：${correct}問、不正解：${incorrect}問
                                     <br>
                                     正答率：${Math.round(correct / question_limit * 100)}%<br>
-                                    語彙力(オリジナル測定)：${vocabulary_power} / ${vocabulary_power_max}<br>
                                     英検レベル（目安）：${eiken_level} 程度<br>
                                     <small>再読込で再テスト</small>`;
                             // 問題の正誤を書き込む。また間違えた問題には正解を表示する

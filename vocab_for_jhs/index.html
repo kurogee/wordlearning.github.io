@@ -83,12 +83,21 @@
             */
 
             // 問題を出題する関数
+            let history = new Set();
             async function question(path) {
                 return new Promise(async (resolve) => {
                     let response = await fetch(path);
                     let data = await response.json();
                     let words = data;
-                    let word = words[Math.floor(Math.random() * words.length)];
+
+                    if (history.size + 1 >= words.length) {
+                        history.clear();
+                    }
+
+                    let word;
+                    do {
+                        word = words[Math.floor(Math.random() * words.length)];
+                    } while (history.has(word["word"]));
 
                     // 問題を表示
                     $("#question").text(word["meaning"].split(word["word"]).join("―"));
