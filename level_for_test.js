@@ -21,8 +21,8 @@ function showLevel() {
     document.getElementById("level").textContent = "Lv. " + level.getLevel().level;
 
     // アニメーションでバーを動かす
-    now_bar.animate({ width: parseInt(localStorage.getItem('exp')) / level.getNeedExp() * 95 + '%' }, 1000);
-    other_bar.animate({ width: 100 - (parseInt(localStorage.getItem('exp')) / level.getNeedExp() * 95) + '%' }, 1000);
+    now_bar.animate({ width: parseInt(localStorage.getItem('exp')) / level.getNeedExp() * 100 + '%' }, 1000);
+    other_bar.animate({ width: 100 - (parseInt(localStorage.getItem('exp')) / level.getNeedExp() * 100) + '%' }, 1000);
 }
 
 // レベル管理のための関数をまとめたオブジェクト
@@ -30,13 +30,18 @@ let level = {
     // 経験値を加算する
     addExp: function (value) {
         const sound = new Audio('../sounds/charge.mp3');
-        sound.volume = 0.5;
+        sound.volume = 0.4;
         let exp = parseInt(localStorage.getItem('exp'));
-        if (exp + value > this.getNeedExp()) {
-            this.levelUp((parseInt(localStorage.getItem('exp')) + value) - (this.getLevel().level + 1) * 100);
+        let newExp = exp + value;
+        if (newExp >= this.getNeedExp()) {
+            let remain = newExp - this.getNeedExp();
+            this.levelUp();
+            localStorage.setItem('exp', remain);
         } else {
-            sound.play();
-            localStorage.setItem('exp', exp + value);
+            localStorage.setItem('exp', newExp);
+            setTimeout(function () {
+                sound.play();
+            }, 1000);
         }
     },
     // レベルアップする
@@ -72,8 +77,8 @@ let level = {
         let other_bar = $("#other_bar");
 
         // レベルアップ時は端まで行ってから0に戻る
-        let width_to_percent = now_bar.width() / now_bar.parent().width() * 95;
-        let exp_to_percent = this.getLevel().exp / this.getNeedExp() * 95;
+        let width_to_percent = now_bar.width() / now_bar.parent().width() * 100;
+        let exp_to_percent = this.getLevel().exp / this.getNeedExp() * 100;
         console.log(width_to_percent);
         console.log(exp_to_percent);
         if (exp_to_percent < width_to_percent) {
@@ -90,12 +95,12 @@ let level = {
                 other_bar.css('width', '100%');
         
                 // ここで新しいアニメーションを開始
-                now_bar.animate({ width: exp / need_exp * 95 + '%' }, 1000);
-                other_bar.animate({ width: 100 - (exp / need_exp * 95) + '%' }, 1000);
+                now_bar.animate({ width: exp / need_exp * 100 + '%' }, 1000);
+                other_bar.animate({ width: 100 - (exp / need_exp * 100) + '%' }, 1000);
             }, 1000);
         } else {
-            now_bar.animate({ width: this.getLevel().exp / this.getNeedExp() * 95 + '%' }, 1000);
-            other_bar.animate({ width: 100 - (this.getLevel().exp / this.getNeedExp() * 95) + '%' }, 1000);
+            now_bar.animate({ width: this.getLevel().exp / this.getNeedExp() * 100 + '%' }, 1000);
+            other_bar.animate({ width: 100 - (this.getLevel().exp / this.getNeedExp() * 100) + '%' }, 1000);
         }
 
         document.getElementById("exp").textContent = "経験値：" + this.getLevel().exp + '/' + this.getNeedExp();
