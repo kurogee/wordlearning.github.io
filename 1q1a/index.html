@@ -108,6 +108,19 @@
                 <option value="file" path="FILE">ファイルのアップロード</option>
             </select>
             <hr>
+
+            <!-- レベル ここから -->
+            <div id="level_bar" class="box">
+                <br>
+                <div id="bar"><span id="now_bar"></span><span id="other_bar"></span></div>
+                <small>
+                    <span id="level"></span>
+                    <span id="exp"></span>
+                </small>
+                <p id="levelup_text"></p>
+            </div>
+            <!-- レベル ここまで -->
+
             <h2 id="word" class="box"></h2>
             <div id="meanings">
                 <button data="1" class="button" id="meaning1"></button><span class="newline"></span>
@@ -140,6 +153,7 @@
         </div>
         <div class="box" id="popup_window" style="display: none;"></div>
 
+        <script src="../level.js"></script>
         <script>
             // 音源を準備する
             const correct_audio = new Audio("../sounds/correct.mp3");
@@ -310,15 +324,7 @@
                             correct_audio.currentTime = 0;
                             correct_audio.play();
 
-                            // 音が鳴り終わるまで待機
-                            let say_word = $("#word").text()
-                            correct_audio.onended = function() {
-                                // 英単語を読み上げる
-                                const synth = window.speechSynthesis;
-                                const utterThis = new SpeechSynthesisUtterance(say_word);
-                                utterThis.lang = "en-US";
-                                synth.speak(utterThis);
-                            };
+                            level.addExp(5);
 
                             html_code = `
                             <h3>正解！</h3>
@@ -340,16 +346,6 @@
                             // 不正解音を再生
                             incorrect_audio.currentTime = 0;
                             incorrect_audio.play();
-
-                            // 音が鳴り終わるまで待機
-                            let say_word = $("#word").text()
-                            incorrect_audio.onended = function() {
-                                // 英単語を読み上げる
-                                const synth = window.speechSynthesis;
-                                const utterThis = new SpeechSynthesisUtterance(say_word);
-                                utterThis.lang = "en-US";
-                                synth.speak(utterThis);
-                            };
 
                             html_code = `
                             <h3>不正解！</h3>
@@ -379,6 +375,8 @@
                         }
                         $(".button").scrollTop(0);
 
+                        level.reloadLevel();
+                        
                         resolve();
                     });
                 });

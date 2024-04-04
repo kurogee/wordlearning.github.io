@@ -8,24 +8,6 @@
         <link rel="shortcut icon" href="../favicon.png" type="image/png">
         <link rel="stylesheet" href="../pagestyle.css">
         <style>
-            #popup_window {
-                position: fixed;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                width: 85%;
-                height: 50%;
-                border-radius: 10px 0px 10px 0px;
-                font-size: 30px;
-                overflow: auto;
-                z-index: 100;
-                background-color: darkseagreen;
-                border: 3px solid black;
-                justify-content: center;
-                align-items: center;
-                overflow: auto;
-            }
-
             /* popup_windowのスクロールバーを太くする */
             #popup_window::-webkit-scrollbar {
                 width: 20px;
@@ -38,16 +20,6 @@
 
             #popup_window::-webkit-scrollbar-track {
                 background-color: lightgreen;
-            }
-
-            /* テキストボックスを大きくする */
-            .textbox {
-                width: 90%;
-                height: 50px;
-                font-size: 30px;
-                border-radius: 10px;
-                border: 3px solid black;
-                padding: 5px;
             }
         </style>
         <script src="../jquery-3.7.1.min.js"></script>
@@ -73,6 +45,7 @@
         </div>
         <div class="box" id="popup_window" style="display: none;"></div>
 
+        <script src="../level_for_test.js"></script>
         <script>
             /*
                 理解度テストの概要
@@ -100,7 +73,7 @@
                     } while (history.has(word["word"]));
 
                     // 問題を表示
-                    $("#question").text(word["meaning"].split(word["word"]).join("―"));
+                    $("#question").text(word["meaning"].toLowerCase().split(word["word"].toLowerCase()).join("_".repeat(word["word"].length)));
                     resolve({"word": word["word"], "meaning": word["meaning"]});
                 });
             }
@@ -153,11 +126,24 @@
                             word = await question(path);
                         } else {
                             // テスト終了
+
                             $("#question").text("テスト終了");
                             let result = `
                                     正解：${correct}問、不正解：${incorrect}問
                                     <br>
                                     正答率：${Math.round(correct / question_limit * 100)}%<br>
+                                    経験値とレベルの変動<br>
+                                    <!-- レベル ここから -->
+                                    <div id="level_bar" class="box">
+                                        <br>
+                                        <div id="bar"><span id="now_bar"></span><span id="other_bar"></span></div>
+                                        <small>
+                                            <span id="level"></span>
+                                            <span id="exp"></span>
+                                        </small>
+                                        <br>
+                                    </div>
+                                    <!-- レベル ここまで -->
                                     <small>再読込で再テスト</small><br>`;
                             // 問題の正誤を書き込む。また間違えた問題には正解を表示する
                             result += "<br>";
@@ -197,6 +183,14 @@
                             $("#popup_window").html(result);
 
                             $("#popup_window").show();
+
+                            showLevel();
+
+                            let before_level = level.getLevel().level;
+                            let before_exp = level.getLevel().exp;
+                            level.addExp(correct * 3);
+
+                            level.reloadLevel();
                         }
                     }
                 });

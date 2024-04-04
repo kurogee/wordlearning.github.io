@@ -7,6 +7,7 @@
         
         <link rel="shortcut icon" href="./favicon.png" type="image/png">
         <link rel="stylesheet" href="./pagestyle.css">
+        <script src="./jquery-3.7.1.min.js"></script>
     </head>
     <body>
         <div id="box">
@@ -16,6 +17,17 @@
                 以下のリンクから、それぞれの機能にアクセスできます。
             </p>
         </div>
+        <hr>
+        <!-- レベル ここから -->
+        <div id="level_bar" class="box">
+            <h3>現在のレベル</h3>
+            <div id="bar"><span id="now_bar"></span><span id="other_bar"></span></div>
+            <small>
+                <span id="level"></span>
+                <span id="exp"></span>
+            </small>
+        </div>
+        <!-- レベル ここまで -->
         <hr>
         <div id="box">
             <h2>アプリ</h2>
@@ -28,10 +40,16 @@
                 <a href="./vocab_for_jhs/index.html" class="link_color">＜　理解度テスト【中学生向け】　＞</a><br>
                 <a href="./vocab_for_all/index.html" class="link_color">＜　理解度テスト<wbr>【お手軽英検レベル測定】　＞</a><br>
                 <a href="./precise_vocab_test/index.html" class="link_color">＜　理解度テスト<wbr>【ちょっと本格英検レベル測定】　＞</a><br>
-                <a href="./most_difficult_test/index.html" class="link_color">＜　理解度テスト【難しい】　＞</a>
+                <p>※「難しい」テストは一時休止中です</p>
+                <!-- <a href="./most_difficult_test/index.html" class="link_color">＜　理解度テスト【難しい】　＞</a> -->
                 <hr>
                 <a href="./word_search/index.html" class="link_color">＜　ワードサーチ　＞</a>
             </p>
         </div>
+        <hr>
+        <small>
+            Sound Effect from <a href="https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=39146" target="_blank">Pixabay</a>
+        </small>
+        <script src="./level.js"></script>
     </body>
 </html>

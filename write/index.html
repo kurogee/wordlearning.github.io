@@ -7,36 +7,6 @@
         
         <link rel="shortcut icon" href="../favicon.png" type="image/png">
         <link rel="stylesheet" href="../pagestyle.css">
-        <style>
-            #popup_window {
-                position: fixed;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                width: 85%;
-                height: 30%;
-                border-radius: 30px;
-                font-size: 30px;
-                overflow: auto;
-                z-index: 100;
-                background-color: darkseagreen;
-                border: 3px solid black;
-                /* 上下中央に文字を配置する */
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-            /* テキストボックスを大きくする */
-            .textbox {
-                width: 90%;
-                height: 50px;
-                font-size: 30px;
-                border-radius: 10px;
-                border: 3px solid black;
-                padding: 5px;
-            }
-        </style>
         <script src="../jquery-3.7.1.min.js"></script>
     </head>
     <body>
@@ -64,6 +34,19 @@
                 <option value="file" path="FILE">ファイルのアップロード</option>
             </select>
             <hr>
+
+            <!-- レベル ここから -->
+            <div id="level_bar" class="box">
+                <br>
+                <div id="bar"><span id="now_bar"></span><span id="other_bar"></span></div>
+                <small>
+                    <span id="level"></span>
+                    <span id="exp"></span>
+                </small>
+                <p id="levelup_text"></p>
+            </div>
+            <!-- レベル ここまで -->
+
             <h2 id="question" class="box"></h2>
             <div id="answer">
                 <input type="text" id="enter_text" class="textbox">
@@ -74,6 +57,7 @@
         </div>
         <div class="box" id="popup_window" style="display: none;"></div>
 
+        <script src="../level.js"></script>
         <script>
             // 音源を準備する
             const correct_audio = new Audio("../sounds/correct.mp3");
@@ -184,7 +168,7 @@
                             $("#check_wrong_questions").prop("disabled", true);
                         }
 
-                        $("#question").text(word.meaning.split(word.word).join("―"));
+                        $("#question").text(word["meaning"].toLowerCase().split(word["word"].toLowerCase()).join("_".repeat(word["word"].length)));
                         $("#enter_text").val("");
                         $("#enter_text").focus();
 
@@ -195,10 +179,14 @@
                                     correct_audio.currentTime = 0;
                                     correct_audio.play();
 
-                                    $("#popup_window").text("正解！");
+                                    $("#popup_window").html("<h3>正解！</h3>");
+                                    $("#popup_window").html($("#popup_window").html() + "<p>次も頑張りましょう！</p>");
+
                                     if (word.sentence != "" && word.sentence != undefined) {
                                         $("#popup_window").html($("#popup_window").html() + "<br>例文：" + word.sentence + "<br>意味：" + word.sentence_ja);
                                     }
+
+                                    level.addExp(8);
 
                                     $("#popup_window").css("background-color", "lightgreen");
                                     $("#popup_window").show();
@@ -209,7 +197,8 @@
                                     incorrect_audio.currentTime = 0;
                                     incorrect_audio.play();
 
-                                    $("#popup_window").text("不正解！正解は「" + word.word + "」です。");
+                                    $("#popup_window").html("<h3>不正解！</h3>");
+                                    $("#popup_window").html($("#popup_window").html() + "<p>正解は「" + word.word + "」です。</p>");
                                     if (word.sentence != "" && word.sentence != undefined) {
                                         $("#popup_window").html($("#popup_window").html() + "<br>例文：" + word.sentence + "<br>意味：" + word.sentence_ja);
                                     }
@@ -224,6 +213,8 @@
                                 if (wrong_list.length > 0) {
                                     $("#check_wrong_questions").prop("disabled", false);
                                 }
+
+                                level.reloadLevel();
 
                                 await question(path);
                             }

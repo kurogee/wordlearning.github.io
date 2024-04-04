@@ -74,6 +74,7 @@
         </div>
         <div class="box" id="popup_window" style="display: none;"></div>
 
+        <script src="../level_for_test.js"></script>
         <script>
             /*
                 理解度テストの概要
@@ -114,7 +115,7 @@
                     } while (history.includes(word["word"]));
 
                     // 問題を表示
-                    $("#question").text(word["Detail"].split(word["word"]).join("―"));
+                    $("#question").text(word["Detail"].toLowerCase().split(word["word"].toLowerCase()).join("_".repeat(word["word"].length)));
                     console.log(word["word"], word["Detail"]);
                     resolve({"word": word["word"], "meaning": word["Detail"]});
                 });
@@ -170,6 +171,17 @@
                                     正解：${correct}問、不正解：${incorrect}問
                                     <br>
                                     正答率：${Math.round(correct / question_limit * 100)}%<br>
+                                    <!-- レベル ここから -->
+                                    <div id="level_bar" class="box">
+                                        <br>
+                                        <div id="bar"><span id="now_bar"></span><span id="other_bar"></span></div>
+                                        <small>
+                                            <span id="level"></span>
+                                            <span id="exp"></span>
+                                        </small>
+                                        <br>
+                                    </div>
+                                    <!-- レベル ここまで -->
                                     <small>再読込で再テスト</small>`;
                             // 問題の正誤を書き込む。また間違えた問題には正解を表示する
                             result += "<br>";
@@ -209,6 +221,14 @@
                             $("#popup_window").html(result);
 
                             $("#popup_window").show();
+
+                            showLevel();
+
+                            let before_level = level.getLevel().level;
+                            let before_exp = level.getLevel().exp;
+                            level.addExp(correct * 7);
+
+                            level.reloadLevel();
                         }
                     }
                 });

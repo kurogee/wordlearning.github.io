@@ -48,6 +48,19 @@
             </p>
         </div>
         <hr>
+
+        <!-- レベル ここから -->
+        <div id="level_bar" class="box">
+            <br>
+            <div id="bar"><span id="now_bar"></span><span id="other_bar"></span></div>
+            <small>
+                <span id="level"></span>
+                <span id="exp"></span>
+            </small>
+            <p id="levelup_text"></p>
+        </div>
+        <!-- レベル ここまで -->
+        <br>
         <div id="box">
             <h2 id="question" class="box"></h2>
             <div id="answer">
@@ -59,6 +72,7 @@
         </div>
         <div class="box" id="popup_window" style="display: none;"></div>
 
+        <script src="../level.js"></script>
         <script>
             // 音源を準備する
             const correct_audio = new Audio("../sounds/correct.mp3");
@@ -106,6 +120,9 @@
 
                                     $("#popup_window").text("正解！");
                                     $("#popup_window").css("background-color", "lightgreen");
+
+                                    level.addExp(5);
+
                                     $("#popup_window").show();
                                     await new Promise((resolve) => setTimeout(resolve, 1000));
                                     $("#popup_window").hide();
@@ -125,6 +142,8 @@
                                 if (wrong_list.length > 0) {
                                     $("#check_wrong_questions").prop("disabled", false);
                                 }
+
+                                level.reloadLevel();
 
                                 await question();
                             }
