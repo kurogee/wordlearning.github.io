@@ -331,11 +331,15 @@
                             correct_audio.currentTime = 0;
                             correct_audio.play();
 
+<<<<<<< HEAD
                             // レベルが上がるごとにもらえる経験値が増えるようにする
                             const basic_point = parseInt($("#use_dataset option:selected").attr("point"));
                             let get_point = Math.round(basic_point * ( 1 + parseInt(level.getLevel().level) / 10 ));
                             console.log(get_point);
                             level.addExp(get_point);
+=======
+                            level.addExp(parseInt($("#use_dataset option:selected").attr("point")));
+>>>>>>> bb5c0a32b5148aebe220dd80de169b90a337a0e1
 
                             html_code = `
                             <h3>正解！</h3>
