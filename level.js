@@ -32,8 +32,7 @@ let level = {
         let newExp = exp + value;
         if (newExp >= this.getNeedExp()) {
             let remain = newExp - this.getNeedExp();
-            this.levelUp();
-            localStorage.setItem('exp', remain);
+            this.levelUp(remain);
         } else {
             localStorage.setItem('exp', newExp);
             setTimeout(function () {
@@ -46,7 +45,14 @@ let level = {
         const levelup_sound = new Audio('../sounds/levelUP!.mp3');
         levelup_sound.volume = 0.7;
         let level = parseInt(localStorage.getItem('level'));
-        level++;
+        // レベルが1だけでなく、2以上上がる場合も対応できるようにする
+        // レベルごとに必要な経験値が上がることに注意
+        let need_exp_for_next_level = level * 100;
+        while (remain >= need_exp_for_next_level) {
+            remain -= need_exp_for_next_level;
+            level++;
+            need_exp_for_next_level = level * 100;
+        }
         localStorage.setItem('level', level);
         // 経験値をリセット、経験値が余る場合は次のレベルに持ち越す
         localStorage.setItem('exp', remain);

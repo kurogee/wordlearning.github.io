@@ -95,17 +95,39 @@
         <div id="box">
             <h3>使用する単語のデータセット</h3>
             <select id="use_dataset" style="width: 90%;">
-                <option value="verbs" path="verbs.json" selected>動詞データ(難易度：中学〜高校)</option>
-                <option value="adjectives" path="adjectives.json">形容詞データ(難易度：中学〜高校)</option>
-                <option value="nouns" path="noun(jhs).json">名詞データ(難易度：中学)</option>
-                <option value="nouns" path="noun(hs).json">名詞データ(難易度：高校)</option>
-                <option value="idioms" path="idioms.json">熟語データ</option>
-                <option value="eiken3" path="eiken3.json">英検3級の単語データ</option>
-                <option value="eiken-pre2" path="eiken_pre2.json">英検準2級の単語データ</option>
-                <option value="jhs-all-words" path="jhs_all_words.json">中学校3年間の単語データ</option>
-                <option value="all-words" path="all_words.json">中学校・高校生の単語データ</option>
-                <option value="url" path="URL">URL</option>
-                <option value="file" path="FILE">ファイルのアップロード</option>
+                <option value="verbs" path="verbs.json" point="5" selected>
+                    動詞データ(難易度：中学〜高校)
+                </option>
+                <option value="adjectives" path="adjectives.json" point="5">
+                    形容詞データ(難易度：中学〜高校)
+                </option>
+                <option value="nouns" path="noun(jhs).json" point="5">
+                    名詞データ(難易度：中学)
+                </option>
+                <option value="nouns" path="noun(hs).json" point="7">
+                    名詞データ(難易度：高校)
+                </option>
+                <option value="idioms" path="idioms.json" point="3">
+                    熟語データ
+                </option>
+                <option value="eiken3" path="eiken3.json" point="5">
+                    英検3級の単語データ
+                </option>
+                <option value="eiken-pre2" path="eiken_pre2.json" point="7">
+                    英検準2級の単語データ
+                </option>
+                <option value="jhs-all-words" path="jhs_all_words.json" point="6">
+                    中学校3年間の単語データ
+                </option>
+                <option value="all-words" path="all_words.json" point="8">
+                    中学校・高校生の単語データ
+                </option>
+                <option value="url" path="URL" point="0">
+                    URL
+                </option>
+                <option value="file" path="FILE" point="0">
+                    ファイルのアップロード
+                </option>
             </select>
             <hr>
 
@@ -324,7 +346,7 @@
                             correct_audio.currentTime = 0;
                             correct_audio.play();
 
-                            level.addExp(5);
+                            level.addExp(parseInt($("#use_dataset option:selected").attr("point")));
 
                             html_code = `
                             <h3>正解！</h3>

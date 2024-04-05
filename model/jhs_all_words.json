@@ -4196,10 +4196,6 @@
         "meaning": "タンザニア"
     },
     {
-        "word": "task",
-        "meaning": "仕事、任務"
-    },
-    {
         "word": "taste",
         "meaning": "味"
     },
@@ -4849,11 +4845,11 @@
     },
     {
         "word": "word",
-        "meaning": "1. ことば、発言　2. 語、単語　　"
+        "meaning": "1. ことば、発言　2. 語、単語"
     },
     {
         "word": "work",
-        "meaning": "1. 仕事、勉強　2. 作品　　 "
+        "meaning": "1. 仕事、勉強　2. 作品"
     },
     {
         "word": "worker",
@@ -8866,10 +8862,6 @@
     {
         "word": "bye",
         "meaning": "じゃあね、バイバイ"
-    },
-    {
-        "word": "dear",
-        "meaning": "おや、まあ"
     },
     {
         "word": "good",

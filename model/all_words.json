@@ -6276,12 +6276,6 @@
         "difficult_criteria": "None"
     },
     {
-        "word": "task",
-        "meaning": "仕事、任務",
-        "difficult": "3",
-        "difficult_criteria": "準2級以上の単語"
-    },
-    {
         "word": "taste",
         "meaning": "味",
         "difficult": "2",
@@ -7255,13 +7249,13 @@
     },
     {
         "word": "word",
-        "meaning": "1. ことば、発言　2. 語、単語　",
+        "meaning": "1. ことば、発言　2. 語、単語",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
     {
         "word": "work",
-        "meaning": "1. 仕事、勉強　2. 作品　 ",
+        "meaning": "1. 仕事、勉強　2. 作品",
         "difficult": "1",
         "difficult_criteria": "3級以上の単語"
     },
