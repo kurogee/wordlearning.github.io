@@ -26,6 +26,69 @@
                 <span id="level"></span>
                 <span id="exp"></span>
             </small>
+            <hr>
+            <div id="sticker" class="box" style="width: 90%;">
+                <p>バッジ</p>
+            </div>
+            <br>
+            <script>
+                $(function() {
+                    let sticker_box = $("#sticker");
+                    let level = parseInt(localStorage.getItem("level")) || 1;
+                    if (level >= 5) {
+                        sticker_box.append('<img src="./image/Lv.5.png" alt="レベル5" class="level_sticker">');
+                    }
+                    if (level >= 10) {
+                        sticker_box.append('<img src="./image/Lv.10.png" alt="レベル10" class="level_sticker">');
+                    }
+                    if (level >= 15) {
+                        sticker_box.append('<img src="./image/Lv.15.png" alt="レベル15" class="level_sticker">');
+                    }
+                    if (level >= 20) {
+                        sticker_box.append('<img src="./image/Lv.20.png" alt="レベル20" class="level_sticker">');
+                    }
+                    if (level >= 25) {
+                        sticker_box.append('<img src="./image/Lv.25.png" alt="レベル25" class="level_sticker">');
+                    }
+                    if (level >= 30) {
+                        sticker_box.append('<img src="./image/Lv.30.png" alt="レベル30" class="level_sticker">');
+                    }
+                    if (level >= 40) {
+                        sticker_box.append('<img src="./image/Lv.40.png" alt="レベル40" class="level_sticker">');
+                    }
+                    if (level >= 50) {
+                        sticker_box.append('<img src="./image/Lv.50+.png" alt="レベル50+" class="level_sticker">');
+                    }
+
+                    let qaa_correct = parseInt(localStorage.getItem("qaa_correct")) || 0;
+                    if (qaa_correct >= 50) {
+                        sticker_box.append('<img src="./image/QaA 50+.png" alt="50問以上正解" class="level_sticker">');
+                    }
+                    if (qaa_correct >= 100) {
+                        sticker_box.append('<img src="./image/QaA 100+.png" alt="100問以上正解" class="level_sticker">');
+                    }
+                    if (qaa_correct >= 300) {
+                        sticker_box.append('<img src="./image/QaA 300+.png" alt="300問以上正解" class="level_sticker">');
+                    }
+                    if (qaa_correct >= 500) {
+                        sticker_box.append('<img src="./image/QaA 500+.png" alt="500問以上正解" class="level_sticker">');
+                    }
+
+                    let writing_correct = parseInt(localStorage.getItem("writing_correct")) || 0;
+                    if (writing_correct >= 50) {
+                        sticker_box.append('<img src="./image/Writing 50+.png" alt="50問以上正解" class="level_sticker">');
+                    }
+                    if (writing_correct >= 100) {
+                        sticker_box.append('<img src="./image/Writing 100+.png" alt="100問以上正解" class="level_sticker">');
+                    }
+                    if (writing_correct >= 300) {
+                        sticker_box.append('<img src="./image/Writing 300+.png" alt="300問以上正解" class="level_sticker">');
+                    }
+                    if (writing_correct >= 500) {
+                        sticker_box.append('<img src="./image/Writing 500+.png" alt="500問以上正解" class="level_sticker">');
+                    }
+                });
+            </script>
         </div>
         <!-- レベル ここまで -->
         <hr>

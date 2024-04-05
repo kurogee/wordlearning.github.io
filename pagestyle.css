@@ -387,17 +387,48 @@ a.link_color:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 85%;
-    height: 30%;
-    border-radius: 30px;
+    height: 50%;
+    border-radius: 10px 0px 0px 10px;
     font-size: 30px;
     overflow: auto;
     z-index: 100;
     background-color: darkseagreen;
     border: 3px solid black;
-    /* 上下中央に文字を配置する */
     justify-content: center;
     align-items: center;
     overflow: auto;
+}
+
+#notification {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 50%;
+    height: max-content;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* font-sizeは1行で表示するために調整 */
+    font-size: calc(0.8vw + 0.8vh + 1vmin);
+    border-radius: 10px;
+    overflow: auto;
+    z-index: 100;
+    background-color: gold;
+    color: black;
+    border: 3px solid black;
+}
+
+/* popup_windowのスクロールバーを太くする */
+#popup_window::-webkit-scrollbar {
+    width: 20px;
+}
+
+#popup_window::-webkit-scrollbar-thumb {
+    background-color: darkgreen;
+    border-radius: 10px;
+}
+
+#popup_window::-webkit-scrollbar-track {
+    background-color: lightgreen;
 }
 
 /* テキストボックスを大きくする */
@@ -443,4 +474,9 @@ a.link_color:hover {
 
 #levelup > h3 {
     font-family: var(--dot-font-family) !important;
+}
+
+.level_sticker {
+    width: 80px;
+    height: 80px;
 }

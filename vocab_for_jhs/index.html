@@ -7,21 +7,6 @@
         
         <link rel="shortcut icon" href="../favicon.png" type="image/png">
         <link rel="stylesheet" href="../pagestyle.css">
-        <style>
-            /* popup_windowのスクロールバーを太くする */
-            #popup_window::-webkit-scrollbar {
-                width: 20px;
-            }
-
-            #popup_window::-webkit-scrollbar-thumb {
-                background-color: darkgreen;
-                border-radius: 10px;
-            }
-
-            #popup_window::-webkit-scrollbar-track {
-                background-color: lightgreen;
-            }
-        </style>
         <script src="../jquery-3.7.1.min.js"></script>
     </head>
     <body>
@@ -186,9 +171,11 @@
 
                             showLevel();
 
+                            const get_point = 1 + parseInt(level.getLevel().level) / 5;
+
                             let before_level = level.getLevel().level;
                             let before_exp = level.getLevel().exp;
-                            level.addExp(correct * 3);
+                            level.addExp(Math.round(correct * 3 * get_point));
 
                             level.reloadLevel();
                         }

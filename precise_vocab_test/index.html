@@ -298,9 +298,11 @@
 
                             showLevel();
 
+                            const get_point = 1 + parseInt(level.getLevel().level) / 4;
+
                             let before_level = level.getLevel().level;
                             let before_exp = level.getLevel().exp;
-                            level.addExp(correct * 5);
+                            level.addExp(Math.round(correct * 5 * get_point));
 
                             level.reloadLevel();
                         }

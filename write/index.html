@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <title>単語学習アプリ - ひたすら一問一答</title>
+        <title>単語学習アプリ - ひたすら打ち込み</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -22,16 +22,39 @@
         <div id="box">
             <h3>使用する単語のデータセット</h3>
             <select id="use_dataset" style="width: 90%;">
-                <option value="verbs" path="verbs.json" selected>動詞データ(難易度：中学〜高校)</option>
-                <option value="adjectives" path="adjectives.json">形容詞データ(難易度：中学〜高校)</option>
-                <option value="nouns" path="noun(jhs).json">名詞データ(難易度：中学)</option>
-                <option value="nouns" path="noun(hs).json">名詞データ(難易度：高校)</option>
-                <option value="eiken3" path="eiken3.json">英検3級の単語データ</option>
-                <option value="eiken-pre2" path="eiken_pre2.json">英検準2級の単語データ</option>
-                <option value="jhs-all-words" path="jhs_all_words.json">中学校3年間の単語データ</option>
-                <option value="all-words" path="all_words.json">中学校・高校生の単語データ</option>
-                <option value="url" path="URL">URL</option>
-                <option value="file" path="FILE">ファイルのアップロード</option>
+                <option value="verbs" path="verbs.json" point="7" selected>
+                    動詞データ(難易度：中学〜高校)
+                </option>
+                <option value="adjectives" path="adjectives.json" point="7">
+                    形容詞データ(難易度：中学〜高校)
+                </option>
+                <option value="nouns" path="noun(jhs).json" point="7">
+                    名詞データ(難易度：中学)
+                </option>
+                <option value="nouns" path="noun(hs).json" point="8">
+                    名詞データ(難易度：高校)
+                </option>
+                <option value="idioms" path="idioms.json" point="5">
+                    熟語データ
+                </option>
+                <option value="eiken3" path="eiken3.json" point="7">
+                    英検3級の単語データ
+                </option>
+                <option value="eiken-pre2" path="eiken_pre2.json" point="8">
+                    英検準2級の単語データ
+                </option>
+                <option value="jhs-all-words" path="jhs_all_words.json" point="7">
+                    中学校3年間の単語データ
+                </option>
+                <option value="all-words" path="all_words.json" point="8">
+                    中学校・高校生の単語データ
+                </option>
+                <option value="url" path="URL" point="0">
+                    URL
+                </option>
+                <option value="file" path="FILE" point="0">
+                    ファイルのアップロード
+                </option>
             </select>
             <hr>
 
@@ -56,6 +79,7 @@
             <label for="check_wrong_questions">間違えた問題を復習する：<input type="checkbox" id="check_wrong_questions"></label>
         </div>
         <div class="box" id="popup_window" style="display: none;"></div>
+        <div class="box" id="notification" style="display: none;"></div>
 
         <script src="../level.js"></script>
         <script>
@@ -186,7 +210,47 @@
                                         $("#popup_window").html($("#popup_window").html() + "<br>例文：" + word.sentence + "<br>意味：" + word.sentence_ja);
                                     }
 
-                                    level.addExp(8);
+                                    // 正解数をlocalStorageに保存
+                                    localStorage.setItem("writing_correct", parseInt(localStorage.getItem("writing_correct")) + 1);
+
+                                    // もし正解数が50、100、300、500以上になったら、通知を表示
+                                    if (parseInt(localStorage.getItem("writing_correct")) == 50) {
+                                        $("#notification").text("バッジ：「Writing正解数 50+」を獲得しました");
+                                        $("#notification").css("background-color", "gold");
+                                        $("#notification").show();
+                                        // 2秒後に通知を非表示にする
+                                        setTimeout(() => {
+                                            $("#notification").hide();
+                                        }, 2000);
+                                    } else if (parseInt(localStorage.getItem("writing_correct")) == 100) {
+                                        $("#notification").text("バッジ：「Writing正解数 100+」を獲得しました");
+                                        $("#notification").css("background-color", "gold");
+                                        $("#notification").show();
+                                        // 2秒後に通知を非表示にする
+                                        setTimeout(() => {
+                                            $("#notification").hide();
+                                        }, 2000);
+                                    } else if (parseInt(localStorage.getItem("writing_correct")) == 300) {
+                                        $("#notification").text("バッジ：「Writing正解数 300+」を獲得しました");
+                                        $("#notification").css("background-color", "gold");
+                                        $("#notification").show();
+                                        // 2秒後に通知を非表示にする
+                                        setTimeout(() => {
+                                            $("#notification").hide();
+                                        }, 2000);
+                                    } else if (parseInt(localStorage.getItem("writing_correct")) == 500) {
+                                        $("#notification").text("バッジ：「Writing正解数 500+」を獲得しました");
+                                        $("#notification").css("background-color", "gold");
+                                        $("#notification").show();
+                                        // 2秒後に通知を非表示にする
+                                        setTimeout(() => {
+                                            $("#notification").hide();
+                                        }, 2000);
+                                    }
+
+                                    const basic_point = parseInt($("#use_dataset option:selected").attr("point"));
+                                    let get_point = Math.round(basic_point * ( 1 + parseInt(level.getLevel().level) / 8 ));
+                                    level.addExp(get_point);
 
                                     $("#popup_window").css("background-color", "lightgreen");
                                     $("#popup_window").show();
@@ -263,6 +327,10 @@
                 $("#check_wrong_questions").change(async function() {
                     await start_questions();
                 });
+
+                if (!localStorage.getItem("writing_correct")) {
+                    localStorage.setItem("writing_correct", 0);
+                }
 
                 start_questions();
             }));

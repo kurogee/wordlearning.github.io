@@ -63,22 +63,6 @@
                 background-color: rgba(0, 0, 0, 0.1);
                 border-radius: 10px;
             }
-
-            #popup_window {
-                position: fixed;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                width: 85%;
-                height: 50%;
-                border-radius: 30px;
-                padding: 20px;
-                font-size: 30px;
-                overflow: auto;
-                z-index: 100;
-                background-color: darkseagreen;
-                border: 3px solid black;
-            }
         </style>
         <script src="../jquery-3.7.1.min.js"></script>
     </head>
@@ -95,17 +79,39 @@
         <div id="box">
             <h3>使用する単語のデータセット</h3>
             <select id="use_dataset" style="width: 90%;">
-                <option value="verbs" path="verbs.json" selected>動詞データ(難易度：中学〜高校)</option>
-                <option value="adjectives" path="adjectives.json">形容詞データ(難易度：中学〜高校)</option>
-                <option value="nouns" path="noun(jhs).json">名詞データ(難易度：中学)</option>
-                <option value="nouns" path="noun(hs).json">名詞データ(難易度：高校)</option>
-                <option value="idioms" path="idioms.json">熟語データ</option>
-                <option value="eiken3" path="eiken3.json">英検3級の単語データ</option>
-                <option value="eiken-pre2" path="eiken_pre2.json">英検準2級の単語データ</option>
-                <option value="jhs-all-words" path="jhs_all_words.json">中学校3年間の単語データ</option>
-                <option value="all-words" path="all_words.json">中学校・高校生の単語データ</option>
-                <option value="url" path="URL">URL</option>
-                <option value="file" path="FILE">ファイルのアップロード</option>
+                <option value="verbs" path="verbs.json" point="5" selected>
+                    動詞データ(難易度：中学〜高校)
+                </option>
+                <option value="adjectives" path="adjectives.json" point="5">
+                    形容詞データ(難易度：中学〜高校)
+                </option>
+                <option value="nouns" path="noun(jhs).json" point="5">
+                    名詞データ(難易度：中学)
+                </option>
+                <option value="nouns" path="noun(hs).json" point="7">
+                    名詞データ(難易度：高校)
+                </option>
+                <option value="idioms" path="idioms.json" point="3">
+                    熟語データ
+                </option>
+                <option value="eiken3" path="eiken3.json" point="5">
+                    英検3級の単語データ
+                </option>
+                <option value="eiken-pre2" path="eiken_pre2.json" point="7">
+                    英検準2級の単語データ
+                </option>
+                <option value="jhs-all-words" path="jhs_all_words.json" point="6">
+                    中学校3年間の単語データ
+                </option>
+                <option value="all-words" path="all_words.json" point="8">
+                    中学校・高校生の単語データ
+                </option>
+                <option value="url" path="URL" point="0">
+                    URL
+                </option>
+                <option value="file" path="FILE" point="0">
+                    ファイルのアップロード
+                </option>
             </select>
             <hr>
 
@@ -152,6 +158,7 @@
             </script>
         </div>
         <div class="box" id="popup_window" style="display: none;"></div>
+        <div class="box" id="notification" style="display: none;"></div>
 
         <script src="../level.js"></script>
         <script>
@@ -324,13 +331,55 @@
                             correct_audio.currentTime = 0;
                             correct_audio.play();
 
-                            level.addExp(5);
+                            // レベルが上がるごとにもらえる経験値が増えるようにする
+                            const basic_point = parseInt($("#use_dataset option:selected").attr("point"));
+                            let get_point = Math.round(basic_point * ( 1 + parseInt(level.getLevel().level) / 10 ));
+                            console.log(get_point);
+                            level.addExp(get_point);
 
                             html_code = `
                             <h3>正解！</h3>
                             「${$("#word").text()}」の意味：<br>${$("#meaning" + correct_number).text()}
                             ${question_result[1] !== null ? "<hr>例文：" + question_result[1]: ""}
                             ${question_result[2] !== null ? "<br>例文の意味：" + question_result[2]: ""}`;
+
+                            // 正解数をlocalStorageに保存
+                            localStorage.setItem("qaa_correct", parseInt(localStorage.getItem("qaa_correct")) + 1);
+
+                            // もし正解数が50、100、300、500以上になったら、通知を表示
+                            if (parseInt(localStorage.getItem("qaa_correct")) == 50) {
+                                $("#notification").text("バッジ：「一問一答正解数 50+」を獲得しました");
+                                $("#notification").css("background-color", "gold");
+                                $("#notification").show();
+                                // 2秒後に通知を非表示にする
+                                setTimeout(() => {
+                                    $("#notification").hide();
+                                }, 2000);
+                            } else if (parseInt(localStorage.getItem("qaa_correct")) == 100) {
+                                $("#notification").text("バッジ：「一問一答正解数 100+」を獲得しました");
+                                $("#notification").css("background-color", "gold");
+                                $("#notification").show();
+                                // 2秒後に通知を非表示にする
+                                setTimeout(() => {
+                                    $("#notification").hide();
+                                }, 2000);
+                            } else if (parseInt(localStorage.getItem("qaa_correct")) == 300) {
+                                $("#notification").text("バッジ：「一問一答正解数 300+」を獲得しました");
+                                $("#notification").css("background-color", "gold");
+                                $("#notification").show();
+                                // 2秒後に通知を非表示にする
+                                setTimeout(() => {
+                                    $("#notification").hide();
+                                }, 2000);
+                            } else if (parseInt(localStorage.getItem("qaa_correct")) == 500) {
+                                $("#notification").text("バッジ：「一問一答正解数 500+」を獲得しました");
+                                $("#notification").css("background-color", "gold");
+                                $("#notification").show();
+                                // 2秒後に通知を非表示にする
+                                setTimeout(() => {
+                                    $("#notification").hide();
+                                }, 2000);
+                            }
                             
                             // popup_windowに正解表示。windowまたは画面のクリックで消える
                             $("#popup_window").html(html_code + "<br><br><small>ウィンドウをクリックで閉じる</small>");
@@ -424,6 +473,11 @@
                 start_program();
             });
 
+            window.addEventListener("load", function() {
+                if (!localStorage.getItem("qaa_correct")) {
+                    localStorage.setItem("qaa_correct", 0);
+                }
+            });
             window.addEventListener("load", start_program);
         </script>
     </body>

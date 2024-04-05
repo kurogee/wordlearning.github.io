@@ -121,7 +121,9 @@
                                     $("#popup_window").text("正解！");
                                     $("#popup_window").css("background-color", "lightgreen");
 
-                                    level.addExp(5);
+                                    const basic_point = 7;
+                                    let get_point = Math.round(basic_point * ( 1 + parseInt(level.getLevel().level) / 10 ));
+                                    level.addExp(get_point);
 
                                     $("#popup_window").show();
                                     await new Promise((resolve) => setTimeout(resolve, 1000));
