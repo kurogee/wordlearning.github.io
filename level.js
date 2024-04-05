@@ -47,13 +47,17 @@ let level = {
         let level = parseInt(localStorage.getItem('level'));
         // レベルが1だけでなく、2以上上がる場合も対応できるようにする
         // レベルごとに必要な経験値が上がることに注意
+        level++;
         let need_exp_for_next_level = level * 100;
+
         while (remain >= need_exp_for_next_level) {
             remain -= need_exp_for_next_level;
             level++;
+            console.log(level);
             need_exp_for_next_level = level * 100;
         }
         localStorage.setItem('level', level);
+
         // 経験値をリセット、経験値が余る場合は次のレベルに持ち越す
         localStorage.setItem('exp', remain);
 
