@@ -27,65 +27,125 @@
                 <span id="exp"></span>
             </small>
             <hr>
-            <div id="sticker" class="box" style="width: 90%;">
+            <div class="box" style="width: 90%;">
                 <p>バッジ</p>
+                <button id="sticker_toggle" class="button">表示する</button>
+                <hr>
+                <div id="sticker"></div>
             </div>
             <br>
             <script>
                 $(function() {
                     let sticker_box = $("#sticker");
+                    let all_badge, have_badge = 0;
+
+                    let table_elements = [];
+
                     let level = parseInt(localStorage.getItem("level")) || 1;
-                    if (level >= 5) {
-                        sticker_box.append('<img src="./image/Lv.5.png" alt="レベル5" class="level_sticker">');
-                    }
-                    if (level >= 10) {
-                        sticker_box.append('<img src="./image/Lv.10.png" alt="レベル10" class="level_sticker">');
-                    }
-                    if (level >= 15) {
-                        sticker_box.append('<img src="./image/Lv.15.png" alt="レベル15" class="level_sticker">');
-                    }
-                    if (level >= 20) {
-                        sticker_box.append('<img src="./image/Lv.20.png" alt="レベル20" class="level_sticker">');
-                    }
-                    if (level >= 25) {
-                        sticker_box.append('<img src="./image/Lv.25.png" alt="レベル25" class="level_sticker">');
-                    }
-                    if (level >= 30) {
-                        sticker_box.append('<img src="./image/Lv.30.png" alt="レベル30" class="level_sticker">');
-                    }
-                    if (level >= 40) {
-                        sticker_box.append('<img src="./image/Lv.40.png" alt="レベル40" class="level_sticker">');
-                    }
-                    if (level >= 50) {
-                        sticker_box.append('<img src="./image/Lv.50+.png" alt="レベル50+" class="level_sticker">');
+                    const sticker_levels = [5, 10, 15, 20, 25, 30, 40, 50];
+                    const sticker_levels_text = ["Lv5達成", "Lv10達成", "Lv15達成", "Lv20達成", "Lv25達成", "Lv30達成", "Lv40達成", "Lv50達成"];
+                    for (let i = 0; i < sticker_levels.length; i++) {
+                        if (level >= sticker_levels[i]) {
+                            table_elements.push([`<span class="level_sticker"><img src="./image/Lv.${sticker_levels[i]}.png" alt="${sticker_levels_text[i]}" class="sticker_image">`, `<small>${sticker_levels_text[i]}</small>`]);
+                            have_badge++;
+                        } else {
+                            table_elements.push([`<span class="level_sticker"><img src="./image/secret.png" class="sticker_image">`, `<small>未解除-ヒント：レベル</small>`]);
+                        }
+                        all_badge++;
                     }
 
                     let qaa_correct = parseInt(localStorage.getItem("qaa_correct")) || 0;
-                    if (qaa_correct >= 50) {
-                        sticker_box.append('<img src="./image/QaA 50+.png" alt="50問以上正解" class="level_sticker">');
-                    }
-                    if (qaa_correct >= 100) {
-                        sticker_box.append('<img src="./image/QaA 100+.png" alt="100問以上正解" class="level_sticker">');
-                    }
-                    if (qaa_correct >= 300) {
-                        sticker_box.append('<img src="./image/QaA 300+.png" alt="300問以上正解" class="level_sticker">');
-                    }
-                    if (qaa_correct >= 500) {
-                        sticker_box.append('<img src="./image/QaA 500+.png" alt="500問以上正解" class="level_sticker">');
+                    const qaa_corrects = [50, 100, 300, 500];
+                    const qaa_corrects_text = ["50問正解", "100問正解", "300問正解", "500問正解"];
+                    for (let i = 0; i < qaa_corrects.length; i++) {
+                        if (qaa_correct >= qaa_corrects[i]) {
+                            table_elements.push([`<span class="level_sticker"><img src="./image/QaA ${qaa_corrects[i]}+.png" alt="${qaa_corrects_text[i]}" class="sticker_image">`, `<small>${qaa_corrects_text[i]}</small>`]);
+                            have_badge++;
+                        } else {
+                            table_elements.push([`<span class="level_sticker"><img src="./image/secret.png" class="sticker_image">`, `<small>未解除-ヒント：一問一答</small>`]);
+                        }
+                        all_badge++;
                     }
 
                     let writing_correct = parseInt(localStorage.getItem("writing_correct")) || 0;
-                    if (writing_correct >= 50) {
-                        sticker_box.append('<img src="./image/Writing 50+.png" alt="50問以上正解" class="level_sticker">');
+                    const writing_corrects = [50, 100, 300, 500];
+                    const writing_corrects_text = ["50問正解", "100問正解", "300問正解", "500問正解"];
+                    for (let i = 0; i < writing_corrects.length; i++) {
+                        if (writing_correct >= writing_corrects[i]) {
+                            table_elements.push([`<span class="level_sticker"><img src="./image/Writing ${writing_corrects[i]}+.png" alt="${writing_corrects_text[i]}" class="sticker_image">`, `<small>${writing_corrects_text[i]}</small>`]);
+                            have_badge++;
+                        } else {
+                            table_elements.push([`<span class="level_sticker"><img src="./image/secret.png" class="sticker_image">`, `<small>未解除-ヒント：Write</small>`]);
+                        }
+                        all_badge++;
                     }
-                    if (writing_correct >= 100) {
-                        sticker_box.append('<img src="./image/Writing 100+.png" alt="100問以上正解" class="level_sticker">');
+
+                    let test_correct_percent = parseInt(localStorage.getItem("test_correct")) || 0;
+                    const test_correct_percents = [30, 50, 100];
+                    const test_correct_percents_text = ["30%以上正解", "50%以上正解", "100%正解"];
+                    for (let i = 0; i < test_correct_percents.length; i++) {
+                        if (test_correct_percent >= test_correct_percents[i]) {
+                            table_elements.push([`<span class="level_sticker"><img src="./image/Vocab ${test_correct_percents[i]} Complete.png" alt="${test_correct_percents_text[i]}" class="sticker_image">`, `<small>${test_correct_percents_text[i]}</small>`]);
+                            have_badge++;
+                        } else {
+                            table_elements.push([`<span class="level_sticker"><img src="./image/secret.png" class="sticker_image">`, `<small>未解除-ヒント：理解度</small>`]);
+                        }
+                        all_badge++;
                     }
-                    if (writing_correct >= 300) {
-                        sticker_box.append('<img src="./image/Writing 300+.png" alt="300問以上正解" class="level_sticker">');
+
+                    // その他のバッジ
+
+                    if (localStorage.getItem("editor_used") == "true") {
+                        table_elements.push([`<span class="level_sticker"><img src="./image/Simple badge.png" class="sticker_image">`, `<small>エディター使用</small>`]);
+                        have_badge++;
+                    } else {
+                        table_elements.push([`<span class="level_sticker"><img src="./image/secret.png" class="sticker_image">`, `<small>未解除-ヒント：帳</small>`]);
                     }
-                    if (writing_correct >= 500) {
-                        sticker_box.append('<img src="./image/Writing 500+.png" alt="500問以上正解" class="level_sticker">');
+                    all_badge++;
+
+                    if (all_badge == have_badge) {
+                        table_elements.push([`<span class="level_sticker"><img src="./image/Simple badge.png" class="sticker_image">`, `<small>基本バッジ全解除</small>`]);
+                    } else {
+                        table_elements.push([`<span class="level_sticker"><img src="./image/secret.png" class="sticker_image">`, `<small>未解除-ヒント：全て</small>`]);
+                    }
+
+                    // 隠しバッジ
+
+                    if (localStorage.getItem("code_viewer") == "true") {
+                        table_elements.push([`<span class="level_sticker"><img src="./image/Simple badge.png" class="sticker_image">`, `<small>プログラム好き</small>`]);
+                    }
+
+                    let table = "<table class='none_border'>";
+                    // テーブルをtable_elementsから作成する
+                    // 5個ごとに改行する
+                    // 一つのバッジに付き2段マスを使い、画像とテキストをそれぞれ上と下に表示する
+                    for (let i = 0; i < table_elements.length; i++) {
+                        if (i % 5 == 0) {
+                            table += "<tr>";
+                        }
+
+                        let table_each_element = "<table><tr>";
+                        table_each_element += `<td>${table_elements[i][0]}</td>`;
+                        table_each_element += "</tr><tr>";
+                        table_each_element += `<td>${table_elements[i][1]}</td>`;
+                        table_each_element += "</tr></table>";
+
+                        table += `<td>${table_each_element}</td>`;
+                        if ((i + 1) % 5 == 0) {
+                            table += "</tr><tr>";
+                        }
+                    }
+                    table += "</table>";
+                    sticker_box.html(table);
+                });
+
+                $("#sticker_toggle").text("非表示にする");
+                $("#sticker_toggle").click(function() {
+                    $("#sticker").toggle();
+                    if ($("#sticker").css("display") == "none") {
+                        $("#sticker_toggle").text("表示する");
+                    } else {
+                        $("#sticker_toggle").text("非表示にする");
                     }
                 });
             </script>
@@ -95,7 +155,7 @@
         <div id="box">
             <h2>アプリ</h2>
             <p>
-                <a href="./1q1a/index.html" class="link_color">＜　英単語ひたすら一問一答　＞</a><br>
+                <a href="./QaA/index.html" class="link_color">＜　英単語ひたすら一問一答　＞</a><br>
                 <a href="./write/index.html" class="link_color">＜　英単語ひたすら打ち込み　＞</a><br>
                 <a href="./past/index.html" class="link_color">＜　英単語ひたすら過去形　＞</a><br>
                 <a href="./editor/index.html" class="link_color">＜　My英単語エディター　＞</a>
@@ -114,5 +174,23 @@
             Sound Effect from <a href="https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=39146" target="_blank">Pixabay</a>
         </small>
         <script src="./level.js"></script>
+        <script>
+            // もしCtrl + Uを押されたら
+            $(document).keydown(function(e) {
+                if (e.ctrlKey && e.keyCode == 85) {
+                    localStorage.setItem("code_viewer", "true");
+                }
+            });
+        </script>
+
+        <style>
+            .none_border {
+                border: none;
+            }
+
+            .none_border td {
+                border: none;
+            }
+        </style>
     </body>
 </html>

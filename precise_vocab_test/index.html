@@ -233,6 +233,17 @@
                                 eiken_level = "1級";
                             }
 
+                            // 正答率を計算
+                            let correct_rate_percentage = Math.round(correct / question_limit * 100);
+                            // 正答率によってバッジをつける
+                            if (correct_rate_percentage >= 100) {
+                                localStorage.setItem("test_correct", 10);
+                            } else if (correct_rate_percentage >= 50) {
+                                localStorage.setItem("test_correct", 5);
+                            } else if (correct_rate_percentage >= 30) {
+                                localStorage.setItem("test_correct", 3);
+                            }
+
                             $("#question").text("テスト終了");
                             let result = `
                                     正解：${correct}問、不正解：${incorrect}問

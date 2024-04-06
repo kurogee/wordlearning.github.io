@@ -198,6 +198,8 @@
                     a.href = url;
                     a.download = "my_words.txt";
                     a.click();
+
+                    localStorage.setItem("editor_used", "true");
                 });
 
                 // テキストボックスに入力してEnterキーを押すと、次のテキストボックスにフォーカスを移動
