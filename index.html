@@ -47,27 +47,52 @@
             <hr>
             <div class="box" style="width: 90%;">
                 <p>バッジ</p>
-                <button id="sticker_toggle" class="button">表示する</button>
+                <button id="badge_toggle" class="button">表示する</button>
                 <hr>
-                <div id="sticker"></div>
+                <div id="badge"></div>
             </div>
             <br>
             <script>
                 $(function() {
-                    let sticker_box = $("#sticker");
-                    let all_badge, have_badge = 0;
+                    let badge_box = $("#badge");
+                    let all_badge = 0;
+                    let have_badge = 0;
 
                     let table_elements = [];
+                    const badge_explain = [
+                        "レベル5を達成した",
+                        "レベル10を達成した",
+                        "レベル15を達成した",
+                        "レベル20を達成した",
+                        "レベル25を達成した",
+                        "レベル30を達成した",
+                        "レベル40を達成した",
+                        "レベル50を達成した",
+                        "一問一答で50問正解した",
+                        "一問一答で100問正解した",
+                        "一問一答で300問正解した",
+                        "一問一答で500問正解した",
+                        "打ち込みで50問正解した",
+                        "打ち込みで100問正解した",
+                        "打ち込みで300問正解した",
+                        "打ち込みで500問正解した",
+                        "一番難しい理解度テストで30%以上正解した",
+                        "一番難しい理解度テストで50%以上正解した",
+                        "一番難しい理解度テストで100%正解した",
+                        "My英単語エディターを使用した",
+                        "基本のバッジを全解除した",
+                        "Ctrl+Uでページのソースを表示した",
+                    ];
 
                     let level = parseInt(localStorage.getItem("level")) || 1;
-                    const sticker_levels = [5, 10, 15, 20, 25, 30, 40, 50];
-                    const sticker_levels_text = ["Lv5達成", "Lv10達成", "Lv15達成", "Lv20達成", "Lv25達成", "Lv30達成", "Lv40達成", "Lv50達成"];
-                    for (let i = 0; i < sticker_levels.length; i++) {
-                        if (level >= sticker_levels[i]) {
-                            table_elements.push([`<span class="level_sticker"><img src="./image/Lv.${sticker_levels[i]}.png" alt="${sticker_levels_text[i]}" class="sticker_image">`, `<small>${sticker_levels_text[i]}</small>`]);
+                    const badge_levels = [5, 10, 15, 20, 25, 30, 40, 50];
+                    const badge_levels_text = ["Lv5達成", "Lv10達成", "Lv15達成", "Lv20達成", "Lv25達成", "Lv30達成", "Lv40達成", "Lv50達成"];
+                    for (let i = 0; i < badge_levels.length; i++) {
+                        if (level >= badge_levels[i]) {
+                            table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/Lv.${badge_levels[i]}.png" alt="${badge_levels_text[i]}" class="badge_image">`, `<small>${badge_levels_text[i]}</small>`]);
                             have_badge++;
                         } else {
-                            table_elements.push([`<span class="level_sticker"><img src="./image/secret.png" class="sticker_image">`, `<small>未解除-ヒント：レベル</small>`]);
+                            table_elements.push([`<span class="level_badge"><img src="./image/secret.png" class="badge_image">`, `<small>未解除-ヒント：レベル</small>`]);
                         }
                         all_badge++;
                     }
@@ -77,10 +102,10 @@
                     const qaa_corrects_text = ["50問正解", "100問正解", "300問正解", "500問正解"];
                     for (let i = 0; i < qaa_corrects.length; i++) {
                         if (qaa_correct >= qaa_corrects[i]) {
-                            table_elements.push([`<span class="level_sticker"><img src="./image/QaA ${qaa_corrects[i]}+.png" alt="${qaa_corrects_text[i]}" class="sticker_image">`, `<small>${qaa_corrects_text[i]}</small>`]);
+                            table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/QaA ${qaa_corrects[i]}+.png" alt="${qaa_corrects_text[i]}" class="badge_image">`, `<small>${qaa_corrects_text[i]}</small>`]);
                             have_badge++;
                         } else {
-                            table_elements.push([`<span class="level_sticker"><img src="./image/secret.png" class="sticker_image">`, `<small>未解除-ヒント：一問一答</small>`]);
+                            table_elements.push([`<span class="level_badge"><img src="./image/secret.png" class="badge_image">`, `<small>未解除-ヒント：一問一答</small>`]);
                         }
                         all_badge++;
                     }
@@ -90,10 +115,10 @@
                     const writing_corrects_text = ["50問正解", "100問正解", "300問正解", "500問正解"];
                     for (let i = 0; i < writing_corrects.length; i++) {
                         if (writing_correct >= writing_corrects[i]) {
-                            table_elements.push([`<span class="level_sticker"><img src="./image/Writing ${writing_corrects[i]}+.png" alt="${writing_corrects_text[i]}" class="sticker_image">`, `<small>${writing_corrects_text[i]}</small>`]);
+                            table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/Writing ${writing_corrects[i]}+.png" alt="${writing_corrects_text[i]}" class="badge_image">`, `<small>${writing_corrects_text[i]}</small>`]);
                             have_badge++;
                         } else {
-                            table_elements.push([`<span class="level_sticker"><img src="./image/secret.png" class="sticker_image">`, `<small>未解除-ヒント：Write</small>`]);
+                            table_elements.push([`<span class="level_badge"><img src="./image/secret.png" class="badge_image">`, `<small>未解除-ヒント：Write</small>`]);
                         }
                         all_badge++;
                     }
@@ -103,10 +128,10 @@
                     const test_correct_percents_text = ["30%以上正解", "50%以上正解", "100%正解"];
                     for (let i = 0; i < test_correct_percents.length; i++) {
                         if (test_correct_percent >= test_correct_percents[i]) {
-                            table_elements.push([`<span class="level_sticker"><img src="./image/Vocab ${test_correct_percents[i]} Complete.png" alt="${test_correct_percents_text[i]}" class="sticker_image">`, `<small>${test_correct_percents_text[i]}</small>`]);
+                            table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/Vocab ${test_correct_percents[i]} Complete.png" alt="${test_correct_percents_text[i]}" class="badge_image">`, `<small>${test_correct_percents_text[i]}</small>`]);
                             have_badge++;
                         } else {
-                            table_elements.push([`<span class="level_sticker"><img src="./image/secret.png" class="sticker_image">`, `<small>未解除-ヒント：理解度</small>`]);
+                            table_elements.push([`<span class="level_badge"><img src="./image/secret.png" class="badge_image">`, `<small>未解除-ヒント：理解度</small>`]);
                         }
                         all_badge++;
                     }
@@ -114,24 +139,26 @@
                     // その他のバッジ
 
                     if (localStorage.getItem("editor_used") == "true") {
-                        table_elements.push([`<span class="level_sticker"><img src="./image/Simple badge.png" class="sticker_image">`, `<small>エディター使用</small>`]);
+                        table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/editor.png" class="badge_image">`, `<small>エディター使用</small>`]);
                         have_badge++;
                     } else {
-                        table_elements.push([`<span class="level_sticker"><img src="./image/secret.png" class="sticker_image">`, `<small>未解除-ヒント：帳</small>`]);
+                        table_elements.push([`<span class="level_badge"><img src="./image/secret.png" class="badge_image">`, `<small>未解除-ヒント：帳</small>`]);
                     }
                     all_badge++;
 
                     if (all_badge == have_badge) {
-                        table_elements.push([`<span class="level_sticker"><img src="./image/Simple badge.png" class="sticker_image">`, `<small>基本バッジ全解除</small>`]);
+                        table_elements.push([`<span class="level_badge title=${badge_explain[all_badge]}"><img src="./image/Simple badge.png" class="badge_image">`, `<small>基本バッジ全解除</small>`]);
                     } else {
-                        table_elements.push([`<span class="level_sticker"><img src="./image/secret.png" class="sticker_image">`, `<small>未解除-ヒント：全て</small>`]);
+                        table_elements.push([`<span class="level_badge"><img src="./image/secret.png" class="badge_image">`, `<small>未解除-ヒント：全て</small>`]);
                     }
+                    all_badge++;
 
                     // 隠しバッジ
 
                     if (localStorage.getItem("code_viewer") == "true") {
-                        table_elements.push([`<span class="level_sticker"><img src="./image/Simple badge.png" class="sticker_image">`, `<small>プログラム好き</small>`]);
+                        table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/coder.png" class="badge_image">`, `<small>隠：プログラム好き</small>`]);
                     }
+                    all_badge++;
 
                     let table = "<table class='none_border'>";
                     // テーブルをtable_elementsから作成する
@@ -154,16 +181,16 @@
                         }
                     }
                     table += "</table>";
-                    sticker_box.html(table);
+                    badge_box.html(table);
                 });
 
-                $("#sticker_toggle").text("非表示にする");
-                $("#sticker_toggle").click(function() {
-                    $("#sticker").toggle();
-                    if ($("#sticker").css("display") == "none") {
-                        $("#sticker_toggle").text("表示する");
+                $("#badge_toggle").text("非表示にする");
+                $("#badge_toggle").click(function() {
+                    $("#badge").toggle();
+                    if ($("#badge").css("display") == "none") {
+                        $("#badge_toggle").text("表示する");
                     } else {
-                        $("#sticker_toggle").text("非表示にする");
+                        $("#badge_toggle").text("非表示にする");
                     }
                 });
             </script>

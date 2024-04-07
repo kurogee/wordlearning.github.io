@@ -235,13 +235,13 @@
 
                             // 正答率を計算
                             let correct_rate_percentage = Math.round(correct / question_limit * 100);
+
                             // 正答率によってバッジをつける
-                            if (correct_rate_percentage >= 100) {
-                                localStorage.setItem("test_correct", 10);
-                            } else if (correct_rate_percentage >= 50) {
-                                localStorage.setItem("test_correct", 5);
-                            } else if (correct_rate_percentage >= 30) {
-                                localStorage.setItem("test_correct", 3);
+                            if (localStorage.getItem("test_correct") == null) {
+                                localStorage.setItem("test_correct", 0);
+                            }
+                            if (correct_rate_percentage >= parseInt(localStorage.getItem("test_correct"))) {
+                                localStorage.setItem("test_correct", correct_rate_percentage);
                             }
 
                             $("#question").text("テスト終了");

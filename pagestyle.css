@@ -425,7 +425,7 @@ a.link_color:hover {
     font-family: var(--dot-font-family) !important;
 }
 
-.level_sticker {
+.level_badge {
     /* 内容がなくても表示されるようにする */
     display: inline-block;
     width: calc(50vw / 10);
@@ -437,12 +437,12 @@ a.link_color:hover {
     margin-left: 10px;
 }
 
-.level_sticker > img {
+.level_badge > img {
     width: 100%;
     height: auto;
 }
 
-#sticker > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > small {
+#badge > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > small {
     @media screen and (max-width: 768px) {
         display: none;
     }
