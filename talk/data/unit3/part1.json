@@ -1,0 +1,138 @@
+{
+    "title" : "How Ancient People Tried to know the time",
+    "one_name" : "Teacher",
+    "two_name" : "Classmates",
+    "contents" : [
+        {
+            "talk" : "Today, I'm going to talk about ____ ancient people tried to know the time.",
+            "who" : "1"
+        },
+        {
+            "talk" : "First, do you know ancient Egyptians?",
+            "who" : "1"
+        },
+        {
+            "talk" : "I have ____ about them in history class. ____, I don't know them that well.",
+            "who" : "2"
+        },
+        {
+            "talk" : "Okay, I'll teach you...",
+            "who" : "1"
+        },
+        {
+            "talk" : "Actually, ancient Egyptians used the ____ to know the time.",
+            "who" : "1"
+        },
+        {
+            "talk" : "What? Could the sun tell them the time?",
+            "who" : "2"
+        },
+        {
+            "talk" : "Yes. They put a stick in the ground and watched the shadow of the stick.",
+            "who" : "1"
+        },
+        {
+            "talk" : "Ah! I see. The shadow of the stick ____ them the time.",
+            "who" : "2"
+        },
+        {
+            "talk" : "Exactly. They are very clever, aren't they?",
+            "who" : "1"
+        },
+        {
+            "talk" : "Yeah! I think so.",
+            "who" : "2"
+        },
+        {
+            "talk" : "And now, we have clocks and watches. We can know the time ____.",
+            "who" : "1"
+        },
+        {
+            "talk" : "However, we mustn't forget the efforts of ancient people.",
+            "who" : "1"
+        },
+        {
+            "talk" : "If they hadn't tried to know the time, we would ____ have clocks and watches.",
+            "who" : "1"
+        },
+        {
+            "talk" : "That's true. I think we should respect them.",
+            "who" : "2"
+        }
+    ],
+
+    "questions" : [
+        {
+            "question_number" : 1,
+            "translate_ja" : "今日、私は古代の人々がどのように時間を知ろうとしたかについて話します。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "how",
+                "what",
+                "way",
+                "that"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 3,
+            "translate_ja" : "私は歴史の授業で彼らについて聞いたことがあります。しかし、それほどよく知りません。",
+            "question_text" : "空欄に入る適切な単語の組み合わせを選んでください。",
+            "selections" : [
+                "heard / however",
+                "seen / so",
+                "read / but",
+                "learned / and"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 5,
+            "translate_ja" : "実際のところ、古代エジプト人は日時を知るために太陽を使っていました。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "sun",
+                "sunny",
+                "sunshine",
+                "shine"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 8,
+            "translate_ja" : "ああ！わかりました。棒の影が彼らに時間を示したのですね。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "showed",
+                "shown",
+                "knew",
+                "try"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 11,
+            "translate_ja" : "そして今、私たちは時計や腕時計を持っています。私たちは簡単に時間を知ることができます。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "easily",
+                "easy",
+                "quickly",
+                "kindly"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 13,
+            "translate_ja" : "もし彼らが時間を知ろうと努力していなかったら、私たちは時計や腕時計を持っていないかもしれません。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "not",
+                "often",
+                "no",
+                "ever"
+            ],
+            "answer" : 0
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "title" : "Universal Designs Around Our Lives",
+    "one_name" : "Teacher",
+    "two_name" : "Me",
+    "contents" : [
+        {
+            "talk" : "Do you have some good ideas for a next presentation?",
+            "who" : "2"
+        },
+        {
+            "talk" : "Well... How ____ researching \"Universal Design?\"",
+            "who" : "1"
+        },
+        {
+            "talk" : "Universal design? What are they?",
+            "who" : "2"
+        },
+        {
+            "talk" : "Have you ever ____ bumps on the jars? Efforts like that are \"universal designs.\"",
+            "who" : "1"
+        },
+        {
+            "talk" : "Wow! I see. So, are there many universal designs' products around us?",
+            "who" : "2"
+        },
+        {
+            "talk" : "Yes, but, there are also many universal designs' facilities.",
+            "who" : "1"
+        },
+        {
+            "talk" : "For example, there are many ____ for wheelchairs in the city.",
+            "who" : "1"
+        },
+        {
+            "talk" : "Oh, it's very ____ for me. I'll research more about universal designs for the presentation.",
+            "who" : "2"
+        },
+        {
+            "talk" : "Yeah, it's a good idea. I'm looking forward to your presentation.",
+            "who" : "1"
+        }
+    ],
+
+    "questions" : [
+        {
+            "question_number" : 2,
+            "translate_ja" : "うーん...では、「ユニバーサルデザイン」について調べてみませんか？",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "about",
+                "do",
+                "in",
+                "on"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 4,
+            "translate_ja" : "あなたは、瓶に凹凸があるのを見たことがありますか？そのような努力がユニバーサルデザインなのです。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "seen",
+                "seem",
+                "see",
+                "seeing"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 7,
+            "translate_ja" : "たとえば、市内には車椅子用のスロープがたくさんあります。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "ramps",
+                "stairs",
+                "lamps",
+                "lifts"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 8,
+            "translate_ja" : "ああ、それは私にとってとても興味深いです。プレゼンテーションのためにユニバーサルデザインについてもっと調べます。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "interesting",
+                "interested",
+                "interest",
+                "happy"
+            ],
+            "answer" : 0
+        }
+    ]
+}

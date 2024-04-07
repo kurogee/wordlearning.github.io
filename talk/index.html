@@ -72,8 +72,7 @@
             <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a>
             <p>
                 このアプリでは、実際の会話で使うような英単語を学習できます。<br>
-                画面に表示される会話に適切な英単語を選んでください。<br>
-                このアプリは、教科書の文章を少しアレンジしています。
+                画面に表示される会話に適切な英単語を選んでください。
             </p>
         </div>
         <hr>
@@ -125,6 +124,41 @@
             </script>
         </div>
         <div class="box" id="popup_window" style="display: none;"></div>
+        <!-- VSCODEの予測変換を機能させるためこっちに書く -->
+        <div id="hidden_elem" style="display: none;">
+            <div class="system_message">
+                <p>
+                    学習する内容を選んでください。
+                </p>
+            </div>
+            <div class="mycomment">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: calc(100%/3);">
+                                Unit 1<br>
+                                <small>自分の思いを人に伝えよう</small>
+                            </th>
+                            <th style="width: calc(100%/3);">
+                                Unit 2<br>
+                                <small>身近な問題について考えよう</small>
+                            </th>
+                            <th style="width: calc(100%/3);">
+                                Unit 3<br>
+                                <small>昔や未来の話をしよう</small>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><button class="button start_button" data="./data/unit1/part1.json">Favorite TV Shows</button></td>
+                            <td><button class="button start_button" data="./data/unit2/part1.json">Universal Designs Around Our Lives</button></td>
+                            <td><button class="button start_button" data="./data/unit3/part1.json">How Ancient People Tried to know the time</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
         <script src="../level.js"></script>
         <script>
@@ -163,36 +197,7 @@
                 }
             */
 
-            const unit_select_text = `
-                <div class="system_message">
-                    <p>
-                        ユニットを選択してください
-                    </p>
-                </div>
-                <div class="mycomment">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>中学校1年生</th>
-                                <th>中学校2年生</th>
-                                <th>中学校3年生</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><button class="button unit_button" data="./unit_data/first_grade/unit1.json">Unit 1</button></td>
-                                <td><button class="button" data="">準備中</button></td>
-                                <td><button class="button" data="">準備中</button></td>
-                            </tr>
-                            <tr>
-                                <td><button class="button unit_button" data="./unit_data/first_grade/unit2.json">Unit 2</button></td>
-                                <td><button class="button" data="">準備中</button></td>
-                                <td><button class="button" data="">準備中</button></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            `;
+            const unit_select_text = $("#hidden_elem").html();
 
             async function displayTalks(data) {
                 let talk_number = 0;
@@ -259,7 +264,7 @@
                     // 問題があるところで一時停止し、選択肢を表示する
                     // もしも問題があったら、問題を表示する
                     let check = data.questions.some(function(question) {
-                        return question.question_number == talk_number;
+                        return question.question_number - 1 == talk_number;
                     });
 
                     if (check) {
@@ -393,7 +398,8 @@
             }
 
             function talk_game(talk_json_path) {
-                const start_sound = new Audio("../sounds/start_unit.mp3");
+                const start_sound = new Audio("../sounds/start_lesson.mp3");
+                const clear_sound = new Audio("../sounds/clear_lesson.mp3");
                 let html_code = "";
                 // 会話データを取得
                 $.getJSON(talk_json_path, async function(data) {
@@ -423,6 +429,9 @@
                     $("#popup_window").html(html_code + "<small>ウィンドウをクリックで閉じる</small>");
                     $("#popup_window").css("background-color", "lightblue");
                     $("#popup_window").show();
+
+                    clear_sound.currentTime = 0;
+                    clear_sound.play();
                     
                     await new Promise(resolve => {
                         $("#popup_window").click(function() {
@@ -441,7 +450,7 @@
             }
 
             // ユニットボタンを押したときの処理
-            $(document).on('click', '.unit_button', function() {
+            $(document).on('click', '.start_button', function() {
                 let path = $(this).attr("data");
                 console.log(path);
                 talk_game(path);
