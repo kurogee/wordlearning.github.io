@@ -8,15 +8,15 @@
             "who" : "2"
         },
         {
-            "talk" : "Well... How ____ researching \"Universal Design?\"",
+            "talk" : "Well... How ____ researching \"Universal Designs?\"",
             "who" : "1"
         },
         {
-            "talk" : "Universal design? What are they?",
+            "talk" : "Universal designs? What are they?",
             "who" : "2"
         },
         {
-            "talk" : "Have you ever ____ bumps on the jars? Efforts like that are \"universal designs.\"",
+            "talk" : "Have you ever ____ bumps on the jars? Such efforts are \"universal designs.\"",
             "who" : "1"
         },
         {
@@ -28,7 +28,7 @@
             "who" : "1"
         },
         {
-            "talk" : "For example, there are many ____ for wheelchairs in the city.",
+            "talk" : "For example, there are many ____ for wheelchairs in our city.",
             "who" : "1"
         },
         {

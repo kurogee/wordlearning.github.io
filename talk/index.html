@@ -125,7 +125,7 @@
         </div>
         <div class="box" id="popup_window" style="display: none;"></div>
         <!-- VSCODEの予測変換を機能させるためこっちに書く -->
-        <div id="hidden_elem" style="display: none;">
+        <div id="hidden_elem" style="display: none !important;">
             <div class="system_message">
                 <p>
                     学習する内容を選んでください。
@@ -153,7 +153,7 @@
                         <tr>
                             <td><button class="button start_button" data="./data/unit1/part1.json">Favorite TV Shows</button></td>
                             <td><button class="button start_button" data="./data/unit2/part1.json">Universal Designs Around Our Lives</button></td>
-                            <td><button class="button start_button" data="./data/unit3/part1.json">How Ancient People Tried to know the time</button></td>
+                            <td><button class="button start_button" data="./data/unit3/part1.json">How Ancient People Tried to Know the Time</button></td>
                         </tr>
                     </tbody>
                 </table>
@@ -315,7 +315,7 @@
                                     `;
 
                                     // popup_windowに正解表示。windowまたは画面のクリックで消える
-                                    $("#popup_window").html(html_code + "<br><br><small>ウィンドウをクリックで閉じる</small>");
+                                    $("#popup_window").html(html_code + "<small>ウィンドウをクリックで閉じる</small>");
                                     $("#popup_window").css("background-color", "darkseagreen");
                                     $("#popup_window").show();
 
@@ -349,7 +349,7 @@
                                         <p>正解は「${selections_shuffled[answer]}」でした。</p>
                                     `;
                                     // popup_windowに不正解表示。windowまたは画面のクリックで消える
-                                    $("#popup_window").html(html_code + "<br><br><small>ウィンドウをクリックで閉じる</small>");
+                                    $("#popup_window").html(html_code + "<br><small>ウィンドウをクリックで閉じる</small>");
                                     $("#popup_window").css("background-color", "lightcoral");
                                     $("#popup_window").show();
 
