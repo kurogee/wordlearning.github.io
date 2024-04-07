@@ -1,0 +1,62 @@
+{
+    "title" : "自己紹介",
+    "one_name" : "John",
+    "two_name" : "-",
+    "contents" : [
+        {
+            "talk" : "Hello, everyone.",
+            "who" : "1"
+        },
+        {
+            "talk" : "My name is John Smith.",
+            "who" : "1"
+        },
+        {
+            "talk" : "____ __ John.",
+            "who" : "1"
+        },
+        {
+            "talk" : "I'm from America.",
+            "who" : "1"
+        },
+        {
+            "talk" : "I'm twelve.",
+            "who" : "1"
+        },
+        {
+            "talk" : "I ____ Japanese food.",
+            "who" : "1"
+        },
+        {
+            "talk" : "Nice to meet you.",
+            "who" : "1"
+        }
+    ],
+
+    "questions" : [
+        {
+            "question_number" : 2,
+            "translate_ja" : "私のことはジョンと呼んでください",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "Call me",
+                "I am",
+                "My name is",
+                "I like"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 5,
+            "translate_ja" : "私は日本食が好きです",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "like",
+                "am",
+                "have",
+                "do"
+            ],
+            "answer" : 0
+        }
+    ]
+}

@@ -21,7 +21,8 @@
         <div id="box">
             <h2>アプリ</h2>
             <p>
-                <a href="./QaA/index.html" class="link_color">＜　英単語ひたすら一問一答　＞</a><br>
+                <a href="./QaA/index.html" class="link_color">＜　英単語ひたすら一問一答（英語→日本語）　＞</a><br>
+                <a href="./QaAJ/index.html" class="link_color">＜　英単語ひたすら一問一答（日本語→英語）　＞</a><br>
                 <a href="./write/index.html" class="link_color">＜　英単語ひたすら打ち込み　＞</a><br>
                 <a href="./past/index.html" class="link_color">＜　英単語ひたすら過去形　＞</a><br>
                 <a href="./editor/index.html" class="link_color">＜　My英単語エディター　＞</a>
@@ -29,8 +30,8 @@
                 <a href="./vocab_for_jhs/index.html" class="link_color">＜　理解度テスト【中学生向け】　＞</a><br>
                 <a href="./vocab_for_all/index.html" class="link_color">＜　理解度テスト<wbr>【お手軽英検レベル測定】　＞</a><br>
                 <a href="./precise_vocab_test/index.html" class="link_color">＜　理解度テスト<wbr>【ちょっと本格英検レベル測定】　＞</a><br>
-                <p>※「難しい」テストは一時休止中です</p>
-                <!-- <a href="./most_difficult_test/index.html" class="link_color">＜　理解度テスト【難しい】　＞</a> -->
+                <hr>
+                <a href="./talk/index.html" class="link_color">＜　チャットスタディ(ベータ版)　＞</a>
                 <hr>
                 <a href="./word_search/index.html" class="link_color">＜　ワードサーチ　＞</a>
             </p>
@@ -147,7 +148,7 @@
                     all_badge++;
 
                     if (all_badge == have_badge) {
-                        table_elements.push([`<span class="level_badge title=${badge_explain[all_badge]}"><img src="./image/Simple badge.png" class="badge_image">`, `<small>基本バッジ全解除</small>`]);
+                        table_elements.push([`<span class="level_badge title=${badge_explain[all_badge]}"><img src="./image/all collected.png" class="badge_image">`, `<small>基本バッジ全解除</small>`]);
                     } else {
                         table_elements.push([`<span class="level_badge"><img src="./image/secret.png" class="badge_image">`, `<small>未解除-ヒント：全て</small>`]);
                     }

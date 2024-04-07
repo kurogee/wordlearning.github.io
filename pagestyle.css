@@ -447,3 +447,114 @@ a.link_color:hover {
         display: none;
     }
 }
+
+#talking_display {
+    padding: 20px 10px;
+    width: 90%;
+    height: 35vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin: 15px auto;
+    text-align: right;
+    background: #7da4cd;
+}
+
+/* talking_displayのスクロールバーを太くし、色も合うようにする */
+#talking_display::-webkit-scrollbar {
+    width: 20px;
+}
+
+#talking_display::-webkit-scrollbar-thumb {
+    background-color: #4383c7;
+    border-radius: 10px;
+}
+
+#talking_display::-webkit-scrollbar-track {
+    background-color: #7da4cd;
+}
+
+.comment {
+    width: 100%;
+    margin: 10px 0;
+    overflow: hidden;
+    text-align: left;
+}
+
+.comment p {
+    display: inline-block;
+    position: relative; 
+    margin: 0 0 0 50px;
+    font-size: 20px;
+    padding: 10px;
+    max-width: 45%;
+    border-radius: 12px;
+    background: #edf1ee;
+}
+
+.comment p:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 3px; 
+    left: -19px;
+    border: 8px solid transparent;
+    border-right: 18px solid #edf1ee;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+}
+
+.comment .talker_name {
+    /* メッセージの上に少し小さく表示 */
+    text-align: left;
+    font-size: 20px;
+    margin: 0 0 5px 0;
+}
+
+.mycomment {
+    text-align: right;
+    margin: 10px 0;
+    overflow: hidden;
+    text-align: right;
+}
+
+.mycomment p {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    border-radius: 12px;
+    background: #30e852;
+    font-size: 20px;
+    max-width: 45%;
+}
+
+.mycomment p:after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: -19px;
+    border: 8px solid transparent;
+    border-left: 18px solid #30e852;
+    -webkit-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+}
+
+.mycomment .talker_name {
+    /* メッセージの上に少し小さく表示 */
+    text-align: right;
+    font-size: 20px;
+    margin: 0 0 5px 0;
+}
+
+.system_message {
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+}
+
+.system_message p {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    background: #f0f0f0;
+}

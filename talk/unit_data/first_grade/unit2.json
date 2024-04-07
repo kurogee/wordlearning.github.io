@@ -1,0 +1,82 @@
+{
+    "title" : "質問",
+    "one_name" : "Taro",
+    "two_name" : "John",
+    "contents" : [
+        {
+            "talk" : "Are you from America?",
+            "who" : "1"
+        },
+        {
+            "talk" : "Yes, I __.",
+            "who" : "2"
+        },
+        {
+            "talk" : "So, are you a baseball fan?",
+            "who" : "1"
+        },
+        {
+            "talk" : "No, I am ___.",
+            "who" : "2"
+        },
+        {
+            "talk" : "I'm a American football fan.",
+            "who" : "2"
+        },
+        {
+            "talk" : "American football? __ you play it?",
+            "who" : "1"
+        },
+        {
+            "talk" : "No, I just watch it.",
+            "who" : "2"
+        },
+        {
+            "talk" : "How about soccer? Do you like it?",
+            "who" : "1"
+        },
+        {
+            "talk" : "Yes, I do.",
+            "who" : "2"
+        }
+    ],
+
+    "questions" : [
+        {
+            "question_number" : 1,
+            "translate_ja" : "あなたはアメリカ出身ですか？",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "am",
+                "are",
+                "is",
+                "do"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 3,
+            "translate_ja" : "いいえ、わたしはそうではありません。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "not",
+                "am",
+                "is",
+                "do"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 5,
+            "translate_ja" : "アメリカンフットボール？それをやることはあるの？",
+            "question_talk" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "Do",
+                "Is",
+                "Are",
+                "Am"
+            ],
+            "answer" : 0
+        }
+    ]
+}
