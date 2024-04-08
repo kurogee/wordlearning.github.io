@@ -1,60 +1,123 @@
 {
-    "title" : "自己紹介",
-    "one_name" : "John",
-    "two_name" : "-",
+    "title" : "Favorite TV Shows",
+    "one_name" : "Josh",
+    "two_name" : "Me",
     "contents" : [
         {
-            "talk" : "Hello, everyone.",
+            "talk" : "Hello. How are you?",
+            "talk_ja" : "こんにちは。元気ですか？",
             "who" : "1"
         },
         {
-            "talk" : "My name is John Smith.",
+            "talk" : "I'm good. How about you?",
+            "talk_ja" : "私は元気です。あなたはどうですか？",
+            "who" : "2"
+        },
+        {
+            "talk" : "I'm good, too. Do you often ____ TV?",
+            "talk_ja" : "私も元気です。あなたはよくテレビを見ますか？",
             "who" : "1"
         },
         {
-            "talk" : "____ __ John.",
+            "talk" : "Yes, I do. I like ____ TV.",
+            "talk_ja" : "はい、私はテレビを見るのが好きです。",
+            "who" : "2"
+        },
+        {
+            "talk" : "That's ____. What kind of TV shows do you like the ____?",
+            "talk_ja" : "それはいいですね。あなたはどんなテレビ番組が一番好きですか？",
             "who" : "1"
         },
         {
-            "talk" : "I'm from America.",
+            "talk" : "I like cooking shows the best.",
+            "talk_ja" : "私は料理番組が一番好きです。",
+            "who" : "2"
+        },
+        {
+            "talk" : "We can get to know a lot of knowledges from them",
+            "talk_ja" : "私たちはそれらからたくさんの知識を得ることができます。",
+            "who" : "2"
+        },
+        {
+            "talk" : "I ____. I like western dishes.",
+            "talk_ja" : "なるほど、私は西洋料理が好きです。",
             "who" : "1"
         },
         {
-            "talk" : "I'm twelve.",
+            "talk" : "If I watch cooking shows, can I be good at cooking?",
+            "talk_ja" : "料理番組を見れば、料理が上手になれますか？",
             "who" : "1"
         },
         {
-            "talk" : "I ____ Japanese food.",
-            "who" : "1"
+            "talk" : "Yes! I'm sure ____ you can be good at cooking!",
+            "talk_ja" : "はい！きっとあなたは料理が上手になれると思います！",
+            "who" : "2"
         },
         {
-            "talk" : "Nice to meet you.",
+            "talk" : "Thanks. I'll try it.",
+            "talk_ja" : "ありがとう。やってみるよ。",
             "who" : "1"
         }
     ],
 
     "questions" : [
         {
-            "question_number" : 2,
-            "translate_ja" : "私のことはジョンと呼んでください",
+            "question_number" : 3,
+            "translate_ja" : "私も元気です。あなたはよくテレビを見ますか？",
             "question_text" : "空欄に入る適切な単語を選んでください。",
             "selections" : [
-                "Call me",
-                "I am",
-                "My name is",
-                "I like"
+                "watch",
+                "see",
+                "look",
+                "read"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 4,
+            "translate_ja" : "はい、私はテレビを見るのが好きです。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "watching",
+                "watch",
+                "watches",
+                "watched"
             ],
             "answer" : 0
         },
         {
             "question_number" : 5,
-            "translate_ja" : "私は日本食が好きです",
+            "translate_ja" : "それはいいですね。あなたはどんなテレビ番組が一番好きですか？",
+            "question_text" : "空欄に入る適切な単語の組み合わせを選んでください。",
+            "selections" : [
+                "nice / best",
+                "bad / best",
+                "nice / better",
+                "good / most"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 8,
+            "translate_ja" : "なるほど、私は西洋料理が好きです。",
             "question_text" : "空欄に入る適切な単語を選んでください。",
             "selections" : [
-                "like",
-                "am",
-                "have",
-                "do"
+                "see",
+                "look",
+                "get",
+                "am"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 10,
+            "translate_ja" : "はい！きっとあなたは料理が上手になれると思います！",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "that",
+                "it",
+                "this",
+                "that's"
             ],
             "answer" : 0
         }

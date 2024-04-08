@@ -5,46 +5,57 @@
     "contents" : [
         {
             "talk" : "Hello. How are you?",
+            "talk_ja" : "こんにちは。元気ですか？",
             "who" : "1"
         },
         {
             "talk" : "I'm good. How about you?",
+            "talk_ja" : "私は元気です。あなたはどうですか？",
             "who" : "2"
         },
         {
             "talk" : "I'm good, too. Do you often ____ TV?",
+            "talk_ja" : "私も元気です。あなたはよくテレビを見ますか？",
             "who" : "1"
         },
         {
             "talk" : "Yes, I do. I like ____ TV.",
+            "talk_ja" : "はい、私はテレビを見るのが好きです。",
             "who" : "2"
         },
         {
             "talk" : "That's ____. What kind of TV shows do you like the ____?",
+            "talk_ja" : "それはいいですね。あなたはどんなテレビ番組が一番好きですか？",
             "who" : "1"
         },
         {
             "talk" : "I like cooking shows the best.",
+            "talk_ja" : "私は料理番組が一番好きです。",
             "who" : "2"
         },
         {
-            "talk" : "I can get to know a lot of knowledges from them",
+            "talk" : "We can get to know a lot of knowledges from them",
+            "talk_ja" : "私たちはそれらからたくさんの知識を得ることができます。",
             "who" : "2"
         },
         {
             "talk" : "I ____. I like western dishes.",
+            "talk_ja" : "なるほど、私は西洋料理が好きです。",
             "who" : "1"
         },
         {
             "talk" : "If I watch cooking shows, can I be good at cooking?",
+            "talk_ja" : "料理番組を見れば、料理が上手になれますか？",
             "who" : "1"
         },
         {
             "talk" : "Yes! I'm sure ____ you can be good at cooking!",
+            "talk_ja" : "はい！きっとあなたは料理が上手になれると思います！",
             "who" : "2"
         },
         {
             "talk" : "Thanks. I'll try it.",
+            "talk_ja" : "ありがとう。やってみるよ。",
             "who" : "1"
         }
     ],

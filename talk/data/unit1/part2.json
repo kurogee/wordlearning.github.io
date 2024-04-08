@@ -1,0 +1,118 @@
+{
+    "title" : "Contries to visit",
+    "one_name" : "Meg",
+    "two_name" : "Taro",
+    "contents" : [
+        {
+            "talk" : "They're talking on the phone...",
+            "talk_ja" : "彼らは電話で話しています",
+            "who" : "3"
+        },
+        {
+            "talk" : "Hello? This is Meg. What's ____?",
+            "talk_ja" : "もしもし？メグだよ、調子はどう？",
+            "who" : "1"
+        },
+        {
+            "talk" : "I'm doing good. What's the matter?",
+            "talk_ja" : "調子はいいよ。どうしたの？",
+            "who" : "2"
+        },
+        {
+            "talk" : "My friends and my family are planning to visit some countries this summer ____.",
+            "talk_ja" : "私の友達と家族がこの夏休みにいくつかの国を訪れる計画を立てているの。",
+            "who" : "1"
+        },
+        {
+            "talk" : "That's nice. Where are you going to visit?",
+            "talk_ja" : "それはいいね。どこに行くの？",
+            "who" : "2"
+        },
+        {
+            "talk" : "Actually, we have not decided yet. Do you know any good places to visit?",
+            "talk_ja" : "実は、まだ決めていないの。行くいい場所を知ってる？",
+            "who" : "1"
+        },
+        {
+            "talk" : "Well..., how about France? It's a beautiful country.",
+            "talk_ja" : "えーと、じゃあフランスはどう？美しい国だよ。",
+            "who" : "2"
+        },
+        {
+            "talk" : "Oh, I see. Do you know a good place in France?",
+            "talk_ja" : "おお、なるほど。フランスのいい場所を知ってる？",
+            "who" : "1"
+        },
+        {
+            "talk" : "There is a famous tower in Paris. People ____ it the Eiffel Tower.",
+            "talk_ja" : "パリに有名な塔があるよ。人々はそれをエッフェル塔と呼ぶんだ。",
+            "who" : "2"
+        },
+        {
+            "talk" : "Okay, I'll tell my friends and family about it.",
+            "talk_ja" : "わかった、このことを友達と家族に伝えるね。",
+            "who" : "1"
+        },
+        {
+            "talk" : "Thank you for your advice.",
+            "talk_ja" : "アドバイスありがとう。",
+            "who" : "1"
+        },
+        {
+            "talk" : "You___ welcome. ____ a good trip.",
+            "talk_ja" : "どういたしまして。いい旅にしてね。",
+            "who" : "2"
+        }
+    ],
+
+    "questions" : [
+        {
+            "question_number" : 2,
+            "translate_ja" : "もしもし？メグだよ、調子はどう？",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "up",
+                "down",
+                "wrong",
+                "good"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 4,
+            "translate_ja" : "私の友達と家族がこの夏休みにいくつかの国を訪れる計画を立てているの。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "vacation",
+                "holiday",
+                "trip",
+                "travel"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 9,
+            "translate_ja" : "パリに有名な塔があるよ。人々はそれをエッフェル塔と呼ぶんだ。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "call",
+                "say",
+                "tell",
+                "talk"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 12,
+            "translate_ja" : "どういたしまして。いい旅にしてね。",
+            "question_text" : "空欄に入る適切な単語の組み合わせを選んでください。",
+            "selections" : [
+                "(You)'re / Have",
+                "(You)'re / Do",
+                "(You)r / Have",
+                "(You)r / Take"
+            ],
+            "answer" : 0
+        }
+    ]
+}

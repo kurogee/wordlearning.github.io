@@ -190,6 +190,8 @@
                                 eiken_level = "準1級より上";
                             }
 
+                            let correct_rate_percentage = Math.round(correct / question_limit * 100);
+
                             $("#question").text("テスト終了");
 
                             let result = `

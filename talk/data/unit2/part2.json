@@ -1,0 +1,142 @@
+{
+    "title" : "Think Globally, Act Locally",
+    "one_name" : "Meg",
+    "two_name" : "Tom",
+    "contents" : [
+        {
+            "talk" : "Drinking clean water is ____ for our ____.",
+            "talk_ja" : "安全な水を飲むことは私たちの健康にとって必要なことです。",
+            "who" : "1"
+        },
+        {
+            "talk" : "But we mustn't forget that ____ people in the world can't get clean water.",
+            "talk_ja" : "しかし、私たちは世界の一部の人々が安全な水を手に入れることができないことを忘れてはいけません。",
+            "who" : "1"
+        },
+        {
+            "talk" : "What do you mean by that?",
+            "talk_ja" : "それはどういう意味ですか？",
+            "who" : "2"
+        },
+        {
+            "talk" : "I mean that they have to drink ____ water ____ live.",
+            "talk_ja" : "つまり、彼らは生きるために汚い水を飲まなければならないということです。",
+            "who" : "1"
+        },
+        {
+            "talk" : "Really? That's terrible.",
+            "talk_ja" : "本当ですか？それはひどいですね。",
+            "who" : "2"
+        },
+        {
+            "talk" : "But, now, we can help them by acting locally.",
+            "talk_ja" : "しかし、今、私たちは地域で行動することで彼らを助けることができます。",
+            "who" : "1"
+        },
+        {
+            "talk" : "So, how ____ I act?",
+            "talk_ja" : "では、私はどのように行動すべきですか？",
+            "who" : "2"
+        },
+        {
+            "talk" : "You can join a volunteer group to help people in need in the world.",
+            "talk_ja" : "世界中の困っている人々を助けるためのボランティアグループに参加することができます。",
+            "who" : "1"
+        },
+        {
+            "talk" : "If it's ____ for you, you can also ____ money to a charity.",
+            "talk_ja" : "もし難しい場合は、慈善団体に寄付金を送ることもできます。",
+            "who" : "1"
+        },
+        {
+            "talk" : "I see. I want to help them.",
+            "talk_ja" : "なるほど。私は彼らを助けたいです。",
+            "who" : "2"
+        },
+        {
+            "talk" : "And I hope that all the people in the world can drink clean water as ____ as we do.",
+            "talk_ja" : "私は世界中のすべての人々が私たちと同じように安全な水を飲むことができることを願っています。",
+            "who" : "1"
+        },
+        {
+            "talk" : "I agree with you. I hope that day will come soon.",
+            "talk_ja" : "私はあなたに賛成です。その日がすぐに来ることを願っています。",
+            "who" : "2"
+        }
+    ],
+
+    "questions" : [
+        {
+            "question_number" : 1,
+            "translate_ja" : "安全な水を飲むことは私たちの健康にとって必要なことです。",
+            "question_text" : "空欄に入る適切な単語の組み合わせを選んでください。",
+            "selections" : [
+                "necessary / health",
+                "necessary / healthy",
+                "necessity / health",
+                "need / health"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 2,
+            "translate_ja" : "しかし、私たちは世界の一部の人々が安全な水を手に入れることができないことを忘れてはいけません。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "some",
+                "any",
+                "little",
+                "few"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 4,
+            "translate_ja" : "つまり、彼らは生きるために汚い水を飲まなければならないということです。",
+            "question_text" : "空欄に入る適切な単語の組み合わせを選んでください。",
+            "selections" : [
+                "dirty / to",
+                "dirty / of",
+                "clean / to",
+                "bad / at"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 7,
+            "translate_ja" : "では、私はどのように行動すべきですか？",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "should",
+                "must",
+                "shall",
+                "will"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 9,
+            "translate_ja" : "もし難しい場合は、あなたは慈善団体に寄付金を送ることもできます。",
+            "question_text" : "空欄に入る適切な単語の組み合わせを選んでください。",
+            "selections" : [
+                "hard / send",
+                "difficult / donation",
+                "not / send",
+                "easy / donate"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 11,
+            "translate_ja" : "私は世界中のすべての人々が私たちと同じように安全な水を飲むことができることを願っています。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "well",
+                "good",
+                "will",
+                "much"
+            ],
+            "answer" : 0
+        }
+    ]
+}

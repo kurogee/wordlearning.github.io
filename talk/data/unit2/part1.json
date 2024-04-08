@@ -5,38 +5,52 @@
     "contents" : [
         {
             "talk" : "Do you have some good ideas for a next presentation?",
+            "talk_ja" : "次のプレゼンテーションのいいアイデアはありますか？",
             "who" : "2"
         },
         {
             "talk" : "Well... How ____ researching \"Universal Designs?\"",
+            "talk_ja" : "うーん...では、「ユニバーサルデザイン」について調べてみるのはどうですか？",
             "who" : "1"
         },
         {
             "talk" : "Universal designs? What are they?",
+            "talk_ja" : "ユニバーサルデザイン？それは何ですか？",
             "who" : "2"
         },
         {
-            "talk" : "Have you ever ____ bumps on the jars? Such efforts are \"universal designs.\"",
+            "talk" : "Have you ever ____ bumps on the jars? ",
+            "talk_ja" : "あなたは、瓶に凹凸があるのを見たことがありますか？",
+            "who" : "1"
+        },
+        {
+            "talk" : "Blind people can check what is inside the jars by touching the bumps. That's \"universal designs.\"",
+            "talk_ja" : "目の見えない人は、凹凸を触ることで瓶の中身を確認できます。それが「ユニバーサルデザイン」なのです。",
             "who" : "1"
         },
         {
             "talk" : "Wow! I see. So, are there many universal designs' products around us?",
+            "talk_ja" : "わあ！なるほど。じゃあ、私たちの周りにはたくさんのユニバーサルデザインの製品があるのですか？",
             "who" : "2"
         },
         {
             "talk" : "Yes, but, there are also many universal designs' facilities.",
+            "talk_ja" : "はい。でも、ユニバーサルデザインがある施設といったものもたくさんあります。",
             "who" : "1"
         },
         {
             "talk" : "For example, there are many ____ for wheelchairs in our city.",
+            "talk_ja" : "たとえば、市内には車椅子用のスロープがたくさんあります。",
             "who" : "1"
         },
         {
             "talk" : "Oh, it's very ____ for me. I'll research more about universal designs for the presentation.",
+            "talk_ja" : "ああ、それは私にとってとても興味深いです。プレゼンテーションのためにユニバーサルデザインについてもっと調べます。",
             "who" : "2"
         },
         {
             "talk" : "Yeah, it's a good idea. I'm looking forward to your presentation.",
+            "talk_ja" : "そうですね、いいアイデアですね。あなたのプレゼンテーションを楽しみにしています。",
             "who" : "1"
         }
     ],
@@ -56,7 +70,7 @@
         },
         {
             "question_number" : 4,
-            "translate_ja" : "あなたは、瓶に凹凸があるのを見たことがありますか？そのような努力がユニバーサルデザインなのです。",
+            "translate_ja" : "あなたは、瓶に凹凸があるのを見たことがありますか？",
             "question_text" : "空欄に入る適切な単語を選んでください。",
             "selections" : [
                 "seen",
@@ -67,7 +81,7 @@
             "answer" : 0
         },
         {
-            "question_number" : 7,
+            "question_number" : 8,
             "translate_ja" : "たとえば、市内には車椅子用のスロープがたくさんあります。",
             "question_text" : "空欄に入る適切な単語を選んでください。",
             "selections" : [
@@ -79,7 +93,7 @@
             "answer" : 0
         },
         {
-            "question_number" : 8,
+            "question_number" : 9,
             "translate_ja" : "ああ、それは私にとってとても興味深いです。プレゼンテーションのためにユニバーサルデザインについてもっと調べます。",
             "question_text" : "空欄に入る適切な単語を選んでください。",
             "selections" : [

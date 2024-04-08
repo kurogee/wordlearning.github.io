@@ -128,22 +128,23 @@
         <div id="hidden_elem" style="display: none !important;">
             <div class="system_message">
                 <p>
-                    学習する内容を選んでください。
+                    学習する内容を選んでください。（クリックは一回のみしてください）
                 </p>
             </div>
             <div class="mycomment">
                 <table>
                     <thead>
                         <tr>
-                            <th style="width: calc(100%/3);">
+                            <th style="width: 5%;">Part</th>
+                            <th style="width: 31%;">
                                 Unit 1<br>
                                 <small>自分の思いを人に伝えよう</small>
                             </th>
-                            <th style="width: calc(100%/3);">
+                            <th style="width: 31%">
                                 Unit 2<br>
                                 <small>身近な問題について考えよう</small>
                             </th>
-                            <th style="width: calc(100%/3);">
+                            <th style="width: 31%">
                                 Unit 3<br>
                                 <small>昔や未来の話をしよう</small>
                             </th>
@@ -151,9 +152,16 @@
                     </thead>
                     <tbody>
                         <tr>
+                            <td>1</td>
                             <td><button class="button start_button" data="./data/unit1/part1.json">Favorite TV Shows</button></td>
                             <td><button class="button start_button" data="./data/unit2/part1.json">Universal Designs Around Our Lives</button></td>
                             <td><button class="button start_button" data="./data/unit3/part1.json">How Ancient People Tried to Know the Time</button></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><button class="button start_button" data="./data/unit1/part2.json">Contries to visit</button></td>
+                            <td><button class="button start_button" data="./data/unit2/part2.json">Think Globally, Act Locally</button></td>
+                            <td><button class="button" data="./data/unit3/part2.json">準備中</button></td>
                         </tr>
                     </tbody>
                 </table>
@@ -199,6 +207,13 @@
 
             const unit_select_text = $("#hidden_elem").html();
 
+            function show_japanese_translation(index, data) {
+                console.log(index);
+                let translate_ja = data.contents[index].talk_ja;
+                $("#translate_ja").text("日本語訳：");
+                $("#translate_ja").html($("#translate_ja").html() + "<span class='hutoji'>" + translate_ja + "</span>");                
+            }
+
             async function displayTalks(data) {
                 let talk_number = 0;
                 let question_number = 0;
@@ -225,7 +240,7 @@
                                 <div class="talker_name">
                                     ${one_name}
                                 </div>
-                                <p>
+                                <p class="en_sentence">
                                     ${talk}
                                 </p>
                             </div>
@@ -236,7 +251,7 @@
                                 <div class="talker_name">
                                     ${two_name}
                                 </div>
-                                <p>
+                                <p class="en_sentence">
                                     ${talk}
                                 </p>
                             </div>
@@ -245,7 +260,7 @@
                         // システムメッセージ
                         html_code = `
                             <div class="system_message">
-                                <p>
+                                <p class="en_sentence">
                                     ${talk}
                                 </p>
                             </div>
@@ -275,7 +290,8 @@
                         let answer = question.answer;
 
                         $("#question_text").text(question_text);
-                        $("#translate_ja").text("日本語訳：" + translate_ja);
+                        $("#translate_ja").text("日本語訳：");
+                        $("#translate_ja").html($("#translate_ja").html() + "<span class='hutoji'>" + translate_ja + "</span>");
                         
                         // selectionsをシャッフル
                         let selections_shuffled = [];
@@ -446,6 +462,11 @@
                     // またユニット選択画面に戻る
                     $("#talking_display").html($("#talking_display").html() + "<hr>" + unit_select_text);
 
+                    // 英語をクリックしたら、英訳を表示
+                    $(".en_sentence").click(function() {
+                        let index = $(".en_sentence").index(this);
+                        show_japanese_translation(index, data);
+                    });
                 });
             }
 

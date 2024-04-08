@@ -5,58 +5,72 @@
     "contents" : [
         {
             "talk" : "Today, I'm going to talk about ____ ancient people tried to know the time.",
+            "talk_ja" : "今日、私は古代の人々がどのように時間を知ろうとしたかについて話します。",
             "who" : "1"
         },
         {
             "talk" : "First, do you know ancient Egyptians?",
+            "talk_ja" : "まず、古代エジプト人を知っていますか？",
             "who" : "1"
         },
         {
             "talk" : "I have ____ about them in history class. ____, I don't know them that well.",
+            "talk_ja" : "私は歴史の授業で彼らについて聞いたことがあります。しかし、それほどよく知りません。",
             "who" : "2"
         },
         {
-            "talk" : "Okay, I'll teach you...",
+            "talk" : "Okay, I'll teach you it...",
+            "talk_ja" : "わかりました。教えてあげましょう。",
             "who" : "1"
         },
         {
             "talk" : "Actually, ancient Egyptians used the ____ to know the time.",
+            "talk_ja" : "実際のところ、古代エジプト人は日時を知るために太陽を使っていました。",
             "who" : "1"
         },
         {
             "talk" : "What? Could the sun tell them the time?",
+            "talk_ja" : "え？太陽が彼らに時間を教えることができたのですか？",
             "who" : "2"
         },
         {
             "talk" : "Yes. They put a stick in the ground and watched the shadow of the stick.",
+            "talk_ja" : "はい。彼らは棒を地面に立て、その影を見ました。",
             "who" : "1"
         },
         {
             "talk" : "Ah! I see. The shadow of the stick ____ them the time.",
+            "talk_ja" : "ああ！わかりました。棒の影が彼らに時間を示したのですね。",
             "who" : "2"
         },
         {
             "talk" : "Exactly. They are very clever, aren't they?",
+            "talk_ja" : "そのとおり。彼らはとても賢いですよね。",
             "who" : "1"
         },
         {
             "talk" : "Yeah! I think so.",
+            "talk_ja" : "はい！そう思います。",
             "who" : "2"
         },
         {
             "talk" : "And now, we have clocks and watches. We can know the time ____.",
+            "talk_ja" : "そして今、私たちは時計や腕時計を持っています。私たちは簡単に時間を知ることができます。",
             "who" : "1"
         },
         {
             "talk" : "However, we mustn't forget the efforts of ancient people.",
+            "talk_ja" : "しかし、私たちは古代の人々の努力を忘れてはいけません。",
             "who" : "1"
         },
         {
             "talk" : "If they hadn't tried to know the time, we would ____ have clocks and watches.",
+            "talk_ja" : "もし彼らが時間を知ろうと努力していなかったら、私たちは時計や腕時計を持っていないかもしれません。",
             "who" : "1"
         },
         {
             "talk" : "That's true. I think we should respect them.",
+            "talk_ja" : "その通りです。私たちは彼らを尊敬すべきだと思います。",
             "who" : "2"
         }
     ],

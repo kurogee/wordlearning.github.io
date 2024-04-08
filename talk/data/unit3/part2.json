@@ -1,0 +1,57 @@
+{
+    "title" : "How Robots Will Change Our Lives",
+    "one_name" : "Josh",
+    "two_name" : "Tim",
+    "contents" : [
+        {
+            "talk" : "I think recent robots are more useful than before ones.",
+            "talk_ja" : "最近のロボットは以前のものよりも便利だと思います。",
+            "who" : "1"
+        },
+        {
+            "talk" : "Nowadays, we can even see them in restaurants. They can serve food and drinks to customers!",
+            "talk_ja" : "最近では、レストランでも見ることができます。ロボットは食べ物や飲み物をお客様に提供することができます！",
+            "who" : "1"
+        },
+        {
+            "talk" : "Yes! I also heard that a robot won a chess game against a human champion.",
+            "talk_ja" : "そうですね！私も、ロボットが人間のチャンピオンに対してチェスの試合に勝ったと聞きました。",
+            "who" : "2"
+        },
+        {
+            "talk" : "Will robots change our lives in the future?",
+            "talk_ja" : "ロボットは将来、私たちの生活を変えるでしょうか？",
+            "who" : "1"
+        },
+        {
+            "talk" : "Maybe they will change our lives in good ways and bad ways.",
+            "talk_ja" : "おそらく、ロボットは私たちの生活を良い面と悪い面の両方で変えるでしょう。",
+            "who" : "2"
+        },
+        {
+            "talk" : "They're very useful, but they may even take our jobs away.",
+            "talk_ja" : "ロボットは非常に便利ですが、私たちの仕事さえ奪ってしまうかもしれません。",
+            "who" : "2"
+        },
+        {
+            "talk" : "",
+            "talk_ja" : "",
+            "who" : "1"
+        }
+    ],
+
+    "questions" : [
+        {
+            "question_number" : 1,
+            "translate_ja" : "安全な水を飲むことは私たちの健康にとって必要なことです。",
+            "question_text" : "空欄に入る適切な単語の組み合わせを選んでください。",
+            "selections" : [
+                "necessary / health",
+                "necessary / healthy",
+                "necessity / health",
+                "need / health"
+            ],
+            "answer" : 0
+        }
+    ]
+}

@@ -79,6 +79,7 @@
                         "打ち込みで500問正解した",
                         "一番難しい理解度テストで30%以上正解した",
                         "一番難しい理解度テストで50%以上正解した",
+                        "一番難しい理解度テストで70%以上正解した",
                         "一番難しい理解度テストで100%正解した",
                         "My英単語エディターを使用した",
                         "基本のバッジを全解除した",
@@ -125,8 +126,8 @@
                     }
 
                     let test_correct_percent = parseInt(localStorage.getItem("test_correct")) || 0;
-                    const test_correct_percents = [30, 50, 100];
-                    const test_correct_percents_text = ["30%以上正解", "50%以上正解", "100%正解"];
+                    const test_correct_percents = [30, 50, 70, 100];
+                    const test_correct_percents_text = ["30%以上正解", "50%以上正解", "70%以上正解", "100%正解"];
                     for (let i = 0; i < test_correct_percents.length; i++) {
                         if (test_correct_percent >= test_correct_percents[i]) {
                             table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/Vocab ${test_correct_percents[i]} Complete.png" alt="${test_correct_percents_text[i]}" class="badge_image">`, `<small>${test_correct_percents_text[i]}</small>`]);
