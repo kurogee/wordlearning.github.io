@@ -1,55 +1,135 @@
 {
-    "title" : "How Robots Will Change Our Lives",
+    "title" : "How AI is changing the world",
     "one_name" : "Josh",
     "two_name" : "Tim",
     "contents" : [
         {
-            "talk" : "I think recent robots are more useful than before ones.",
-            "talk_ja" : "最近のロボットは以前のものよりも便利だと思います。",
+            "talk" : "AI these days is amazing, isn't it?",
+            "talk_ja" : "最近のAIはすごいですよね。",
             "who" : "1"
         },
         {
-            "talk" : "Nowadays, we can even see them in restaurants. They can serve food and drinks to customers!",
-            "talk_ja" : "最近では、レストランでも見ることができます。ロボットは食べ物や飲み物をお客様に提供することができます！",
-            "who" : "1"
-        },
-        {
-            "talk" : "Yes! I also heard that a robot won a chess game against a human champion.",
-            "talk_ja" : "そうですね！私も、ロボットが人間のチャンピオンに対してチェスの試合に勝ったと聞きました。",
+            "talk" : "Yeah, that's right! How do you think AI will ____ to our life in the future?",
+            "talk_ja" : "そうですね！君はAIが将来私たちの生活にどのように影響すると思いますか？",
             "who" : "2"
         },
         {
-            "talk" : "Will robots change our lives in the future?",
-            "talk_ja" : "ロボットは将来、私たちの生活を変えるでしょうか？",
+            "talk" : "Maybe medical care will be influenced by AI a lot. I've heard that AI is useful for ____ new diseases.",
+            "talk_ja" : "多分医療はAIによって大きく影響を受けるでしょう。AIは新しい病気を発見するのに役立つと聞いたことがあります。",
             "who" : "1"
         },
         {
-            "talk" : "Maybe they will change our lives in good ways and bad ways.",
-            "talk_ja" : "おそらく、ロボットは私たちの生活を良い面と悪い面の両方で変えるでしょう。",
+            "talk" : "That's right. Also, I think self-driving cars will be more common than now in the future by AI technology.",
+            "talk_ja" : "その通りですね。また、AI技術によって将来自動運転車は以前よりも一般的になると思います。",
             "who" : "2"
         },
         {
-            "talk" : "They're very useful, but they may even take our jobs away.",
-            "talk_ja" : "ロボットは非常に便利ですが、私たちの仕事さえ奪ってしまうかもしれません。",
-            "who" : "2"
-        },
-        {
-            "talk" : "",
-            "talk_ja" : "",
+            "talk" : "But, I'm worried about the future. I've heard that AI will take over our jobs ____ before on TV.",
+            "talk_ja" : "でも、私は将来を心配しています。AIが私たちの仕事を奪うとテレビで以前聞いたことがあります。",
             "who" : "1"
+        },
+        {
+            "talk" : "I see, but, I think AI and human should work together for creating a new ____.",
+            "talk_ja" : "なるほど、でも、私はAIと人間は新しい社会を作るために一緒に働くべきだと思います。",
+            "who" : "2"
+        },
+        {
+            "talk" : "Yeah, also, education will change by AI. AI may teach students more effectively than now.",
+            "talk_ja" : "そうですね、また、AIによって教育も変わるでしょう。AIは今よりも効果的に生徒に教えるかもしれません。",
+            "who" : "1"
+        },
+        {
+            "talk" : "However, I think depending on AI ____ much is not good ____ us.",
+            "talk_ja" : "でも、私はAIに過度に依存することは私たちにとって良くないと思います。",
+            "who" : "1"
+        },
+        {
+            "talk" : "Yes. We should keep balancing between AI's works and human's ones.",
+            "talk_ja" : "そうです。AIの仕事と人間の仕事のバランスを保つべきですね。",
+            "who" : "2"
+        },
+        {
+            "talk" : "I agree with you. We can't stop AI's ____, so we should think about how we can use AI for our future.",
+            "talk_ja" : "私も同意します。私たちはAIの進化を止めることはできませんので、私たちの将来のためにAIをどのように使うか考えるべきです。",
+            "who" : "1"
+        },
+        {
+            "talk" : "That's right. Humans have to think about it.",
+            "talk_ja" : "その通りですね。人間はそれについて考えなければなりません。",
+            "who" : "2"
         }
     ],
 
     "questions" : [
         {
-            "question_number" : 1,
-            "translate_ja" : "安全な水を飲むことは私たちの健康にとって必要なことです。",
+            "question_number" : 2,
+            "translate_ja" : "そうですね！君はAIが将来私たちの生活にどのように影響すると思いますか？",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "influence",
+                "influenza",
+                "change",
+                "send"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 3,
+            "translate_ja" : "多分医療はAIによって大きく影響を受けるでしょう。AIは新しい病気を発見するのに役立つと聞いたことがあります。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "discovering",
+                "discover",
+                "discovered",
+                "discovers"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 5,
+            "translate_ja" : "でも、私は将来を心配しています。AIが私たちの仕事を奪うとテレビで以前聞いたことがあります。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "away",
+                "off",
+                "out",
+                "up"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 6,
+            "translate_ja" : "なるほど、でも、私はAIと人間は新しい社会を作るために一緒に働くべきだと思います。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "society",
+                "life",
+                "public",
+                "community"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 8,
+            "translate_ja" : "でも、私はAIに過度に依存することは私たちにとって良くないと思います。",
             "question_text" : "空欄に入る適切な単語の組み合わせを選んでください。",
             "selections" : [
-                "necessary / health",
-                "necessary / healthy",
-                "necessity / health",
-                "need / health"
+                "too / for",
+                "too / by",
+                "so / on",
+                "so / for"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 10,
+            "translate_ja" : "私も同意します。私たちはAIの進化を止めることはできませんので、私たちの将来のためにAIをどのように使うか考えるべきです。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "evolution",
+                "revolution",
+                "solution",
+                "contribution"
             ],
             "answer" : 0
         }
