@@ -14,13 +14,13 @@
             "who" : "2"
         },
         {
-            "talk" : "Maybe medical care will be influenced by AI a lot. I've heard that AI is useful for ____ new diseases.",
+            "talk" : "Maybe medical care will be influenced by AI a lot. I've heard that AI is helpful for ____ new diseases.",
             "talk_ja" : "多分医療はAIによって大きく影響を受けるでしょう。AIは新しい病気を発見するのに役立つと聞いたことがあります。",
             "who" : "1"
         },
         {
-            "talk" : "That's right. Also, I think self-driving cars will be more common than now in the future by AI technology.",
-            "talk_ja" : "その通りですね。また、AI技術によって将来自動運転車は以前よりも一般的になると思います。",
+            "talk" : "That's right. Also, I think self-driving cars will become more common by AI technology in the future.",
+            "talk_ja" : "その通りですね。また、私は自動運転車がAI技術によって将来より一般的になると思います。",
             "who" : "2"
         },
         {
@@ -34,8 +34,8 @@
             "who" : "2"
         },
         {
-            "talk" : "Yeah, also, education will change by AI. AI may teach students more effectively than now.",
-            "talk_ja" : "そうですね、また、AIによって教育も変わるでしょう。AIは今よりも効果的に生徒に教えるかもしれません。",
+            "talk" : "Yeah, also, education will be changed by AI. AI may teach students more effectively.",
+            "talk_ja" : "そうですね。また、教育もAIによって変わるでしょう。AIは生徒により効果的に教えるかもしれません。",
             "who" : "1"
         },
         {
@@ -44,7 +44,7 @@
             "who" : "1"
         },
         {
-            "talk" : "Yes. We should keep balancing between AI's works and human's ones.",
+            "talk" : "Yes. We should keep balancing AI's work and human's work.",
             "talk_ja" : "そうです。AIの仕事と人間の仕事のバランスを保つべきですね。",
             "who" : "2"
         },
@@ -54,8 +54,8 @@
             "who" : "1"
         },
         {
-            "talk" : "That's right. Humans have to think about it.",
-            "talk_ja" : "その通りですね。人間はそれについて考えなければなりません。",
+            "talk" : "That's right. People have to think about it.",
+            "talk_ja" : "その通りですね。人々はそれについて考えなければなりません。",
             "who" : "2"
         }
     ],

@@ -84,6 +84,8 @@
                         "My英単語エディターを使用した",
                         "基本のバッジを全解除した",
                         "Ctrl+Uでページのソースを表示した",
+                        "一問一答で10000問正解した",
+                        "打ち込みで10000問正解した",
                     ];
 
                     let level = parseInt(localStorage.getItem("level")) || 1;
@@ -161,6 +163,15 @@
                         table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/coder.png" class="badge_image">`, `<small>隠：プログラム好き</small>`]);
                     }
                     all_badge++;
+
+                    if (qaa_correct >= 10000) {
+                        table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/Simple badge.png" class="badge_image">`, `<small>隠：一問一答Lover</small>`]);
+                    }
+                    all_badge++;
+
+                    if (writing_correct >= 10000) {
+                        table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/Simple badge.png" class="badge_image">`, `<small>隠：打ち込みLover</small>`]);
+                    }
 
                     let table = "<table class='none_border'>";
                     // テーブルをtable_elementsから作成する
