@@ -1,0 +1,42 @@
+{
+    "title" : "Food around the world",
+    "one_name" : "Josh",
+    "two_name" : "Meg",
+    "contents" : [
+        {
+            "talk" : "Hi, Meg. What did you have for dinner last night?",
+            "talk_ja" : "やあ、メグ。昨日の夜、何食べた？",
+            "who" : "1"
+        },
+        {
+            "talk" : "I had Tom Yum Goong. I went to a Thai restaurant with my family.",
+            "talk_ja" : "トムヤムクンを食べたよ。家族とタイ料理のレストランに行ったんだ。",
+            "who" : "2"
+        },
+        {
+            "talk" : "That's nice! Do you often eat overseas food?",
+            "talk_ja" : "いいね！よく外国料理を食べるの？",
+            "who" : "1"
+        },
+        {
+            "talk" : "Yes! I like eating food from different countries. That's so interesting!",
+            "talk_ja" : "うん！色々な国の料理を食べるのが好きなんだ。それがとても面白いんだよ！",
+            "who" : "2"
+        }
+    ],
+
+    "questions" : [
+        {
+            "question_number" : 3,
+            "translate_ja" : "私も元気です。あなたはよくテレビを見ますか？",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "watch",
+                "see",
+                "look",
+                "read"
+            ],
+            "answer" : 0
+        }
+    ]
+}

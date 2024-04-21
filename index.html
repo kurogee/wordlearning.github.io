@@ -53,6 +53,17 @@
                 <div id="badge"></div>
             </div>
             <br>
+            <div class="box">
+                <h3>初期化オプション</h3>
+                <button id="reset_toggle" class="button">表示する</button>
+                <hr>
+                <div id="reset_option">
+                    <p class="hutoji" style="color: red;">注意：初期化を使用すると完全にデータが削除され、元に戻すことが出来なくなります！</p>
+                    <button id="reset_level" class="button" style="color: red;">レベル初期化</button><br><br>
+                    <button id="reset_all" class="button" style="color: red;">全て初期化</button>
+                    <br><br>
+                </div>
+            </div>
             <script>
                 $(function() {
                     let badge_box = $("#badge");
@@ -86,11 +97,15 @@
                         "Ctrl+Uでページのソースを表示した",
                         "一問一答で10000問正解した",
                         "打ち込みで10000問正解した",
+                        "レベル80を達成した",
+                        "レベル100を達成した",
+                        "レベル300を達成した",
+                        "レベル500を達成した"
                     ];
 
                     let level = parseInt(localStorage.getItem("level")) || 1;
-                    const badge_levels = [5, 10, 15, 20, 25, 30, 40, 50];
-                    const badge_levels_text = ["Lv5達成", "Lv10達成", "Lv15達成", "Lv20達成", "Lv25達成", "Lv30達成", "Lv40達成", "Lv50達成"];
+                    let badge_levels = [5, 10, 15, 20, 25, 30, 40, 50];
+                    let badge_levels_text = ["Lv5達成", "Lv10達成", "Lv15達成", "Lv20達成", "Lv25達成", "Lv30達成", "Lv40達成", "Lv50達成"];
                     for (let i = 0; i < badge_levels.length; i++) {
                         if (level >= badge_levels[i]) {
                             table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/Lv.${badge_levels[i]}.png" alt="${badge_levels_text[i]}" class="badge_image">`, `<small>${badge_levels_text[i]}</small>`]);
@@ -165,12 +180,22 @@
                     all_badge++;
 
                     if (qaa_correct >= 10000) {
-                        table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/Simple badge.png" class="badge_image">`, `<small>隠：一問一答Lover</small>`]);
+                        table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/QaA 10000+.png" class="badge_image">`, `<small>隠：一問一答Lover</small>`]);
                     }
                     all_badge++;
 
                     if (writing_correct >= 10000) {
-                        table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/Simple badge.png" class="badge_image">`, `<small>隠：打ち込みLover</small>`]);
+                        table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/Writing 10000+.png" class="badge_image">`, `<small>隠：打ち込みに打ち込みすぎ</small>`]);
+                    }
+                    all_badge++;
+
+                    badge_levels = [80, 100, 300, 500];
+                    badge_levels_text = ["Lv80達成", "Lv100達成", "Lv300達成", "Lv500達成"];
+                    for (let i = 0; i < badge_levels.length; i++) {
+                        if (level >= badge_levels[i]) {
+                            table_elements.push([`<span class="level_badge" title=${badge_explain[all_badge]}><img src="./image/Lv.${badge_levels[i]}.png" alt="${badge_levels_text[i]}" class="badge_image">`, `<small>隠：${badge_levels_text[i]}</small>`]);
+                        }
+                        all_badge++;
                     }
 
                     let table = "<table class='none_border'>";
@@ -204,6 +229,35 @@
                         $("#badge_toggle").text("表示する");
                     } else {
                         $("#badge_toggle").text("非表示にする");
+                    }
+                });
+
+                $("#reset_toggle").text("表示する");
+                $("#reset_option").hide();
+                $("#reset_toggle").click(function() {
+                    $("#reset_option").toggle();
+                    if ($("#reset_option").css("display") == "none") {
+                        $("#reset_toggle").text("表示する");
+                    } else {
+                        $("#reset_toggle").text("非表示にする");
+                    }
+                });
+
+                $("#reset_all").click(function() {
+                    let confirm_reset = confirm("本当に全てのデータを初期化します。よろしいですか？");
+                    if (confirm_reset) {
+                        localStorage.clear();
+                        alert("全てのデータを初期化しました。");
+                        location.reload();
+                    }
+                });
+
+                $("#reset_level").click(function() {
+                    let confirm_reset = confirm("本当にレベルを初期化します。よろしいですか？");
+                    if (confirm_reset) {
+                        localStorage.removeItem("level");
+                        alert("レベルを初期化しました。");
+                        location.reload();
                     }
                 });
             </script>

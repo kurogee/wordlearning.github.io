@@ -1,5 +1,5 @@
 {
-    "title" : "How AI is changing the world",
+    "title" : "How AI will change the world",
     "one_name" : "Josh",
     "two_name" : "Tim",
     "contents" : [
@@ -29,7 +29,7 @@
             "who" : "1"
         },
         {
-            "talk" : "I see, but, I think AI and human should work together for creating a new ____.",
+            "talk" : "I see, but, I believe that AI and humans should collaborate to create a new ____.",
             "talk_ja" : "なるほど、でも、私はAIと人間は新しい社会を作るために一緒に働くべきだと思います。",
             "who" : "2"
         },

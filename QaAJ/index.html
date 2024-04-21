@@ -63,6 +63,11 @@
                 background-color: rgba(0, 0, 0, 0.1);
                 border-radius: 10px;
             }
+
+            #word {
+                height: calc(80vh / 4);
+                overflow-y: scroll;
+            }
         </style>
         <script src="../jquery-3.7.1.min.js"></script>
     </head>
@@ -273,7 +278,7 @@
                         // wrong_list関係の処理
                         if (wrong_list.length > 0 && $("#check_wrong_questions").prop("checked")) {
                             const wrong_word = wrong_list[wrong_random];
-                            wrong_list = wrong_list.filter((value) => value[0] !== wrong_word[0]);
+                            wrong_list = wrong_list.filter((value) => value[0] !== wrong_word[2]);
                             word = {word: wrong_word[2], meaning: wrong_word[0]};
 
                             // use_datasetの選択状態を変更（今の状態をselectedにする）

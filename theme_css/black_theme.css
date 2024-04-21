@@ -4,14 +4,16 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 :root {
-    --default-font-family: "M PLUS 2", sans-serif;
+    --default-font-family: "Source Code Pro", sans-serif;
     --source-code-font: "Source Code Pro", monospace;
+    --default-font-color: #fff; /* フォントの色を白に変更 */
 }
 
 * {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    color: var(--default-font-color); /* フォントの色を白に変更 */
 }
 
 *:not(#level_bar) {
@@ -24,8 +26,7 @@
 }
 
 body, html {
-    background: linear-gradient( #d3e8ff, #daecfe );
-    background-attachment: fixed;
+    background: #000; /* 背景色を黒に変更 */
 }
 
 small {
@@ -36,6 +37,8 @@ small {
     appearance: none;
     border-radius: 10px 10px;
     font-size: 25px;
+    background: #333; /* 背景色を暗い色に変更 */
+    color: var(--default-font-color); /* テキストの色を白に変更 */
 }
 
 #textbox, .textbox {
@@ -43,11 +46,11 @@ small {
 }
 
 #box, .box {
-    border: 2px solid rgb(67, 131, 199);
+    border: 2px solid #333; /* borderの色を暗い色に変更 */
     border-radius: 10px 10px;
     height: 100%;
-    background-color: rgb(251, 253, 255);
-    box-shadow: 0px 0.3px 4px 0px rgba(0, 0, 0, 0.35);
+    background-color: #000; /* background-colorを黒に変更 */
+    box-shadow: 0px 0.3px 4px 0px rgba(51, 51, 51, 0.35); /* box-shadowの色を暗い色に変更 */
     /*スマホに合わせて調整*/
     width: 80%;
     @media screen and (max-width: 768px) {
@@ -62,9 +65,9 @@ small {
     justify-content: center;
     align-items: center;
     max-width: 100%;
-
     margin-top: 10px;
     text-align: center;
+    color: #fff; /* テキストの色を白に変更 */
 }
 
 .icons_text {
@@ -72,6 +75,7 @@ small {
     display: flex;  
     width: 400px;
     text-align: center;
+    color: #fff; /* テキストの色を白に変更 */
 
     @media screen and (max-width: 768px) {
         font-size: 15px;
@@ -88,13 +92,14 @@ small {
     display: block;  
     width: 80px;
     text-align: center;
+    color: #fff; /* テキストの色を白に変更 */
 }
 
 #textbox, .textbox, .button, .text {
     appearance: none;
     width: 95%;
-    border: 2px solid rgb(67, 131, 199);
-    box-shadow: 0px 0.5px 0.5px 0px rgba(0, 0, 0, 0.35);
+    border: 2px solid #333; /* borderの色を暗い色に変更 */
+    box-shadow: 0px 0.5px 0.5px 0px rgba(51, 51, 51, 0.35); /* box-shadowの色を暗い色に変更 */
     border-radius: 10px 10px;
     outline: none;
 }
@@ -110,11 +115,11 @@ hr {
 /* テーブル関連 */
 
 th {
-    border: 1.5px solid rgb(67, 131, 199);
+    border: 1.5px solid #333; /* borderの色を暗い色に変更 */
 }
 
 td {
-    border: 1.5px solid rgb(115, 156, 201);
+    border: 1.5px solid #333; /* borderの色を暗い色に変更 */
 }
 
 table {
@@ -123,11 +128,11 @@ table {
 
 textarea {
     appearance: none;
-    border: 2px solid rgb(67, 131, 199);
+    border: 2px solid #333; /* borderの色を暗い色に変更 */
     width: 90%;
     height: 30vh;
     font-size: 13px;
-    box-shadow: 0px 1.5px 1.5px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 1.5px 1.5px 0px rgba(51, 51, 51, 0.35); /* box-shadowの色を暗い色に変更 */
     border-radius: 10px 10px;
     outline: none;
 }
@@ -148,14 +153,13 @@ textarea {
 #code {
     background-color: rgb(26, 26, 26);
     color: white;
-
-    border: 3px white solid;
+    border: 3px #333 solid; /* borderの色を暗い色に変更 */
     height: 100%;
     width: 90%;
 }
 
 a.link_color {
-    color: #333;
+    color: #333; /* テキストの色を暗い色に変更 */
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
@@ -165,52 +169,28 @@ a.link_color {
 
 /*ホバー時の色*/
 a.link_color:hover {
-    color: rgb(67, 131, 199);
+    color: #fff; /* ホバー時のテキストの色を白に変更 */
 }
 
-.icons_image_webp {
-    transition: 0.2s ;
-    @media screen and (max-width: 350px) {
-        width:60px;
-        height:60px;
-    }
-
-}
-
-.icons_image_webp:hover {
-    opacity: 0.5;
-}
-
-.catchphrase_color {
-    color:#4383c7;
-
-    @media screen and (max-width: 768px) {
-        font-size: 27px;
-    }
-
-    @media screen and (max-width: 350px) {
-        font-size: 20px;
-    }
-}
 /* ボタン */
 
 .button {
     appearance: none;
     text-align: center;
     text-decoration: none;
-    background: rgb(255, 255, 255);
+    background: rgb(50, 50, 50);
     margin: auto;
     font-weight: bold;
-	border: 2px solid rgb(67, 131, 199);
-	color: rgb(67, 131, 199);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     border-radius: 100vh;
     transition: 0.3s;
     box-shadow: 0px 1.5px 1.5px 0px rgba(0, 0, 0, 0.35);
 }
 
 .button:hover {
-    color: #fff;
-    background: rgb(67, 131, 199);
+    color: #000;
+    background: rgb(255, 255, 255);
 }
 
 .button {
@@ -219,8 +199,8 @@ a.link_color:hover {
 
 #button {
     font-size: 25px;
-	display: block;
-	padding: 0.5rem 3rem;
+    display: block;
+    padding: 0.5rem 3rem;
 }
 
 .hutoji{
@@ -245,7 +225,7 @@ a.link_color:hover {
 
 .input{
     appearance: none;
-    border: 2px solid rgb(67, 131, 199);
+    border: 2px solid rgb(255, 255, 255);
     box-shadow: 0px 1.5px 1.5px 0px rgba(0, 0, 0, 0.35);
     outline: none;
 }
@@ -254,11 +234,11 @@ a.link_color:hover {
     height:60px;
     width: 500px;
     border-radius: 10px 10px;
-    background: rgb(255, 255, 255);
+    background: rgb(50, 50, 50);
     margin: auto;
     font-weight: bold;
-	border: 2px solid rgb(67, 131, 199);
-    color: rgb(67, 131, 199);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     box-shadow: 0px 1.5px 1.5px 0px rgba(0, 0, 0, 0.35);
     transition: 0.3s;
     text-align: center;
@@ -280,8 +260,8 @@ a.link_color:hover {
     font-size: 30px;
     overflow: auto;
     z-index: 100;
-    background-color: darkseagreen;
-    border: 3px solid black;
+    background-color: rgb(50, 50, 50);
+    border: 3px solid white;
     justify-content: center;
     align-items: center;
     overflow: auto;
@@ -300,9 +280,9 @@ a.link_color:hover {
     border-radius: 10px;
     overflow: auto;
     z-index: 100;
-    background-color: gold;
-    color: black;
-    border: 3px solid black;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border: 3px solid white;
 }
 
 /* popup_windowのスクロールバーを太くする */
@@ -311,12 +291,12 @@ a.link_color:hover {
 }
 
 #popup_window::-webkit-scrollbar-thumb {
-    background-color: darkgreen;
+    background-color: white;
     border-radius: 10px;
 }
 
 #popup_window::-webkit-scrollbar-track {
-    background-color: lightgreen;
+    background-color: rgb(50, 50, 50);
 }
 
 /* テキストボックスを大きくする */
@@ -325,13 +305,15 @@ a.link_color:hover {
     height: 50px;
     font-size: 30px;
     border-radius: 10px;
-    border: 3px solid black;
+    border: 3px solid white;
     padding: 5px;
+    background: rgb(50, 50, 50);
+    color: white;
 }
 
 #level_bar {
     height: max-content;
-    background-color: rgb(251, 253, 255);
+    background-color: rgb(50, 50, 50);
 }
 
 #now_bar {
@@ -339,16 +321,16 @@ a.link_color:hover {
     height: 20px;
     background-color: green;
     border-radius: 10px 0px 0px 10px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-right: none;
 }
 
 #other_bar {
     display: block;
     height: 20px;
-    background-color: white;
+    background-color: rgb(50, 50, 50);
     border-radius: 0px 10px 10px 0px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-left: none;
 }
 
@@ -362,6 +344,7 @@ a.link_color:hover {
 
 #levelup > h3 {
     font-family: var(--dot-font-family) !important;
+    color: white;
 }
 
 .level_badge {
@@ -372,8 +355,9 @@ a.link_color:hover {
         width: calc(100vw / 10);
     }
     height: auto;
-    border: 2px solid rgb(67, 131, 199);
+    border: 2px solid white;
     margin-left: 10px;
+    background-color: white;
 }
 
 .level_badge > img {
@@ -396,7 +380,8 @@ a.link_color:hover {
     scroll-behavior: smooth;
     margin: 15px auto;
     text-align: right;
-    background: #7da4cd;
+    background: rgb(50, 50, 50);
+    color: white;
 }
 
 /* talking_displayのスクロールバーを太くし、色も合うようにする */
@@ -405,12 +390,12 @@ a.link_color:hover {
 }
 
 #talking_display::-webkit-scrollbar-thumb {
-    background-color: #4383c7;
+    background-color: #666;
     border-radius: 10px;
 }
 
 #talking_display::-webkit-scrollbar-track {
-    background-color: #7da4cd;
+    background-color: #333;
 }
 
 .comment {
@@ -418,6 +403,7 @@ a.link_color:hover {
     margin: 10px 0;
     overflow: hidden;
     text-align: left;
+    color: white;
 }
 
 .comment p {
@@ -428,7 +414,7 @@ a.link_color:hover {
     padding: 10px;
     max-width: 45%;
     border-radius: 12px;
-    background: #edf1ee;
+    background: #555;
 }
 
 .comment p:after {
@@ -438,7 +424,7 @@ a.link_color:hover {
     top: 3px; 
     left: -19px;
     border: 8px solid transparent;
-    border-right: 18px solid #edf1ee;
+    border-right: 18px solid #555;
     -webkit-transform: rotate(35deg);
     transform: rotate(35deg);
 }
@@ -448,6 +434,7 @@ a.link_color:hover {
     text-align: left;
     font-size: 20px;
     margin: 0 0 5px 0;
+    color: white;
 }
 
 .mycomment {
@@ -455,6 +442,7 @@ a.link_color:hover {
     margin: 10px 0;
     overflow: hidden;
     text-align: right;
+    color: white;
 }
 
 .mycomment p {
@@ -483,17 +471,18 @@ a.link_color:hover {
     text-align: right;
     font-size: 20px;
     margin: 0 0 5px 0;
+    color: white;
 }
 
 .system_message {
     text-align: center;
     font-size: 15px;
-    color: #333;
+    color: white;
 }
 
 .system_message p {
     display: inline-block;
     padding: 5px 10px;
     border-radius: 12px;
-    background: #f0f0f0;
+    background: #555;
 }
