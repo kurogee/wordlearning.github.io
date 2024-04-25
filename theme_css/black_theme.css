@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@320&display=swap'); 
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 :root {
-    --default-font-family: "Source Code Pro", sans-serif;
+    --default-font-family: "IBM Plex Sans JP", sans-serif;
     --source-code-font: "Source Code Pro", monospace;
     --default-font-color: #fff; /* フォントの色を白に変更 */
 }
@@ -485,4 +484,17 @@ a.link_color:hover {
     padding: 5px 10px;
     border-radius: 12px;
     background: #555;
+}
+
+#use_dataset {
+    /* selectボックスをおしゃれにする */
+    appearance: none;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 1.5px 1.5px 0px rgba(0, 0, 0, 0.35);
+    width: 90%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    background: rgb(50, 50, 50);
+    color: white;
 }

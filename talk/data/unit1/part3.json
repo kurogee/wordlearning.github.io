@@ -9,7 +9,7 @@
             "who" : "1"
         },
         {
-            "talk" : "I had Tom Yum Goong. I went to a Thai restaurant with my family.",
+            "talk" : "I had Tom Yum Goong. I went to a Thai ____ with my family.",
             "talk_ja" : "トムヤムクンを食べたよ。家族とタイ料理のレストランに行ったんだ。",
             "who" : "2"
         },
@@ -19,22 +19,88 @@
             "who" : "1"
         },
         {
-            "talk" : "Yes! I like eating food from different countries. That's so interesting!",
-            "talk_ja" : "うん！色々な国の料理を食べるのが好きなんだ。それがとても面白いんだよ！",
+            "talk" : "Yes! I like ____ overseas food. Eating such food is ____ interesting!",
+            "talk_ja" : "うん！外国料理が好きなんだ。そんな食べ物を食べることはとても面白いよ！",
+            "who" : "2"
+        },
+        {
+            "talk" : "I see. I ____ like Chinese food. Xiao Long Bao is my favorite.",
+            "talk_ja" : "なるほど。私は特に中華料理が好きなんだ。小籠包が一番好きだよ。",
+            "who" : "1"
+        },
+        {
+            "talk" : "How about Korean food? It's also nice.",
+            "talk_ja" : "韓国料理はどう？それもいいよ。",
+            "who" : "2"
+        },
+        {
+            "talk" : "Oh, I ____ ate it. So, I'll try it someday!",
+            "talk_ja" : "ああ、食べたことないな。じゃあ、また今度試してみるね！",
+            "who" : "1"
+        },
+        {
+            "talk" : "Yes! I recommend you to eat Tokpokki!",
+            "talk_ja" : "うん！トッポッキを食べることをお勧めするよ！",
+            "who" : "2"
+        },
+        {
+            "talk" : "I see. Thanks!",
+            "talk_ja" : "なるほど。ありがとう！",
+            "who" : "1"
+        },
+        {
+            "talk" : "My pleasure!",
+            "talk_ja" : "どういたしまして！",
             "who" : "2"
         }
     ],
 
     "questions" : [
         {
-            "question_number" : 3,
-            "translate_ja" : "私も元気です。あなたはよくテレビを見ますか？",
+            "question_number" : 2,
+            "translate_ja" : "トムヤムクンを食べたよ。家族とタイ料理のレストランに行ったんだ。",
             "question_text" : "空欄に入る適切な単語を選んでください。",
             "selections" : [
-                "watch",
-                "see",
-                "look",
-                "read"
+                "restaurant",
+                "store",
+                "rustaurant",
+                "market"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 4,
+            "translate_ja" : "うん！外国料理が好きなんだ。そんな食べ物を食べることはとても面白いよ！",
+            "question_text" : "空欄に入る適切な単語の組み合わせを選んでください。",
+            "selections" : [
+                "eating / so",
+                "ate / very",
+                "taking / so",
+                "eating / more"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 5,
+            "translate_ja" : "なるほど。私は特に中華料理が好きなんだ。小籠包が一番好きだよ。",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "especially",
+                "absolutely",
+                "actually",
+                "really"
+            ],
+            "answer" : 0
+        },
+        {
+            "question_number" : 7,
+            "translate_ja" : "ああ、食べたことないな。じゃあ、また今度試してみるね！",
+            "question_text" : "空欄に入る適切な単語を選んでください。",
+            "selections" : [
+                "never",
+                "also",
+                "always",
+                "sometimes"
             ],
             "answer" : 0
         }
