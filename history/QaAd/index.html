@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>出来事の説明当てクイズ</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="../favicon.png" type="image/png">
+        <link rel="stylesheet" href="../pagestyle.css">
+        <style>
+            #meaning1 {
+                background-color: red;
+            }
+
+            #meaning2 {
+                background-color: blue;
+            }
+
+            #meaning3 {
+                background-color: green;
+            }
+
+            #meaning4 {
+                background-color: orange;
+            }
+
+            #meaning1,
+            #meaning2,
+            #meaning3,
+            #meaning4 {
+                width: 45%;
+                height: calc(80vh / 4 - 10px);
+                margin: 5px;
+                font-size: 30px;
+                border-radius: 30px 0 0 30px;
+                color: white;
+                overflow: auto;
+
+                /* 横を隣のボタンと揃える */
+                vertical-align: top;
+            }
+
+            /* meaning1〜4のスクロールバーを丸みのあるおしゃれなものにする */
+            #meaning1::-webkit-scrollbar,
+            #meaning2::-webkit-scrollbar,
+            #meaning3::-webkit-scrollbar,
+            #meaning4::-webkit-scrollbar {
+                width: 20px;
+            }
+
+            #meaning1::-webkit-scrollbar-thumb,
+            #meaning2::-webkit-scrollbar-thumb,
+            #meaning3::-webkit-scrollbar-thumb,
+            #meaning4::-webkit-scrollbar-thumb {
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 10px;
+            }
+
+            #meaning1::-webkit-scrollbar-track,
+            #meaning2::-webkit-scrollbar-track,
+            #meaning3::-webkit-scrollbar-track,
+            #meaning4::-webkit-scrollbar-track {
+                background-color: rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+            }
+        </style>
+        <script src="../jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <div id="box">
+            <h2>出来事の説明当てクイズ</h2>
+            <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a><br>
+            <p>
+                ひたすら歴史上の出来事の説明を当てるクイズです。<br>
+            </p>
+        </div>
+        <br>
+        <div id="box">
+            <h2 id="question" class="box"></h2>
+            <div id="meanings">
+                <button data="1" class="button" id="meaning1"></button><span class="newline"></span>
+                <button data="2" class="button" id="meaning2"></button><br>
+                <button data="3" class="button" id="meaning3"></button><span class="newline"></span>
+                <button data="4" class="button" id="meaning4"></button><span class="newline"></span>
+            </div>
+            <h3 id="explain"></h3>
+
+            <script>
+                // 画面サイズがスマホのとき、ボタンを縦並びにして改行を入れる
+                if (window.innerWidth < 600) {
+                    $(".button").css("width", "90%");
+                    $(".newline").html("<br>");
+                } else {
+                    $(".button").css("width", "45%");
+                    $(".newline").html("");
+                }
+
+                window.addEventListener("resize", function() {
+                    if (window.innerWidth < 600) {
+                        $(".button").css("width", "90%");
+                        $(".newline").html("<br>");
+                    } else {
+                        $(".button").css("width", "45%");
+                        $(".newline").html("");
+                    }
+                });
+            </script>
+        </div>
+
+        <script>
+            // 音源を準備する
+            const correct_audio = new Audio("../sounds/correct.mp3");
+            const incorrect_audio = new Audio("../sounds/incorrect.mp3");
+
+            let wrong_list = [];
+
+            // クイズを出す関数
+            // クイズは、../model/histories.jsonから取得する
+            /*
+                JSONの形式
+                [
+                    {
+                        "year" : "年",
+                        "event" : "出来事(回答)",
+                        "another_answer" : ["別の答え1", ...], (ない場合もある),
+                        "detail" : "詳細"
+                    }, ...
+                ]
+
+                四択形式で出題して、正解を選ばせる
+                ユーザがやめるまでずっと出題し続ける
+            */
+            function quiz() {
+                // クイズの問題を取得
+                $.getJSON("../model/histories.json", function(data) {
+                    // 出題する問題をランダムに選ぶ
+                    const question = data[Math.floor(Math.random() * data.length)];
+
+                    // 出題する問題の年と出来事を表示
+                    $("#question").html(
+                        "<p>「" + question["event"] + "」の説明として適切なもの</p>"
+                    );
+
+                    // 出題する問題の正解と不正解をランダムに並べ替える
+                    let answers = [question["detail"]];
+
+                    // 不正解(他の出来事名)を追加
+                    for (let i = 0; i < 3; i++) {
+                        let tmp = data[Math.floor(Math.random() * data.length)]["detail"];
+                        while (tmp == question["detail"]) {
+                            tmp = data[Math.floor(Math.random() * data.length)]["detail"];
+                        }
+                        answers.push(tmp);
+                    }
+
+                    // 正解と不正解をシャッフル
+                    answers.sort(function() {
+                        return Math.random() - Math.random();
+                    });
+
+
+                    // 四択形式で選択肢を表示
+                    for (let i = 0; i < 4; i++) {
+                        $("#meaning" + (i + 1)).html(answers[i]);
+
+                        $("#meaning" + (i + 1)).off('click');
+                    
+                        // 選択肢をクリックしたときの処理
+                        $("#meaning" + (i + 1)).click(function() {
+                            if (answers[i] == question["detail"]) {
+                                correct_audio.play();
+                                $("#explain").html("正解！");
+                            } else {
+                                incorrect_audio.play();
+                                wrong_list.push(question);
+                                $("#explain").html("不正解！ 正解は「" + question["detail"] + "」です。");
+                            }
+                            quiz();
+                        });
+                    }
+                });
+            }
+
+            // プログラムを開始する関数
+            function start_program() {
+                quiz();
+            }
+
+            window.addEventListener("load", start_program);
+        </script>
+    </body>
+</html>
