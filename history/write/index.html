@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>出来事入力クイズ</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="shortcut icon" href="../favicon.png" type="image/png">
+        <link rel="stylesheet" href="../pagestyle.css">
+        <script src="../jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <div id="box">
+            <h2>出来事入力クイズ</h2>
+            <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a>
+            <p>
+                歴史上の出来事の名前をひたすら入力するゲーム。<br>
+            </p>
+        </div>
+        <hr>
+        <div id="box">
+            <h2 id="question" class="box"></h2>
+            <div id="answer">
+                <input type="text" id="enter_text" class="textbox">
+                <br>
+                <small>Enterキーで送信</small>
+            </div>
+            <h3 id="explain"></h3>
+        </div>
+
+        <script>
+            // 音源を準備する
+            const correct_audio = new Audio("../sounds/correct.mp3");
+            const incorrect_audio = new Audio("../sounds/incorrect.mp3");
+
+            let wrong_list = [];
+            let already_asked = [];
+
+            // クイズを出す関数
+            // クイズは、../model/histories.jsonから取得する
+            /*
+                JSONの形式
+                [
+                    {
+                        "year" : "年",
+                        "event" : "出来事(回答)",
+                        "detail" : "詳細"
+                    }, ...
+                ]
+
+                入力形式で出題し、回答者に入力させる
+                ユーザがやめるまでずっと出題し続ける
+            */
+            
+            function quiz() {
+                // クイズの問題を取得
+                $.getJSON("../model/histories.json", function(data) {
+                    if (already_asked.length == data.length) {
+                        already_asked = [];
+                    }
+                    // 出題する問題をランダムに選ぶ
+                    let question = data[Math.floor(Math.random() * data.length)];
+                    while (already_asked.includes(question["event"])) {
+                        question = data[Math.floor(Math.random() * data.length)];
+                    }
+
+                    // 出題済みの問題を記録
+                    already_asked.push(question["event"]);
+
+                    let answer = question["event"];
+                    let other_asnwers = question["another_answer"];
+                    let year = question["year"];
+                    let detail = question["detail"];
+
+                    // 問題を表示
+                    $("#question").text(detail + "（" + year + "）");
+                    
+                    // ユーザが入力した文字列を取得
+                    $("#enter_text").off("keypress");
+                    $("#enter_text").val("");
+                    $("#enter_text").focus();
+                    $("#enter_text").keypress(function(e) {
+                        if (e.which == 13) {
+                            let input = $("#enter_text").val();
+                            if (input == answer || other_asnwers.includes(input)) {
+                                correct_audio.play();
+                                $("#explain").text("正解！").css("color", "blue");
+                                quiz();
+                            } else {
+                                incorrect_audio.play();
+                                if (other_asnwers.length > 0) {
+                                    $("#explain").text("不正解！正解は「" + answer + " (" + other_asnwers.join(", ") + ")」です").css("color", "red");
+                                }
+                                $("#explain").text("不正解！正解は「" + answer + "」です").css("color", "red");
+                                quiz();
+                            }
+                        }
+                    });
+                });
+            }
+
+            // プログラムを開始する関数
+            function start_program() {
+                quiz();
+            }
+
+            window.addEventListener("load", start_program);
+        </script>
+    </body>
+</html>
