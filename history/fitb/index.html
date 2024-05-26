@@ -187,10 +187,10 @@
                     // 3つの不正解の選択肢を追加
                     // 正解の文章と前後3つの文章を取得し、その中からランダムに2つの名詞を選ぶ。完全な重複はないようにするが、片方だけの重複は許す
                     let one_or_two = Math.floor(Math.random() * 2);
+                    const data_wakati = data.map(function(x) { return x["detail_wakati"]; });
 
                     for (let i = 0; i < 3; i++) {
                         let question_tmp;
-                        const data_wakati = data.map(function(x) { return x["detail_wakati"]; });
 
                         if (question_index == 0) {
                             question_tmp = [data_wakati[question_index + 1],
@@ -211,15 +211,15 @@
                         if (one_or_two == 0) {
                             nouns_tmp = [question_tmp[Math.floor(Math.random() * question_tmp.length)], answers[0][1]];
                             // 重複がある場合は重複がなくなるまでやり直す
-                            console.log(nouns_tmp, answers.indexOf(nouns_tmp));
-                            while (nouns_tmp[0] == nouns_tmp[1] && arrayContainsArray(answers, nouns_tmp)) {
+                            console.log(answers, nouns_tmp);
+                            while (nouns_tmp[0] == nouns_tmp[1] || arrayContainsArray(answers, nouns_tmp)) {
                                 nouns_tmp = [question_tmp[Math.floor(Math.random() * question_tmp.length)], answers[0][1]];
                             }
                         } else {
                             nouns_tmp = [answers[0][0], question_tmp[Math.floor(Math.random() * question_tmp.length)]];
                             // 重複がある場合は重複がなくなるまでやり直す
-                            console.log(nouns_tmp, answers.indexOf(nouns_tmp));
-                            while (nouns_tmp[0] == nouns_tmp[1] && arrayContainsArray(answers, nouns_tmp)) {
+                            console.log(answers, nouns_tmp);
+                            while (nouns_tmp[0] == nouns_tmp[1] || arrayContainsArray(answers, nouns_tmp)) {
                                 nouns_tmp = [answers[0][0], question_tmp[Math.floor(Math.random() * question_tmp.length)]];
                             }
                         }
