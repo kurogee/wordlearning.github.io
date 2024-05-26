@@ -139,6 +139,14 @@
 
                 ユーザがやめるまでずっと出題し続ける
             */
+
+            function arrayContainsArray(superset, subset) {
+                return superset.some(function(array) {
+                    return array.length === subset.length && array.every(function(value, index) {
+                        return value === subset[index];
+                    });
+                });
+            }
             
             async function quiz() {
                 // クイズの問題を取得
@@ -178,6 +186,8 @@
                     // 不正解の選択肢を追加
                     // 3つの不正解の選択肢を追加
                     // 正解の文章と前後3つの文章を取得し、その中からランダムに2つの名詞を選ぶ。完全な重複はないようにするが、片方だけの重複は許す
+                    let one_or_two = Math.floor(Math.random() * 2);
+
                     for (let i = 0; i < 3; i++) {
                         let question_tmp;
                         const data_wakati = data.map(function(x) { return x["detail_wakati"]; });
@@ -197,10 +207,22 @@
                         }
 
                         // 不正解の選択肢を全く同じにしないように追加
-                        let nouns_tmp = [];
-                        do {
-                            nouns_tmp = [question_tmp[Math.floor(Math.random() * question_tmp.length)], question_tmp[Math.floor(Math.random() * question_tmp.length)]];
-                        } while (nouns_tmp[0] == nouns_tmp[1] && answers.includes(nouns_tmp));
+                        let nouns_tmp;
+                        if (one_or_two == 0) {
+                            nouns_tmp = [question_tmp[Math.floor(Math.random() * question_tmp.length)], answers[0][1]];
+                            // 重複がある場合は重複がなくなるまでやり直す
+                            console.log(nouns_tmp, answers.indexOf(nouns_tmp));
+                            while (nouns_tmp[0] == nouns_tmp[1] && arrayContainsArray(answers, nouns_tmp)) {
+                                nouns_tmp = [question_tmp[Math.floor(Math.random() * question_tmp.length)], answers[0][1]];
+                            }
+                        } else {
+                            nouns_tmp = [answers[0][0], question_tmp[Math.floor(Math.random() * question_tmp.length)]];
+                            // 重複がある場合は重複がなくなるまでやり直す
+                            console.log(nouns_tmp, answers.indexOf(nouns_tmp));
+                            while (nouns_tmp[0] == nouns_tmp[1] && arrayContainsArray(answers, nouns_tmp)) {
+                                nouns_tmp = [answers[0][0], question_tmp[Math.floor(Math.random() * question_tmp.length)]];
+                            }
+                        }
 
                         answers.push(nouns_tmp);
                     }
@@ -209,6 +231,8 @@
                     answers.sort(function() {
                         return Math.random() - Math.random();
                     });
+
+                    console.log(answers);
 
                     // 選択肢を表示
                     for (let i = 0; i < 4; i++) {
