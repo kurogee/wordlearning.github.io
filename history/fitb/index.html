@@ -263,8 +263,7 @@
                             // 不正解だったら2秒後、正解だったら1秒後に次の問題を出す
                             setTimeout(function() {
                                 quiz();
-                                $("#explain").html("");
-                            }, $(this).html() == collect_answer ? 1000 : 2000);
+                            }, 1500);
                         });
                     }
                 });
