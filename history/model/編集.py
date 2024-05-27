@@ -18,7 +18,7 @@ for i in range(len(detail)):
         if node.feature.split(",")[0] == "名詞" and node.feature.split(",")[1] != "数" and node.feature.split(",")[1] != "非自立":
             # 「もの」や、「こと」などの名詞は除外
             if node.surface != "もの" and node.surface != "こと" and node.surface != "これ" and node.surface != "出来事" and len(node.surface) != 1:
-                detail_wakati[i].append(node.surface)
+                detail_wakati[i].append(node.surface.replace("。", ""))
         node = node.next
 
 # jsonファイルに書き込む
