@@ -8,6 +8,7 @@ year = list(map(str, list(df["年"])))
 event = list(df["出来事・用語"])
 another_answer = list(map(lambda x: x.split("、") if type(x) is not float else [], list(df["別解"])))
 detail = list(df["詳細"])
+era = list(df["時代"])
 # detailを分かち書きすして、名詞や固有名詞のみを取り出す
 detail_wakati = []
 mecab = MeCab.Tagger("-d /usr/lib/x86_64-linux-gnu/mecab/dic/mecab-ipadic-neologd")
@@ -26,6 +27,7 @@ data = []
 for i in range(len(year)):
     data.append({
         "year": year[i],
+        "era": era[i],
         "event": event[i],
         "another_answer": another_answer[i],
         "detail": detail[i],

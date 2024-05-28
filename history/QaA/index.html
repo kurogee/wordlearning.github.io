@@ -76,6 +76,36 @@
         </div>
         <br>
         <div id="box">
+            <br>
+            <div id="box">
+                <!-- どの歴史区分から問題を出すかcheckboxで選択する -->
+                <p>問題に表示する時代</p>
+                <table>
+                    <tr>
+                        <td><label>飛鳥時代: <input type="checkbox" name="飛鳥時代" class="era" checked></label></td>
+                        <td><label>奈良時代: <input type="checkbox" name="奈良時代" class="era" checked></label></td>
+                        <td><label>平安時代: <input type="checkbox" name="平安時代" class="era" checked></label></td>
+                    </tr>
+                    <tr>
+                        <td><label>鎌倉時代: <input type="checkbox" name="鎌倉時代" class="era" checked></label></td>
+                        <td><label>室町時代: <input type="checkbox" name="室町時代" class="era" checked></label></td>
+                        <td><label>安土桃山時代: <input type="checkbox" name="安土桃山時代" class="era" checked></label></td>
+                    </tr>
+                    <tr>
+                        <td><label>江戸時代: <input type="checkbox" name="江戸時代" class="era" checked></label></td>
+                        <td><label>明治時代: <input type="checkbox" name="明治時代" class="era" checked></label></td>
+                        <td><label>大正時代: <input type="checkbox" name="大正時代" class="era" checked></label></td>
+                    </tr>
+                    <tr>
+                        <td><label>昭和時代: <input type="checkbox" name="昭和時代" class="era" checked></label></td>
+                        <td><label>平成時代: <input type="checkbox" name="平成時代" class="era" checked></label></td>
+                        <td><label>令和時代: <input type="checkbox" name="令和時代" class="era" checked></label></td>
+                    </tr>
+                </table>
+                <small>便宜上、建武の新政・南北朝時代は室町時代に含めています。</small>
+                <small>また、戦国時代は室町時代・安土桃山時代に含めています。</small>
+            </div>
+            
             <h2 id="question" class="box"></h2>
             <div id="meanings">
                 <button data="1" class="button" id="meaning1"></button><span class="newline"></span>
@@ -154,7 +184,21 @@
             function quiz() {
                 // クイズの問題を取得
                 $.getJSON("../model/histories.json", function(data) {
-                    if (already_asked.length == data.length) {
+                    // 問題に表示する時代を取得
+                    let eras = [];
+                    $(".era").each(function() {
+                        if ($(this).prop("checked")) {
+                            eras.push($(this).attr("name"));
+                        }
+                    });
+                    console.log(eras);
+
+                    // 問題に表示する時代の出来事だけを取得
+                    data = data.filter(function(item) {
+                        return eras.includes(item["era"]);
+                    });
+
+                    if (already_asked.length >= data.length) {
                         already_asked = [];
                     }
                     // 出題する問題をランダムに選ぶ
@@ -229,6 +273,11 @@
             }
 
             window.addEventListener("load", start_program);
+
+            // もしcheckboxが変更されたら、クイズを更新する
+            $(".era").change(function() {
+                quiz();
+            });
         </script>
     </body>
 </html>
