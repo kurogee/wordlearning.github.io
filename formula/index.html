@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>数学・理科の式ジェネレーター</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="shortcut icon" href="../favicon.png" type="image/png">
+        <link rel="stylesheet" href="../pagestyle.css">
+        <script src="../jquery-3.7.1.min.js"></script>
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    </head>
+    <body>
+        <div id="box">
+            <h2>数学・理科の式ジェネレーター</h2>
+            <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a>
+            <p>
+                このページでは、数学や理科の式を生成することができます。<br>
+            </p>
+        </div>
+        <hr>
+        <div id="box">
+            <br>
+            <div id="result"></div>
+            <br>
+        </div>
+        <br>
+        <div id="box">
+            <br>
+            <input type="text" id="enter_text" class="textbox">
+            <table>
+                <tr>
+                    <td><button onclick="add_formula('\\sqrt{}{}')">平方根</button></td>
+                    <td><button onclick="add_formula('\\frac{}{}')">分数</button></td>
+                    <td><button onclick="add_formula('\\times')">掛け算</button></td>
+                    <td><button onclick="add_formula('\\div')">割り算</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="add_formula('\\ce{}')">化学式</button></td>
+                    <td><button onclick="add_formula('\\pm')">±</button></td>
+                    <td><button onclick="add_formula('\\pi')">π</button></td>
+                    <td><button onclick="add_formula('\\neq')">≠</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="add_formula('\\leq')">≦</button></td>
+                    <td><button onclick="add_formula('\\geq')">≧</button></td>
+                    <td><button onclick="add_formula('_{}')">添え字</button></td>
+                    <td><button onclick="add_formula('^{}')">べき乗</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="add_formula('\\infty')">∞</button></td>
+                    <td><button onclick="add_formula('\\angle')">∠</button></td>
+                    <td><button onclick="add_formula('\\triangle')">△</button></td>
+                    <td><button onclick="add_formula('\\square')">□</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="add_formula('\\sin')">sin</button></td>
+                    <td><button onclick="add_formula('\\cos')">cos</button></td>
+                    <td><button onclick="add_formula('\\tan')">tan</button></td>
+                    <td><button onclick="add_formula('\\cot')">cot</button></td>
+                </tr>
+            </table>
+            <br>
+            <small>Enterキーで送信</small>
+            <br>
+        </div>
+
+        <script>
+            function add_formula(formula){
+                $("#enter_text").val($("#enter_text").val() + formula + "");
+                $("#enter_text").focus();
+            }
+
+            function set_formula(formula){
+                let url = "https://latex.codecogs.com/png.latex?" + "\\Large " + formula;
+                let img = new Image();
+                img.src = url;
+                img.onload = function(){
+                    $("#result").html(img);
+                }
+            }
+
+            document.addEventListener("DOMContentLoaded", function() {
+                $("#enter_text").keypress(function(e){
+                    if(e.which == 13){
+                        let text = document.getElementById("enter_text").value;
+                        set_formula(text);
+                    }
+                });
+                $("#enter_text").focus();
+            });
+        </script>
+    </body>
+</html>
