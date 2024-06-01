@@ -1,10 +1,286 @@
 [
     {
+        "year": "9",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "摂関政治",
+        "another_answer": [],
+        "detail": "藤原道長の頃に最も栄えた、娘を天皇のきさきにして自分はその補佐になることで実権を握る政治体制。",
+        "detail_wakati": [
+            "藤原道長",
+            "天皇",
+            "のきさき",
+            "自分",
+            "補佐",
+            "実権",
+            "政治体制"
+        ]
+    },
+    {
+        "year": "9",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "国風文化",
+        "another_answer": [],
+        "detail": "唐風の文化を基礎にしながら日本の貴族によって工夫がなされた、日本独自の文化。",
+        "detail_wakati": [
+            "唐風",
+            "文化",
+            "基礎",
+            "日本",
+            "貴族",
+            "工夫",
+            "日本",
+            "独自",
+            "文化"
+        ]
+    },
+    {
+        "year": "11",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "奥州藤原氏",
+        "another_answer": [],
+        "detail": "岩手県を中心に勢力をふるった、東北地方を統一した武士。",
+        "detail_wakati": [
+            "岩手県",
+            "中心",
+            "勢力",
+            "東北地方",
+            "統一",
+            "武士"
+        ]
+    },
+    {
+        "year": "11",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "院政",
+        "another_answer": [],
+        "detail": "関白や摂政といった力を抑えて政治を行った上皇による政治。",
+        "detail_wakati": [
+            "関白",
+            "摂政",
+            "政治",
+            "上皇",
+            "政治"
+        ]
+    },
+    {
+        "year": "11",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "十字軍",
+        "another_answer": [],
+        "detail": "ローマ教皇がイスラム勢力の中にあったエルサレムを奪い返すようにと、ヨーロッパ各国の王が遠征を行った軍。",
+        "detail_wakati": [
+            "ローマ教皇",
+            "イスラム勢力",
+            "エルサレム",
+            "ヨーロッパ",
+            "各国",
+            "遠征"
+        ]
+    },
+    {
+        "year": "14",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "倭寇",
+        "another_answer": [],
+        "detail": "東シナ海で活動が盛んになり、朝鮮や中国を苦しめていた日本の海賊。",
+        "detail_wakati": [
+            "東シナ海",
+            "活動",
+            "盛ん",
+            "朝鮮",
+            "中国",
+            "日本",
+            "海賊"
+        ]
+    },
+    {
+        "year": "14",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "ルネサンス",
+        "another_answer": [
+            "文芸復興"
+        ],
+        "detail": "人間の個性や自由を表現しようというギリシャやローマの文化を理想とする文化運動。",
+        "detail_wakati": [
+            "人間",
+            "個性",
+            "自由",
+            "表現",
+            "ギリシャ",
+            "ローマ",
+            "文化",
+            "理想",
+            "文化運動"
+        ]
+    },
+    {
+        "year": "15",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "琉球王国",
+        "another_answer": [],
+        "detail": "尚氏によって統一され、首里を都とした王国。",
+        "detail_wakati": [
+            "尚氏",
+            "統一",
+            "首里",
+            "王国"
+        ]
+    },
+    {
+        "year": "17",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "文治政治",
+        "another_answer": [],
+        "detail": "幕藩体制が確立し外国との関係も安定してきた頃に徳川綱吉によって行われた、武力ではなく学問や礼節を重んじる政治。",
+        "detail_wakati": [
+            "幕藩体制",
+            "確立",
+            "外国",
+            "関係",
+            "安定",
+            "徳川綱吉",
+            "武力",
+            "学問",
+            "礼節",
+            "政治"
+        ]
+    },
+    {
+        "year": "17",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "朱子学",
+        "another_answer": [],
+        "detail": "文治政治で特に重視された、上下関係を大切にするという儒学の1つ。",
+        "detail_wakati": [
+            "文治政治",
+            "重視",
+            "上下関係",
+            "大切",
+            "儒学",
+            "1つ"
+        ]
+    },
+    {
+        "year": "17",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "元禄文化",
+        "another_answer": [],
+        "detail": "経済力や技術力を持つ上方の町人によって生み出された文化。",
+        "detail_wakati": [
+            "経済力",
+            "技術",
+            "上方",
+            "町人",
+            "文化"
+        ]
+    },
+    {
+        "year": "18",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "新田開発",
+        "another_answer": [],
+        "detail": "戦乱の無い時代になったことによる人口増加に対応するために行われた、米の生産量を増やす取り組み。",
+        "detail_wakati": [
+            "戦乱",
+            "時代",
+            "人口",
+            "増加",
+            "対応",
+            "生産量",
+            "取り組み"
+        ]
+    },
+    {
+        "year": "18",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "五街道",
+        "another_answer": [],
+        "detail": "交通の整備を固めるために定められた、日本橋を起点とする街道。",
+        "detail_wakati": [
+            "交通",
+            "整備",
+            "日本橋",
+            "起点",
+            "街道"
+        ]
+    },
+    {
+        "year": "18",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "問屋制家内工業",
+        "another_answer": [],
+        "detail": "商品作物の生産者が行った、問屋から原料や道具などを借りて、手工業によって行われた商品作りの仕組み。",
+        "detail_wakati": [
+            "商品作物",
+            "生産者",
+            "問屋",
+            "原料",
+            "道具",
+            "手工業",
+            "商品",
+            "作り",
+            "仕組み"
+        ]
+    },
+    {
+        "year": "18",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "田沼意次",
+        "another_answer": [],
+        "detail": "年貢に頼る従来の政治を改め、商品の流通や生産から得る利益によって財政の立て直しを図った老中の1人。",
+        "detail_wakati": [
+            "年貢",
+            "従来",
+            "政治",
+            "商品",
+            "流通",
+            "生産",
+            "利益",
+            "財政",
+            "立て直し",
+            "老中",
+            "1人"
+        ]
+    },
+    {
+        "year": "19",
+        "century": "世紀",
+        "era": "世紀",
+        "event": "化政文化",
+        "another_answer": [],
+        "detail": "文化・文政期を中心に花開いた、江戸の庶民による文化",
+        "detail_wakati": [
+            "文化",
+            "文政",
+            "中心",
+            "江戸",
+            "庶民",
+            "文化"
+        ]
+    },
+    {
         "year": "593",
+        "century": "",
         "era": "飛鳥時代",
         "event": "聖徳太子",
         "another_answer": [
-            "厩戸皇子"
+            "厩戸皇子",
+            "厩戸王"
         ],
         "detail": "推古天皇の摂政として活躍し、十七条憲法を制定した。",
         "detail_wakati": [
@@ -17,6 +293,7 @@
     },
     {
         "year": "645",
+        "century": "",
         "era": "飛鳥時代",
         "event": "大化の改新",
         "another_answer": [],
@@ -33,6 +310,7 @@
     },
     {
         "year": "663",
+        "century": "",
         "era": "飛鳥時代",
         "event": "白村江の戦い",
         "another_answer": [],
@@ -48,6 +326,7 @@
     },
     {
         "year": "701",
+        "century": "",
         "era": "飛鳥時代",
         "event": "大宝律令",
         "another_answer": [],
@@ -60,6 +339,7 @@
     },
     {
         "year": "710",
+        "century": "",
         "era": "奈良時代",
         "event": "平城京",
         "another_answer": [],
@@ -71,7 +351,23 @@
         ]
     },
     {
+        "year": "710",
+        "century": "",
+        "era": "奈良時代",
+        "event": "天平文化",
+        "another_answer": [],
+        "detail": "聖武天皇の時代に最も栄えた、遣唐使によって中国からもたらされた文化。",
+        "detail_wakati": [
+            "聖武天皇",
+            "時代",
+            "遣唐使",
+            "中国",
+            "文化"
+        ]
+    },
+    {
         "year": "743",
+        "century": "",
         "era": "奈良時代",
         "event": "墾田永年私財法",
         "another_answer": [
@@ -89,6 +385,7 @@
     },
     {
         "year": "794",
+        "century": "",
         "era": "平安時代",
         "event": "平安京",
         "another_answer": [],
@@ -101,6 +398,7 @@
     },
     {
         "year": "801",
+        "century": "",
         "era": "平安時代",
         "event": "坂上田村麻呂",
         "another_answer": [],
@@ -115,7 +413,37 @@
         ]
     },
     {
+        "year": "905",
+        "century": "",
+        "era": "平安時代",
+        "event": "古今和歌集",
+        "another_answer": [],
+        "detail": "紀貫之らによって編集され、後に日本文学に影響を残した和歌集。",
+        "detail_wakati": [
+            "紀貫之",
+            "編集",
+            "日本文学",
+            "影響",
+            "和歌集"
+        ]
+    },
+    {
+        "year": "1052",
+        "century": "",
+        "era": "平安時代",
+        "event": "浄土信仰",
+        "another_answer": [],
+        "detail": "阿弥陀仏にすがって死後に極楽浄土に生まれ変わることを願った信仰。",
+        "detail_wakati": [
+            "阿弥陀仏",
+            "死後",
+            "極楽浄土",
+            "信仰"
+        ]
+    },
+    {
         "year": "1185",
+        "century": "",
         "era": "鎌倉時代",
         "event": "壇ノ浦の戦い",
         "another_answer": [],
@@ -128,6 +456,7 @@
     },
     {
         "year": "1185",
+        "century": "",
         "era": "鎌倉時代",
         "event": "守護・地頭",
         "another_answer": [
@@ -146,6 +475,7 @@
     },
     {
         "year": "1192",
+        "century": "",
         "era": "鎌倉時代",
         "event": "源頼朝",
         "another_answer": [],
@@ -158,6 +488,7 @@
     },
     {
         "year": "1221",
+        "century": "",
         "era": "鎌倉時代",
         "event": "承久の乱",
         "another_answer": [],
@@ -172,6 +503,7 @@
     },
     {
         "year": "1232",
+        "century": "",
         "era": "鎌倉時代",
         "event": "御成敗式目",
         "another_answer": [],
@@ -185,6 +517,7 @@
     },
     {
         "year": "1274",
+        "century": "",
         "era": "鎌倉時代",
         "event": "文永の役",
         "another_answer": [],
@@ -197,6 +530,7 @@
     },
     {
         "year": "1281",
+        "century": "",
         "era": "鎌倉時代",
         "event": "弘安の役",
         "another_answer": [],
@@ -208,6 +542,7 @@
     },
     {
         "year": "1297",
+        "century": "",
         "era": "鎌倉時代",
         "event": "永仁の徳政令",
         "another_answer": [
@@ -226,6 +561,7 @@
     },
     {
         "year": "1336",
+        "century": "",
         "era": "室町時代",
         "event": "建武の新政",
         "another_answer": [],
@@ -238,6 +574,7 @@
     },
     {
         "year": "1338",
+        "century": "",
         "era": "室町時代",
         "event": "室町幕府",
         "another_answer": [],
@@ -250,7 +587,27 @@
         ]
     },
     {
+        "year": "1392",
+        "century": "",
+        "era": "室町時代",
+        "event": "足利義満",
+        "another_answer": [],
+        "detail": "南北朝を統一し内乱を終わらせ、京都の室町に御所を構えた室町幕府の三代将軍。",
+        "detail_wakati": [
+            "南北朝",
+            "統一",
+            "内乱",
+            "京都",
+            "室町",
+            "御所",
+            "室町幕府",
+            "三代",
+            "将軍"
+        ]
+    },
+    {
         "year": "1397",
+        "century": "",
         "era": "室町時代",
         "event": "金閣寺",
         "another_answer": [
@@ -267,6 +624,7 @@
     },
     {
         "year": "1404",
+        "century": "",
         "era": "室町時代",
         "event": "日明貿易",
         "another_answer": [
@@ -285,6 +643,7 @@
     },
     {
         "year": "1428",
+        "century": "",
         "era": "室町時代",
         "event": "正長の土一揆",
         "another_answer": [],
@@ -299,6 +658,7 @@
     },
     {
         "year": "1467",
+        "century": "",
         "era": "室町時代",
         "event": "応仁の乱",
         "another_answer": [],
@@ -312,6 +672,7 @@
     },
     {
         "year": "1488",
+        "century": "",
         "era": "室町時代",
         "event": "加賀一向一揆",
         "another_answer": [],
@@ -328,6 +689,7 @@
     },
     {
         "year": "1517",
+        "century": "",
         "era": "室町時代",
         "event": "宗教改革",
         "another_answer": [],
@@ -341,7 +703,25 @@
         ]
     },
     {
+        "year": "1543",
+        "century": "",
+        "era": "室町時代",
+        "event": "南蛮貿易",
+        "another_answer": [],
+        "detail": "日本がポルトガル人やスペイン人南蛮人と呼んだことから名付けられた、日本と彼らとの貿易。",
+        "detail_wakati": [
+            "日本",
+            "ポルトガル人",
+            "スペイン人",
+            "南蛮人",
+            "日本",
+            "彼ら",
+            "貿易"
+        ]
+    },
+    {
         "year": "1549",
+        "century": "",
         "era": "室町時代",
         "event": "フランシスコ=ザビエル",
         "another_answer": [
@@ -358,6 +738,7 @@
     },
     {
         "year": "1560",
+        "century": "",
         "era": "室町時代",
         "event": "桶狭間の戦い",
         "another_answer": [],
@@ -373,6 +754,7 @@
     },
     {
         "year": "1575",
+        "century": "",
         "era": "安土桃山時代",
         "event": "長篠の戦い",
         "another_answer": [],
@@ -386,6 +768,7 @@
     },
     {
         "year": "1582",
+        "century": "",
         "era": "安土桃山時代",
         "event": "本能寺の変",
         "another_answer": [],
@@ -401,6 +784,7 @@
     },
     {
         "year": "1582",
+        "century": "",
         "era": "安土桃山時代",
         "event": "太閤検地",
         "another_answer": [],
@@ -416,6 +800,7 @@
     },
     {
         "year": "1588",
+        "century": "",
         "era": "安土桃山時代",
         "event": "刀狩令",
         "another_answer": [],
@@ -429,6 +814,7 @@
     },
     {
         "year": "1600",
+        "century": "",
         "era": "安土桃山時代",
         "event": "関ヶ原の戦い",
         "another_answer": [],
@@ -443,6 +829,7 @@
     },
     {
         "year": "1603",
+        "century": "",
         "era": "江戸時代",
         "event": "江戸幕府",
         "another_answer": [],
@@ -456,7 +843,26 @@
         ]
     },
     {
+        "year": "1604",
+        "century": "",
+        "era": "江戸時代",
+        "event": "朱印船貿易",
+        "another_answer": [
+            "朱印船"
+        ],
+        "detail": "徳川将軍が渡航許可を認めた船によって行われた海外との貿易。",
+        "detail_wakati": [
+            "徳川",
+            "将軍",
+            "渡航",
+            "許可",
+            "海外",
+            "貿易"
+        ]
+    },
+    {
         "year": "1607",
+        "century": "",
         "era": "江戸時代",
         "event": "朝鮮通信使",
         "another_answer": [
@@ -474,6 +880,7 @@
     },
     {
         "year": "1615",
+        "century": "",
         "era": "江戸時代",
         "event": "大坂の陣",
         "another_answer": [
@@ -489,6 +896,7 @@
     },
     {
         "year": "1615",
+        "century": "",
         "era": "江戸時代",
         "event": "武家諸法度",
         "another_answer": [],
@@ -504,6 +912,7 @@
     },
     {
         "year": "1615",
+        "century": "",
         "era": "江戸時代",
         "event": "禁中並公家諸法度",
         "another_answer": [
@@ -520,6 +929,7 @@
     },
     {
         "year": "1635",
+        "century": "",
         "era": "江戸時代",
         "event": "参勤交代",
         "another_answer": [],
@@ -538,6 +948,7 @@
     },
     {
         "year": "1637",
+        "century": "",
         "era": "江戸時代",
         "event": "島原・天草一揆",
         "another_answer": [
@@ -558,6 +969,7 @@
     },
     {
         "year": "1639",
+        "century": "",
         "era": "江戸時代",
         "event": "鎖国",
         "another_answer": [
@@ -574,6 +986,7 @@
     },
     {
         "year": "1639",
+        "century": "",
         "era": "江戸時代",
         "event": "ピューリタン革命",
         "another_answer": [
@@ -593,6 +1006,7 @@
     },
     {
         "year": "1651",
+        "century": "",
         "era": "江戸時代",
         "event": "由井正雪の乱",
         "another_answer": [],
@@ -606,6 +1020,7 @@
     },
     {
         "year": "1669",
+        "century": "",
         "era": "江戸時代",
         "event": "シャクシャインの戦い",
         "another_answer": [],
@@ -622,6 +1037,7 @@
     },
     {
         "year": "1687",
+        "century": "",
         "era": "江戸時代",
         "event": "生類憐れみの令",
         "another_answer": [],
@@ -638,6 +1054,7 @@
     },
     {
         "year": "1688",
+        "century": "",
         "era": "江戸時代",
         "event": "名誉革命",
         "another_answer": [],
@@ -655,6 +1072,7 @@
     },
     {
         "year": "1716",
+        "century": "",
         "era": "江戸時代",
         "event": "享保の改革",
         "another_answer": [],
@@ -666,6 +1084,7 @@
     },
     {
         "year": "1721",
+        "century": "",
         "era": "江戸時代",
         "event": "目安箱",
         "another_answer": [],
@@ -681,6 +1100,7 @@
     },
     {
         "year": "1722",
+        "century": "",
         "era": "江戸時代",
         "event": "上米の制",
         "another_answer": [
@@ -695,6 +1115,7 @@
     },
     {
         "year": "1742",
+        "century": "",
         "era": "江戸時代",
         "event": "公事方御定書",
         "another_answer": [],
@@ -708,6 +1129,7 @@
     },
     {
         "year": "1774",
+        "century": "",
         "era": "江戸時代",
         "event": "解体新書",
         "another_answer": [],
@@ -722,6 +1144,7 @@
     },
     {
         "year": "1776",
+        "century": "",
         "era": "江戸時代",
         "event": "アメリカ独立宣言",
         "another_answer": [
@@ -737,6 +1160,7 @@
     },
     {
         "year": "1787",
+        "century": "",
         "era": "江戸時代",
         "event": "天明の飢饉",
         "another_answer": [],
@@ -751,6 +1175,7 @@
     },
     {
         "year": "1787",
+        "century": "",
         "era": "江戸時代",
         "event": "松平定信",
         "another_answer": [],
@@ -765,6 +1190,7 @@
     },
     {
         "year": "1789",
+        "century": "",
         "era": "江戸時代",
         "event": "フランス革命",
         "another_answer": [],
@@ -778,6 +1204,7 @@
     },
     {
         "year": "1789",
+        "century": "",
         "era": "江戸時代",
         "event": "フランス革命",
         "another_answer": [],
@@ -796,6 +1223,7 @@
     },
     {
         "year": "1802",
+        "century": "",
         "era": "江戸時代",
         "event": "東海道中膝栗毛",
         "another_answer": [],
@@ -811,6 +1239,7 @@
     },
     {
         "year": "1804",
+        "century": "",
         "era": "江戸時代",
         "event": "ナポレオンの皇帝即位",
         "another_answer": [],
@@ -823,6 +1252,7 @@
     },
     {
         "year": "1815",
+        "century": "",
         "era": "江戸時代",
         "event": "ウィーン会議",
         "another_answer": [],
@@ -836,6 +1266,7 @@
     },
     {
         "year": "1825",
+        "century": "",
         "era": "江戸時代",
         "event": "異国船打払令",
         "another_answer": [],
@@ -847,6 +1278,7 @@
     },
     {
         "year": "1837",
+        "century": "",
         "era": "江戸時代",
         "event": "大塩平八郎の乱",
         "another_answer": [],
@@ -858,6 +1290,7 @@
     },
     {
         "year": "1839",
+        "century": "",
         "era": "江戸時代",
         "event": "蛮社の獄",
         "another_answer": [],
@@ -871,6 +1304,7 @@
     },
     {
         "year": "1840",
+        "century": "",
         "era": "江戸時代",
         "event": "アヘン戦争",
         "another_answer": [],
@@ -885,6 +1319,7 @@
     },
     {
         "year": "1841",
+        "century": "",
         "era": "江戸時代",
         "event": "天保の改革",
         "another_answer": [],
@@ -898,6 +1333,7 @@
     },
     {
         "year": "1842",
+        "century": "",
         "era": "江戸時代",
         "event": "天保の薪水給与令",
         "another_answer": [
@@ -914,6 +1350,7 @@
     },
     {
         "year": "1842",
+        "century": "",
         "era": "江戸時代",
         "event": "南京条約",
         "another_answer": [],
@@ -927,6 +1364,7 @@
     },
     {
         "year": "1848",
+        "century": "",
         "era": "江戸時代",
         "event": "諸国民の春",
         "another_answer": [],
@@ -939,6 +1377,7 @@
     },
     {
         "year": "1853",
+        "century": "",
         "era": "江戸時代",
         "event": "ペリー来航",
         "another_answer": [
@@ -956,6 +1395,7 @@
     },
     {
         "year": "1854",
+        "century": "",
         "era": "江戸時代",
         "event": "日米和親条約",
         "another_answer": [],
@@ -971,6 +1411,7 @@
     },
     {
         "year": "1857",
+        "century": "",
         "era": "江戸時代",
         "event": "インド大反乱",
         "another_answer": [
@@ -987,6 +1428,7 @@
     },
     {
         "year": "1858",
+        "century": "",
         "era": "江戸時代",
         "event": "日米修好通商条約",
         "another_answer": [],
@@ -1001,6 +1443,7 @@
     },
     {
         "year": "1858",
+        "century": "",
         "era": "江戸時代",
         "event": "安政の大獄",
         "another_answer": [],
@@ -1018,6 +1461,7 @@
     },
     {
         "year": "1860",
+        "century": "",
         "era": "江戸時代",
         "event": "桜田門外の変",
         "another_answer": [],
@@ -1032,6 +1476,7 @@
     },
     {
         "year": "1861",
+        "century": "",
         "era": "江戸時代",
         "event": "南北戦争",
         "another_answer": [
@@ -1048,6 +1493,7 @@
     },
     {
         "year": "1862",
+        "century": "",
         "era": "江戸時代",
         "event": "奴隷解放宣言",
         "another_answer": [],
@@ -1066,6 +1512,7 @@
     },
     {
         "year": "1862",
+        "century": "",
         "era": "江戸時代",
         "event": "生麦事件",
         "another_answer": [],
@@ -1085,6 +1532,7 @@
     },
     {
         "year": "1863",
+        "century": "",
         "era": "江戸時代",
         "event": "薩英戦争",
         "another_answer": [],
@@ -1102,6 +1550,7 @@
     },
     {
         "year": "1866",
+        "century": "",
         "era": "江戸時代",
         "event": "薩長同盟",
         "another_answer": [],
@@ -1116,6 +1565,7 @@
     },
     {
         "year": "1867",
+        "century": "",
         "era": "江戸時代",
         "event": "王政復古の大号令",
         "another_answer": [],
@@ -1134,6 +1584,7 @@
     },
     {
         "year": "1867",
+        "century": "",
         "era": "江戸時代",
         "event": "大政奉還",
         "another_answer": [],
@@ -1147,6 +1598,7 @@
     },
     {
         "year": "1868",
+        "century": "",
         "era": "明治時代",
         "event": "五箇条の御誓文",
         "another_answer": [],
@@ -1161,6 +1613,7 @@
     },
     {
         "year": "1868",
+        "century": "",
         "era": "明治時代",
         "event": "戊辰戦争",
         "another_answer": [],
@@ -1175,6 +1628,7 @@
     },
     {
         "year": "1868",
+        "century": "",
         "era": "明治時代",
         "event": "明治維新",
         "another_answer": [],
@@ -1189,6 +1643,7 @@
     },
     {
         "year": "1869",
+        "century": "",
         "era": "明治時代",
         "event": "版籍奉還",
         "another_answer": [],
@@ -1204,6 +1659,7 @@
     },
     {
         "year": "1871",
+        "century": "",
         "era": "明治時代",
         "event": "ドイツ帝国",
         "another_answer": [],
@@ -1216,6 +1672,7 @@
     },
     {
         "year": "1871",
+        "century": "",
         "era": "明治時代",
         "event": "解放令",
         "another_answer": [],
@@ -1233,6 +1690,7 @@
     },
     {
         "year": "1871",
+        "century": "",
         "era": "明治時代",
         "event": "岩倉使節団",
         "another_answer": [],
@@ -1248,6 +1706,7 @@
     },
     {
         "year": "1871",
+        "century": "",
         "era": "明治時代",
         "event": "日清修好条規",
         "another_answer": [],
@@ -1261,6 +1720,7 @@
     },
     {
         "year": "1871",
+        "century": "",
         "era": "明治時代",
         "event": "廃藩置県",
         "another_answer": [],
@@ -1273,6 +1733,7 @@
     },
     {
         "year": "1872",
+        "century": "",
         "era": "明治時代",
         "event": "学制",
         "another_answer": [
@@ -1289,6 +1750,7 @@
     },
     {
         "year": "1873",
+        "century": "",
         "era": "明治時代",
         "event": "地租改正",
         "another_answer": [],
@@ -1304,6 +1766,7 @@
     },
     {
         "year": "1873",
+        "century": "",
         "era": "明治時代",
         "event": "徴兵令",
         "another_answer": [],
@@ -1317,6 +1780,7 @@
     },
     {
         "year": "1873",
+        "century": "",
         "era": "明治時代",
         "event": "征韓論",
         "another_answer": [],
@@ -1330,6 +1794,7 @@
     },
     {
         "year": "1874",
+        "century": "",
         "era": "明治時代",
         "event": "民撰議院設立建白書",
         "another_answer": [
@@ -1347,6 +1812,7 @@
     },
     {
         "year": "1875",
+        "century": "",
         "era": "明治時代",
         "event": "樺太・千島交換条約",
         "another_answer": [],
@@ -1362,6 +1828,7 @@
     },
     {
         "year": "1876",
+        "century": "",
         "era": "明治時代",
         "event": "日朝修好条規",
         "another_answer": [],
@@ -1376,6 +1843,7 @@
     },
     {
         "year": "1876",
+        "century": "",
         "era": "明治時代",
         "event": "廃刀令",
         "another_answer": [
@@ -1396,6 +1864,7 @@
     },
     {
         "year": "1877",
+        "century": "",
         "era": "明治時代",
         "event": "西南戦争",
         "another_answer": [],
@@ -1414,6 +1883,7 @@
     },
     {
         "year": "1880",
+        "century": "",
         "era": "明治時代",
         "event": "国会期成同盟",
         "another_answer": [],
@@ -1429,6 +1899,7 @@
     },
     {
         "year": "1881",
+        "century": "",
         "era": "明治時代",
         "event": "国会開設の勅諭",
         "another_answer": [
@@ -1446,6 +1917,7 @@
     },
     {
         "year": "1881",
+        "century": "",
         "era": "明治時代",
         "event": "自由党",
         "another_answer": [],
@@ -1460,6 +1932,7 @@
     },
     {
         "year": "1882",
+        "century": "",
         "era": "明治時代",
         "event": "立憲改進党",
         "another_answer": [],
@@ -1473,6 +1946,7 @@
     },
     {
         "year": "1885",
+        "century": "",
         "era": "明治時代",
         "event": "内閣制度",
         "another_answer": [],
@@ -1489,6 +1963,7 @@
     },
     {
         "year": "1889",
+        "century": "",
         "era": "明治時代",
         "event": "大日本帝国憲法",
         "another_answer": [],
@@ -1501,6 +1976,7 @@
     },
     {
         "year": "1890",
+        "century": "",
         "era": "明治時代",
         "event": "教育勅語",
         "another_answer": [],
@@ -1515,6 +1991,7 @@
     },
     {
         "year": "1890",
+        "century": "",
         "era": "明治時代",
         "event": "森鴎外",
         "another_answer": [],
@@ -1526,6 +2003,7 @@
     },
     {
         "year": "1894",
+        "century": "",
         "era": "明治時代",
         "event": "日清戦争",
         "another_answer": [],
@@ -1540,6 +2018,7 @@
     },
     {
         "year": "1894",
+        "century": "",
         "era": "明治時代",
         "event": "日英通商航海条約",
         "another_answer": [],
@@ -1554,6 +2033,7 @@
     },
     {
         "year": "1895",
+        "century": "",
         "era": "明治時代",
         "event": "下関条約",
         "another_answer": [],
@@ -1568,6 +2048,7 @@
     },
     {
         "year": "1895",
+        "century": "",
         "era": "明治時代",
         "event": "樋口一葉",
         "another_answer": [],
@@ -1581,6 +2062,7 @@
     },
     {
         "year": "1895",
+        "century": "",
         "era": "明治時代",
         "event": "三国干渉",
         "another_answer": [],
@@ -1598,6 +2080,7 @@
     },
     {
         "year": "1900",
+        "century": "",
         "era": "明治時代",
         "event": "義和団事件",
         "another_answer": [],
@@ -1612,6 +2095,7 @@
     },
     {
         "year": "1901",
+        "century": "",
         "era": "明治時代",
         "event": "八幡製鉄所",
         "another_answer": [
@@ -1630,6 +2114,7 @@
     },
     {
         "year": "1902",
+        "century": "",
         "era": "明治時代",
         "event": "日英同盟",
         "another_answer": [],
@@ -1648,6 +2133,7 @@
     },
     {
         "year": "1904",
+        "century": "",
         "era": "明治時代",
         "event": "日露戦争",
         "another_answer": [],
@@ -1664,6 +2150,7 @@
     },
     {
         "year": "1905",
+        "century": "",
         "era": "明治時代",
         "event": "血の日曜日事件",
         "another_answer": [],
@@ -1679,6 +2166,7 @@
     },
     {
         "year": "1905",
+        "century": "",
         "era": "明治時代",
         "event": "ポーツマス条約",
         "another_answer": [
@@ -1696,6 +2184,7 @@
     },
     {
         "year": "1906",
+        "century": "",
         "era": "明治時代",
         "event": "南満州鉄道株式会社",
         "another_answer": [
@@ -1714,6 +2203,7 @@
     },
     {
         "year": "1910",
+        "century": "",
         "era": "明治時代",
         "event": "韓国併合",
         "another_answer": [],
@@ -1727,6 +2217,7 @@
     },
     {
         "year": "1911",
+        "century": "",
         "era": "明治時代",
         "event": "辛亥革命",
         "another_answer": [],
@@ -1743,6 +2234,7 @@
     },
     {
         "year": "1911",
+        "century": "",
         "era": "明治時代",
         "event": "関税自主権",
         "another_answer": [],
@@ -1760,6 +2252,7 @@
     },
     {
         "year": "1911",
+        "century": "",
         "era": "明治時代",
         "event": "大逆事件",
         "another_answer": [],
@@ -1775,6 +2268,7 @@
     },
     {
         "year": "1911",
+        "century": "",
         "era": "明治時代",
         "event": "田中正造",
         "another_answer": [],
@@ -1788,6 +2282,7 @@
     },
     {
         "year": "1911",
+        "century": "",
         "era": "明治時代",
         "event": "青鞜社",
         "another_answer": [],
@@ -1802,6 +2297,7 @@
     },
     {
         "year": "1912",
+        "century": "",
         "era": "大正時代",
         "event": "中華民国",
         "another_answer": [],
@@ -1817,6 +2313,7 @@
     },
     {
         "year": "1912",
+        "century": "",
         "era": "大正時代",
         "event": "辛亥革命",
         "another_answer": [],
@@ -1829,6 +2326,7 @@
     },
     {
         "year": "1912",
+        "century": "",
         "era": "大正時代",
         "event": "護憲運動",
         "another_answer": [
@@ -1848,6 +2346,7 @@
     },
     {
         "year": "1914",
+        "century": "",
         "era": "大正時代",
         "event": "サラエボ事件",
         "another_answer": [],
@@ -1864,6 +2363,7 @@
     },
     {
         "year": "1914",
+        "century": "",
         "era": "大正時代",
         "event": "第一次世界大戦",
         "another_answer": [],
@@ -1878,6 +2378,7 @@
     },
     {
         "year": "1915",
+        "century": "",
         "era": "大正時代",
         "event": "五・四運動",
         "another_answer": [
@@ -1899,6 +2400,7 @@
     },
     {
         "year": "1915",
+        "century": "",
         "era": "大正時代",
         "event": "二十一ヶ条の要求",
         "another_answer": [
@@ -1918,6 +2420,7 @@
     },
     {
         "year": "1917",
+        "century": "",
         "era": "大正時代",
         "event": "ロシア革命",
         "another_answer": [],
@@ -1931,6 +2434,7 @@
     },
     {
         "year": "1918",
+        "century": "",
         "era": "大正時代",
         "event": "米騒動",
         "another_answer": [],
@@ -1944,6 +2448,7 @@
     },
     {
         "year": "1918",
+        "century": "",
         "era": "大正時代",
         "event": "原敬",
         "another_answer": [],
@@ -1957,6 +2462,7 @@
     },
     {
         "year": "1919",
+        "century": "",
         "era": "大正時代",
         "event": "ヴェルサイユ条約",
         "another_answer": [
@@ -1974,6 +2480,7 @@
     },
     {
         "year": "1919",
+        "century": "",
         "era": "大正時代",
         "event": "パリ講和会議",
         "another_answer": [],
@@ -1991,6 +2498,7 @@
     },
     {
         "year": "1919",
+        "century": "",
         "era": "大正時代",
         "event": "三・一独立運動",
         "another_answer": [
@@ -2007,6 +2515,7 @@
     },
     {
         "year": "1919",
+        "century": "",
         "era": "大正時代",
         "event": "ワイマール憲法",
         "another_answer": [
@@ -2023,6 +2532,7 @@
     },
     {
         "year": "1920",
+        "century": "",
         "era": "大正時代",
         "event": "国際連盟",
         "another_answer": [],
@@ -2038,6 +2548,7 @@
     },
     {
         "year": "1921",
+        "century": "",
         "era": "大正時代",
         "event": "ワシントン会議",
         "another_answer": [],
@@ -2056,6 +2567,7 @@
     },
     {
         "year": "1922",
+        "century": "",
         "era": "大正時代",
         "event": "ソビエト社会主義共和国連邦",
         "another_answer": [
@@ -2072,6 +2584,7 @@
     },
     {
         "year": "1922",
+        "century": "",
         "era": "大正時代",
         "event": "全国水平社",
         "another_answer": [
@@ -2089,6 +2602,7 @@
     },
     {
         "year": "1922",
+        "century": "",
         "era": "大正時代",
         "event": "シベリア出兵",
         "another_answer": [
@@ -2107,6 +2621,7 @@
     },
     {
         "year": "1923",
+        "century": "",
         "era": "大正時代",
         "event": "関東大震災",
         "another_answer": [],
@@ -2122,6 +2637,7 @@
     },
     {
         "year": "1923",
+        "century": "",
         "era": "大正時代",
         "event": "関東大震災",
         "another_answer": [],
@@ -2136,6 +2652,7 @@
     },
     {
         "year": "1925",
+        "century": "",
         "era": "大正時代",
         "event": "普通選挙法",
         "another_answer": [
@@ -2150,6 +2667,7 @@
     },
     {
         "year": "1925",
+        "century": "",
         "era": "大正時代",
         "event": "治安維持法",
         "another_answer": [],
@@ -2163,6 +2681,7 @@
     },
     {
         "year": "1927",
+        "century": "",
         "era": "昭和時代",
         "event": "金融恐慌",
         "another_answer": [],
@@ -2182,6 +2701,7 @@
     },
     {
         "year": "1928",
+        "century": "",
         "era": "昭和時代",
         "event": "五か年計画",
         "another_answer": [
@@ -2200,6 +2720,7 @@
     },
     {
         "year": "1928",
+        "century": "",
         "era": "昭和時代",
         "event": "蒋介石",
         "another_answer": [
@@ -2215,6 +2736,7 @@
     },
     {
         "year": "1929",
+        "century": "",
         "era": "昭和時代",
         "event": "世界恐慌",
         "another_answer": [],
@@ -2229,6 +2751,7 @@
     },
     {
         "year": "1931",
+        "century": "",
         "era": "昭和時代",
         "event": "満州事変",
         "another_answer": [],
@@ -2248,6 +2771,7 @@
     },
     {
         "year": "1931",
+        "century": "",
         "era": "昭和時代",
         "event": "柳条湖事件",
         "another_answer": [],
@@ -2265,6 +2789,7 @@
     },
     {
         "year": "1932",
+        "century": "",
         "era": "昭和時代",
         "event": "ブロック経済",
         "another_answer": [],
@@ -2278,6 +2803,7 @@
     },
     {
         "year": "1932",
+        "century": "",
         "era": "昭和時代",
         "event": "五・一五事件",
         "another_answer": [
@@ -2296,6 +2822,7 @@
     },
     {
         "year": "1933",
+        "century": "",
         "era": "昭和時代",
         "event": "ニューディール政策",
         "another_answer": [
@@ -2314,6 +2841,7 @@
     },
     {
         "year": "1933",
+        "century": "",
         "era": "昭和時代",
         "event": "ヒトラー",
         "another_answer": [
@@ -2329,6 +2857,7 @@
     },
     {
         "year": "1936",
+        "century": "",
         "era": "昭和時代",
         "event": "二・二六事件",
         "another_answer": [
@@ -2350,6 +2879,7 @@
     },
     {
         "year": "1937",
+        "century": "",
         "era": "昭和時代",
         "event": "盧溝橋事件",
         "another_answer": [],
@@ -2364,6 +2894,7 @@
     },
     {
         "year": "1937",
+        "century": "",
         "era": "昭和時代",
         "event": "日中戦争",
         "another_answer": [],
@@ -2378,6 +2909,7 @@
     },
     {
         "year": "1937",
+        "century": "",
         "era": "昭和時代",
         "event": "抗日民族統一戦線",
         "another_answer": [],
@@ -2391,6 +2923,7 @@
     },
     {
         "year": "1938",
+        "century": "",
         "era": "昭和時代",
         "event": "国家総動員法",
         "another_answer": [],
@@ -2405,6 +2938,7 @@
     },
     {
         "year": "1939",
+        "century": "",
         "era": "昭和時代",
         "event": "第二次世界大戦",
         "another_answer": [],
@@ -2418,6 +2952,7 @@
     },
     {
         "year": "1940",
+        "century": "",
         "era": "昭和時代",
         "event": "大政翼賛会",
         "another_answer": [],
@@ -2431,6 +2966,7 @@
     },
     {
         "year": "1940",
+        "century": "",
         "era": "昭和時代",
         "event": "日独伊三国同盟",
         "another_answer": [],
@@ -2447,6 +2983,7 @@
     },
     {
         "year": "1941",
+        "century": "",
         "era": "昭和時代",
         "event": "真珠湾攻撃",
         "another_answer": [],
@@ -2463,6 +3000,7 @@
     },
     {
         "year": "1941",
+        "century": "",
         "era": "昭和時代",
         "event": "太平洋戦争",
         "another_answer": [],
@@ -2479,6 +3017,7 @@
     },
     {
         "year": "1941",
+        "century": "",
         "era": "昭和時代",
         "event": "日ソ中立条約",
         "another_answer": [],
@@ -2496,6 +3035,7 @@
     },
     {
         "year": "1942",
+        "century": "",
         "era": "昭和時代",
         "event": "ミッドウェー海戦",
         "another_answer": [],
@@ -2510,6 +3050,7 @@
     },
     {
         "year": "1945",
+        "century": "",
         "era": "昭和時代",
         "event": "ポツダム宣言",
         "another_answer": [],
@@ -2526,6 +3067,7 @@
     },
     {
         "year": "1945",
+        "century": "",
         "era": "昭和時代",
         "event": "沖縄戦",
         "another_answer": [
@@ -2543,6 +3085,7 @@
     },
     {
         "year": "1945",
+        "century": "",
         "era": "昭和時代",
         "event": "ヤルタ協定",
         "another_answer": [
@@ -2562,6 +3105,7 @@
     },
     {
         "year": "1945",
+        "century": "",
         "era": "昭和時代",
         "event": "国際連合",
         "another_answer": [],
@@ -2579,6 +3123,7 @@
     },
     {
         "year": "1946",
+        "century": "",
         "era": "昭和時代",
         "event": "人間宣言",
         "another_answer": [
@@ -2596,6 +3141,7 @@
     },
     {
         "year": "1946",
+        "century": "",
         "era": "昭和時代",
         "event": "公職追放",
         "another_answer": [],
@@ -2614,6 +3160,7 @@
     },
     {
         "year": "1946",
+        "century": "",
         "era": "昭和時代",
         "event": "東京裁判",
         "another_answer": [
@@ -2631,6 +3178,7 @@
     },
     {
         "year": "1947",
+        "century": "",
         "era": "昭和時代",
         "event": "日本国憲法",
         "another_answer": [],
@@ -2647,6 +3195,7 @@
     },
     {
         "year": "1948",
+        "century": "",
         "era": "昭和時代",
         "event": "第一次中東戦争",
         "another_answer": [
@@ -2662,6 +3211,7 @@
     },
     {
         "year": "1949",
+        "century": "",
         "era": "昭和時代",
         "event": "中華人民共和国",
         "another_answer": [],
@@ -2676,6 +3226,7 @@
     },
     {
         "year": "1950",
+        "century": "",
         "era": "昭和時代",
         "event": "夏目漱石",
         "another_answer": [],
@@ -2689,6 +3240,7 @@
     },
     {
         "year": "1951",
+        "century": "",
         "era": "昭和時代",
         "event": "サンフランシスコ講和条約",
         "another_answer": [
@@ -2706,6 +3258,7 @@
     },
     {
         "year": "1973",
+        "century": "",
         "era": "昭和時代",
         "event": "第一次石油危機",
         "another_answer": [
@@ -2727,6 +3280,7 @@
     },
     {
         "year": "1989",
+        "century": "",
         "era": "平成時代",
         "event": "ベルリンの壁崩壊",
         "another_answer": [],
@@ -2740,6 +3294,7 @@
     },
     {
         "year": "1991",
+        "century": "",
         "era": "平成時代",
         "event": "ソビエト連邦崩壊",
         "another_answer": [
@@ -2760,6 +3315,7 @@
     },
     {
         "year": "2001",
+        "century": "",
         "era": "平成時代",
         "event": "アメリカ同時多発テロ",
         "another_answer": [
@@ -2778,6 +3334,7 @@
     },
     {
         "year": "2019",
+        "century": "",
         "era": "令和時代",
         "event": "新型コロナウイルス感染症",
         "another_answer": [
@@ -2798,6 +3355,7 @@
     },
     {
         "year": "2021",
+        "century": "",
         "era": "令和時代",
         "event": "タリバン",
         "another_answer": [
@@ -2815,6 +3373,7 @@
     },
     {
         "year": "2022",
+        "century": "",
         "era": "令和時代",
         "event": "ロシアのウクライナ侵攻",
         "another_answer": [
