@@ -81,65 +81,69 @@
                 入力形式で出題し、回答者に入力させる
                 ユーザがやめるまでずっと出題し続ける
             */
+
+            const quizJson = $.getJSON("../model/histories.json", function(data) {
+                return data;
+            });
             
             function quiz() {
                 // クイズの問題を取得
-                $.getJSON("../model/histories.json", function(data) {
-                    // どの時代の出来事を出題するかを取得
-                    let eras = [];
-                    $(".era").each(function() {
-                        if ($(this).prop("checked")) {
-                            eras.push($(this).attr("name"));
-                        }
-                    });
+                let data = quizJson.responseJSON;
+                
+                // どの時代の出来事を出題するかを取得
+                let eras = [];
 
-                    // 出題する問題を選ぶ
-                    data = data.filter(function(item) {
-                        return eras.includes(item["era"]);
-                    });
-
-                    // 出題する問題がなくなったら、出題済みの問題をリセット
-                    if (already_asked.length >= data.length) {
-                        already_asked = [];
+                $(".era").each(function() {
+                    if ($(this).prop("checked")) {
+                        eras.push($(this).attr("name"));
                     }
-                    // 出題する問題をランダムに選ぶ
-                    let question = data[Math.floor(Math.random() * data.length)];
-                    while (already_asked.includes(question["event"])) {
-                        question = data[Math.floor(Math.random() * data.length)];
-                    }
+                });
 
-                    // 出題済みの問題を記録
-                    already_asked.push(question["event"]);
+                // 出題する問題を選ぶ
+                data = data.filter(function(item) {
+                    return eras.includes(item["era"]);
+                });
 
-                    let answer = question["event"];
-                    let other_asnwers = question["another_answer"];
-                    let year = question["year"];
-                    let detail = question["detail"];
+                // 出題する問題がなくなったら、出題済みの問題をリセット
+                if (already_asked.length >= data.length) {
+                    already_asked = [];
+                }
 
-                    // 問題を表示
-                    $("#question").text(detail + "（" + year + "）");
-                    
-                    // ユーザが入力した文字列を取得
-                    $("#enter_text").off("keypress");
-                    $("#enter_text").val("");
-                    $("#enter_text").focus();
-                    $("#enter_text").keypress(function(e) {
-                        if (e.which == 13) {
-                            let input = $("#enter_text").val();
-                            if (input == answer || other_asnwers.includes(input)) {
-                                correct_audio.play();
-                                $("#explain").text("正解！").css("color", "blue");
-                                quiz();
-                            } else {
-                                incorrect_audio.play();
-                                if (other_asnwers.length > 0) {
-                                    $("#explain").text("不正解！正解は「" + answer + " (" + other_asnwers.join(", ") + ")」です").css("color", "red");
-                                }
-                                $("#explain").text("不正解！正解は「" + answer + "」です").css("color", "red");
-                                quiz();
+                // 出題する問題をランダムに選ぶ
+                let question = data[Math.floor(Math.random() * data.length)];
+                while (already_asked.includes(question["event"])) {
+                    question = data[Math.floor(Math.random() * data.length)];
+                }
+
+                // 出題済みの問題を記録
+                already_asked.push(question["event"]);
+                let answer = question["event"];
+                let other_asnwers = question["another_answer"];
+                let year = question["year"];
+                let detail = question["detail"];
+                // 問題を表示
+                $("#question").text(detail + "（" + year + "）");
+                
+                // ユーザが入力した文字列を取得
+                $("#enter_text").off("keypress");
+                $("#enter_text").val("");
+                $("#enter_text").focus();
+                $("#enter_text").keypress(function(e) {
+                    if (e.which == 13) {
+                        let input = $("#enter_text").val();
+                        if (input == answer || other_asnwers.includes(input)) {
+                            correct_audio.play();
+                            $("#explain").text("正解！").css("color", "blue");
+                            quiz();
+                        } else {
+                            incorrect_audio.play();
+                            if (other_asnwers.length > 0) {
+                                $("#explain").text("不正解！正解は「" + answer + " (" + other_asnwers.join(", ") + ")」です").css("color", "red");
                             }
+                            $("#explain").text("不正解！正解は「" + answer + "」です").css("color", "red");
+                            quiz();
                         }
-                    });
+                    }
                 });
             }
 

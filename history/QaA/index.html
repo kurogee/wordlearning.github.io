@@ -180,91 +180,95 @@
                 // Setを配列に変換して返す
                 return Array.from(resultIndexes);
             }
+
+            const quizJson = $.getJSON("../model/histories.json", function(data) {
+                return data;
+            });
             
             function quiz() {
                 // クイズの問題を取得
-                $.getJSON("../model/histories.json", function(data) {
-                    // 問題に表示する時代を取得
-                    let eras = [];
-                    $(".era").each(function() {
-                        if ($(this).prop("checked")) {
-                            eras.push($(this).attr("name"));
-                        }
-                    });
-                    console.log(eras);
-
-                    // 問題に表示する時代の出来事だけを取得
-                    data = data.filter(function(item) {
-                        return eras.includes(item["era"]);
-                    });
-
-                    if (already_asked.length >= data.length) {
-                        already_asked = [];
-                    }
-                    // 出題する問題をランダムに選ぶ
-                    let question = data[Math.floor(Math.random() * data.length)];
-                    while (already_asked.includes(question["event"])) {
-                        question = data[Math.floor(Math.random() * data.length)];
-                    }
-
-                    // 出題する問題の年と出来事を表示
-                    $("#question").html(
-                        "<p>" + question["year"] + "年 に起こった出来事</p>" +
-                        "<p>ヒント: " + question["detail"] + "</p>"
-                    );
-
-                    // 出題する問題の正解と不正解をランダムに並べ替える
-                    let answers = [question["event"]];
-
-                    // 不正解(他の出来事名)を追加
-                    for (let i = 0; i < 3; i++) {
-                        // もし、question["event"]と同じ単語が使われている。いわば似ている単語が他のeventにあったら、それを採用する
-                        if (findMatchingIndexes(question["event"], data).length > 1) {
-                            // 発見された似ている単語のインデックスを取得
-                            let matchingIndexes = findMatchingIndexes(question["event"], data);
-                            // その中からランダムに選ぶ
-                            let tmp = data[matchingIndexes[Math.floor(Math.random() * matchingIndexes.length)]]["event"];
-                            // question["event"]とかぶっていたり、answersにすでに含まれていたら、普通にランダムに選ぶ
-                            while (tmp == question["event"] || answers.includes(tmp)) {
-                                tmp = data[Math.floor(Math.random() * data.length)]["event"];
-                            }
-                            answers.push(tmp);
-                        } else {
-                            let tmp = data[Math.floor(Math.random() * data.length)]["event"];
-                            while (tmp == question["event"]) {
-                                tmp = data[Math.floor(Math.random() * data.length)]["event"];
-                            }
-                            answers.push(tmp);
-                        }
-                    }
-
-                    // 正解と不正解をシャッフル
-                    answers.sort(function() {
-                        return Math.random() - Math.random();
-                    });
-
-
-                    // 四択形式で選択肢を表示
-                    for (let i = 0; i < 4; i++) {
-                        $("#meaning" + (i + 1)).html(answers[i]);
-                        already_asked.push(question["event"]);
-
-                        $("#meaning" + (i + 1)).off('click');
-                    
-                        // 選択肢をクリックしたときの処理
-                        $("#meaning" + (i + 1)).click(function() {
-                            if (answers[i] == question["event"]) {
-                                correct_audio.play();
-                                $("#explain").html("正解！");
-                            } else {
-                                incorrect_audio.play();
-                                wrong_list.push(question);
-                                $("#explain").html("不正解！ 正解は「" + question["event"] + "」です。");
-                            }
-                            quiz();
-                        });
+                let data = quizJson.responseJSON;
+                // 問題に表示する時代を取得
+                let eras = [];
+                $(".era").each(function() {
+                    if ($(this).prop("checked")) {
+                        eras.push($(this).attr("name"));
                     }
                 });
+                console.log(eras);
+
+                // 問題に表示する時代の出来事だけを取得
+                data = data.filter(function(item) {
+                    return eras.includes(item["era"]);
+                });
+
+                if (already_asked.length >= data.length) {
+                    already_asked = [];
+                }
+
+                // 出題する問題をランダムに選ぶ
+                let question = data[Math.floor(Math.random() * data.length)];
+                while (already_asked.includes(question["event"])) {
+                    question = data[Math.floor(Math.random() * data.length)];
+                }
+
+                // 出題する問題の年と出来事を表示
+                $("#question").html(
+                    "<p>" + question["year"] + "年 に起こった出来事</p>" +
+                    "<p>ヒント: " + question["detail"] + "</p>"
+                );
+
+                let answers = [question["event"]];
+
+                // 不正解(他の出来事名)を追加
+                for (let i = 0; i < 3; i++) {
+                    // もし、同じ単語が使われている。似ている単語が他のeventにあったら、それを採用する
+                    // if (findMatchingIndexes(question["event"], data).length > 1) {
+                    //     // 発見された似ている単語のインデックスを取得
+                    //     let matchingIndexes = findMatchingIndexes(question["event"], data);
+                    //     // その中からランダムに選ぶ
+                    //     let tmp = data[matchingIndexes[Math.floor(Math.random() * matchingIndexes.length)]]["event"];
+                    //     
+                    //     // かぶっていたり、answersにすでに含まれていたら、普通にランダムに選ぶ
+                    //     while (tmp == question["event"] || answers.includes(tmp)) {
+                    //         tmp = data[Math.floor(Math.random() * data.length)]["event"];
+                    //     }
+                    //     answers.push(tmp);
+                    // } else {
+                        let tmp = data[Math.floor(Math.random() * data.length)]["event"];
+                        while (tmp == question["event"]) {
+                            tmp = data[Math.floor(Math.random() * data.length)]["event"];
+                        }
+                        answers.push(tmp);
+                    // }
+                }
+
+                // 正解と不正解をシャッフル
+                answers.sort(function() {
+                    return Math.random() - Math.random();
+                });
+
+
+                // 四択形式で選択肢を表示
+                for (let i = 0; i < 4; i++) {
+                    $("#meaning" + (i + 1)).html(answers[i]);
+                    already_asked.push(question["event"]);
+
+                    $("#meaning" + (i + 1)).off('click');
+                
+                    // 選択肢をクリックしたときの処理
+                    $("#meaning" + (i + 1)).click(function() {
+                        if (answers[i] == question["event"]) {
+                            correct_audio.play();
+                            $("#explain").html("正解！");
+                        } else {
+                            incorrect_audio.play();
+                            wrong_list.push(question);
+                            $("#explain").html("不正解！ 正解は「" + question["event"] + "」です。");
+                        }
+                        quiz();
+                    });
+                }
             }
 
             // プログラムを開始する関数

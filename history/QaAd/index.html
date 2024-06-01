@@ -160,68 +160,71 @@
                 四択形式で出題して、正解を選ばせる
                 ユーザがやめるまでずっと出題し続ける
             */
+
+            const quizJson = $.getJSON("../model/histories.json", function(data) {
+                return data;
+            });
+
             function quiz() {
                 // クイズの問題を取得
-                $.getJSON("../model/histories.json", function(data) {
-                    // どの時代の出来事を出題するかを取得
-                    let era = [];
-                    $(".era").each(function() {
-                        if ($(this).prop("checked")) {
-                            era.push($(this).attr("name"));
-                        }
-                    });
+                let data = quizJson.responseJSON;
 
-                    // 出題する問題を絞り込む
-                    data = data.filter(function(item) {
-                        return era.includes(item["era"]);
-                    });
-
-                    // 出題する問題をランダムに選ぶ
-                    const question = data[Math.floor(Math.random() * data.length)];
-
-                    // 出題する問題の年と出来事を表示
-                    $("#question").html(
-                        "<p>「" + question["event"] + "」の説明として適切なもの</p>"
-                    );
-
-                    // 出題する問題の正解と不正解をランダムに並べ替える
-                    let answers = [question["detail"]];
-
-                    // 不正解(他の出来事名)を追加
-                    for (let i = 0; i < 3; i++) {
-                        let tmp = data[Math.floor(Math.random() * data.length)]["detail"];
-                        while (tmp == question["detail"]) {
-                            tmp = data[Math.floor(Math.random() * data.length)]["detail"];
-                        }
-                        answers.push(tmp);
-                    }
-
-                    // 正解と不正解をシャッフル
-                    answers.sort(function() {
-                        return Math.random() - Math.random();
-                    });
-
-
-                    // 四択形式で選択肢を表示
-                    for (let i = 0; i < 4; i++) {
-                        $("#meaning" + (i + 1)).html(answers[i]);
-
-                        $("#meaning" + (i + 1)).off('click');
-                    
-                        // 選択肢をクリックしたときの処理
-                        $("#meaning" + (i + 1)).click(function() {
-                            if (answers[i] == question["detail"]) {
-                                correct_audio.play();
-                                $("#explain").html("正解！");
-                            } else {
-                                incorrect_audio.play();
-                                wrong_list.push(question);
-                                $("#explain").html("不正解！ 正解は「" + question["detail"] + "」です。");
-                            }
-                            quiz();
-                        });
+                // どの時代の出来事を出題するかを取得
+                let era = [];
+                $(".era").each(function() {
+                    if ($(this).prop("checked")) {
+                        era.push($(this).attr("name"));
                     }
                 });
+
+                // 出題する問題を絞り込む
+                data = data.filter(function(item) {
+                    return era.includes(item["era"]);
+                });
+
+                // 出題する問題をランダムに選ぶ
+                const question = data[Math.floor(Math.random() * data.length)];
+
+                // 出題する問題の年と出来事を表示
+                $("#question").html(
+                    "<p>「" + question["event"] + "」の説明として適切なもの</p>"
+                );
+
+                // 出題する問題の正解と不正解をランダムに並べ替える
+                let answers = [question["detail"]];
+
+                // 不正解(他の出来事名)を追加
+                for (let i = 0; i < 3; i++) {
+                    let tmp = data[Math.floor(Math.random() * data.length)]["detail"];
+                    while (tmp == question["detail"]) {
+                        tmp = data[Math.floor(Math.random() * data.length)]["detail"];
+                    }
+                    answers.push(tmp);
+                }
+
+                // 正解と不正解をシャッフル
+                answers.sort(function() {
+                    return Math.random() - Math.random();
+                });
+                
+                // 四択形式で選択肢を表示
+                for (let i = 0; i < 4; i++) {
+                    $("#meaning" + (i + 1)).html(answers[i]);
+                    $("#meaning" + (i + 1)).off('click');
+                    
+                    // 選択肢をクリックしたときの処理
+                    $("#meaning" + (i + 1)).click(function() {
+                        if (answers[i] == question["detail"]) {
+                            correct_audio.play();
+                            $("#explain").html("正解！");
+                        } else {
+                            incorrect_audio.play();
+                            wrong_list.push(question);
+                            $("#explain").html("不正解！ 正解は「" + question["detail"] + "」です。");
+                        }
+                        quiz();
+                    });
+                }
             }
 
             // プログラムを開始する関数
