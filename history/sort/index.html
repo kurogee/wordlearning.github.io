@@ -255,6 +255,12 @@
                 $("#meaning3").append("<p>" + questions[2]["detail"] + "</p>");
                 $("#meaning4").append("<p>" + questions[3]["detail"] + "</p>");
 
+                // 色を戻す
+                $("#meaning1").css("background-color", "red");
+                $("#meaning2").css("background-color", "blue");
+                $("#meaning3").css("background-color", "green");
+                $("#meaning4").css("background-color", "orange");
+
                 // dataに現在の順番を追加
                 let answer_event = answer.map(function(item) {
                     return item["event"];
