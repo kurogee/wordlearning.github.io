@@ -274,6 +274,42 @@
             // プログラムを開始する関数
             function start_program() {
                 quiz();
+
+                if (localStorage.getItem("favorite_selection") == null) {
+                    // 今のチェックボックスの状態を取得
+                    // .eraがチェックされているかを1か0で表す
+                    let favorite_selection = $(".era").map(function() {
+                        return $(this).prop("checked") ? 1 : 0;
+                    }).get();
+
+                    console.log(favorite_selection);
+
+                    // ローカルストレージに保存
+                    localStorage.setItem("favorite_selection", favorite_selection.join(""));
+                } else {
+                    // ローカルストレージから取得
+                    let favorite_selection = localStorage.getItem("favorite_selection");
+                    let checkbox_disabled = $(".era").map(function() {
+                        return $(this).prop("disabled") ? 1 : 0;
+                    }).get();
+
+                    console.log(favorite_selection);
+
+                    // チェックボックスの状態を復元
+                    for (let i = 0; i < favorite_selection.length; i++) {
+                        if (favorite_selection[i] == "1") {
+                            if (checkbox_disabled[i] == "0") {
+                                $(".era").eq(i).prop("checked", true);
+                            }
+                        } else {
+                            if (checkbox_disabled[i] == "0") {
+                                $(".era").eq(i).prop("checked", false);
+                            }
+                        }
+                    }
+
+                    quiz();
+                }
             }
 
             window.addEventListener("load", start_program);
@@ -281,7 +317,18 @@
             // もしcheckboxが変更されたら、クイズを更新する
             $(".era").change(function() {
                 quiz();
+
+                // チェックボックスの状態を保存
+                let favorite_selection = $(".era").map(function() {
+                    return $(this).prop("checked") ? 1 : 0;
+                }).get();
+
+                console.log(favorite_selection);
+
+                localStorage.setItem("favorite_selection", favorite_selection.join(""));
             });
+
+
         </script>
     </body>
 </html>
