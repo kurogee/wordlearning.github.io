@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>出来事並べ替えクイズ</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="../favicon.png" type="image/png">
+        <link rel="stylesheet" href="../pagestyle.css">
+        <style>
+            #meaning1 {
+                background-color: red;
+            }
+
+            #meaning2 {
+                background-color: blue;
+            }
+
+            #meaning3 {
+                background-color: green;
+            }
+
+            #meaning4 {
+                background-color: orange;
+            }
+
+            #meaning1,
+            #meaning2,
+            #meaning3,
+            #meaning4 {
+                width: 90%;
+                height: calc(60vh / 4 - 23px);
+                font-size: 30px;
+                border-radius: 30px 0 0 30px;
+                color: white;
+                overflow: auto;
+
+                /* 横を隣のボタンと揃える */
+                vertical-align: top;
+            }
+
+            /* meaning1〜4のスクロールバーを丸みのあるものにする */
+            #meaning1::-webkit-scrollbar,
+            #meaning2::-webkit-scrollbar,
+            #meaning3::-webkit-scrollbar,
+            #meaning4::-webkit-scrollbar {
+                width: 20px;
+            }
+
+            #meaning1::-webkit-scrollbar-thumb,
+            #meaning2::-webkit-scrollbar-thumb,
+            #meaning3::-webkit-scrollbar-thumb,
+            #meaning4::-webkit-scrollbar-thumb {
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 10px;
+            }
+
+            #meaning1::-webkit-scrollbar-track,
+            #meaning2::-webkit-scrollbar-track,
+            #meaning3::-webkit-scrollbar-track,
+            #meaning4::-webkit-scrollbar-track {
+                background-color: rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+            }
+        </style>
+        <script src="../jquery-3.7.1.min.js"></script>
+        <script src="../../jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="../../jquery-ui.css">
+    </head>
+    <body>
+        <div id="box">
+            <h2>出来事並べ替えクイズ</h2>
+            <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a><br>
+            <p>
+                ひたすら歴史上の出来事を並べ替えるクイズです。<br>
+            </p>
+        </div>
+        <br>
+        <div id="box">
+            <br>
+            <div id="box">
+                <!-- どの歴史区分から問題を出すかcheckboxで選択する -->
+                <p>問題に表示する時代</p>
+                <table>
+                    <tr>
+                        <td><label>飛鳥時代: <input type="checkbox" name="飛鳥時代" class="era" checked></label></td>
+                        <td><label>奈良時代: <input type="checkbox" name="奈良時代" class="era" checked></label></td>
+                        <td><label>平安時代: <input type="checkbox" name="平安時代" class="era" checked></label></td>
+                    </tr>
+                    <tr>
+                        <td><label>鎌倉時代: <input type="checkbox" name="鎌倉時代" class="era" checked></label></td>
+                        <td><label>室町時代: <input type="checkbox" name="室町時代" class="era" checked></label></td>
+                        <td><label>安土桃山時代: <input type="checkbox" name="安土桃山時代" class="era" checked></label></td>
+                    </tr>
+                    <tr>
+                        <td><label>江戸時代: <input type="checkbox" name="江戸時代" class="era" checked></label></td>
+                        <td><label>明治時代: <input type="checkbox" name="明治時代" class="era" checked></label></td>
+                        <td><label>大正時代: <input type="checkbox" name="大正時代" class="era" checked></label></td>
+                    </tr>
+                    <tr>
+                        <td><label>昭和時代: <input type="checkbox" name="昭和時代" class="era" checked></label></td>
+                        <td><label>平成時代: <input type="checkbox" name="平成時代" class="era" disabled></label></td>
+                        <td><label>令和時代: <input type="checkbox" name="令和時代" class="era" disabled></label></td>
+                    </tr>
+                </table>
+                <small>便宜上、建武の新政・南北朝時代は室町時代に含めています。</small>
+                <small>また、戦国時代は室町時代・安土桃山時代に含めています。</small>
+            </div>
+            
+            <h2 id="question" class="box"></h2>
+            <div id="meanings">
+                <p>
+                    <div data="1" id="meaning1"></div>
+                </p>
+                <p>
+                    <div data="2" id="meaning2"></div>
+                </p>
+                <p>
+                    <div data="3" id="meaning3"></div>
+                </p>
+                <p>
+                    <div data="4" id="meaning4"></div>
+                </p>
+            </div>
+            <button class="button">
+                決定
+            </button><br>
+            <h3 id="explain"></h3>
+        </div>
+
+        <script>
+            // 音源を準備する
+            const correct_audio = new Audio("../sounds/correct.mp3");
+            const incorrect_audio = new Audio("../sounds/incorrect.mp3");
+
+            let wrong_list = [];
+            let already_asked = [];
+
+            // クイズを出す関数
+            // クイズは、../model/histories.jsonから取得する
+            /*
+                JSONの形式
+                [
+                    {
+                        "year" : "年",
+                        "event" : "出来事(回答)",
+                        "detail" : "詳細"
+                    }, ...
+                ]
+
+                時代の古い順に並べ替える問題を出す
+                ユーザがやめるまでずっと出題し続ける
+            */
+            function findMatchingIndexes(searchString, array) {
+                // 結果を格納する配列
+                let resultIndexes = new Set();
+
+                // 検索文字列の各文字についてループ
+                for (let char of searchString) {
+                    // 配列の各要素についてループ
+                    array.forEach((item, index) => {
+                        item = item["event"];
+                        // 文字が現在のアイテムに含まれている場合
+                        if (item.includes(char)) {
+                            // インデックスを結果に追加
+                            resultIndexes.add(index);
+                        }
+                    });
+                }
+            
+                // Setを配列に変換して返す
+                return Array.from(resultIndexes);
+            }
+
+            const quizJson = $.getJSON("../model/histories.json", function(data) {
+                return data;
+            });
+            
+            function quiz() {
+                // クイズの問題を取得
+                let data = quizJson.responseJSON;
+                // 問題に表示する時代を取得
+                let eras = [];
+                $(".era").each(function() {
+                    if ($(this).prop("checked")) {
+                        eras.push($(this).attr("name"));
+                    }
+                });
+
+                // ボタンの文字を「決定」に変更
+                $(".button").text("決定");
+
+
+                // 問題に表示する時代の出来事だけを取得
+                data = data.filter(function(item) {
+                    return eras.includes(item["era"]);
+                });
+
+                // 〜世紀を含む出来事を取り除く
+                data = data.filter(function(item) {
+                    return item["century"] == "";
+                });
+
+                // 並べ替える問題を出す
+                let question = [data[Math.floor(Math.random() * data.length)]];
+
+                // questionと配列の距離が近いものを取得
+                let data_for_questions;
+                do {
+                    data_for_questions = data.filter(function(item) {
+                        // questionとの距離が近いものを取得
+                        return Math.abs(parseInt(data.indexOf(item)) - parseInt(data.indexOf(question[0]))) < 8;
+                    });
+                } while (data_for_questions.length < 4);
+
+                let mem;
+                while (question.length < 4) {
+                    mem = data_for_questions[Math.floor(Math.random() * data_for_questions.length)];
+                    if (question.indexOf(mem) == -1) {
+                        // 年がどれともかぶらない
+                        if (question.map(function(item) {
+                            return item["year"];
+                        }).indexOf(mem["year"]) == -1) {
+                            question.push(mem);
+                        }
+                    }
+                }
+
+                console.log(question);
+
+                let questions = question;
+
+                // 順番をシャッフル
+                questions = questions.sort(function() {
+                    return Math.random() - 0.5;
+                });
+
+                // questions年順に並べ替えてそれを回答とする
+                // questionsをディープコピー
+                let questions_for_sort = JSON.parse(JSON.stringify(questions));
+                const answer = questions_for_sort.sort(function(a, b) {
+                    return parseInt(a["year"]) - parseInt(b["year"]);
+                });
+
+                // 出題する問題を表示
+                $("#question").text("上から古い順に並べ替えなさい");
+                $("#meaning1").text(questions[0]["event"]);
+                $("#meaning2").text(questions[1]["event"]);
+                $("#meaning3").text(questions[2]["event"]);
+                $("#meaning4").text(questions[3]["event"]);
+
+                // smallで説明を追加
+                $("#meaning1").append("<p>" + questions[0]["detail"] + "</p>");
+                $("#meaning2").append("<p>" + questions[1]["detail"] + "</p>");
+                $("#meaning3").append("<p>" + questions[2]["detail"] + "</p>");
+                $("#meaning4").append("<p>" + questions[3]["detail"] + "</p>");
+
+                // dataに現在の順番を追加
+                let answer_event = answer.map(function(item) {
+                    return item["event"];
+                });
+                console.log(answer_event);
+                console.log(questions[0]["event"], questions[1]["event"], questions[2]["event"], questions[3]["event"]);
+
+                $("#meaning1").attr("data", answer_event.indexOf(questions[0]["event"]) + 1);
+                $("#meaning2").attr("data", answer_event.indexOf(questions[1]["event"]) + 1);
+                $("#meaning3").attr("data", answer_event.indexOf(questions[2]["event"]) + 1);
+                $("#meaning4").attr("data", answer_event.indexOf(questions[3]["event"]) + 1);
+
+                // ドラッグしてユーザーが並べ替えられるようにする
+                $("#meanings div").draggable({
+                    revert: "invalid",
+                    cursor: "move"
+                });
+
+                // ドロップして並べ替えられるようにする
+                $("#meanings div").droppable({
+                    drop: function(event, ui) {
+                        // ドロップされた要素を取得
+                        const $dragged = ui.draggable;
+                        // ドロップ先の要素を取得
+                        const $dropped = $(this);
+                    
+                        // ドロップ先の要素のdata属性を取得
+                        const droppedData = $dropped.attr("data");
+                        // ドロップされた要素のdata属性を取得
+                        const draggedData = $dragged.attr("data");
+                    
+                        // ドロップ先の要素の内容を取得
+                        const droppedContent = $dropped.html();
+                        // ドロップされた要素の内容を取得
+                        const draggedContent = $dragged.html();
+                    
+                        // ドロップ先の要素にドロップされた要素の内容を設定
+                        $dropped.html(draggedContent);
+                        $dropped.attr("data", draggedData);
+                    
+                        // ドロップされた要素にドロップ先の要素の内容を設定
+                        $dragged.html(droppedContent);
+                        $dragged.attr("data", droppedData);
+
+                        // 色を交換する
+                        const draggedColor = $dragged.css("background-color");
+                        const droppedColor = $dropped.css("background-color");
+
+                        $dragged.css("background-color", droppedColor);
+                        $dropped.css("background-color", draggedColor);
+                        
+                        // 位置を戻す
+                        $dragged.css("top", 0);
+                        $dragged.css("left", 0);
+                    }
+                });
+
+                // 決定ボタンを押したら答え合わせをする
+                $(".button").off("click");
+                $(".button").click(function() {
+                    // 回答を取得
+                    const answer1 = parseInt($("#meaning1").attr("data")) - 1;
+                    const answer2 = parseInt($("#meaning2").attr("data")) - 1;
+                    const answer3 = parseInt($("#meaning3").attr("data")) - 1;
+                    const answer4 = parseInt($("#meaning4").attr("data")) - 1;
+
+                    // 正解を取得
+                    const correct1 = answer[0]["event"] + " (" + answer[0]["year"] + "年)";
+                    const correct2 = answer[1]["event"] + " (" + answer[1]["year"] + "年)";
+                    const correct3 = answer[2]["event"] + " (" + answer[2]["year"] + "年)";
+                    const correct4 = answer[3]["event"] + " (" + answer[3]["year"] + "年)";
+
+                    // 回答を取得
+                    const userAnswers = [
+                        { event: answer[answer1]["event"], order: answer1 },
+                        { event: answer[answer2]["event"], order: answer2 },
+                        { event: answer[answer3]["event"], order: answer3 },
+                        { event: answer[answer4]["event"], order: answer4 },
+                    ];
+
+                    // 正解を取得
+                    const correctAnswers = [
+                        { event: answer[0]["event"], order: 0 },
+                        { event: answer[1]["event"], order: 1 },
+                        { event: answer[2]["event"], order: 2 },
+                        { event: answer[3]["event"], order: 3 },
+                    ];
+
+                    console.log(userAnswers, correctAnswers);
+                    
+                    // 答えが正しいかどうかを判定
+                    let isCorrect = true;
+                    for (let i = 0; i < correctAnswers.length; i++) {
+                        if (userAnswers[i].event !== correctAnswers[i].event) {
+                            isCorrect = false;
+                            break;
+                        }
+                    }
+
+                    if (isCorrect) {
+                        // 正解の音を鳴らす
+                        correct_audio.play();
+                        $("#explain").html("正解です！正解の順番・年は<br>" + correct1 + "<br>→" + correct2 + "<br>→" + correct3 + "<br>→" + correct4 + "です。");
+                    } else {
+                        // 不正解の音を鳴らす
+                        incorrect_audio.play();
+                        $("#explain").html("不正解です。正解の順番・年は<br>" + correct1 + "<br>→" + correct2 + "<br>→" + correct3 + "<br>→" + correct4 + "です。");
+                    }
+
+                    // すべての要素をドラッグ不可にする
+                    $("#meanings div").draggable("disable");
+
+                    // 決定ボタンを一時的に「次の問題へ進む」ボタンに変更し、クリックしたら次の問題を出す
+                    $(".button").text("次の問題へ進む");
+                    $(".button").off("click");
+                    $(".button").click(function() {
+                        // ドラッグ可能にする
+                        $("#meanings div").draggable("enable");
+                        // explainを空にする
+                        $("#explain").text(" - ");
+                        quiz();
+                    });
+                });
+            }
+
+            // プログラムを開始する関数
+            function start_program() {
+                quiz();
+            }
+
+            window.addEventListener("load", start_program);
+
+            // もしcheckboxが変更されたら、クイズを更新する
+            $(".era").change(function() {
+                quiz();
+            });
+        </script>
+    </body>
+</html>
