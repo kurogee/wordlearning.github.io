@@ -27,7 +27,7 @@
         <br>
         <div id="box">
             <br>
-            <input type="text" id="enter_text" class="textbox">
+            <textarea type="text" id="enter_text" class="textbox"></textarea>
             <table>
                 <tr>
                     <td><button onclick="add_formula('\\sqrt{}')">平方根</button></td>
@@ -60,18 +60,35 @@
                     <td><button onclick="add_formula('\\cot')">cot</button></td>
                 </tr>
             </table>
-            <br>
-            <small>Enterキーで送信</small>
+            <p>
+                <label>テキスト入力上の改行を実際に改行として反映する: <input type="checkbox" id="newline_check"></label>
+            </p>
+            <small>Enterキーで送信・Shift+Enterで改行</small>
             <br>
         </div>
 
         <script>
             function add_formula(formula){
-                $("#enter_text").val($("#enter_text").val() + formula + "");
-                $("#enter_text").focus();
+                // 今選択していたテキストエリアの位置を取得
+                const textarea = document.getElementById("enter_text");
+
+                const cursor_position = textarea.selectionStart;
+                const text = textarea.value;
+                const text_before = text.substring(0, cursor_position);
+                const text_after = text.substring(cursor_position, text.length);
+                const new_text = text_before + formula + text_after;
+                textarea.value = new_text;
+
+                // フォーカスをテキストエリアの選択されていた位置に移動
+                textarea.focus();
+                textarea.setSelectionRange(cursor_position + formula.length, cursor_position + formula.length);
             }
 
             function set_formula(formula){
+                if ($("#newline_check").prop("checked")){
+                    formula = "\\\\" + formula.replace(/\n/g, "\\\\");
+                }
+
                 let url = "https://latex.codecogs.com/png.latex?" + "\\Large " + formula;
                 let img = new Image();
                 img.src = url;
@@ -82,13 +99,36 @@
 
             document.addEventListener("DOMContentLoaded", function() {
                 $("#enter_text").keypress(function(e){
-                    if(e.which == 13){
+                    if (e.which == 13 && !e.shiftKey){
                         let text = document.getElementById("enter_text").value;
                         set_formula(text);
+                        e.preventDefault();
                     }
                 });
                 $("#enter_text").focus();
             });
         </script>
+
+        <style>
+            #enter_text {
+                height: 5em;
+            }
+
+            /* enter_textには常に太いスクロールバーを表示 */
+            #enter_text::-webkit-scrollbar {
+                width: 12px;
+            }
+
+            #enter_text::-webkit-scrollbar-thumb {
+                background-color: #888;
+                border-radius: 10px;
+            }
+
+            #enter_text::-webkit-scrollbar-track {
+                background-color: #fff;
+            }
+
+
+        </style>
     </body>
 </html>
