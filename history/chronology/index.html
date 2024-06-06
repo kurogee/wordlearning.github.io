@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>歴史年表</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="shortcut icon" href="../favicon.png" type="image/png">
+        <link rel="stylesheet" href="../pagestyle.css">
+        <script src="../jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <div id="box">
+            <h2>歴史年表</h2>
+            <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a>
+            <p>
+                歴史年表を表示します。
+            </p>
+        </div>
+        <hr>
+        <div id="box" class="chronology_parent">
+            <br>
+            <div class="chronology"></div>
+            <br>
+        </div>
+
+        <style>
+            .chronology {
+                overflow-x: auto;
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+
+                height: 70vh;
+            }
+
+            .chronology * {
+                text-align: start;
+            }
+
+            .chronology table tr td:nth-child(1) {
+                height: 20%;
+            }
+
+            .chronology table tr td:nth-child(2) {
+                height: 20%;
+            }
+
+            .chronology table tr td:nth-child(3) {
+                height: 60%;
+            }
+
+            .chronology_parent {
+                overflow-x: scroll;
+            }
+
+            .chronology_parent::-webkit-scrollbar {
+                width: 30px;
+            }
+
+            .chronology_parent::-webkit-scrollbar-thumb {
+                background-color: #888;
+            }
+
+            .chronology_parent::-webkit-scrollbar-track {
+                background-color: #ddd;
+            }
+
+            .asuka {
+                background-color: #ff6b6b;
+            }
+
+            .nara {
+                background-color: #ff9354;
+            }
+
+            .heian {
+                background-color: #fffa5f;
+            }
+
+            .kamakura {
+                background-color: #87ff50;
+            }
+
+            .muromachi {
+                background-color: #68ff8e;
+            }
+
+            .azuchi {
+                background-color: #5cffe9;
+            }
+
+            .edo {
+                background-color: #4bb7ff;
+            }
+
+            .meiji {
+                background-color: #5f5cff;
+            }
+
+            .taisho {
+                background-color: #d058ff;
+            }
+
+            .showa {
+                background-color: #ff68b4;
+            }
+
+            .heisei {
+                background-color: #ff526f;
+            }
+
+            .reiwa {
+                background-color: #ff3e3e;
+            }
+
+            b {
+                font-weight: bold;
+                font-size: 1.5em;
+            }
+        </style>
+
+        <script>
+            // 音源を準備する
+            const correct_audio = new Audio("../../sounds/correct.mp3");
+            const incorrect_audio = new Audio("../../sounds/incorrect.mp3");
+            const start_question_audio = new Audio("../../sounds/question.mp3");
+
+            let wrong_list = [];
+            let already_asked = [];
+
+            // クイズを出す関数
+            // クイズは、../model/histories.jsonから取得する
+            /*
+                JSONの形式
+                [
+                    {
+                        "year" : "年",
+                        "event" : "出来事(回答)",
+                        "detail" : "詳細"
+                    }, ...
+                ]
+            */
+            
+            function show_chronology() {
+                const era = {
+                    "飛鳥時代" : "asuka",
+                    "奈良時代" : "nara",
+                    "平安時代" : "heian",
+                    "鎌倉時代" : "kamakura",
+                    "室町時代" : "muromachi",
+                    "安土桃山時代" : "azuchi",
+                    "江戸時代" : "edo",
+                    "明治時代" : "meiji",
+                    "大正時代" : "taisho",
+                    "昭和時代" : "showa",
+                    "平成時代" : "heisei",
+                    "令和時代" : "reiwa"
+                };
+                let edited_detail = "";
+
+                $.getJSON("../model/histories.json", function(data) {
+                    // dataを逆順にする
+                    data.reverse();
+
+                    // 横方向のテーブルを作成し、そこに年表を表示する
+                    let table_html = "<table id='box'>";
+                    for (let i = 0; i < data.length; i++) {
+                        table_html += `<tr class="${era[data[i].era]}">`;
+                        table_html += "<td>" + data[i].year + (data[i].century != "" ? data[i].century : "年") + "</td>";
+                        table_html += "<td>" + data[i].event + "</td>";
+
+                        edited_detail = data[i].detail;
+                        let regex = new RegExp(data[i].detail_wakati.join("|"), "g");
+                        edited_detail = edited_detail.replace(regex, function(matched){
+                          return "<b>" + matched + "</b>";
+                        });
+                        table_html += "<td>" + edited_detail + "</td>";
+                        table_html += "</tr>";
+                    }
+                    table_html += "</table>";
+                    $(".chronology").html(table_html);
+                });
+
+            }
+
+            document.addEventListener("DOMContentLoaded", function() {
+                show_chronology();
+            });
+
+        </script>
+    </body>
+</html>
