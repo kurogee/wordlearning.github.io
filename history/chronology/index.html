@@ -29,7 +29,6 @@
                 overflow-x: auto;
                 writing-mode: vertical-rl;
                 text-orientation: upright;
-
                 height: 80vh;
             }
 
@@ -141,36 +140,71 @@
                 ]
             */
             
+            const era = {
+                "飛鳥時代" : "asuka",
+                "奈良時代" : "nara",
+                "平安時代" : "heian",
+                "鎌倉時代" : "kamakura",
+                "室町時代" : "muromachi",
+                "安土桃山時代" : "azuchi",
+                "江戸時代" : "edo",
+                "明治時代" : "meiji",
+                "大正時代" : "taisho",
+                "昭和時代" : "showa",
+                "平成時代" : "heisei",
+                "令和時代" : "reiwa"
+            };
+
             function show_chronology() {
-                const era = {
-                    "飛鳥時代" : "asuka",
-                    "奈良時代" : "nara",
-                    "平安時代" : "heian",
-                    "鎌倉時代" : "kamakura",
-                    "室町時代" : "muromachi",
-                    "安土桃山時代" : "azuchi",
-                    "江戸時代" : "edo",
-                    "明治時代" : "meiji",
-                    "大正時代" : "taisho",
-                    "昭和時代" : "showa",
-                    "平成時代" : "heisei",
-                    "令和時代" : "reiwa"
-                };
                 let edited_detail = "";
 
                 $.getJSON("../model/histories.json", function(data) {
-                    // dataを逆順にする
-                    data.reverse();
+                    let copydata = data.slice();
+
+                    copydata = copydata.map(function(item) {
+                        let year = item.year;
+                        let century = item.century;
+                        let re_year = "";
+
+                        if (century == "") {
+                            // re_yearを新たに作成
+                            re_year = parseInt(year);
+                        } else {
+                            // 〇〇世紀の場合は、大体の西暦に戻す
+                            if (century.includes("前半")) {
+                                re_year = parseInt(year) * 100 - 100;
+                            } else if (century.includes("後半")) {
+                                re_year = parseInt(year) * 100;
+                            } else if (century.includes("半ば")) {
+                                re_year = parseInt(year) * 100 - 50;
+                            } else {
+                                re_year = parseInt(year) * 100 - 100;
+                            }
+                            // re_year = parseInt(year) * 100 - 100;
+                        }
+
+                        // re_yearを追加
+                        item.re_year = re_year;
+
+                        return item;
+                    });
+
+                    console.log(copydata);
+
+                    // copydataをre_yearでソートする
+                    copydata.sort(function(a, b) {
+                        return b.re_year - a.re_year;
+                    });
 
                     // 横方向のテーブルを作成し、そこに年表を表示する
                     let table_html = "<table id='box'>";
-                    for (let i = 0; i < data.length; i++) {
-                        table_html += `<tr class="${era[data[i].era]}">`;
-                        table_html += "<td>" + data[i].year + (data[i].century != "" ? data[i].century : "年") + "</td>";
-                        table_html += "<td>" + data[i].event + "</td>";
+                    for (let i = 0; i < copydata.length; i++) {
+                        table_html += `<tr class="${era[copydata[i].era]}">`;
+                        table_html += "<td>" + copydata[i].year + (copydata[i].century != "" ? copydata[i].century : "年") + "</td>";
+                        table_html += "<td>" + copydata[i].event + "</td>";
 
-                        edited_detail = data[i].detail;
-                        let regex = new RegExp(data[i].detail_wakati.join("|"), "g");
+                        edited_detail = copydata[i].detail;
+                        let regex = new RegExp(copydata[i].detail_wakati.join("|"), "g");
                         edited_detail = edited_detail.replace(regex, function(matched){
                           return "<b>" + matched + "</b>";
                         });
@@ -178,6 +212,7 @@
                         table_html += "</tr>";
                     }
                     table_html += "</table>";
+
                     $(".chronology").html(table_html);
                 });
 
@@ -186,7 +221,6 @@
             document.addEventListener("DOMContentLoaded", function() {
                 show_chronology();
             });
-
         </script>
     </body>
 </html>

@@ -255,7 +255,8 @@
                     let nouns_tmp;
                     do {
                         nouns_tmp = [question_tmp[Math.floor(Math.random() * question_tmp.length)], question_tmp[Math.floor(Math.random() * question_tmp.length)]];
-                    } while (nouns_tmp[0] == nouns_tmp[1] || arrayContainsArray(answers, nouns_tmp));
+                    } while (nouns_tmp[0] == nouns_tmp[1] && !arrayContainsArray(answers, nouns_tmp));
+
                     answers.push(nouns_tmp);
                 }
 
