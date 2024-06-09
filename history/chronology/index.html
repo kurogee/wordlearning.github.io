@@ -29,7 +29,7 @@
                 overflow-x: auto;
                 writing-mode: vertical-rl;
                 text-orientation: upright;
-                height: 80vh;
+                height: 90vh;
             }
 
             .chronology * {
@@ -37,7 +37,9 @@
             }
 
             .chronology table tr td:nth-child(1) {
-                height: 20%;
+                height: 1.2em;
+                writing-mode: horizontal-tb;
+                text-orientation: sideways;
             }
 
             .chronology table tr td:nth-child(2) {
@@ -45,6 +47,10 @@
             }
 
             .chronology table tr td:nth-child(3) {
+                height: 20%;
+            }
+
+            .chronology table tr td:nth-child(4) {
                 height: 60%;
             }
 
@@ -62,6 +68,11 @@
 
             .chronology_parent::-webkit-scrollbar-track {
                 background-color: #ddd;
+            }
+
+            /* trにclassがない場合は、灰色の背景色を付ける */
+            .none {
+                background-color: lightgray;
             }
 
             .asuka {
@@ -155,6 +166,16 @@
                 "令和時代" : "reiwa"
             };
 
+            function array_count(array, value) {
+                let count = 0;
+                for (let i = 0; i < array.length; i++) {
+                    if (array[i] == value) {
+                        count++;
+                    }
+                }
+                return count;
+            }
+
             function show_chronology() {
                 let edited_detail = "";
 
@@ -196,13 +217,34 @@
                         return b.re_year - a.re_year;
                     });
 
+                    const copydata_era_pickup = copydata.map(function(item) {
+                        return item.era;
+                    });
+
                     // 横方向のテーブルを作成し、そこに年表を表示する
-                    let table_html = "<table id='box'>";
+                    
+                    let table_html = "";
+                    let before_era = "";
                     for (let i = 0; i < copydata.length; i++) {
-                        table_html += `<tr class="${era[copydata[i].era]}">`;
+                        console.log(copydata[i].event);
+                        if (before_era != copydata[i].era) {
+                            if (before_era != "") {
+                                table_html += "</table>";
+                            }
+                            table_html += "<table>";
+                            let era_count = array_count(copydata_era_pickup, copydata[i].era);
+                            console.log(era_count);
+                            
+                            table_html += `<tr class="${era[copydata[i].era]}">`;
+                            table_html += `<td rowspan="${era_count}">` + copydata[i].era + "</td>";
+                            before_era = copydata[i].era;
+                        } else {
+                            table_html += "<tr class='none'>";
+                        }
+
                         table_html += "<td>" + copydata[i].year + (copydata[i].century != "" ? copydata[i].century : "年") + "</td>";
                         table_html += "<td>" + copydata[i].event + "</td>";
-
+                    
                         edited_detail = copydata[i].detail;
                         let regex = new RegExp(copydata[i].detail_wakati.join("|"), "g");
                         edited_detail = edited_detail.replace(regex, function(matched){
@@ -211,7 +253,10 @@
                         table_html += "<td>" + edited_detail + "</td>";
                         table_html += "</tr>";
                     }
-                    table_html += "</table>";
+
+                    if (before_era != "") {
+                        table_html += "</table>";
+                    }
 
                     $(".chronology").html(table_html);
                 });
