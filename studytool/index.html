@@ -27,6 +27,11 @@
                 font-weight: bold;
                 text-align: center;
             }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
         </style>
     </head>
     <body>
@@ -61,7 +66,7 @@
                 シンプルなタイマーです。勉強時間を計測することができます。
             </p>
             <div class="timer"></div>
-            勉強時間: <input type="number" class="textbox_mini" name="study_time_hour" value="0" min="0" max="24">時間 <input type="number" class="textbox_mini" name="study_time_minute" value="0" min="0" max="59">分 <input type="number" class="textbox_mini" name="study_time_second" value="0" min="0" max="59">秒<br>
+            <input type="number" class="textbox_mini" name="study_time_hour" value="0" min="0" max="24">時間 <input type="number" class="textbox_mini" name="study_time_minute" value="0" min="0" max="59">分 <input type="number" class="textbox_mini" name="study_time_second" value="0" min="0" max="59">秒<br>
             <button onclick="timer('start');" class="button">スタート</button>
             <button onclick="timer('stop');" class="button" id="stop_or_restart_button">ストップ</button>
             <button onclick="timer('cancel');" class="button">中止</button>
@@ -174,7 +179,7 @@
             }
 
             // エビングハウスの忘却曲線を用いた記憶量計測 (％形式)
-            function measure_memory() {
+            function measure_memory(date = new Date()) {
                 const studied_list = JSON.parse(localStorage.getItem("studied_list"));
                 if (studied_list === null) {
                     return;
@@ -183,7 +188,7 @@
                 // すべて計算する
                 let memory = [];
                 for (let i = 0; i < studied_list.length; i++) {
-                    const now = new Date();
+                    const now = date;
                     const diff = now - new Date(studied_list[i][1]);
                     const diff_day = diff / (1000 * 60 * 60 * 24);
                     const memory_rate = Math.pow(2, -diff_day / 1.0);
@@ -194,9 +199,9 @@
             }
 
             // 復習をしたときの忘却曲線の再計算
-            function review_studied(index) {
+            function review_studied(index, date = new Date()) {
                 const studied_list = JSON.parse(localStorage.getItem("studied_list"));
-                const now = new Date();
+                const now = date;
                 const diff = now - new Date(studied_list[index][1]);
                 const diff_day = diff / (1000 * 60 * 60 * 24);
                 const memory_rate = Math.pow(2, -diff_day / 1.0);
@@ -217,17 +222,42 @@
                     return;
                 }
 
+                // 見出しを追加
+                $("#studied_list").html(`
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>勉強内容</th>
+                                <th>記憶率</th>
+                                <th>勉強した日時</th>
+                                <th>リセット</th>
+                                <th>復習</th>
+                            </tr>
+                        </thead>
+                `);
+
                 const memory = measure_memory();
 
-                $("#studied_list").html("");
+                $("#studied_list").append(`<tbody>`);
+                
                 for (let i = 0; i < studied_list.length; i++) {
-                    $("#studied_list").append(`<tr><td>${studied_list[i][0]}</td></tr>`);
-                    $("#studied_list").find("tr").eq(i).append(`<td>${memory[i].toFixed(2)}%</td>`);
+                    $("#studied_list").append(`<tr>`);
+                    $("#studied_list").append(`<td>${studied_list[i][0]}</td>`);
+
+                    $("#studied_list").append(`<td>${memory[i].toFixed(2)}%</td>`);
+                    // memoryに入っているdateを日本時間に変換して表示
+                    $("#studied_list").append(`<td>${new Date(studied_list[i][1]).toLocaleString("ja-JP")}</td>`);
                     // リセットボタンを追加
-                    $("#studied_list").find("tr").eq(i).append(`<td><button onclick="reset_studied(${i});" class="button">リセット</button></td>`);
+                    $("#studied_list").append(`<td><button onclick="reset_studied(${i});" class="button">リセット</button></td>`);
                     // 復習したボタンを追加
-                    $("#studied_list").find("tr").eq(i).append(`<td><button onclick="review_studied(${i});" class="button">復習</button></td>`);
+                    $("#studied_list").append(`<td><button onclick="review_studied(${i});" class="button">復習</button></td>`);
+
+                    $("#studied_list").append(`</tr>`);
                 }
+
+                $("#studied_list").append(`</tbody>`);
+                $("#studied_list").append(`</table>`);
+
             }
 
             function reset_studied(index) {
