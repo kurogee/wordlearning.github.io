@@ -238,25 +238,25 @@
 
                 const memory = measure_memory();
 
-                $("#studied_list").append(`<tbody>`);
-                
+                let html = ""
                 for (let i = 0; i < studied_list.length; i++) {
-                    $("#studied_list").append(`<tr>`);
-                    $("#studied_list").append(`<td>${studied_list[i][0]}</td>`);
+                    html += `<tr>`;
+                    html += `<td>${studied_list[i][0]}</td>`
 
-                    $("#studied_list").append(`<td>${memory[i].toFixed(2)}%</td>`);
+                    html += `<td>${memory[i].toFixed(2)}%</td>`;
                     // memoryに入っているdateを日本時間に変換して表示
-                    $("#studied_list").append(`<td>${new Date(studied_list[i][1]).toLocaleString("ja-JP")}</td>`);
+                    html += `<td>${new Date(studied_list[i][1]).toLocaleString("ja-JP")}</td>`;
                     // リセットボタンを追加
-                    $("#studied_list").append(`<td><button onclick="reset_studied(${i});" class="button">リセット</button></td>`);
+                    html += `<td><button onclick="reset_studied(${i});" class="button">リセット</button></td>`;
                     // 復習したボタンを追加
-                    $("#studied_list").append(`<td><button onclick="review_studied(${i});" class="button">復習</button></td>`);
+                    html += `<td><button onclick="review_studied(${i});" class="button">復習</button></td>`;
 
-                    $("#studied_list").append(`</tr>`);
+                    html += `</tr>`;
                 }
 
-                $("#studied_list").append(`</tbody>`);
-                $("#studied_list").append(`</table>`);
+                html += `</table>`;
+
+                $("#studied_list").append(html);
 
             }
 
