@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>間に起こった出来事当てクイズ</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="../favicon.png" type="image/png">
+        <link rel="stylesheet" href="../pagestyle.css">
+        <style>
+            #meaning1 {
+                background-color: red;
+            }
+
+            #meaning2 {
+                background-color: blue;
+            }
+
+            #meaning3 {
+                background-color: green;
+            }
+
+            #meaning4 {
+                background-color: orange;
+            }
+
+            #meaning1,
+            #meaning2,
+            #meaning3,
+            #meaning4 {
+                width: 45%;
+                height: calc(80vh / 4 - 23px);
+                margin: 5px;
+                font-size: 30px;
+                border-radius: 30px 0 0 30px;
+                color: white;
+                overflow: auto;
+
+                /* 横を隣のボタンと揃える */
+                vertical-align: top;
+            }
+
+            /* meaning1〜4のスクロールバーを丸みのあるものにする */
+            #meaning1::-webkit-scrollbar,
+            #meaning2::-webkit-scrollbar,
+            #meaning3::-webkit-scrollbar,
+            #meaning4::-webkit-scrollbar {
+                width: 20px;
+            }
+
+            #meaning1::-webkit-scrollbar-thumb,
+            #meaning2::-webkit-scrollbar-thumb,
+            #meaning3::-webkit-scrollbar-thumb,
+            #meaning4::-webkit-scrollbar-thumb {
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 10px;
+            }
+
+            #meaning1::-webkit-scrollbar-track,
+            #meaning2::-webkit-scrollbar-track,
+            #meaning3::-webkit-scrollbar-track,
+            #meaning4::-webkit-scrollbar-track {
+                background-color: rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+            }
+        </style>
+        <script src="../jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <div id="box">
+            <h2>間に起こった出来事当てクイズ</h2>
+            <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a><br>
+            <p>
+                ひたすら歴史上の出来事を当てるクイズです。<br>
+            </p>
+        </div>
+        <br>
+        <div id="box">
+            <br>
+            <div id="box">
+                <!-- どの歴史区分から問題を出すかcheckboxで選択する -->
+                <p>問題に表示する時代</p>
+                <table>
+                    <tr>
+                        <td><label>鎌倉時代: <input type="checkbox" name="鎌倉時代" class="era" checked></label></td>
+                        <td><label>室町時代: <input type="checkbox" name="室町時代" class="era" checked></label></td>
+                        <td><label>安土桃山時代: <input type="checkbox" name="安土桃山時代" class="era" checked></label></td>
+                    </tr>
+                    <tr>
+                        <td><label>江戸時代: <input type="checkbox" name="江戸時代" class="era" checked></label></td>
+                        <td><label>明治時代: <input type="checkbox" name="明治時代" class="era" checked></label></td>
+                        <td><label>大正時代: <input type="checkbox" name="大正時代" class="era" checked></label></td>
+                    </tr>
+                    <tr>
+                        <td><label>昭和時代: <input type="checkbox" name="昭和時代" class="era" checked></label></td>
+                        <td><label>平成時代: <input type="checkbox" name="平成時代" class="era" checked></label></td>
+                        <td><label>令和時代: <input type="checkbox" name="令和時代" class="era"></label></td>
+                    </tr>
+                </table>
+                <small>便宜上、建武の新政・南北朝時代は室町時代に含めています。</small>
+                <small>また、戦国時代は室町時代・安土桃山時代に含めています。</small>
+            </div>
+            
+            <h2 id="before_history" class="box"></h2>
+            <h2 id="question" class="box"></h2>
+            <h2 id="after_history" class="box"></h2>
+
+            <div id="meanings">
+                <button data="1" class="button" id="meaning1"></button><span class="newline"></span>
+                <button data="2" class="button" id="meaning2"></button><br>
+                <button data="3" class="button" id="meaning3"></button><span class="newline"></span>
+                <button data="4" class="button" id="meaning4"></button><span class="newline"></span>
+            </div>
+            <h3 id="explain"></h3>
+
+            <label>出来事の起こった年を表示する：<input type="checkbox" id="show_year" checked></label>
+            <br>
+
+            <script>
+                // 画面サイズがスマホのとき、ボタンを縦並びにして改行を入れる
+                if (window.innerWidth < 600) {
+                    $(".button").css("width", "90%");
+                    $(".newline").html("<br>");
+                } else {
+                    $(".button").css("width", "45%");
+                    $(".newline").html("");
+                }
+
+                window.addEventListener("resize", function() {
+                    if (window.innerWidth < 600) {
+                        $(".button").css("width", "90%");
+                        $(".newline").html("<br>");
+                    } else {
+                        $(".button").css("width", "45%");
+                        $(".newline").html("");
+                    }
+                });
+            </script>
+        </div>
+
+        <script>
+            // 音源を準備する
+            const correct_audio = new Audio("../sounds/correct.mp3");
+            const incorrect_audio = new Audio("../sounds/incorrect.mp3");
+
+            let already_asked = [];
+
+            // クイズを出す関数
+            // クイズは、../model/histories.jsonから取得する
+            /*
+                JSONの形式
+                [
+                    {
+                        "year" : "年",
+                        "event" : "出来事(回答)",
+                        "detail" : "詳細"
+                    }, ...
+                ]
+
+                before_history: 出来事の前の出来事
+                question: ユーザーに当ててほしい出来事
+                after_history: 出来事の後の出来事
+                questionにbefore_historyとafter_historyの間にある出来事を入れて、選択肢で出題する
+            */
+            function findMatchingIndexes(searchString, array) {
+                // 結果を格納する配列
+                let resultIndexes = new Set();
+
+                // 検索文字列の各文字についてループ
+                for (let char of searchString) {
+                    // 配列の各要素についてループ
+                    array.forEach((item, index) => {
+                        item = item["event"];
+                        // 文字が現在のアイテムに含まれている場合
+                        if (item.includes(char)) {
+                            // インデックスを結果に追加
+                            resultIndexes.add(index);
+                        }
+                    });
+                }
+            
+                // Setを配列に変換して返す
+                return Array.from(resultIndexes);
+            }
+
+            const quizJson = $.getJSON("../model/histories.json", function(data) {
+                return data;
+            });
+            
+            function quiz() {
+                // イベントを削除
+                $(".button").off("click");
+
+                // クイズの問題を取得
+                let data = quizJson.responseJSON;
+                // 問題に表示する時代を取得
+                let eras = [];
+                $(".era").each(function() {
+                    if ($(this).prop("checked")) {
+                        eras.push($(this).attr("name"));
+                    }
+                });
+                console.log(eras);
+
+                // 問題に表示する時代の出来事だけを取得
+                data = data.filter(function(item) {
+                    return eras.includes(item["era"]) && item["century"] == "";
+                });
+
+                if (already_asked.length >= data.length) {
+                    already_asked = [];
+                }
+
+                // 出題する問題をランダムに選ぶ
+                let question = data[Math.floor(Math.random() * data.length)];
+                while (already_asked.includes(question["event"])) {
+                    question = data[Math.floor(Math.random() * data.length)];
+                }
+
+                let before_history = $("#before_history");
+                let after_history = $("#after_history");
+                let question_text = $("#question");
+
+                const question_event = question["event"];
+                const question_year = parseInt(question["year"]);
+
+                // before_history_eventsとafter_history_eventsのどちらにも["event"]が入るまで繰り返す
+                let before_history_events;
+                let after_history_events;
+                let count = 1;
+
+                while (true) {
+                    // 出題イベントの前数年以内の出来事を取得
+                    before_history_events = data.filter(function(item) {
+                        return question_year - parseInt(item["year"]) <= 5 * count && question_year - parseInt(item["year"]) > 0;
+                    });
+
+                    // 出題イベントの後数年以内の出来事を取得
+                    after_history_events = data.filter(function(item) {
+                        return parseInt(item["year"]) - question_year <= 5 * count && parseInt(item["year"]) - question_year > 0;
+                    });
+
+                    // ランダムに選ぶ
+                    before_history_events = before_history_events[Math.floor(Math.random() * before_history_events.length)];
+                    after_history_events = after_history_events[Math.floor(Math.random() * after_history_events.length)];
+
+                    count += 0.5;
+
+                    if (before_history_events != undefined && after_history_events != undefined)
+                        break;
+                }
+
+                // 出題イベントの選択肢を4つ作成
+                let answers = [question_event];
+                let wrong_answer_list;
+                count = 1;
+
+                while (true) {
+                    wrong_answer_list = data.filter(function(item) {
+                        return item["event"] != question_event
+                                && item["event"] != before_history_events["event"]
+                                && item["event"] != after_history_events["event"]
+                                && question_year - parseInt(item["year"]) <= 3 * count
+                                && parseInt(item["year"]) - question_year <= 3 * count
+                                && question_year - parseInt(item["year"]) > 0;
+                    });
+
+                    count += 0.2;
+
+                    if (wrong_answer_list.length >= 3) {
+                        break;
+                    }
+                }
+
+                // 不正解の選択肢を作成
+                for (let i = 0; i < 3; i++) {
+                    let wrong_answer;
+
+                    wrong_answer = wrong_answer_list[Math.floor(Math.random() * wrong_answer_list.length)]["event"];
+                    while (answers.includes(wrong_answer) || before_history_events["event"] == wrong_answer || after_history_events["event"] == wrong_answer) {
+                        wrong_answer = wrong_answer_list[Math.floor(Math.random() * wrong_answer_list.length)]["event"];
+                    }
+
+                    answers.push(wrong_answer);
+                }
+
+                // 選択肢をシャッフル
+                answers = answers.sort(function() {
+                    return Math.random() - 0.5;
+                });
+
+                // 出題イベントの問題を表示
+                if ($("#show_year").prop("checked")) {
+                    question_text.text("間に起こった" + String(question_year) + "年の出来事は何でしょう？");
+                } else {
+                    question_text.text("間に起こった出来事は何でしょう？");
+                }
+
+                before_history.text("前：" + before_history_events["event"] + "（" + String(question_year - parseInt(before_history_events["year"])) + "年前）");
+                before_history.append("<br>" + "<small>" + before_history_events["detail"] + "</small>");
+
+                after_history.text("後：" + after_history_events["event"] + "（" + String(parseInt(after_history_events["year"]) - question_year) + "年後）");
+                after_history.append("<br>" + "<small>" + after_history_events["detail"] + "</small>");
+
+                // 選択肢を表示
+                for (let i = 0; i < 4; i++) {
+                    $(".button[data=" + String(i + 1) + "]").text(answers[i]);
+                    // 下に説明を表示
+                    $(".button[data=" + String(i + 1) + "]").append("<br>" + "<small>" + data.find(item => item["event"] == answers[i])["detail"] + "</small>");
+
+                    console.log(String(i + 1) + " : " + answers[i]);
+
+                    // 選択肢をクリックしたときの処理
+                    $(".button[data=" + String(i + 1) + "]").click(function() {
+                        // this_textは最初のh3タグのテキスト
+                        let this_text = $(this).children("small").text();
+                        this_text = $(this).text().replace(this_text, "");
+                        console.log(this_text);
+
+                        if (this_text == question_event) {
+                            $("#explain").text("正解！");
+                            correct_audio.play();
+                        } else {
+                            $("#explain").text("不正解！正解は" + question_event + "です。");
+                            incorrect_audio.play();
+                        }
+                        quiz();
+                    });
+                }
+
+                // 出題済みの問題を記録
+                already_asked.push(question["event"]);
+
+            }
+
+            // プログラムを開始する関数
+            function start_program() {
+                quiz();
+
+                if (localStorage.getItem("favorite_selection") == null) {
+                    // 今のチェックボックスの状態を取得
+                    // .eraがチェックされているかを1か0で表す
+                    let favorite_selection = $(".era").map(function() {
+                        return $(this).prop("checked") ? 1 : 0;
+                    }).get();
+
+                    console.log(favorite_selection);
+
+                    // ローカルストレージに保存
+                    localStorage.setItem("favorite_selection", favorite_selection.join(""));
+                } else {
+                    // ローカルストレージから取得
+                    let favorite_selection = localStorage.getItem("favorite_selection");
+                    let checkbox_disabled = $(".era").map(function() {
+                        return $(this).prop("disabled") ? 1 : 0;
+                    }).get();
+
+                    console.log(favorite_selection);
+
+                    // チェックボックスの状態を復元
+                    for (let i = 0; i < favorite_selection.length; i++) {
+                        // 最初の3つは飛ばす
+                        if (i < 3) {
+                            continue;
+                        }
+                        if (favorite_selection[i] == "1") {
+                            if (checkbox_disabled[i] == "0") {
+                                $(".era").eq(i).prop("checked", true);
+                            }
+                        } else {
+                            if (checkbox_disabled[i] == "0") {
+                                $(".era").eq(i).prop("checked", false);
+                            }
+                        }
+                    }
+
+                    quiz();
+                }
+            }
+
+            window.addEventListener("load", start_program);
+
+            // もしcheckboxが変更されたら、クイズを更新する
+            $(".era").change(function() {
+                quiz();
+
+                // チェックボックスの状態を保存
+                // 最初の3つはそのままにする
+                let favorite_selection = $(".era").map(function() {
+                    if ($(this).attr("name") == "飛鳥時代" || $(this).attr("name") == "奈良時代" || $(this).attr("name") == "平安時代") {
+                        return localStorage.getItem("favorite_selection").charAt($(this).index());
+                    }
+                    return $(this).prop("checked") ? 1 : 0;
+                }).get();
+
+                console.log(favorite_selection);
+
+                localStorage.setItem("favorite_selection", favorite_selection.join(""));
+            });
+
+            // もし年を表示するかのcheckboxが変更されたら、クイズを更新する
+            $("#show_year").change(function() {
+                quiz();
+            });
+        </script>
+    </body>
+</html>

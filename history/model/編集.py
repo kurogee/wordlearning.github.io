@@ -12,7 +12,7 @@ detail = list(df["詳細"])
 era = list(df["時代"])
 print(df["世紀"])
 seiki = list(map(lambda x : x if "世紀" in str(x) else "", list(df["世紀"])))
-# detailを分かち書きすして、名詞や固有名詞のみを取り出す
+# detailを分かち書きして、名詞や固有名詞のみを取り出す
 detail_wakati = []
 mecab = MeCab.Tagger("-d /usr/lib/x86_64-linux-gnu/mecab/dic/mecab-ipadic-neologd")
 for i in range(len(detail)):
