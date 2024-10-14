@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>理科の穴埋めクイズ</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="../favicon.png" type="image/png">
+        <link rel="stylesheet" href="../pagestyle.css">
+        <style>
+            #meaning1 {
+                background-color: red;
+            }
+
+            #meaning2 {
+                background-color: blue;
+            }
+
+            #meaning3 {
+                background-color: green;
+            }
+
+            #meaning4 {
+                background-color: orange;
+            }
+
+            #meaning1,
+            #meaning2,
+            #meaning3,
+            #meaning4 {
+                width: 45%;
+                height: calc(80vh / 4 - 25px);
+                margin: 5px;
+                font-size: 30px;
+                border-radius: 30px 0 0 30px;
+                color: white;
+                overflow: auto;
+
+                /* 横を隣のボタンと揃える */
+                vertical-align: top;
+            }
+
+            /* meaning1〜4のスクロールバーを丸みのあるおしゃれなものにする */
+            #meaning1::-webkit-scrollbar,
+            #meaning2::-webkit-scrollbar,
+            #meaning3::-webkit-scrollbar,
+            #meaning4::-webkit-scrollbar {
+                width: 20px;
+            }
+
+            #meaning1::-webkit-scrollbar-thumb,
+            #meaning2::-webkit-scrollbar-thumb,
+            #meaning3::-webkit-scrollbar-thumb,
+            #meaning4::-webkit-scrollbar-thumb {
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 10px;
+            }
+
+            #meaning1::-webkit-scrollbar-track,
+            #meaning2::-webkit-scrollbar-track,
+            #meaning3::-webkit-scrollbar-track,
+            #meaning4::-webkit-scrollbar-track {
+                background-color: rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+            }
+        </style>
+        <script src="../jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <div id="box">
+            <h2>穴埋めクイズ</h2>
+            <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a><br>
+            <p>
+                ひたすら穴埋めするクイズです。<br>
+            </p>
+        </div>
+        <br>
+        <div id="box">
+            <br>
+            <div id="box">
+                <!-- どの歴史区分から問題を出すかcheckboxで選択する -->
+                <p>問題に表示する学年・分野</p>
+                <table>
+                    <tr>
+                        <td><label>1年生: <input type="checkbox" name="1" class="grade" checked></label></td>
+                        <td><label>2年生: <input type="checkbox" name="2" class="grade" checked></label></td>
+                        <td><label>3年生: <input type="checkbox" name="3" class="grade" disabled></label></td>
+                    </tr>
+                    <tr>
+                        <td><label>化学分野: <input type="checkbox" name="化学" class="field" checked></label></td>
+                        <td><label>物理分野: <input type="checkbox" name="物理学" class="field" checked></label></td>
+                        <td><label>生物分野: <input type="checkbox" name="生物学" class="field" checked></label></td>
+                        <td><label>地学分野: <input type="checkbox" name="地学" class="field" checked></label></td>
+                    </tr>
+                </table>
+            </div>
+
+            <h2 id="question" class="box"></h2>
+            <div id="meanings">
+                <button data="1" class="button" id="meaning1"></button><span class="newline"></span>
+                <button data="2" class="button" id="meaning2"></button><br>
+                <button data="3" class="button" id="meaning3"></button><span class="newline"></span>
+                <button data="4" class="button" id="meaning4"></button><span class="newline"></span>
+            </div>
+            <h3 id="explain"></h3>
+
+            <script>
+                // 画面サイズがスマホのとき、ボタンを縦並びにして改行を入れる
+                if (window.innerWidth < 600) {
+                    $(".button").css("width", "90%");
+                    $(".newline").html("<br>");
+                } else {
+                    $(".button").css("width", "45%");
+                    $(".newline").html("");
+                }
+
+                window.addEventListener("resize", function() {
+                    if (window.innerWidth < 600) {
+                        $(".button").css("width", "90%");
+                        $(".newline").html("<br>");
+                    } else {
+                        $(".button").css("width", "45%");
+                        $(".newline").html("");
+                    }
+                });
+            </script>
+        </div>
+
+        <script>
+            // 音源を準備する
+            const correct_audio = new Audio("../sounds/correct.mp3");
+            const incorrect_audio = new Audio("../sounds/incorrect.mp3");
+
+            let wrong_list = [];
+            let already_asked = [];
+
+            // クイズを出す関数
+            // クイズは、../model/science.jsonから取得する
+            /*
+                JSONの形式
+                [
+                    {
+                        "grade": "1", // 1, 2, 3
+                        "field": "生物", // 化学、物理学、生物学、地学
+                        "word": "分類", // 出題する単語
+                        "another_word": [], // 別解
+                        "detail": "似た特徴を持つものを1つのグループにまとめ、いくつかのグループに分けて整理すること。", // 説明
+                        "detail_wakati": [ // 説明の分かち書き
+                            "特徴",
+                            "1つ",
+                            "グループ",
+                            "いくつか",
+                            "グループ",
+                            "整理"
+                        ],
+                    }, ...
+                ]
+
+                穴埋めの四択形式で出題して、正解を選ばせる
+                例) 天皇暗殺を計画した[　　　　]などの[　　　　　]を処刑した。
+                    1. 幸徳秋水 / 社会主義者
+                    2. 大杉栄 / アナキスト
+                    3. 大村益次郎 / 陸軍軍人
+                    4. 伊藤博文 / 政治家
+                実際の答えは、1である。
+                このように、穴埋めの四択形式で出題して、正解を選ばせる
+                穴埋めの問題は、すでにjsonファイルの「detail_wakati」にある名詞を使って作成する
+
+                ユーザがやめるまでずっと出題し続ける
+            */
+
+            function arrayContainsArray(superset, subset) {
+                return superset.some(function(array) {
+                    return array.length == subset.length && array.every(function(value, index) {
+                        return value == subset[index];
+                    });
+                });
+            }
+            
+            const quizJson = $.getJSON("../model/science.json", function(data) {
+                return data;
+            });
+
+            async function quiz() {
+                // クイズの問題を取得
+                let data = quizJson.responseJSON;
+                // 問題に表示する学年・分野を抽出
+                let grades = data.filter(function(item) {
+                    return $(".grade[name=" + item["grade"] + "]").prop("checked");
+                }).map(function(item) {
+                    return item["grade"];
+                });
+
+                let fields = data.filter(function(item) {
+                    return $(".field[name=" + item["field"] + "]").prop("checked");
+                }).map(function(item) {
+                    return item["field"];
+                });
+
+                // gradesとfieldsで共通するもののみを抽出
+                data = data.filter(function(item) {
+                    return grades.includes(item["grade"]) && fields.includes(item["field"]);
+                });
+
+                // 問題をランダムに選ぶ
+                const question_index = Math.floor(Math.random() * data.length);
+                let question = data[question_index];
+
+                // 穴埋めの問題を作成
+                let question_text = question["detail"];
+
+                // 取得できるまで次の処理に進まないようにする
+                let nouns_all = question["detail_wakati"];
+                let nouns;
+                if (nouns_all.length < 2) {
+                    quiz();
+                    return;
+                } else {
+                    // nouns_allからかぶらないように2つ選びnounsに格納
+                    do {
+                        nouns = [nouns_all[Math.floor(Math.random() * nouns_all.length)], nouns_all[Math.floor(Math.random() * nouns_all.length)]];
+                    } while (nouns[0] == nouns[1]);
+                }
+
+                let nouns_index = [question_text.indexOf(nouns[0]), question_text.indexOf(nouns[1])];
+                question_text = question_text.replace(nouns[0], "[　　　　]").replace(nouns[1], "[　　　　]");
+                $("#question").html(`<p>【${question["grade"]}年生 ${question["field"]}の分野】</p><h3>「${question["word"]}」</h3><p>${question_text}</p>`);
+
+                let answers = [];
+                // 正解の選択肢を追加
+                if (nouns_index[0] < nouns_index[1]) {
+                    answers = [[nouns[0], nouns[1]]];
+                } else {
+                    answers = [[nouns[1], nouns[0]]];
+                }
+
+                // 不正解の選択肢を追加
+                // 3つの不正解の選択肢を追加
+                // 正解の文章と前後3つの文章を取得し、その中からランダムに2つの名詞を選ぶ。完全な重複はないようにする
+                const data_wakati = data.map(function(x) { return x["detail_wakati"]; });
+                for (let i = 0; i < 3; i++) {
+                    let question_tmp;
+                    if (question_index == 0) {
+                        question_tmp = [data_wakati[question_index + 1],
+                                        data_wakati[question_index],
+                                        data_wakati[question_index + 2]].flat();
+                    } else if (question_index == data.length - 1) {
+                        question_tmp = [data_wakati[question_index - 2],
+                                        data_wakati[question_index - 1],
+                                        data_wakati[question_index]].flat();
+                    } else {
+                        question_tmp = [data_wakati[question_index - 1],
+                                        data_wakati[question_index],
+                                        data_wakati[question_index + 1]].flat();
+                    }
+
+                    // 不正解の選択肢をひっかけ問題にする
+                    let nouns_tmp;
+                    do {
+                        nouns_tmp = [question_tmp[Math.floor(Math.random() * question_tmp.length)], question_tmp[Math.floor(Math.random() * question_tmp.length)]];
+                    } while (nouns_tmp[0] == nouns_tmp[1] && !arrayContainsArray(answers, nouns_tmp));
+
+                    answers.push(nouns_tmp);
+                }
+
+                // 選択肢をシャッフル
+                answers.sort(function() {
+                    return Math.random() - Math.random();
+                });
+                console.log(answers);
+
+                // 選択肢を表示
+                for (let i = 0; i < 4; i++) {
+                    $("#meaning" + (i + 1)).html(answers[i][0] + " / " + answers[i][1]);
+                    already_asked.push(question["word"]);
+                    $("#meaning" + (i + 1)).off('click');
+
+                    // 選択肢をクリックしたときの処理
+                    $("#meaning" + (i + 1)).click(function() {
+                        // 正解かどうかを判定
+                        let collect_answer = "";
+                        if (nouns_index[0] < nouns_index[1]) {
+                            collect_answer = nouns[0] + " / " + nouns[1];
+                        } else {
+                            collect_answer = nouns[1] + " / " + nouns[0];
+                        }
+                        if ($(this).html() == collect_answer) {
+                            $("#explain").html("正解です！");
+                            correct_audio.play();
+                        } else {
+                            $("#explain").html("不正解です。正解は" + nouns[0] + " / " + nouns[1] + "です。");
+                            incorrect_audio.play();
+                            wrong_list.push(question["word"]);
+                        }
+
+                        setTimeout(function() {
+                            quiz();
+                        }, 500);
+                    });
+                }
+                
+            }
+
+            // プログラムを開始する関数
+            async function start_program() {
+                await quiz();
+            }
+
+            window.addEventListener("load", start_program);
+
+            $(".grade").change(function() {
+                already_asked = [];
+                wrong_list = [];
+                $("#explain").html("");
+                $("#question").html("");
+                for (let i = 0; i < 4; i++) {
+                    $("#meaning" + (i + 1)).html("");
+                }
+                start_program();
+            });
+
+            $(".field").change(function() {
+                already_asked = [];
+                wrong_list = [];
+                $("#explain").html("");
+                $("#question").html("");
+                for (let i = 0; i < 4; i++) {
+                    $("#meaning" + (i + 1)).html("");
+                }
+                start_program();
+            });
+        </script>
+    </body>
+</html>

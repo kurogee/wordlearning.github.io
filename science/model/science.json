@@ -1,0 +1,3467 @@
+[
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "分類",
+        "another_word": [],
+        "detail": "似た特徴を持つものを1つのグループにまとめ、いくつかのグループに分けて整理すること。",
+        "detail_wakati": [
+            "特徴",
+            "1つ",
+            "グループ",
+            "いくつか",
+            "グループ",
+            "整理"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "種子",
+        "another_word": [],
+        "detail": "受粉後、胚珠が成長したもので、子孫を増やすためのもの。",
+        "detail_wakati": [
+            "受粉",
+            "胚珠",
+            "成長",
+            "子孫"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "柱頭",
+        "another_word": [],
+        "detail": "雌しべの先端部分のこと。",
+        "detail_wakati": [
+            "雌しべ",
+            "先端",
+            "部分"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "子房",
+        "another_word": [],
+        "detail": "被子植物の雌しべの下部の膨らんだ部分のこと。",
+        "detail_wakati": [
+            "被子植物",
+            "雌しべ",
+            "下部",
+            "部分"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "胚珠",
+        "another_word": [],
+        "detail": "子房の中にあり、受粉後、成長して種子になるもの。",
+        "detail_wakati": [
+            "子房",
+            "受粉",
+            "成長",
+            "種子"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "受粉",
+        "another_word": [],
+        "detail": "被子植物の雌しべの柱頭や、裸子植物の胚珠に花粉がつくこと。",
+        "detail_wakati": [
+            "被子植物",
+            "雌しべ",
+            "柱頭",
+            "裸子植物",
+            "胚珠",
+            "花粉"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "果実",
+        "another_word": [],
+        "detail": "受粉後、子房が成長してできる。",
+        "detail_wakati": [
+            "受粉",
+            "子房",
+            "成長"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "種子植物",
+        "another_word": [],
+        "detail": "種子をつくる植物のこと。",
+        "detail_wakati": [
+            "種子",
+            "植物"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "裸子植物",
+        "another_word": [],
+        "detail": "胚珠がむき出しになっている植物のこと。",
+        "detail_wakati": [
+            "胚珠",
+            "むき出し",
+            "植物"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "被子植物",
+        "another_word": [],
+        "detail": "胚珠が子房の中にある植物のこと。",
+        "detail_wakati": [
+            "胚珠",
+            "子房",
+            "植物"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "葉脈",
+        "another_word": [],
+        "detail": "葉に見られる筋のこと。",
+        "detail_wakati": []
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "単子葉類",
+        "another_word": [],
+        "detail": "子葉が一枚の被子植物のこと。",
+        "detail_wakati": [
+            "子葉",
+            "被子植物"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "双子葉類",
+        "another_word": [],
+        "detail": "子葉が二枚の被子植物のこと。",
+        "detail_wakati": [
+            "子葉",
+            "被子植物"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "ひげ根",
+        "another_word": [],
+        "detail": "単子葉類の植物に見られる、同じような太さの多数の細い根。",
+        "detail_wakati": [
+            "子葉",
+            "植物",
+            "多数"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "主根",
+        "another_word": [],
+        "detail": "双子葉類の植物に見られる、太い根。",
+        "detail_wakati": [
+            "子葉",
+            "植物"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "側根",
+        "another_word": [],
+        "detail": "双子葉類の植物に見られる、主根から枝分かれした細い根。",
+        "detail_wakati": [
+            "子葉",
+            "植物",
+            "枝分かれ"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "シダ植物",
+        "another_word": [],
+        "detail": "種子を作らない植物の中で、葉、茎、根の区別がある植物。",
+        "detail_wakati": [
+            "種子",
+            "植物",
+            "区別",
+            "植物"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "コケ植物",
+        "another_word": [],
+        "detail": "種子を作らない植物の中で、葉、茎、根の区別がない植物。",
+        "detail_wakati": [
+            "種子",
+            "植物",
+            "区別",
+            "植物"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "胞子",
+        "another_word": [],
+        "detail": "シダ植物やコケ植物などがつくる、子孫を増やすためのもの。",
+        "detail_wakati": [
+            "シダ植物",
+            "コケ",
+            "植物",
+            "子孫"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "セキツイ動物",
+        "another_word": [
+            "脊椎動物"
+        ],
+        "detail": "背骨のある動物。",
+        "detail_wakati": [
+            "背骨",
+            "動物"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "無セキツイ動物",
+        "another_word": [
+            "無脊椎動物"
+        ],
+        "detail": "背骨のない動物。",
+        "detail_wakati": [
+            "背骨",
+            "動物"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "卵生",
+        "another_word": [],
+        "detail": "親が卵をうみ、卵から子がかえる子のうまれ方。",
+        "detail_wakati": []
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "胎生",
+        "another_word": [],
+        "detail": "母体内である程度育ってから子がうまれる子のうまれ方。",
+        "detail_wakati": [
+            "母体"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "軟体動物",
+        "another_word": [],
+        "detail": "無セキツイ動物の中で、アサリ、タコ、イカなどの動物。体が外とう膜で包まれている。殻を持つものもいる。",
+        "detail_wakati": [
+            "無セキツイ動物",
+            "アサリ",
+            "タコ",
+            "イカ",
+            "動物",
+            "外とう"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "外骨格",
+        "another_word": [],
+        "detail": "節足動物などで見られる、からだの表面をおおう殻などのかたい構造。",
+        "detail_wakati": [
+            "節足動物",
+            "からだ",
+            "表面",
+            "構造"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "生物学",
+        "word": "節足動物",
+        "another_word": [],
+        "detail": "無セキツイ動物の中で、昆虫類や甲殻類などの動物。からだとあしに節がある。",
+        "detail_wakati": [
+            "無セキツイ動物",
+            "昆虫",
+            "甲殻類",
+            "動物",
+            "からだ",
+            "あし"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "物体",
+        "another_word": [],
+        "detail": "物の外観に注目した時の物の呼び方。",
+        "detail_wakati": [
+            "外観",
+            "注目",
+            "呼び方"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "物質",
+        "another_word": [],
+        "detail": "物を形づくっている材料に注目した時の物の呼び方。",
+        "detail_wakati": [
+            "材料",
+            "注目",
+            "呼び方"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "非金属",
+        "another_word": [],
+        "detail": "金属以外の物質のこと。",
+        "detail_wakati": [
+            "金属",
+            "物質"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "金属光沢",
+        "another_word": [],
+        "detail": "金属をみがくと光る特有の輝きのこと。",
+        "detail_wakati": [
+            "金属",
+            "特有",
+            "輝き"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "延性",
+        "another_word": [],
+        "detail": "引っ張ると細く伸びる性質。",
+        "detail_wakati": [
+            "性質"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "展性",
+        "another_word": [],
+        "detail": "叩くと伸びて薄く広がる性質。",
+        "detail_wakati": [
+            "性質"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "質量",
+        "another_word": [],
+        "detail": "電子てんびんや上皿てんびんで測ることのできる物質そのものの量。",
+        "detail_wakati": [
+            "電子",
+            "びん",
+            "びん",
+            "物質",
+            "そのもの"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "密度",
+        "another_word": [],
+        "detail": "物質の単位面積あたりの質量。",
+        "detail_wakati": [
+            "物質",
+            "単位",
+            "面積",
+            "あたり",
+            "質量"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "有機物",
+        "another_word": [],
+        "detail": "炭素や二酸化炭素を除く、炭素を含む物質のこと。",
+        "detail_wakati": [
+            "炭素",
+            "二酸化炭素",
+            "炭素",
+            "物質"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "無機物",
+        "another_word": [],
+        "detail": "有機物以外の物質のこと。",
+        "detail_wakati": [
+            "有機物",
+            "物質"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "水上置換法",
+        "another_word": [],
+        "detail": "水に溶けない、または溶けにくい気体を集める方法。",
+        "detail_wakati": [
+            "気体",
+            "方法"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "上方置換法",
+        "another_word": [],
+        "detail": "水に溶けやすく、空気より密度が小さい気体を集める方法。",
+        "detail_wakati": [
+            "空気",
+            "密度",
+            "気体",
+            "方法"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "下方置換法",
+        "another_word": [],
+        "detail": "水に溶けやすく、空気より密度が大きい気体を集める方法。",
+        "detail_wakati": [
+            "空気",
+            "密度",
+            "気体",
+            "方法"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "溶質",
+        "another_word": [],
+        "detail": "溶液に溶けている物質。",
+        "detail_wakati": [
+            "溶液",
+            "物質"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "溶媒",
+        "another_word": [],
+        "detail": "溶質を溶かしている液体。",
+        "detail_wakati": [
+            "溶質",
+            "液体"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "溶液",
+        "another_word": [],
+        "detail": "物質が溶けている液全体のこと。",
+        "detail_wakati": [
+            "物質",
+            "全体"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "水溶液",
+        "another_word": [],
+        "detail": "溶媒が水である溶液。",
+        "detail_wakati": [
+            "溶媒",
+            "溶液"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "純粋な物質",
+        "another_word": [
+            "純物質"
+        ],
+        "detail": "一種類の物質でできている物。",
+        "detail_wakati": [
+            "種類",
+            "物質"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "混合物",
+        "another_word": [],
+        "detail": "いくつかの物質が混じり合った物。",
+        "detail_wakati": [
+            "いくつか",
+            "物質"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "濃度",
+        "another_word": [],
+        "detail": "溶液のこさのこと。",
+        "detail_wakati": [
+            "溶液"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "質量パーセント濃度",
+        "another_word": [],
+        "detail": "溶液の濃度を、溶質の質量が溶液全体の何％に当たるかで表したもの。",
+        "detail_wakati": [
+            "溶液",
+            "濃度",
+            "溶質",
+            "質量",
+            "溶液",
+            "全体"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "結晶",
+        "another_word": [],
+        "detail": "いくつかの平面で囲まれた規則正しい形をしている固体。",
+        "detail_wakati": [
+            "いくつか",
+            "平面",
+            "固体"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "飽和水溶液",
+        "another_word": [],
+        "detail": "物質がそれ以上溶けることができない水溶液。",
+        "detail_wakati": [
+            "物質",
+            "それ",
+            "水溶液"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "溶解度",
+        "another_word": [],
+        "detail": "ある物質を100gの水に溶かして飽和水溶液にした時の溶けた質量。",
+        "detail_wakati": [
+            "物質",
+            "100g",
+            "飽和",
+            "水溶液",
+            "質量"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "溶解度曲線",
+        "another_word": [],
+        "detail": "水の温度と溶解度の関係をグラフに表したもの。",
+        "detail_wakati": [
+            "温度",
+            "溶解度",
+            "関係",
+            "グラフ"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "再結晶",
+        "another_word": [],
+        "detail": "溶解度の差を利用して、溶液から溶質を結晶として取り出すこと。",
+        "detail_wakati": [
+            "溶解度",
+            "利用",
+            "溶液",
+            "溶質",
+            "結晶"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "状態変化",
+        "another_word": [],
+        "detail": "固体⇔液体⇔気体のように、温度によって物質の状態が変わること。",
+        "detail_wakati": [
+            "固体",
+            "液体",
+            "気体",
+            "温度",
+            "物質の状態"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "沸点",
+        "another_word": [],
+        "detail": "液体が沸騰して気体に変化する時の温度。",
+        "detail_wakati": [
+            "液体",
+            "沸騰",
+            "気体",
+            "変化",
+            "温度"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "融点",
+        "another_word": [],
+        "detail": "固体が溶けて液体に変化する時の温度。",
+        "detail_wakati": [
+            "固体",
+            "液体",
+            "変化",
+            "温度"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "化学",
+        "word": "蒸留",
+        "another_word": [],
+        "detail": "液体の混合物を熱して、沸点の差を利用して出てくる蒸気（気体）を分離し、冷やして純粋な物質（液体）として取り出す方法。",
+        "detail_wakati": [
+            "液体",
+            "混合物",
+            "沸点",
+            "利用",
+            "蒸気",
+            "気体",
+            "分離",
+            "純粋",
+            "物質",
+            "液体",
+            "方法"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "光源",
+        "another_word": [],
+        "detail": "太陽や蛍光灯のように、自ら光を出す物体。",
+        "detail_wakati": [
+            "太陽",
+            "蛍光",
+            "自ら",
+            "物体"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "光の直進",
+        "another_word": [],
+        "detail": "光が真っ直ぐ進むこと。",
+        "detail_wakati": []
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "光の反射",
+        "another_word": [],
+        "detail": "物体の表面で光が跳ね返ること。",
+        "detail_wakati": [
+            "物体",
+            "表面"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "入射角",
+        "another_word": [],
+        "detail": "入射した光と入射した面に垂直な線が作れる角。",
+        "detail_wakati": [
+            "入射",
+            "入射",
+            "た面",
+            "垂直"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "反射角",
+        "another_word": [],
+        "detail": "反射した光と反射した面に垂直な線が作れる角。",
+        "detail_wakati": [
+            "反射",
+            "反射",
+            "た面",
+            "垂直"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "光の反射の法則",
+        "another_word": [
+            "反射の法則"
+        ],
+        "detail": "光が反射する時、入射角と反射角の大きさが等しいという法則。",
+        "detail_wakati": [
+            "反射",
+            "入射",
+            "反射",
+            "法則"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "乱反射",
+        "another_word": [],
+        "detail": "物体の表面に細かい凹凸がある時、光は様々な方向に反射すること。",
+        "detail_wakati": [
+            "物体",
+            "表面",
+            "凹凸",
+            "ある時",
+            "様々",
+            "方向",
+            "反射"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "光の屈折",
+        "another_word": [],
+        "detail": "透明な物体に光が出入りする時に、境界面を直進したり、曲がったりすること。",
+        "detail_wakati": [
+            "透明",
+            "物体",
+            "出入り",
+            "境界",
+            "直進"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "屈折角",
+        "another_word": [],
+        "detail": "境界面に垂直な線と境界面で屈折した光のつくる角。",
+        "detail_wakati": [
+            "境界",
+            "垂直",
+            "境界",
+            "屈折"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "全反射",
+        "another_word": [],
+        "detail": "透明な物体から空気中に光が出る時、入射角が一定以上大きくなると、境界面ですべての光が反射すること。",
+        "detail_wakati": [
+            "透明",
+            "物体",
+            "空気",
+            "入射",
+            "一定以上",
+            "境界",
+            "すべて",
+            "反射"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "凸レンズ",
+        "another_word": [
+            "とつレンズ"
+        ],
+        "detail": "虫眼鏡のように、中央が膨らんだレンズのこと。",
+        "detail_wakati": [
+            "虫眼鏡",
+            "中央",
+            "レンズ"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "像",
+        "another_word": [],
+        "detail": "凸レンズなどを通して見えるものや、スクリーンなどに映って見えるもの。",
+        "detail_wakati": [
+            "凸レンズ",
+            "スクリーン"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "光軸",
+        "another_word": [],
+        "detail": "凸レンズの中心と焦点を通る直線。",
+        "detail_wakati": [
+            "凸レンズ",
+            "中心",
+            "焦点",
+            "直線"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "焦点",
+        "another_word": [],
+        "detail": "凸レンズの光軸に平行に進む光が、凸レンズに入る時と出る時に屈折して集まる点。",
+        "detail_wakati": [
+            "凸レンズ",
+            "光軸",
+            "平行",
+            "凸レンズ",
+            "屈折"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "焦点距離",
+        "another_word": [],
+        "detail": "凸レンズの中心から焦点までの距離。",
+        "detail_wakati": [
+            "凸レンズ",
+            "中心",
+            "焦点",
+            "距離"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "実像",
+        "another_word": [],
+        "detail": "物体が焦点より外側にある時、凸レンズを通った光が集まり、スクリーン上にできる上下左右が逆向きな像。",
+        "detail_wakati": [
+            "物体",
+            "焦点",
+            "外側",
+            "ある時",
+            "凸レンズ",
+            "スクリーン",
+            "上下",
+            "左右",
+            "向き"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "虚像",
+        "another_word": [],
+        "detail": "物体が焦点と凸レンズの間にある時、凸レンズを覗くと同じ向きで物体より大きく見える像。",
+        "detail_wakati": [
+            "物体",
+            "焦点",
+            "凸レンズ",
+            "ある時",
+            "凸レンズ",
+            "向き",
+            "物体"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "音源",
+        "another_word": [],
+        "detail": "振動して音を出すもの。",
+        "detail_wakati": [
+            "振動"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "振幅",
+        "another_word": [],
+        "detail": "音源の振動の中心からの幅。大きい音ほどこれが大きい。",
+        "detail_wakati": [
+            "音源",
+            "振動",
+            "中心"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "振動数",
+        "another_word": [],
+        "detail": "一秒間に音源が振動する回数。高い音ほどこの回数が多い。",
+        "detail_wakati": [
+            "秒間",
+            "音源",
+            "振動",
+            "回数",
+            "高い",
+            "回数"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "ヘルツ",
+        "another_word": [
+            "Hz",
+            "Ｈｚ"
+        ],
+        "detail": "振動数の単位。",
+        "detail_wakati": [
+            "振動数",
+            "単位"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "垂直抗力",
+        "another_word": [],
+        "detail": "ある面の上に物体を置いた時、その面から垂直に物体にはたらく力。",
+        "detail_wakati": [
+            "物体",
+            "垂直",
+            "物体"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "弾性",
+        "another_word": [],
+        "detail": "変形させられた物体が、もとに戻ろうとする性質。",
+        "detail_wakati": [
+            "変形",
+            "物体",
+            "もと",
+            "性質"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "弾性の力",
+        "another_word": [
+            "弾性力"
+        ],
+        "detail": "変形させられた物体において、元に戻る向きに生じる力。",
+        "detail_wakati": [
+            "変形",
+            "物体",
+            "向き"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "摩擦力",
+        "another_word": [],
+        "detail": "物体の接触面で運動を妨げる向きにはたらく力。",
+        "detail_wakati": [
+            "物体",
+            "接触",
+            "運動",
+            "向き"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "重力",
+        "another_word": [],
+        "detail": "地球上のすべての物体において、地球の中心の向きにはたらく力。",
+        "detail_wakati": [
+            "地球",
+            "すべて",
+            "物体",
+            "地球",
+            "中心",
+            "向き"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "磁石の力",
+        "another_word": [
+            "磁力"
+        ],
+        "detail": "磁石に他の磁石を近づけることで、引き合ったり、反発し合ったりする力。",
+        "detail_wakati": [
+            "磁石",
+            "磁石",
+            "反発"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "電気の力",
+        "another_word": [],
+        "detail": "こすった下敷きなどによって、物体が引き寄せられたり、反発したりする力。",
+        "detail_wakati": [
+            "下敷き",
+            "物体",
+            "反発"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "ニュートン",
+        "another_word": [
+            "N",
+            "Ｎ"
+        ],
+        "detail": "力の大きさの単位。1Nは100gの物体にはたらく重力の大きさとほぼ等しい。",
+        "detail_wakati": [
+            "単位",
+            "100g",
+            "物体",
+            "重力"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "物理学",
+        "word": "フックの法則",
+        "another_word": [],
+        "detail": "バネの伸びは、バネに加わる力の大きさに比例する法則のこと。",
+        "detail_wakati": [
+            "バネ",
+            "伸び",
+            "バネ",
+            "比例",
+            "法則"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "火山",
+        "another_word": [],
+        "detail": "マグマが地表に吹き出してできた山のこと。",
+        "detail_wakati": [
+            "マグマ",
+            "地表"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "マグマ",
+        "another_word": [],
+        "detail": "地球内部の熱により、地下の岩石が高温で溶けてできたもの。",
+        "detail_wakati": [
+            "地球",
+            "内部",
+            "地下",
+            "岩石",
+            "高温"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "噴火",
+        "another_word": [],
+        "detail": "マグマが地表付近に上昇し、マグマの中に含まれる高圧ガスが地表の岩石を吹き飛ばすことで始まるもの。",
+        "detail_wakati": [
+            "マグマ",
+            "地表",
+            "付近",
+            "上昇",
+            "マグマ",
+            "高圧ガス",
+            "地表",
+            "岩石"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "溶岩",
+        "another_word": [],
+        "detail": "マグマが地上に流れ出たもの。",
+        "detail_wakati": [
+            "マグマ",
+            "地上"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "火山灰",
+        "another_word": [],
+        "detail": "噴火で吹き出る軽くて小さい粒のこと。",
+        "detail_wakati": [
+            "噴火",
+            "小さい"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "火山弾",
+        "another_word": [],
+        "detail": "噴火の勢いでマグマが引きちぎられ、空中で冷え固まったもの。",
+        "detail_wakati": [
+            "噴火",
+            "勢い",
+            "マグマ",
+            "空中"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "火山噴出物",
+        "another_word": [],
+        "detail": "溶岩や火山灰、火山弾、火山ガスなど噴火で生み出されるもの。",
+        "detail_wakati": [
+            "溶岩",
+            "火山灰",
+            "火山弾",
+            "火山ガス",
+            "噴火"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "鉱物",
+        "another_word": [],
+        "detail": "地球の活動によってできた粒の中で、結晶になったもの。",
+        "detail_wakati": [
+            "地球",
+            "活動",
+            "結晶"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "火成岩",
+        "another_word": [],
+        "detail": "マグマが冷え固まってできた岩石。",
+        "detail_wakati": [
+            "マグマ",
+            "岩石"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "火山岩",
+        "another_word": [],
+        "detail": "地表付近で急にマグマが冷えて固まった岩石。",
+        "detail_wakati": [
+            "地表",
+            "付近",
+            "マグマ",
+            "岩石"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "深成岩",
+        "another_word": [],
+        "detail": "地下で長時間かけマグマが冷えて固まった岩石。",
+        "detail_wakati": [
+            "地下",
+            "長時間",
+            "マグマ",
+            "岩石"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "斑晶",
+        "another_word": [
+            "はんしょう"
+        ],
+        "detail": "火山岩の中にある、比較的大きな鉱物のこと。",
+        "detail_wakati": [
+            "火山岩",
+            "鉱物"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "石基",
+        "another_word": [
+            "せっき"
+        ],
+        "detail": "火山岩の中にある、斑晶の間を埋める、肉眼では形がわからないほど小さな粒のこと。",
+        "detail_wakati": [
+            "火山岩",
+            "肉眼"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "斑状組織",
+        "another_word": [],
+        "detail": "斑晶の周りを石基が取り囲んでいる火成岩のつくりのこと。",
+        "detail_wakati": [
+            "周り",
+            "石基",
+            "火成岩",
+            "つくり"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "等粒状組織",
+        "another_word": [],
+        "detail": "同じくらいの大きさの、比較的大きな鉱物からなる火成岩のつくりのこと。",
+        "detail_wakati": [
+            "鉱物",
+            "火成岩",
+            "つくり"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "地震",
+        "another_word": [],
+        "detail": "プレート境界や活断層が動き、岩盤が破壊されて波が生じ、その波が伝わることで大地が揺れる現象のこと。",
+        "detail_wakati": [
+            "プレート境界",
+            "活断層",
+            "岩盤",
+            "破壊",
+            "大地",
+            "現象"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "震源",
+        "another_word": [],
+        "detail": "地震が発生した場所。",
+        "detail_wakati": [
+            "地震",
+            "発生",
+            "場所"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "震央",
+        "another_word": [],
+        "detail": "震源の真上の地点。",
+        "detail_wakati": [
+            "震源",
+            "真上",
+            "地点"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "震度",
+        "another_word": [],
+        "detail": "ある地点での地震による揺れの大きさを表すもの。",
+        "detail_wakati": [
+            "地点",
+            "地震",
+            "揺れ"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "初期微動",
+        "another_word": [],
+        "detail": "地震で始めに来る小さな揺れのこと。",
+        "detail_wakati": [
+            "地震",
+            "始め",
+            "揺れ"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "主要動",
+        "another_word": [],
+        "detail": "地震で後からくる大きな揺れのこと。",
+        "detail_wakati": [
+            "地震",
+            "揺れ"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "初期微動継続時間",
+        "another_word": [],
+        "detail": "初期微動が始まってから主要動が始まるまでの時間のこと。",
+        "detail_wakati": [
+            "初期微動",
+            "主要動",
+            "時間"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "P波",
+        "another_word": [
+            "Ｐ波"
+        ],
+        "detail": "初期微動を伝える波。",
+        "detail_wakati": [
+            "初期微動"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "S波",
+        "another_word": [
+            "Ｓ波"
+        ],
+        "detail": "主要動を伝える波。",
+        "detail_wakati": [
+            "主要動"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "マグニチュード",
+        "another_word": [],
+        "detail": "地震の規模のこと。",
+        "detail_wakati": [
+            "地震",
+            "規模"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "プレート",
+        "another_word": [],
+        "detail": "地球の表面を覆っている、厚さ100kmほどの岩盤のこと。",
+        "detail_wakati": [
+            "地球",
+            "表面",
+            "100km",
+            "岩盤"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "断層",
+        "another_word": [],
+        "detail": "地層や岩盤に加わった力のために、岩石が破壊されて生じる地層や岩盤のずれのこと。",
+        "detail_wakati": [
+            "地層",
+            "岩盤",
+            "岩石",
+            "破壊",
+            "地層",
+            "岩盤",
+            "ずれ"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "活断層",
+        "another_word": [],
+        "detail": "今後も繰り返し活動する可能性のある断層。",
+        "detail_wakati": [
+            "今後",
+            "活動",
+            "可能",
+            "断層"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "内陸型地震",
+        "another_word": [],
+        "detail": "陸の活断層のずれによる地震のこと。",
+        "detail_wakati": [
+            "活断層",
+            "ずれ",
+            "地震"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "海溝型地震",
+        "another_word": [],
+        "detail": "海溝付近で生じる地震のこと。",
+        "detail_wakati": [
+            "海溝",
+            "付近",
+            "地震"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "津波",
+        "another_word": [],
+        "detail": "地震による海底の地形の急激な変化で発生する波のこと。",
+        "detail_wakati": [
+            "地震",
+            "海底",
+            "地形",
+            "急激",
+            "変化",
+            "発生"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "隆起",
+        "another_word": [],
+        "detail": "地震などにより大地が持ち上がること。",
+        "detail_wakati": [
+            "地震",
+            "大地"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "沈降",
+        "another_word": [],
+        "detail": "地震などにより大地が沈むこと。",
+        "detail_wakati": [
+            "地震",
+            "大地"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "風化",
+        "another_word": [],
+        "detail": "かたい岩石が気温の変化や風雨の働きによってもろくなること。",
+        "detail_wakati": [
+            "岩石",
+            "気温",
+            "変化",
+            "風雨",
+            "働き"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "侵食",
+        "another_word": [],
+        "detail": "かたい岩石が、水の働きによって削られること。",
+        "detail_wakati": [
+            "岩石",
+            "働き"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "運搬",
+        "another_word": [],
+        "detail": "れきや砂などが、川などの水の働きによって下流へと運ばれること。",
+        "detail_wakati": [
+            "れき",
+            "働き",
+            "下流"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "堆積",
+        "another_word": [],
+        "detail": "れきや砂などが、平野や海岸などの水の流れがゆるやかになったところにたまること。",
+        "detail_wakati": [
+            "れき",
+            "平野",
+            "海岸",
+            "流れ",
+            "ゆるやか"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "堆積岩",
+        "another_word": [],
+        "detail": "堆積物が長い年月をかけて押し固められ、岩石となったもの。",
+        "detail_wakati": [
+            "堆積物",
+            "年月",
+            "岩石"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "地層",
+        "another_word": [],
+        "detail": "長い時間をかけて、堆積物が積み重なってできたもの。",
+        "detail_wakati": [
+            "時間",
+            "堆積物"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "化石",
+        "another_word": [],
+        "detail": "生物の死がいや巣穴などが土砂に埋められ、長い年月をかけてできたもの。",
+        "detail_wakati": [
+            "生物",
+            "死がい",
+            "巣穴",
+            "土砂",
+            "年月"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "示相化石",
+        "another_word": [
+            "しそうかせき"
+        ],
+        "detail": "地層が堆積した当時の環境がわかる化石のこと。",
+        "detail_wakati": [
+            "地層",
+            "堆積",
+            "当時",
+            "環境",
+            "化石"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "示準化石",
+        "another_word": [
+            "しじゅんかせき"
+        ],
+        "detail": "地層が堆積した当時の年代がわかる化石のこと。",
+        "detail_wakati": [
+            "地層",
+            "堆積",
+            "当時",
+            "年代",
+            "化石"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "地質年代",
+        "another_word": [],
+        "detail": "生物の移り変わりをもとに決めた年代のこと。",
+        "detail_wakati": [
+            "生物",
+            "移り変わり",
+            "もと",
+            "年代"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "しゅう曲",
+        "another_word": [
+            "皺曲"
+        ],
+        "detail": "地層を押し縮める大きな力が働いてできた地層の曲がりのこと。",
+        "detail_wakati": [
+            "地層",
+            "地層"
+        ]
+    },
+    {
+        "grade": "1",
+        "field": "地学",
+        "word": "柱状図",
+        "another_word": [
+            "ちゅうじょうず"
+        ],
+        "detail": "ある地点の地層の特徴と重なり方の様子を模式的に表したもの。",
+        "detail_wakati": [
+            "地点",
+            "地層",
+            "特徴",
+            "様子"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "化学変化",
+        "another_word": [],
+        "detail": "もとの物質と違う物質ができる変化のこと。",
+        "detail_wakati": [
+            "もと",
+            "物質",
+            "物質",
+            "変化"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "分解",
+        "another_word": [],
+        "detail": "一種類の物質が二種類以上の物質に分かれる化学変化。",
+        "detail_wakati": [
+            "種類",
+            "物質",
+            "種類",
+            "物質",
+            "化学",
+            "変化"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "熱分解",
+        "another_word": [],
+        "detail": "物質に熱を加えて分解すること。",
+        "detail_wakati": [
+            "物質",
+            "分解"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "電気分解",
+        "another_word": [],
+        "detail": "物質に電流を流して分解すること。",
+        "detail_wakati": [
+            "物質",
+            "電流",
+            "分解"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "原子",
+        "another_word": [],
+        "detail": "それ以上分割することのできない最小の粒子。",
+        "detail_wakati": [
+            "それ",
+            "分割",
+            "最小",
+            "粒子"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "元素",
+        "another_word": [],
+        "detail": "原子の種類のこと。",
+        "detail_wakati": [
+            "原子",
+            "種類"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "元素記号",
+        "another_word": [],
+        "detail": "元素を示す1、2文字のアルファベットのこと。",
+        "detail_wakati": [
+            "元素",
+            "文字",
+            "アルファベット"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "周期表",
+        "another_word": [
+            "元素の周期表"
+        ],
+        "detail": "元素の性質を整理した表。",
+        "detail_wakati": [
+            "元素",
+            "性質",
+            "整理"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "分子",
+        "another_word": [],
+        "detail": "いくつかの原子が結びついた粒子。",
+        "detail_wakati": [
+            "いくつか",
+            "原子",
+            "粒子"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "化学式",
+        "another_word": [],
+        "detail": "物質を元素記号を使って表したもの。",
+        "detail_wakati": [
+            "物質",
+            "元素記号"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "単体",
+        "another_word": [],
+        "detail": "一種類の元素からできている物質。",
+        "detail_wakati": [
+            "種類",
+            "元素",
+            "物質"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "化合物",
+        "another_word": [],
+        "detail": "二種類以上の元素からできている物質。",
+        "detail_wakati": [
+            "種類",
+            "元素",
+            "物質"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "混合物",
+        "another_word": [],
+        "detail": "二種類以上の物質が混じり合っているもの。",
+        "detail_wakati": [
+            "種類",
+            "物質"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "化学反応式",
+        "another_word": [],
+        "detail": "化学変化を化学式で表した式。",
+        "detail_wakati": [
+            "化学",
+            "変化",
+            "化学式"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "酸化",
+        "another_word": [],
+        "detail": "物質が酸素と結びつくこと。",
+        "detail_wakati": [
+            "物質",
+            "酸素"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "酸化物",
+        "another_word": [],
+        "detail": "酸化によってできる物質。",
+        "detail_wakati": [
+            "酸化",
+            "物質"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "燃焼",
+        "another_word": [],
+        "detail": "物質が熱や光を出しながら激しく酸化されること。",
+        "detail_wakati": [
+            "物質",
+            "酸化"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "還元",
+        "another_word": [],
+        "detail": "酸化物が酸素を奪われる化学変化。これと酸化は同時に起こる。",
+        "detail_wakati": [
+            "酸化物",
+            "酸素",
+            "化学",
+            "変化",
+            "酸化"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "質量保存の法則",
+        "another_word": [],
+        "detail": "化学変化の前後で物質全体の質量が変わらないという法則のこと。",
+        "detail_wakati": [
+            "化学",
+            "変化",
+            "前後",
+            "物質",
+            "全体",
+            "質量",
+            "法則"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "発熱反応",
+        "another_word": [],
+        "detail": "化学変化が起こる時に熱を周囲に出している反応のこと。",
+        "detail_wakati": [
+            "化学",
+            "変化",
+            "周囲",
+            "反応"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "吸熱反応",
+        "another_word": [],
+        "detail": "化学変化が起こる時に周囲から熱を奪う反応のこと。",
+        "detail_wakati": [
+            "化学",
+            "変化",
+            "周囲",
+            "反応"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "化学",
+        "word": "化学エネルギー",
+        "another_word": [],
+        "detail": "物質が持っているエネルギーのこと。",
+        "detail_wakati": [
+            "物質",
+            "エネルギー"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "細胞",
+        "another_word": [],
+        "detail": "葉などの内部に見られる小さな部屋のようなもの。すべての生物のからだに共通して見られる。",
+        "detail_wakati": [
+            "内部",
+            "部屋",
+            "すべて",
+            "生物",
+            "からだ",
+            "共通"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "葉緑体",
+        "another_word": [],
+        "detail": "植物の細胞にあり、光合成を行う。",
+        "detail_wakati": [
+            "植物",
+            "細胞",
+            "光合成"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "核",
+        "another_word": [],
+        "detail": "細胞の中にある、酢酸オルセインなどの染色液でよく染まるもの。",
+        "detail_wakati": [
+            "細胞",
+            "酢酸",
+            "オルセイン",
+            "染色"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "気孔",
+        "another_word": [],
+        "detail": "葉の表皮にある、二つの三日月型の孔辺細胞に囲まれた隙間のこと。",
+        "detail_wakati": [
+            "表皮",
+            "二つ",
+            "三日",
+            "月型",
+            "細胞",
+            "隙間"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "細胞膜",
+        "another_word": [],
+        "detail": "細胞の外周を囲む膜のようなもの。",
+        "detail_wakati": [
+            "細胞",
+            "外周"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "細胞壁",
+        "another_word": [],
+        "detail": "植物の細胞にあり、細胞膜のさらに外側を囲っているもの。",
+        "detail_wakati": [
+            "植物",
+            "細胞",
+            "細胞膜",
+            "外側"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "細胞質",
+        "another_word": [],
+        "detail": "細胞膜と、その内側の核以外の部分のこと。",
+        "detail_wakati": [
+            "細胞膜",
+            "内側",
+            "部分"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "単細胞生物",
+        "another_word": [],
+        "detail": "一つの細胞からなる生物のこと。",
+        "detail_wakati": [
+            "一つ",
+            "細胞",
+            "生物"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "多細胞生物",
+        "another_word": [],
+        "detail": "多数の細胞からなる生物のこと。",
+        "detail_wakati": [
+            "多数",
+            "細胞",
+            "生物"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "光合成",
+        "another_word": [],
+        "detail": "植物が光を受けてデンプンなどの養分をつくるはたらきのこと。",
+        "detail_wakati": [
+            "植物",
+            "デンプン",
+            "養分",
+            "はたらき"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "呼吸",
+        "another_word": [],
+        "detail": "動物も植物も行う、空気中の酸素を取り入れ二酸化炭素を出す仕組みのこと。",
+        "detail_wakati": [
+            "動物",
+            "植物",
+            "空気",
+            "酸素",
+            "二酸化炭素",
+            "仕組み"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "吸水",
+        "another_word": [],
+        "detail": "植物が根から水を吸い上げること。",
+        "detail_wakati": [
+            "植物"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "蒸散",
+        "another_word": [],
+        "detail": "根から吸い上げられた水が水蒸気になって葉の気孔から出ていくこと。",
+        "detail_wakati": [
+            "水蒸気",
+            "気孔"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "道管",
+        "another_word": [],
+        "detail": "根から吸収された水や、水に溶けた肥料分の通り道となる管のこと。",
+        "detail_wakati": [
+            "吸収",
+            "肥料",
+            "通り道"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "根毛",
+        "another_word": [],
+        "detail": "根の先端より少しもとの部分に見られる、綿毛のようなもの。",
+        "detail_wakati": [
+            "先端",
+            "もと",
+            "部分",
+            "綿毛"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "師管",
+        "another_word": [
+            "しかん"
+        ],
+        "detail": "葉で作られた養分が、水に溶けやすい物質に変えられた後に通る管のこと。",
+        "detail_wakati": [
+            "養分",
+            "物質"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "維管束",
+        "another_word": [],
+        "detail": "道管と師管の集まりで、根から茎を通り、葉までつながっているもの。",
+        "detail_wakati": [
+            "道管",
+            "師管",
+            "集まり"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "消化",
+        "another_word": [],
+        "detail": "体内で、食物を吸収されやすい物質に分解すること。",
+        "detail_wakati": [
+            "体内",
+            "食物",
+            "吸収",
+            "物質",
+            "分解"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "吸収",
+        "another_word": [],
+        "detail": "分解された物質などを体内に取り込むこと。",
+        "detail_wakati": [
+            "分解",
+            "物質",
+            "体内"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "消化酵素",
+        "another_word": [],
+        "detail": "消化液に含まれ、食物を分解し、吸収されやすい物質にするもの。",
+        "detail_wakati": [
+            "消化",
+            "食物",
+            "分解",
+            "吸収",
+            "物質"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "アミラーゼ",
+        "another_word": [],
+        "detail": "主に唾液に含まれている、デンプンを分解する消化酵素。",
+        "detail_wakati": [
+            "唾液",
+            "デンプン",
+            "分解",
+            "消化酵素"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "ペプシン",
+        "another_word": [],
+        "detail": "主に胃にある、タンパク質を分解する消化酵素。",
+        "detail_wakati": [
+            "タンパク質",
+            "分解",
+            "消化酵素"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "柔毛",
+        "another_word": [],
+        "detail": "小腸の内側の壁の表面の細かい突起のこと。",
+        "detail_wakati": [
+            "小腸",
+            "内側",
+            "表面",
+            "突起"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "肺呼吸",
+        "another_word": [],
+        "detail": "取り込まれた酸素と、血液中の二酸化炭素が、肺で交換される一連のはたらきのこと。",
+        "detail_wakati": [
+            "酸素",
+            "血液",
+            "二酸化炭素",
+            "交換",
+            "一連",
+            "はたらき"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "動脈血",
+        "another_word": [],
+        "detail": "酸素を多く含む血液のこと。",
+        "detail_wakati": [
+            "酸素",
+            "多く",
+            "血液"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "静脈血",
+        "another_word": [],
+        "detail": "二酸化炭素を多く含む血液のこと。",
+        "detail_wakati": [
+            "二酸化炭素",
+            "多く",
+            "血液"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "細胞による呼吸",
+        "another_word": [
+            "細胞呼吸",
+            "細胞の呼吸"
+        ],
+        "detail": "細胞に酸素が取り込まれ、養分を使ってエネルギーを取り出し、二酸化炭素が放出されるはたらきのこと。",
+        "detail_wakati": [
+            "細胞",
+            "酸素",
+            "養分",
+            "エネルギー",
+            "二酸化炭素",
+            "放出",
+            "はたらき"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "動脈",
+        "another_word": [],
+        "detail": "心臓から送り出される血液が流れる血管のこと。",
+        "detail_wakati": [
+            "心臓",
+            "血液",
+            "血管"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "静脈",
+        "another_word": [],
+        "detail": "心臓へ戻っていく血液が流れる血管のこと。",
+        "detail_wakati": [
+            "心臓",
+            "血液",
+            "血管"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "毛細血管",
+        "another_word": [],
+        "detail": "動脈と静脈の間に網の目のように張り巡らされている細い血管のこと。",
+        "detail_wakati": [
+            "動脈",
+            "静脈",
+            "網の目",
+            "血管"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "体循環",
+        "another_word": [],
+        "detail": "心臓から肺以外の全身を通って心臓に戻る血液の流れのこと。",
+        "detail_wakati": [
+            "心臓",
+            "全身",
+            "心臓",
+            "血液",
+            "流れ"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "肺循環",
+        "another_word": [],
+        "detail": "心臓から肺、肺から心臓という血液の流れのこと。",
+        "detail_wakati": [
+            "心臓",
+            "心臓",
+            "血液",
+            "流れ"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "赤血球",
+        "another_word": [],
+        "detail": "酸素を運ぶ血液の成分のこと。",
+        "detail_wakati": [
+            "酸素",
+            "血液",
+            "成分"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "白血球",
+        "another_word": [],
+        "detail": "体の外から侵入してきた細菌を分解するなどして体を守る血液の成分のこと。",
+        "detail_wakati": [
+            "侵入",
+            "細菌",
+            "分解",
+            "血液",
+            "成分"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "血しょう",
+        "another_word": [
+            "血漿"
+        ],
+        "detail": "血液の成分で、養分や不要な物質などを運んでいる透明な液体のこと。",
+        "detail_wakati": [
+            "血液",
+            "成分",
+            "養分",
+            "不要",
+            "物質",
+            "透明",
+            "液体"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "組織液",
+        "another_word": [],
+        "detail": "血液と細胞との物質のやり取りのなかだちをする、細胞の周りを満たしている液体のこと。",
+        "detail_wakati": [
+            "血液",
+            "細胞",
+            "物質",
+            "やり取り",
+            "なかだち",
+            "細胞",
+            "周り",
+            "液体"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "尿",
+        "another_word": [],
+        "detail": "腎臓で血液中から取り除かれる不要な物質を多く含むもの。",
+        "detail_wakati": [
+            "腎臓",
+            "血液",
+            "不要",
+            "物質",
+            "多く"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "感覚器官",
+        "another_word": [],
+        "detail": "外界から刺激を受け取る器官のこと。",
+        "detail_wakati": [
+            "外界",
+            "刺激",
+            "器官"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "感覚神経",
+        "another_word": [],
+        "detail": "感覚器官から中枢神経へ信号を伝える神経のこと。",
+        "detail_wakati": [
+            "感覚",
+            "器官",
+            "中枢",
+            "神経",
+            "信号",
+            "神経"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "中枢神経",
+        "another_word": [],
+        "detail": "脳や脊髄のことで、判断や命令を行う神経のこと。",
+        "detail_wakati": [
+            "脊髄",
+            "判断",
+            "命令",
+            "神経"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "末しょう神経",
+        "another_word": [
+            "末梢神経"
+        ],
+        "detail": "中枢神経から枝分かれして全身に広がる神経のこと。",
+        "detail_wakati": [
+            "中枢",
+            "神経",
+            "枝分かれ",
+            "全身",
+            "神経"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "神経系",
+        "another_word": [],
+        "detail": "中枢神経、末しょう神経の総称。",
+        "detail_wakati": [
+            "中枢",
+            "神経",
+            "末しょう",
+            "神経",
+            "総称"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "運動神経",
+        "another_word": [],
+        "detail": "中枢神経から運動器官へ信号を伝える神経のこと。",
+        "detail_wakati": [
+            "中枢",
+            "神経",
+            "運動",
+            "器官",
+            "信号",
+            "神経"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "生物学",
+        "word": "反射",
+        "another_word": [],
+        "detail": "刺激を受けて意識とは無関係に決まった反応が起こること。",
+        "detail_wakati": [
+            "刺激",
+            "受けて",
+            "意識",
+            "無関係",
+            "反応"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "気象",
+        "another_word": [],
+        "detail": "大気中で起こる様々な現象のこと。",
+        "detail_wakati": [
+            "大気中",
+            "様々",
+            "現象"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "気温",
+        "another_word": [],
+        "detail": "大気の温度のこと。",
+        "detail_wakati": [
+            "大気",
+            "温度"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "湿度",
+        "another_word": [],
+        "detail": "空気の湿り具合のこと。",
+        "detail_wakati": [
+            "空気",
+            "湿り",
+            "具合"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "大気圧",
+        "another_word": [
+            "気圧"
+        ],
+        "detail": "上空にある空気が地球上のものに加える、重力による圧力のこと。",
+        "detail_wakati": [
+            "上空",
+            "空気",
+            "地球",
+            "重力",
+            "圧力"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "風向",
+        "another_word": [],
+        "detail": "風の吹いてくる方位のこと。",
+        "detail_wakati": [
+            "方位"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "風力",
+        "another_word": [],
+        "detail": "風の吹く強さのこと。",
+        "detail_wakati": []
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "風速",
+        "another_word": [],
+        "detail": "風の速さのこと。",
+        "detail_wakati": [
+            "速さ"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "圧力",
+        "another_word": [],
+        "detail": "物体同士が触れ合う面にはたらく単位面積あたりの力のこと。",
+        "detail_wakati": [
+            "物体",
+            "同士",
+            "単位",
+            "面積",
+            "あたり"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "等圧線",
+        "another_word": [],
+        "detail": "気圧の値の等しい地点を結んだなめらかな曲線のこと。",
+        "detail_wakati": [
+            "気圧",
+            "地点",
+            "なめらか",
+            "曲線"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "高気圧",
+        "another_word": [],
+        "detail": "中心部の気圧が、周辺部より高い部分のこと。",
+        "detail_wakati": [
+            "中心部",
+            "気圧",
+            "周辺部",
+            "部分"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "低気圧",
+        "another_word": [],
+        "detail": "中心部の気圧が、周辺部より低い部分のこと。",
+        "detail_wakati": [
+            "中心部",
+            "気圧",
+            "周辺部",
+            "部分"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "露点",
+        "another_word": [],
+        "detail": "水蒸気が凝結し始める時の温度のこと。",
+        "detail_wakati": [
+            "水蒸気",
+            "凝結",
+            "温度"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "飽和水蒸気量",
+        "another_word": [],
+        "detail": "1立方メートルの空気が含むことのできる水蒸気の最大質量のこと。",
+        "detail_wakati": [
+            "立方メートル",
+            "空気",
+            "水蒸気",
+            "最大",
+            "質量"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "霧",
+        "another_word": [],
+        "detail": "空気中の水蒸気が水滴になって、地表付近に浮かんでいる現象のこと。",
+        "detail_wakati": [
+            "空気",
+            "水蒸気",
+            "水滴",
+            "地表",
+            "付近",
+            "現象"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "水の循環",
+        "another_word": [
+            "水循環"
+        ],
+        "detail": "地表の大気の間で、水が、液体、気体、固体と状態を変えながら循環していること。",
+        "detail_wakati": [
+            "地表",
+            "大気",
+            "液体",
+            "気体",
+            "固体",
+            "状態",
+            "循環"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "気団",
+        "another_word": [],
+        "detail": "気温や湿度が一様な空気のかたまりのこと。",
+        "detail_wakati": [
+            "気温",
+            "湿度",
+            "一様",
+            "空気"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "前線面",
+        "another_word": [],
+        "detail": "空気や湿度などの性質の異なる空気のかたまりが接した時にできる境の面のこと。",
+        "detail_wakati": [
+            "空気",
+            "湿度",
+            "性質",
+            "空気"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "前線",
+        "another_word": [],
+        "detail": "前線面と地表面が接した部分のこと。",
+        "detail_wakati": [
+            "前線",
+            "地表",
+            "部分"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "寒冷前線",
+        "another_word": [],
+        "detail": "寒気が暖気の下に潜り込み、暖気を押し上げながら進む前線のこと。",
+        "detail_wakati": [
+            "寒気",
+            "暖気",
+            "暖気",
+            "前線"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "温暖前線",
+        "another_word": [],
+        "detail": "暖気が寒気の上にはい上がり、寒気を押しやりながら進む前線のこと。",
+        "detail_wakati": [
+            "暖気",
+            "寒気",
+            "寒気",
+            "前線"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "閉そく前線",
+        "another_word": [
+            "閉塞前辺"
+        ],
+        "detail": "寒冷前線が温暖前線に追いついてできる前線のこと。",
+        "detail_wakati": [
+            "寒冷前線",
+            "温暖前線",
+            "前線"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "停滞前線",
+        "another_word": [],
+        "detail": "寒気と暖気がぶつかり合い、ほとんど位置が動かない前線のこと。",
+        "detail_wakati": [
+            "寒気",
+            "暖気",
+            "位置",
+            "前線"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "温帯低気圧",
+        "another_word": [],
+        "detail": "中緯度帯で発生し、前線を伴うことが多い低気圧のこと。",
+        "detail_wakati": [
+            "緯度",
+            "発生",
+            "前線",
+            "低気圧"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "偏西風",
+        "another_word": [],
+        "detail": "中緯度帯の上空を西から東に向かう大気の動きのこと。",
+        "detail_wakati": [
+            "緯度",
+            "上空",
+            "大気",
+            "動き"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "季節風",
+        "another_word": [],
+        "detail": "大陸と海洋のあたたまり方の違いによって生じる、季節に特徴的な風のこと。",
+        "detail_wakati": [
+            "大陸",
+            "海洋",
+            "違い",
+            "季節",
+            "特徴",
+            "風のこ"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "海陸風",
+        "another_word": [],
+        "detail": "昼は海から陸に、夜は陸から海に向かって吹く風のこと。",
+        "detail_wakati": [
+            "風のこ"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "シベリア高気圧",
+        "another_word": [],
+        "detail": "冬の時期にユーラシア大陸が冷やされることで、大陸上で成長する高気圧のこと。",
+        "detail_wakati": [
+            "時期",
+            "ユーラシア大陸",
+            "陸上",
+            "成長",
+            "高気圧"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "シベリア気団",
+        "another_word": [],
+        "detail": "シベリア高気圧によって作られる気団のこと。",
+        "detail_wakati": [
+            "シベリア高気圧",
+            "気団"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "太平洋高気圧",
+        "another_word": [],
+        "detail": "夏に日本の南東で成長する高気圧のこと。",
+        "detail_wakati": [
+            "日本",
+            "南東",
+            "成長",
+            "高気圧"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "小笠原気団",
+        "another_word": [],
+        "detail": "太平洋高気圧によって作られる気団のこと。",
+        "detail_wakati": [
+            "太平洋高気圧",
+            "気団"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "移動性高気圧",
+        "another_word": [],
+        "detail": "春と秋によく見られる、日本列島付近を次々に通り高気圧のこと。",
+        "detail_wakati": [
+            "日本列島",
+            "付近",
+            "通り",
+            "高気圧"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "つゆ",
+        "another_word": [
+            "梅雨"
+        ],
+        "detail": "日本列島付近で停滞前線が停滞し、雨やくもりの日が多くなる、初夏の時期のこと。",
+        "detail_wakati": [
+            "日本列島",
+            "付近",
+            "停滞前線",
+            "停滞",
+            "初夏",
+            "時期"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "梅雨前線",
+        "another_word": [],
+        "detail": "梅雨の時期にできる停滞前線のこと。",
+        "detail_wakati": [
+            "梅雨",
+            "時期",
+            "停滞前線"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "秋雨前線",
+        "another_word": [],
+        "detail": "夏の終りにできる停滞前線のこと。",
+        "detail_wakati": [
+            "夏の終り",
+            "停滞前線"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "地学",
+        "word": "台風",
+        "another_word": [],
+        "detail": "熱帯低気圧のうち、最大風速が約17m/s以上のもの。",
+        "detail_wakati": [
+            "熱帯低気圧",
+            "最大",
+            "風速",
+            "17m"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "静電気",
+        "another_word": [],
+        "detail": "物体の電気のバランスが崩れ、プラスやマイナスの電気を帯びた状態が現れた電気のこと。",
+        "detail_wakati": [
+            "物体",
+            "電気",
+            "バランス",
+            "プラス",
+            "マイナス",
+            "電気",
+            "状態",
+            "電気"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "帯電",
+        "another_word": [],
+        "detail": "物体が電気を帯びること。",
+        "detail_wakati": [
+            "物体",
+            "電気"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "放電",
+        "another_word": [],
+        "detail": "溜まった電気が流れ出したり、空間を移動したりする現象のこと。",
+        "detail_wakati": [
+            "電気",
+            "空間",
+            "移動",
+            "現象"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "真空放電",
+        "another_word": [],
+        "detail": "気体の圧力を小さくした空間に電流が流れる現象のこと。",
+        "detail_wakati": [
+            "気体",
+            "圧力",
+            "空間",
+            "電流",
+            "現象"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "陰極線",
+        "another_word": [],
+        "detail": "真空放電管に蛍光板の入ったものを使うと、電流の道筋に沿って傾向版が光る。この時の蛍光板を光らせる電子の流れのこと。",
+        "detail_wakati": [
+            "真空",
+            "放電",
+            "蛍光板",
+            "電流",
+            "道筋",
+            "傾向",
+            "蛍光板",
+            "電子",
+            "流れ"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "電子",
+        "another_word": [],
+        "detail": "マイナスの電気を帯びた地位なさ粒子のこと。",
+        "detail_wakati": [
+            "マイナス",
+            "電気",
+            "地位",
+            "粒子"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "放射線",
+        "another_word": [],
+        "detail": "α線、β線、γ線、X線などといった、人工的なものから、自然界にも存在するもの。",
+        "detail_wakati": [
+            "α線",
+            "β線",
+            "γ線",
+            "X線",
+            "人工",
+            "自然界",
+            "存在"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "放射性物質",
+        "another_word": [],
+        "detail": "放射線を出す物質のこと。",
+        "detail_wakati": [
+            "放射線",
+            "物質"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "回路",
+        "another_word": [
+            "電気回路"
+        ],
+        "detail": "電源、導線、電気を利用するところから成り立っている電流が流れる道筋のこと。",
+        "detail_wakati": [
+            "電源",
+            "導線",
+            "電気",
+            "利用",
+            "電流",
+            "道筋"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "直列回路",
+        "another_word": [],
+        "detail": "一本の道筋でつながっている回路のこと。",
+        "detail_wakati": [
+            "一本",
+            "道筋",
+            "回路"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "並列回路",
+        "another_word": [],
+        "detail": "枝分かれした道筋でつながっている回路のこと。",
+        "detail_wakati": [
+            "枝分かれ",
+            "道筋",
+            "回路"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "回路図",
+        "another_word": [],
+        "detail": "電気用図記号で回路を表したもの。",
+        "detail_wakati": [
+            "電気用図記号",
+            "回路"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "アンペア",
+        "another_word": [
+            "A",
+            "Ａ"
+        ],
+        "detail": "電流の大きさを表す、アルファベット一文字の単位。",
+        "detail_wakati": [
+            "電流",
+            "アルファベット",
+            "文字",
+            "単位"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "電圧",
+        "another_word": [],
+        "detail": "回路に電流を流そうとするはたらきのこと。",
+        "detail_wakati": [
+            "回路",
+            "電流",
+            "はたらき"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "ボルト",
+        "another_word": [
+            "V",
+            "Ｖ"
+        ],
+        "detail": "電圧の大きさを表す単位。",
+        "detail_wakati": [
+            "電圧",
+            "単位"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "電気抵抗",
+        "another_word": [
+            "抵抗"
+        ],
+        "detail": "電流の流れにくさのこと。",
+        "detail_wakati": [
+            "電流"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "オーム",
+        "another_word": [
+            "Ω"
+        ],
+        "detail": "抵抗の大きさを表す単位。",
+        "detail_wakati": [
+            "抵抗",
+            "単位"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "オームの法則",
+        "another_word": [],
+        "detail": "抵抗器を流れる電流の大きさは、抵抗器の両端に加わる電圧の大きさに比例するという法則。",
+        "detail_wakati": [
+            "抵抗器",
+            "電流",
+            "抵抗器",
+            "両端",
+            "電圧",
+            "比例",
+            "法則"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "導体",
+        "another_word": [],
+        "detail": "金属のように抵抗が小さく、電気を通しやすい物質のこと。",
+        "detail_wakati": [
+            "金属",
+            "抵抗",
+            "電気",
+            "物質"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "不導体",
+        "another_word": [
+            "絶縁体"
+        ],
+        "detail": "ガラスやゴムのように抵抗がきわめて大きく、電気をほとんど通さない物質のこと。",
+        "detail_wakati": [
+            "ガラス",
+            "ゴム",
+            "抵抗",
+            "電気",
+            "物質"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "半導体",
+        "another_word": [],
+        "detail": "導体と不導体の中間の性質を持つ物質のこと。",
+        "detail_wakati": [
+            "導体",
+            "不導体",
+            "中間",
+            "性質",
+            "物質"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "電気エネルギー",
+        "another_word": [],
+        "detail": "電気の持つエネルギーのこと。",
+        "detail_wakati": [
+            "電気",
+            "エネルギー"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "電力",
+        "another_word": [
+            "消費電力"
+        ],
+        "detail": "1秒間あたりに使われる電気エネルギーの大きさを表す量のこと。",
+        "detail_wakati": [
+            "1秒間",
+            "あたり",
+            "電気",
+            "エネルギー"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "ワット",
+        "another_word": [
+            "W",
+            "Ｗ"
+        ],
+        "detail": "電力の単位のこと。",
+        "detail_wakati": [
+            "電力",
+            "単位"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "熱量",
+        "another_word": [],
+        "detail": "電熱線などに電流を流した時に発生する熱の量のこと。",
+        "detail_wakati": [
+            "電熱",
+            "電流",
+            "発生"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "ジュール",
+        "another_word": [
+            "J",
+            "Ｊ"
+        ],
+        "detail": "熱量、電力量、エネルギーの単位のこと。",
+        "detail_wakati": [
+            "熱量",
+            "電力量",
+            "エネルギーの単位"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "電力量",
+        "another_word": [],
+        "detail": "電熱線などに電流を一定時間流した時に消費される電気エネルギーの総量のこと。",
+        "detail_wakati": [
+            "電熱",
+            "電流",
+            "一定",
+            "時間",
+            "消費",
+            "電気",
+            "エネルギー",
+            "総量"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "磁界",
+        "another_word": [
+            "磁場"
+        ],
+        "detail": "磁力がはたらく空間のこと。",
+        "detail_wakati": [
+            "磁力",
+            "空間"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "磁界の向き",
+        "another_word": [
+            "磁場の向き"
+        ],
+        "detail": "磁針や磁石のN極が示す向きのこと。",
+        "detail_wakati": [
+            "磁針",
+            "磁石",
+            "向き"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "磁力線",
+        "another_word": [],
+        "detail": "磁界の様子を表した線のこと。",
+        "detail_wakati": [
+            "磁界",
+            "様子"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "電磁誘導",
+        "another_word": [],
+        "detail": "コイル内部の磁界が変化すると、コイルに電流を流そうとする電圧が生じる現象のこと。",
+        "detail_wakati": [
+            "コイル",
+            "内部",
+            "磁界",
+            "変化",
+            "コイル",
+            "電流",
+            "電圧",
+            "現象"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "誘導電流",
+        "another_word": [],
+        "detail": "電磁誘導によって流れる電流のこと。",
+        "detail_wakati": [
+            "電磁誘導",
+            "電流"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "直流",
+        "another_word": [],
+        "detail": "乾電池など、一定の向きに流れる電流のこと。",
+        "detail_wakati": [
+            "乾電池",
+            "一定",
+            "向き",
+            "電流"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "交流",
+        "another_word": [],
+        "detail": "コンセントから出る電流などと言った、向きが周期的に変化数電流のこと。",
+        "detail_wakati": [
+            "コンセント",
+            "電流",
+            "向き",
+            "周期",
+            "変化",
+            "電流"
+        ]
+    },
+    {
+        "grade": "2",
+        "field": "物理学",
+        "word": "周波数",
+        "another_word": [],
+        "detail": "1秒あたりの波の繰り返しの数のこと。",
+        "detail_wakati": [
+            "1秒",
+            "あたり",
+            "繰り返し",
+            "数"
+        ]
+    }
+]
