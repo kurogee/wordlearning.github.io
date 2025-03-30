@@ -67,7 +67,13 @@
 
             #table_for_search > tbody > tr > .details,
             #table_for_search > thead > tr > .details {
-                width: 50%;
+                width: 40%;
+                overflow-x: auto;
+            }
+
+            #table_for_search > tbody > tr > .star,
+            #table_for_search > thead > tr > .star {
+                width: 10%;
                 overflow-x: auto;
             }
 
@@ -96,8 +102,37 @@
             <div id="result" class="box"></div>
             <br>
         </div>
+        <hr>
 
         <script>
+            function saveWord(word) {
+                // localStorageに保存
+                let savedWords = JSON.parse(localStorage.getItem("savedWords")) || [];
+                if (!savedWords.includes(word)) {
+                    savedWords.push(word);
+                    localStorage.setItem("savedWords", JSON.stringify(savedWords));
+                    alert("保存しました");
+                } else {
+                    alert("すでに保存されています");
+                }
+            }
+
+            function deleteWord(word) {
+                // localStorageから削除
+                let savedWords = JSON.parse(localStorage.getItem("savedWords")) || [];
+                const index = savedWords.indexOf(word);
+                if (index !== -1) {
+                    savedWords.splice(index, 1);
+                    localStorage.setItem("savedWords", JSON.stringify(savedWords));
+                    alert("削除しました");
+                    location.reload();
+                } else {
+                    alert("保存されていません");
+                }
+            }
+
+            let jsonData;
+
             // jsonファイルの読み込み
             $.getJSON("../model/true_all_english_words.json", function(data) {
                 // word、meaning、Detailに分ける
@@ -136,6 +171,8 @@
                 detail = detail.map(function(item) {
                     return item[0];
                 });
+
+                jsonData = { word: word, meaning: meaning, detail: detail };
 
                 // Enterキーで検索
                 $("#enter_text").keypress(function(e) {
@@ -187,6 +224,7 @@
                                         <th class="words">単語</th>
                                         <th class="meanings">意味</th>
                                         <th class="details">詳細</th>
+                                        <th class="star">保存</th>
                                     </tr>
                                 </thead>
                                 <tbody>`;
@@ -198,6 +236,7 @@
                                         <td class="words">${word[index]}</td>
                                         <td class="meanings">${meaning[index]}</td>
                                         <td class="details">${detail[index]}</td>
+                                        <td class="star"><button class="button" onclick="saveWord('${word[index]}')">★</button></td>
                                     </tr>`);
                                 } else {
                                     resolve('');
@@ -212,6 +251,7 @@
                                             <th class="words">単語</th>
                                             <th class="meanings">意味</th>
                                             <th class="details">詳細</th>
+                                            <th class="star">保存</th>
                                         </tr>
                                     </thead>
                                     <tbody>`;
@@ -254,6 +294,7 @@
                                         <td class="words">${word[index]}</td>
                                         <td class="meanings">${meaning[index]}</td>
                                         <td class="details">${detail[index]}</td>
+                                        <td class="star"><button class="button" onclick="saveWord('${word[index]}')">★</button></td>
                                     </tr>`);
                                 } else {
                                     resolve('');
@@ -284,11 +325,50 @@
                         $("#enter_text").focus();
                     }
                 });
+
+                // localStorageから保存した単語を取得
+                let savedWords = JSON.parse(localStorage.getItem("savedWords")) || [];
+                if (savedWords.length > 0) {
+                    savedWords.forEach(function(word) {
+                        let meaning = jsonData.meaning[jsonData.word.indexOf(word)];
+                        let detail = jsonData.detail[jsonData.word.indexOf(word)];
+
+                        $("#saved_words").append(`
+                            <tr>
+                                <td class="words saved_words">${word}</td>
+                                <td class="meanings saved_meaning">${meaning}</td>
+                                <td class="details saved_details">${detail}</td>
+                                <td class="star"><button class="button" onclick="deleteWord('${word}')">×</button></td>
+                            </tr>`);
+                    });
+                } else {
+                    $("#saved_words").append(`
+                        <tr>
+                            <td colspan="4" style="text-align: center;">保存された単語はありません</td>
+                        </tr>`);
+                }
             });
 
             window.addEventListener("DOMContentLoaded", function() {
                 $("#enter_text").focus();
             });
         </script>
+
+        <div id="box">
+            <h2>保存した単語</h2>
+            <table id="table_for_search">
+                <thead>
+                    <tr>
+                        <th class="words">単語</th>
+                        <th class="meanings">意味</th>
+                        <th class="details">詳細</th>
+                        <th class="star">削除</th>
+                    </tr>
+                </thead>
+                <tbody id="saved_words">
+
+                </tbody>
+            </table>
+        </div>
     </body>
 </html>
