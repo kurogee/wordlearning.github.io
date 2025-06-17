@@ -266,7 +266,8 @@
                             _data = await parse_text_to_json(original_data);
                         }
 
-                        let word = _data[Math.floor(Math.random() * _data.length)];
+                        let word_rand = Math.floor(Math.random() * _data.length);
+                        let word = _data[word_rand];
 
                         // wrong_list関係の処理
                         if (wrong_list.length > 0 && $("#check_wrong_questions").prop("checked")) {
@@ -353,11 +354,13 @@
                             // 正解数をlocalStorageに保存
                             localStorage.setItem("qaa_correct", parseInt(localStorage.getItem("qaa_correct")) + 1);
 
+
                             // もし正解数が50、100、300、500以上になったら、通知を表示
                             if (parseInt(localStorage.getItem("qaa_correct")) == 50) {
                                 $("#notification").text("バッジ：「一問一答正解数 50+」を獲得しました");
                                 $("#notification").css("background-color", "gold");
                                 $("#notification").show();
+
                                 // 2秒後に通知を非表示にする
                                 setTimeout(() => {
                                     $("#notification").hide();
@@ -366,6 +369,7 @@
                                 $("#notification").text("バッジ：「一問一答正解数 100+」を獲得しました");
                                 $("#notification").css("background-color", "gold");
                                 $("#notification").show();
+
                                 // 2秒後に通知を非表示にする
                                 setTimeout(() => {
                                     $("#notification").hide();
@@ -374,6 +378,7 @@
                                 $("#notification").text("バッジ：「一問一答正解数 300+」を獲得しました");
                                 $("#notification").css("background-color", "gold");
                                 $("#notification").show();
+
                                 // 2秒後に通知を非表示にする
                                 setTimeout(() => {
                                     $("#notification").hide();
@@ -382,6 +387,7 @@
                                 $("#notification").text("バッジ：「一問一答正解数 500+」を獲得しました");
                                 $("#notification").css("background-color", "gold");
                                 $("#notification").show();
+
                                 // 2秒後に通知を非表示にする
                                 setTimeout(() => {
                                     $("#notification").hide();

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <title>理科単語一問一答</title>
+        <title>地学基礎・用語一問一答</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="shortcut icon" href="../favicon.png" type="image/png">
-        <link rel="stylesheet" href="../pagestyle.css">
+        <link rel="shortcut icon" href="../../favicon.png" type="image/png">
+        <link rel="stylesheet" href="../../pagestyle.css">
         <style>
             #meaning1 {
                 background-color: red;
@@ -64,48 +64,24 @@
                 border-radius: 10px;
             }
         </style>
-        <script src="../jquery-3.7.1.min.js"></script>
+        <script src="../../jquery-3.7.1.min.js"></script>
     </head>
     <body>
         <div id="box">
-            <h2>理科単語一問一答</h2>
-            <a href="../index.html" class="link_color">＜　インデックスへ戻る　＞</a><br>
-            <p>
-                ひたすら用語を当てるクイズです。<br>
-                <details>
-                    <summary>今、中学生の皆さんへ</summary>
-                    <p>
-                        中学校の理科の勉強は単語も計算も覚えることが大変だと思いますが、<br>
-                        それがどこに役立つかを考えてみると意外と面白くなったりします。<br>
-                        僕は工業高校生なのでもっぱら電気の計算ばっかりしていますが、<br>
-                        「なんで電化製品をたくさん使うとブレーカーは落ちるのか？」<br>
-                        「なんで家にあるコンセントはどれも100Vなのか？」<br>
-                        一見難しいと思われがちですが、2年生の電気の授業を理解すれば簡単に説明できます。<br><br>
-                        ...とにかく、中学校は勉強も人間関係も一番大変な時期です。<br>
-                        今の中学校生活を楽しみつつ、勉強も程々に頑張ってくださいね。<br>
-                        2024年度　M中学校卒業生より<br><br>
-                        <small>三年生の物理・地学分野の用語が無いのはスミマセン...</small>
-                    </p>
-                </details>
-            </p>
+            <h2>地学用語一問一答</h2>
         </div>
         <br>
         <div id="box">
             <br>
             <div id="box">
                 <!-- どこから問題を出すかcheckboxで選択する -->
-                <p>問題に表示する学年・分野</p>
+                <p>問題に表示する分野</p>
                 <table>
                     <tr>
-                        <td><label>1年生: <input type="checkbox" name="1" class="grade" checked></label></td>
-                        <td><label>2年生: <input type="checkbox" name="2" class="grade" checked></label></td>
-                        <td><label>3年生 (化学と生物のみ): <input type="checkbox" name="3" class="grade" checked></label></td>
+                        <td><label>1-1・地球の構造: <input type="checkbox" name="1章1節" class="field" checked></label></td>
                     </tr>
                     <tr>
-                        <td><label>化学分野: <input type="checkbox" name="化学" class="field" checked></label></td>
-                        <td><label>物理分野: <input type="checkbox" name="物理学" class="field" checked></label></td>
-                        <td><label>生物分野: <input type="checkbox" name="生物学" class="field" checked></label></td>
-                        <td><label>地学分野: <input type="checkbox" name="地学" class="field" checked></label></td>
+                        <td><label>1-2・プレートテクトニクス: <input type="checkbox" name="1章2節" class="field" checked></label></td>
                     </tr>
                 </table>
             </div>
@@ -195,30 +171,17 @@
                 return Array.from(resultIndexes);
             }
 
-            const quizJson = $.getJSON("../model/science.json", function(data) {
+            const quizJson = $.getJSON("./geoscience.json", function(data) {
                 return data;
             });
             
             function quiz() {
                 // クイズの問題を取得
                 let data = quizJson.responseJSON;
-                // 問題に表示する学年・分野を抽出
-                let grades = data.filter(function(item) {
-                    return $(".grade[name=" + item["grade"] + "]").prop("checked");
-                }).map(function(item) {
-                    return item["grade"];
-                });
-
-                let fields = data.filter(function(item) {
-                    return $(".field[name=" + item["field"] + "]").prop("checked");
-                }).map(function(item) {
-                    return item["field"];
-                });
-
-                // gradesとfieldsで共通するもののみを抽出
+                // 問題に表示する分野を抽出
                 data = data.filter(function(item) {
-                    return grades.includes(item["grade"]) && fields.includes(item["field"]);
-                });
+                    return $(".field[name=" + item["field"] + "]").prop("checked");
+                })
 
                 if (already_asked.length >= data.length) {
                     already_asked = [];
@@ -232,7 +195,7 @@
 
                 // 出題する問題の年と出来事を表示
                 $("#question").html(
-                    "<p>【" + question["grade"] + "年生 " + question["field"] + "の分野】</p>「" + question["detail"] + "」<br>に当てはまるものはどれでしょう？"
+                    "<p>「" + question["field"] + "」より</p>「" + question["detail"] + "」<br>に当てはまるものはどれでしょう？"
                 );
 
                 let answers = [question["word"]];

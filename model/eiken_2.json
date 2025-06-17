@@ -1,0 +1,9002 @@
+[
+    {
+        "id": "e2:0",
+        "word": "tell",
+        "meaning": "（動）分かる"
+    },
+    {
+        "id": "e2:1",
+        "word": "own",
+        "meaning": "（動）所有している"
+    },
+    {
+        "id": "e2:2",
+        "word": "last",
+        "meaning": "（動）続く"
+    },
+    {
+        "id": "e2:3",
+        "word": "point",
+        "meaning": "（動）指す"
+    },
+    {
+        "id": "e2:4",
+        "word": "long",
+        "meaning": "（動）熱望する"
+    },
+    {
+        "id": "e2:5",
+        "word": "hand",
+        "meaning": "（動）手渡す"
+    },
+    {
+        "id": "e2:6",
+        "word": "include",
+        "meaning": "（動）含む"
+    },
+    {
+        "id": "e2:7",
+        "word": "meet",
+        "meaning": "（動）会う"
+    },
+    {
+        "id": "e2:8",
+        "word": "form",
+        "meaning": "（動）組織する"
+    },
+    {
+        "id": "e2:9",
+        "word": "provide",
+        "meaning": "（動）提供する"
+    },
+    {
+        "id": "e2:10",
+        "word": "run",
+        "meaning": "（動）経営する"
+    },
+    {
+        "id": "e2:11",
+        "word": "face",
+        "meaning": "（動）直面する"
+    },
+    {
+        "id": "e2:12",
+        "word": "lead",
+        "meaning": "（動）導く"
+    },
+    {
+        "id": "e2:13",
+        "word": "pay",
+        "meaning": "（動）支払う"
+    },
+    {
+        "id": "e2:14",
+        "word": "increase",
+        "meaning": "（動）増加する"
+    },
+    {
+        "id": "e2:15",
+        "word": "book",
+        "meaning": "（動）予約する"
+    },
+    {
+        "id": "e2:16",
+        "word": "support",
+        "meaning": "（動）支持する"
+    },
+    {
+        "id": "e2:17",
+        "word": "control",
+        "meaning": "（動）抑制する"
+    },
+    {
+        "id": "e2:18",
+        "word": "offer",
+        "meaning": "（動）申し出る"
+    },
+    {
+        "id": "e2:19",
+        "word": "cost",
+        "meaning": "（動）費用がかかる"
+    },
+    {
+        "id": "e2:20",
+        "word": "force",
+        "meaning": "（動）強いる"
+    },
+    {
+        "id": "e2:21",
+        "word": "leave",
+        "meaning": "（動）出発する"
+    },
+    {
+        "id": "e2:22",
+        "word": "train",
+        "meaning": "（動）訓練する"
+    },
+    {
+        "id": "e2:23",
+        "word": "allow",
+        "meaning": "（動）許す"
+    },
+    {
+        "id": "e2:24",
+        "word": "continue",
+        "meaning": "（動）続ける"
+    },
+    {
+        "id": "e2:25",
+        "word": "involve",
+        "meaning": "（動）巻き込む"
+    },
+    {
+        "id": "e2:26",
+        "word": "produce",
+        "meaning": "（動）作る"
+    },
+    {
+        "id": "e2:27",
+        "word": "appear",
+        "meaning": "（動）現れる"
+    },
+    {
+        "id": "e2:28",
+        "word": "consider",
+        "meaning": "（動）よく考える"
+    },
+    {
+        "id": "e2:29",
+        "word": "cause",
+        "meaning": "（動）引き起こす"
+    },
+    {
+        "id": "e2:30",
+        "word": "require",
+        "meaning": "（動）必要とする"
+    },
+    {
+        "id": "e2:31",
+        "word": "share",
+        "meaning": "（動）共有する"
+    },
+    {
+        "id": "e2:32",
+        "word": "let",
+        "meaning": "（動）させる"
+    },
+    {
+        "id": "e2:33",
+        "word": "suggest",
+        "meaning": "（動）提案する"
+    },
+    {
+        "id": "e2:34",
+        "word": "add",
+        "meaning": "（動）加える"
+    },
+    {
+        "id": "e2:35",
+        "word": "care",
+        "meaning": "（動）気にかける"
+    },
+    {
+        "id": "e2:36",
+        "word": "land",
+        "meaning": "（動）着陸する"
+    },
+    {
+        "id": "e2:37",
+        "word": "develop",
+        "meaning": "（動）発達させる"
+    },
+    {
+        "id": "e2:38",
+        "word": "bear",
+        "meaning": "（動）耐える"
+    },
+    {
+        "id": "e2:39",
+        "word": "agree",
+        "meaning": "（動）同意する"
+    },
+    {
+        "id": "e2:40",
+        "word": "approach",
+        "meaning": "（動）近づく"
+    },
+    {
+        "id": "e2:41",
+        "word": "drive",
+        "meaning": "（動）ある状態にする"
+    },
+    {
+        "id": "e2:42",
+        "word": "describe",
+        "meaning": "（動）描写する"
+    },
+    {
+        "id": "e2:43",
+        "word": "remain",
+        "meaning": "（動）～のままである"
+    },
+    {
+        "id": "e2:44",
+        "word": "demand",
+        "meaning": "（動）強く要求する"
+    },
+    {
+        "id": "e2:45",
+        "word": "charge",
+        "meaning": "（動）請求する"
+    },
+    {
+        "id": "e2:46",
+        "word": "cover",
+        "meaning": "（動）覆う"
+    },
+    {
+        "id": "e2:47",
+        "word": "create",
+        "meaning": "（動）創造する"
+    },
+    {
+        "id": "e2:48",
+        "word": "accept",
+        "meaning": "（動）受け入れる"
+    },
+    {
+        "id": "e2:49",
+        "word": "raise",
+        "meaning": "（動）育てる"
+    },
+    {
+        "id": "e2:50",
+        "word": "exist",
+        "meaning": "（動）存在する"
+    },
+    {
+        "id": "e2:51",
+        "word": "apply",
+        "meaning": "（動）申し込む"
+    },
+    {
+        "id": "e2:52",
+        "word": "complete",
+        "meaning": "（動）完成する"
+    },
+    {
+        "id": "e2:53",
+        "word": "reduce",
+        "meaning": "（動）減らす"
+    },
+    {
+        "id": "e2:54",
+        "word": "contain",
+        "meaning": "（動）含む"
+    },
+    {
+        "id": "e2:55",
+        "word": "kill",
+        "meaning": "（動）殺す"
+    },
+    {
+        "id": "e2:56",
+        "word": "suppose",
+        "meaning": "（動）〜することになっている"
+    },
+    {
+        "id": "e2:57",
+        "word": "supply",
+        "meaning": "（動）供給する"
+    },
+    {
+        "id": "e2:58",
+        "word": "recognize",
+        "meaning": "（動）見分ける"
+    },
+    {
+        "id": "e2:59",
+        "word": "prepare",
+        "meaning": "（動）準備する"
+    },
+    {
+        "id": "e2:60",
+        "word": "serve",
+        "meaning": "（動）食事を出す"
+    },
+    {
+        "id": "e2:61",
+        "word": "lie",
+        "meaning": "（動）横になる"
+    },
+    {
+        "id": "e2:62",
+        "word": "park",
+        "meaning": "（動）駐車する"
+    },
+    {
+        "id": "e2:63",
+        "word": "manage",
+        "meaning": "（動）管理する"
+    },
+    {
+        "id": "e2:64",
+        "word": "realize",
+        "meaning": "（動）気が付く"
+    },
+    {
+        "id": "e2:65",
+        "word": "match",
+        "meaning": "（動）調和する"
+    },
+    {
+        "id": "e2:66",
+        "word": "prove",
+        "meaning": "（動）証明する"
+    },
+    {
+        "id": "e2:67",
+        "word": "publish",
+        "meaning": "（動）出版する"
+    },
+    {
+        "id": "e2:68",
+        "word": "aim",
+        "meaning": "（動）狙いを定める"
+    },
+    {
+        "id": "e2:69",
+        "word": "discuss",
+        "meaning": "（動）議論する"
+    },
+    {
+        "id": "e2:70",
+        "word": "argue",
+        "meaning": "（動）主張する"
+    },
+    {
+        "id": "e2:71",
+        "word": "damage",
+        "meaning": "（動）損害を与える"
+    },
+    {
+        "id": "e2:72",
+        "word": "regard",
+        "meaning": "（動）みなす"
+    },
+    {
+        "id": "e2:73",
+        "word": "affect",
+        "meaning": "（動）影響を与える"
+    },
+    {
+        "id": "e2:74",
+        "word": "improve",
+        "meaning": "（動）改良する"
+    },
+    {
+        "id": "e2:75",
+        "word": "suffer",
+        "meaning": "（動）苦しむ"
+    },
+    {
+        "id": "e2:76",
+        "word": "contact",
+        "meaning": "（動）連絡を取る"
+    },
+    {
+        "id": "e2:77",
+        "word": "identify",
+        "meaning": "（動）特定する"
+    },
+    {
+        "id": "e2:78",
+        "word": "encourage",
+        "meaning": "（動）励ます"
+    },
+    {
+        "id": "e2:79",
+        "word": "trust",
+        "meaning": "（動）信頼する"
+    },
+    {
+        "id": "e2:80",
+        "word": "compare",
+        "meaning": "（動）比較する"
+    },
+    {
+        "id": "e2:81",
+        "word": "announce",
+        "meaning": "（動）発表する"
+    },
+    {
+        "id": "e2:82",
+        "word": "treat",
+        "meaning": "（動）扱う"
+    },
+    {
+        "id": "e2:83",
+        "word": "mention",
+        "meaning": "（動）言及する"
+    },
+    {
+        "id": "e2:84",
+        "word": "gain",
+        "meaning": "（動）得る"
+    },
+    {
+        "id": "e2:85",
+        "word": "separate",
+        "meaning": "（動）離す"
+    },
+    {
+        "id": "e2:86",
+        "word": "judge",
+        "meaning": "（動）判断する"
+    },
+    {
+        "id": "e2:87",
+        "word": "avoid",
+        "meaning": "（動）避ける"
+    },
+    {
+        "id": "e2:88",
+        "word": "object",
+        "meaning": "（動）反対する"
+    },
+    {
+        "id": "e2:89",
+        "word": "transfer",
+        "meaning": "（動）移す"
+    },
+    {
+        "id": "e2:90",
+        "word": "remove",
+        "meaning": "（動）取り除く"
+    },
+    {
+        "id": "e2:91",
+        "word": "promise",
+        "meaning": "（動）約束する"
+    },
+    {
+        "id": "e2:92",
+        "word": "exchange",
+        "meaning": "（動）交換する"
+    },
+    {
+        "id": "e2:93",
+        "word": "extend",
+        "meaning": "（動）延長する"
+    },
+    {
+        "id": "e2:94",
+        "word": "replace",
+        "meaning": "（動）取りかえる"
+    },
+    {
+        "id": "e2:95",
+        "word": "warn",
+        "meaning": "（動）警告する"
+    },
+    {
+        "id": "e2:96",
+        "word": "refuse",
+        "meaning": "（動）拒否する"
+    },
+    {
+        "id": "e2:97",
+        "word": "prevent",
+        "meaning": "（動）妨げる"
+    },
+    {
+        "id": "e2:98",
+        "word": "beat",
+        "meaning": "（動）続けざまに打つ"
+    },
+    {
+        "id": "e2:99",
+        "word": "organize",
+        "meaning": "（動）組織する"
+    },
+    {
+        "id": "e2:100",
+        "word": "doubt",
+        "meaning": "（動）疑う"
+    },
+    {
+        "id": "e2:101",
+        "word": "transport",
+        "meaning": "（動）輸送する"
+    },
+    {
+        "id": "e2:102",
+        "word": "examine",
+        "meaning": "（動）検査する"
+    },
+    {
+        "id": "e2:103",
+        "word": "waste",
+        "meaning": "（動）浪費する"
+    },
+    {
+        "id": "e2:104",
+        "word": "ship",
+        "meaning": "（動）送る"
+    },
+    {
+        "id": "e2:105",
+        "word": "protect",
+        "meaning": "（動）保護する"
+    },
+    {
+        "id": "e2:106",
+        "word": "attend",
+        "meaning": "（動）出席する"
+    },
+    {
+        "id": "e2:107",
+        "word": "perform",
+        "meaning": "（動）演じる"
+    },
+    {
+        "id": "e2:108",
+        "word": "store",
+        "meaning": "（動）蓄える"
+    },
+    {
+        "id": "e2:109",
+        "word": "roll",
+        "meaning": "（動）転がす"
+    },
+    {
+        "id": "e2:110",
+        "word": "warm",
+        "meaning": "（動）警告する"
+    },
+    {
+        "id": "e2:111",
+        "word": "respect",
+        "meaning": "（動）尊敬する"
+    },
+    {
+        "id": "e2:112",
+        "word": "count",
+        "meaning": "（動）数える"
+    },
+    {
+        "id": "e2:113",
+        "word": "select",
+        "meaning": "（動）選ぶ"
+    },
+    {
+        "id": "e2:114",
+        "word": "employ",
+        "meaning": "（動）雇う"
+    },
+    {
+        "id": "e2:115",
+        "word": "survive",
+        "meaning": "（動）生き残る"
+    },
+    {
+        "id": "e2:116",
+        "word": "spread",
+        "meaning": "（動）広がる"
+    },
+    {
+        "id": "e2:117",
+        "word": "feed",
+        "meaning": "（動）食べ物を与える"
+    },
+    {
+        "id": "e2:118",
+        "word": "conduct",
+        "meaning": "（動）実施する"
+    },
+    {
+        "id": "e2:119",
+        "word": "fix",
+        "meaning": "（動）修理する"
+    },
+    {
+        "id": "e2:120",
+        "word": "request",
+        "meaning": "（動）頼む"
+    },
+    {
+        "id": "e2:121",
+        "word": "prefer",
+        "meaning": "（動）～のほうを好む"
+    },
+    {
+        "id": "e2:122",
+        "word": "escape",
+        "meaning": "（動）逃げる"
+    },
+    {
+        "id": "e2:123",
+        "word": "concentrate",
+        "meaning": "（動）集中する"
+    },
+    {
+        "id": "e2:124",
+        "word": "manufacture",
+        "meaning": "（動）製造する"
+    },
+    {
+        "id": "e2:125",
+        "word": "ignore",
+        "meaning": "（動）無視する"
+    },
+    {
+        "id": "e2:126",
+        "word": "divide",
+        "meaning": "（動）分割する"
+    },
+    {
+        "id": "e2:127",
+        "word": "arrange",
+        "meaning": "（動）取り決める"
+    },
+    {
+        "id": "e2:128",
+        "word": "switch",
+        "meaning": "（動）スイッチで切り替える"
+    },
+    {
+        "id": "e2:129",
+        "word": "lock",
+        "meaning": "（動）鍵をかける"
+    },
+    {
+        "id": "e2:130",
+        "word": "remind",
+        "meaning": "（動）思い出させる"
+    },
+    {
+        "id": "e2:131",
+        "word": "emphasize",
+        "meaning": "（動）強調する"
+    },
+    {
+        "id": "e2:132",
+        "word": "bend",
+        "meaning": "（動）曲げる"
+    },
+    {
+        "id": "e2:133",
+        "word": "locate",
+        "meaning": "（動）位置する"
+    },
+    {
+        "id": "e2:134",
+        "word": "spin",
+        "meaning": "（動）回る"
+    },
+    {
+        "id": "e2:135",
+        "word": "scare",
+        "meaning": "（動）怯えさせる"
+    },
+    {
+        "id": "e2:136",
+        "word": "upgrade",
+        "meaning": "（動）質を高める"
+    },
+    {
+        "id": "e2:137",
+        "word": "click",
+        "meaning": "（動）クリックする"
+    },
+    {
+        "id": "e2:138",
+        "word": "other",
+        "meaning": "（形）他の"
+    },
+    {
+        "id": "e2:139",
+        "word": "social",
+        "meaning": "（形）社会の"
+    },
+    {
+        "id": "e2:140",
+        "word": "public",
+        "meaning": "（形）公の"
+    },
+    {
+        "id": "e2:141",
+        "word": "general",
+        "meaning": "（形）一般的な"
+    },
+    {
+        "id": "e2:142",
+        "word": "present",
+        "meaning": "（形）現在の"
+    },
+    {
+        "id": "e2:143",
+        "word": "major",
+        "meaning": "（形）主要な"
+    },
+    {
+        "id": "e2:144",
+        "word": "either",
+        "meaning": "（形）どちらか"
+    },
+    {
+        "id": "e2:145",
+        "word": "available",
+        "meaning": "（形）利用可能な"
+    },
+    {
+        "id": "e2:146",
+        "word": "individual",
+        "meaning": "（形）個人的な"
+    },
+    {
+        "id": "e2:147",
+        "word": "past",
+        "meaning": "（形）過去の"
+    },
+    {
+        "id": "e2:148",
+        "word": "patient",
+        "meaning": "（形）忍耐強い"
+    },
+    {
+        "id": "e2:149",
+        "word": "sound",
+        "meaning": "（形）健全な"
+    },
+    {
+        "id": "e2:150",
+        "word": "economic",
+        "meaning": "（形）経済の"
+    },
+    {
+        "id": "e2:151",
+        "word": "likely",
+        "meaning": "（形）ありそうな"
+    },
+    {
+        "id": "e2:152",
+        "word": "particular",
+        "meaning": "（形）特定の"
+    },
+    {
+        "id": "e2:153",
+        "word": "certain",
+        "meaning": "（形）確信して"
+    },
+    {
+        "id": "e2:154",
+        "word": "common",
+        "meaning": "（形）共通の"
+    },
+    {
+        "id": "e2:155",
+        "word": "similar",
+        "meaning": "（形）類似した"
+    },
+    {
+        "id": "e2:156",
+        "word": "personal",
+        "meaning": "（形）個人の"
+    },
+    {
+        "id": "e2:157",
+        "word": "private",
+        "meaning": "（形）個人の"
+    },
+    {
+        "id": "e2:158",
+        "word": "financial",
+        "meaning": "（形）財政の"
+    },
+    {
+        "id": "e2:159",
+        "word": "official",
+        "meaning": "（形）公式の"
+    },
+    {
+        "id": "e2:160",
+        "word": "recent",
+        "meaning": "（形）最近の"
+    },
+    {
+        "id": "e2:161",
+        "word": "various",
+        "meaning": "（形）様々な"
+    },
+    {
+        "id": "e2:162",
+        "word": "current",
+        "meaning": "（形）現在の"
+    },
+    {
+        "id": "e2:163",
+        "word": "chief",
+        "meaning": "（形）第一の"
+    },
+    {
+        "id": "e2:164",
+        "word": "previous",
+        "meaning": "（形）以前の"
+    },
+    {
+        "id": "e2:165",
+        "word": "original",
+        "meaning": "（形）最初の"
+    },
+    {
+        "id": "e2:166",
+        "word": "specific",
+        "meaning": "（形）特定の"
+    },
+    {
+        "id": "e2:167",
+        "word": "successful",
+        "meaning": "（形）成功した"
+    },
+    {
+        "id": "e2:168",
+        "word": "aware",
+        "meaning": "（形）気づいて"
+    },
+    {
+        "id": "e2:169",
+        "word": "alternative",
+        "meaning": "（形）二者択一の"
+    },
+    {
+        "id": "e2:170",
+        "word": "effective",
+        "meaning": "（形）効果的な"
+    },
+    {
+        "id": "e2:171",
+        "word": "extra",
+        "meaning": "（形）余分の"
+    },
+    {
+        "id": "e2:172",
+        "word": "physical",
+        "meaning": "（形）身体の"
+    },
+    {
+        "id": "e2:173",
+        "word": "medical",
+        "meaning": "（形）医学の"
+    },
+    {
+        "id": "e2:174",
+        "word": "civil",
+        "meaning": "（形）市民の"
+    },
+    {
+        "id": "e2:175",
+        "word": "obvious",
+        "meaning": "（形）明らかな"
+    },
+    {
+        "id": "e2:176",
+        "word": "positive",
+        "meaning": "（形）肯定の"
+    },
+    {
+        "id": "e2:177",
+        "word": "environmental",
+        "meaning": "（形）環境の"
+    },
+    {
+        "id": "e2:178",
+        "word": "huge",
+        "meaning": "（形）巨大な"
+    },
+    {
+        "id": "e2:179",
+        "word": "practical",
+        "meaning": "（形）実用的な"
+    },
+    {
+        "id": "e2:180",
+        "word": "active",
+        "meaning": "（形）活動的な"
+    },
+    {
+        "id": "e2:181",
+        "word": "due",
+        "meaning": "（形）予定された"
+    },
+    {
+        "id": "e2:182",
+        "word": "ordinary",
+        "meaning": "（形）普通の"
+    },
+    {
+        "id": "e2:183",
+        "word": "empty",
+        "meaning": "（形）空の"
+    },
+    {
+        "id": "e2:184",
+        "word": "educational",
+        "meaning": "（形）教育の"
+    },
+    {
+        "id": "e2:185",
+        "word": "mental",
+        "meaning": "（形）精神の"
+    },
+    {
+        "id": "e2:186",
+        "word": "unlikely",
+        "meaning": "（形）ありそうにもない"
+    },
+    {
+        "id": "e2:187",
+        "word": "attractive",
+        "meaning": "（形）魅力的な"
+    },
+    {
+        "id": "e2:188",
+        "word": "rare",
+        "meaning": "（形）まれな"
+    },
+    {
+        "id": "e2:189",
+        "word": "terrible",
+        "meaning": "（形）ひどい"
+    },
+    {
+        "id": "e2:190",
+        "word": "classic",
+        "meaning": "（形）最高水準の"
+    },
+    {
+        "id": "e2:191",
+        "word": "unusual",
+        "meaning": "（形）普通でない"
+    },
+    {
+        "id": "e2:192",
+        "word": "electric",
+        "meaning": "（形）電気の"
+    },
+    {
+        "id": "e2:193",
+        "word": "nearby",
+        "meaning": "（形）すぐ近くの"
+    },
+    {
+        "id": "e2:194",
+        "word": "electronic",
+        "meaning": "（形）電子の"
+    },
+    {
+        "id": "e2:195",
+        "word": "confident",
+        "meaning": "（形）確信して"
+    },
+    {
+        "id": "e2:196",
+        "word": "violent",
+        "meaning": "（形）暴力的な"
+    },
+    {
+        "id": "e2:197",
+        "word": "frequent",
+        "meaning": "（形）頻繁な"
+    },
+    {
+        "id": "e2:198",
+        "word": "exact",
+        "meaning": "（形）正確な"
+    },
+    {
+        "id": "e2:199",
+        "word": "casual",
+        "meaning": "（形）カジュアルな"
+    },
+    {
+        "id": "e2:200",
+        "word": "portable",
+        "meaning": "（形）持ち運びできる"
+    },
+    {
+        "id": "e2:201",
+        "word": "poisonous",
+        "meaning": "（形）有毒な"
+    },
+    {
+        "id": "e2:202",
+        "word": "unhealthy",
+        "meaning": "（形）不健康な"
+    },
+    {
+        "id": "e2:203",
+        "word": "high-quality",
+        "meaning": "（形）高品質な"
+    },
+    {
+        "id": "e2:204",
+        "word": "surprising",
+        "meaning": "（形）驚くべき"
+    },
+    {
+        "id": "e2:205",
+        "word": "real-estate",
+        "meaning": "（形）不動産の"
+    },
+    {
+        "id": "e2:206",
+        "word": "boring",
+        "meaning": "（形）退屈な"
+    },
+    {
+        "id": "e2:207",
+        "word": "case",
+        "meaning": "（名）場合"
+    },
+    {
+        "id": "e2:208",
+        "word": "head",
+        "meaning": "（名）責任者"
+    },
+    {
+        "id": "e2:209",
+        "word": "result",
+        "meaning": "（名）結果"
+    },
+    {
+        "id": "e2:210",
+        "word": "fact",
+        "meaning": "（名）事実"
+    },
+    {
+        "id": "e2:211",
+        "word": "development",
+        "meaning": "（名）発達"
+    },
+    {
+        "id": "e2:212",
+        "word": "room",
+        "meaning": "（名）部屋"
+    },
+    {
+        "id": "e2:213",
+        "word": "effect",
+        "meaning": "（名）影響"
+    },
+    {
+        "id": "e2:214",
+        "word": "policy",
+        "meaning": "（名）政策"
+    },
+    {
+        "id": "e2:215",
+        "word": "view",
+        "meaning": "（名）視野"
+    },
+    {
+        "id": "e2:216",
+        "word": "concern",
+        "meaning": "（名）関心"
+    },
+    {
+        "id": "e2:217",
+        "word": "order",
+        "meaning": "（名）注文"
+    },
+    {
+        "id": "e2:218",
+        "word": "rate",
+        "meaning": "（名）割合"
+    },
+    {
+        "id": "e2:219",
+        "word": "law",
+        "meaning": "（名）法律"
+    },
+    {
+        "id": "e2:220",
+        "word": "experience",
+        "meaning": "（名）経験"
+    },
+    {
+        "id": "e2:221",
+        "word": "position",
+        "meaning": "（名）位置"
+    },
+    {
+        "id": "e2:222",
+        "word": "period",
+        "meaning": "（名）期間"
+    },
+    {
+        "id": "e2:223",
+        "word": "society",
+        "meaning": "（名）社会"
+    },
+    {
+        "id": "e2:224",
+        "word": "research",
+        "meaning": "（名）調査"
+    },
+    {
+        "id": "e2:225",
+        "word": "subject",
+        "meaning": "（名）話題"
+    },
+    {
+        "id": "e2:226",
+        "word": "community",
+        "meaning": "（名）地域社会"
+    },
+    {
+        "id": "e2:227",
+        "word": "value",
+        "meaning": "（名）価値"
+    },
+    {
+        "id": "e2:228",
+        "word": "deal",
+        "meaning": "（名）量"
+    },
+    {
+        "id": "e2:229",
+        "word": "design",
+        "meaning": "（名）デザイン"
+    },
+    {
+        "id": "e2:230",
+        "word": "education",
+        "meaning": "（名）教育"
+    },
+    {
+        "id": "e2:231",
+        "word": "practice",
+        "meaning": "（名）練習"
+    },
+    {
+        "id": "e2:232",
+        "word": "condition",
+        "meaning": "（名）状態"
+    },
+    {
+        "id": "e2:233",
+        "word": "sense",
+        "meaning": "（名）感覚"
+    },
+    {
+        "id": "e2:234",
+        "word": "detail",
+        "meaning": "（名）詳細"
+    },
+    {
+        "id": "e2:235",
+        "word": "decision",
+        "meaning": "（名）決定"
+    },
+    {
+        "id": "e2:236",
+        "word": "industry",
+        "meaning": "（名）産業"
+    },
+    {
+        "id": "e2:237",
+        "word": "staff",
+        "meaning": "（名）スタッフ"
+    },
+    {
+        "id": "e2:238",
+        "word": "means",
+        "meaning": "（名）手段"
+    },
+    {
+        "id": "e2:239",
+        "word": "section",
+        "meaning": "（名）区画"
+    },
+    {
+        "id": "e2:240",
+        "word": "activity",
+        "meaning": "（名）活動"
+    },
+    {
+        "id": "e2:241",
+        "word": "death",
+        "meaning": "（名）死"
+    },
+    {
+        "id": "e2:242",
+        "word": "project",
+        "meaning": "（名）計画"
+    },
+    {
+        "id": "e2:243",
+        "word": "department",
+        "meaning": "（名）部門"
+    },
+    {
+        "id": "e2:244",
+        "word": "date",
+        "meaning": "（名）データ"
+    },
+    {
+        "id": "e2:245",
+        "word": "evidence",
+        "meaning": "（名）証拠"
+    },
+    {
+        "id": "e2:246",
+        "word": "role",
+        "meaning": "（名）役割"
+    },
+    {
+        "id": "e2:247",
+        "word": "material",
+        "meaning": "（名）材料"
+    },
+    {
+        "id": "e2:248",
+        "word": "step",
+        "meaning": "（名）一歩"
+    },
+    {
+        "id": "e2:249",
+        "word": "amount",
+        "meaning": "（名）量"
+    },
+    {
+        "id": "e2:250",
+        "word": "benefit",
+        "meaning": "（名）利益"
+    },
+    {
+        "id": "e2:251",
+        "word": "rest",
+        "meaning": "（名）残り"
+    },
+    {
+        "id": "e2:252",
+        "word": "relationship",
+        "meaning": "（名）関係"
+    },
+    {
+        "id": "e2:253",
+        "word": "nature",
+        "meaning": "（名）自然"
+    },
+    {
+        "id": "e2:254",
+        "word": "method",
+        "meaning": "（名）方法"
+    },
+    {
+        "id": "e2:255",
+        "word": "movement",
+        "meaning": "（名）運動"
+    },
+    {
+        "id": "e2:256",
+        "word": "board",
+        "meaning": "（名）板"
+    },
+    {
+        "id": "e2:257",
+        "word": "feature",
+        "meaning": "（名）特徴"
+    },
+    {
+        "id": "e2:258",
+        "word": "theory",
+        "meaning": "（名）理論"
+    },
+    {
+        "id": "e2:259",
+        "word": "application",
+        "meaning": "（名）申し込み"
+    },
+    {
+        "id": "e2:260",
+        "word": "site",
+        "meaning": "（名）用地"
+    },
+    {
+        "id": "e2:261",
+        "word": "source",
+        "meaning": "（名）源"
+    },
+    {
+        "id": "e2:262",
+        "word": "pattern",
+        "meaning": "（名）模様"
+    },
+    {
+        "id": "e2:263",
+        "word": "loss",
+        "meaning": "（名）損失"
+    },
+    {
+        "id": "e2:264",
+        "word": "influence",
+        "meaning": "（名）影響"
+    },
+    {
+        "id": "e2:265",
+        "word": "purpose",
+        "meaning": "（名）目的"
+    },
+    {
+        "id": "e2:266",
+        "word": "pressure",
+        "meaning": "（名）圧力"
+    },
+    {
+        "id": "e2:267",
+        "word": "fear",
+        "meaning": "（名）恐れ"
+    },
+    {
+        "id": "e2:268",
+        "word": "population",
+        "meaning": "（名）人口"
+    },
+    {
+        "id": "e2:269",
+        "word": "knowledge",
+        "meaning": "（名）知識"
+    },
+    {
+        "id": "e2:270",
+        "word": "environment",
+        "meaning": "（名）環境"
+    },
+    {
+        "id": "e2:271",
+        "word": "success",
+        "meaning": "（名）成功"
+    },
+    {
+        "id": "e2:272",
+        "word": "region",
+        "meaning": "（名）地域"
+    },
+    {
+        "id": "e2:273",
+        "word": "statement",
+        "meaning": "（名）陳述"
+    },
+    {
+        "id": "e2:274",
+        "word": "choice",
+        "meaning": "（名）選択"
+    },
+    {
+        "id": "e2:275",
+        "word": "income",
+        "meaning": "（名）収入"
+    },
+    {
+        "id": "e2:276",
+        "word": "effort",
+        "meaning": "（名）努力"
+    },
+    {
+        "id": "e2:277",
+        "word": "technology",
+        "meaning": "（名）科学技術"
+    },
+    {
+        "id": "e2:278",
+        "word": "cell",
+        "meaning": "（名）細胞"
+    },
+    {
+        "id": "e2:279",
+        "word": "resource",
+        "meaning": "（名）資源"
+    },
+    {
+        "id": "e2:280",
+        "word": "degree",
+        "meaning": "（名）程度"
+    },
+    {
+        "id": "e2:281",
+        "word": "growth",
+        "meaning": "（名）成長"
+    },
+    {
+        "id": "e2:282",
+        "word": "treatment",
+        "meaning": "（名）扱い"
+    },
+    {
+        "id": "e2:283",
+        "word": "task",
+        "meaning": "（名）課題"
+    },
+    {
+        "id": "e2:284",
+        "word": "exercise",
+        "meaning": "（名）運動"
+    },
+    {
+        "id": "e2:285",
+        "word": "skill",
+        "meaning": "（名）技術"
+    },
+    {
+        "id": "e2:286",
+        "word": "economy",
+        "meaning": "（名）経済"
+    },
+    {
+        "id": "e2:287",
+        "word": "balance",
+        "meaning": "（名）釣り合い"
+    },
+    {
+        "id": "e2:288",
+        "word": "campaign",
+        "meaning": "（名）組織的活動"
+    },
+    {
+        "id": "e2:289",
+        "word": "responsibility",
+        "meaning": "（名）責任"
+    },
+    {
+        "id": "e2:290",
+        "word": "profit",
+        "meaning": "（名）利益"
+    },
+    {
+        "id": "e2:291",
+        "word": "duty",
+        "meaning": "（名）義務"
+    },
+    {
+        "id": "e2:292",
+        "word": "customer",
+        "meaning": "（名）顧客"
+    },
+    {
+        "id": "e2:293",
+        "word": "survey",
+        "meaning": "（名）調査"
+    },
+    {
+        "id": "e2:294",
+        "word": "conference",
+        "meaning": "（名）会議"
+    },
+    {
+        "id": "e2:295",
+        "word": "shape",
+        "meaning": "（名）形"
+    },
+    {
+        "id": "e2:296",
+        "word": "access",
+        "meaning": "（名）接近方法"
+    },
+    {
+        "id": "e2:297",
+        "word": "client",
+        "meaning": "（名）依頼人"
+    },
+    {
+        "id": "e2:298",
+        "word": "challenge",
+        "meaning": "（名）難題"
+    },
+    {
+        "id": "e2:299",
+        "word": "average",
+        "meaning": "（名）平均"
+    },
+    {
+        "id": "e2:300",
+        "word": "surface",
+        "meaning": "（名）表面"
+    },
+    {
+        "id": "e2:301",
+        "word": "attitude",
+        "meaning": "（名）態度"
+    },
+    {
+        "id": "e2:302",
+        "word": "disease",
+        "meaning": "（名）病気"
+    },
+    {
+        "id": "e2:303",
+        "word": "document",
+        "meaning": "（名）文書"
+    },
+    {
+        "id": "e2:304",
+        "word": "technique",
+        "meaning": "（名）専門技術"
+    },
+    {
+        "id": "e2:305",
+        "word": "item",
+        "meaning": "（名）項目"
+    },
+    {
+        "id": "e2:306",
+        "word": "sentence",
+        "meaning": "（名）文"
+    },
+    {
+        "id": "e2:307",
+        "word": "advantage",
+        "meaning": "（名）有利な点"
+    },
+    {
+        "id": "e2:308",
+        "word": "blood",
+        "meaning": "（名）血液"
+    },
+    {
+        "id": "e2:309",
+        "word": "memory",
+        "meaning": "（名）記憶"
+    },
+    {
+        "id": "e2:310",
+        "word": "variety",
+        "meaning": "（名）多様性"
+    },
+    {
+        "id": "e2:311",
+        "word": "goods",
+        "meaning": "（名）品物"
+    },
+    {
+        "id": "e2:312",
+        "word": "competition",
+        "meaning": "（名）競争"
+    },
+    {
+        "id": "e2:313",
+        "word": "payment",
+        "meaning": "（名）支払い"
+    },
+    {
+        "id": "e2:314",
+        "word": "earth",
+        "meaning": "（名）地球"
+    },
+    {
+        "id": "e2:315",
+        "word": "species",
+        "meaning": "（名）種"
+    },
+    {
+        "id": "e2:316",
+        "word": "communication",
+        "meaning": "（名）意思の疎通"
+    },
+    {
+        "id": "e2:317",
+        "word": "focus",
+        "meaning": "（名）焦点"
+    },
+    {
+        "id": "e2:318",
+        "word": "agency",
+        "meaning": "（名）代理店"
+    },
+    {
+        "id": "e2:319",
+        "word": "content",
+        "meaning": "（名）内容"
+    },
+    {
+        "id": "e2:320",
+        "word": "solution",
+        "meaning": "（名）解決策"
+    },
+    {
+        "id": "e2:321",
+        "word": "software",
+        "meaning": "（名）ソフトウェア"
+    },
+    {
+        "id": "e2:322",
+        "word": "organization",
+        "meaning": "（名）組織"
+    },
+    {
+        "id": "e2:323",
+        "word": "branch",
+        "meaning": "（名）支店"
+    },
+    {
+        "id": "e2:324",
+        "word": "equipment",
+        "meaning": "（名）設備"
+    },
+    {
+        "id": "e2:325",
+        "word": "crime",
+        "meaning": "（名）犯罪"
+    },
+    {
+        "id": "e2:326",
+        "word": "employee",
+        "meaning": "（名）従業員"
+    },
+    {
+        "id": "e2:327",
+        "word": "scene",
+        "meaning": "（名）場面"
+    },
+    {
+        "id": "e2:328",
+        "word": "cash",
+        "meaning": "（名）現金"
+    },
+    {
+        "id": "e2:329",
+        "word": "sample",
+        "meaning": "（名）見本"
+    },
+    {
+        "id": "e2:330",
+        "word": "credit",
+        "meaning": "（名）信用"
+    },
+    {
+        "id": "e2:331",
+        "word": "stress",
+        "meaning": "（名）圧迫感"
+    },
+    {
+        "id": "e2:332",
+        "word": "safety",
+        "meaning": "（名）安全"
+    },
+    {
+        "id": "e2:333",
+        "word": "pain",
+        "meaning": "（名）痛み"
+    },
+    {
+        "id": "e2:334",
+        "word": "skin",
+        "meaning": "（名）肌"
+    },
+    {
+        "id": "e2:335",
+        "word": "screen",
+        "meaning": "（名）画面"
+    },
+    {
+        "id": "e2:336",
+        "word": "distance",
+        "meaning": "（名）距離"
+    },
+    {
+        "id": "e2:337",
+        "word": "expert",
+        "meaning": "（名）専門家"
+    },
+    {
+        "id": "e2:338",
+        "word": "conclusion",
+        "meaning": "（名）結論"
+    },
+    {
+        "id": "e2:339",
+        "word": "code",
+        "meaning": "（名）暗号"
+    },
+    {
+        "id": "e2:340",
+        "word": "clothes",
+        "meaning": "（名）服"
+    },
+    {
+        "id": "e2:341",
+        "word": "vehicle",
+        "meaning": "（名）乗り物"
+    },
+    {
+        "id": "e2:342",
+        "word": "license",
+        "meaning": "（名）許可"
+    },
+    {
+        "id": "e2:343",
+        "word": "background",
+        "meaning": "（名）背景"
+    },
+    {
+        "id": "e2:344",
+        "word": "engine",
+        "meaning": "（名）エンジン"
+    },
+    {
+        "id": "e2:345",
+        "word": "author",
+        "meaning": "（名）著者"
+    },
+    {
+        "id": "e2:346",
+        "word": "exhibition",
+        "meaning": "（名）展覧会"
+    },
+    {
+        "id": "e2:347",
+        "word": "consumer",
+        "meaning": "（名）消費者"
+    },
+    {
+        "id": "e2:348",
+        "word": "construction",
+        "meaning": "（名）建設"
+    },
+    {
+        "id": "e2:349",
+        "word": "improvement",
+        "meaning": "（名）改善"
+    },
+    {
+        "id": "e2:350",
+        "word": "conversation",
+        "meaning": "（名）会話"
+    },
+    {
+        "id": "e2:351",
+        "word": "signal",
+        "meaning": "（名）信号"
+    },
+    {
+        "id": "e2:352",
+        "word": "instruction",
+        "meaning": "（名）指示"
+    },
+    {
+        "id": "e2:353",
+        "word": "metal",
+        "meaning": "（名）金属"
+    },
+    {
+        "id": "e2:354",
+        "word": "guard",
+        "meaning": "（名）監視者"
+    },
+    {
+        "id": "e2:355",
+        "word": "professor",
+        "meaning": "（名）教授"
+    },
+    {
+        "id": "e2:356",
+        "word": "label",
+        "meaning": "（名）ラベル"
+    },
+    {
+        "id": "e2:357",
+        "word": "membership",
+        "meaning": "（名）会員資格"
+    },
+    {
+        "id": "e2:358",
+        "word": "panel",
+        "meaning": "（名）パネル"
+    },
+    {
+        "id": "e2:359",
+        "word": "coast",
+        "meaning": "（名）沿岸"
+    },
+    {
+        "id": "e2:360",
+        "word": "fat",
+        "meaning": "（名）脂肪"
+    },
+    {
+        "id": "e2:361",
+        "word": "bone",
+        "meaning": "（名）骨"
+    },
+    {
+        "id": "e2:362",
+        "word": "assistant",
+        "meaning": "（名）助手"
+    },
+    {
+        "id": "e2:363",
+        "word": "delivery",
+        "meaning": "（名）配達"
+    },
+    {
+        "id": "e2:364",
+        "word": "recommendation",
+        "meaning": "（名）推薦"
+    },
+    {
+        "id": "e2:365",
+        "word": "countryside",
+        "meaning": "（名）田舎"
+    },
+    {
+        "id": "e2:366",
+        "word": "muscle",
+        "meaning": "（名）筋肉"
+    },
+    {
+        "id": "e2:367",
+        "word": "promotion",
+        "meaning": "（名）昇進"
+    },
+    {
+        "id": "e2:368",
+        "word": "retirement",
+        "meaning": "（名）退職"
+    },
+    {
+        "id": "e2:369",
+        "word": "climate",
+        "meaning": "（名）気候"
+    },
+    {
+        "id": "e2:370",
+        "word": "supplement",
+        "meaning": "（名）栄養補助剤"
+    },
+    {
+        "id": "e2:371",
+        "word": "participant",
+        "meaning": "（名）参加者"
+    },
+    {
+        "id": "e2:372",
+        "word": "trail",
+        "meaning": "（名）小道"
+    },
+    {
+        "id": "e2:373",
+        "word": "announcement",
+        "meaning": "（名）告知"
+    },
+    {
+        "id": "e2:374",
+        "word": "clerk",
+        "meaning": "（名）係員"
+    },
+    {
+        "id": "e2:375",
+        "word": "organ",
+        "meaning": "（名）臓器"
+    },
+    {
+        "id": "e2:376",
+        "word": "poison",
+        "meaning": "（名）毒"
+    },
+    {
+        "id": "e2:377",
+        "word": "battery",
+        "meaning": "（名）電池"
+    },
+    {
+        "id": "e2:378",
+        "word": "chemistry",
+        "meaning": "（名）化学"
+    },
+    {
+        "id": "e2:379",
+        "word": "assignment",
+        "meaning": "（名）割り当て"
+    },
+    {
+        "id": "e2:380",
+        "word": "blanket",
+        "meaning": "（名）毛布"
+    },
+    {
+        "id": "e2:381",
+        "word": "reservation",
+        "meaning": "（名）予約"
+    },
+    {
+        "id": "e2:382",
+        "word": "bubble",
+        "meaning": "（名）泡"
+    },
+    {
+        "id": "e2:383",
+        "word": "shelf",
+        "meaning": "（名）棚"
+    },
+    {
+        "id": "e2:384",
+        "word": "invention",
+        "meaning": "（名）発明"
+    },
+    {
+        "id": "e2:385",
+        "word": "vitamin",
+        "meaning": "（名）ビタミン"
+    },
+    {
+        "id": "e2:386",
+        "word": "tablet",
+        "meaning": "（名）タブレット"
+    },
+    {
+        "id": "e2:387",
+        "word": "deadline",
+        "meaning": "（名）締切"
+    },
+    {
+        "id": "e2:388",
+        "word": "biology",
+        "meaning": "（名）生物学"
+    },
+    {
+        "id": "e2:389",
+        "word": "privacy",
+        "meaning": "（名）プライバシー"
+    },
+    {
+        "id": "e2:390",
+        "word": "instructor",
+        "meaning": "（名）教官"
+    },
+    {
+        "id": "e2:391",
+        "word": "pamphlet",
+        "meaning": "（名）小冊子"
+    },
+    {
+        "id": "e2:392",
+        "word": "programmer",
+        "meaning": "（名）プログラマー"
+    },
+    {
+        "id": "e2:393",
+        "word": "slum",
+        "meaning": "（名）スラム街"
+    },
+    {
+        "id": "e2:394",
+        "word": "shark",
+        "meaning": "（名）サメ"
+    },
+    {
+        "id": "e2:395",
+        "word": "password",
+        "meaning": "（名）パスワード"
+    },
+    {
+        "id": "e2:396",
+        "word": "grocery",
+        "meaning": "（名）食料雑貨店"
+    },
+    {
+        "id": "e2:397",
+        "word": "healthcare",
+        "meaning": "（名）健康管理"
+    },
+    {
+        "id": "e2:398",
+        "word": "trash",
+        "meaning": "（名）ゴミ"
+    },
+    {
+        "id": "e2:399",
+        "word": "co-worker",
+        "meaning": "（名）同僚"
+    },
+    {
+        "id": "e2:400",
+        "word": "smartphone",
+        "meaning": "（名）スマートフォン"
+    },
+    {
+        "id": "e2:401",
+        "word": "farming",
+        "meaning": "（名）農業"
+    },
+    {
+        "id": "e2:402",
+        "word": "air conditioner",
+        "meaning": "（名）冷暖房装置"
+    },
+    {
+        "id": "e2:403",
+        "word": "global warming",
+        "meaning": "（名）地球温暖化"
+    },
+    {
+        "id": "e2:404",
+        "word": "carbon dioxide",
+        "meaning": "（名）二酸化炭素"
+    },
+    {
+        "id": "e2:405",
+        "word": "credit card",
+        "meaning": "（名）クレジットカード"
+    },
+    {
+        "id": "e2:406",
+        "word": "roommate",
+        "meaning": "（名）ルームメイト"
+    },
+    {
+        "id": "e2:407",
+        "word": "jewelry",
+        "meaning": "（名）宝石類"
+    },
+    {
+        "id": "e2:408",
+        "word": "banking",
+        "meaning": "（名）銀行業"
+    },
+    {
+        "id": "e2:409",
+        "word": "further",
+        "meaning": "（副）もっと遠くに"
+    },
+    {
+        "id": "e2:410",
+        "word": "perhaps",
+        "meaning": "（副）もしかすると"
+    },
+    {
+        "id": "e2:411",
+        "word": "probably",
+        "meaning": "（副）たぶん"
+    },
+    {
+        "id": "e2:412",
+        "word": "actually",
+        "meaning": "（副）実は"
+    },
+    {
+        "id": "e2:413",
+        "word": "rather",
+        "meaning": "（副）むしろ"
+    },
+    {
+        "id": "e2:414",
+        "word": "indeed",
+        "meaning": "（副）本当に"
+    },
+    {
+        "id": "e2:415",
+        "word": "simply",
+        "meaning": "（副）単に"
+    },
+    {
+        "id": "e2:416",
+        "word": "especially",
+        "meaning": "（副）特に"
+    },
+    {
+        "id": "e2:417",
+        "word": "recently",
+        "meaning": "（副）最近"
+    },
+    {
+        "id": "e2:418",
+        "word": "generally",
+        "meaning": "（副）一般に"
+    },
+    {
+        "id": "e2:419",
+        "word": "nearly",
+        "meaning": "（副）もう少しで"
+    },
+    {
+        "id": "e2:420",
+        "word": "exactly",
+        "meaning": "（副）正確に"
+    },
+    {
+        "id": "e2:421",
+        "word": "eventually",
+        "meaning": "（副）結局"
+    },
+    {
+        "id": "e2:422",
+        "word": "hardly",
+        "meaning": "（副）ほとんど～ない"
+    },
+    {
+        "id": "e2:423",
+        "word": "directly",
+        "meaning": "（副）直接に"
+    },
+    {
+        "id": "e2:424",
+        "word": "completely",
+        "meaning": "（副）完全に"
+    },
+    {
+        "id": "e2:425",
+        "word": "normally",
+        "meaning": "（副）通常は"
+    },
+    {
+        "id": "e2:426",
+        "word": "nevertheless",
+        "meaning": "（副）それにもかかわらず"
+    },
+    {
+        "id": "e2:427",
+        "word": "mainly",
+        "meaning": "（副）主に"
+    },
+    {
+        "id": "e2:428",
+        "word": "somewhere",
+        "meaning": "（副）どこかへ"
+    },
+    {
+        "id": "e2:429",
+        "word": "entirely",
+        "meaning": "（副）全く"
+    },
+    {
+        "id": "e2:430",
+        "word": "originally",
+        "meaning": "（副）最初は"
+    },
+    {
+        "id": "e2:431",
+        "word": "naturally",
+        "meaning": "（副）自然に"
+    },
+    {
+        "id": "e2:432",
+        "word": "regularly",
+        "meaning": "（副）定期的に"
+    },
+    {
+        "id": "e2:433",
+        "word": "traditionally",
+        "meaning": "（副）伝統的に"
+    },
+    {
+        "id": "e2:434",
+        "word": "locally",
+        "meaning": "（副）地元で"
+    },
+    {
+        "id": "e2:435",
+        "word": "nowadays",
+        "meaning": "（副）近頃は"
+    },
+    {
+        "id": "e2:436",
+        "word": "freely",
+        "meaning": "（副）自由に"
+    },
+    {
+        "id": "e2:437",
+        "word": "differently",
+        "meaning": "（副）異なって"
+    },
+    {
+        "id": "e2:438",
+        "word": "dramatically",
+        "meaning": "（副）劇的に"
+    },
+    {
+        "id": "e2:439",
+        "word": "efficiently",
+        "meaning": "（副）能率的に"
+    },
+    {
+        "id": "e2:440",
+        "word": "overtime",
+        "meaning": "（副）時間外に"
+    },
+    {
+        "id": "e2:441",
+        "word": "environmentally",
+        "meaning": "（副）環境保護の点で"
+    },
+    {
+        "id": "e2:442",
+        "word": "within",
+        "meaning": "（前）〜以内に"
+    },
+    {
+        "id": "e2:443",
+        "word": "unlike",
+        "meaning": "（前）〜とは違って"
+    },
+    {
+        "id": "e2:444",
+        "word": "while",
+        "meaning": "（接）～している間"
+    },
+    {
+        "id": "e2:445",
+        "word": "though",
+        "meaning": "（接）～だけれども"
+    },
+    {
+        "id": "e2:446",
+        "word": "whether",
+        "meaning": "（接）〜かどうか"
+    },
+    {
+        "id": "e2:447",
+        "word": "despite",
+        "meaning": "（接）～にもかかわらず"
+    },
+    {
+        "id": "e2:448",
+        "word": "throughout",
+        "meaning": "（接）～の間中ずっと"
+    },
+    {
+        "id": "e2:449",
+        "word": "unless",
+        "meaning": "（接）～でない限り"
+    },
+    {
+        "id": "e2:450",
+        "word": "follow",
+        "meaning": "（動）ついていく"
+    },
+    {
+        "id": "e2:451",
+        "word": "process",
+        "meaning": "（動）(食品等を)加工処理する"
+    },
+    {
+        "id": "e2:452",
+        "word": "expect",
+        "meaning": "（動）予期する"
+    },
+    {
+        "id": "e2:453",
+        "word": "matter",
+        "meaning": "（動）重大である"
+    },
+    {
+        "id": "e2:454",
+        "word": "account",
+        "meaning": "（動）説明する"
+    },
+    {
+        "id": "e2:455",
+        "word": "note",
+        "meaning": "（動）書き留める"
+    },
+    {
+        "id": "e2:456",
+        "word": "attempt",
+        "meaning": "（動）試みる"
+    },
+    {
+        "id": "e2:457",
+        "word": "award",
+        "meaning": "（動）賞を与える"
+    },
+    {
+        "id": "e2:458",
+        "word": "establish",
+        "meaning": "（動）設立する"
+    },
+    {
+        "id": "e2:459",
+        "word": "sale",
+        "meaning": "（動）航海する"
+    },
+    {
+        "id": "e2:460",
+        "word": "rise",
+        "meaning": "（動）上昇する"
+    },
+    {
+        "id": "e2:461",
+        "word": "contract",
+        "meaning": "（動）契約する"
+    },
+    {
+        "id": "e2:462",
+        "word": "achieve",
+        "meaning": "（動）達成する"
+    },
+    {
+        "id": "e2:463",
+        "word": "relate",
+        "meaning": "（動）関連がある"
+    },
+    {
+        "id": "e2:464",
+        "word": "direct",
+        "meaning": "（動）指揮する"
+    },
+    {
+        "id": "e2:465",
+        "word": "occur",
+        "meaning": "（動）起こる"
+    },
+    {
+        "id": "e2:466",
+        "word": "represent",
+        "meaning": "（動）代表する"
+    },
+    {
+        "id": "e2:467",
+        "word": "appeal",
+        "meaning": "（動）訴える"
+    },
+    {
+        "id": "e2:468",
+        "word": "vote",
+        "meaning": "（動）投票する"
+    },
+    {
+        "id": "e2:469",
+        "word": "strike",
+        "meaning": "（動）撃つ"
+    },
+    {
+        "id": "e2:470",
+        "word": "express",
+        "meaning": "（動）表現する"
+    },
+    {
+        "id": "e2:471",
+        "word": "determine",
+        "meaning": "（動）決定する"
+    },
+    {
+        "id": "e2:472",
+        "word": "refer",
+        "meaning": "（動）言及する"
+    },
+    {
+        "id": "e2:473",
+        "word": "marry",
+        "meaning": "（動）結婚する"
+    },
+    {
+        "id": "e2:474",
+        "word": "operate",
+        "meaning": "（動）作動する"
+    },
+    {
+        "id": "e2:475",
+        "word": "release",
+        "meaning": "（動）解放する"
+    },
+    {
+        "id": "e2:476",
+        "word": "check",
+        "meaning": "（動）検査する"
+    },
+    {
+        "id": "e2:477",
+        "word": "obtain",
+        "meaning": "（動）得る"
+    },
+    {
+        "id": "e2:478",
+        "word": "post",
+        "meaning": "（動）掲示する"
+    },
+    {
+        "id": "e2:479",
+        "word": "maintain",
+        "meaning": "（動）維持する"
+    },
+    {
+        "id": "e2:480",
+        "word": "indicate",
+        "meaning": "（動）指し示す"
+    },
+    {
+        "id": "e2:481",
+        "word": "advance",
+        "meaning": "（動）進める"
+    },
+    {
+        "id": "e2:482",
+        "word": "fill",
+        "meaning": "（動）満たす"
+    },
+    {
+        "id": "e2:483",
+        "word": "associate",
+        "meaning": "（動）提携する"
+    },
+    {
+        "id": "e2:484",
+        "word": "reflect",
+        "meaning": "（動）反射する"
+    },
+    {
+        "id": "e2:485",
+        "word": "assume",
+        "meaning": "（動）仮定する"
+    },
+    {
+        "id": "e2:486",
+        "word": "admit",
+        "meaning": "（動）認める"
+    },
+    {
+        "id": "e2:487",
+        "word": "propose",
+        "meaning": "（動）提案する"
+    },
+    {
+        "id": "e2:488",
+        "word": "display",
+        "meaning": "（動）展示する"
+    },
+    {
+        "id": "e2:489",
+        "word": "reply",
+        "meaning": "（動）返事をする"
+    },
+    {
+        "id": "e2:490",
+        "word": "shape",
+        "meaning": "（動）形作る"
+    },
+    {
+        "id": "e2:491",
+        "word": "reveal",
+        "meaning": "（動）明らかにする"
+    },
+    {
+        "id": "e2:492",
+        "word": "estimate",
+        "meaning": "（動）評価する"
+    },
+    {
+        "id": "e2:493",
+        "word": "lift",
+        "meaning": "（動）持ち上げる"
+    },
+    {
+        "id": "e2:494",
+        "word": "depend",
+        "meaning": "（動）依存する"
+    },
+    {
+        "id": "e2:495",
+        "word": "search",
+        "meaning": "（動）探す"
+    },
+    {
+        "id": "e2:496",
+        "word": "stick",
+        "meaning": "（動）突き刺す"
+    },
+    {
+        "id": "e2:497",
+        "word": "debate",
+        "meaning": "（動）討論する"
+    },
+    {
+        "id": "e2:498",
+        "word": "arise",
+        "meaning": "（動）生じる"
+    },
+    {
+        "id": "e2:499",
+        "word": "progress",
+        "meaning": "（動）進歩する"
+    },
+    {
+        "id": "e2:500",
+        "word": "adopt",
+        "meaning": "（動）採用する"
+    },
+    {
+        "id": "e2:501",
+        "word": "vary",
+        "meaning": "（動）変わる"
+    },
+    {
+        "id": "e2:502",
+        "word": "master",
+        "meaning": "（動）習熟する"
+    },
+    {
+        "id": "e2:503",
+        "word": "confirm",
+        "meaning": "（動）確かめる"
+    },
+    {
+        "id": "e2:504",
+        "word": "murder",
+        "meaning": "（動）殺害する"
+    },
+    {
+        "id": "e2:505",
+        "word": "repeat",
+        "meaning": "（動）繰り返す"
+    },
+    {
+        "id": "e2:506",
+        "word": "hide",
+        "meaning": "（動）隠す"
+    },
+    {
+        "id": "e2:507",
+        "word": "flow",
+        "meaning": "（動）流れる"
+    },
+    {
+        "id": "e2:508",
+        "word": "purchase",
+        "meaning": "（動）購入する"
+    },
+    {
+        "id": "e2:509",
+        "word": "suit",
+        "meaning": "（動）都合がよい"
+    },
+    {
+        "id": "e2:510",
+        "word": "decline",
+        "meaning": "（動）衰える"
+    },
+    {
+        "id": "e2:511",
+        "word": "observe",
+        "meaning": "（動）観察する"
+    },
+    {
+        "id": "e2:512",
+        "word": "combine",
+        "meaning": "（動）結びつける"
+    },
+    {
+        "id": "e2:513",
+        "word": "commit",
+        "meaning": "（動）罪を犯す"
+    },
+    {
+        "id": "e2:514",
+        "word": "shock",
+        "meaning": "（動）衝撃を与える"
+    },
+    {
+        "id": "e2:515",
+        "word": "acquire",
+        "meaning": "（動）習得する"
+    },
+    {
+        "id": "e2:516",
+        "word": "demonstrate",
+        "meaning": "（動）実演する"
+    },
+    {
+        "id": "e2:517",
+        "word": "load",
+        "meaning": "（動）積み込む"
+    },
+    {
+        "id": "e2:518",
+        "word": "attract",
+        "meaning": "（動）引きつける"
+    },
+    {
+        "id": "e2:519",
+        "word": "promote",
+        "meaning": "（動）昇格する"
+    },
+    {
+        "id": "e2:520",
+        "word": "gather",
+        "meaning": "（動）集める"
+    },
+    {
+        "id": "e2:521",
+        "word": "reject",
+        "meaning": "（動）拒絶する"
+    },
+    {
+        "id": "e2:522",
+        "word": "protest",
+        "meaning": "（動）抗議する"
+    },
+    {
+        "id": "e2:523",
+        "word": "arrest",
+        "meaning": "（動）逮捕する"
+    },
+    {
+        "id": "e2:524",
+        "word": "deliver",
+        "meaning": "（動）配達する"
+    },
+    {
+        "id": "e2:525",
+        "word": "stretch",
+        "meaning": "（動）伸ばす"
+    },
+    {
+        "id": "e2:526",
+        "word": "recommend",
+        "meaning": "（動）推薦する"
+    },
+    {
+        "id": "e2:527",
+        "word": "reserve",
+        "meaning": "（動）予約する"
+    },
+    {
+        "id": "e2:528",
+        "word": "contribute",
+        "meaning": "（動）貢献する"
+    },
+    {
+        "id": "e2:529",
+        "word": "delay",
+        "meaning": "（動）遅らせる"
+    },
+    {
+        "id": "e2:530",
+        "word": "surround",
+        "meaning": "（動）囲む"
+    },
+    {
+        "id": "e2:531",
+        "word": "generate",
+        "meaning": "（動）発生させる"
+    },
+    {
+        "id": "e2:532",
+        "word": "advertise",
+        "meaning": "（動）宣伝する"
+    },
+    {
+        "id": "e2:533",
+        "word": "ban",
+        "meaning": "（動）禁止する"
+    },
+    {
+        "id": "e2:534",
+        "word": "breed",
+        "meaning": "（動）飼育する"
+    },
+    {
+        "id": "e2:535",
+        "word": "rely",
+        "meaning": "（動）頼る"
+    },
+    {
+        "id": "e2:536",
+        "word": "rent",
+        "meaning": "（動）お金を出して借りる"
+    },
+    {
+        "id": "e2:537",
+        "word": "afford",
+        "meaning": "（動）～する余裕がある"
+    },
+    {
+        "id": "e2:538",
+        "word": "attach",
+        "meaning": "（動）取り付ける"
+    },
+    {
+        "id": "e2:539",
+        "word": "persuade",
+        "meaning": "（動）説得する"
+    },
+    {
+        "id": "e2:540",
+        "word": "sink",
+        "meaning": "（動）沈む"
+    },
+    {
+        "id": "e2:541",
+        "word": "connect",
+        "meaning": "（動）つなぐ"
+    },
+    {
+        "id": "e2:542",
+        "word": "abandon",
+        "meaning": "（動）放棄する"
+    },
+    {
+        "id": "e2:543",
+        "word": "explore",
+        "meaning": "（動）探検する"
+    },
+    {
+        "id": "e2:544",
+        "word": "sail",
+        "meaning": "（動）航海する"
+    },
+    {
+        "id": "e2:545",
+        "word": "crash",
+        "meaning": "（動）衝突する"
+    },
+    {
+        "id": "e2:546",
+        "word": "oppose",
+        "meaning": "（動）反対する"
+    },
+    {
+        "id": "e2:547",
+        "word": "repair",
+        "meaning": "（動）修理する"
+    },
+    {
+        "id": "e2:548",
+        "word": "restore",
+        "meaning": "（動）修復する"
+    },
+    {
+        "id": "e2:549",
+        "word": "defend",
+        "meaning": "（動）守る"
+    },
+    {
+        "id": "e2:550",
+        "word": "complain",
+        "meaning": "（動）不平を言う"
+    },
+    {
+        "id": "e2:551",
+        "word": "preserve",
+        "meaning": "（動）保存する"
+    },
+    {
+        "id": "e2:552",
+        "word": "assist",
+        "meaning": "（動）手伝う"
+    },
+    {
+        "id": "e2:553",
+        "word": "pour",
+        "meaning": "（動）注ぐ"
+    },
+    {
+        "id": "e2:554",
+        "word": "predict",
+        "meaning": "（動）予測する"
+    },
+    {
+        "id": "e2:555",
+        "word": "invest",
+        "meaning": "（動）投資する"
+    },
+    {
+        "id": "e2:556",
+        "word": "upset",
+        "meaning": "（動）動揺させる"
+    },
+    {
+        "id": "e2:557",
+        "word": "flood",
+        "meaning": "（動）水浸しにする"
+    },
+    {
+        "id": "e2:558",
+        "word": "overcome",
+        "meaning": "（動）克服する"
+    },
+    {
+        "id": "e2:559",
+        "word": "discount",
+        "meaning": "（動）割引する"
+    },
+    {
+        "id": "e2:560",
+        "word": "specialize",
+        "meaning": "（動）専門とする"
+    },
+    {
+        "id": "e2:561",
+        "word": "adjust",
+        "meaning": "（動）調節する"
+    },
+    {
+        "id": "e2:562",
+        "word": "pretend",
+        "meaning": "（動）ふりをする"
+    },
+    {
+        "id": "e2:563",
+        "word": "update",
+        "meaning": "（動）最新のものに更新する"
+    },
+    {
+        "id": "e2:564",
+        "word": "react",
+        "meaning": "（動）反応する"
+    },
+    {
+        "id": "e2:565",
+        "word": "weigh",
+        "meaning": "（動）の重さがある"
+    },
+    {
+        "id": "e2:566",
+        "word": "wipe",
+        "meaning": "（動）拭く"
+    },
+    {
+        "id": "e2:567",
+        "word": "renew",
+        "meaning": "（動）更新する"
+    },
+    {
+        "id": "e2:568",
+        "word": "cure",
+        "meaning": "（動）治癒させる"
+    },
+    {
+        "id": "e2:569",
+        "word": "evolve",
+        "meaning": "（動）発展する"
+    },
+    {
+        "id": "e2:570",
+        "word": "heal",
+        "meaning": "（動）治る"
+    },
+    {
+        "id": "e2:571",
+        "word": "consume",
+        "meaning": "（動）消費する"
+    },
+    {
+        "id": "e2:572",
+        "word": "scan",
+        "meaning": "（動）注意深く調べる"
+    },
+    {
+        "id": "e2:573",
+        "word": "dive",
+        "meaning": "（動）飛び込む"
+    },
+    {
+        "id": "e2:574",
+        "word": "criticize",
+        "meaning": "（動）批判する"
+    },
+    {
+        "id": "e2:575",
+        "word": "motivate",
+        "meaning": "（動）動機を与える"
+    },
+    {
+        "id": "e2:576",
+        "word": "bump",
+        "meaning": "（動）ぶつかる"
+    },
+    {
+        "id": "e2:577",
+        "word": "enlarge",
+        "meaning": "（動）大きくする"
+    },
+    {
+        "id": "e2:578",
+        "word": "quit",
+        "meaning": "（動）やめる"
+    },
+    {
+        "id": "e2:579",
+        "word": "donate",
+        "meaning": "（動）寄付する"
+    },
+    {
+        "id": "e2:580",
+        "word": "digest",
+        "meaning": "（動）消化する"
+    },
+    {
+        "id": "e2:581",
+        "word": "implant",
+        "meaning": "（動）植え付ける"
+    },
+    {
+        "id": "e2:582",
+        "word": "unpack",
+        "meaning": "（動）中身を出す"
+    },
+    {
+        "id": "e2:583",
+        "word": "analyze",
+        "meaning": "（動）分析する"
+    },
+    {
+        "id": "e2:584",
+        "word": "reset",
+        "meaning": "（動）初期状態に戻す"
+    },
+    {
+        "id": "e2:585",
+        "word": "memorize",
+        "meaning": "（動）記憶する"
+    },
+    {
+        "id": "e2:586",
+        "word": "serious",
+        "meaning": "（形）深刻な"
+    },
+    {
+        "id": "e2:587",
+        "word": "worth",
+        "meaning": "（形）価値がある"
+    },
+    {
+        "id": "e2:588",
+        "word": "significant",
+        "meaning": "（形）重大な"
+    },
+    {
+        "id": "e2:589",
+        "word": "appropriate",
+        "meaning": "（形）適切な"
+    },
+    {
+        "id": "e2:590",
+        "word": "military",
+        "meaning": "（形）軍の"
+    },
+    {
+        "id": "e2:591",
+        "word": "potential",
+        "meaning": "（形）潜在的な"
+    },
+    {
+        "id": "e2:592",
+        "word": "independent",
+        "meaning": "（形）独立した"
+    },
+    {
+        "id": "e2:593",
+        "word": "complex",
+        "meaning": "（形）複雑な"
+    },
+    {
+        "id": "e2:594",
+        "word": "essential",
+        "meaning": "（形）必要不可欠な"
+    },
+    {
+        "id": "e2:595",
+        "word": "commercial",
+        "meaning": "（形）商業の"
+    },
+    {
+        "id": "e2:596",
+        "word": "annual",
+        "meaning": "（形）年１回の"
+    },
+    {
+        "id": "e2:597",
+        "word": "overall",
+        "meaning": "（形）全体的な"
+    },
+    {
+        "id": "e2:598",
+        "word": "representative",
+        "meaning": "（形）代表する"
+    },
+    {
+        "id": "e2:599",
+        "word": "regular",
+        "meaning": "（形）規則正しい"
+    },
+    {
+        "id": "e2:600",
+        "word": "relative",
+        "meaning": "（形）相対的な"
+    },
+    {
+        "id": "e2:601",
+        "word": "domestic",
+        "meaning": "（形）国内の"
+    },
+    {
+        "id": "e2:602",
+        "word": "actual",
+        "meaning": "（形）実際の"
+    },
+    {
+        "id": "e2:603",
+        "word": "characteristic",
+        "meaning": "（形）特有の"
+    },
+    {
+        "id": "e2:604",
+        "word": "brief",
+        "meaning": "（形）短い"
+    },
+    {
+        "id": "e2:605",
+        "word": "chemical",
+        "meaning": "（形）化学の"
+    },
+    {
+        "id": "e2:606",
+        "word": "cultural",
+        "meaning": "（形）文化的な"
+    },
+    {
+        "id": "e2:607",
+        "word": "opposite",
+        "meaning": "（形）反対の"
+    },
+    {
+        "id": "e2:608",
+        "word": "thin",
+        "meaning": "（形）薄い"
+    },
+    {
+        "id": "e2:609",
+        "word": "academic",
+        "meaning": "（形）学問の"
+    },
+    {
+        "id": "e2:610",
+        "word": "tiny",
+        "meaning": "（形）とても小さな"
+    },
+    {
+        "id": "e2:611",
+        "word": "constant",
+        "meaning": "（形）絶えず続く"
+    },
+    {
+        "id": "e2:612",
+        "word": "ancient",
+        "meaning": "（形）古代の"
+    },
+    {
+        "id": "e2:613",
+        "word": "negative",
+        "meaning": "（形）否定の"
+    },
+    {
+        "id": "e2:614",
+        "word": "severe",
+        "meaning": "（形）厳しい"
+    },
+    {
+        "id": "e2:615",
+        "word": "unique",
+        "meaning": "（形）独特の"
+    },
+    {
+        "id": "e2:616",
+        "word": "extreme",
+        "meaning": "（形）極端な"
+    },
+    {
+        "id": "e2:617",
+        "word": "tough",
+        "meaning": "（形）丈夫な"
+    },
+    {
+        "id": "e2:618",
+        "word": "valuable",
+        "meaning": "（形）高価な"
+    },
+    {
+        "id": "e2:619",
+        "word": "long-term",
+        "meaning": "（形）長期の"
+    },
+    {
+        "id": "e2:620",
+        "word": "blind",
+        "meaning": "（形）目の不自由な"
+    },
+    {
+        "id": "e2:621",
+        "word": "efficient",
+        "meaning": "（形）能率的な"
+    },
+    {
+        "id": "e2:622",
+        "word": "temporary",
+        "meaning": "（形）一時的な"
+    },
+    {
+        "id": "e2:623",
+        "word": "rough",
+        "meaning": "（形）粗い"
+    },
+    {
+        "id": "e2:624",
+        "word": "global",
+        "meaning": "（形）地球全体の"
+    },
+    {
+        "id": "e2:625",
+        "word": "nervous",
+        "meaning": "（形）神経質な"
+    },
+    {
+        "id": "e2:626",
+        "word": "accurate",
+        "meaning": "（形）正確な"
+    },
+    {
+        "id": "e2:627",
+        "word": "pleasant",
+        "meaning": "（形）快い"
+    },
+    {
+        "id": "e2:628",
+        "word": "historic",
+        "meaning": "（形）歴史上有名な"
+    },
+    {
+        "id": "e2:629",
+        "word": "reliable",
+        "meaning": "（形）信頼できる"
+    },
+    {
+        "id": "e2:630",
+        "word": "unexpected",
+        "meaning": "（形）意外な"
+    },
+    {
+        "id": "e2:631",
+        "word": "convenient",
+        "meaning": "（形）都合の良い"
+    },
+    {
+        "id": "e2:632",
+        "word": "artificial",
+        "meaning": "（形）人工の"
+    },
+    {
+        "id": "e2:633",
+        "word": "blank",
+        "meaning": "（形）空白の"
+    },
+    {
+        "id": "e2:634",
+        "word": "wealthy",
+        "meaning": "（形）裕福な"
+    },
+    {
+        "id": "e2:635",
+        "word": "solar",
+        "meaning": "（形）太陽の"
+    },
+    {
+        "id": "e2:636",
+        "word": "virtual",
+        "meaning": "（形）仮想の"
+    },
+    {
+        "id": "e2:637",
+        "word": "talented",
+        "meaning": "（形）才能がある"
+    },
+    {
+        "id": "e2:638",
+        "word": "harmful",
+        "meaning": "（形）有害な"
+    },
+    {
+        "id": "e2:639",
+        "word": "incorrect",
+        "meaning": "（形）間違った"
+    },
+    {
+        "id": "e2:640",
+        "word": "stylish",
+        "meaning": "（形）流行の"
+    },
+    {
+        "id": "e2:641",
+        "word": "dizzy",
+        "meaning": "（形）めまいがする"
+    },
+    {
+        "id": "e2:642",
+        "word": "newborn",
+        "meaning": "（形）生まれたばかりの"
+    },
+    {
+        "id": "e2:643",
+        "word": "best-selling",
+        "meaning": "（形）ベストセラーの"
+    },
+    {
+        "id": "e2:644",
+        "word": "secondhand",
+        "meaning": "（形）中古の"
+    },
+    {
+        "id": "e2:645",
+        "word": "low-income",
+        "meaning": "（形）低収入の"
+    },
+    {
+        "id": "e2:646",
+        "word": "latest",
+        "meaning": "（形）最新の"
+    },
+    {
+        "id": "e2:647",
+        "word": "frozen",
+        "meaning": "（形）冷凍した"
+    },
+    {
+        "id": "e2:648",
+        "word": "united",
+        "meaning": "（形）団結した"
+    },
+    {
+        "id": "e2:649",
+        "word": "complicated",
+        "meaning": "（形）複雑な"
+    },
+    {
+        "id": "e2:650",
+        "word": "endangered",
+        "meaning": "（形）絶滅危機の"
+    },
+    {
+        "id": "e2:651",
+        "word": "nonprofit",
+        "meaning": "（形）非営利的な"
+    },
+    {
+        "id": "e2:652",
+        "word": "pay",
+        "meaning": "（名）賃金"
+    },
+    {
+        "id": "e2:653",
+        "word": "authority",
+        "meaning": "（名）権威"
+    },
+    {
+        "id": "e2:654",
+        "word": "term",
+        "meaning": "（名）期間"
+    },
+    {
+        "id": "e2:655",
+        "word": "account",
+        "meaning": "（名）口座"
+    },
+    {
+        "id": "e2:656",
+        "word": "trade",
+        "meaning": "（名）貿易"
+    },
+    {
+        "id": "e2:657",
+        "word": "patient",
+        "meaning": "（名）患者"
+    },
+    {
+        "id": "e2:658",
+        "word": "approach",
+        "meaning": "（名）接近"
+    },
+    {
+        "id": "e2:659",
+        "word": "range",
+        "meaning": "（名）範囲"
+    },
+    {
+        "id": "e2:660",
+        "word": "demand",
+        "meaning": "（名）要求"
+    },
+    {
+        "id": "e2:661",
+        "word": "standard",
+        "meaning": "（名）標準"
+    },
+    {
+        "id": "e2:662",
+        "word": "tax",
+        "meaning": "（名）税"
+    },
+    {
+        "id": "e2:663",
+        "word": "structure",
+        "meaning": "（名）構造"
+    },
+    {
+        "id": "e2:664",
+        "word": "situation",
+        "meaning": "（名）状況"
+    },
+    {
+        "id": "e2:665",
+        "word": "quality",
+        "meaning": "（名）質"
+    },
+    {
+        "id": "e2:666",
+        "word": "fund",
+        "meaning": "（名）基金"
+    },
+    {
+        "id": "e2:667",
+        "word": "measure",
+        "meaning": "（名）基準"
+    },
+    {
+        "id": "e2:668",
+        "word": "officer",
+        "meaning": "（名）公務員"
+    },
+    {
+        "id": "e2:669",
+        "word": "director",
+        "meaning": "（名）重役"
+    },
+    {
+        "id": "e2:670",
+        "word": "secretary",
+        "meaning": "（名）秘書"
+    },
+    {
+        "id": "e2:671",
+        "word": "production",
+        "meaning": "（名）生産"
+    },
+    {
+        "id": "e2:672",
+        "word": "operation",
+        "meaning": "（名）運転"
+    },
+    {
+        "id": "e2:673",
+        "word": "opportunity",
+        "meaning": "（名）機会"
+    },
+    {
+        "id": "e2:674",
+        "word": "security",
+        "meaning": "（名）安全"
+    },
+    {
+        "id": "e2:675",
+        "word": "link",
+        "meaning": "（名）つながり"
+    },
+    {
+        "id": "e2:676",
+        "word": "aim",
+        "meaning": "（名）狙い"
+    },
+    {
+        "id": "e2:677",
+        "word": "function",
+        "meaning": "（名）機能"
+    },
+    {
+        "id": "e2:678",
+        "word": "risk",
+        "meaning": "（名）危険"
+    },
+    {
+        "id": "e2:679",
+        "word": "factor",
+        "meaning": "（名）要素"
+    },
+    {
+        "id": "e2:680",
+        "word": "series",
+        "meaning": "（名）シリーズ"
+    },
+    {
+        "id": "e2:681",
+        "word": "lack",
+        "meaning": "（名）不足"
+    },
+    {
+        "id": "e2:682",
+        "word": "review",
+        "meaning": "（名）批評"
+    },
+    {
+        "id": "e2:683",
+        "word": "behavior",
+        "meaning": "（名）行動"
+    },
+    {
+        "id": "e2:684",
+        "word": "response",
+        "meaning": "（名）応答"
+    },
+    {
+        "id": "e2:685",
+        "word": "user",
+        "meaning": "（名）利用者"
+    },
+    {
+        "id": "e2:686",
+        "word": "army",
+        "meaning": "（名）陸軍"
+    },
+    {
+        "id": "e2:687",
+        "word": "title",
+        "meaning": "（名）題名"
+    },
+    {
+        "id": "e2:688",
+        "word": "object",
+        "meaning": "（名）物"
+    },
+    {
+        "id": "e2:689",
+        "word": "aspect",
+        "meaning": "（名）局面"
+    },
+    {
+        "id": "e2:690",
+        "word": "image",
+        "meaning": "（名）画像"
+    },
+    {
+        "id": "e2:691",
+        "word": "direction",
+        "meaning": "（名）方向"
+    },
+    {
+        "id": "e2:692",
+        "word": "affair",
+        "meaning": "（名）事柄"
+    },
+    {
+        "id": "e2:693",
+        "word": "drug",
+        "meaning": "（名）薬"
+    },
+    {
+        "id": "e2:694",
+        "word": "version",
+        "meaning": "（名）版"
+    },
+    {
+        "id": "e2:695",
+        "word": "majority",
+        "meaning": "（名）大多数"
+    },
+    {
+        "id": "e2:696",
+        "word": "stock",
+        "meaning": "（名）蓄え"
+    },
+    {
+        "id": "e2:697",
+        "word": "facility",
+        "meaning": "（名）施設"
+    },
+    {
+        "id": "e2:698",
+        "word": "article",
+        "meaning": "（名）記事"
+    },
+    {
+        "id": "e2:699",
+        "word": "collection",
+        "meaning": "（名）収蔵品"
+    },
+    {
+        "id": "e2:700",
+        "word": "target",
+        "meaning": "（名）まと"
+    },
+    {
+        "id": "e2:701",
+        "word": "occasion",
+        "meaning": "（名）場合"
+    },
+    {
+        "id": "e2:702",
+        "word": "opinion",
+        "meaning": "（名）意見"
+    },
+    {
+        "id": "e2:703",
+        "word": "requirement",
+        "meaning": "（名）必要条件"
+    },
+    {
+        "id": "e2:704",
+        "word": "option",
+        "meaning": "（名）選択権"
+    },
+    {
+        "id": "e2:705",
+        "word": "tour",
+        "meaning": "（名）旅行"
+    },
+    {
+        "id": "e2:706",
+        "word": "contrast",
+        "meaning": "（名）対照"
+    },
+    {
+        "id": "e2:707",
+        "word": "league",
+        "meaning": "（名）競技連盟"
+    },
+    {
+        "id": "e2:708",
+        "word": "length",
+        "meaning": "（名）長さ"
+    },
+    {
+        "id": "e2:709",
+        "word": "strength",
+        "meaning": "（名）力"
+    },
+    {
+        "id": "e2:710",
+        "word": "contribution",
+        "meaning": "（名）貢献"
+    },
+    {
+        "id": "e2:711",
+        "word": "agent",
+        "meaning": "（名）代理人"
+    },
+    {
+        "id": "e2:712",
+        "word": "desire",
+        "meaning": "（名）欲望"
+    },
+    {
+        "id": "e2:713",
+        "word": "route",
+        "meaning": "（名）道"
+    },
+    {
+        "id": "e2:714",
+        "word": "media",
+        "meaning": "（名）マスメディア"
+    },
+    {
+        "id": "e2:715",
+        "word": "candidate",
+        "meaning": "（名）候補者"
+    },
+    {
+        "id": "e2:716",
+        "word": "latter",
+        "meaning": "（名）後者"
+    },
+    {
+        "id": "e2:717",
+        "word": "impact",
+        "meaning": "（名）衝撃"
+    },
+    {
+        "id": "e2:718",
+        "word": "relative",
+        "meaning": "（名）親類"
+    },
+    {
+        "id": "e2:719",
+        "word": "prison",
+        "meaning": "（名）刑務所"
+    },
+    {
+        "id": "e2:720",
+        "word": "reality",
+        "meaning": "（名）現実"
+    },
+    {
+        "id": "e2:721",
+        "word": "colleague",
+        "meaning": "（名）同僚"
+    },
+    {
+        "id": "e2:722",
+        "word": "confidence",
+        "meaning": "（名）自信"
+    },
+    {
+        "id": "e2:723",
+        "word": "generation",
+        "meaning": "（名）世代"
+    },
+    {
+        "id": "e2:724",
+        "word": "threat",
+        "meaning": "（名）脅威"
+    },
+    {
+        "id": "e2:725",
+        "word": "manner",
+        "meaning": "（名）行儀"
+    },
+    {
+        "id": "e2:726",
+        "word": "entry",
+        "meaning": "（名）入ること"
+    },
+    {
+        "id": "e2:727",
+        "word": "loan",
+        "meaning": "（名）融資"
+    },
+    {
+        "id": "e2:728",
+        "word": "tradition",
+        "meaning": "（名）伝統"
+    },
+    {
+        "id": "e2:729",
+        "word": "traffic",
+        "meaning": "（名）交通"
+    },
+    {
+        "id": "e2:730",
+        "word": "experiment",
+        "meaning": "（名）実験"
+    },
+    {
+        "id": "e2:731",
+        "word": "session",
+        "meaning": "（名）会期"
+    },
+    {
+        "id": "e2:732",
+        "word": "audience",
+        "meaning": "（名）観衆"
+    },
+    {
+        "id": "e2:733",
+        "word": "flight",
+        "meaning": "（名）飛行機の便"
+    },
+    {
+        "id": "e2:734",
+        "word": "youth",
+        "meaning": "（名）青年時代"
+    },
+    {
+        "id": "e2:735",
+        "word": "institute",
+        "meaning": "（名）研究機関"
+    },
+    {
+        "id": "e2:736",
+        "word": "decade",
+        "meaning": "（名）10年間"
+    },
+    {
+        "id": "e2:737",
+        "word": "error",
+        "meaning": "（名）誤り"
+    },
+    {
+        "id": "e2:738",
+        "word": "taste",
+        "meaning": "（名）味"
+    },
+    {
+        "id": "e2:739",
+        "word": "birth",
+        "meaning": "（名）出生"
+    },
+    {
+        "id": "e2:740",
+        "word": "bomb",
+        "meaning": "（名）爆弾"
+    },
+    {
+        "id": "e2:741",
+        "word": "fee",
+        "meaning": "（名）料金"
+    },
+    {
+        "id": "e2:742",
+        "word": "journey",
+        "meaning": "（名）旅行"
+    },
+    {
+        "id": "e2:743",
+        "word": "guest",
+        "meaning": "（名）訪問客"
+    },
+    {
+        "id": "e2:744",
+        "word": "connection",
+        "meaning": "（名）接続"
+    },
+    {
+        "id": "e2:745",
+        "word": "resident",
+        "meaning": "（名）居住者"
+    },
+    {
+        "id": "e2:746",
+        "word": "valley",
+        "meaning": "（名）谷"
+    },
+    {
+        "id": "e2:747",
+        "word": "gallery",
+        "meaning": "（名）画廊"
+    },
+    {
+        "id": "e2:748",
+        "word": "fashion",
+        "meaning": "（名）流行"
+    },
+    {
+        "id": "e2:749",
+        "word": "fuel",
+        "meaning": "（名）燃料"
+    },
+    {
+        "id": "e2:750",
+        "word": "combination",
+        "meaning": "（名）組み合わせ"
+    },
+    {
+        "id": "e2:751",
+        "word": "breath",
+        "meaning": "（名）息"
+    },
+    {
+        "id": "e2:752",
+        "word": "coal",
+        "meaning": "（名）石炭"
+    },
+    {
+        "id": "e2:753",
+        "word": "foundation",
+        "meaning": "（名）基礎"
+    },
+    {
+        "id": "e2:754",
+        "word": "cycle",
+        "meaning": "（名）周期"
+    },
+    {
+        "id": "e2:755",
+        "word": "device",
+        "meaning": "（名）装置"
+    },
+    {
+        "id": "e2:756",
+        "word": "wheel",
+        "meaning": "（名）車輪"
+    },
+    {
+        "id": "e2:757",
+        "word": "tip",
+        "meaning": "（名）ヒント"
+    },
+    {
+        "id": "e2:758",
+        "word": "billion",
+        "meaning": "（名）10億"
+    },
+    {
+        "id": "e2:759",
+        "word": "charity",
+        "meaning": "（名）慈善事業"
+    },
+    {
+        "id": "e2:760",
+        "word": "expectation",
+        "meaning": "（名）予想"
+    },
+    {
+        "id": "e2:761",
+        "word": "manufacturer",
+        "meaning": "（名）製造業者"
+    },
+    {
+        "id": "e2:762",
+        "word": "gap",
+        "meaning": "（名）隔たり"
+    },
+    {
+        "id": "e2:763",
+        "word": "database",
+        "meaning": "（名）データベース"
+    },
+    {
+        "id": "e2:764",
+        "word": "identity",
+        "meaning": "（名）同一人物であること"
+    },
+    {
+        "id": "e2:765",
+        "word": "steel",
+        "meaning": "（名）鋼鉄"
+    },
+    {
+        "id": "e2:766",
+        "word": "layer",
+        "meaning": "（名）層"
+    },
+    {
+        "id": "e2:767",
+        "word": "partnership",
+        "meaning": "（名）協力"
+    },
+    {
+        "id": "e2:768",
+        "word": "mode",
+        "meaning": "（名）様式"
+    },
+    {
+        "id": "e2:769",
+        "word": "conservation",
+        "meaning": "（名）保存"
+    },
+    {
+        "id": "e2:770",
+        "word": "creature",
+        "meaning": "（名）生き物"
+    },
+    {
+        "id": "e2:771",
+        "word": "critic",
+        "meaning": "（名）批評家"
+    },
+    {
+        "id": "e2:772",
+        "word": "presentation",
+        "meaning": "（名）発表"
+    },
+    {
+        "id": "e2:773",
+        "word": "electricity",
+        "meaning": "（名）電気"
+    },
+    {
+        "id": "e2:774",
+        "word": "wire",
+        "meaning": "（名）針金"
+    },
+    {
+        "id": "e2:775",
+        "word": "crop",
+        "meaning": "（名）作物"
+    },
+    {
+        "id": "e2:776",
+        "word": "mixture",
+        "meaning": "（名）混合物"
+    },
+    {
+        "id": "e2:777",
+        "word": "substance",
+        "meaning": "（名）物質"
+    },
+    {
+        "id": "e2:778",
+        "word": "discovery",
+        "meaning": "（名）発見"
+    },
+    {
+        "id": "e2:779",
+        "word": "instance",
+        "meaning": "（名）例"
+    },
+    {
+        "id": "e2:780",
+        "word": "medicine",
+        "meaning": "（名）薬"
+    },
+    {
+        "id": "e2:781",
+        "word": "permission",
+        "meaning": "（名）許可"
+    },
+    {
+        "id": "e2:782",
+        "word": "disaster",
+        "meaning": "（名）災害"
+    },
+    {
+        "id": "e2:783",
+        "word": "sponsor",
+        "meaning": "（名）スポンサー"
+    },
+    {
+        "id": "e2:784",
+        "word": "discount",
+        "meaning": "（名）割引"
+    },
+    {
+        "id": "e2:785",
+        "word": "counter",
+        "meaning": "（名）カウンター"
+    },
+    {
+        "id": "e2:786",
+        "word": "angle",
+        "meaning": "（名）角度"
+    },
+    {
+        "id": "e2:787",
+        "word": "publisher",
+        "meaning": "（名）出版社"
+    },
+    {
+        "id": "e2:788",
+        "word": "historian",
+        "meaning": "（名）歴史学者"
+    },
+    {
+        "id": "e2:789",
+        "word": "poetry",
+        "meaning": "（名）詩"
+    },
+    {
+        "id": "e2:790",
+        "word": "economics",
+        "meaning": "（名）経済学"
+    },
+    {
+        "id": "e2:791",
+        "word": "tongue",
+        "meaning": "（名）舌"
+    },
+    {
+        "id": "e2:792",
+        "word": "addition",
+        "meaning": "（名）追加"
+    },
+    {
+        "id": "e2:793",
+        "word": "ray",
+        "meaning": "（名）光線"
+    },
+    {
+        "id": "e2:794",
+        "word": "trick",
+        "meaning": "（名）いたずら"
+    },
+    {
+        "id": "e2:795",
+        "word": "timber",
+        "meaning": "（名）材木"
+    },
+    {
+        "id": "e2:796",
+        "word": "evolution",
+        "meaning": "（名）進化"
+    },
+    {
+        "id": "e2:797",
+        "word": "traveler",
+        "meaning": "（名）旅行者"
+    },
+    {
+        "id": "e2:798",
+        "word": "carbon",
+        "meaning": "（名）炭素"
+    },
+    {
+        "id": "e2:799",
+        "word": "stain",
+        "meaning": "（名）しみ"
+    },
+    {
+        "id": "e2:800",
+        "word": "mess",
+        "meaning": "（名）取り散らかしたもの"
+    },
+    {
+        "id": "e2:801",
+        "word": "exhibit",
+        "meaning": "（名）展示"
+    },
+    {
+        "id": "e2:802",
+        "word": "attraction",
+        "meaning": "（名）人を引き付けるもの"
+    },
+    {
+        "id": "e2:803",
+        "word": "calculation",
+        "meaning": "（名）計算"
+    },
+    {
+        "id": "e2:804",
+        "word": "clinic",
+        "meaning": "（名）診療所"
+    },
+    {
+        "id": "e2:805",
+        "word": "lamp",
+        "meaning": "（名）ランプ"
+    },
+    {
+        "id": "e2:806",
+        "word": "anniversary",
+        "meaning": "（名）記念日"
+    },
+    {
+        "id": "e2:807",
+        "word": "navy",
+        "meaning": "（名）海軍"
+    },
+    {
+        "id": "e2:808",
+        "word": "gender",
+        "meaning": "（名）性別"
+    },
+    {
+        "id": "e2:809",
+        "word": "flexibility",
+        "meaning": "（名）柔軟性"
+    },
+    {
+        "id": "e2:810",
+        "word": "tutor",
+        "meaning": "（名）家庭教師"
+    },
+    {
+        "id": "e2:811",
+        "word": "lifetime",
+        "meaning": "（名）一生"
+    },
+    {
+        "id": "e2:812",
+        "word": "oxygen",
+        "meaning": "（名）酸素"
+    },
+    {
+        "id": "e2:813",
+        "word": "avenue",
+        "meaning": "（名）大通り"
+    },
+    {
+        "id": "e2:814",
+        "word": "envelope",
+        "meaning": "（名）封筒"
+    },
+    {
+        "id": "e2:815",
+        "word": "wool",
+        "meaning": "（名）羊毛"
+    },
+    {
+        "id": "e2:816",
+        "word": "lung",
+        "meaning": "（名）肺"
+    },
+    {
+        "id": "e2:817",
+        "word": "jam",
+        "meaning": "（名）混雑"
+    },
+    {
+        "id": "e2:818",
+        "word": "powder",
+        "meaning": "（名）粉"
+    },
+    {
+        "id": "e2:819",
+        "word": "cruise",
+        "meaning": "（名）巡航"
+    },
+    {
+        "id": "e2:820",
+        "word": "thread",
+        "meaning": "（名）糸"
+    },
+    {
+        "id": "e2:821",
+        "word": "orchestra",
+        "meaning": "（名）オーケストラ"
+    },
+    {
+        "id": "e2:822",
+        "word": "affection",
+        "meaning": "（名）愛情"
+    },
+    {
+        "id": "e2:823",
+        "word": "container",
+        "meaning": "（名）容器"
+    },
+    {
+        "id": "e2:824",
+        "word": "civilization",
+        "meaning": "（名）文明"
+    },
+    {
+        "id": "e2:825",
+        "word": "feather",
+        "meaning": "（名）羽"
+    },
+    {
+        "id": "e2:826",
+        "word": "graph",
+        "meaning": "（名）グラフ"
+    },
+    {
+        "id": "e2:827",
+        "word": "fossil",
+        "meaning": "（名）化石"
+    },
+    {
+        "id": "e2:828",
+        "word": "bacteria",
+        "meaning": "（名）バクテリア"
+    },
+    {
+        "id": "e2:829",
+        "word": "fur",
+        "meaning": "（名）毛皮"
+    },
+    {
+        "id": "e2:830",
+        "word": "greenhouse",
+        "meaning": "（名）温室"
+    },
+    {
+        "id": "e2:831",
+        "word": "amusement",
+        "meaning": "（名）楽しみ"
+    },
+    {
+        "id": "e2:832",
+        "word": "prescription",
+        "meaning": "（名）処方箋"
+    },
+    {
+        "id": "e2:833",
+        "word": "workplace",
+        "meaning": "（名）職場"
+    },
+    {
+        "id": "e2:834",
+        "word": "massage",
+        "meaning": "（名）マッサージ"
+    },
+    {
+        "id": "e2:835",
+        "word": "newsletter",
+        "meaning": "（名）会報"
+    },
+    {
+        "id": "e2:836",
+        "word": "playground",
+        "meaning": "（名）運動場"
+    },
+    {
+        "id": "e2:837",
+        "word": "dinosaur",
+        "meaning": "（名）恐竜"
+    },
+    {
+        "id": "e2:838",
+        "word": "chess",
+        "meaning": "（名）チェス"
+    },
+    {
+        "id": "e2:839",
+        "word": "volcano",
+        "meaning": "（名）火山"
+    },
+    {
+        "id": "e2:840",
+        "word": "microscope",
+        "meaning": "（名）顕微鏡"
+    },
+    {
+        "id": "e2:841",
+        "word": "aisle",
+        "meaning": "（名）通路"
+    },
+    {
+        "id": "e2:842",
+        "word": "sunset",
+        "meaning": "（名）日没"
+    },
+    {
+        "id": "e2:843",
+        "word": "altitude",
+        "meaning": "（名）高度"
+    },
+    {
+        "id": "e2:844",
+        "word": "vegetarian",
+        "meaning": "（名）菜食主義者"
+    },
+    {
+        "id": "e2:845",
+        "word": "handwriting",
+        "meaning": "（名）筆跡"
+    },
+    {
+        "id": "e2:846",
+        "word": "vaccine",
+        "meaning": "（名）ワクチン"
+    },
+    {
+        "id": "e2:847",
+        "word": "inconvenience",
+        "meaning": "（名）不便"
+    },
+    {
+        "id": "e2:848",
+        "word": "artwork",
+        "meaning": "（名）芸術作品"
+    },
+    {
+        "id": "e2:849",
+        "word": "fingerprint",
+        "meaning": "（名）指紋"
+    },
+    {
+        "id": "e2:850",
+        "word": "childcare",
+        "meaning": "（名）育児"
+    },
+    {
+        "id": "e2:851",
+        "word": "humidity",
+        "meaning": "（名）湿気"
+    },
+    {
+        "id": "e2:852",
+        "word": "garbage",
+        "meaning": "（名）生ごみ"
+    },
+    {
+        "id": "e2:853",
+        "word": "eyesight",
+        "meaning": "（名）視力"
+    },
+    {
+        "id": "e2:854",
+        "word": "malnutrition",
+        "meaning": "（名）栄養失調"
+    },
+    {
+        "id": "e2:855",
+        "word": "cafeteria",
+        "meaning": "（名）カフェテリア"
+    },
+    {
+        "id": "e2:856",
+        "word": "influenza",
+        "meaning": "（名）インフルエンザ"
+    },
+    {
+        "id": "e2:857",
+        "word": "kindergarten",
+        "meaning": "（名）幼稚園"
+    },
+    {
+        "id": "e2:858",
+        "word": "freeway",
+        "meaning": "（名）高速道路"
+    },
+    {
+        "id": "e2:859",
+        "word": "hometown",
+        "meaning": "（名）故郷"
+    },
+    {
+        "id": "e2:860",
+        "word": "veterinarian",
+        "meaning": "（名）獣医"
+    },
+    {
+        "id": "e2:861",
+        "word": "feeling",
+        "meaning": "（名）気持ち"
+    },
+    {
+        "id": "e2:862",
+        "word": "ecotourism",
+        "meaning": "（名）エコツーリズム"
+    },
+    {
+        "id": "e2:863",
+        "word": "engineering",
+        "meaning": "（名）工学"
+    },
+    {
+        "id": "e2:864",
+        "word": "nonfiction",
+        "meaning": "（名）ノンフィクション"
+    },
+    {
+        "id": "e2:865",
+        "word": "blog",
+        "meaning": "（名）ブログ"
+    },
+    {
+        "id": "e2:866",
+        "word": "aluminum",
+        "meaning": "（名）アルミニウム"
+    },
+    {
+        "id": "e2:867",
+        "word": "clothing",
+        "meaning": "（名）衣類"
+    },
+    {
+        "id": "e2:868",
+        "word": "particularly",
+        "meaning": "（副）特に"
+    },
+    {
+        "id": "e2:869",
+        "word": "thus",
+        "meaning": "（副）このように"
+    },
+    {
+        "id": "e2:870",
+        "word": "immediately",
+        "meaning": "（副）直ちに"
+    },
+    {
+        "id": "e2:871",
+        "word": "otherwise",
+        "meaning": "（副）そうでなければ"
+    },
+    {
+        "id": "e2:872",
+        "word": "relatively",
+        "meaning": "（副）比較的"
+    },
+    {
+        "id": "e2:873",
+        "word": "possibly",
+        "meaning": "（副）もしかしたら"
+    },
+    {
+        "id": "e2:874",
+        "word": "currently",
+        "meaning": "（副）現在"
+    },
+    {
+        "id": "e2:875",
+        "word": "extremely",
+        "meaning": "（副）極端に"
+    },
+    {
+        "id": "e2:876",
+        "word": "fairly",
+        "meaning": "（副）まあまあ"
+    },
+    {
+        "id": "e2:877",
+        "word": "increasingly",
+        "meaning": "（副）ますます"
+    },
+    {
+        "id": "e2:878",
+        "word": "equally",
+        "meaning": "（副）等しく"
+    },
+    {
+        "id": "e2:879",
+        "word": "unfortunately",
+        "meaning": "（副）不運にも"
+    },
+    {
+        "id": "e2:880",
+        "word": "afterwards",
+        "meaning": "（副）あとで"
+    },
+    {
+        "id": "e2:881",
+        "word": "rapidly",
+        "meaning": "（副）急速に"
+    },
+    {
+        "id": "e2:882",
+        "word": "moreover",
+        "meaning": "（副）その上"
+    },
+    {
+        "id": "e2:883",
+        "word": "shortly",
+        "meaning": "（副）まもなく"
+    },
+    {
+        "id": "e2:884",
+        "word": "besides",
+        "meaning": "（副）その上"
+    },
+    {
+        "id": "e2:885",
+        "word": "commonly",
+        "meaning": "（副）一般に"
+    },
+    {
+        "id": "e2:886",
+        "word": "overnight",
+        "meaning": "（副）一晩中"
+    },
+    {
+        "id": "e2:887",
+        "word": "correctly",
+        "meaning": "（副）正しく"
+    },
+    {
+        "id": "e2:888",
+        "word": "permanently",
+        "meaning": "（副）永久に"
+    },
+    {
+        "id": "e2:889",
+        "word": "sincerely",
+        "meaning": "（副）心から"
+    },
+    {
+        "id": "e2:890",
+        "word": "poorly",
+        "meaning": "（副）下手に"
+    },
+    {
+        "id": "e2:891",
+        "word": "additionally",
+        "meaning": "（副）その上"
+    },
+    {
+        "id": "e2:892",
+        "word": "healthily",
+        "meaning": "（副）健康的に"
+    },
+    {
+        "id": "e2:893",
+        "word": "worldwide",
+        "meaning": "（副）世界中に"
+    },
+    {
+        "id": "e2:894",
+        "word": "except",
+        "meaning": "（前）〜を除いては"
+    },
+    {
+        "id": "e2:895",
+        "word": "whereas",
+        "meaning": "（接）～であるのに対して"
+    },
+    {
+        "id": "e2:896",
+        "word": "whenever",
+        "meaning": "（接）～するときはいつでも"
+    },
+    {
+        "id": "e2:897",
+        "word": "wherever",
+        "meaning": "（接）どこへ～しようとも"
+    },
+    {
+        "id": "e2:898",
+        "word": "provided",
+        "meaning": "（接）もし～ならば"
+    },
+    {
+        "id": "e2:899",
+        "word": "concerning",
+        "meaning": "（接）～に関して"
+    },
+    {
+        "id": "e2:900",
+        "word": "sort",
+        "meaning": "（動）分類する"
+    },
+    {
+        "id": "e2:901",
+        "word": "bite",
+        "meaning": "（動）噛む"
+    },
+    {
+        "id": "e2:902",
+        "word": "feature",
+        "meaning": "（動）主演させる"
+    },
+    {
+        "id": "e2:903",
+        "word": "seek",
+        "meaning": "（動）探す"
+    },
+    {
+        "id": "e2:904",
+        "word": "lay",
+        "meaning": "（動）置く"
+    },
+    {
+        "id": "e2:905",
+        "word": "fit",
+        "meaning": "（動）適している"
+    },
+    {
+        "id": "e2:906",
+        "word": "lower",
+        "meaning": "（動）低くする"
+    },
+    {
+        "id": "e2:907",
+        "word": "ensure",
+        "meaning": "（動）確実にする"
+    },
+    {
+        "id": "e2:908",
+        "word": "review",
+        "meaning": "（動）再検討する"
+    },
+    {
+        "id": "e2:909",
+        "word": "stock",
+        "meaning": "（動）商品を店に置いている"
+    },
+    {
+        "id": "e2:910",
+        "word": "define",
+        "meaning": "（動）定義する"
+    },
+    {
+        "id": "e2:911",
+        "word": "stare",
+        "meaning": "（動）じろじろ見る"
+    },
+    {
+        "id": "e2:912",
+        "word": "launch",
+        "meaning": "（動）発射する"
+    },
+    {
+        "id": "e2:913",
+        "word": "wave",
+        "meaning": "（動）波打つ"
+    },
+    {
+        "id": "e2:914",
+        "word": "struggle",
+        "meaning": "（動）奮闘する"
+    },
+    {
+        "id": "e2:915",
+        "word": "conflict",
+        "meaning": "（動）衝突する"
+    },
+    {
+        "id": "e2:916",
+        "word": "impose",
+        "meaning": "（動）課す"
+    },
+    {
+        "id": "e2:917",
+        "word": "consist",
+        "meaning": "（動）成り立っている"
+    },
+    {
+        "id": "e2:918",
+        "word": "monitor",
+        "meaning": "（動）監視する"
+    },
+    {
+        "id": "e2:919",
+        "word": "imply",
+        "meaning": "（動）暗示する"
+    },
+    {
+        "id": "e2:920",
+        "word": "guarantee",
+        "meaning": "（動）保証する"
+    },
+    {
+        "id": "e2:921",
+        "word": "inform",
+        "meaning": "（動）知らせる"
+    },
+    {
+        "id": "e2:922",
+        "word": "convince",
+        "meaning": "（動）納得させる"
+    },
+    {
+        "id": "e2:923",
+        "word": "suspect",
+        "meaning": "（動）疑う"
+    },
+    {
+        "id": "e2:924",
+        "word": "conclude",
+        "meaning": "（動）結論を下す"
+    },
+    {
+        "id": "e2:925",
+        "word": "succeed",
+        "meaning": "（動）成功する"
+    },
+    {
+        "id": "e2:926",
+        "word": "witness",
+        "meaning": "（動）目撃する"
+    },
+    {
+        "id": "e2:927",
+        "word": "distinguish",
+        "meaning": "（動）区別する"
+    },
+    {
+        "id": "e2:928",
+        "word": "earn",
+        "meaning": "（動）稼ぐ"
+    },
+    {
+        "id": "e2:929",
+        "word": "expand",
+        "meaning": "（動）拡大する"
+    },
+    {
+        "id": "e2:930",
+        "word": "qualify",
+        "meaning": "（動）資格を与える"
+    },
+    {
+        "id": "e2:931",
+        "word": "import",
+        "meaning": "（動）輸入する"
+    },
+    {
+        "id": "e2:932",
+        "word": "relax",
+        "meaning": "（動）くつろぐ"
+    },
+    {
+        "id": "e2:933",
+        "word": "rush",
+        "meaning": "（動）急いでいく"
+    },
+    {
+        "id": "e2:934",
+        "word": "pause",
+        "meaning": "（動）休止する"
+    },
+    {
+        "id": "e2:935",
+        "word": "abuse",
+        "meaning": "（動）虐待する"
+    },
+    {
+        "id": "e2:936",
+        "word": "retire",
+        "meaning": "（動）退職する"
+    },
+    {
+        "id": "e2:937",
+        "word": "guess",
+        "meaning": "（動）推測する"
+    },
+    {
+        "id": "e2:938",
+        "word": "collapse",
+        "meaning": "（動）崩壊する"
+    },
+    {
+        "id": "e2:939",
+        "word": "deposit",
+        "meaning": "（動）預ける"
+    },
+    {
+        "id": "e2:940",
+        "word": "construct",
+        "meaning": "（動）建設する"
+    },
+    {
+        "id": "e2:941",
+        "word": "alter",
+        "meaning": "（動）改める"
+    },
+    {
+        "id": "e2:942",
+        "word": "ease",
+        "meaning": "（動）和らげる"
+    },
+    {
+        "id": "e2:943",
+        "word": "freeze",
+        "meaning": "（動）凍る"
+    },
+    {
+        "id": "e2:944",
+        "word": "calculate",
+        "meaning": "（動）計算する"
+    },
+    {
+        "id": "e2:945",
+        "word": "appreciate",
+        "meaning": "（動）感謝する"
+    },
+    {
+        "id": "e2:946",
+        "word": "convert",
+        "meaning": "（動）変える"
+    },
+    {
+        "id": "e2:947",
+        "word": "encounter",
+        "meaning": "（動）遭遇する"
+    },
+    {
+        "id": "e2:948",
+        "word": "compete",
+        "meaning": "（動）競争する"
+    },
+    {
+        "id": "e2:949",
+        "word": "reverse",
+        "meaning": "（動）逆にする"
+    },
+    {
+        "id": "e2:950",
+        "word": "confuse",
+        "meaning": "（動）混乱させる"
+    },
+    {
+        "id": "e2:951",
+        "word": "distribute",
+        "meaning": "（動）分配する"
+    },
+    {
+        "id": "e2:952",
+        "word": "broadcast",
+        "meaning": "（動）放送する"
+    },
+    {
+        "id": "e2:953",
+        "word": "burst",
+        "meaning": "（動）破裂させる"
+    },
+    {
+        "id": "e2:954",
+        "word": "disturb",
+        "meaning": "（動）邪魔をする"
+    },
+    {
+        "id": "e2:955",
+        "word": "hire",
+        "meaning": "（動）雇う"
+    },
+    {
+        "id": "e2:956",
+        "word": "resist",
+        "meaning": "（動）抵抗する"
+    },
+    {
+        "id": "e2:957",
+        "word": "deserve",
+        "meaning": "（動）値する"
+    },
+    {
+        "id": "e2:958",
+        "word": "disappoint",
+        "meaning": "（動）がっかりさせる"
+    },
+    {
+        "id": "e2:959",
+        "word": "float",
+        "meaning": "（動）浮かぶ"
+    },
+    {
+        "id": "e2:960",
+        "word": "detect",
+        "meaning": "（動）検出する"
+    },
+    {
+        "id": "e2:961",
+        "word": "rescue",
+        "meaning": "（動）救助する"
+    },
+    {
+        "id": "e2:962",
+        "word": "behave",
+        "meaning": "（動）ふるまう"
+    },
+    {
+        "id": "e2:963",
+        "word": "participate",
+        "meaning": "（動）参加する"
+    },
+    {
+        "id": "e2:964",
+        "word": "fold",
+        "meaning": "（動）折りたたむ"
+    },
+    {
+        "id": "e2:965",
+        "word": "strengthen",
+        "meaning": "（動）強固にする"
+    },
+    {
+        "id": "e2:966",
+        "word": "impress",
+        "meaning": "（動）印象を与える"
+    },
+    {
+        "id": "e2:967",
+        "word": "chase",
+        "meaning": "（動）追いかける"
+    },
+    {
+        "id": "e2:968",
+        "word": "amaze",
+        "meaning": "（動）驚かせる"
+    },
+    {
+        "id": "e2:969",
+        "word": "absorb",
+        "meaning": "（動）吸収する"
+    },
+    {
+        "id": "e2:970",
+        "word": "forecast",
+        "meaning": "（動）予測する"
+    },
+    {
+        "id": "e2:971",
+        "word": "adapt",
+        "meaning": "（動）適応させる"
+    },
+    {
+        "id": "e2:972",
+        "word": "graduate",
+        "meaning": "（動）卒業する"
+    },
+    {
+        "id": "e2:973",
+        "word": "ruin",
+        "meaning": "（動）だめにする"
+    },
+    {
+        "id": "e2:974",
+        "word": "praise",
+        "meaning": "（動）褒める"
+    },
+    {
+        "id": "e2:975",
+        "word": "decrease",
+        "meaning": "（動）減少する"
+    },
+    {
+        "id": "e2:976",
+        "word": "educate",
+        "meaning": "（動）教育する"
+    },
+    {
+        "id": "e2:977",
+        "word": "compose",
+        "meaning": "（動）創作する"
+    },
+    {
+        "id": "e2:978",
+        "word": "puzzle",
+        "meaning": "（動）当惑させる"
+    },
+    {
+        "id": "e2:979",
+        "word": "admire",
+        "meaning": "（動）関心する"
+    },
+    {
+        "id": "e2:980",
+        "word": "rub",
+        "meaning": "（動）こする"
+    },
+    {
+        "id": "e2:981",
+        "word": "cancel",
+        "meaning": "（動）取り消す"
+    },
+    {
+        "id": "e2:982",
+        "word": "edit",
+        "meaning": "（動）編集する"
+    },
+    {
+        "id": "e2:983",
+        "word": "rob",
+        "meaning": "（動）奪う"
+    },
+    {
+        "id": "e2:984",
+        "word": "entertain",
+        "meaning": "（動）楽しませる"
+    },
+    {
+        "id": "e2:985",
+        "word": "interrupt",
+        "meaning": "（動）中断させる"
+    },
+    {
+        "id": "e2:986",
+        "word": "beg",
+        "meaning": "（動）懇願する"
+    },
+    {
+        "id": "e2:987",
+        "word": "dedicate",
+        "meaning": "（動）捧げる"
+    },
+    {
+        "id": "e2:988",
+        "word": "assert",
+        "meaning": "（動）断言する"
+    },
+    {
+        "id": "e2:989",
+        "word": "scratch",
+        "meaning": "（動）引っ掻く"
+    },
+    {
+        "id": "e2:990",
+        "word": "inherit",
+        "meaning": "（動）受け継ぐ"
+    },
+    {
+        "id": "e2:991",
+        "word": "invent",
+        "meaning": "（動）発明する"
+    },
+    {
+        "id": "e2:992",
+        "word": "spoil",
+        "meaning": "（動）だめにする"
+    },
+    {
+        "id": "e2:993",
+        "word": "assign",
+        "meaning": "（動）割り当てる"
+    },
+    {
+        "id": "e2:994",
+        "word": "dislike",
+        "meaning": "（動）嫌う"
+    },
+    {
+        "id": "e2:995",
+        "word": "rebuild",
+        "meaning": "（動）改築する"
+    },
+    {
+        "id": "e2:996",
+        "word": "spill",
+        "meaning": "（動）こぼす"
+    },
+    {
+        "id": "e2:997",
+        "word": "annoy",
+        "meaning": "（動）イライラさせる"
+    },
+    {
+        "id": "e2:998",
+        "word": "tremble",
+        "meaning": "（動）震える"
+    },
+    {
+        "id": "e2:999",
+        "word": "apologize",
+        "meaning": "（動）謝る"
+    },
+    {
+        "id": "e2:1000",
+        "word": "reproduce",
+        "meaning": "（動）複製する"
+    },
+    {
+        "id": "e2:1001",
+        "word": "astonish",
+        "meaning": "（動）驚かす"
+    },
+    {
+        "id": "e2:1002",
+        "word": "cough",
+        "meaning": "（動）咳をする"
+    },
+    {
+        "id": "e2:1003",
+        "word": "insult",
+        "meaning": "（動）侮辱する"
+    },
+    {
+        "id": "e2:1004",
+        "word": "compensate",
+        "meaning": "（動）埋め合わせをする"
+    },
+    {
+        "id": "e2:1005",
+        "word": "cooperate",
+        "meaning": "（動）協力する"
+    },
+    {
+        "id": "e2:1006",
+        "word": "yell",
+        "meaning": "（動）叫ぶ"
+    },
+    {
+        "id": "e2:1007",
+        "word": "bloom",
+        "meaning": "（動）咲く"
+    },
+    {
+        "id": "e2:1008",
+        "word": "accomplish",
+        "meaning": "（動）成し遂げる"
+    },
+    {
+        "id": "e2:1009",
+        "word": "postpone",
+        "meaning": "（動）延期する"
+    },
+    {
+        "id": "e2:1010",
+        "word": "tolerate",
+        "meaning": "（動）許容する"
+    },
+    {
+        "id": "e2:1011",
+        "word": "repay",
+        "meaning": "（動）金銭を返す"
+    },
+    {
+        "id": "e2:1012",
+        "word": "install",
+        "meaning": "（動）設置する"
+    },
+    {
+        "id": "e2:1013",
+        "word": "fasten",
+        "meaning": "（動）締める"
+    },
+    {
+        "id": "e2:1014",
+        "word": "expire",
+        "meaning": "（動）有効期限が切れる"
+    },
+    {
+        "id": "e2:1015",
+        "word": "pollute",
+        "meaning": "（動）汚染する"
+    },
+    {
+        "id": "e2:1016",
+        "word": "adore",
+        "meaning": "（動）大好きである"
+    },
+    {
+        "id": "e2:1017",
+        "word": "shorten",
+        "meaning": "（動）短くする"
+    },
+    {
+        "id": "e2:1018",
+        "word": "rewrite",
+        "meaning": "（動）書き出す"
+    },
+    {
+        "id": "e2:1019",
+        "word": "refund",
+        "meaning": "（動）払い戻す"
+    },
+    {
+        "id": "e2:1020",
+        "word": "surf",
+        "meaning": "（動）サーフィンをする"
+    },
+    {
+        "id": "e2:1021",
+        "word": "commute",
+        "meaning": "（動）通勤・通学する"
+    },
+    {
+        "id": "e2:1022",
+        "word": "restart",
+        "meaning": "（動）再開始する"
+    },
+    {
+        "id": "e2:1023",
+        "word": "reuse",
+        "meaning": "（動）再利用する"
+    },
+    {
+        "id": "e2:1024",
+        "word": "bore",
+        "meaning": "（動）うんざりさせる"
+    },
+    {
+        "id": "e2:1025",
+        "word": "emphasise",
+        "meaning": "（動）強調する"
+    },
+    {
+        "id": "e2:1026",
+        "word": "former",
+        "meaning": "（形）前の"
+    },
+    {
+        "id": "e2:1027",
+        "word": "royal",
+        "meaning": "（形）王室の"
+    },
+    {
+        "id": "e2:1028",
+        "word": "prime",
+        "meaning": "（形）最も重要な"
+    },
+    {
+        "id": "e2:1029",
+        "word": "responsible",
+        "meaning": "（形）責任のある"
+    },
+    {
+        "id": "e2:1030",
+        "word": "senior",
+        "meaning": "（形）先輩の"
+    },
+    {
+        "id": "e2:1031",
+        "word": "neither",
+        "meaning": "（形）どちらも～でない"
+    },
+    {
+        "id": "e2:1032",
+        "word": "relevant",
+        "meaning": "（形）関連した"
+    },
+    {
+        "id": "e2:1033",
+        "word": "additional",
+        "meaning": "（形）追加の"
+    },
+    {
+        "id": "e2:1034",
+        "word": "initial",
+        "meaning": "（形）最初の"
+    },
+    {
+        "id": "e2:1035",
+        "word": "formal",
+        "meaning": "（形）正式の"
+    },
+    {
+        "id": "e2:1036",
+        "word": "rural",
+        "meaning": "（形）田舎の"
+    },
+    {
+        "id": "e2:1037",
+        "word": "suitable",
+        "meaning": "（形）適した"
+    },
+    {
+        "id": "e2:1038",
+        "word": "historical",
+        "meaning": "（形）歴史の"
+    },
+    {
+        "id": "e2:1039",
+        "word": "apparent",
+        "meaning": "（形）明白な"
+    },
+    {
+        "id": "e2:1040",
+        "word": "minimum",
+        "meaning": "（形）最小の"
+    },
+    {
+        "id": "e2:1041",
+        "word": "capable",
+        "meaning": "（形）有能な"
+    },
+    {
+        "id": "e2:1042",
+        "word": "typical",
+        "meaning": "（形）典型的な"
+    },
+    {
+        "id": "e2:1043",
+        "word": "entire",
+        "meaning": "（形）全体の"
+    },
+    {
+        "id": "e2:1044",
+        "word": "guilty",
+        "meaning": "（形）有罪の"
+    },
+    {
+        "id": "e2:1045",
+        "word": "enormous",
+        "meaning": "（形）ばく大な"
+    },
+    {
+        "id": "e2:1046",
+        "word": "smooth",
+        "meaning": "（形）なめらかな"
+    },
+    {
+        "id": "e2:1047",
+        "word": "extensive",
+        "meaning": "（形）広範囲にわたる"
+    },
+    {
+        "id": "e2:1048",
+        "word": "willing",
+        "meaning": "（形）～しても構わないと思う"
+    },
+    {
+        "id": "e2:1049",
+        "word": "sudden",
+        "meaning": "（形）突然の"
+    },
+    {
+        "id": "e2:1050",
+        "word": "dramatic",
+        "meaning": "（形）劇的な"
+    },
+    {
+        "id": "e2:1051",
+        "word": "spare",
+        "meaning": "（形）予備の"
+    },
+    {
+        "id": "e2:1052",
+        "word": "rapid",
+        "meaning": "（形）急速な"
+    },
+    {
+        "id": "e2:1053",
+        "word": "absolute",
+        "meaning": "（形）絶対的な"
+    },
+    {
+        "id": "e2:1054",
+        "word": "genuine",
+        "meaning": "（形）本物の"
+    },
+    {
+        "id": "e2:1055",
+        "word": "classical",
+        "meaning": "（形）古典的な"
+    },
+    {
+        "id": "e2:1056",
+        "word": "widespread",
+        "meaning": "（形）広く行き渡った"
+    },
+    {
+        "id": "e2:1057",
+        "word": "anxious",
+        "meaning": "（形）心配して"
+    },
+    {
+        "id": "e2:1058",
+        "word": "conscious",
+        "meaning": "（形）意識して"
+    },
+    {
+        "id": "e2:1059",
+        "word": "concrete",
+        "meaning": "（形）具体的な"
+    },
+    {
+        "id": "e2:1060",
+        "word": "creative",
+        "meaning": "（形）創造的な"
+    },
+    {
+        "id": "e2:1061",
+        "word": "mature",
+        "meaning": "（形）成熟した"
+    },
+    {
+        "id": "e2:1062",
+        "word": "flexible",
+        "meaning": "（形）柔軟な"
+    },
+    {
+        "id": "e2:1063",
+        "word": "ethnic",
+        "meaning": "（形）民族的な"
+    },
+    {
+        "id": "e2:1064",
+        "word": "curious",
+        "meaning": "（形）好奇心の強い"
+    },
+    {
+        "id": "e2:1065",
+        "word": "full-time",
+        "meaning": "（形）常勤の"
+    },
+    {
+        "id": "e2:1066",
+        "word": "dull",
+        "meaning": "（形）鈍い"
+    },
+    {
+        "id": "e2:1067",
+        "word": "awake",
+        "meaning": "（形）目が覚めて"
+    },
+    {
+        "id": "e2:1068",
+        "word": "romantic",
+        "meaning": "（形）恋愛の"
+    },
+    {
+        "id": "e2:1069",
+        "word": "exclusive",
+        "meaning": "（形）排他的な"
+    },
+    {
+        "id": "e2:1070",
+        "word": "ridiculous",
+        "meaning": "（形）馬鹿げた"
+    },
+    {
+        "id": "e2:1071",
+        "word": "unnecessary",
+        "meaning": "（形）不要な"
+    },
+    {
+        "id": "e2:1072",
+        "word": "delicate",
+        "meaning": "（形）繊細な"
+    },
+    {
+        "id": "e2:1073",
+        "word": "short-term",
+        "meaning": "（形）短期の"
+    },
+    {
+        "id": "e2:1074",
+        "word": "moderate",
+        "meaning": "（形）適度な"
+    },
+    {
+        "id": "e2:1075",
+        "word": "ambitious",
+        "meaning": "（形）野心的な"
+    },
+    {
+        "id": "e2:1076",
+        "word": "enthusiastic",
+        "meaning": "（形）熱心な"
+    },
+    {
+        "id": "e2:1077",
+        "word": "cruel",
+        "meaning": "（形）残酷な"
+    },
+    {
+        "id": "e2:1078",
+        "word": "ugly",
+        "meaning": "（形）醜い"
+    },
+    {
+        "id": "e2:1079",
+        "word": "uncomfortable",
+        "meaning": "（形）心地の良くない"
+    },
+    {
+        "id": "e2:1080",
+        "word": "beneficial",
+        "meaning": "（形）有益な"
+    },
+    {
+        "id": "e2:1081",
+        "word": "mysterious",
+        "meaning": "（形）神秘的な"
+    },
+    {
+        "id": "e2:1082",
+        "word": "invisible",
+        "meaning": "（形）目に見えない"
+    },
+    {
+        "id": "e2:1083",
+        "word": "cheerful",
+        "meaning": "（形）元気の良い"
+    },
+    {
+        "id": "e2:1084",
+        "word": "homeless",
+        "meaning": "（形）家のない"
+    },
+    {
+        "id": "e2:1085",
+        "word": "faithful",
+        "meaning": "（形）忠実な"
+    },
+    {
+        "id": "e2:1086",
+        "word": "absurd",
+        "meaning": "（形）ばかげた"
+    },
+    {
+        "id": "e2:1087",
+        "word": "unclear",
+        "meaning": "（形）不明確な"
+    },
+    {
+        "id": "e2:1088",
+        "word": "fake",
+        "meaning": "（形）偽の"
+    },
+    {
+        "id": "e2:1089",
+        "word": "unwanted",
+        "meaning": "（形）望まれてない"
+    },
+    {
+        "id": "e2:1090",
+        "word": "shiny",
+        "meaning": "（形）光る"
+    },
+    {
+        "id": "e2:1091",
+        "word": "ignorant",
+        "meaning": "（形）無知な"
+    },
+    {
+        "id": "e2:1092",
+        "word": "unsure",
+        "meaning": "（形）確信がない"
+    },
+    {
+        "id": "e2:1093",
+        "word": "up-to-date",
+        "meaning": "（形）最新式の"
+    },
+    {
+        "id": "e2:1094",
+        "word": "unbelievable",
+        "meaning": "（形）信じられない"
+    },
+    {
+        "id": "e2:1095",
+        "word": "farther",
+        "meaning": "（形）もっと遠い"
+    },
+    {
+        "id": "e2:1096",
+        "word": "three-dimensional",
+        "meaning": "（形）３次元の"
+    },
+    {
+        "id": "e2:1097",
+        "word": "economical",
+        "meaning": "（形）経済的な"
+    },
+    {
+        "id": "e2:1098",
+        "word": "extinct",
+        "meaning": "（形）絶滅した"
+    },
+    {
+        "id": "e2:1099",
+        "word": "messy",
+        "meaning": "（形）散らかった"
+    },
+    {
+        "id": "e2:1100",
+        "word": "chilly",
+        "meaning": "（形）寒い"
+    },
+    {
+        "id": "e2:1101",
+        "word": "fluent",
+        "meaning": "（形）流ちょうな"
+    },
+    {
+        "id": "e2:1102",
+        "word": "stressful",
+        "meaning": "（形）ストレスの原因となる"
+    },
+    {
+        "id": "e2:1103",
+        "word": "inexpensive",
+        "meaning": "（形）安価な"
+    },
+    {
+        "id": "e2:1104",
+        "word": "face-to-face",
+        "meaning": "（形）対面の"
+    },
+    {
+        "id": "e2:1105",
+        "word": "scary",
+        "meaning": "（形）恐ろしい"
+    },
+    {
+        "id": "e2:1106",
+        "word": "salty",
+        "meaning": "（形）塩気のある"
+    },
+    {
+        "id": "e2:1107",
+        "word": "rooftop",
+        "meaning": "（形）屋上にある"
+    },
+    {
+        "id": "e2:1108",
+        "word": "leftover",
+        "meaning": "（形）食べ残し"
+    },
+    {
+        "id": "e2:1109",
+        "word": "carry-on",
+        "meaning": "（形）機内持ち込みの"
+    },
+    {
+        "id": "e2:1110",
+        "word": "eco-friendly",
+        "meaning": "（形）環境に優しい"
+    },
+    {
+        "id": "e2:1111",
+        "word": "challenging",
+        "meaning": "（形）やりがいのある"
+    },
+    {
+        "id": "e2:1112",
+        "word": "embarrassed",
+        "meaning": "（形）決まりの悪い"
+    },
+    {
+        "id": "e2:1113",
+        "word": "disabled",
+        "meaning": "（形）身体障害の"
+    },
+    {
+        "id": "e2:1114",
+        "word": "bilingual",
+        "meaning": "（形）二言語使用の"
+    },
+    {
+        "id": "e2:1115",
+        "word": "issue",
+        "meaning": "（名）争点"
+    },
+    {
+        "id": "e2:1116",
+        "word": "court",
+        "meaning": "（名）裁判所"
+    },
+    {
+        "id": "e2:1117",
+        "word": "council",
+        "meaning": "（名）議会"
+    },
+    {
+        "id": "e2:1118",
+        "word": "minister",
+        "meaning": "（名）大臣"
+    },
+    {
+        "id": "e2:1119",
+        "word": "figure",
+        "meaning": "（名）人物"
+    },
+    {
+        "id": "e2:1120",
+        "word": "management",
+        "meaning": "（名）経営"
+    },
+    {
+        "id": "e2:1121",
+        "word": "committee",
+        "meaning": "（名）委員会"
+    },
+    {
+        "id": "e2:1122",
+        "word": "press",
+        "meaning": "（名）報道機関"
+    },
+    {
+        "id": "e2:1123",
+        "word": "bill",
+        "meaning": "（名）請求書"
+    },
+    {
+        "id": "e2:1124",
+        "word": "property",
+        "meaning": "（名）財産"
+    },
+    {
+        "id": "e2:1125",
+        "word": "principle",
+        "meaning": "（名）原理"
+    },
+    {
+        "id": "e2:1126",
+        "word": "investment",
+        "meaning": "（名）投資"
+    },
+    {
+        "id": "e2:1127",
+        "word": "comment",
+        "meaning": "（名）論評"
+    },
+    {
+        "id": "e2:1128",
+        "word": "procedure",
+        "meaning": "（名）手順"
+    },
+    {
+        "id": "e2:1129",
+        "word": "proposal",
+        "meaning": "（名）提案"
+    },
+    {
+        "id": "e2:1130",
+        "word": "circumstance",
+        "meaning": "（名）状況"
+    },
+    {
+        "id": "e2:1131",
+        "word": "employment",
+        "meaning": "（名）雇用"
+    },
+    {
+        "id": "e2:1132",
+        "word": "edge",
+        "meaning": "（名）刃"
+    },
+    {
+        "id": "e2:1133",
+        "word": "budget",
+        "meaning": "（名）予算"
+    },
+    {
+        "id": "e2:1134",
+        "word": "shot",
+        "meaning": "（名）発砲"
+    },
+    {
+        "id": "e2:1135",
+        "word": "career",
+        "meaning": "（名）経歴"
+    },
+    {
+        "id": "e2:1136",
+        "word": "possibility",
+        "meaning": "（名）可能性"
+    },
+    {
+        "id": "e2:1137",
+        "word": "quarter",
+        "meaning": "（名）４分の１"
+    },
+    {
+        "id": "e2:1138",
+        "word": "square",
+        "meaning": "（名）正方形"
+    },
+    {
+        "id": "e2:1139",
+        "word": "status",
+        "meaning": "（名）地位"
+    },
+    {
+        "id": "e2:1140",
+        "word": "trial",
+        "meaning": "（名）裁判"
+    },
+    {
+        "id": "e2:1141",
+        "word": "nation",
+        "meaning": "（名）国民"
+    },
+    {
+        "id": "e2:1142",
+        "word": "studio",
+        "meaning": "（名）スタジオ"
+    },
+    {
+        "id": "e2:1143",
+        "word": "justice",
+        "meaning": "（名）正義"
+    },
+    {
+        "id": "e2:1144",
+        "word": "representative",
+        "meaning": "（名）代理人"
+    },
+    {
+        "id": "e2:1145",
+        "word": "consequence",
+        "meaning": "（名）結果"
+    },
+    {
+        "id": "e2:1146",
+        "word": "introduction",
+        "meaning": "（名）紹介"
+    },
+    {
+        "id": "e2:1147",
+        "word": "reduction",
+        "meaning": "（名）減少"
+    },
+    {
+        "id": "e2:1148",
+        "word": "criminal",
+        "meaning": "（名）犯罪者"
+    },
+    {
+        "id": "e2:1149",
+        "word": "appointment",
+        "meaning": "（名）約束"
+    },
+    {
+        "id": "e2:1150",
+        "word": "border",
+        "meaning": "（名）境界"
+    },
+    {
+        "id": "e2:1151",
+        "word": "weapon",
+        "meaning": "（名）武器"
+    },
+    {
+        "id": "e2:1152",
+        "word": "temperature",
+        "meaning": "（名）温度"
+    },
+    {
+        "id": "e2:1153",
+        "word": "household",
+        "meaning": "（名）所帯"
+    },
+    {
+        "id": "e2:1154",
+        "word": "brain",
+        "meaning": "（名）頭脳"
+    },
+    {
+        "id": "e2:1155",
+        "word": "specialist",
+        "meaning": "（名）専門家"
+    },
+    {
+        "id": "e2:1156",
+        "word": "frame",
+        "meaning": "（名）枠"
+    },
+    {
+        "id": "e2:1157",
+        "word": "instrument",
+        "meaning": "（名）道具"
+    },
+    {
+        "id": "e2:1158",
+        "word": "location",
+        "meaning": "（名）場所"
+    },
+    {
+        "id": "e2:1159",
+        "word": "motion",
+        "meaning": "（名）運動"
+    },
+    {
+        "id": "e2:1160",
+        "word": "faith",
+        "meaning": "（名）信頼"
+    },
+    {
+        "id": "e2:1161",
+        "word": "literature",
+        "meaning": "（名）文学"
+    },
+    {
+        "id": "e2:1162",
+        "word": "soil",
+        "meaning": "（名）土壌"
+    },
+    {
+        "id": "e2:1163",
+        "word": "suggestion",
+        "meaning": "（名）提案"
+    },
+    {
+        "id": "e2:1164",
+        "word": "principal",
+        "meaning": "（名）校長"
+    },
+    {
+        "id": "e2:1165",
+        "word": "roof",
+        "meaning": "（名）屋根"
+    },
+    {
+        "id": "e2:1166",
+        "word": "diet",
+        "meaning": "（名）食事"
+    },
+    {
+        "id": "e2:1167",
+        "word": "atmosphere",
+        "meaning": "（名）大気"
+    },
+    {
+        "id": "e2:1168",
+        "word": "enemy",
+        "meaning": "（名）敵"
+    },
+    {
+        "id": "e2:1169",
+        "word": "reward",
+        "meaning": "（名）報酬"
+    },
+    {
+        "id": "e2:1170",
+        "word": "citizen",
+        "meaning": "（名）国民"
+    },
+    {
+        "id": "e2:1171",
+        "word": "corporation",
+        "meaning": "（名）企業"
+    },
+    {
+        "id": "e2:1172",
+        "word": "complaint",
+        "meaning": "（名）不平"
+    },
+    {
+        "id": "e2:1173",
+        "word": "supporter",
+        "meaning": "（名）支持者"
+    },
+    {
+        "id": "e2:1174",
+        "word": "accommodation",
+        "meaning": "（名）宿泊設備"
+    },
+    {
+        "id": "e2:1175",
+        "word": "exception",
+        "meaning": "（名）例外"
+    },
+    {
+        "id": "e2:1176",
+        "word": "minority",
+        "meaning": "（名）少数派"
+    },
+    {
+        "id": "e2:1177",
+        "word": "gene",
+        "meaning": "（名）遺伝子"
+    },
+    {
+        "id": "e2:1178",
+        "word": "quantity",
+        "meaning": "（名）量"
+    },
+    {
+        "id": "e2:1179",
+        "word": "rival",
+        "meaning": "（名）ライバル"
+    },
+    {
+        "id": "e2:1180",
+        "word": "depth",
+        "meaning": "（名）深さ"
+    },
+    {
+        "id": "e2:1181",
+        "word": "chest",
+        "meaning": "（名）胸"
+    },
+    {
+        "id": "e2:1182",
+        "word": "habit",
+        "meaning": "（名）習慣"
+    },
+    {
+        "id": "e2:1183",
+        "word": "agriculture",
+        "meaning": "（名）農業"
+    },
+    {
+        "id": "e2:1184",
+        "word": "efficiency",
+        "meaning": "（名）効率"
+    },
+    {
+        "id": "e2:1185",
+        "word": "lecture",
+        "meaning": "（名）講義"
+    },
+    {
+        "id": "e2:1186",
+        "word": "laboratory",
+        "meaning": "（名）実験室"
+    },
+    {
+        "id": "e2:1187",
+        "word": "custom",
+        "meaning": "（名）慣習"
+    },
+    {
+        "id": "e2:1188",
+        "word": "echo",
+        "meaning": "（名）反響"
+    },
+    {
+        "id": "e2:1189",
+        "word": "mood",
+        "meaning": "（名）気分"
+    },
+    {
+        "id": "e2:1190",
+        "word": "cigarette",
+        "meaning": "（名）巻きタバコ"
+    },
+    {
+        "id": "e2:1191",
+        "word": "emotion",
+        "meaning": "（名）感情"
+    },
+    {
+        "id": "e2:1192",
+        "word": "harm",
+        "meaning": "（名）害"
+    },
+    {
+        "id": "e2:1193",
+        "word": "joy",
+        "meaning": "（名）喜び"
+    },
+    {
+        "id": "e2:1194",
+        "word": "workshop",
+        "meaning": "（名）研修会"
+    },
+    {
+        "id": "e2:1195",
+        "word": "percentage",
+        "meaning": "（名）パーセント"
+    },
+    {
+        "id": "e2:1196",
+        "word": "anxiety",
+        "meaning": "（名）心配"
+    },
+    {
+        "id": "e2:1197",
+        "word": "poverty",
+        "meaning": "（名）貧困"
+    },
+    {
+        "id": "e2:1198",
+        "word": "barrier",
+        "meaning": "（名）障壁"
+    },
+    {
+        "id": "e2:1199",
+        "word": "summary",
+        "meaning": "（名）要約"
+    },
+    {
+        "id": "e2:1200",
+        "word": "profile",
+        "meaning": "（名）プロフィール"
+    },
+    {
+        "id": "e2:1201",
+        "word": "storage",
+        "meaning": "（名）貯蔵"
+    },
+    {
+        "id": "e2:1202",
+        "word": "forecast",
+        "meaning": "（名）予測"
+    },
+    {
+        "id": "e2:1203",
+        "word": "salary",
+        "meaning": "（名）給料"
+    },
+    {
+        "id": "e2:1204",
+        "word": "brand",
+        "meaning": "（名）ブランド"
+    },
+    {
+        "id": "e2:1205",
+        "word": "surgery",
+        "meaning": "（名）外科"
+    },
+    {
+        "id": "e2:1206",
+        "word": "patch",
+        "meaning": "（名）継ぎ当て用の布"
+    },
+    {
+        "id": "e2:1207",
+        "word": "liquid",
+        "meaning": "（名）液体"
+    },
+    {
+        "id": "e2:1208",
+        "word": "pump",
+        "meaning": "（名）ポンプ"
+    },
+    {
+        "id": "e2:1209",
+        "word": "architect",
+        "meaning": "（名）建築家"
+    },
+    {
+        "id": "e2:1210",
+        "word": "ceiling",
+        "meaning": "（名）天井"
+    },
+    {
+        "id": "e2:1211",
+        "word": "departure",
+        "meaning": "（名）出発"
+    },
+    {
+        "id": "e2:1212",
+        "word": "pole",
+        "meaning": "（名）柱"
+    },
+    {
+        "id": "e2:1213",
+        "word": "objection",
+        "meaning": "（名）反対"
+    },
+    {
+        "id": "e2:1214",
+        "word": "publicity",
+        "meaning": "（名）知れ渡ること"
+    },
+    {
+        "id": "e2:1215",
+        "word": "stranger",
+        "meaning": "（名）見知らぬ人"
+    },
+    {
+        "id": "e2:1216",
+        "word": "applicant",
+        "meaning": "（名）志願者"
+    },
+    {
+        "id": "e2:1217",
+        "word": "mask",
+        "meaning": "（名）マスク"
+    },
+    {
+        "id": "e2:1218",
+        "word": "depression",
+        "meaning": "（名）憂鬱"
+    },
+    {
+        "id": "e2:1219",
+        "word": "advertisement",
+        "meaning": "（名）広告"
+    },
+    {
+        "id": "e2:1220",
+        "word": "tide",
+        "meaning": "（名）潮"
+    },
+    {
+        "id": "e2:1221",
+        "word": "satellite",
+        "meaning": "（名）人工衛星"
+    },
+    {
+        "id": "e2:1222",
+        "word": "illustration",
+        "meaning": "（名）説明画"
+    },
+    {
+        "id": "e2:1223",
+        "word": "shortage",
+        "meaning": "（名）不足"
+    },
+    {
+        "id": "e2:1224",
+        "word": "insect",
+        "meaning": "（名）昆虫"
+    },
+    {
+        "id": "e2:1225",
+        "word": "panic",
+        "meaning": "（名）パニック"
+    },
+    {
+        "id": "e2:1226",
+        "word": "courage",
+        "meaning": "（名）勇気"
+    },
+    {
+        "id": "e2:1227",
+        "word": "tournament",
+        "meaning": "（名）選手権大会"
+    },
+    {
+        "id": "e2:1228",
+        "word": "rhythm",
+        "meaning": "（名）リズム"
+    },
+    {
+        "id": "e2:1229",
+        "word": "warmth",
+        "meaning": "（名）暖かさ"
+    },
+    {
+        "id": "e2:1230",
+        "word": "sculpture",
+        "meaning": "（名）彫刻"
+    },
+    {
+        "id": "e2:1231",
+        "word": "pioneer",
+        "meaning": "（名）先駆者"
+    },
+    {
+        "id": "e2:1232",
+        "word": "clue",
+        "meaning": "（名）手がかり"
+    },
+    {
+        "id": "e2:1233",
+        "word": "wildlife",
+        "meaning": "（名）野生動物"
+    },
+    {
+        "id": "e2:1234",
+        "word": "accent",
+        "meaning": "（名）なまり"
+    },
+    {
+        "id": "e2:1235",
+        "word": "ingredient",
+        "meaning": "（名）材料"
+    },
+    {
+        "id": "e2:1236",
+        "word": "scholar",
+        "meaning": "（名）学者"
+    },
+    {
+        "id": "e2:1237",
+        "word": "accuracy",
+        "meaning": "（名）正確さ"
+    },
+    {
+        "id": "e2:1238",
+        "word": "blade",
+        "meaning": "（名）刃"
+    },
+    {
+        "id": "e2:1239",
+        "word": "neighborhood",
+        "meaning": "（名）近所"
+    },
+    {
+        "id": "e2:1240",
+        "word": "cab",
+        "meaning": "（名）タクシー"
+    },
+    {
+        "id": "e2:1241",
+        "word": "geography",
+        "meaning": "（名）地理学"
+    },
+    {
+        "id": "e2:1242",
+        "word": "script",
+        "meaning": "（名）台本"
+    },
+    {
+        "id": "e2:1243",
+        "word": "equality",
+        "meaning": "（名）平等"
+    },
+    {
+        "id": "e2:1244",
+        "word": "breeze",
+        "meaning": "（名）そよ風"
+    },
+    {
+        "id": "e2:1245",
+        "word": "encouragement",
+        "meaning": "（名）奨励"
+    },
+    {
+        "id": "e2:1246",
+        "word": "destination",
+        "meaning": "（名）目的地"
+    },
+    {
+        "id": "e2:1247",
+        "word": "bureau",
+        "meaning": "（名）事務局"
+    },
+    {
+        "id": "e2:1248",
+        "word": "electronics",
+        "meaning": "（名）電子工学"
+    },
+    {
+        "id": "e2:1249",
+        "word": "tourism",
+        "meaning": "（名）観光事業"
+    },
+    {
+        "id": "e2:1250",
+        "word": "monument",
+        "meaning": "（名）記念碑"
+    },
+    {
+        "id": "e2:1251",
+        "word": "tribe",
+        "meaning": "（名）部族"
+    },
+    {
+        "id": "e2:1252",
+        "word": "feedback",
+        "meaning": "（名）反応"
+    },
+    {
+        "id": "e2:1253",
+        "word": "reminder",
+        "meaning": "（名）思い起こさせるもの"
+    },
+    {
+        "id": "e2:1254",
+        "word": "foreigner",
+        "meaning": "（名）外国人"
+    },
+    {
+        "id": "e2:1255",
+        "word": "apology",
+        "meaning": "（名）謝罪"
+    },
+    {
+        "id": "e2:1256",
+        "word": "lens",
+        "meaning": "（名）レンズ"
+    },
+    {
+        "id": "e2:1257",
+        "word": "jar",
+        "meaning": "（名）瓶"
+    },
+    {
+        "id": "e2:1258",
+        "word": "disagreement",
+        "meaning": "（名）意見の相違"
+    },
+    {
+        "id": "e2:1259",
+        "word": "aluminium",
+        "meaning": "（名）アルミニウム"
+    },
+    {
+        "id": "e2:1260",
+        "word": "biography",
+        "meaning": "（名）伝記"
+    },
+    {
+        "id": "e2:1261",
+        "word": "rehearsal",
+        "meaning": "（名）リハーサル"
+    },
+    {
+        "id": "e2:1262",
+        "word": "documentary",
+        "meaning": "（名）ドキュメンタリー"
+    },
+    {
+        "id": "e2:1263",
+        "word": "acquaintance",
+        "meaning": "（名）知人"
+    },
+    {
+        "id": "e2:1264",
+        "word": "basement",
+        "meaning": "（名）地下室"
+    },
+    {
+        "id": "e2:1265",
+        "word": "wheelchair",
+        "meaning": "（名）車いす"
+    },
+    {
+        "id": "e2:1266",
+        "word": "submarine",
+        "meaning": "（名）潜水艦"
+    },
+    {
+        "id": "e2:1267",
+        "word": "thief",
+        "meaning": "（名）泥棒"
+    },
+    {
+        "id": "e2:1268",
+        "word": "buffet",
+        "meaning": "（名）軽食"
+    },
+    {
+        "id": "e2:1269",
+        "word": "housework",
+        "meaning": "（名）家事"
+    },
+    {
+        "id": "e2:1270",
+        "word": "creator",
+        "meaning": "（名）創作者"
+    },
+    {
+        "id": "e2:1271",
+        "word": "hurricane",
+        "meaning": "（名）ハリケーン"
+    },
+    {
+        "id": "e2:1272",
+        "word": "rainforest",
+        "meaning": "（名）熱帯雨林"
+    },
+    {
+        "id": "e2:1273",
+        "word": "extinction",
+        "meaning": "（名）絶滅"
+    },
+    {
+        "id": "e2:1274",
+        "word": "masterpiece",
+        "meaning": "（名）傑作"
+    },
+    {
+        "id": "e2:1275",
+        "word": "laundry",
+        "meaning": "（名）クリーニング店"
+    },
+    {
+        "id": "e2:1276",
+        "word": "calculator",
+        "meaning": "（名）計算機"
+    },
+    {
+        "id": "e2:1277",
+        "word": "brightness",
+        "meaning": "（名）明るさ"
+    },
+    {
+        "id": "e2:1278",
+        "word": "latitude",
+        "meaning": "（名）緯度"
+    },
+    {
+        "id": "e2:1279",
+        "word": "inventor",
+        "meaning": "（名）発明者"
+    },
+    {
+        "id": "e2:1280",
+        "word": "motorcycle",
+        "meaning": "（名）バイク"
+    },
+    {
+        "id": "e2:1281",
+        "word": "animation",
+        "meaning": "（名）アニメーション"
+    },
+    {
+        "id": "e2:1282",
+        "word": "automobile",
+        "meaning": "（名）自動車"
+    },
+    {
+        "id": "e2:1283",
+        "word": "heartbeat",
+        "meaning": "（名）心臓の鼓動"
+    },
+    {
+        "id": "e2:1284",
+        "word": "handout",
+        "meaning": "（名）配布資料"
+    },
+    {
+        "id": "e2:1285",
+        "word": "ecosystem",
+        "meaning": "（名）生態系"
+    },
+    {
+        "id": "e2:1286",
+        "word": "dormitory",
+        "meaning": "（名）寮"
+    },
+    {
+        "id": "e2:1287",
+        "word": "tornado",
+        "meaning": "（名）竜巻"
+    },
+    {
+        "id": "e2:1288",
+        "word": "accomplishment",
+        "meaning": "（名）業績"
+    },
+    {
+        "id": "e2:1289",
+        "word": "graduation",
+        "meaning": "（名）卒業"
+    },
+    {
+        "id": "e2:1290",
+        "word": "firefighter",
+        "meaning": "（名）消防士"
+    },
+    {
+        "id": "e2:1291",
+        "word": "backpack",
+        "meaning": "（名）リュックサック"
+    },
+    {
+        "id": "e2:1292",
+        "word": "thunderstorm",
+        "meaning": "（名）激しい雷雨"
+    },
+    {
+        "id": "e2:1293",
+        "word": "laptop",
+        "meaning": "（名）ノートパソコン"
+    },
+    {
+        "id": "e2:1294",
+        "word": "rainstorm",
+        "meaning": "（名）暴風雨"
+    },
+    {
+        "id": "e2:1295",
+        "word": "semester",
+        "meaning": "（名）(二学期制の)学期"
+    },
+    {
+        "id": "e2:1296",
+        "word": "candidat",
+        "meaning": "（名）候補者"
+    },
+    {
+        "id": "e2:1297",
+        "word": "biofuel",
+        "meaning": "（名）バイオ燃料"
+    },
+    {
+        "id": "e2:1298",
+        "word": "internship",
+        "meaning": "（名）実習訓練期間"
+    },
+    {
+        "id": "e2:1299",
+        "word": "defense",
+        "meaning": "（名）防御"
+    },
+    {
+        "id": "e2:1300",
+        "word": "licence",
+        "meaning": "（名）免許"
+    },
+    {
+        "id": "e2:1301",
+        "word": "slightly",
+        "meaning": "（副）わずかに"
+    },
+    {
+        "id": "e2:1302",
+        "word": "totally",
+        "meaning": "（副）すっかり"
+    },
+    {
+        "id": "e2:1303",
+        "word": "frequently",
+        "meaning": "（副）頻繁に"
+    },
+    {
+        "id": "e2:1304",
+        "word": "properly",
+        "meaning": "（副）適切に"
+    },
+    {
+        "id": "e2:1305",
+        "word": "closely",
+        "meaning": "（副）密接に"
+    },
+    {
+        "id": "e2:1306",
+        "word": "effectively",
+        "meaning": "（副）効果的に"
+    },
+    {
+        "id": "e2:1307",
+        "word": "meanwhile",
+        "meaning": "（副）その間"
+    },
+    {
+        "id": "e2:1308",
+        "word": "badly",
+        "meaning": "（副）ひどく"
+    },
+    {
+        "id": "e2:1309",
+        "word": "rarely",
+        "meaning": "（副）めったに～ない"
+    },
+    {
+        "id": "e2:1310",
+        "word": "gently",
+        "meaning": "（副）優しく"
+    },
+    {
+        "id": "e2:1311",
+        "word": "occasionally",
+        "meaning": "（副）時々"
+    },
+    {
+        "id": "e2:1312",
+        "word": "mostly",
+        "meaning": "（副）たいてい"
+    },
+    {
+        "id": "e2:1313",
+        "word": "gradually",
+        "meaning": "（副）徐々に"
+    },
+    {
+        "id": "e2:1314",
+        "word": "precisely",
+        "meaning": "（副）正確に"
+    },
+    {
+        "id": "e2:1315",
+        "word": "truly",
+        "meaning": "（副）本当に"
+    },
+    {
+        "id": "e2:1316",
+        "word": "definitely",
+        "meaning": "（副）間違いなく"
+    },
+    {
+        "id": "e2:1317",
+        "word": "basically",
+        "meaning": "（副）基本的には"
+    },
+    {
+        "id": "e2:1318",
+        "word": "constantly",
+        "meaning": "（副）絶えず"
+    },
+    {
+        "id": "e2:1319",
+        "word": "furthermore",
+        "meaning": "（副）その上"
+    },
+    {
+        "id": "e2:1320",
+        "word": "automatically",
+        "meaning": "（副）自動で"
+    },
+    {
+        "id": "e2:1321",
+        "word": "purely",
+        "meaning": "（副）純粋に"
+    },
+    {
+        "id": "e2:1322",
+        "word": "accordingly",
+        "meaning": "（副）従って"
+    },
+    {
+        "id": "e2:1323",
+        "word": "strictly",
+        "meaning": "（副）厳密に"
+    },
+    {
+        "id": "e2:1324",
+        "word": "mentally",
+        "meaning": "（副）精神的に"
+    },
+    {
+        "id": "e2:1325",
+        "word": "specially",
+        "meaning": "（副）特に"
+    },
+    {
+        "id": "e2:1326",
+        "word": "hopefully",
+        "meaning": "（副）うまくいけば"
+    },
+    {
+        "id": "e2:1327",
+        "word": "separately",
+        "meaning": "（副）離れて"
+    },
+    {
+        "id": "e2:1328",
+        "word": "steadily",
+        "meaning": "（副）着実に"
+    },
+    {
+        "id": "e2:1329",
+        "word": "independently",
+        "meaning": "（副）独立して"
+    },
+    {
+        "id": "e2:1330",
+        "word": "importantly",
+        "meaning": "（副）重要なこと"
+    },
+    {
+        "id": "e2:1331",
+        "word": "terribly",
+        "meaning": "（副）ひどく"
+    },
+    {
+        "id": "e2:1332",
+        "word": "silently",
+        "meaning": "（副）黙って"
+    },
+    {
+        "id": "e2:1333",
+        "word": "halfway",
+        "meaning": "（副）中途で"
+    },
+    {
+        "id": "e2:1334",
+        "word": "individually",
+        "meaning": "（副）個々に"
+    },
+    {
+        "id": "e2:1335",
+        "word": "economically",
+        "meaning": "（副）経済的に"
+    },
+    {
+        "id": "e2:1336",
+        "word": "exceptionally",
+        "meaning": "（副）例外的に"
+    },
+    {
+        "id": "e2:1337",
+        "word": "lately",
+        "meaning": "（副）最近"
+    },
+    {
+        "id": "e2:1338",
+        "word": "politely",
+        "meaning": "（副）丁寧に"
+    },
+    {
+        "id": "e2:1339",
+        "word": "eagerly",
+        "meaning": "（副）熱望して"
+    },
+    {
+        "id": "e2:1340",
+        "word": "visually",
+        "meaning": "（副）視覚的に"
+    },
+    {
+        "id": "e2:1341",
+        "word": "accidentally",
+        "meaning": "（副）偶然に"
+    },
+    {
+        "id": "e2:1342",
+        "word": "amazingly",
+        "meaning": "（副）驚くほどに"
+    },
+    {
+        "id": "e2:1343",
+        "word": "randomly",
+        "meaning": "（副）無作為に"
+    },
+    {
+        "id": "e2:1344",
+        "word": "objectively",
+        "meaning": "（副）客観的に"
+    },
+    {
+        "id": "e2:1345",
+        "word": "innocently",
+        "meaning": "（副）無邪気に"
+    },
+    {
+        "id": "e2:1346",
+        "word": "negatively",
+        "meaning": "（副）否定的に"
+    },
+    {
+        "id": "e2:1347",
+        "word": "downtown",
+        "meaning": "（副）街の中心部へ"
+    },
+    {
+        "id": "e2:1348",
+        "word": "fluently",
+        "meaning": "（副）流暢に"
+    },
+    {
+        "id": "e2:1349",
+        "word": "plus",
+        "meaning": "（前）〜を加えて"
+    },
+    {
+        "id": "e2:1350",
+        "word": "introduce",
+        "meaning": "（動）紹介する"
+    },
+    {
+        "id": "e2:1351",
+        "word": "intend",
+        "meaning": "（動）意図する"
+    },
+    {
+        "id": "e2:1352",
+        "word": "discover",
+        "meaning": "（動）発見する"
+    },
+    {
+        "id": "e2:1353",
+        "word": "handle",
+        "meaning": "（動）処理する"
+    },
+    {
+        "id": "e2:1354",
+        "word": "settle",
+        "meaning": "（動）定住する"
+    },
+    {
+        "id": "e2:1355",
+        "word": "correct",
+        "meaning": "（動）訂正する"
+    },
+    {
+        "id": "e2:1356",
+        "word": "deny",
+        "meaning": "（動）否定する"
+    },
+    {
+        "id": "e2:1357",
+        "word": "blow",
+        "meaning": "（動）吹き飛ばす"
+    },
+    {
+        "id": "e2:1358",
+        "word": "pack",
+        "meaning": "（動）詰める"
+    },
+    {
+        "id": "e2:1359",
+        "word": "register",
+        "meaning": "（動）登録する"
+    },
+    {
+        "id": "e2:1360",
+        "word": "threaten",
+        "meaning": "（動）脅す"
+    },
+    {
+        "id": "e2:1361",
+        "word": "respond",
+        "meaning": "（動）答える"
+    },
+    {
+        "id": "e2:1362",
+        "word": "satisfy",
+        "meaning": "（動）満足させる"
+    },
+    {
+        "id": "e2:1363",
+        "word": "insist",
+        "meaning": "（動）強く主張する"
+    },
+    {
+        "id": "e2:1364",
+        "word": "command",
+        "meaning": "（動）命令する"
+    },
+    {
+        "id": "e2:1365",
+        "word": "declare",
+        "meaning": "（動）断言する"
+    },
+    {
+        "id": "e2:1366",
+        "word": "recall",
+        "meaning": "（動）思い出す"
+    },
+    {
+        "id": "e2:1367",
+        "word": "approve",
+        "meaning": "（動）承認する"
+    },
+    {
+        "id": "e2:1368",
+        "word": "destroy",
+        "meaning": "（動）破壊する"
+    },
+    {
+        "id": "e2:1369",
+        "word": "defeat",
+        "meaning": "（動）負かす"
+    },
+    {
+        "id": "e2:1370",
+        "word": "export",
+        "meaning": "（動）輸出する"
+    },
+    {
+        "id": "e2:1371",
+        "word": "accuse",
+        "meaning": "（動）告訴する"
+    },
+    {
+        "id": "e2:1372",
+        "word": "illustrate",
+        "meaning": "（動）図解する"
+    },
+    {
+        "id": "e2:1373",
+        "word": "disappear",
+        "meaning": "（動）消える"
+    },
+    {
+        "id": "e2:1374",
+        "word": "investigate",
+        "meaning": "（動）調査する"
+    },
+    {
+        "id": "e2:1375",
+        "word": "accompany",
+        "meaning": "（動）同行する"
+    },
+    {
+        "id": "e2:1376",
+        "word": "permit",
+        "meaning": "（動）許可する"
+    },
+    {
+        "id": "e2:1377",
+        "word": "delight",
+        "meaning": "（動）喜ばせる"
+    },
+    {
+        "id": "e2:1378",
+        "word": "derive",
+        "meaning": "（動）得る"
+    },
+    {
+        "id": "e2:1379",
+        "word": "blame",
+        "meaning": "（動）非難する"
+    },
+    {
+        "id": "e2:1380",
+        "word": "recover",
+        "meaning": "（動）回復する"
+    },
+    {
+        "id": "e2:1381",
+        "word": "occupy",
+        "meaning": "（動）占める"
+    },
+    {
+        "id": "e2:1382",
+        "word": "restrict",
+        "meaning": "（動）制限する"
+    },
+    {
+        "id": "e2:1383",
+        "word": "justify",
+        "meaning": "（動）正当化する"
+    },
+    {
+        "id": "e2:1384",
+        "word": "split",
+        "meaning": "（動）分裂させる"
+    },
+    {
+        "id": "e2:1385",
+        "word": "urge",
+        "meaning": "（動）熱心に勧める"
+    },
+    {
+        "id": "e2:1386",
+        "word": "withdraw",
+        "meaning": "（動）引き出す"
+    },
+    {
+        "id": "e2:1387",
+        "word": "trace",
+        "meaning": "（動）跡をたどる"
+    },
+    {
+        "id": "e2:1388",
+        "word": "borrow",
+        "meaning": "（動）借りる"
+    },
+    {
+        "id": "e2:1389",
+        "word": "breathe",
+        "meaning": "（動）呼吸する"
+    },
+    {
+        "id": "e2:1390",
+        "word": "bother",
+        "meaning": "（動）悩ます"
+    },
+    {
+        "id": "e2:1391",
+        "word": "resolve",
+        "meaning": "（動）決意する"
+    },
+    {
+        "id": "e2:1392",
+        "word": "interpret",
+        "meaning": "（動）通訳する"
+    },
+    {
+        "id": "e2:1393",
+        "word": "dismiss",
+        "meaning": "（動）解雇する"
+    },
+    {
+        "id": "e2:1394",
+        "word": "possess",
+        "meaning": "（動）所有する"
+    },
+    {
+        "id": "e2:1395",
+        "word": "celebrate",
+        "meaning": "（動）祝う"
+    },
+    {
+        "id": "e2:1396",
+        "word": "whisper",
+        "meaning": "（動）ささやく"
+    },
+    {
+        "id": "e2:1397",
+        "word": "undertake",
+        "meaning": "（動）引き受ける"
+    },
+    {
+        "id": "e2:1398",
+        "word": "solve",
+        "meaning": "（動）解決する"
+    },
+    {
+        "id": "e2:1399",
+        "word": "constitute",
+        "meaning": "（動）構成する"
+    },
+    {
+        "id": "e2:1400",
+        "word": "trap",
+        "meaning": "（動）わなで捕える"
+    },
+    {
+        "id": "e2:1401",
+        "word": "submit",
+        "meaning": "（動）服従する"
+    },
+    {
+        "id": "e2:1402",
+        "word": "expose",
+        "meaning": "（動）さらす"
+    },
+    {
+        "id": "e2:1403",
+        "word": "owe",
+        "meaning": "（動）借りている"
+    },
+    {
+        "id": "e2:1404",
+        "word": "bury",
+        "meaning": "（動）埋める"
+    },
+    {
+        "id": "e2:1405",
+        "word": "perceive",
+        "meaning": "（動）気づく"
+    },
+    {
+        "id": "e2:1406",
+        "word": "bet",
+        "meaning": "（動）賭ける"
+    },
+    {
+        "id": "e2:1407",
+        "word": "polish",
+        "meaning": "（動）磨く"
+    },
+    {
+        "id": "e2:1408",
+        "word": "seal",
+        "meaning": "（動）封をする"
+    },
+    {
+        "id": "e2:1409",
+        "word": "resign",
+        "meaning": "（動）辞める"
+    },
+    {
+        "id": "e2:1410",
+        "word": "dig",
+        "meaning": "（動）掘る"
+    },
+    {
+        "id": "e2:1411",
+        "word": "devote",
+        "meaning": "（動）捧げる"
+    },
+    {
+        "id": "e2:1412",
+        "word": "burden",
+        "meaning": "（動）負担をかける"
+    },
+    {
+        "id": "e2:1413",
+        "word": "transform",
+        "meaning": "（動）変換する"
+    },
+    {
+        "id": "e2:1414",
+        "word": "pile",
+        "meaning": "（動）積み重ねる"
+    },
+    {
+        "id": "e2:1415",
+        "word": "sue",
+        "meaning": "（動）告訴する"
+    },
+    {
+        "id": "e2:1416",
+        "word": "substitute",
+        "meaning": "（動）代わりをする"
+    },
+    {
+        "id": "e2:1417",
+        "word": "stir",
+        "meaning": "（動）かき混ぜる"
+    },
+    {
+        "id": "e2:1418",
+        "word": "greet",
+        "meaning": "（動）挨拶する"
+    },
+    {
+        "id": "e2:1419",
+        "word": "cease",
+        "meaning": "（動）終わる"
+    },
+    {
+        "id": "e2:1420",
+        "word": "wrap",
+        "meaning": "（動）包む"
+    },
+    {
+        "id": "e2:1421",
+        "word": "modify",
+        "meaning": "（動）変更する"
+    },
+    {
+        "id": "e2:1422",
+        "word": "inspire",
+        "meaning": "（動）奮い立たせる"
+    },
+    {
+        "id": "e2:1423",
+        "word": "stimulate",
+        "meaning": "（動）刺激する"
+    },
+    {
+        "id": "e2:1424",
+        "word": "anticipate",
+        "meaning": "（動）予期する"
+    },
+    {
+        "id": "e2:1425",
+        "word": "compromise",
+        "meaning": "（動）妥協する"
+    },
+    {
+        "id": "e2:1426",
+        "word": "embarrass",
+        "meaning": "（動）当惑させる"
+    },
+    {
+        "id": "e2:1427",
+        "word": "relieve",
+        "meaning": "（動）安心させる"
+    },
+    {
+        "id": "e2:1428",
+        "word": "fulfill",
+        "meaning": "（動）満たす"
+    },
+    {
+        "id": "e2:1429",
+        "word": "communicate",
+        "meaning": "（動）連絡をとる"
+    },
+    {
+        "id": "e2:1430",
+        "word": "wander",
+        "meaning": "（動）ぶらぶらする"
+    },
+    {
+        "id": "e2:1431",
+        "word": "swallow",
+        "meaning": "（動）飲み込む"
+    },
+    {
+        "id": "e2:1432",
+        "word": "neglect",
+        "meaning": "（動）無視する"
+    },
+    {
+        "id": "e2:1433",
+        "word": "regret",
+        "meaning": "（動）後悔する"
+    },
+    {
+        "id": "e2:1434",
+        "word": "fade",
+        "meaning": "（動）徐々に消える"
+    },
+    {
+        "id": "e2:1435",
+        "word": "fascinate",
+        "meaning": "（動）魅了する"
+    },
+    {
+        "id": "e2:1436",
+        "word": "dump",
+        "meaning": "（動）捨てる"
+    },
+    {
+        "id": "e2:1437",
+        "word": "exceed",
+        "meaning": "（動）超える"
+    },
+    {
+        "id": "e2:1438",
+        "word": "scatter",
+        "meaning": "（動）まきちらす"
+    },
+    {
+        "id": "e2:1439",
+        "word": "exhaust",
+        "meaning": "（動）疲れさせる"
+    },
+    {
+        "id": "e2:1440",
+        "word": "eliminate",
+        "meaning": "（動）取り除く"
+    },
+    {
+        "id": "e2:1441",
+        "word": "evaluate",
+        "meaning": "（動）評価する"
+    },
+    {
+        "id": "e2:1442",
+        "word": "confront",
+        "meaning": "（動）対決させる"
+    },
+    {
+        "id": "e2:1443",
+        "word": "exhibit",
+        "meaning": "（動）展示する"
+    },
+    {
+        "id": "e2:1444",
+        "word": "enforce",
+        "meaning": "（動）施行する"
+    },
+    {
+        "id": "e2:1445",
+        "word": "hesitate",
+        "meaning": "（動）ためらう"
+    },
+    {
+        "id": "e2:1446",
+        "word": "translate",
+        "meaning": "（動）翻訳する"
+    },
+    {
+        "id": "e2:1447",
+        "word": "tempt",
+        "meaning": "（動）誘惑する"
+    },
+    {
+        "id": "e2:1448",
+        "word": "forgive",
+        "meaning": "（動）許す"
+    },
+    {
+        "id": "e2:1449",
+        "word": "insert",
+        "meaning": "（動）挿入する"
+    },
+    {
+        "id": "e2:1450",
+        "word": "embrace",
+        "meaning": "（動）抱きしめる"
+    },
+    {
+        "id": "e2:1451",
+        "word": "smash",
+        "meaning": "（動）粉砕する"
+    },
+    {
+        "id": "e2:1452",
+        "word": "revise",
+        "meaning": "（動）修正する"
+    },
+    {
+        "id": "e2:1453",
+        "word": "decorate",
+        "meaning": "（動）飾る"
+    },
+    {
+        "id": "e2:1454",
+        "word": "sacrifice",
+        "meaning": "（動）犠牲にする"
+    },
+    {
+        "id": "e2:1455",
+        "word": "melt",
+        "meaning": "（動）溶ける"
+    },
+    {
+        "id": "e2:1456",
+        "word": "widen",
+        "meaning": "（動）拡げる"
+    },
+    {
+        "id": "e2:1457",
+        "word": "interfere",
+        "meaning": "（動）邪魔する"
+    },
+    {
+        "id": "e2:1458",
+        "word": "resemble",
+        "meaning": "（動）似ている"
+    },
+    {
+        "id": "e2:1459",
+        "word": "instruct",
+        "meaning": "（動）指示する"
+    },
+    {
+        "id": "e2:1460",
+        "word": "vanish",
+        "meaning": "（動）消える"
+    },
+    {
+        "id": "e2:1461",
+        "word": "surrender",
+        "meaning": "（動）降伏する"
+    },
+    {
+        "id": "e2:1462",
+        "word": "tighten",
+        "meaning": "（動）固く締める"
+    },
+    {
+        "id": "e2:1463",
+        "word": "deprive",
+        "meaning": "（動）奪う"
+    },
+    {
+        "id": "e2:1464",
+        "word": "overlap",
+        "meaning": "（動）重ねる"
+    },
+    {
+        "id": "e2:1465",
+        "word": "bleed",
+        "meaning": "（動）出血する"
+    },
+    {
+        "id": "e2:1466",
+        "word": "recycle",
+        "meaning": "（動）再生利用する"
+    },
+    {
+        "id": "e2:1467",
+        "word": "pronounce",
+        "meaning": "（動）発音する"
+    },
+    {
+        "id": "e2:1468",
+        "word": "formulate",
+        "meaning": "（動）計画を立てる"
+    },
+    {
+        "id": "e2:1469",
+        "word": "whistle",
+        "meaning": "（動）口笛を吹く"
+    },
+    {
+        "id": "e2:1470",
+        "word": "suppress",
+        "meaning": "（動）抑圧する"
+    },
+    {
+        "id": "e2:1471",
+        "word": "endure",
+        "meaning": "（動）我慢する"
+    },
+    {
+        "id": "e2:1472",
+        "word": "thrill",
+        "meaning": "（動）わくわくさせる"
+    },
+    {
+        "id": "e2:1473",
+        "word": "punish",
+        "meaning": "（動）罰する"
+    },
+    {
+        "id": "e2:1474",
+        "word": "offend",
+        "meaning": "（動）感情を害する"
+    },
+    {
+        "id": "e2:1475",
+        "word": "betray",
+        "meaning": "（動）を裏切る"
+    },
+    {
+        "id": "e2:1476",
+        "word": "confess",
+        "meaning": "（動）白状する"
+    },
+    {
+        "id": "e2:1477",
+        "word": "exaggerate",
+        "meaning": "（動）誇張する"
+    },
+    {
+        "id": "e2:1478",
+        "word": "shrink",
+        "meaning": "（動）縮む"
+    },
+    {
+        "id": "e2:1479",
+        "word": "obey",
+        "meaning": "（動）従う"
+    },
+    {
+        "id": "e2:1480",
+        "word": "soak",
+        "meaning": "（動）浸す"
+    },
+    {
+        "id": "e2:1481",
+        "word": "disagree",
+        "meaning": "（動）意見が食い違う"
+    },
+    {
+        "id": "e2:1482",
+        "word": "starve",
+        "meaning": "（動）飢える"
+    },
+    {
+        "id": "e2:1483",
+        "word": "prohibit",
+        "meaning": "（動）禁止する"
+    },
+    {
+        "id": "e2:1484",
+        "word": "rattle",
+        "meaning": "（動）がたがた音がする"
+    },
+    {
+        "id": "e2:1485",
+        "word": "utilize",
+        "meaning": "（動）利用する"
+    },
+    {
+        "id": "e2:1486",
+        "word": "hug",
+        "meaning": "（動）抱きしめる"
+    },
+    {
+        "id": "e2:1487",
+        "word": "delete",
+        "meaning": "（動）削除する"
+    },
+    {
+        "id": "e2:1488",
+        "word": "overtake",
+        "meaning": "（動）追い越す"
+    },
+    {
+        "id": "e2:1489",
+        "word": "congratulate",
+        "meaning": "（動）お祝いを述べる"
+    },
+    {
+        "id": "e2:1490",
+        "word": "roast",
+        "meaning": "（動）焼く"
+    },
+    {
+        "id": "e2:1491",
+        "word": "flatter",
+        "meaning": "（動）お世辞を言う"
+    },
+    {
+        "id": "e2:1492",
+        "word": "rotate",
+        "meaning": "（動）回転する"
+    },
+    {
+        "id": "e2:1493",
+        "word": "inhabit",
+        "meaning": "（動）住んでいる"
+    },
+    {
+        "id": "e2:1494",
+        "word": "refresh",
+        "meaning": "（動）さわやかにする"
+    },
+    {
+        "id": "e2:1495",
+        "word": "conquer",
+        "meaning": "（動）征服する"
+    },
+    {
+        "id": "e2:1496",
+        "word": "deceive",
+        "meaning": "（動）を欺く"
+    },
+    {
+        "id": "e2:1497",
+        "word": "migrate",
+        "meaning": "（動）移住する"
+    },
+    {
+        "id": "e2:1498",
+        "word": "overturn",
+        "meaning": "（動）ひっくり返す"
+    },
+    {
+        "id": "e2:1499",
+        "word": "subscribe",
+        "meaning": "（動）予約講読する"
+    },
+    {
+        "id": "e2:1500",
+        "word": "vomit",
+        "meaning": "（動）吐く"
+    },
+    {
+        "id": "e2:1501",
+        "word": "imitate",
+        "meaning": "（動）真似する"
+    },
+    {
+        "id": "e2:1502",
+        "word": "enroll",
+        "meaning": "（動）入会させる"
+    },
+    {
+        "id": "e2:1503",
+        "word": "scold",
+        "meaning": "（動）叱る"
+    },
+    {
+        "id": "e2:1504",
+        "word": "overdo",
+        "meaning": "（動）やり過ぎる"
+    },
+    {
+        "id": "e2:1505",
+        "word": "natural",
+        "meaning": "（形）自然の"
+    },
+    {
+        "id": "e2:1506",
+        "word": "modern",
+        "meaning": "（形）現代の"
+    },
+    {
+        "id": "e2:1507",
+        "word": "considerable",
+        "meaning": "（形）かなりの"
+    },
+    {
+        "id": "e2:1508",
+        "word": "nuclear",
+        "meaning": "（形）核エネルギーの"
+    },
+    {
+        "id": "e2:1509",
+        "word": "regional",
+        "meaning": "（形）地方の"
+    },
+    {
+        "id": "e2:1510",
+        "word": "equal",
+        "meaning": "（形）等しい"
+    },
+    {
+        "id": "e2:1511",
+        "word": "religious",
+        "meaning": "（形）宗教の"
+    },
+    {
+        "id": "e2:1512",
+        "word": "ideal",
+        "meaning": "（形）理想的な"
+    },
+    {
+        "id": "e2:1513",
+        "word": "reasonable",
+        "meaning": "（形）値段が手ごろな"
+    },
+    {
+        "id": "e2:1514",
+        "word": "sufficient",
+        "meaning": "（形）十分な"
+    },
+    {
+        "id": "e2:1515",
+        "word": "familiar",
+        "meaning": "（形）よく知られている"
+    },
+    {
+        "id": "e2:1516",
+        "word": "critical",
+        "meaning": "（形）批判的な"
+    },
+    {
+        "id": "e2:1517",
+        "word": "urban",
+        "meaning": "（形）都会の"
+    },
+    {
+        "id": "e2:1518",
+        "word": "elderly",
+        "meaning": "（形）年配の"
+    },
+    {
+        "id": "e2:1519",
+        "word": "fundamental",
+        "meaning": "（形）基本的な"
+    },
+    {
+        "id": "e2:1520",
+        "word": "odd",
+        "meaning": "（形）変な"
+    },
+    {
+        "id": "e2:1521",
+        "word": "permanent",
+        "meaning": "（形）永続的な"
+    },
+    {
+        "id": "e2:1522",
+        "word": "stable",
+        "meaning": "（形）安定した"
+    },
+    {
+        "id": "e2:1523",
+        "word": "comfortable",
+        "meaning": "（形）快適な"
+    },
+    {
+        "id": "e2:1524",
+        "word": "tight",
+        "meaning": "（形）締まった"
+    },
+    {
+        "id": "e2:1525",
+        "word": "intellectual",
+        "meaning": "（形）知的な"
+    },
+    {
+        "id": "e2:1526",
+        "word": "false",
+        "meaning": "（形）間違った"
+    },
+    {
+        "id": "e2:1527",
+        "word": "sensitive",
+        "meaning": "（形）敏感な"
+    },
+    {
+        "id": "e2:1528",
+        "word": "adequate",
+        "meaning": "（形）十分な"
+    },
+    {
+        "id": "e2:1529",
+        "word": "remarkable",
+        "meaning": "（形）注目すべき"
+    },
+    {
+        "id": "e2:1530",
+        "word": "brilliant",
+        "meaning": "（形）光り輝く"
+    },
+    {
+        "id": "e2:1531",
+        "word": "steady",
+        "meaning": "（形）一定した"
+    },
+    {
+        "id": "e2:1532",
+        "word": "consistent",
+        "meaning": "（形）首尾一貫した"
+    },
+    {
+        "id": "e2:1533",
+        "word": "awful",
+        "meaning": "（形）ひどく悪い"
+    },
+    {
+        "id": "e2:1534",
+        "word": "remote",
+        "meaning": "（形）遠く離れた"
+    },
+    {
+        "id": "e2:1535",
+        "word": "visible",
+        "meaning": "（形）目に見える"
+    },
+    {
+        "id": "e2:1536",
+        "word": "distant",
+        "meaning": "（形）遠く離れた"
+    },
+    {
+        "id": "e2:1537",
+        "word": "innocent",
+        "meaning": "（形）罪のない"
+    },
+    {
+        "id": "e2:1538",
+        "word": "superior",
+        "meaning": "（形）優れた"
+    },
+    {
+        "id": "e2:1539",
+        "word": "terminal",
+        "meaning": "（形）終端の"
+    },
+    {
+        "id": "e2:1540",
+        "word": "raw",
+        "meaning": "（形）生の"
+    },
+    {
+        "id": "e2:1541",
+        "word": "linguistic",
+        "meaning": "（形）言語学の"
+    },
+    {
+        "id": "e2:1542",
+        "word": "illegal",
+        "meaning": "（形）違法の"
+    },
+    {
+        "id": "e2:1543",
+        "word": "imperial",
+        "meaning": "（形）帝国の"
+    },
+    {
+        "id": "e2:1544",
+        "word": "informal",
+        "meaning": "（形）非公式の"
+    },
+    {
+        "id": "e2:1545",
+        "word": "generous",
+        "meaning": "（形）気前の良い"
+    },
+    {
+        "id": "e2:1546",
+        "word": "pregnant",
+        "meaning": "（形）妊娠した"
+    },
+    {
+        "id": "e2:1547",
+        "word": "urgent",
+        "meaning": "（形）緊急の"
+    },
+    {
+        "id": "e2:1548",
+        "word": "noble",
+        "meaning": "（形）気高い"
+    },
+    {
+        "id": "e2:1549",
+        "word": "organic",
+        "meaning": "（形）有機の"
+    },
+    {
+        "id": "e2:1550",
+        "word": "primitive",
+        "meaning": "（形）原始の"
+    },
+    {
+        "id": "e2:1551",
+        "word": "subtle",
+        "meaning": "（形）微妙な"
+    },
+    {
+        "id": "e2:1552",
+        "word": "neat",
+        "meaning": "（形）きちんとした"
+    },
+    {
+        "id": "e2:1553",
+        "word": "lesser",
+        "meaning": "（形）より少ない"
+    },
+    {
+        "id": "e2:1554",
+        "word": "precious",
+        "meaning": "（形）貴重な"
+    },
+    {
+        "id": "e2:1555",
+        "word": "peaceful",
+        "meaning": "（形）平和な"
+    },
+    {
+        "id": "e2:1556",
+        "word": "neutral",
+        "meaning": "（形）中立の"
+    },
+    {
+        "id": "e2:1557",
+        "word": "vague",
+        "meaning": "（形）あいまいな"
+    },
+    {
+        "id": "e2:1558",
+        "word": "offensive",
+        "meaning": "（形）無礼な"
+    },
+    {
+        "id": "e2:1559",
+        "word": "fossil",
+        "meaning": "（形）化石の"
+    },
+    {
+        "id": "e2:1560",
+        "word": "suspicious",
+        "meaning": "（形）疑い深い"
+    },
+    {
+        "id": "e2:1561",
+        "word": "furious",
+        "meaning": "（形）激怒した"
+    },
+    {
+        "id": "e2:1562",
+        "word": "fortunate",
+        "meaning": "（形）運の良い"
+    },
+    {
+        "id": "e2:1563",
+        "word": "horizontal",
+        "meaning": "（形）水平の"
+    },
+    {
+        "id": "e2:1564",
+        "word": "toxic",
+        "meaning": "（形）毒の"
+    },
+    {
+        "id": "e2:1565",
+        "word": "old-fashioned",
+        "meaning": "（形）時代遅れの"
+    },
+    {
+        "id": "e2:1566",
+        "word": "rude",
+        "meaning": "（形）失礼な"
+    },
+    {
+        "id": "e2:1567",
+        "word": "jealous",
+        "meaning": "（形）嫉妬深い"
+    },
+    {
+        "id": "e2:1568",
+        "word": "seasonal",
+        "meaning": "（形）季節の"
+    },
+    {
+        "id": "e2:1569",
+        "word": "indoor",
+        "meaning": "（形）屋内の"
+    },
+    {
+        "id": "e2:1570",
+        "word": "inferior",
+        "meaning": "（形）劣った"
+    },
+    {
+        "id": "e2:1571",
+        "word": "fragile",
+        "meaning": "（形）壊れやすい"
+    },
+    {
+        "id": "e2:1572",
+        "word": "vacant",
+        "meaning": "（形）空いている"
+    },
+    {
+        "id": "e2:1573",
+        "word": "scarce",
+        "meaning": "（形）乏しい"
+    },
+    {
+        "id": "e2:1574",
+        "word": "selfish",
+        "meaning": "（形）自分勝手な"
+    },
+    {
+        "id": "e2:1575",
+        "word": "sustainable",
+        "meaning": "（形）持続可能な"
+    },
+    {
+        "id": "e2:1576",
+        "word": "arrogant",
+        "meaning": "（形）傲慢な"
+    },
+    {
+        "id": "e2:1577",
+        "word": "moist",
+        "meaning": "（形）湿った"
+    },
+    {
+        "id": "e2:1578",
+        "word": "abrupt",
+        "meaning": "（形）突然の"
+    },
+    {
+        "id": "e2:1579",
+        "word": "troublesome",
+        "meaning": "（形）面倒な"
+    },
+    {
+        "id": "e2:1580",
+        "word": "affectionate",
+        "meaning": "（形）愛情の深い"
+    },
+    {
+        "id": "e2:1581",
+        "word": "humid",
+        "meaning": "（形）湿気のある"
+    },
+    {
+        "id": "e2:1582",
+        "word": "trustworthy",
+        "meaning": "（形）信頼できる"
+    },
+    {
+        "id": "e2:1583",
+        "word": "talkative",
+        "meaning": "（形）おしゃべりな"
+    },
+    {
+        "id": "e2:1584",
+        "word": "punctual",
+        "meaning": "（形）時間をよく守る"
+    },
+    {
+        "id": "e2:1585",
+        "word": "ability",
+        "meaning": "（名）能力"
+    },
+    {
+        "id": "e2:1586",
+        "word": "district",
+        "meaning": "（名）地域"
+    },
+    {
+        "id": "e2:1587",
+        "word": "concept",
+        "meaning": "（名）概念"
+    },
+    {
+        "id": "e2:1588",
+        "word": "arrangement",
+        "meaning": "（名）配置"
+    },
+    {
+        "id": "e2:1589",
+        "word": "sight",
+        "meaning": "（名）視力"
+    },
+    {
+        "id": "e2:1590",
+        "word": "proportion",
+        "meaning": "（名）比率"
+    },
+    {
+        "id": "e2:1591",
+        "word": "path",
+        "meaning": "（名）小道"
+    },
+    {
+        "id": "e2:1592",
+        "word": "debt",
+        "meaning": "（名）借金"
+    },
+    {
+        "id": "e2:1593",
+        "word": "wage",
+        "meaning": "（名）賃金"
+    },
+    {
+        "id": "e2:1594",
+        "word": "insurance",
+        "meaning": "（名）保険"
+    },
+    {
+        "id": "e2:1595",
+        "word": "sum",
+        "meaning": "（名）合計"
+    },
+    {
+        "id": "e2:1596",
+        "word": "volume",
+        "meaning": "（名）分量"
+    },
+    {
+        "id": "e2:1597",
+        "word": "victim",
+        "meaning": "（名）犠牲者"
+    },
+    {
+        "id": "e2:1598",
+        "word": "regulation",
+        "meaning": "（名）規制"
+    },
+    {
+        "id": "e2:1599",
+        "word": "favor",
+        "meaning": "（名）好意"
+    },
+    {
+        "id": "e2:1600",
+        "word": "capacity",
+        "meaning": "（名）収容能力"
+    },
+    {
+        "id": "e2:1601",
+        "word": "intention",
+        "meaning": "（名）意志"
+    },
+    {
+        "id": "e2:1602",
+        "word": "definition",
+        "meaning": "（名）定義"
+    },
+    {
+        "id": "e2:1603",
+        "word": "enterprise",
+        "meaning": "（名）企業"
+    },
+    {
+        "id": "e2:1604",
+        "word": "prospect",
+        "meaning": "（名）見込み"
+    },
+    {
+        "id": "e2:1605",
+        "word": "scientist",
+        "meaning": "（名）科学者"
+    },
+    {
+        "id": "e2:1606",
+        "word": "lane",
+        "meaning": "（名）車線"
+    },
+    {
+        "id": "e2:1607",
+        "word": "troop",
+        "meaning": "（名）群れ"
+    },
+    {
+        "id": "e2:1608",
+        "word": "fellow",
+        "meaning": "（名）仲間"
+    },
+    {
+        "id": "e2:1609",
+        "word": "wound",
+        "meaning": "（名）傷"
+    },
+    {
+        "id": "e2:1610",
+        "word": "religion",
+        "meaning": "（名）宗教"
+    },
+    {
+        "id": "e2:1611",
+        "word": "honor",
+        "meaning": "（名）名誉"
+    },
+    {
+        "id": "e2:1612",
+        "word": "impression",
+        "meaning": "（名）印象"
+    },
+    {
+        "id": "e2:1613",
+        "word": "revolution",
+        "meaning": "（名）革命"
+    },
+    {
+        "id": "e2:1614",
+        "word": "curve",
+        "meaning": "（名）曲線"
+    },
+    {
+        "id": "e2:1615",
+        "word": "championship",
+        "meaning": "（名）選手権"
+    },
+    {
+        "id": "e2:1616",
+        "word": "distinction",
+        "meaning": "（名）区別"
+    },
+    {
+        "id": "e2:1617",
+        "word": "leadership",
+        "meaning": "（名）指導力"
+    },
+    {
+        "id": "e2:1618",
+        "word": "negotiation",
+        "meaning": "（名）交渉"
+    },
+    {
+        "id": "e2:1619",
+        "word": "origin",
+        "meaning": "（名）起源"
+    },
+    {
+        "id": "e2:1620",
+        "word": "expense",
+        "meaning": "（名）費用"
+    },
+    {
+        "id": "e2:1621",
+        "word": "trend",
+        "meaning": "（名）傾向"
+    },
+    {
+        "id": "e2:1622",
+        "word": "plain",
+        "meaning": "（名）平野"
+    },
+    {
+        "id": "e2:1623",
+        "word": "cancer",
+        "meaning": "（名）がん"
+    },
+    {
+        "id": "e2:1624",
+        "word": "knee",
+        "meaning": "（名）膝"
+    },
+    {
+        "id": "e2:1625",
+        "word": "outcome",
+        "meaning": "（名）結果"
+    },
+    {
+        "id": "e2:1626",
+        "word": "lawyer",
+        "meaning": "（名）弁護士"
+    },
+    {
+        "id": "e2:1627",
+        "word": "democracy",
+        "meaning": "（名）民主主義"
+    },
+    {
+        "id": "e2:1628",
+        "word": "territory",
+        "meaning": "（名）領土"
+    },
+    {
+        "id": "e2:1629",
+        "word": "phrase",
+        "meaning": "（名）句"
+    },
+    {
+        "id": "e2:1630",
+        "word": "formation",
+        "meaning": "（名）形成"
+    },
+    {
+        "id": "e2:1631",
+        "word": "politician",
+        "meaning": "（名）政治家"
+    },
+    {
+        "id": "e2:1632",
+        "word": "fault",
+        "meaning": "（名）欠点"
+    },
+    {
+        "id": "e2:1633",
+        "word": "assistance",
+        "meaning": "（名）手伝い"
+    },
+    {
+        "id": "e2:1634",
+        "word": "landscape",
+        "meaning": "（名）風景"
+    },
+    {
+        "id": "e2:1635",
+        "word": "emergency",
+        "meaning": "（名）緊急事態"
+    },
+    {
+        "id": "e2:1636",
+        "word": "currency",
+        "meaning": "（名）通貨"
+    },
+    {
+        "id": "e2:1637",
+        "word": "tension",
+        "meaning": "（名）緊張"
+    },
+    {
+        "id": "e2:1638",
+        "word": "peak",
+        "meaning": "（名）山頂"
+    },
+    {
+        "id": "e2:1639",
+        "word": "constitution",
+        "meaning": "（名）構成"
+    },
+    {
+        "id": "e2:1640",
+        "word": "pollution",
+        "meaning": "（名）汚染"
+    },
+    {
+        "id": "e2:1641",
+        "word": "excuse",
+        "meaning": "（名）言いわけ"
+    },
+    {
+        "id": "e2:1642",
+        "word": "reputation",
+        "meaning": "（名）評判"
+    },
+    {
+        "id": "e2:1643",
+        "word": "routine",
+        "meaning": "（名）決まった仕事"
+    },
+    {
+        "id": "e2:1644",
+        "word": "certificate",
+        "meaning": "（名）証明書"
+    },
+    {
+        "id": "e2:1645",
+        "word": "illness",
+        "meaning": "（名）病気"
+    },
+    {
+        "id": "e2:1646",
+        "word": "perspective",
+        "meaning": "（名）視点"
+    },
+    {
+        "id": "e2:1647",
+        "word": "symptom",
+        "meaning": "（名）症状"
+    },
+    {
+        "id": "e2:1648",
+        "word": "furniture",
+        "meaning": "（名）家具"
+    },
+    {
+        "id": "e2:1649",
+        "word": "philosophy",
+        "meaning": "（名）哲学"
+    },
+    {
+        "id": "e2:1650",
+        "word": "tail",
+        "meaning": "（名）しっぽ"
+    },
+    {
+        "id": "e2:1651",
+        "word": "interaction",
+        "meaning": "（名）相互作用"
+    },
+    {
+        "id": "e2:1652",
+        "word": "edition",
+        "meaning": "（名）版"
+    },
+    {
+        "id": "e2:1653",
+        "word": "mission",
+        "meaning": "（名）使節団"
+    },
+    {
+        "id": "e2:1654",
+        "word": "statistics",
+        "meaning": "（名）統計"
+    },
+    {
+        "id": "e2:1655",
+        "word": "occupation",
+        "meaning": "（名）職業"
+    },
+    {
+        "id": "e2:1656",
+        "word": "prayer",
+        "meaning": "（名）祈り"
+    },
+    {
+        "id": "e2:1657",
+        "word": "opponent",
+        "meaning": "（名）対戦相手"
+    },
+    {
+        "id": "e2:1658",
+        "word": "symbol",
+        "meaning": "（名）象徴"
+    },
+    {
+        "id": "e2:1659",
+        "word": "replacement",
+        "meaning": "（名）置換"
+    },
+    {
+        "id": "e2:1660",
+        "word": "leisure",
+        "meaning": "（名）余暇"
+    },
+    {
+        "id": "e2:1661",
+        "word": "childhood",
+        "meaning": "（名）幼年時代"
+    },
+    {
+        "id": "e2:1662",
+        "word": "tune",
+        "meaning": "（名）楽曲"
+    },
+    {
+        "id": "e2:1663",
+        "word": "temple",
+        "meaning": "（名）寺院"
+    },
+    {
+        "id": "e2:1664",
+        "word": "manual",
+        "meaning": "（名）説明書"
+    },
+    {
+        "id": "e2:1665",
+        "word": "detective",
+        "meaning": "（名）探偵"
+    },
+    {
+        "id": "e2:1666",
+        "word": "disorder",
+        "meaning": "（名）無秩序"
+    },
+    {
+        "id": "e2:1667",
+        "word": "summit",
+        "meaning": "（名）首脳会議"
+    },
+    {
+        "id": "e2:1668",
+        "word": "guideline",
+        "meaning": "（名）指針"
+    },
+    {
+        "id": "e2:1669",
+        "word": "harbor",
+        "meaning": "（名）港"
+    },
+    {
+        "id": "e2:1670",
+        "word": "horror",
+        "meaning": "（名）恐怖"
+    },
+    {
+        "id": "e2:1671",
+        "word": "flesh",
+        "meaning": "（名）肉"
+    },
+    {
+        "id": "e2:1672",
+        "word": "reflection",
+        "meaning": "（名）反射"
+    },
+    {
+        "id": "e2:1673",
+        "word": "companion",
+        "meaning": "（名）仲間"
+    },
+    {
+        "id": "e2:1674",
+        "word": "funeral",
+        "meaning": "（名）葬式"
+    },
+    {
+        "id": "e2:1675",
+        "word": "planet",
+        "meaning": "（名）惑星"
+    },
+    {
+        "id": "e2:1676",
+        "word": "essay",
+        "meaning": "（名）小論文"
+    },
+    {
+        "id": "e2:1677",
+        "word": "sympathy",
+        "meaning": "（名）同情"
+    },
+    {
+        "id": "e2:1678",
+        "word": "merit",
+        "meaning": "（名）長所"
+    },
+    {
+        "id": "e2:1679",
+        "word": "logic",
+        "meaning": "（名）論理"
+    },
+    {
+        "id": "e2:1680",
+        "word": "rumor",
+        "meaning": "（名）噂"
+    },
+    {
+        "id": "e2:1681",
+        "word": "mineral",
+        "meaning": "（名）鉱物"
+    },
+    {
+        "id": "e2:1682",
+        "word": "competitor",
+        "meaning": "（名）競争相手"
+    },
+    {
+        "id": "e2:1683",
+        "word": "phenomenon",
+        "meaning": "（名）現象"
+    },
+    {
+        "id": "e2:1684",
+        "word": "explosion",
+        "meaning": "（名）爆発"
+    },
+    {
+        "id": "e2:1685",
+        "word": "flavor",
+        "meaning": "（名）風味"
+    },
+    {
+        "id": "e2:1686",
+        "word": "celebration",
+        "meaning": "（名）祝典"
+    },
+    {
+        "id": "e2:1687",
+        "word": "fiction",
+        "meaning": "（名）作り話"
+    },
+    {
+        "id": "e2:1688",
+        "word": "prejudice",
+        "meaning": "（名）偏見"
+    },
+    {
+        "id": "e2:1689",
+        "word": "necessity",
+        "meaning": "（名）必要性"
+    },
+    {
+        "id": "e2:1690",
+        "word": "discrimination",
+        "meaning": "（名）差別"
+    },
+    {
+        "id": "e2:1691",
+        "word": "disadvantage",
+        "meaning": "（名）不利"
+    },
+    {
+        "id": "e2:1692",
+        "word": "luxury",
+        "meaning": "（名）ぜいたく"
+    },
+    {
+        "id": "e2:1693",
+        "word": "virus",
+        "meaning": "（名）ウイルス"
+    },
+    {
+        "id": "e2:1694",
+        "word": "fare",
+        "meaning": "（名）運賃"
+    },
+    {
+        "id": "e2:1695",
+        "word": "heritage",
+        "meaning": "（名）遺産"
+    },
+    {
+        "id": "e2:1696",
+        "word": "separation",
+        "meaning": "（名）分離"
+    },
+    {
+        "id": "e2:1697",
+        "word": "continent",
+        "meaning": "（名）大陸"
+    },
+    {
+        "id": "e2:1698",
+        "word": "cave",
+        "meaning": "（名）洞窟"
+    },
+    {
+        "id": "e2:1699",
+        "word": "classification",
+        "meaning": "（名）分類"
+    },
+    {
+        "id": "e2:1700",
+        "word": "receipt",
+        "meaning": "（名）レシート"
+    },
+    {
+        "id": "e2:1701",
+        "word": "sensation",
+        "meaning": "（名）感覚"
+    },
+    {
+        "id": "e2:1702",
+        "word": "physics",
+        "meaning": "（名）物理学"
+    },
+    {
+        "id": "e2:1703",
+        "word": "instinct",
+        "meaning": "（名）本能"
+    },
+    {
+        "id": "e2:1704",
+        "word": "temper",
+        "meaning": "（名）気性"
+    },
+    {
+        "id": "e2:1705",
+        "word": "motivation",
+        "meaning": "（名）モチベーション"
+    },
+    {
+        "id": "e2:1706",
+        "word": "dispose",
+        "meaning": "（名）廃棄"
+    },
+    {
+        "id": "e2:1707",
+        "word": "legend",
+        "meaning": "（名）伝説"
+    },
+    {
+        "id": "e2:1708",
+        "word": "harvest",
+        "meaning": "（名）収穫"
+    },
+    {
+        "id": "e2:1709",
+        "word": "scent",
+        "meaning": "（名）香り"
+    },
+    {
+        "id": "e2:1710",
+        "word": "fitness",
+        "meaning": "（名）適合"
+    },
+    {
+        "id": "e2:1711",
+        "word": "portion",
+        "meaning": "（名）一部分"
+    },
+    {
+        "id": "e2:1712",
+        "word": "composer",
+        "meaning": "（名）作曲家"
+    },
+    {
+        "id": "e2:1713",
+        "word": "ankle",
+        "meaning": "（名）足首"
+    },
+    {
+        "id": "e2:1714",
+        "word": "habitat",
+        "meaning": "（名）生息地"
+    },
+    {
+        "id": "e2:1715",
+        "word": "obstacle",
+        "meaning": "（名）障害"
+    },
+    {
+        "id": "e2:1716",
+        "word": "collaboration",
+        "meaning": "（名）共同"
+    },
+    {
+        "id": "e2:1717",
+        "word": "psychologist",
+        "meaning": "（名）心理学者"
+    },
+    {
+        "id": "e2:1718",
+        "word": "frontier",
+        "meaning": "（名）国境"
+    },
+    {
+        "id": "e2:1719",
+        "word": "vice",
+        "meaning": "（名）悪徳"
+    },
+    {
+        "id": "e2:1720",
+        "word": "vocabulary",
+        "meaning": "（名）語彙"
+    },
+    {
+        "id": "e2:1721",
+        "word": "ancestor",
+        "meaning": "（名）祖先"
+    },
+    {
+        "id": "e2:1722",
+        "word": "illusion",
+        "meaning": "（名）幻想"
+    },
+    {
+        "id": "e2:1723",
+        "word": "gravity",
+        "meaning": "（名）重力"
+    },
+    {
+        "id": "e2:1724",
+        "word": "mammal",
+        "meaning": "（名）哺乳類"
+    },
+    {
+        "id": "e2:1725",
+        "word": "fame",
+        "meaning": "（名）名声"
+    },
+    {
+        "id": "e2:1726",
+        "word": "spectator",
+        "meaning": "（名）観客"
+    },
+    {
+        "id": "e2:1727",
+        "word": "suburb",
+        "meaning": "（名）郊外"
+    },
+    {
+        "id": "e2:1728",
+        "word": "scar",
+        "meaning": "（名）傷跡"
+    },
+    {
+        "id": "e2:1729",
+        "word": "scholarship",
+        "meaning": "（名）奨学金"
+    },
+    {
+        "id": "e2:1730",
+        "word": "orbit",
+        "meaning": "（名）軌道"
+    },
+    {
+        "id": "e2:1731",
+        "word": "flour",
+        "meaning": "（名）小麦粉"
+    },
+    {
+        "id": "e2:1732",
+        "word": "appetite",
+        "meaning": "（名）食欲"
+    },
+    {
+        "id": "e2:1733",
+        "word": "copyright",
+        "meaning": "（名）著作権"
+    },
+    {
+        "id": "e2:1734",
+        "word": "quarrel",
+        "meaning": "（名）喧嘩"
+    },
+    {
+        "id": "e2:1735",
+        "word": "miniature",
+        "meaning": "（名）ミニチュア"
+    },
+    {
+        "id": "e2:1736",
+        "word": "wheat",
+        "meaning": "（名）小麦"
+    },
+    {
+        "id": "e2:1737",
+        "word": "coincidence",
+        "meaning": "（名）偶然の一致"
+    },
+    {
+        "id": "e2:1738",
+        "word": "claw",
+        "meaning": "（名）かぎ爪"
+    },
+    {
+        "id": "e2:1739",
+        "word": "envy",
+        "meaning": "（名）ねたみ"
+    },
+    {
+        "id": "e2:1740",
+        "word": "skeleton",
+        "meaning": "（名）骨格"
+    },
+    {
+        "id": "e2:1741",
+        "word": "physician",
+        "meaning": "（名）内科医"
+    },
+    {
+        "id": "e2:1742",
+        "word": "pedestrian",
+        "meaning": "（名）歩行者"
+    },
+    {
+        "id": "e2:1743",
+        "word": "voyage",
+        "meaning": "（名）航海，航行"
+    },
+    {
+        "id": "e2:1744",
+        "word": "hardship",
+        "meaning": "（名）苦難"
+    },
+    {
+        "id": "e2:1745",
+        "word": "technician",
+        "meaning": "（名）技術者"
+    },
+    {
+        "id": "e2:1746",
+        "word": "farewell",
+        "meaning": "（名）別れ"
+    },
+    {
+        "id": "e2:1747",
+        "word": "perfume",
+        "meaning": "（名）香水"
+    },
+    {
+        "id": "e2:1748",
+        "word": "scenery",
+        "meaning": "（名）風景"
+    },
+    {
+        "id": "e2:1749",
+        "word": "sorrow",
+        "meaning": "（名）悲しみ"
+    },
+    {
+        "id": "e2:1750",
+        "word": "landmark",
+        "meaning": "（名）目印"
+    },
+    {
+        "id": "e2:1751",
+        "word": "famine",
+        "meaning": "（名）飢饉"
+    },
+    {
+        "id": "e2:1752",
+        "word": "luggage",
+        "meaning": "（名）手荷物"
+    },
+    {
+        "id": "e2:1753",
+        "word": "applause",
+        "meaning": "（名）拍手"
+    },
+    {
+        "id": "e2:1754",
+        "word": "transportation",
+        "meaning": "（名）輸送"
+    },
+    {
+        "id": "e2:1755",
+        "word": "millionaire",
+        "meaning": "（名）百万長者"
+    },
+    {
+        "id": "e2:1756",
+        "word": "firework",
+        "meaning": "（名）花火"
+    },
+    {
+        "id": "e2:1757",
+        "word": "nutrition",
+        "meaning": "（名）栄養"
+    },
+    {
+        "id": "e2:1758",
+        "word": "souvenir",
+        "meaning": "（名）お土産"
+    },
+    {
+        "id": "e2:1759",
+        "word": "vitality",
+        "meaning": "（名）活力"
+    },
+    {
+        "id": "e2:1760",
+        "word": "cuisine",
+        "meaning": "（名）料理"
+    },
+    {
+        "id": "e2:1761",
+        "word": "explorer",
+        "meaning": "（名）探検家"
+    },
+    {
+        "id": "e2:1762",
+        "word": "chore",
+        "meaning": "（名）雑用"
+    },
+    {
+        "id": "e2:1763",
+        "word": "salesperson",
+        "meaning": "（名）販売員"
+    },
+    {
+        "id": "e2:1764",
+        "word": "makeup",
+        "meaning": "（名）化粧"
+    },
+    {
+        "id": "e2:1765",
+        "word": "shellfish",
+        "meaning": "（名）貝類"
+    },
+    {
+        "id": "e2:1766",
+        "word": "checkup",
+        "meaning": "（名）健康診断"
+    },
+    {
+        "id": "e2:1767",
+        "word": "fiber",
+        "meaning": "（名）繊維"
+    },
+    {
+        "id": "e2:1768",
+        "word": "meaning",
+        "meaning": "（名）意味"
+    },
+    {
+        "id": "e2:1769",
+        "word": "misunderstanding",
+        "meaning": "（名）誤解"
+    },
+    {
+        "id": "e2:1770",
+        "word": "surrounding",
+        "meaning": "（名）環境"
+    },
+    {
+        "id": "e2:1771",
+        "word": "drawing",
+        "meaning": "（名）絵"
+    },
+    {
+        "id": "e2:1772",
+        "word": "certainly",
+        "meaning": "（副）確かに"
+    },
+    {
+        "id": "e2:1773",
+        "word": "obviously",
+        "meaning": "（副）明らかに"
+    },
+    {
+        "id": "e2:1774",
+        "word": "merely",
+        "meaning": "（副）単に"
+    },
+    {
+        "id": "e2:1775",
+        "word": "instead",
+        "meaning": "（副）代わりに"
+    },
+    {
+        "id": "e2:1776",
+        "word": "previously",
+        "meaning": "（副）以前に"
+    },
+    {
+        "id": "e2:1777",
+        "word": "somehow",
+        "meaning": "（副）何とかして"
+    },
+    {
+        "id": "e2:1778",
+        "word": "abroad",
+        "meaning": "（副）海外へ"
+    },
+    {
+        "id": "e2:1779",
+        "word": "initially",
+        "meaning": "（副）始めは"
+    },
+    {
+        "id": "e2:1780",
+        "word": "approximately",
+        "meaning": "（副）およそ"
+    },
+    {
+        "id": "e2:1781",
+        "word": "barely",
+        "meaning": "（副）かろうじて"
+    },
+    {
+        "id": "e2:1782",
+        "word": "formally",
+        "meaning": "（副）以前は"
+    },
+    {
+        "id": "e2:1783",
+        "word": "seldom",
+        "meaning": "（副）めったに～ない"
+    },
+    {
+        "id": "e2:1784",
+        "word": "repeatedly",
+        "meaning": "（副）繰り返して"
+    },
+    {
+        "id": "e2:1785",
+        "word": "temporarily",
+        "meaning": "（副）一時的に"
+    },
+    {
+        "id": "e2:1786",
+        "word": "annually",
+        "meaning": "（副）年一回"
+    },
+    {
+        "id": "e2:1787",
+        "word": "strangely",
+        "meaning": "（副）奇妙に"
+    },
+    {
+        "id": "e2:1788",
+        "word": "technically",
+        "meaning": "（副）厳密に言えば"
+    },
+    {
+        "id": "e2:1789",
+        "word": "unusually",
+        "meaning": "（副）異常に"
+    },
+    {
+        "id": "e2:1790",
+        "word": "frankly",
+        "meaning": "（副）率直に"
+    },
+    {
+        "id": "e2:1791",
+        "word": "incredibly",
+        "meaning": "（副）信じられないほど"
+    },
+    {
+        "id": "e2:1792",
+        "word": "luckily",
+        "meaning": "（副）運よく"
+    },
+    {
+        "id": "e2:1793",
+        "word": "emotionally",
+        "meaning": "（副）感情的に"
+    },
+    {
+        "id": "e2:1794",
+        "word": "proudly",
+        "meaning": "（副）誇らしげに"
+    },
+    {
+        "id": "e2:1795",
+        "word": "consciously",
+        "meaning": "（副）故意に"
+    },
+    {
+        "id": "e2:1796",
+        "word": "generously",
+        "meaning": "（副）気前よく"
+    },
+    {
+        "id": "e2:1797",
+        "word": "peacefully",
+        "meaning": "（副）穏やかに"
+    },
+    {
+        "id": "e2:1798",
+        "word": "endlessly",
+        "meaning": "（副）果てしなく"
+    },
+    {
+        "id": "e2:1799",
+        "word": "beyond",
+        "meaning": "（前）～の向こうに"
+    }
+]

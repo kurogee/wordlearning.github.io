@@ -1,3834 +1,4792 @@
 [
     {
         "word": "change",
-        "meaning": "（動）変える"
+        "meaning": "（動）変える",
+        "id": "ep2:0"
     },
     {
         "word": "mean",
-        "meaning": "（動）意味する"
+        "meaning": "（動）意味する",
+        "id": "ep2:1"
     },
     {
         "word": "seem",
-        "meaning": "（動）～のようだ"
+        "meaning": "（動）～のようだ",
+        "id": "ep2:2"
     },
     {
         "word": "follow",
-        "meaning": "（動）ついていく"
+        "meaning": "（動）ついていく",
+        "id": "ep2:3"
     },
     {
         "word": "long",
-        "meaning": "（動）切望する"
+        "meaning": "（動）切望する",
+        "id": "ep2:4"
     },
     {
         "word": "set",
-        "meaning": "（動）置く"
+        "meaning": "（動）置く",
+        "id": "ep2:5"
     },
     {
         "word": "turn",
-        "meaning": "（動）進路を変える"
+        "meaning": "（動）進路を変える",
+        "id": "ep2:6"
     },
     {
         "word": "hold",
-        "meaning": "（動）開催する"
+        "meaning": "（動）開催する",
+        "id": "ep2:7"
     },
     {
         "word": "report",
-        "meaning": "（動）報告する"
+        "meaning": "（動）報告する",
+        "id": "ep2:8"
     },
     {
         "word": "run",
-        "meaning": "（動）経営する"
+        "meaning": "（動）経営する",
+        "id": "ep2:9"
     },
     {
         "word": "move",
-        "meaning": "（動）引っ越す"
+        "meaning": "（動）引っ越す",
+        "id": "ep2:10"
     },
     {
         "word": "build",
-        "meaning": "（動）建てる"
+        "meaning": "（動）建てる",
+        "id": "ep2:11"
     },
     {
         "word": "lead",
-        "meaning": "（動）導く"
+        "meaning": "（動）導く",
+        "id": "ep2:12"
     },
     {
         "word": "pay",
-        "meaning": "（動）支払う"
+        "meaning": "（動）支払う",
+        "id": "ep2:13"
     },
     {
         "word": "increase",
-        "meaning": "（動）増加する"
+        "meaning": "（動）増加する",
+        "id": "ep2:14"
     },
     {
         "word": "offer",
-        "meaning": "（動）申し出る"
+        "meaning": "（動）申し出る",
+        "id": "ep2:15"
     },
     {
         "word": "cost",
-        "meaning": "（動）費用がかかる"
+        "meaning": "（動）費用がかかる",
+        "id": "ep2:16"
     },
     {
         "word": "leave",
-        "meaning": "（動）のままにする"
+        "meaning": "（動）のままにする",
+        "id": "ep2:17"
     },
     {
         "word": "believe",
-        "meaning": "（動）信じる"
+        "meaning": "（動）信じる",
+        "id": "ep2:18"
     },
     {
         "word": "train",
-        "meaning": "（動）訓練する"
+        "meaning": "（動）訓練する",
+        "id": "ep2:19"
     },
     {
         "word": "allow",
-        "meaning": "（動）〜するのを許す"
+        "meaning": "（動）〜するのを許す",
+        "id": "ep2:20"
     },
     {
         "word": "continue",
-        "meaning": "（動）続ける"
+        "meaning": "（動）続ける",
+        "id": "ep2:21"
     },
     {
         "word": "order",
-        "meaning": "（動）注文する"
+        "meaning": "（動）注文する",
+        "id": "ep2:22"
     },
     {
         "word": "return",
-        "meaning": "（動）帰る"
+        "meaning": "（動）帰る",
+        "id": "ep2:23"
     },
     {
         "word": "mind",
-        "meaning": "（動）気にする"
+        "meaning": "（動）気にする",
+        "id": "ep2:24"
     },
     {
         "word": "produce",
-        "meaning": "（動）生産する"
+        "meaning": "（動）生産する",
+        "id": "ep2:25"
     },
     {
         "word": "expect",
-        "meaning": "（動）予期する"
+        "meaning": "（動）予期する",
+        "id": "ep2:26"
     },
     {
         "word": "appear",
-        "meaning": "（動）出現する"
+        "meaning": "（動）出現する",
+        "id": "ep2:27"
     },
     {
         "word": "cause",
-        "meaning": "（動）引き起こす"
+        "meaning": "（動）引き起こす",
+        "id": "ep2:28"
     },
     {
         "word": "lose",
-        "meaning": "（動）失う"
+        "meaning": "（動）失う",
+        "id": "ep2:29"
     },
     {
         "word": "carry",
-        "meaning": "（動）運ぶ"
+        "meaning": "（動）運ぶ",
+        "id": "ep2:30"
     },
     {
         "word": "share",
-        "meaning": "（動）共有する"
+        "meaning": "（動）共有する",
+        "id": "ep2:31"
     },
     {
         "word": "let",
-        "meaning": "（動）させる"
+        "meaning": "（動）させる",
+        "id": "ep2:32"
     },
     {
         "word": "suggest",
-        "meaning": "（動）を提案する"
+        "meaning": "（動）を提案する",
+        "id": "ep2:33"
     },
     {
         "word": "add",
-        "meaning": "（動）加える"
+        "meaning": "（動）加える",
+        "id": "ep2:34"
     },
     {
         "word": "care",
-        "meaning": "（動）気にかける"
+        "meaning": "（動）気にかける",
+        "id": "ep2:35"
     },
     {
         "word": "win",
-        "meaning": "（動）勝つ"
+        "meaning": "（動）勝つ",
+        "id": "ep2:36"
     },
     {
         "word": "remember",
-        "meaning": "（動）覚えている"
+        "meaning": "（動）覚えている",
+        "id": "ep2:37"
     },
     {
         "word": "trade",
-        "meaning": "（動）貿易する"
+        "meaning": "（動）貿易する",
+        "id": "ep2:38"
     },
     {
         "word": "spend",
-        "meaning": "（動）費やす"
+        "meaning": "（動）費やす",
+        "id": "ep2:39"
     },
     {
         "word": "design",
-        "meaning": "（動）設計する"
+        "meaning": "（動）設計する",
+        "id": "ep2:40"
     },
     {
         "word": "practice",
-        "meaning": "（動）練習する"
+        "meaning": "（動）練習する",
+        "id": "ep2:41"
     },
     {
         "word": "receive",
-        "meaning": "（動）受け取る"
+        "meaning": "（動）受け取る",
+        "id": "ep2:42"
     },
     {
         "word": "bear",
-        "meaning": "（動）我慢する"
+        "meaning": "（動）我慢する",
+        "id": "ep2:43"
     },
     {
         "word": "grow",
-        "meaning": "（動）成長する"
+        "meaning": "（動）成長する",
+        "id": "ep2:44"
     },
     {
         "word": "decide",
-        "meaning": "（動）決意する"
+        "meaning": "（動）決意する",
+        "id": "ep2:45"
     },
     {
         "word": "agree",
-        "meaning": "（動）同意する"
+        "meaning": "（動）同意する",
+        "id": "ep2:46"
     },
     {
         "word": "sound",
-        "meaning": "（動）〜のように思われる"
+        "meaning": "（動）〜のように思われる",
+        "id": "ep2:47"
     },
     {
         "word": "describe",
-        "meaning": "（動）描写する"
+        "meaning": "（動）描写する",
+        "id": "ep2:48"
     },
     {
         "word": "die",
-        "meaning": "（動）死ぬ"
+        "meaning": "（動）死ぬ",
+        "id": "ep2:49"
     },
     {
         "word": "remain",
-        "meaning": "（動）〜のままである"
+        "meaning": "（動）〜のままである",
+        "id": "ep2:50"
     },
     {
         "word": "wait",
-        "meaning": "（動）待つ"
+        "meaning": "（動）待つ",
+        "id": "ep2:51"
     },
     {
         "word": "pass",
-        "meaning": "（動）合格する"
+        "meaning": "（動）合格する",
+        "id": "ep2:52"
     },
     {
         "word": "cover",
-        "meaning": "（動）覆う"
+        "meaning": "（動）覆う",
+        "id": "ep2:53"
     },
     {
         "word": "create",
-        "meaning": "（動）創造する"
+        "meaning": "（動）創造する",
+        "id": "ep2:54"
     },
     {
         "word": "miss",
-        "meaning": "（動）いなくて寂しく思う"
+        "meaning": "（動）いなくて寂しく思う",
+        "id": "ep2:55"
     },
     {
         "word": "raise",
-        "meaning": "（動）上げる"
+        "meaning": "（動）上げる",
+        "id": "ep2:56"
     },
     {
         "word": "wish",
-        "meaning": "（動）願う"
+        "meaning": "（動）願う",
+        "id": "ep2:57"
     },
     {
         "word": "explain",
-        "meaning": "（動）説明する"
+        "meaning": "（動）説明する",
+        "id": "ep2:58"
     },
     {
         "word": "contain",
-        "meaning": "（動）含む"
+        "meaning": "（動）含む",
+        "id": "ep2:59"
     },
     {
         "word": "plant",
-        "meaning": "（動）植える"
+        "meaning": "（動）植える",
+        "id": "ep2:60"
     },
     {
         "word": "kill",
-        "meaning": "（動）殺す"
+        "meaning": "（動）殺す",
+        "id": "ep2:61"
     },
     {
         "word": "join",
-        "meaning": "（動）参加する"
+        "meaning": "（動）参加する",
+        "id": "ep2:62"
     },
     {
         "word": "fail",
-        "meaning": "（動）失敗する"
+        "meaning": "（動）失敗する",
+        "id": "ep2:63"
     },
     {
         "word": "save",
-        "meaning": "（動）節約する"
+        "meaning": "（動）節約する",
+        "id": "ep2:64"
     },
     {
         "word": "prepare",
-        "meaning": "（動）準備する"
+        "meaning": "（動）準備する",
+        "id": "ep2:65"
     },
     {
         "word": "serve",
-        "meaning": "（動）給仕する"
+        "meaning": "（動）給仕する",
+        "id": "ep2:66"
     },
     {
         "word": "park",
-        "meaning": "（動）駐車する"
+        "meaning": "（動）駐車する",
+        "id": "ep2:67"
     },
     {
         "word": "fit",
-        "meaning": "（動）ぴったり合う"
+        "meaning": "（動）ぴったり合う",
+        "id": "ep2:68"
     },
     {
         "word": "pick",
-        "meaning": "（動）摘む"
+        "meaning": "（動）摘む",
+        "id": "ep2:69"
     },
     {
         "word": "paint",
-        "meaning": "（動）ペンキを塗る"
+        "meaning": "（動）ペンキを塗る",
+        "id": "ep2:70"
     },
     {
         "word": "wonder",
-        "meaning": "（動）〜かなと思う"
+        "meaning": "（動）〜かなと思う",
+        "id": "ep2:71"
     },
     {
         "word": "surprise",
-        "meaning": "（動）驚かせる"
+        "meaning": "（動）驚かせる",
+        "id": "ep2:72"
     },
     {
         "word": "damage",
-        "meaning": "（動）損傷を与える"
+        "meaning": "（動）損傷を与える",
+        "id": "ep2:73"
     },
     {
         "word": "introduce",
-        "meaning": "（動）紹介する"
+        "meaning": "（動）紹介する",
+        "id": "ep2:74"
     },
     {
         "word": "enter",
-        "meaning": "（動）入る"
+        "meaning": "（動）入る",
+        "id": "ep2:75"
     },
     {
         "word": "arrive",
-        "meaning": "（動）到着する"
+        "meaning": "（動）到着する",
+        "id": "ep2:76"
     },
     {
         "word": "improve",
-        "meaning": "（動）改善する"
+        "meaning": "（動）改善する",
+        "id": "ep2:77"
     },
     {
         "word": "travel",
-        "meaning": "（動）旅行する"
+        "meaning": "（動）旅行する",
+        "id": "ep2:78"
     },
     {
         "word": "marry",
-        "meaning": "（動）結婚する"
+        "meaning": "（動）結婚する",
+        "id": "ep2:79"
     },
     {
         "word": "worry",
-        "meaning": "（動）心配する"
+        "meaning": "（動）心配する",
+        "id": "ep2:80"
     },
     {
         "word": "forget",
-        "meaning": "（動）忘れる"
+        "meaning": "（動）忘れる",
+        "id": "ep2:81"
     },
     {
         "word": "avoid",
-        "meaning": "（動）避ける"
+        "meaning": "（動）避ける",
+        "id": "ep2:82"
     },
     {
         "word": "fill",
-        "meaning": "（動）満たす"
+        "meaning": "（動）満たす",
+        "id": "ep2:83"
     },
     {
         "word": "throw",
-        "meaning": "（動）投げる"
+        "meaning": "（動）投げる",
+        "id": "ep2:84"
     },
     {
         "word": "dress",
-        "meaning": "（動）服を着る"
+        "meaning": "（動）服を着る",
+        "id": "ep2:85"
     },
     {
         "word": "exchange",
-        "meaning": "（動）交換する"
+        "meaning": "（動）交換する",
+        "id": "ep2:86"
     },
     {
         "word": "reply",
-        "meaning": "（動）返事をする"
+        "meaning": "（動）返事をする",
+        "id": "ep2:87"
     },
     {
         "word": "copy",
-        "meaning": "（動）写す"
+        "meaning": "（動）写す",
+        "id": "ep2:88"
     },
     {
         "word": "search",
-        "meaning": "（動）探す"
+        "meaning": "（動）探す",
+        "id": "ep2:89"
     },
     {
         "word": "transport",
-        "meaning": "（動）輸送する"
+        "meaning": "（動）輸送する",
+        "id": "ep2:90"
     },
     {
         "word": "waste",
-        "meaning": "（動）浪費する"
+        "meaning": "（動）浪費する",
+        "id": "ep2:91"
     },
     {
         "word": "protect",
-        "meaning": "（動）保護する"
+        "meaning": "（動）保護する",
+        "id": "ep2:92"
     },
     {
         "word": "interview",
-        "meaning": "（動）インタビューする"
+        "meaning": "（動）インタビューする",
+        "id": "ep2:93"
     },
     {
         "word": "perform",
-        "meaning": "（動）演じる"
+        "meaning": "（動）演じる",
+        "id": "ep2:94"
     },
     {
         "word": "guide",
-        "meaning": "（動）案内する"
+        "meaning": "（動）案内する",
+        "id": "ep2:95"
     },
     {
         "word": "count",
-        "meaning": "（動）数える"
+        "meaning": "（動）数える",
+        "id": "ep2:96"
     },
     {
         "word": "collect",
-        "meaning": "（動）集める"
+        "meaning": "（動）集める",
+        "id": "ep2:97"
     },
     {
         "word": "spread",
-        "meaning": "（動）広がる"
+        "meaning": "（動）広がる",
+        "id": "ep2:98"
     },
     {
         "word": "feed",
-        "meaning": "（動）食べ物を与える"
+        "meaning": "（動）食べ物を与える",
+        "id": "ep2:99"
     },
     {
         "word": "prefer",
-        "meaning": "（動）〜をより好む"
+        "meaning": "（動）〜をより好む",
+        "id": "ep2:100"
     },
     {
         "word": "pack",
-        "meaning": "（動）詰める"
+        "meaning": "（動）詰める",
+        "id": "ep2:101"
     },
     {
         "word": "climb",
-        "meaning": "（動）登る"
+        "meaning": "（動）登る",
+        "id": "ep2:102"
     },
     {
         "word": "arrange",
-        "meaning": "（動）取り決める"
+        "meaning": "（動）取り決める",
+        "id": "ep2:103"
     },
     {
         "word": "invite",
-        "meaning": "（動）招待する"
+        "meaning": "（動）招待する",
+        "id": "ep2:104"
     },
     {
         "word": "attract",
-        "meaning": "（動）心をとらえる"
+        "meaning": "（動）心をとらえる",
+        "id": "ep2:105"
     },
     {
         "word": "recommend",
-        "meaning": "（動）推薦する"
+        "meaning": "（動）推薦する",
+        "id": "ep2:106"
     },
     {
         "word": "reserve",
-        "meaning": "（動）予約する"
+        "meaning": "（動）予約する",
+        "id": "ep2:107"
     },
     {
         "word": "taste",
-        "meaning": "（動）の味がする"
+        "meaning": "（動）の味がする",
+        "id": "ep2:108"
     },
     {
         "word": "other",
-        "meaning": "（形）ほかの"
+        "meaning": "（形）ほかの",
+        "id": "ep2:109"
     },
     {
         "word": "own",
-        "meaning": "（形）自分自身の"
+        "meaning": "（形）自分自身の",
+        "id": "ep2:110"
     },
     {
         "word": "following",
-        "meaning": "（形）次の"
+        "meaning": "（形）次の",
+        "id": "ep2:111"
     },
     {
         "word": "another",
-        "meaning": "（形）もう一つの"
+        "meaning": "（形）もう一つの",
+        "id": "ep2:112"
     },
     {
         "word": "different",
-        "meaning": "（形）異なる"
+        "meaning": "（形）異なる",
+        "id": "ep2:113"
     },
     {
         "word": "local",
-        "meaning": "（形）地元の"
+        "meaning": "（形）地元の",
+        "id": "ep2:114"
     },
     {
         "word": "close",
-        "meaning": "（形）近い"
+        "meaning": "（形）近い",
+        "id": "ep2:115"
     },
     {
         "word": "important",
-        "meaning": "（形）重要な"
+        "meaning": "（形）重要な",
+        "id": "ep2:116"
     },
     {
         "word": "national",
-        "meaning": "（形）国の"
+        "meaning": "（形）国の",
+        "id": "ep2:117"
     },
     {
         "word": "public",
-        "meaning": "（形）公共の"
+        "meaning": "（形）公共の",
+        "id": "ep2:118"
     },
     {
         "word": "possible",
-        "meaning": "（形）可能な"
+        "meaning": "（形）可能な",
+        "id": "ep2:119"
     },
     {
         "word": "enough",
-        "meaning": "（形）十分な"
+        "meaning": "（形）十分な",
+        "id": "ep2:120"
     },
     {
         "word": "clear",
-        "meaning": "（形）はっきりした"
+        "meaning": "（形）はっきりした",
+        "id": "ep2:121"
     },
     {
         "word": "available",
-        "meaning": "（形）利用できる"
+        "meaning": "（形）利用できる",
+        "id": "ep2:122"
     },
     {
         "word": "past",
-        "meaning": "（形）過去の"
+        "meaning": "（形）過去の",
+        "id": "ep2:123"
     },
     {
         "word": "main",
-        "meaning": "（形）主な"
+        "meaning": "（形）主な",
+        "id": "ep2:124"
     },
     {
         "word": "boring",
-        "meaning": "（形）退屈な"
+        "meaning": "（形）退屈な",
+        "id": "ep2:125"
     },
     {
         "word": "several",
-        "meaning": "（形）いくつかの"
+        "meaning": "（形）いくつかの",
+        "id": "ep2:126"
     },
     {
         "word": "likely",
-        "meaning": "（形）〜しそうな"
+        "meaning": "（形）〜しそうな",
+        "id": "ep2:127"
     },
     {
         "word": "special",
-        "meaning": "（形）特別な"
+        "meaning": "（形）特別な",
+        "id": "ep2:128"
     },
     {
         "word": "few",
-        "meaning": "（形）ほとんどない"
+        "meaning": "（形）ほとんどない",
+        "id": "ep2:129"
     },
     {
         "word": "international",
-        "meaning": "（形）国際的な"
+        "meaning": "（形）国際的な",
+        "id": "ep2:130"
     },
     {
         "word": "difficult",
-        "meaning": "（形）難しい"
+        "meaning": "（形）難しい",
+        "id": "ep2:131"
     },
     {
         "word": "certain",
-        "meaning": "（形）確かな"
+        "meaning": "（形）確かな",
+        "id": "ep2:132"
     },
     {
         "word": "common",
-        "meaning": "（形）共通の"
+        "meaning": "（形）共通の",
+        "id": "ep2:133"
     },
     {
         "word": "necessary",
-        "meaning": "（形）必要な"
+        "meaning": "（形）必要な",
+        "id": "ep2:134"
     },
     {
         "word": "private",
-        "meaning": "（形）個人的な"
+        "meaning": "（形）個人的な",
+        "id": "ep2:135"
     },
     {
         "word": "final",
-        "meaning": "（形）最後の"
+        "meaning": "（形）最後の",
+        "id": "ep2:136"
     },
     {
         "word": "foreign",
-        "meaning": "（形）外国の"
+        "meaning": "（形）外国の",
+        "id": "ep2:137"
     },
     {
         "word": "official",
-        "meaning": "（形）公式の"
+        "meaning": "（形）公式の",
+        "id": "ep2:138"
     },
     {
         "word": "recent",
-        "meaning": "（形）最近の"
+        "meaning": "（形）最近の",
+        "id": "ep2:139"
     },
     {
         "word": "natural",
-        "meaning": "（形）自然の"
+        "meaning": "（形）自然の",
+        "id": "ep2:140"
     },
     {
         "word": "successful",
-        "meaning": "（形）成功した"
+        "meaning": "（形）成功した",
+        "id": "ep2:141"
     },
     {
         "word": "extra",
-        "meaning": "（形）追加の"
+        "meaning": "（形）追加の",
+        "id": "ep2:142"
     },
     {
         "word": "safe",
-        "meaning": "（形）安全な"
+        "meaning": "（形）安全な",
+        "id": "ep2:143"
     },
     {
         "word": "correct",
-        "meaning": "（形）正しい"
+        "meaning": "（形）正しい",
+        "id": "ep2:144"
     },
     {
         "word": "perfect",
-        "meaning": "（形）完全な"
+        "meaning": "（形）完全な",
+        "id": "ep2:145"
     },
     {
         "word": "wild",
-        "meaning": "（形）野生の"
+        "meaning": "（形）野生の",
+        "id": "ep2:146"
     },
     {
         "word": "afraid",
-        "meaning": "（形）心配して"
+        "meaning": "（形）心配して",
+        "id": "ep2:147"
     },
     {
         "word": "expensive",
-        "meaning": "（形）高価な"
+        "meaning": "（形）高価な",
+        "id": "ep2:148"
     },
     {
         "word": "dangerous",
-        "meaning": "（形）危険な"
+        "meaning": "（形）危険な",
+        "id": "ep2:149"
     },
     {
         "word": "government",
-        "meaning": "（名）政府"
+        "meaning": "（名）政府",
+        "id": "ep2:150"
     },
     {
         "word": "area",
-        "meaning": "（名）地域"
+        "meaning": "（名）地域",
+        "id": "ep2:151"
     },
     {
         "word": "service",
-        "meaning": "（名）サービス"
+        "meaning": "（名）サービス",
+        "id": "ep2:152"
     },
     {
         "word": "result",
-        "meaning": "（名）結果"
+        "meaning": "（名）結果",
+        "id": "ep2:153"
     },
     {
         "word": "fact",
-        "meaning": "（名）事実"
+        "meaning": "（名）事実",
+        "id": "ep2:154"
     },
     {
         "word": "market",
-        "meaning": "（名）市場"
+        "meaning": "（名）市場",
+        "id": "ep2:155"
     },
     {
         "word": "business",
-        "meaning": "（名）商売"
+        "meaning": "（名）商売",
+        "id": "ep2:156"
     },
     {
         "word": "information",
-        "meaning": "（名）情報"
+        "meaning": "（名）情報",
+        "id": "ep2:157"
     },
     {
         "word": "view",
-        "meaning": "（名）眺め"
+        "meaning": "（名）眺め",
+        "id": "ep2:158"
     },
     {
         "word": "idea",
-        "meaning": "（名）考え"
+        "meaning": "（名）考え",
+        "id": "ep2:159"
     },
     {
         "word": "experience",
-        "meaning": "（名）経験"
+        "meaning": "（名）経験",
+        "id": "ep2:160"
     },
     {
         "word": "reason",
-        "meaning": "（名）理由"
+        "meaning": "（名）理由",
+        "id": "ep2:161"
     },
     {
         "word": "price",
-        "meaning": "（名）価格"
+        "meaning": "（名）価格",
+        "id": "ep2:162"
     },
     {
         "word": "center",
-        "meaning": "（名）中心"
+        "meaning": "（名）中心",
+        "id": "ep2:163"
     },
     {
         "word": "war",
-        "meaning": "（名）戦争"
+        "meaning": "（名）戦争",
+        "id": "ep2:164"
     },
     {
         "word": "person",
-        "meaning": "（名）人"
+        "meaning": "（名）人",
+        "id": "ep2:165"
     },
     {
         "word": "police",
-        "meaning": "（名）警察"
+        "meaning": "（名）警察",
+        "id": "ep2:166"
     },
     {
         "word": "land",
-        "meaning": "（名）陸地"
+        "meaning": "（名）陸地",
+        "id": "ep2:167"
     },
     {
         "word": "research",
-        "meaning": "（名）調査"
+        "meaning": "（名）調査",
+        "id": "ep2:168"
     },
     {
         "word": "type",
-        "meaning": "（名）型"
+        "meaning": "（名）型",
+        "id": "ep2:169"
     },
     {
         "word": "million",
-        "meaning": "（名）100万"
+        "meaning": "（名）100万",
+        "id": "ep2:170"
     },
     {
         "word": "community",
-        "meaning": "（名）コミュニティー"
+        "meaning": "（名）コミュニティー",
+        "id": "ep2:171"
     },
     {
         "word": "rule",
-        "meaning": "（名）規則"
+        "meaning": "（名）規則",
+        "id": "ep2:172"
     },
     {
         "word": "moment",
-        "meaning": "（名）瞬間"
+        "meaning": "（名）瞬間",
+        "id": "ep2:173"
     },
     {
         "word": "condition",
-        "meaning": "（名）状態"
+        "meaning": "（名）状態",
+        "id": "ep2:174"
     },
     {
         "word": "detail",
-        "meaning": "（名）詳細"
+        "meaning": "（名）詳細",
+        "id": "ep2:175"
     },
     {
         "word": "health",
-        "meaning": "（名）健康"
+        "meaning": "（名）健康",
+        "id": "ep2:176"
     },
     {
         "word": "industry",
-        "meaning": "（名）産業"
+        "meaning": "（名）産業",
+        "id": "ep2:177"
     },
     {
         "word": "staff",
-        "meaning": "（名）スタッフ"
+        "meaning": "（名）スタッフ",
+        "id": "ep2:178"
     },
     {
         "word": "future",
-        "meaning": "（名）未来"
+        "meaning": "（名）未来",
+        "id": "ep2:179"
     },
     {
         "word": "section",
-        "meaning": "（名）欄"
+        "meaning": "（名）欄",
+        "id": "ep2:180"
     },
     {
         "word": "century",
-        "meaning": "（名）世紀"
+        "meaning": "（名）世紀",
+        "id": "ep2:181"
     },
     {
         "word": "activity",
-        "meaning": "（名）活動"
+        "meaning": "（名）活動",
+        "id": "ep2:182"
     },
     {
         "word": "project",
-        "meaning": "（名）計画"
+        "meaning": "（名）計画",
+        "id": "ep2:183"
     },
     {
         "word": "department",
-        "meaning": "（名）部"
+        "meaning": "（名）部",
+        "id": "ep2:184"
     },
     {
         "word": "product",
-        "meaning": "（名）製品"
+        "meaning": "（名）製品",
+        "id": "ep2:185"
     },
     {
         "word": "sign",
-        "meaning": "（名）標識"
+        "meaning": "（名）標識",
+        "id": "ep2:186"
     },
     {
         "word": "event",
-        "meaning": "（名）出来事"
+        "meaning": "（名）出来事",
+        "id": "ep2:187"
     },
     {
         "word": "material",
-        "meaning": "（名）材料"
+        "meaning": "（名）材料",
+        "id": "ep2:188"
     },
     {
         "word": "situation",
-        "meaning": "（名）状況"
+        "meaning": "（名）状況",
+        "id": "ep2:189"
     },
     {
         "word": "amount",
-        "meaning": "（名）量"
+        "meaning": "（名）量",
+        "id": "ep2:190"
     },
     {
         "word": "rest",
-        "meaning": "（名）休憩"
+        "meaning": "（名）休憩",
+        "id": "ep2:191"
     },
     {
         "word": "sale",
-        "meaning": "（名）販売"
+        "meaning": "（名）販売",
+        "id": "ep2:192"
     },
     {
         "word": "quality",
-        "meaning": "（名）質"
+        "meaning": "（名）質",
+        "id": "ep2:193"
     },
     {
         "word": "fire",
-        "meaning": "（名）火"
+        "meaning": "（名）火",
+        "id": "ep2:194"
     },
     {
         "word": "nature",
-        "meaning": "（名）自然"
+        "meaning": "（名）自然",
+        "id": "ep2:195"
     },
     {
         "word": "method",
-        "meaning": "（名）方法"
+        "meaning": "（名）方法",
+        "id": "ep2:196"
     },
     {
         "word": "bill",
-        "meaning": "（名）請求書"
+        "meaning": "（名）請求書",
+        "id": "ep2:197"
     },
     {
         "word": "president",
-        "meaning": "（名）大統領"
+        "meaning": "（名）大統領",
+        "id": "ep2:198"
     },
     {
         "word": "director",
-        "meaning": "（名）監督"
+        "meaning": "（名）監督",
+        "id": "ep2:199"
     },
     {
         "word": "operation",
-        "meaning": "（名）手術"
+        "meaning": "（名）手術",
+        "id": "ep2:200"
     },
     {
         "word": "front",
-        "meaning": "（名）前部"
+        "meaning": "（名）前部",
+        "id": "ep2:201"
     },
     {
         "word": "couple",
-        "meaning": "（名）１対"
+        "meaning": "（名）１対",
+        "id": "ep2:202"
     },
     {
         "word": "match",
-        "meaning": "（名）試合"
+        "meaning": "（名）試合",
+        "id": "ep2:203"
     },
     {
         "word": "purpose",
-        "meaning": "（名）目的"
+        "meaning": "（名）目的",
+        "id": "ep2:204"
     },
     {
         "word": "space",
-        "meaning": "（名）宇宙"
+        "meaning": "（名）宇宙",
+        "id": "ep2:205"
     },
     {
         "word": "performance",
-        "meaning": "（名）演技"
+        "meaning": "（名）演技",
+        "id": "ep2:206"
     },
     {
         "word": "environment",
-        "meaning": "（名）自然環境"
+        "meaning": "（名）自然環境",
+        "id": "ep2:207"
     },
     {
         "word": "statement",
-        "meaning": "（名）記述"
+        "meaning": "（名）記述",
+        "id": "ep2:208"
     },
     {
         "word": "attention",
-        "meaning": "（名）注意"
+        "meaning": "（名）注意",
+        "id": "ep2:209"
     },
     {
         "word": "choice",
-        "meaning": "（名）選択"
+        "meaning": "（名）選択",
+        "id": "ep2:210"
     },
     {
         "word": "effort",
-        "meaning": "（名）努力"
+        "meaning": "（名）努力",
+        "id": "ep2:211"
     },
     {
         "word": "degree",
-        "meaning": "（名）〜度"
+        "meaning": "（名）〜度",
+        "id": "ep2:212"
     },
     {
         "word": "middle",
-        "meaning": "（名）真ん中"
+        "meaning": "（名）真ん中",
+        "id": "ep2:213"
     },
     {
         "word": "exercise",
-        "meaning": "（名）運動"
+        "meaning": "（名）運動",
+        "id": "ep2:214"
     },
     {
         "word": "character",
-        "meaning": "（名）登場人物"
+        "meaning": "（名）登場人物",
+        "id": "ep2:215"
     },
     {
         "word": "army",
-        "meaning": "（名）陸軍"
+        "meaning": "（名）陸軍",
+        "id": "ep2:216"
     },
     {
         "word": "husband",
-        "meaning": "（名）夫"
+        "meaning": "（名）夫",
+        "id": "ep2:217"
     },
     {
         "word": "address",
-        "meaning": "（名）住所"
+        "meaning": "（名）住所",
+        "id": "ep2:218"
     },
     {
         "word": "trouble",
-        "meaning": "（名）悩み"
+        "meaning": "（名）悩み",
+        "id": "ep2:219"
     },
     {
         "word": "customer",
-        "meaning": "（名）客"
+        "meaning": "（名）客",
+        "id": "ep2:220"
     },
     {
         "word": "average",
-        "meaning": "（名）平均"
+        "meaning": "（名）平均",
+        "id": "ep2:221"
     },
     {
         "word": "rock",
-        "meaning": "（名）岩"
+        "meaning": "（名）岩",
+        "id": "ep2:222"
     },
     {
         "word": "advice",
-        "meaning": "（名）アドバイス"
+        "meaning": "（名）アドバイス",
+        "id": "ep2:223"
     },
     {
         "word": "advantage",
-        "meaning": "（名）有利な点"
+        "meaning": "（名）有利な点",
+        "id": "ep2:224"
     },
     {
         "word": "island",
-        "meaning": "（名）島"
+        "meaning": "（名）島",
+        "id": "ep2:225"
     },
     {
         "word": "goods",
-        "meaning": "（名）品物"
+        "meaning": "（名）品物",
+        "id": "ep2:226"
     },
     {
         "word": "fair",
-        "meaning": "（名）見本市"
+        "meaning": "（名）見本市",
+        "id": "ep2:227"
     },
     {
         "word": "article",
-        "meaning": "（名）記事"
+        "meaning": "（名）記事",
+        "id": "ep2:228"
     },
     {
         "word": "organization",
-        "meaning": "（名）組織"
+        "meaning": "（名）組織",
+        "id": "ep2:229"
     },
     {
         "word": "corner",
-        "meaning": "（名）角"
+        "meaning": "（名）角",
+        "id": "ep2:230"
     },
     {
         "word": "network",
-        "meaning": "（名）ネットワーク"
+        "meaning": "（名）ネットワーク",
+        "id": "ep2:231"
     },
     {
         "word": "employee",
-        "meaning": "（名）従業員"
+        "meaning": "（名）従業員",
+        "id": "ep2:232"
     },
     {
         "word": "owner",
-        "meaning": "（名）所有者"
+        "meaning": "（名）所有者",
+        "id": "ep2:233"
     },
     {
         "word": "tour",
-        "meaning": "（名）見学"
+        "meaning": "（名）見学",
+        "id": "ep2:234"
     },
     {
         "word": "adult",
-        "meaning": "（名）大人"
+        "meaning": "（名）大人",
+        "id": "ep2:235"
     },
     {
         "word": "accident",
-        "meaning": "（名）事故"
+        "meaning": "（名）事故",
+        "id": "ep2:236"
     },
     {
         "word": "route",
-        "meaning": "（名）ルート"
+        "meaning": "（名）ルート",
+        "id": "ep2:237"
     },
     {
         "word": "distance",
-        "meaning": "（名）距離"
+        "meaning": "（名）距離",
+        "id": "ep2:238"
     },
     {
         "word": "expert",
-        "meaning": "（名）専門家"
+        "meaning": "（名）専門家",
+        "id": "ep2:239"
     },
     {
         "word": "clothes",
-        "meaning": "（名）衣服"
+        "meaning": "（名）衣服",
+        "id": "ep2:240"
     },
     {
         "word": "vehicle",
-        "meaning": "（名）乗り物"
+        "meaning": "（名）乗り物",
+        "id": "ep2:241"
     },
     {
         "word": "secret",
-        "meaning": "（名）秘密"
+        "meaning": "（名）秘密",
+        "id": "ep2:242"
     },
     {
         "word": "visitor",
-        "meaning": "（名）訪問者"
+        "meaning": "（名）訪問者",
+        "id": "ep2:243"
     },
     {
         "word": "meal",
-        "meaning": "（名）食事"
+        "meaning": "（名）食事",
+        "id": "ep2:244"
     },
     {
         "word": "flight",
-        "meaning": "（名）定期航空便"
+        "meaning": "（名）定期航空便",
+        "id": "ep2:245"
     },
     {
         "word": "bottle",
-        "meaning": "（名）びん"
+        "meaning": "（名）びん",
+        "id": "ep2:246"
     },
     {
         "word": "gate",
-        "meaning": "（名）門"
+        "meaning": "（名）門",
+        "id": "ep2:247"
     },
     {
         "word": "even",
-        "meaning": "（副）～でさえ"
+        "meaning": "（副）～でさえ",
+        "id": "ep2:248"
     },
     {
         "word": "later",
-        "meaning": "（副）あとで"
+        "meaning": "（副）あとで",
+        "id": "ep2:249"
     },
     {
         "word": "quite",
-        "meaning": "（副）とても"
+        "meaning": "（副）とても",
+        "id": "ep2:250"
     },
     {
         "word": "less",
-        "meaning": "（副）より少なく"
+        "meaning": "（副）より少なく",
+        "id": "ep2:251"
     },
     {
         "word": "though",
-        "meaning": "（副）でも"
+        "meaning": "（副）でも",
+        "id": "ep2:252"
     },
     {
         "word": "yet",
-        "meaning": "（副）まだ～ない"
+        "meaning": "（副）まだ～ない",
+        "id": "ep2:253"
     },
     {
         "word": "far",
-        "meaning": "（副）遠くに"
+        "meaning": "（副）遠くに",
+        "id": "ep2:254"
     },
     {
         "word": "once",
-        "meaning": "（副）一度"
+        "meaning": "（副）一度",
+        "id": "ep2:255"
     },
     {
         "word": "probably",
-        "meaning": "（副）たぶん"
+        "meaning": "（副）たぶん",
+        "id": "ep2:256"
     },
     {
         "word": "actually",
-        "meaning": "（副）実際に"
+        "meaning": "（副）実際に",
+        "id": "ep2:257"
     },
     {
         "word": "outside",
-        "meaning": "（副）外(そと)に"
+        "meaning": "（副）外(そと)に",
+        "id": "ep2:258"
     },
     {
         "word": "else",
-        "meaning": "（副）その他に"
+        "meaning": "（副）その他に",
+        "id": "ep2:259"
     },
     {
         "word": "forward",
-        "meaning": "（副）前方へ"
+        "meaning": "（副）前方へ",
+        "id": "ep2:260"
     },
     {
         "word": "inside",
-        "meaning": "（副）屋内で"
+        "meaning": "（副）屋内で",
+        "id": "ep2:261"
     },
     {
         "word": "finally",
-        "meaning": "（副）ついに"
+        "meaning": "（副）ついに",
+        "id": "ep2:262"
     },
     {
         "word": "recently",
-        "meaning": "（副）最近"
+        "meaning": "（副）最近",
+        "id": "ep2:263"
     },
     {
         "word": "anyway",
-        "meaning": "（副）とにかく"
+        "meaning": "（副）とにかく",
+        "id": "ep2:264"
     },
     {
         "word": "nearly",
-        "meaning": "（副）ほとんど"
+        "meaning": "（副）ほとんど",
+        "id": "ep2:265"
     },
     {
         "word": "easily",
-        "meaning": "（副）簡単に"
+        "meaning": "（副）簡単に",
+        "id": "ep2:266"
     },
     {
         "word": "completely",
-        "meaning": "（副）完全に"
+        "meaning": "（副）完全に",
+        "id": "ep2:267"
     },
     {
         "word": "pretty",
-        "meaning": "（副）かなり"
+        "meaning": "（副）かなり",
+        "id": "ep2:268"
     },
     {
         "word": "instead",
-        "meaning": "（副）その代わりに"
+        "meaning": "（副）その代わりに",
+        "id": "ep2:269"
     },
     {
         "word": "somewhere",
-        "meaning": "（副）どこかに"
+        "meaning": "（副）どこかに",
+        "id": "ep2:270"
     },
     {
         "word": "however",
-        "meaning": "（接）しかしながら"
+        "meaning": "（接）しかしながら",
+        "id": "ep2:271"
     },
     {
         "word": "while",
-        "meaning": "（接）～する間に"
+        "meaning": "（接）～する間に",
+        "id": "ep2:272"
     },
     {
         "word": "although",
-        "meaning": "（接）〜だけれども"
+        "meaning": "（接）〜だけれども",
+        "id": "ep2:273"
     },
     {
         "word": "through",
-        "meaning": "（前）〜を通って"
+        "meaning": "（前）〜を通って",
+        "id": "ep2:274"
     },
     {
         "word": "against",
-        "meaning": "（前）反対して"
+        "meaning": "（前）反対して",
+        "id": "ep2:275"
     },
     {
         "word": "within",
-        "meaning": "（前）〜以内で"
+        "meaning": "（前）〜以内で",
+        "id": "ep2:276"
     },
     {
         "word": "without",
-        "meaning": "（前）〜なしで"
+        "meaning": "（前）〜なしで",
+        "id": "ep2:277"
     },
     {
         "word": "behind",
-        "meaning": "（前）〜の後ろに"
+        "meaning": "（前）〜の後ろに",
+        "id": "ep2:278"
     },
     {
         "word": "below",
-        "meaning": "（前）〜より下に"
+        "meaning": "（前）〜より下に",
+        "id": "ep2:279"
     },
     {
         "word": "throughout",
-        "meaning": "（前）〜の間ずっと"
+        "meaning": "（前）〜の間ずっと",
+        "id": "ep2:280"
     },
     {
         "word": "support",
-        "meaning": "（動）支持する"
+        "meaning": "（動）支持する",
+        "id": "ep2:281"
     },
     {
         "word": "control",
-        "meaning": "（動）管理する"
+        "meaning": "（動）管理する",
+        "id": "ep2:282"
     },
     {
         "word": "require",
-        "meaning": "（動）必要とする"
+        "meaning": "（動）必要とする",
+        "id": "ep2:283"
     },
     {
         "word": "draw",
-        "meaning": "（動）描く"
+        "meaning": "（動）描く",
+        "id": "ep2:284"
     },
     {
         "word": "develop",
-        "meaning": "（動）発達させる"
+        "meaning": "（動）発達させる",
+        "id": "ep2:285"
     },
     {
         "word": "approach",
-        "meaning": "（動）接近する"
+        "meaning": "（動）接近する",
+        "id": "ep2:286"
     },
     {
         "word": "date",
-        "meaning": "（動）デートする"
+        "meaning": "（動）デートする",
+        "id": "ep2:287"
     },
     {
         "word": "accept",
-        "meaning": "（動）受け入れる"
+        "meaning": "（動）受け入れる",
+        "id": "ep2:288"
     },
     {
         "word": "apply",
-        "meaning": "（動）申し込む"
+        "meaning": "（動）申し込む",
+        "id": "ep2:289"
     },
     {
         "word": "award",
-        "meaning": "（動）賞を与える"
+        "meaning": "（動）賞を与える",
+        "id": "ep2:290"
     },
     {
         "word": "limit",
-        "meaning": "（動）制限する"
+        "meaning": "（動）制限する",
+        "id": "ep2:291"
     },
     {
         "word": "reduce",
-        "meaning": "（動）減らす"
+        "meaning": "（動）減らす",
+        "id": "ep2:292"
     },
     {
         "word": "measure",
-        "meaning": "（動）測定する"
+        "meaning": "（動）測定する",
+        "id": "ep2:293"
     },
     {
         "word": "attack",
-        "meaning": "（動）攻撃する"
+        "meaning": "（動）攻撃する",
+        "id": "ep2:294"
     },
     {
         "word": "achieve",
-        "meaning": "（動）達成する"
+        "meaning": "（動）達成する",
+        "id": "ep2:295"
     },
     {
         "word": "recognize",
-        "meaning": "（動）認識する"
+        "meaning": "（動）認識する",
+        "id": "ep2:296"
     },
     {
         "word": "fight",
-        "meaning": "（動）戦う"
+        "meaning": "（動）戦う",
+        "id": "ep2:297"
     },
     {
         "word": "publish",
-        "meaning": "（動）出版する"
+        "meaning": "（動）出版する",
+        "id": "ep2:298"
     },
     {
         "word": "aim",
-        "meaning": "（動）狙う"
+        "meaning": "（動）狙う",
+        "id": "ep2:299"
     },
     {
         "word": "discuss",
-        "meaning": "（動）議論する"
+        "meaning": "（動）議論する",
+        "id": "ep2:300"
     },
     {
         "word": "argue",
-        "meaning": "（動）言い争う"
+        "meaning": "（動）言い争う",
+        "id": "ep2:301"
     },
     {
         "word": "film",
-        "meaning": "（動）撮影する"
+        "meaning": "（動）撮影する",
+        "id": "ep2:302"
     },
     {
         "word": "pull",
-        "meaning": "（動）引く"
+        "meaning": "（動）引く",
+        "id": "ep2:303"
     },
     {
         "word": "ring",
-        "meaning": "（動）鳴る"
+        "meaning": "（動）鳴る",
+        "id": "ep2:304"
     },
     {
         "word": "trust",
-        "meaning": "（動）信用する"
+        "meaning": "（動）信用する",
+        "id": "ep2:305"
     },
     {
         "word": "compare",
-        "meaning": "（動）比較する"
+        "meaning": "（動）比較する",
+        "id": "ep2:306"
     },
     {
         "word": "announce",
-        "meaning": "（動）発表する"
+        "meaning": "（動）発表する",
+        "id": "ep2:307"
     },
     {
         "word": "hit",
-        "meaning": "（動）打つ"
+        "meaning": "（動）打つ",
+        "id": "ep2:308"
     },
     {
         "word": "judge",
-        "meaning": "（動）判断する"
+        "meaning": "（動）判断する",
+        "id": "ep2:309"
     },
     {
         "word": "balance",
-        "meaning": "（動）バランスをとる"
+        "meaning": "（動）バランスをとる",
+        "id": "ep2:310"
     },
     {
         "word": "touch",
-        "meaning": "（動）触る"
+        "meaning": "（動）触る",
+        "id": "ep2:311"
     },
     {
         "word": "remove",
-        "meaning": "（動）取り除く"
+        "meaning": "（動）取り除く",
+        "id": "ep2:312"
     },
     {
         "word": "promise",
-        "meaning": "（動）約束する"
+        "meaning": "（動）約束する",
+        "id": "ep2:313"
     },
     {
         "word": "push",
-        "meaning": "（動）押す"
+        "meaning": "（動）押す",
+        "id": "ep2:314"
     },
     {
         "word": "admit",
-        "meaning": "（動）認める"
+        "meaning": "（動）認める",
+        "id": "ep2:315"
     },
     {
         "word": "replace",
-        "meaning": "（動）取り換える"
+        "meaning": "（動）取り換える",
+        "id": "ep2:316"
     },
     {
         "word": "shape",
-        "meaning": "（動）形成する"
+        "meaning": "（動）形成する",
+        "id": "ep2:317"
     },
     {
         "word": "access",
-        "meaning": "（動）アクセスする"
+        "meaning": "（動）アクセスする",
+        "id": "ep2:318"
     },
     {
         "word": "warn",
-        "meaning": "（動）警告する"
+        "meaning": "（動）警告する",
+        "id": "ep2:319"
     },
     {
         "word": "discover",
-        "meaning": "（動）発見する"
+        "meaning": "（動）発見する",
+        "id": "ep2:320"
     },
     {
         "word": "hang",
-        "meaning": "（動）吊るす"
+        "meaning": "（動）吊るす",
+        "id": "ep2:321"
     },
     {
         "word": "prevent",
-        "meaning": "（動）防ぐ"
+        "meaning": "（動）防ぐ",
+        "id": "ep2:322"
     },
     {
         "word": "organize",
-        "meaning": "（動）組織する"
+        "meaning": "（動）組織する",
+        "id": "ep2:323"
     },
     {
         "word": "lift",
-        "meaning": "（動）持ち上げる"
+        "meaning": "（動）持ち上げる",
+        "id": "ep2:324"
     },
     {
         "word": "attend",
-        "meaning": "（動）出席する"
+        "meaning": "（動）出席する",
+        "id": "ep2:325"
     },
     {
         "word": "stare",
-        "meaning": "（動）じっと見つめる"
+        "meaning": "（動）じっと見つめる",
+        "id": "ep2:326"
     },
     {
         "word": "block",
-        "meaning": "（動）邪魔をする"
+        "meaning": "（動）邪魔をする",
+        "id": "ep2:327"
     },
     {
         "word": "stress",
-        "meaning": "（動）ストレスを与える"
+        "meaning": "（動）ストレスを与える",
+        "id": "ep2:328"
     },
     {
         "word": "repeat",
-        "meaning": "（動）繰り返す"
+        "meaning": "（動）繰り返す",
+        "id": "ep2:329"
     },
     {
         "word": "imagine",
-        "meaning": "（動）想像する"
+        "meaning": "（動）想像する",
+        "id": "ep2:330"
     },
     {
         "word": "survive",
-        "meaning": "（動）生き残る"
+        "meaning": "（動）生き残る",
+        "id": "ep2:331"
     },
     {
         "word": "hide",
-        "meaning": "（動）隠れる"
+        "meaning": "（動）隠れる",
+        "id": "ep2:332"
     },
     {
         "word": "flow",
-        "meaning": "（動）流れる"
+        "meaning": "（動）流れる",
+        "id": "ep2:333"
     },
     {
         "word": "blow",
-        "meaning": "（動）吹く"
+        "meaning": "（動）吹く",
+        "id": "ep2:334"
     },
     {
         "word": "burn",
-        "meaning": "（動）燃える"
+        "meaning": "（動）燃える",
+        "id": "ep2:335"
     },
     {
         "word": "gather",
-        "meaning": "（動）集まる"
+        "meaning": "（動）集まる",
+        "id": "ep2:336"
     },
     {
         "word": "deliver",
-        "meaning": "（動）配達する"
+        "meaning": "（動）配達する",
+        "id": "ep2:337"
     },
     {
         "word": "delay",
-        "meaning": "（動）遅らせる"
+        "meaning": "（動）遅らせる",
+        "id": "ep2:338"
     },
     {
         "word": "belong",
-        "meaning": "（動）所属する"
+        "meaning": "（動）所属する",
+        "id": "ep2:339"
     },
     {
         "word": "steal",
-        "meaning": "（動）盗む"
+        "meaning": "（動）盗む",
+        "id": "ep2:340"
     },
     {
         "word": "wake",
-        "meaning": "（動）目を覚ます"
+        "meaning": "（動）目を覚ます",
+        "id": "ep2:341"
     },
     {
         "word": "advise",
-        "meaning": "（動）忠告する"
+        "meaning": "（動）忠告する",
+        "id": "ep2:342"
     },
     {
         "word": "recover",
-        "meaning": "（動）回復する"
+        "meaning": "（動）回復する",
+        "id": "ep2:343"
     },
     {
         "word": "smell",
-        "meaning": "（動）においがする"
+        "meaning": "（動）においがする",
+        "id": "ep2:344"
     },
     {
         "word": "relax",
-        "meaning": "（動）くつろぐ"
+        "meaning": "（動）くつろぐ",
+        "id": "ep2:345"
     },
     {
         "word": "spell",
-        "meaning": "（動）つづる"
+        "meaning": "（動）つづる",
+        "id": "ep2:346"
     },
     {
         "word": "guess",
-        "meaning": "（動）推測する"
+        "meaning": "（動）推測する",
+        "id": "ep2:347"
     },
     {
         "word": "borrow",
-        "meaning": "（動）借りる"
+        "meaning": "（動）借りる",
+        "id": "ep2:348"
     },
     {
         "word": "repair",
-        "meaning": "（動）修理する"
+        "meaning": "（動）修理する",
+        "id": "ep2:349"
     },
     {
         "word": "celebrate",
-        "meaning": "（動）祝う"
+        "meaning": "（動）祝う",
+        "id": "ep2:350"
     },
     {
         "word": "solve",
-        "meaning": "（動）解決する"
+        "meaning": "（動）解決する",
+        "id": "ep2:351"
     },
     {
         "word": "lend",
-        "meaning": "（動）貸す"
+        "meaning": "（動）貸す",
+        "id": "ep2:352"
     },
     {
         "word": "upset",
-        "meaning": "（動）動揺する"
+        "meaning": "（動）動揺する",
+        "id": "ep2:353"
     },
     {
         "word": "volunteer",
-        "meaning": "（動）志願者"
+        "meaning": "（動）志願者",
+        "id": "ep2:354"
     },
     {
         "word": "graduate",
-        "meaning": "（動）卒業する"
+        "meaning": "（動）卒業する",
+        "id": "ep2:355"
     },
     {
         "word": "cancel",
-        "meaning": "（動）中止する"
+        "meaning": "（動）中止する",
+        "id": "ep2:356"
     },
     {
         "word": "cheer",
-        "meaning": "（動）歓声を上げる"
+        "meaning": "（動）歓声を上げる",
+        "id": "ep2:357"
     },
     {
         "word": "bake",
-        "meaning": "（動）焼く"
+        "meaning": "（動）焼く",
+        "id": "ep2:358"
     },
     {
         "word": "cop",
-        "meaning": "（動）写しを取る"
+        "meaning": "（動）写しを取る",
+        "id": "ep2:359"
     },
     {
         "word": "whole",
-        "meaning": "（形）全体の"
+        "meaning": "（形）全体の",
+        "id": "ep2:360"
     },
     {
         "word": "particular",
-        "meaning": "（形）特別の"
+        "meaning": "（形）特別の",
+        "id": "ep2:361"
     },
     {
         "word": "human",
-        "meaning": "（形）人間の"
+        "meaning": "（形）人間の",
+        "id": "ep2:362"
     },
     {
         "word": "single",
-        "meaning": "（形）独身の"
+        "meaning": "（形）独身の",
+        "id": "ep2:363"
     },
     {
         "word": "colored",
-        "meaning": "（形）色つきの"
+        "meaning": "（形）色つきの",
+        "id": "ep2:364"
     },
     {
         "word": "central",
-        "meaning": "（形）中心の"
+        "meaning": "（形）中心の",
+        "id": "ep2:365"
     },
     {
         "word": "direct",
-        "meaning": "（形）直接の"
+        "meaning": "（形）直接の",
+        "id": "ep2:366"
     },
     {
         "word": "simple",
-        "meaning": "（形）簡単な"
+        "meaning": "（形）簡単な",
+        "id": "ep2:367"
     },
     {
         "word": "male",
-        "meaning": "（形）男性の"
+        "meaning": "（形）男性の",
+        "id": "ep2:368"
     },
     {
         "word": "modern",
-        "meaning": "（形）現代の"
+        "meaning": "（形）現代の",
+        "id": "ep2:369"
     },
     {
         "word": "dead",
-        "meaning": "（形）死んだ"
+        "meaning": "（形）死んだ",
+        "id": "ep2:370"
     },
     {
         "word": "serious",
-        "meaning": "（形）重大な"
+        "meaning": "（形）重大な",
+        "id": "ep2:371"
     },
     {
         "word": "basic",
-        "meaning": "（形）基本的な"
+        "meaning": "（形）基本的な",
+        "id": "ep2:372"
     },
     {
         "word": "original",
-        "meaning": "（形）元の"
+        "meaning": "（形）元の",
+        "id": "ep2:373"
     },
     {
         "word": "flat",
-        "meaning": "（形）平らな"
+        "meaning": "（形）平らな",
+        "id": "ep2:374"
     },
     {
         "word": "double",
-        "meaning": "（形）２倍の"
+        "meaning": "（形）２倍の",
+        "id": "ep2:375"
     },
     {
         "word": "female",
-        "meaning": "（形）女性の"
+        "meaning": "（形）女性の",
+        "id": "ep2:376"
     },
     {
         "word": "traditional",
-        "meaning": "（形）伝統的な"
+        "meaning": "（形）伝統的な",
+        "id": "ep2:377"
     },
     {
         "word": "square",
-        "meaning": "（形）平方"
+        "meaning": "（形）平方",
+        "id": "ep2:378"
     },
     {
         "word": "huge",
-        "meaning": "（形）巨大な"
+        "meaning": "（形）巨大な",
+        "id": "ep2:379"
     },
     {
         "word": "regular",
-        "meaning": "（形）通常の"
+        "meaning": "（形）通常の",
+        "id": "ep2:380"
     },
     {
         "word": "fresh",
-        "meaning": "（形）新鮮な"
+        "meaning": "（形）新鮮な",
+        "id": "ep2:381"
     },
     {
         "word": "ordinary",
-        "meaning": "（形）普通の"
+        "meaning": "（形）普通の",
+        "id": "ep2:382"
     },
     {
         "word": "quiet",
-        "meaning": "（形）静かな"
+        "meaning": "（形）静かな",
+        "id": "ep2:383"
     },
     {
         "word": "empty",
-        "meaning": "（形）空の"
+        "meaning": "（形）空の",
+        "id": "ep2:384"
     },
     {
         "word": "cheap",
-        "meaning": "（形）安い"
+        "meaning": "（形）安い",
+        "id": "ep2:385"
     },
     {
         "word": "excellent",
-        "meaning": "（形）優れた"
+        "meaning": "（形）優れた",
+        "id": "ep2:386"
     },
     {
         "word": "formal",
-        "meaning": "（形）正式な"
+        "meaning": "（形）正式な",
+        "id": "ep2:387"
     },
     {
         "word": "bright",
-        "meaning": "（形）明るい"
+        "meaning": "（形）明るい",
+        "id": "ep2:388"
     },
     {
         "word": "familiar",
-        "meaning": "（形）よく知られている"
+        "meaning": "（形）よく知られている",
+        "id": "ep2:389"
     },
     {
         "word": "careful",
-        "meaning": "（形）注意深い"
+        "meaning": "（形）注意深い",
+        "id": "ep2:390"
     },
     {
         "word": "ancient",
-        "meaning": "（形）古代の"
+        "meaning": "（形）古代の",
+        "id": "ep2:391"
     },
     {
         "word": "friendly",
-        "meaning": "（形）友好的な"
+        "meaning": "（形）友好的な",
+        "id": "ep2:392"
     },
     {
         "word": "unusual",
-        "meaning": "（形）普通ではない"
+        "meaning": "（形）普通ではない",
+        "id": "ep2:393"
     },
     {
         "word": "blind",
-        "meaning": "（形）目の見えない"
+        "meaning": "（形）目の見えない",
+        "id": "ep2:394"
     },
     {
         "word": "healthy",
-        "meaning": "（形）健康な"
+        "meaning": "（形）健康な",
+        "id": "ep2:395"
     },
     {
         "word": "comfortable",
-        "meaning": "（形）快適な"
+        "meaning": "（形）快適な",
+        "id": "ep2:396"
     },
     {
         "word": "calm",
-        "meaning": "（形）落ち着いた"
+        "meaning": "（形）落ち着いた",
+        "id": "ep2:397"
     },
     {
         "word": "nearby",
-        "meaning": "（形）近くの"
+        "meaning": "（形）近くの",
+        "id": "ep2:398"
     },
     {
         "word": "loud",
-        "meaning": "（形）音が大きい"
+        "meaning": "（形）音が大きい",
+        "id": "ep2:399"
     },
     {
         "word": "nervous",
-        "meaning": "（形）緊張して"
+        "meaning": "（形）緊張して",
+        "id": "ep2:400"
     },
     {
         "word": "honest",
-        "meaning": "（形）正直な"
+        "meaning": "（形）正直な",
+        "id": "ep2:401"
     },
     {
         "word": "concrete",
-        "meaning": "（形）具体的な"
+        "meaning": "（形）具体的な",
+        "id": "ep2:402"
     },
     {
         "word": "asleep",
-        "meaning": "（形）眠って"
+        "meaning": "（形）眠って",
+        "id": "ep2:403"
     },
     {
         "word": "convenient",
-        "meaning": "（形）便利な"
+        "meaning": "（形）便利な",
+        "id": "ep2:404"
     },
     {
         "word": "lonely",
-        "meaning": "（形）寂しい"
+        "meaning": "（形）寂しい",
+        "id": "ep2:405"
     },
     {
         "word": "delicious",
-        "meaning": "（形）おいしい"
+        "meaning": "（形）おいしい",
+        "id": "ep2:406"
     },
     {
         "word": "noisy",
-        "meaning": "（形）騒がしい"
+        "meaning": "（形）騒がしい",
+        "id": "ep2:407"
     },
     {
         "word": "portable",
-        "meaning": "（形）持ち運びできる"
+        "meaning": "（形）持ち運びできる",
+        "id": "ep2:408"
     },
     {
         "word": "arctic",
-        "meaning": "（形）北極の"
+        "meaning": "（形）北極の",
+        "id": "ep2:409"
     },
     {
         "word": "cute",
-        "meaning": "（形）かわいい"
+        "meaning": "（形）かわいい",
+        "id": "ep2:410"
     },
     {
         "word": "state",
-        "meaning": "（名）州"
+        "meaning": "（名）州",
+        "id": "ep2:411"
     },
     {
         "word": "level",
-        "meaning": "（名）水準"
+        "meaning": "（名）水準",
+        "id": "ep2:412"
     },
     {
         "word": "figure",
-        "meaning": "（名）人物"
+        "meaning": "（名）人物",
+        "id": "ep2:413"
     },
     {
         "word": "position",
-        "meaning": "（名）位置"
+        "meaning": "（名）位置",
+        "id": "ep2:414"
     },
     {
         "word": "education",
-        "meaning": "（名）教育"
+        "meaning": "（名）教育",
+        "id": "ep2:415"
     },
     {
         "word": "sense",
-        "meaning": "（名）感覚"
+        "meaning": "（名）感覚",
+        "id": "ep2:416"
     },
     {
         "word": "note",
-        "meaning": "（名）メモ"
+        "meaning": "（名）メモ",
+        "id": "ep2:417"
     },
     {
         "word": "decision",
-        "meaning": "（名）決定"
+        "meaning": "（名）決定",
+        "id": "ep2:418"
     },
     {
         "word": "death",
-        "meaning": "（名）死"
+        "meaning": "（名）死",
+        "id": "ep2:419"
     },
     {
         "word": "role",
-        "meaning": "（名）役"
+        "meaning": "（名）役",
+        "id": "ep2:420"
     },
     {
         "word": "data",
-        "meaning": "（名）データ"
+        "meaning": "（名）データ",
+        "id": "ep2:421"
     },
     {
         "word": "officer",
-        "meaning": "（名）警官"
+        "meaning": "（名）警官",
+        "id": "ep2:422"
     },
     {
         "word": "movement",
-        "meaning": "（名）動き"
+        "meaning": "（名）動き",
+        "id": "ep2:423"
     },
     {
         "word": "agreement",
-        "meaning": "（名）合意"
+        "meaning": "（名）合意",
+        "id": "ep2:424"
     },
     {
         "word": "population",
-        "meaning": "（名）人口"
+        "meaning": "（名）人口",
+        "id": "ep2:425"
     },
     {
         "word": "knowledge",
-        "meaning": "（名）知識"
+        "meaning": "（名）知識",
+        "id": "ep2:426"
     },
     {
         "word": "success",
-        "meaning": "（名）成功"
+        "meaning": "（名）成功",
+        "id": "ep2:427"
     },
     {
         "word": "capital",
-        "meaning": "（名）首都"
+        "meaning": "（名）首都",
+        "id": "ep2:428"
     },
     {
         "word": "difficulty",
-        "meaning": "（名）困難"
+        "meaning": "（名）困難",
+        "id": "ep2:429"
     },
     {
         "word": "energy",
-        "meaning": "（名）エネルギー"
+        "meaning": "（名）エネルギー",
+        "id": "ep2:430"
     },
     {
         "word": "behavior",
-        "meaning": "（名）ふるまい"
+        "meaning": "（名）ふるまい",
+        "id": "ep2:431"
     },
     {
         "word": "argument",
-        "meaning": "（名）口論"
+        "meaning": "（名）口論",
+        "id": "ep2:432"
     },
     {
         "word": "image",
-        "meaning": "（名）イメージ"
+        "meaning": "（名）イメージ",
+        "id": "ep2:433"
     },
     {
         "word": "conference",
-        "meaning": "（名）会議"
+        "meaning": "（名）会議",
+        "id": "ep2:434"
     },
     {
         "word": "direction",
-        "meaning": "（名）方向"
+        "meaning": "（名）方向",
+        "id": "ep2:435"
     },
     {
         "word": "disease",
-        "meaning": "（名）病気"
+        "meaning": "（名）病気",
+        "id": "ep2:436"
     },
     {
         "word": "technique",
-        "meaning": "（名）技術"
+        "meaning": "（名）技術",
+        "id": "ep2:437"
     },
     {
         "word": "ability",
-        "meaning": "（名）能力"
+        "meaning": "（名）能力",
+        "id": "ep2:438"
     },
     {
         "word": "edge",
-        "meaning": "（名）ふち"
+        "meaning": "（名）ふち",
+        "id": "ep2:439"
     },
     {
         "word": "engineer",
-        "meaning": "（名）エンジニア"
+        "meaning": "（名）エンジニア",
+        "id": "ep2:440"
     },
     {
         "word": "memory",
-        "meaning": "（名）思い出"
+        "meaning": "（名）思い出",
+        "id": "ep2:441"
     },
     {
         "word": "variety",
-        "meaning": "（名）多様性"
+        "meaning": "（名）多様性",
+        "id": "ep2:442"
     },
     {
         "word": "weight",
-        "meaning": "（名）重さ"
+        "meaning": "（名）重さ",
+        "id": "ep2:443"
     },
     {
         "word": "communication",
-        "meaning": "（名）コミュニケーション"
+        "meaning": "（名）コミュニケーション",
+        "id": "ep2:444"
     },
     {
         "word": "equipment",
-        "meaning": "（名）用具"
+        "meaning": "（名）用具",
+        "id": "ep2:445"
     },
     {
         "word": "crime",
-        "meaning": "（名）犯罪"
+        "meaning": "（名）犯罪",
+        "id": "ep2:446"
     },
     {
         "word": "track",
-        "meaning": "（名）線路"
+        "meaning": "（名）線路",
+        "id": "ep2:447"
     },
     {
         "word": "cash",
-        "meaning": "（名）現金"
+        "meaning": "（名）現金",
+        "id": "ep2:448"
     },
     {
         "word": "credit",
-        "meaning": "（名）信用"
+        "meaning": "（名）信用",
+        "id": "ep2:449"
     },
     {
         "word": "spirit",
-        "meaning": "（名）精神"
+        "meaning": "（名）精神",
+        "id": "ep2:450"
     },
     {
         "word": "package",
-        "meaning": "（名）包み"
+        "meaning": "（名）包み",
+        "id": "ep2:451"
     },
     {
         "word": "nation",
-        "meaning": "（名）国家"
+        "meaning": "（名）国家",
+        "id": "ep2:452"
     },
     {
         "word": "commercial",
-        "meaning": "（名）コマーシャル"
+        "meaning": "（名）コマーシャル",
+        "id": "ep2:453"
     },
     {
         "word": "sight",
-        "meaning": "（名）視力"
+        "meaning": "（名）視力",
+        "id": "ep2:454"
     },
     {
         "word": "skin",
-        "meaning": "（名）皮"
+        "meaning": "（名）皮",
+        "id": "ep2:455"
     },
     {
         "word": "row",
-        "meaning": "（名）列"
+        "meaning": "（名）列",
+        "id": "ep2:456"
     },
     {
         "word": "danger",
-        "meaning": "（名）危険"
+        "meaning": "（名）危険",
+        "id": "ep2:457"
     },
     {
         "word": "engine",
-        "meaning": "（名）エンジン"
+        "meaning": "（名）エンジン",
+        "id": "ep2:458"
     },
     {
         "word": "author",
-        "meaning": "（名）作家"
+        "meaning": "（名）作家",
+        "id": "ep2:459"
     },
     {
         "word": "mistake",
-        "meaning": "（名）間違い"
+        "meaning": "（名）間違い",
+        "id": "ep2:460"
     },
     {
         "word": "exhibition",
-        "meaning": "（名）展覧会"
+        "meaning": "（名）展覧会",
+        "id": "ep2:461"
     },
     {
         "word": "traffic",
-        "meaning": "（名）交通"
+        "meaning": "（名）交通",
+        "id": "ep2:462"
     },
     {
         "word": "photograph",
-        "meaning": "（名）写真"
+        "meaning": "（名）写真",
+        "id": "ep2:463"
     },
     {
         "word": "experiment",
-        "meaning": "（名）実験"
+        "meaning": "（名）実験",
+        "id": "ep2:464"
     },
     {
         "word": "conversation",
-        "meaning": "（名）会話"
+        "meaning": "（名）会話",
+        "id": "ep2:465"
     },
     {
         "word": "audience",
-        "meaning": "（名）観衆"
+        "meaning": "（名）観衆",
+        "id": "ep2:466"
     },
     {
         "word": "favor",
-        "meaning": "（名）親切な行為"
+        "meaning": "（名）親切な行為",
+        "id": "ep2:467"
     },
     {
         "word": "signal",
-        "meaning": "（名）信号"
+        "meaning": "（名）信号",
+        "id": "ep2:468"
     },
     {
         "word": "victory",
-        "meaning": "（名）勝利"
+        "meaning": "（名）勝利",
+        "id": "ep2:469"
     },
     {
         "word": "fee",
-        "meaning": "（名）料金"
+        "meaning": "（名）料金",
+        "id": "ep2:470"
     },
     {
         "word": "guest",
-        "meaning": "（名）招待客"
+        "meaning": "（名）招待客",
+        "id": "ep2:471"
     },
     {
         "word": "professor",
-        "meaning": "（名）教授"
+        "meaning": "（名）教授",
+        "id": "ep2:472"
     },
     {
         "word": "novel",
-        "meaning": "（名）小説"
+        "meaning": "（名）小説",
+        "id": "ep2:473"
     },
     {
         "word": "coach",
-        "meaning": "（名）コーチ"
+        "meaning": "（名）コーチ",
+        "id": "ep2:474"
     },
     {
         "word": "passage",
-        "meaning": "（名）通行"
+        "meaning": "（名）通行",
+        "id": "ep2:475"
     },
     {
         "word": "wheel",
-        "meaning": "（名）車輪"
+        "meaning": "（名）車輪",
+        "id": "ep2:476"
     },
     {
         "word": "neighbor",
-        "meaning": "（名）近所の人"
+        "meaning": "（名）近所の人",
+        "id": "ep2:477"
     },
     {
         "word": "plenty",
-        "meaning": "（名）たくさん"
+        "meaning": "（名）たくさん",
+        "id": "ep2:478"
     },
     {
         "word": "prize",
-        "meaning": "（名）賞"
+        "meaning": "（名）賞",
+        "id": "ep2:479"
     },
     {
         "word": "gift",
-        "meaning": "（名）贈り物"
+        "meaning": "（名）贈り物",
+        "id": "ep2:480"
     },
     {
         "word": "passenger",
-        "meaning": "（名）乗客"
+        "meaning": "（名）乗客",
+        "id": "ep2:481"
     },
     {
         "word": "plastic",
-        "meaning": "（名）プラスチック"
+        "meaning": "（名）プラスチック",
+        "id": "ep2:482"
     },
     {
         "word": "boss",
-        "meaning": "（名）上司"
+        "meaning": "（名）上司",
+        "id": "ep2:483"
     },
     {
         "word": "pollution",
-        "meaning": "（名）汚染"
+        "meaning": "（名）汚染",
+        "id": "ep2:484"
     },
     {
         "word": "excuse",
-        "meaning": "（名）言い訳"
+        "meaning": "（名）言い訳",
+        "id": "ep2:485"
     },
     {
         "word": "countryside",
-        "meaning": "（名）田舎"
+        "meaning": "（名）田舎",
+        "id": "ep2:486"
     },
     {
         "word": "grade",
-        "meaning": "（名）等級"
+        "meaning": "（名）等級",
+        "id": "ep2:487"
     },
     {
         "word": "desert",
-        "meaning": "（名）砂漠"
+        "meaning": "（名）砂漠",
+        "id": "ep2:488"
     },
     {
         "word": "presentation",
-        "meaning": "（名）発表"
+        "meaning": "（名）発表",
+        "id": "ep2:489"
     },
     {
         "word": "custom",
-        "meaning": "（名）慣習"
+        "meaning": "（名）慣習",
+        "id": "ep2:490"
     },
     {
         "word": "actor",
-        "meaning": "（名）俳優"
+        "meaning": "（名）俳優",
+        "id": "ep2:491"
     },
     {
         "word": "discovery",
-        "meaning": "（名）発見"
+        "meaning": "（名）発見",
+        "id": "ep2:492"
     },
     {
         "word": "tourist",
-        "meaning": "（名）観光客"
+        "meaning": "（名）観光客",
+        "id": "ep2:493"
     },
     {
         "word": "medicine",
-        "meaning": "（名）薬"
+        "meaning": "（名）薬",
+        "id": "ep2:494"
     },
     {
         "word": "disaster",
-        "meaning": "（名）災害"
+        "meaning": "（名）災害",
+        "id": "ep2:495"
     },
     {
         "word": "luck",
-        "meaning": "（名）幸運"
+        "meaning": "（名）幸運",
+        "id": "ep2:496"
     },
     {
         "word": "uniform",
-        "meaning": "（名）制服"
+        "meaning": "（名）制服",
+        "id": "ep2:497"
     },
     {
         "word": "symbol",
-        "meaning": "（名）象徴"
+        "meaning": "（名）象徴",
+        "id": "ep2:498"
     },
     {
         "word": "vegetable",
-        "meaning": "（名）野菜"
+        "meaning": "（名）野菜",
+        "id": "ep2:499"
     },
     {
         "word": "shelter",
-        "meaning": "（名）避難所"
+        "meaning": "（名）避難所",
+        "id": "ep2:500"
     },
     {
         "word": "mayor",
-        "meaning": "（名）市長"
+        "meaning": "（名）市長",
+        "id": "ep2:501"
     },
     {
         "word": "entertainment",
-        "meaning": "（名）娯楽"
+        "meaning": "（名）娯楽",
+        "id": "ep2:502"
     },
     {
         "word": "advertisement",
-        "meaning": "（名）広告"
+        "meaning": "（名）広告",
+        "id": "ep2:503"
     },
     {
         "word": "cloth",
-        "meaning": "（名）布"
+        "meaning": "（名）布",
+        "id": "ep2:504"
     },
     {
         "word": "anniversary",
-        "meaning": "（名）記念日"
+        "meaning": "（名）記念日",
+        "id": "ep2:505"
     },
     {
         "word": "insect",
-        "meaning": "（名）昆虫"
+        "meaning": "（名）昆虫",
+        "id": "ep2:506"
     },
     {
         "word": "navy",
-        "meaning": "（名）海軍"
+        "meaning": "（名）海軍",
+        "id": "ep2:507"
     },
     {
         "word": "apartment",
-        "meaning": "（名）アパート"
+        "meaning": "（名）アパート",
+        "id": "ep2:508"
     },
     {
         "word": "avenue",
-        "meaning": "（名）大通り"
+        "meaning": "（名）大通り",
+        "id": "ep2:509"
     },
     {
         "word": "recipe",
-        "meaning": "（名）調理法"
+        "meaning": "（名）調理法",
+        "id": "ep2:510"
     },
     {
         "word": "orchestra",
-        "meaning": "（名）管弦楽団"
+        "meaning": "（名）管弦楽団",
+        "id": "ep2:511"
     },
     {
         "word": "honey",
-        "meaning": "（名）はちみつ"
+        "meaning": "（名）はちみつ",
+        "id": "ep2:512"
     },
     {
         "word": "fossil",
-        "meaning": "（名）化石"
+        "meaning": "（名）化石",
+        "id": "ep2:513"
     },
     {
         "word": "sunlight",
-        "meaning": "（名）日光"
+        "meaning": "（名）日光",
+        "id": "ep2:514"
     },
     {
         "word": "costume",
-        "meaning": "（名）衣装"
+        "meaning": "（名）衣装",
+        "id": "ep2:515"
     },
     {
         "word": "miniature",
-        "meaning": "（名）ミニチュア"
+        "meaning": "（名）ミニチュア",
+        "id": "ep2:516"
     },
     {
         "word": "pigeon",
-        "meaning": "（名）ハト"
+        "meaning": "（名）ハト",
+        "id": "ep2:517"
     },
     {
         "word": "dentist",
-        "meaning": "（名）歯医者"
+        "meaning": "（名）歯医者",
+        "id": "ep2:518"
     },
     {
         "word": "dinosaur",
-        "meaning": "（名）恐竜"
+        "meaning": "（名）恐竜",
+        "id": "ep2:519"
     },
     {
         "word": "earthquake",
-        "meaning": "（名）地震"
+        "meaning": "（名）地震",
+        "id": "ep2:520"
     },
     {
         "word": "grandparent",
-        "meaning": "（名）祖父母"
+        "meaning": "（名）祖父母",
+        "id": "ep2:521"
     },
     {
         "word": "transportation",
-        "meaning": "（名）交通機関"
+        "meaning": "（名）交通機関",
+        "id": "ep2:522"
     },
     {
         "word": "puppet",
-        "meaning": "（名）操り人形"
+        "meaning": "（名）操り人形",
+        "id": "ep2:523"
     },
     {
         "word": "ma’am",
-        "meaning": "（名）奥様"
+        "meaning": "（名）奥様",
+        "id": "ep2:524"
     },
     {
         "word": "dessert",
-        "meaning": "（名）デザート"
+        "meaning": "（名）デザート",
+        "id": "ep2:525"
     },
     {
         "word": "lighthouse",
-        "meaning": "（名）灯台"
+        "meaning": "（名）灯台",
+        "id": "ep2:526"
     },
     {
         "word": "mall",
-        "meaning": "（名）ショッピングモール"
+        "meaning": "（名）ショッピングモール",
+        "id": "ep2:527"
     },
     {
         "word": "bakery",
-        "meaning": "（名）パン屋"
+        "meaning": "（名）パン屋",
+        "id": "ep2:528"
     },
     {
         "word": "garbage",
-        "meaning": "（名）ごみ"
+        "meaning": "（名）ごみ",
+        "id": "ep2:529"
     },
     {
         "word": "graduation",
-        "meaning": "（名）卒業"
+        "meaning": "（名）卒業",
+        "id": "ep2:530"
     },
     {
         "word": "firefighter",
-        "meaning": "（名）消防隊員"
+        "meaning": "（名）消防隊員",
+        "id": "ep2:531"
     },
     {
         "word": "avocado",
-        "meaning": "（名）アボカド"
+        "meaning": "（名）アボカド",
+        "id": "ep2:532"
     },
     {
         "word": "co-worker",
-        "meaning": "（名）同僚"
+        "meaning": "（名）同僚",
+        "id": "ep2:533"
     },
     {
         "word": "Internet",
-        "meaning": "（名）インターネット"
+        "meaning": "（名）インターネット",
+        "id": "ep2:534"
     },
     {
         "word": "smartphone",
-        "meaning": "（名）スマートフォン"
+        "meaning": "（名）スマートフォン",
+        "id": "ep2:535"
     },
     {
         "word": "restroom",
-        "meaning": "（名）トイレ"
+        "meaning": "（名）トイレ",
+        "id": "ep2:536"
     },
     {
         "word": "drugstore",
-        "meaning": "（名）ドラッグストア"
+        "meaning": "（名）ドラッグストア",
+        "id": "ep2:537"
     },
     {
         "word": "homestay",
-        "meaning": "（名）ホームステイ"
+        "meaning": "（名）ホームステイ",
+        "id": "ep2:538"
     },
     {
         "word": "none",
-        "meaning": "（代名）１つも〜ない"
+        "meaning": "（代名）１つも〜ない",
+        "id": "ep2:539"
     },
     {
         "word": "further",
-        "meaning": "（副）もっと遠くに"
+        "meaning": "（副）もっと遠くに",
+        "id": "ep2:540"
     },
     {
         "word": "perhaps",
-        "meaning": "（副）もしかすると"
+        "meaning": "（副）もしかすると",
+        "id": "ep2:541"
     },
     {
         "word": "especially",
-        "meaning": "（副）特に"
+        "meaning": "（副）特に",
+        "id": "ep2:542"
     },
     {
         "word": "generally",
-        "meaning": "（副）一般的に"
+        "meaning": "（副）一般的に",
+        "id": "ep2:543"
     },
     {
         "word": "exactly",
-        "meaning": "（副）正確に"
+        "meaning": "（副）正確に",
+        "id": "ep2:544"
     },
     {
         "word": "eventually",
-        "meaning": "（副）結局"
+        "meaning": "（副）結局",
+        "id": "ep2:545"
     },
     {
         "word": "otherwise",
-        "meaning": "（副）さもなければ"
+        "meaning": "（副）さもなければ",
+        "id": "ep2:546"
     },
     {
         "word": "environmentally",
-        "meaning": "（副）環境の点で"
+        "meaning": "（副）環境の点で",
+        "id": "ep2:547"
     },
     {
         "word": "apparently",
-        "meaning": "（副）明白に"
+        "meaning": "（副）明白に",
+        "id": "ep2:548"
     },
     {
         "word": "fairly",
-        "meaning": "（副）まあまあ"
+        "meaning": "（副）まあまあ",
+        "id": "ep2:549"
     },
     {
         "word": "equally",
-        "meaning": "（副）等しく"
+        "meaning": "（副）等しく",
+        "id": "ep2:550"
     },
     {
         "word": "ahead",
-        "meaning": "（副）前に"
+        "meaning": "（副）前に",
+        "id": "ep2:551"
     },
     {
         "word": "twice",
-        "meaning": "（副）２回"
+        "meaning": "（副）２回",
+        "id": "ep2:552"
     },
     {
         "word": "moreover",
-        "meaning": "（副）さらに"
+        "meaning": "（副）さらに",
+        "id": "ep2:553"
     },
     {
         "word": "abroad",
-        "meaning": "（副）海外で"
+        "meaning": "（副）海外で",
+        "id": "ep2:554"
     },
     {
         "word": "regularly",
-        "meaning": "（副）定期的に"
+        "meaning": "（副）定期的に",
+        "id": "ep2:555"
     },
     {
         "word": "gradually",
-        "meaning": "（副）徐々に"
+        "meaning": "（副）徐々に",
+        "id": "ep2:556"
     },
     {
         "word": "nowadays",
-        "meaning": "（副）近ごろは"
+        "meaning": "（副）近ごろは",
+        "id": "ep2:557"
     },
     {
         "word": "sometime",
-        "meaning": "（副）いつか"
+        "meaning": "（副）いつか",
+        "id": "ep2:558"
     },
     {
         "word": "luckily",
-        "meaning": "（副）運良く"
+        "meaning": "（副）運良く",
+        "id": "ep2:559"
     },
     {
         "word": "online",
-        "meaning": "（副）オンラインで"
+        "meaning": "（副）オンラインで",
+        "id": "ep2:560"
     },
     {
         "word": "anymore",
-        "meaning": "（副）今後は〜しない"
+        "meaning": "（副）今後は〜しない",
+        "id": "ep2:561"
     },
     {
         "word": "afterward",
-        "meaning": "（副）後で"
+        "meaning": "（副）後で",
+        "id": "ep2:562"
     },
     {
         "word": "whether",
-        "meaning": "（接）〜かどうか"
+        "meaning": "（接）〜かどうか",
+        "id": "ep2:563"
     },
     {
         "word": "unless",
-        "meaning": "（接）〜しない限り"
+        "meaning": "（接）〜しない限り",
+        "id": "ep2:564"
     },
     {
         "word": "toward",
-        "meaning": "（前）〜のほうへ"
+        "meaning": "（前）〜のほうへ",
+        "id": "ep2:565"
     },
     {
         "word": "despite",
-        "meaning": "（前）〜にもかかわらず"
+        "meaning": "（前）〜にもかかわらず",
+        "id": "ep2:566"
     },
     {
         "word": "beyond",
-        "meaning": "（前）〜を超えて"
+        "meaning": "（前）〜を超えて",
+        "id": "ep2:567"
     },
     {
         "word": "except",
-        "meaning": "（前）〜を除いて"
+        "meaning": "（前）〜を除いて",
+        "id": "ep2:568"
     },
     {
         "word": "unlike",
-        "meaning": "（前）〜と異なり"
+        "meaning": "（前）〜と異なり",
+        "id": "ep2:569"
     },
     {
         "word": "face",
-        "meaning": "（動）直面する"
+        "meaning": "（動）直面する",
+        "id": "ep2:570"
     },
     {
         "word": "concern",
-        "meaning": "（動）心配している"
+        "meaning": "（動）心配している",
+        "id": "ep2:571"
     },
     {
         "word": "claim",
-        "meaning": "（動）主張する"
+        "meaning": "（動）主張する",
+        "id": "ep2:572"
     },
     {
         "word": "consider",
-        "meaning": "（動）よく考える"
+        "meaning": "（動）よく考える",
+        "id": "ep2:573"
     },
     {
         "word": "major",
-        "meaning": "（動）専攻する"
+        "meaning": "（動）専攻する",
+        "id": "ep2:574"
     },
     {
         "word": "exist",
-        "meaning": "（動）存在する"
+        "meaning": "（動）存在する",
+        "id": "ep2:575"
     },
     {
         "word": "unite",
-        "meaning": "（動）団結させる"
+        "meaning": "（動）団結させる",
+        "id": "ep2:576"
     },
     {
         "word": "rise",
-        "meaning": "（動）上がる"
+        "meaning": "（動）上がる",
+        "id": "ep2:577"
     },
     {
         "word": "bite",
-        "meaning": "（動）かむ"
+        "meaning": "（動）かむ",
+        "id": "ep2:578"
     },
     {
         "word": "march",
-        "meaning": "（動）行進する"
+        "meaning": "（動）行進する",
+        "id": "ep2:579"
     },
     {
         "word": "supply",
-        "meaning": "（動）供給する"
+        "meaning": "（動）供給する",
+        "id": "ep2:580"
     },
     {
         "word": "seek",
-        "meaning": "（動）探し求める"
+        "meaning": "（動）探し求める",
+        "id": "ep2:581"
     },
     {
         "word": "lay",
-        "meaning": "（動）横たえる"
+        "meaning": "（動）横たえる",
+        "id": "ep2:582"
     },
     {
         "word": "occur",
-        "meaning": "（動）起こる"
+        "meaning": "（動）起こる",
+        "id": "ep2:583"
     },
     {
         "word": "realize",
-        "meaning": "（動）気づく"
+        "meaning": "（動）気づく",
+        "id": "ep2:584"
     },
     {
         "word": "prove",
-        "meaning": "（動）証明する"
+        "meaning": "（動）証明する",
+        "id": "ep2:585"
     },
     {
         "word": "lower",
-        "meaning": "（動）下げる"
+        "meaning": "（動）下げる",
+        "id": "ep2:586"
     },
     {
         "word": "express",
-        "meaning": "（動）表現する"
+        "meaning": "（動）表現する",
+        "id": "ep2:587"
     },
     {
         "word": "suffer",
-        "meaning": "（動）苦しむ"
+        "meaning": "（動）苦しむ",
+        "id": "ep2:588"
     },
     {
         "word": "refer",
-        "meaning": "（動）言及する"
+        "meaning": "（動）言及する",
+        "id": "ep2:589"
     },
     {
         "word": "lack",
-        "meaning": "（動）欠ける"
+        "meaning": "（動）欠ける",
+        "id": "ep2:590"
     },
     {
         "word": "release",
-        "meaning": "（動）解放する"
+        "meaning": "（動）解放する",
+        "id": "ep2:591"
     },
     {
         "word": "review",
-        "meaning": "（動）復習する"
+        "meaning": "（動）復習する",
+        "id": "ep2:592"
     },
     {
         "word": "mention",
-        "meaning": "（動）述べる"
+        "meaning": "（動）述べる",
+        "id": "ep2:593"
     },
     {
         "word": "maintain",
-        "meaning": "（動）維持する"
+        "meaning": "（動）維持する",
+        "id": "ep2:594"
     },
     {
         "word": "gain",
-        "meaning": "（動）得る"
+        "meaning": "（動）得る",
+        "id": "ep2:595"
     },
     {
         "word": "tend",
-        "meaning": "（動）〜する傾向にある"
+        "meaning": "（動）〜する傾向にある",
+        "id": "ep2:596"
     },
     {
         "word": "reflect",
-        "meaning": "（動）反射する"
+        "meaning": "（動）反射する",
+        "id": "ep2:597"
     },
     {
         "word": "propose",
-        "meaning": "（動）提案する"
+        "meaning": "（動）提案する",
+        "id": "ep2:598"
     },
     {
         "word": "beat",
-        "meaning": "（動）負かす"
+        "meaning": "（動）負かす",
+        "id": "ep2:599"
     },
     {
         "word": "depend",
-        "meaning": "（動）依存する"
+        "meaning": "（動）依存する",
+        "id": "ep2:600"
     },
     {
         "word": "stick",
-        "meaning": "（動）くっつく"
+        "meaning": "（動）くっつく",
+        "id": "ep2:601"
     },
     {
         "word": "shake",
-        "meaning": "（動）振る"
+        "meaning": "（動）振る",
+        "id": "ep2:602"
     },
     {
         "word": "examine",
-        "meaning": "（動）調べる"
+        "meaning": "（動）調べる",
+        "id": "ep2:603"
     },
     {
         "word": "handle",
-        "meaning": "（動）扱う"
+        "meaning": "（動）扱う",
+        "id": "ep2:604"
     },
     {
         "word": "vary",
-        "meaning": "（動）異なる"
+        "meaning": "（動）異なる",
+        "id": "ep2:605"
     },
     {
         "word": "respect",
-        "meaning": "（動）尊敬する"
+        "meaning": "（動）尊敬する",
+        "id": "ep2:606"
     },
     {
         "word": "select",
-        "meaning": "（動）選ぶ"
+        "meaning": "（動）選ぶ",
+        "id": "ep2:607"
     },
     {
         "word": "request",
-        "meaning": "（動）要請する"
+        "meaning": "（動）要請する",
+        "id": "ep2:608"
     },
     {
         "word": "escape",
-        "meaning": "（動）逃げる"
+        "meaning": "（動）逃げる",
+        "id": "ep2:609"
     },
     {
         "word": "combine",
-        "meaning": "（動）結びつける"
+        "meaning": "（動）結びつける",
+        "id": "ep2:610"
     },
     {
         "word": "deny",
-        "meaning": "（動）否定する"
+        "meaning": "（動）否定する",
+        "id": "ep2:611"
     },
     {
         "word": "concentrate",
-        "meaning": "（動）集中する"
+        "meaning": "（動）集中する",
+        "id": "ep2:612"
     },
     {
         "word": "divide",
-        "meaning": "（動）分ける"
+        "meaning": "（動）分ける",
+        "id": "ep2:613"
     },
     {
         "word": "respond",
-        "meaning": "（動）応答する"
+        "meaning": "（動）応答する",
+        "id": "ep2:614"
     },
     {
         "word": "lock",
-        "meaning": "（動）鍵をかける"
+        "meaning": "（動）鍵をかける",
+        "id": "ep2:615"
     },
     {
         "word": "demonstrate",
-        "meaning": "（動）実演して見せる"
+        "meaning": "（動）実演して見せる",
+        "id": "ep2:616"
     },
     {
         "word": "insist",
-        "meaning": "（動）強く主張する"
+        "meaning": "（動）強く主張する",
+        "id": "ep2:617"
     },
     {
         "word": "reject",
-        "meaning": "（動）拒絶する"
+        "meaning": "（動）拒絶する",
+        "id": "ep2:618"
     },
     {
         "word": "arrest",
-        "meaning": "（動）逮捕する"
+        "meaning": "（動）逮捕する",
+        "id": "ep2:619"
     },
     {
         "word": "stretch",
-        "meaning": "（動）伸ばす"
+        "meaning": "（動）伸ばす",
+        "id": "ep2:620"
     },
     {
         "word": "consist",
-        "meaning": "（動）〜から成る"
+        "meaning": "（動）〜から成る",
+        "id": "ep2:621"
     },
     {
         "word": "surround",
-        "meaning": "（動）囲む"
+        "meaning": "（動）囲む",
+        "id": "ep2:622"
     },
     {
         "word": "destroy",
-        "meaning": "（動）破壊する"
+        "meaning": "（動）破壊する",
+        "id": "ep2:623"
     },
     {
         "word": "advertise",
-        "meaning": "（動）宣伝する"
+        "meaning": "（動）宣伝する",
+        "id": "ep2:624"
     },
     {
         "word": "disappear",
-        "meaning": "（動）消える"
+        "meaning": "（動）消える",
+        "id": "ep2:625"
     },
     {
         "word": "succeed",
-        "meaning": "（動）成功する"
+        "meaning": "（動）成功する",
+        "id": "ep2:626"
     },
     {
         "word": "hunt",
-        "meaning": "（動）狩る"
+        "meaning": "（動）狩る",
+        "id": "ep2:627"
     },
     {
         "word": "guard",
-        "meaning": "（動）守る"
+        "meaning": "（動）守る",
+        "id": "ep2:628"
     },
     {
         "word": "kick",
-        "meaning": "（動）蹴る"
+        "meaning": "（動）蹴る",
+        "id": "ep2:629"
     },
     {
         "word": "remind",
-        "meaning": "（動）思い出させる"
+        "meaning": "（動）思い出させる",
+        "id": "ep2:630"
     },
     {
         "word": "earn",
-        "meaning": "（動）稼ぐ"
+        "meaning": "（動）稼ぐ",
+        "id": "ep2:631"
     },
     {
         "word": "expand",
-        "meaning": "（動）拡大する"
+        "meaning": "（動）拡大する",
+        "id": "ep2:632"
     },
     {
         "word": "rely",
-        "meaning": "（動）頼る"
+        "meaning": "（動）頼る",
+        "id": "ep2:633"
     },
     {
         "word": "afford",
-        "meaning": "（動）～する余裕がある"
+        "meaning": "（動）～する余裕がある",
+        "id": "ep2:634"
     },
     {
         "word": "import",
-        "meaning": "（動）輸入する"
+        "meaning": "（動）輸入する",
+        "id": "ep2:635"
     },
     {
         "word": "cycle",
-        "meaning": "（動）自転車に乗る"
+        "meaning": "（動）自転車に乗る",
+        "id": "ep2:636"
     },
     {
         "word": "sink",
-        "meaning": "（動）沈む"
+        "meaning": "（動）沈む",
+        "id": "ep2:637"
     },
     {
         "word": "connect",
-        "meaning": "（動）接続する"
+        "meaning": "（動）接続する",
+        "id": "ep2:638"
     },
     {
         "word": "retire",
-        "meaning": "（動）引退する"
+        "meaning": "（動）引退する",
+        "id": "ep2:639"
     },
     {
         "word": "explore",
-        "meaning": "（動）探検する"
+        "meaning": "（動）探検する",
+        "id": "ep2:640"
     },
     {
         "word": "slide",
-        "meaning": "（動）滑り降りる"
+        "meaning": "（動）滑り降りる",
+        "id": "ep2:641"
     },
     {
         "word": "sail",
-        "meaning": "（動）航海する"
+        "meaning": "（動）航海する",
+        "id": "ep2:642"
     },
     {
         "word": "crash",
-        "meaning": "（動）衝突する"
+        "meaning": "（動）衝突する",
+        "id": "ep2:643"
     },
     {
         "word": "shoot",
-        "meaning": "（動）撃つ"
+        "meaning": "（動）撃つ",
+        "id": "ep2:644"
     },
     {
         "word": "braethe",
-        "meaning": "（動）呼吸する"
+        "meaning": "（動）呼吸する",
+        "id": "ep2:645"
     },
     {
         "word": "freeze",
-        "meaning": "（動）凍る"
+        "meaning": "（動）凍る",
+        "id": "ep2:646"
     },
     {
         "word": "appreciate",
-        "meaning": "（動）感謝する"
+        "meaning": "（動）感謝する",
+        "id": "ep2:647"
     },
     {
         "word": "complain",
-        "meaning": "（動）不平を言う"
+        "meaning": "（動）不平を言う",
+        "id": "ep2:648"
     },
     {
         "word": "whisper",
-        "meaning": "（動）ささやく"
+        "meaning": "（動）ささやく",
+        "id": "ep2:649"
     },
     {
         "word": "pour",
-        "meaning": "（動）注ぐ"
+        "meaning": "（動）注ぐ",
+        "id": "ep2:650"
     },
     {
         "word": "swing",
-        "meaning": "（動）揺れる"
+        "meaning": "（動）揺れる",
+        "id": "ep2:651"
     },
     {
         "word": "scream",
-        "meaning": "（動）叫ぶ"
+        "meaning": "（動）叫ぶ",
+        "id": "ep2:652"
     },
     {
         "word": "trap",
-        "meaning": "（動）わなで捕らえる"
+        "meaning": "（動）わなで捕らえる",
+        "id": "ep2:653"
     },
     {
         "word": "compete",
-        "meaning": "（動）競争する"
+        "meaning": "（動）競争する",
+        "id": "ep2:654"
     },
     {
         "word": "confuse",
-        "meaning": "（動）混同する"
+        "meaning": "（動）混同する",
+        "id": "ep2:655"
     },
     {
         "word": "brush",
-        "meaning": "（動）ブラシをかける"
+        "meaning": "（動）ブラシをかける",
+        "id": "ep2:656"
     },
     {
         "word": "locate",
-        "meaning": "（動）位置する"
+        "meaning": "（動）位置する",
+        "id": "ep2:657"
     },
     {
         "word": "injure",
-        "meaning": "（動）傷つける"
+        "meaning": "（動）傷つける",
+        "id": "ep2:658"
     },
     {
         "word": "burst",
-        "meaning": "（動）破裂する"
+        "meaning": "（動）破裂する",
+        "id": "ep2:659"
     },
     {
         "word": "twist",
-        "meaning": "（動）ねじる"
+        "meaning": "（動）ねじる",
+        "id": "ep2:660"
     },
     {
         "word": "hire",
-        "meaning": "（動）雇う"
+        "meaning": "（動）雇う",
+        "id": "ep2:661"
     },
     {
         "word": "overcome",
-        "meaning": "（動）克服する"
+        "meaning": "（動）克服する",
+        "id": "ep2:662"
     },
     {
         "word": "disappoint",
-        "meaning": "（動）失望させる"
+        "meaning": "（動）失望させる",
+        "id": "ep2:663"
     },
     {
         "word": "float",
-        "meaning": "（動）浮かぶ"
+        "meaning": "（動）浮かぶ",
+        "id": "ep2:664"
     },
     {
         "word": "rescue",
-        "meaning": "（動）救助する"
+        "meaning": "（動）救助する",
+        "id": "ep2:665"
     },
     {
         "word": "dig",
-        "meaning": "（動）掘る"
+        "meaning": "（動）掘る",
+        "id": "ep2:666"
     },
     {
         "word": "behave",
-        "meaning": "（動）行動する"
+        "meaning": "（動）行動する",
+        "id": "ep2:667"
     },
     {
         "word": "harm",
-        "meaning": "（動）損なう"
+        "meaning": "（動）損なう",
+        "id": "ep2:668"
     },
     {
         "word": "impress",
-        "meaning": "（動）感心する"
+        "meaning": "（動）感心する",
+        "id": "ep2:669"
     },
     {
         "word": "decrease",
-        "meaning": "（動）減少する"
+        "meaning": "（動）減少する",
+        "id": "ep2:670"
     },
     {
         "word": "weigh",
-        "meaning": "（動）重さがある"
+        "meaning": "（動）重さがある",
+        "id": "ep2:671"
     },
     {
         "word": "exhibit",
-        "meaning": "（動）展示する"
+        "meaning": "（動）展示する",
+        "id": "ep2:672"
     },
     {
         "word": "forgive",
-        "meaning": "（動）許す"
+        "meaning": "（動）許す",
+        "id": "ep2:673"
     },
     {
         "word": "decorate",
-        "meaning": "（動）飾る"
+        "meaning": "（動）飾る",
+        "id": "ep2:674"
     },
     {
         "word": "melt",
-        "meaning": "（動）溶ける"
+        "meaning": "（動）溶ける",
+        "id": "ep2:675"
     },
     {
         "word": "invent",
-        "meaning": "（動）発明する"
+        "meaning": "（動）発明する",
+        "id": "ep2:676"
     },
     {
         "word": "dislike",
-        "meaning": "（動）嫌う"
+        "meaning": "（動）嫌う",
+        "id": "ep2:677"
     },
     {
         "word": "recycle",
-        "meaning": "（動）再生利用する"
+        "meaning": "（動）再生利用する",
+        "id": "ep2:678"
     },
     {
         "word": "apologize",
-        "meaning": "（動）謝る"
+        "meaning": "（動）謝る",
+        "id": "ep2:679"
     },
     {
         "word": "bark",
-        "meaning": "（動）ほえる"
+        "meaning": "（動）ほえる",
+        "id": "ep2:680"
     },
     {
         "word": "quit",
-        "meaning": "（動）やめる"
+        "meaning": "（動）やめる",
+        "id": "ep2:681"
     },
     {
         "word": "surf",
-        "meaning": "（動）サーフィンをする"
+        "meaning": "（動）サーフィンをする",
+        "id": "ep2:682"
     },
     {
         "word": "memorize",
-        "meaning": "（動）暗記する"
+        "meaning": "（動）暗記する",
+        "id": "ep2:683"
     },
     {
         "word": "round",
-        "meaning": "（形）丸い"
+        "meaning": "（形）丸い",
+        "id": "ep2:684"
     },
     {
         "word": "general",
-        "meaning": "（形）一般の"
+        "meaning": "（形）一般の",
+        "id": "ep2:685"
     },
     {
         "word": "patient",
-        "meaning": "（形）我慢強い"
+        "meaning": "（形）我慢強い",
+        "id": "ep2:686"
     },
     {
         "word": "real",
-        "meaning": "（形）本当の"
+        "meaning": "（形）本当の",
+        "id": "ep2:687"
     },
     {
         "word": "standard",
-        "meaning": "（形）標準の"
+        "meaning": "（形）標準の",
+        "id": "ep2:688"
     },
     {
         "word": "missing",
-        "meaning": "（形）欠けている"
+        "meaning": "（形）欠けている",
+        "id": "ep2:689"
     },
     {
         "word": "personal",
-        "meaning": "（形）個人の"
+        "meaning": "（形）個人の",
+        "id": "ep2:690"
     },
     {
         "word": "various",
-        "meaning": "（形）様々な"
+        "meaning": "（形）様々な",
+        "id": "ep2:691"
     },
     {
         "word": "professional",
-        "meaning": "（形）プロの"
+        "meaning": "（形）プロの",
+        "id": "ep2:692"
     },
     {
         "word": "legal",
-        "meaning": "（形）法律の"
+        "meaning": "（形）法律の",
+        "id": "ep2:693"
     },
     {
         "word": "worth",
-        "meaning": "（形）価値がある"
+        "meaning": "（形）価値がある",
+        "id": "ep2:694"
     },
     {
         "word": "specific",
-        "meaning": "（形）特定の"
+        "meaning": "（形）特定の",
+        "id": "ep2:695"
     },
     {
         "word": "physical",
-        "meaning": "（形）身体の"
+        "meaning": "（形）身体の",
+        "id": "ep2:696"
     },
     {
         "word": "responsible",
-        "meaning": "（形）責任のある"
+        "meaning": "（形）責任のある",
+        "id": "ep2:697"
     },
     {
         "word": "positive",
-        "meaning": "（形）肯定的な"
+        "meaning": "（形）肯定的な",
+        "id": "ep2:698"
     },
     {
         "word": "nuclear",
-        "meaning": "（形）核の"
+        "meaning": "（形）核の",
+        "id": "ep2:699"
     },
     {
         "word": "active",
-        "meaning": "（形）活動的な"
+        "meaning": "（形）活動的な",
+        "id": "ep2:700"
     },
     {
         "word": "technical",
-        "meaning": "（形）工業技術の"
+        "meaning": "（形）工業技術の",
+        "id": "ep2:701"
     },
     {
         "word": "narrow",
-        "meaning": "（形）狭い"
+        "meaning": "（形）狭い",
+        "id": "ep2:702"
     },
     {
         "word": "ideal",
-        "meaning": "（形）理想的な"
+        "meaning": "（形）理想的な",
+        "id": "ep2:703"
     },
     {
         "word": "opposite",
-        "meaning": "（形）反対の"
+        "meaning": "（形）反対の",
+        "id": "ep2:704"
     },
     {
         "word": "reasonable",
-        "meaning": "（形）手頃な"
+        "meaning": "（形）手頃な",
+        "id": "ep2:705"
     },
     {
         "word": "suitable",
-        "meaning": "（形）ふさわしい"
+        "meaning": "（形）ふさわしい",
+        "id": "ep2:706"
     },
     {
         "word": "thin",
-        "meaning": "（形）薄い"
+        "meaning": "（形）薄い",
+        "id": "ep2:707"
     },
     {
         "word": "unlikely",
-        "meaning": "（形）〜しそうにない"
+        "meaning": "（形）〜しそうにない",
+        "id": "ep2:708"
     },
     {
         "word": "tiny",
-        "meaning": "（形）小さい"
+        "meaning": "（形）小さい",
+        "id": "ep2:709"
     },
     {
         "word": "historical",
-        "meaning": "（形）歴史の"
+        "meaning": "（形）歴史の",
+        "id": "ep2:710"
     },
     {
         "word": "constant",
-        "meaning": "（形）一定の"
+        "meaning": "（形）一定の",
+        "id": "ep2:711"
     },
     {
         "word": "delighted",
-        "meaning": "（形）喜んで"
+        "meaning": "（形）喜んで",
+        "id": "ep2:712"
     },
     {
         "word": "ill",
-        "meaning": "（形）病気で"
+        "meaning": "（形）病気で",
+        "id": "ep2:713"
     },
     {
         "word": "thick",
-        "meaning": "（形）厚い"
+        "meaning": "（形）厚い",
+        "id": "ep2:714"
     },
     {
         "word": "sharp",
-        "meaning": "（形）鋭い"
+        "meaning": "（形）鋭い",
+        "id": "ep2:715"
     },
     {
         "word": "fat",
-        "meaning": "（形）太った"
+        "meaning": "（形）太った",
+        "id": "ep2:716"
     },
     {
         "word": "negative",
-        "meaning": "（形）否定的な"
+        "meaning": "（形）否定的な",
+        "id": "ep2:717"
     },
     {
         "word": "typical",
-        "meaning": "（形）典型的な"
+        "meaning": "（形）典型的な",
+        "id": "ep2:718"
     },
     {
         "word": "plain",
-        "meaning": "（形）簡素な"
+        "meaning": "（形）簡素な",
+        "id": "ep2:719"
     },
     {
         "word": "unknown",
-        "meaning": "（形）知られていない"
+        "meaning": "（形）知られていない",
+        "id": "ep2:720"
     },
     {
         "word": "unique",
-        "meaning": "（形）独特の"
+        "meaning": "（形）独特の",
+        "id": "ep2:721"
     },
     {
         "word": "frightened",
-        "meaning": "（形）おびえた"
+        "meaning": "（形）おびえた",
+        "id": "ep2:722"
     },
     {
         "word": "frightening",
-        "meaning": "（形）恐ろしい"
+        "meaning": "（形）恐ろしい",
+        "id": "ep2:723"
     },
     {
         "word": "tough",
-        "meaning": "（形）困難な"
+        "meaning": "（形）困難な",
+        "id": "ep2:724"
     },
     {
         "word": "valuable",
-        "meaning": "（形）貴重な"
+        "meaning": "（形）貴重な",
+        "id": "ep2:725"
     },
     {
         "word": "tight",
-        "meaning": "（形）きつい"
+        "meaning": "（形）きつい",
+        "id": "ep2:726"
     },
     {
         "word": "dependent",
-        "meaning": "（形）依存している"
+        "meaning": "（形）依存している",
+        "id": "ep2:727"
     },
     {
         "word": "dramatic",
-        "meaning": "（形）劇的な"
+        "meaning": "（形）劇的な",
+        "id": "ep2:728"
     },
     {
         "word": "spare",
-        "meaning": "（形）予備の"
+        "meaning": "（形）予備の",
+        "id": "ep2:729"
     },
     {
         "word": "rapid",
-        "meaning": "（形）急速な"
+        "meaning": "（形）急速な",
+        "id": "ep2:730"
     },
     {
         "word": "rough",
-        "meaning": "（形）粗い"
+        "meaning": "（形）粗い",
+        "id": "ep2:731"
     },
     {
         "word": "pure",
-        "meaning": "（形）純粋な"
+        "meaning": "（形）純粋な",
+        "id": "ep2:732"
     },
     {
         "word": "global",
-        "meaning": "（形）地球の"
+        "meaning": "（形）地球の",
+        "id": "ep2:733"
     },
     {
         "word": "medium",
-        "meaning": "（形）中くらいの"
+        "meaning": "（形）中くらいの",
+        "id": "ep2:734"
     },
     {
         "word": "electronic",
-        "meaning": "（形）電子の"
+        "meaning": "（形）電子の",
+        "id": "ep2:735"
     },
     {
         "word": "stupid",
-        "meaning": "（形）愚かな"
+        "meaning": "（形）愚かな",
+        "id": "ep2:736"
     },
     {
         "word": "charming",
-        "meaning": "（形）魅力的な"
+        "meaning": "（形）魅力的な",
+        "id": "ep2:737"
     },
     {
         "word": "confident",
-        "meaning": "（形）確信して"
+        "meaning": "（形）確信して",
+        "id": "ep2:738"
     },
     {
         "word": "helpful",
-        "meaning": "（形）助けになる"
+        "meaning": "（形）助けになる",
+        "id": "ep2:739"
     },
     {
         "word": "gentle",
-        "meaning": "（形）優しい"
+        "meaning": "（形）優しい",
+        "id": "ep2:740"
     },
     {
         "word": "awful",
-        "meaning": "（形）ひどい"
+        "meaning": "（形）ひどい",
+        "id": "ep2:741"
     },
     {
         "word": "silly",
-        "meaning": "（形）ばかな"
+        "meaning": "（形）ばかな",
+        "id": "ep2:742"
     },
     {
         "word": "full-time",
-        "meaning": "（形）常勤の"
+        "meaning": "（形）常勤の",
+        "id": "ep2:743"
     },
     {
         "word": "smart",
-        "meaning": "（形）頭の良い"
+        "meaning": "（形）頭の良い",
+        "id": "ep2:744"
     },
     {
         "word": "delicate",
-        "meaning": "（形）繊細な"
+        "meaning": "（形）繊細な",
+        "id": "ep2:745"
     },
     {
         "word": "handsome",
-        "meaning": "（形）ハンサムな"
+        "meaning": "（形）ハンサムな",
+        "id": "ep2:746"
     },
     {
         "word": "absent",
-        "meaning": "（形）欠席の"
+        "meaning": "（形）欠席の",
+        "id": "ep2:747"
     },
     {
         "word": "alike",
-        "meaning": "（形）似ている"
+        "meaning": "（形）似ている",
+        "id": "ep2:748"
     },
     {
         "word": "fantastic",
-        "meaning": "（形）素晴らしい"
+        "meaning": "（形）素晴らしい",
+        "id": "ep2:749"
     },
     {
         "word": "cheerful",
-        "meaning": "（形）陽気な"
+        "meaning": "（形）陽気な",
+        "id": "ep2:750"
     },
     {
         "word": "outdoor",
-        "meaning": "（形）屋外で"
+        "meaning": "（形）屋外で",
+        "id": "ep2:751"
     },
     {
         "word": "enjoyable",
-        "meaning": "（形）楽しい"
+        "meaning": "（形）楽しい",
+        "id": "ep2:752"
     },
     {
         "word": "harmful",
-        "meaning": "（形）有害な"
+        "meaning": "（形）有害な",
+        "id": "ep2:753"
     },
     {
         "word": "allergic",
-        "meaning": "（形）アレルギー体質の"
+        "meaning": "（形）アレルギー体質の",
+        "id": "ep2:754"
     },
     {
         "word": "secondhand",
-        "meaning": "（形）中古の"
+        "meaning": "（形）中古の",
+        "id": "ep2:755"
     },
     {
         "word": "interest",
-        "meaning": "（名）興味"
+        "meaning": "（名）興味",
+        "id": "ep2:756"
     },
     {
         "word": "form",
-        "meaning": "（名）用紙"
+        "meaning": "（名）用紙",
+        "id": "ep2:757"
     },
     {
         "word": "policy",
-        "meaning": "（名）政策"
+        "meaning": "（名）政策",
+        "id": "ep2:758"
     },
     {
         "word": "rate",
-        "meaning": "（名）比率"
+        "meaning": "（名）比率",
+        "id": "ep2:759"
     },
     {
         "word": "process",
-        "meaning": "（名）過程"
+        "meaning": "（名）過程",
+        "id": "ep2:760"
     },
     {
         "word": "matter",
-        "meaning": "（名）問題"
+        "meaning": "（名）問題",
+        "id": "ep2:761"
     },
     {
         "word": "period",
-        "meaning": "（名）期間"
+        "meaning": "（名）期間",
+        "id": "ep2:762"
     },
     {
         "word": "value",
-        "meaning": "（名）価値"
+        "meaning": "（名）価値",
+        "id": "ep2:763"
     },
     {
         "word": "ground",
-        "meaning": "（名）地面"
+        "meaning": "（名）地面",
+        "id": "ep2:764"
     },
     {
         "word": "pound",
-        "meaning": "（名）ポンド（イギリスのお金、重さの単位）"
+        "meaning": "（名）ポンド（イギリスのお金、重さの単位）",
+        "id": "ep2:765"
     },
     {
         "word": "manager",
-        "meaning": "（名）支配人"
+        "meaning": "（名）支配人",
+        "id": "ep2:766"
     },
     {
         "word": "feature",
-        "meaning": "（名）特徴"
+        "meaning": "（名）特徴",
+        "id": "ep2:767"
     },
     {
         "word": "production",
-        "meaning": "（名）生産"
+        "meaning": "（名）生産",
+        "id": "ep2:768"
     },
     {
         "word": "opportunity",
-        "meaning": "（名）機会"
+        "meaning": "（名）機会",
+        "id": "ep2:769"
     },
     {
         "word": "security",
-        "meaning": "（名）警備"
+        "meaning": "（名）警備",
+        "id": "ep2:770"
     },
     {
         "word": "pattern",
-        "meaning": "（名）様式"
+        "meaning": "（名）様式",
+        "id": "ep2:771"
     },
     {
         "word": "influence",
-        "meaning": "（名）影響"
+        "meaning": "（名）影響",
+        "id": "ep2:772"
     },
     {
         "word": "factor",
-        "meaning": "（名）要素"
+        "meaning": "（名）要素",
+        "id": "ep2:773"
     },
     {
         "word": "pressure",
-        "meaning": "（名）圧力"
+        "meaning": "（名）圧力",
+        "id": "ep2:774"
     },
     {
         "word": "vote",
-        "meaning": "（名）投票"
+        "meaning": "（名）投票",
+        "id": "ep2:775"
     },
     {
         "word": "fear",
-        "meaning": "（名）恐れ"
+        "meaning": "（名）恐れ",
+        "id": "ep2:776"
     },
     {
         "word": "technology",
-        "meaning": "（名）科学技術"
+        "meaning": "（名）科学技術",
+        "id": "ep2:777"
     },
     {
         "word": "resource",
-        "meaning": "（名）資源"
+        "meaning": "（名）資源",
+        "id": "ep2:778"
     },
     {
         "word": "task",
-        "meaning": "（名）課題"
+        "meaning": "（名）課題",
+        "id": "ep2:779"
     },
     {
         "word": "economy",
-        "meaning": "（名）経済"
+        "meaning": "（名）経済",
+        "id": "ep2:780"
     },
     {
         "word": "campaign",
-        "meaning": "（名）キャンペーン"
+        "meaning": "（名）キャンペーン",
+        "id": "ep2:781"
     },
     {
         "word": "surface",
-        "meaning": "（名）表面"
+        "meaning": "（名）表面",
+        "id": "ep2:782"
     },
     {
         "word": "attitude",
-        "meaning": "（名）態度"
+        "meaning": "（名）態度",
+        "id": "ep2:783"
     },
     {
         "word": "goal",
-        "meaning": "（名）目標"
+        "meaning": "（名）目標",
+        "id": "ep2:784"
     },
     {
         "word": "sentence",
-        "meaning": "（名）文"
+        "meaning": "（名）文",
+        "id": "ep2:785"
     },
     {
         "word": "score",
-        "meaning": "（名）得点"
+        "meaning": "（名）得点",
+        "id": "ep2:786"
     },
     {
         "word": "competition",
-        "meaning": "（名）競争"
+        "meaning": "（名）競争",
+        "id": "ep2:787"
     },
     {
         "word": "importance",
-        "meaning": "（名）重要性"
+        "meaning": "（名）重要性",
+        "id": "ep2:788"
     },
     {
         "word": "species",
-        "meaning": "（名）種"
+        "meaning": "（名）種",
+        "id": "ep2:789"
     },
     {
         "word": "progress",
-        "meaning": "（名）進歩"
+        "meaning": "（名）進歩",
+        "id": "ep2:790"
     },
     {
         "word": "opinion",
-        "meaning": "（名）意見"
+        "meaning": "（名）意見",
+        "id": "ep2:791"
     },
     {
         "word": "branch",
-        "meaning": "（名）枝"
+        "meaning": "（名）枝",
+        "id": "ep2:792"
     },
     {
         "word": "partner",
-        "meaning": "（名）パートナー"
+        "meaning": "（名）パートナー",
+        "id": "ep2:793"
     },
     {
         "word": "scene",
-        "meaning": "（名）場面"
+        "meaning": "（名）場面",
+        "id": "ep2:794"
     },
     {
         "word": "failure",
-        "meaning": "（名）失敗"
+        "meaning": "（名）失敗",
+        "id": "ep2:795"
     },
     {
         "word": "expression",
-        "meaning": "（名）表現"
+        "meaning": "（名）表現",
+        "id": "ep2:796"
     },
     {
         "word": "truth",
-        "meaning": "（名）真実"
+        "meaning": "（名）真実",
+        "id": "ep2:797"
     },
     {
         "word": "safety",
-        "meaning": "（名）安全"
+        "meaning": "（名）安全",
+        "id": "ep2:798"
     },
     {
         "word": "pain",
-        "meaning": "（名）痛み"
+        "meaning": "（名）痛み",
+        "id": "ep2:799"
     },
     {
         "word": "strength",
-        "meaning": "（名）強さ"
+        "meaning": "（名）強さ",
+        "id": "ep2:800"
     },
     {
         "word": "media",
-        "meaning": "（名）マスメディア"
+        "meaning": "（名）マスメディア",
+        "id": "ep2:801"
     },
     {
         "word": "bottom",
-        "meaning": "（名）底"
+        "meaning": "（名）底",
+        "id": "ep2:802"
     },
     {
         "word": "reaction",
-        "meaning": "（名）反応"
+        "meaning": "（名）反応",
+        "id": "ep2:803"
     },
     {
         "word": "relative",
-        "meaning": "（名）親戚"
+        "meaning": "（名）親戚",
+        "id": "ep2:804"
     },
     {
         "word": "conclusion",
-        "meaning": "（名）結論"
+        "meaning": "（名）結論",
+        "id": "ep2:805"
     },
     {
         "word": "code",
-        "meaning": "（名）暗号"
+        "meaning": "（名）暗号",
+        "id": "ep2:806"
     },
     {
         "word": "license",
-        "meaning": "（名）免許"
+        "meaning": "（名）免許",
+        "id": "ep2:807"
     },
     {
         "word": "generation",
-        "meaning": "（名）世代"
+        "meaning": "（名）世代",
+        "id": "ep2:808"
     },
     {
         "word": "introduction",
-        "meaning": "（名）導入"
+        "meaning": "（名）導入",
+        "id": "ep2:809"
     },
     {
         "word": "victim",
-        "meaning": "（名）被害者"
+        "meaning": "（名）被害者",
+        "id": "ep2:810"
     },
     {
         "word": "tradition",
-        "meaning": "（名）伝統"
+        "meaning": "（名）伝統",
+        "id": "ep2:811"
     },
     {
         "word": "plate",
-        "meaning": "（名）皿"
+        "meaning": "（名）皿",
+        "id": "ep2:812"
     },
     {
         "word": "freedom",
-        "meaning": "（名）自由"
+        "meaning": "（名）自由",
+        "id": "ep2:813"
     },
     {
         "word": "explanation",
-        "meaning": "（名）説明"
+        "meaning": "（名）説明",
+        "id": "ep2:814"
     },
     {
         "word": "silence",
-        "meaning": "（名）静寂"
+        "meaning": "（名）静寂",
+        "id": "ep2:815"
     },
     {
         "word": "factory",
-        "meaning": "（名）工場"
+        "meaning": "（名）工場",
+        "id": "ep2:816"
     },
     {
         "word": "selection",
-        "meaning": "（名）品揃え"
+        "meaning": "（名）品揃え",
+        "id": "ep2:817"
     },
     {
         "word": "examination",
-        "meaning": "（名）試験"
+        "meaning": "（名）試験",
+        "id": "ep2:818"
     },
     {
         "word": "appointment",
-        "meaning": "（名）予約"
+        "meaning": "（名）予約",
+        "id": "ep2:819"
     },
     {
         "word": "crowd",
-        "meaning": "（名）群衆"
+        "meaning": "（名）群衆",
+        "id": "ep2:820"
     },
     {
         "word": "instruction",
-        "meaning": "（名）指示"
+        "meaning": "（名）指示",
+        "id": "ep2:821"
     },
     {
         "word": "temperature",
-        "meaning": "（名）気温"
+        "meaning": "（名）気温",
+        "id": "ep2:822"
     },
     {
         "word": "journey",
-        "meaning": "（名）旅行"
+        "meaning": "（名）旅行",
+        "id": "ep2:823"
     },
     {
         "word": "brain",
-        "meaning": "（名）脳"
+        "meaning": "（名）脳",
+        "id": "ep2:824"
     },
     {
         "word": "root",
-        "meaning": "（名）根"
+        "meaning": "（名）根",
+        "id": "ep2:825"
     },
     {
         "word": "connection",
-        "meaning": "（名）関係"
+        "meaning": "（名）関係",
+        "id": "ep2:826"
     },
     {
         "word": "noise",
-        "meaning": "（名）騒音"
+        "meaning": "（名）騒音",
+        "id": "ep2:827"
     },
     {
         "word": "frame",
-        "meaning": "（名）枠"
+        "meaning": "（名）枠",
+        "id": "ep2:828"
     },
     {
         "word": "location",
-        "meaning": "（名）場所"
+        "meaning": "（名）場所",
+        "id": "ep2:829"
     },
     {
         "word": "gallery",
-        "meaning": "（名）画廊"
+        "meaning": "（名）画廊",
+        "id": "ep2:830"
     },
     {
         "word": "theme",
-        "meaning": "（名）テーマ"
+        "meaning": "（名）テーマ",
+        "id": "ep2:831"
     },
     {
         "word": "fashion",
-        "meaning": "（名）流行"
+        "meaning": "（名）流行",
+        "id": "ep2:832"
     },
     {
         "word": "tool",
-        "meaning": "（名）道具"
+        "meaning": "（名）道具",
+        "id": "ep2:833"
     },
     {
         "word": "soldier",
-        "meaning": "（名）兵士"
+        "meaning": "（名）兵士",
+        "id": "ep2:834"
     },
     {
         "word": "fuel",
-        "meaning": "（名）燃料"
+        "meaning": "（名）燃料",
+        "id": "ep2:835"
     },
     {
         "word": "faith",
-        "meaning": "（名）信仰"
+        "meaning": "（名）信仰",
+        "id": "ep2:836"
     },
     {
         "word": "literature",
-        "meaning": "（名）文学"
+        "meaning": "（名）文学",
+        "id": "ep2:837"
     },
     {
         "word": "soil",
-        "meaning": "（名）土壌"
+        "meaning": "（名）土壌",
+        "id": "ep2:838"
     },
     {
         "word": "suggestion",
-        "meaning": "（名）提案"
+        "meaning": "（名）提案",
+        "id": "ep2:839"
     },
     {
         "word": "principal",
-        "meaning": "（名）校長"
+        "meaning": "（名）校長",
+        "id": "ep2:840"
     },
     {
         "word": "coast",
-        "meaning": "（名）海岸"
+        "meaning": "（名）海岸",
+        "id": "ep2:841"
     },
     {
         "word": "pause",
-        "meaning": "（名）休止"
+        "meaning": "（名）休止",
+        "id": "ep2:842"
     },
     {
         "word": "honor",
-        "meaning": "（名）光栄"
+        "meaning": "（名）光栄",
+        "id": "ep2:843"
     },
     {
         "word": "creation",
-        "meaning": "（名）創造"
+        "meaning": "（名）創造",
+        "id": "ep2:844"
     },
     {
         "word": "shadow",
-        "meaning": "（名）影"
+        "meaning": "（名）影",
+        "id": "ep2:845"
     },
     {
         "word": "diet",
-        "meaning": "（名）ダイエット"
+        "meaning": "（名）ダイエット",
+        "id": "ep2:846"
     },
     {
         "word": "atmosphere",
-        "meaning": "（名）雰囲気"
+        "meaning": "（名）雰囲気",
+        "id": "ep2:847"
     },
     {
         "word": "enemy",
-        "meaning": "（名）敵"
+        "meaning": "（名）敵",
+        "id": "ep2:848"
     },
     {
         "word": "reward",
-        "meaning": "（名）報酬"
+        "meaning": "（名）報酬",
+        "id": "ep2:849"
     },
     {
         "word": "origin",
-        "meaning": "（名）起源"
+        "meaning": "（名）起源",
+        "id": "ep2:850"
     },
     {
         "word": "height",
-        "meaning": "（名）高さ"
+        "meaning": "（名）高さ",
+        "id": "ep2:851"
     },
     {
         "word": "citizen",
-        "meaning": "（名）市民"
+        "meaning": "（名）市民",
+        "id": "ep2:852"
     },
     {
         "word": "charity",
-        "meaning": "（名）慈善事業"
+        "meaning": "（名）慈善事業",
+        "id": "ep2:853"
     },
     {
         "word": "achievement",
-        "meaning": "（名）功績"
+        "meaning": "（名）功績",
+        "id": "ep2:854"
     },
     {
         "word": "lawyer",
-        "meaning": "（名）弁護士"
+        "meaning": "（名）弁護士",
+        "id": "ep2:855"
     },
     {
         "word": "corporation",
-        "meaning": "（名）大企業"
+        "meaning": "（名）大企業",
+        "id": "ep2:856"
     },
     {
         "word": "beauty",
-        "meaning": "（名）美"
+        "meaning": "（名）美",
+        "id": "ep2:857"
     },
     {
         "word": "assistant",
-        "meaning": "（名）助手"
+        "meaning": "（名）助手",
+        "id": "ep2:858"
     },
     {
         "word": "topic",
-        "meaning": "（名）話題"
+        "meaning": "（名）話題",
+        "id": "ep2:859"
     },
     {
         "word": "fault",
-        "meaning": "（名）欠点、間違え"
+        "meaning": "（名）欠点、間違え",
+        "id": "ep2:860"
     },
     {
         "word": "emergency",
-        "meaning": "（名）緊急事態"
+        "meaning": "（名）緊急事態",
+        "id": "ep2:861"
     },
     {
         "word": "delivery",
-        "meaning": "（名）配達"
+        "meaning": "（名）配達",
+        "id": "ep2:862"
     },
     {
         "word": "poem",
-        "meaning": "（名）詩"
+        "meaning": "（名）詩",
+        "id": "ep2:863"
     },
     {
         "word": "habit",
-        "meaning": "（名）習慣"
+        "meaning": "（名）習慣",
+        "id": "ep2:864"
     },
     {
         "word": "recovery",
-        "meaning": "（名）回復"
+        "meaning": "（名）回復",
+        "id": "ep2:865"
     },
     {
         "word": "wealth",
-        "meaning": "（名）財産"
+        "meaning": "（名）財産",
+        "id": "ep2:866"
     },
     {
         "word": "electricity",
-        "meaning": "（名）電気"
+        "meaning": "（名）電気",
+        "id": "ep2:867"
     },
     {
         "word": "crop",
-        "meaning": "（名）作物"
+        "meaning": "（名）作物",
+        "id": "ep2:868"
     },
     {
         "word": "personality",
-        "meaning": "（名）人格"
+        "meaning": "（名）人格",
+        "id": "ep2:869"
     },
     {
         "word": "entrance",
-        "meaning": "（名）入り口"
+        "meaning": "（名）入り口",
+        "id": "ep2:870"
     },
     {
         "word": "furniture",
-        "meaning": "（名）家具"
+        "meaning": "（名）家具",
+        "id": "ep2:871"
     },
     {
         "word": "emotion",
-        "meaning": "（名）感情"
+        "meaning": "（名）感情",
+        "id": "ep2:872"
     },
     {
         "word": "hero",
-        "meaning": "（名）英雄"
+        "meaning": "（名）英雄",
+        "id": "ep2:873"
     },
     {
         "word": "demonstration",
-        "meaning": "（名）デモ"
+        "meaning": "（名）デモ",
+        "id": "ep2:874"
     },
     {
         "word": "discount",
-        "meaning": "（名）割引"
+        "meaning": "（名）割引",
+        "id": "ep2:875"
     },
     {
         "word": "resort",
-        "meaning": "（名）リゾート"
+        "meaning": "（名）リゾート",
+        "id": "ep2:876"
     },
     {
         "word": "climate",
-        "meaning": "（名）気候"
+        "meaning": "（名）気候",
+        "id": "ep2:877"
     },
     {
         "word": "forecast",
-        "meaning": "（名）予報"
+        "meaning": "（名）予報",
+        "id": "ep2:878"
     },
     {
         "word": "childhood",
-        "meaning": "（名）子どもの頃"
+        "meaning": "（名）子どもの頃",
+        "id": "ep2:879"
     },
     {
         "word": "cattle",
-        "meaning": "（名）牛"
+        "meaning": "（名）牛",
+        "id": "ep2:880"
     },
     {
         "word": "horror",
-        "meaning": "（名）恐怖"
+        "meaning": "（名）恐怖",
+        "id": "ep2:881"
     },
     {
         "word": "planet",
-        "meaning": "（名）惑星"
+        "meaning": "（名）惑星",
+        "id": "ep2:882"
     },
     {
         "word": "clinic",
-        "meaning": "（名）診療所"
+        "meaning": "（名）診療所",
+        "id": "ep2:883"
     },
     {
         "word": "ceremony",
-        "meaning": "（名）儀式"
+        "meaning": "（名）儀式",
+        "id": "ep2:884"
     },
     {
         "word": "shortage",
-        "meaning": "（名）不足"
+        "meaning": "（名）不足",
+        "id": "ep2:885"
     },
     {
         "word": "courage",
-        "meaning": "（名）勇気"
+        "meaning": "（名）勇気",
+        "id": "ep2:886"
     },
     {
         "word": "celebration",
-        "meaning": "（名）お祝い"
+        "meaning": "（名）お祝い",
+        "id": "ep2:887"
     },
     {
         "word": "tournament",
-        "meaning": "（名）トーナメント"
+        "meaning": "（名）トーナメント",
+        "id": "ep2:888"
     },
     {
         "word": "adventure",
-        "meaning": "（名）冒険"
+        "meaning": "（名）冒険",
+        "id": "ep2:889"
     },
     {
         "word": "chemistry",
-        "meaning": "（名）化学"
+        "meaning": "（名）化学",
+        "id": "ep2:890"
     },
     {
         "word": "amateur",
-        "meaning": "（名）素人"
+        "meaning": "（名）素人",
+        "id": "ep2:891"
     },
     {
         "word": "receipt",
-        "meaning": "（名）レシート"
+        "meaning": "（名）レシート",
+        "id": "ep2:892"
     },
     {
         "word": "spray",
-        "meaning": "（名）スプレー"
+        "meaning": "（名）スプレー",
+        "id": "ep2:893"
     },
     {
         "word": "photographer",
-        "meaning": "（名）写真家"
+        "meaning": "（名）写真家",
+        "id": "ep2:894"
     },
     {
         "word": "harvest",
-        "meaning": "（名）収穫"
+        "meaning": "（名）収穫",
+        "id": "ep2:895"
     },
     {
         "word": "ballet",
-        "meaning": "（名）バレエ"
+        "meaning": "（名）バレエ",
+        "id": "ep2:896"
     },
     {
         "word": "rug",
-        "meaning": "（名）敷物"
+        "meaning": "（名）敷物",
+        "id": "ep2:897"
     },
     {
         "word": "decoration",
-        "meaning": "（名）飾り"
+        "meaning": "（名）飾り",
+        "id": "ep2:898"
     },
     {
         "word": "bacteria",
-        "meaning": "（名）バクテリア"
+        "meaning": "（名）バクテリア",
+        "id": "ep2:899"
     },
     {
         "word": "ancestor",
-        "meaning": "（名）祖先"
+        "meaning": "（名）祖先",
+        "id": "ep2:900"
     },
     {
         "word": "calcium",
-        "meaning": "（名）カルシウム"
+        "meaning": "（名）カルシウム",
+        "id": "ep2:901"
     },
     {
         "word": "sailor",
-        "meaning": "（名）船乗り"
+        "meaning": "（名）船乗り",
+        "id": "ep2:902"
     },
     {
         "word": "butterfly",
-        "meaning": "（名）蝶"
+        "meaning": "（名）蝶",
+        "id": "ep2:903"
     },
     {
         "word": "convenience",
-        "meaning": "（名）便利"
+        "meaning": "（名）便利",
+        "id": "ep2:904"
     },
     {
         "word": "aquiarium",
-        "meaning": "（名）水族館"
+        "meaning": "（名）水族館",
+        "id": "ep2:905"
     },
     {
         "word": "chef",
-        "meaning": "（名）シェフ"
+        "meaning": "（名）シェフ",
+        "id": "ep2:906"
     },
     {
         "word": "attendant",
-        "meaning": "（名）サービス係"
+        "meaning": "（名）サービス係",
+        "id": "ep2:907"
     },
     {
         "word": "voyage",
-        "meaning": "（名）船旅"
+        "meaning": "（名）船旅",
+        "id": "ep2:908"
     },
     {
         "word": "ahelete",
-        "meaning": "（名）アスリート"
+        "meaning": "（名）アスリート",
+        "id": "ep2:909"
     },
     {
         "word": "blossom",
-        "meaning": "（名）花"
+        "meaning": "（名）花",
+        "id": "ep2:910"
     },
     {
         "word": "housework",
-        "meaning": "（名）家事"
+        "meaning": "（名）家事",
+        "id": "ep2:911"
     },
     {
         "word": "puppy",
-        "meaning": "（名）子犬"
+        "meaning": "（名）子犬",
+        "id": "ep2:912"
     },
     {
         "word": "microwave",
-        "meaning": "（名）電子レンジ"
+        "meaning": "（名）電子レンジ",
+        "id": "ep2:913"
     },
     {
         "word": "wallet",
-        "meaning": "（名）財布"
+        "meaning": "（名）財布",
+        "id": "ep2:914"
     },
     {
         "word": "carpenter",
-        "meaning": "（名）大工"
+        "meaning": "（名）大工",
+        "id": "ep2:915"
     },
     {
         "word": "euro",
-        "meaning": "（名）ユーロ"
+        "meaning": "（名）ユーロ",
+        "id": "ep2:916"
     },
     {
         "word": "explorer",
-        "meaning": "（名）探検家"
+        "meaning": "（名）探検家",
+        "id": "ep2:917"
     },
     {
         "word": "crocodile",
-        "meaning": "（名）ワニ"
+        "meaning": "（名）ワニ",
+        "id": "ep2:918"
     },
     {
         "word": "sunrise",
-        "meaning": "（名）日の出"
+        "meaning": "（名）日の出",
+        "id": "ep2:919"
     },
     {
         "word": "dormitory",
-        "meaning": "（名）寮"
+        "meaning": "（名）寮",
+        "id": "ep2:920"
     },
     {
         "word": "backyard",
-        "meaning": "（名）裏庭"
+        "meaning": "（名）裏庭",
+        "id": "ep2:921"
     },
     {
         "word": "therefore",
-        "meaning": "（副）それ故"
+        "meaning": "（副）それ故",
+        "id": "ep2:922"
     },
     {
         "word": "rather",
-        "meaning": "（副）むしろ"
+        "meaning": "（副）むしろ",
+        "id": "ep2:923"
     },
     {
         "word": "indeed",
-        "meaning": "（副）実は"
+        "meaning": "（副）実は",
+        "id": "ep2:924"
     },
     {
         "word": "obviously",
-        "meaning": "（副）明らかに"
+        "meaning": "（副）明らかに",
+        "id": "ep2:925"
     },
     {
         "word": "immediately",
-        "meaning": "（副）すぐに"
+        "meaning": "（副）すぐに",
+        "id": "ep2:926"
     },
     {
         "word": "straight",
-        "meaning": "（副）まっすぐに"
+        "meaning": "（副）まっすぐに",
+        "id": "ep2:927"
     },
     {
         "word": "slightly",
-        "meaning": "（副）わずかに"
+        "meaning": "（副）わずかに",
+        "id": "ep2:928"
     },
     {
         "word": "hardly",
-        "meaning": "（副）ほとんど〜ない"
+        "meaning": "（副）ほとんど〜ない",
+        "id": "ep2:929"
     },
     {
         "word": "normally",
-        "meaning": "（副）通常は"
+        "meaning": "（副）通常は",
+        "id": "ep2:930"
     },
     {
         "word": "nevertheless",
-        "meaning": "（副）それにもかかわらず"
+        "meaning": "（副）それにもかかわらず",
+        "id": "ep2:931"
     },
     {
         "word": "mainly",
-        "meaning": "（副）主に"
+        "meaning": "（副）主に",
+        "id": "ep2:932"
     },
     {
         "word": "currently",
-        "meaning": "（副）現在のところ"
+        "meaning": "（副）現在のところ",
+        "id": "ep2:933"
     },
     {
         "word": "extremely",
-        "meaning": "（副）極端に"
+        "meaning": "（副）極端に",
+        "id": "ep2:934"
     },
     {
         "word": "increasingly",
-        "meaning": "（副）ますます"
+        "meaning": "（副）ますます",
+        "id": "ep2:935"
     },
     {
         "word": "totally",
-        "meaning": "（副）全く"
+        "meaning": "（副）全く",
+        "id": "ep2:936"
     },
     {
         "word": "necessarily",
-        "meaning": "（副）必ずしも"
+        "meaning": "（副）必ずしも",
+        "id": "ep2:937"
     },
     {
         "word": "properly",
-        "meaning": "（副）適切に"
+        "meaning": "（副）適切に",
+        "id": "ep2:938"
     },
     {
         "word": "widely",
-        "meaning": "（副）広く"
+        "meaning": "（副）広く",
+        "id": "ep2:939"
     },
     {
         "word": "unfortunately",
-        "meaning": "（副）残念ながら"
+        "meaning": "（副）残念ながら",
+        "id": "ep2:940"
     },
     {
         "word": "strongly",
-        "meaning": "（副）強く"
+        "meaning": "（副）強く",
+        "id": "ep2:941"
     },
     {
         "word": "rapidly",
-        "meaning": "（副）急速に"
+        "meaning": "（副）急速に",
+        "id": "ep2:942"
     },
     {
         "word": "originally",
-        "meaning": "（副）最初は"
+        "meaning": "（副）最初は",
+        "id": "ep2:943"
     },
     {
         "word": "naturally",
-        "meaning": "（副）自然に"
+        "meaning": "（副）自然に",
+        "id": "ep2:944"
     },
     {
         "word": "mostly",
-        "meaning": "（副）大部分は"
+        "meaning": "（副）大部分は",
+        "id": "ep2:945"
     },
     {
         "word": "shortly",
-        "meaning": "（副）間もなく"
+        "meaning": "（副）間もなく",
+        "id": "ep2:946"
     },
     {
         "word": "apart",
-        "meaning": "（副）〜から離れて"
+        "meaning": "（副）〜から離れて",
+        "id": "ep2:947"
     },
     {
         "word": "greatly",
-        "meaning": "（副）非常に"
+        "meaning": "（副）非常に",
+        "id": "ep2:948"
     },
     {
         "word": "besides",
-        "meaning": "（副）その上"
+        "meaning": "（副）その上",
+        "id": "ep2:949"
     },
     {
         "word": "wherever",
-        "meaning": "（副）〜する所はどこでも"
+        "meaning": "（副）〜する所はどこでも",
+        "id": "ep2:950"
     },
     {
         "word": "downstairs",
-        "meaning": "（副）下の階へ"
+        "meaning": "（副）下の階へ",
+        "id": "ep2:951"
     },
     {
         "word": "forever",
-        "meaning": "（副）永遠に"
+        "meaning": "（副）永遠に",
+        "id": "ep2:952"
     },
     {
         "word": "fortunately",
-        "meaning": "（副）幸運にも"
+        "meaning": "（副）幸運にも",
+        "id": "ep2:953"
     },
     {
         "word": "seldom",
-        "meaning": "（副）めったに〜ない"
+        "meaning": "（副）めったに〜ない",
+        "id": "ep2:954"
     },
     {
         "word": "frankly",
-        "meaning": "（副）率直に"
+        "meaning": "（副）率直に",
+        "id": "ep2:955"
     },
     {
         "word": "whenever",
-        "meaning": "（接）〜するときはいつでも"
+        "meaning": "（接）〜するときはいつでも",
+        "id": "ep2:956"
     },
     {
         "word": "till",
-        "meaning": "（前）〜までずっと"
+        "meaning": "（前）〜までずっと",
+        "id": "ep2:957"
     }
 ]
